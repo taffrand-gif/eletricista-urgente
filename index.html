@@ -7,6 +7,13 @@
     <meta name="description" content="Avaria elétrica ou curto-circuito urgente? Atendemos em menos de 1h em Bragança, Macedo, Mirandela. Ligue já: 932 321 892">
     <meta name="theme-color" content="#FF6B35">
     <link rel="canonical" href="https://eletricista-urgente.pt">
+
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="Eletricista Urgente 24h | Trás-os-Montes">
+    <meta property="og:description" content="Sem luz? Curto-circuito? Chegamos em menos de 1 hora. Ligue: 932 321 892.">
+    <meta property="og:url" content="https://eletricista-urgente.pt">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_PT">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; color: #333; }
@@ -105,5 +112,37 @@
             📞 Ligar Agora
         </a>
     </div>
+
+    <!-- Schema JSON-LD EmergencyService -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["Electrician", "EmergencyService"],
+      "name": "Norte Reparos — Eletricista Urgente",
+      "telephone": "+351932321892",
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "servicePhone": "+351932321892",
+        "availableLanguage": "Portuguese"
+      },
+      "hoursAvailable": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Macedo de Cavaleiros",
+        "addressRegion": "Trás-os-Montes",
+        "addressCountry": "PT"
+      },
+      "areaServed": [
+        "Bragança", "Macedo de Cavaleiros", "Mirandela", "Vila Real",
+        "Chaves", "Vinhais", "Miranda do Douro", "Mogadouro"
+      ],
+      "url": "https://eletricista-urgente.pt"
+    }
+    </script>
 </body>
 </html>
