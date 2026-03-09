@@ -327,28 +327,124 @@
         </div>
     </footer>
 
-    <!-- Schema JSON-LD EmergencyService -->
+    <!-- Schema JSON-LD Premium - SEO Monopole -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": ["Electrician", "EmergencyService"],
-      "name": "Norte Reparos — Eletricista Urgente",
-      "telephone": "+351932321892",
-      "priceRange": "€80-200", "sameAs": ["https://eletricista-norte-reparos.pt", "https://www.facebook.com/staffseekers"], "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Serviços Urgentes", "itemListElement": [{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Arranjo Avaria Elétrica"}, "price": "100-180", "priceCurrency": "EUR"}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Quadro Elétrico"}, "price": "150-300", "priceCurrency": "EUR"}]},
-      "openingHours": "Mo-Su 00:00-23:59",
-      "areaServed": [
-        {"@type": "City", "name": "Bragança"},
-        {"@type": "City", "name": "Macedo de Cavaleiros"},
-        {"@type": "City", "name": "Mirandela"},
-        {"@type": "City", "name": "Vila Real"},
-        {"@type": "City", "name": "Chaves"}
-      ],
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Macedo de Cavaleiros",
-        "addressRegion": "Bragança",
-        "addressCountry": "PT"
-      }
+      "@graph": [
+        {
+          "@type": ["Electrician", "EmergencyService"],
+          "name": "Staff Seekers — Eletricista Urgente CERTIEL",
+          "telephone": "+351932321892",
+          "priceRange": "€80-200",
+          "url": "https://eletricista-urgente.pt",
+          "sameAs": [
+            "https://eletricista-norte-reparos.pt",
+            "https://www.facebook.com/staffseekers"
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "47",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Serviços Urgentes CERTIEL",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Arranjo Avaria Elétrica Urgente"
+                },
+                "price": "100-180",
+                "priceCurrency": "EUR"
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Quadro Elétrico Urgente"
+                },
+                "price": "150-300",
+                "priceCurrency": "EUR"
+              }
+            ]
+          },
+          "openingHours": "Mo-Su 00:00-23:59",
+          "areaServed": [
+            {"@type": "City", "name": "Bragança"},
+            {"@type": "City", "name": "Macedo de Cavaleiros"},
+            {"@type": "City", "name": "Mirandela"},
+            {"@type": "City", "name": "Vila Real"},
+            {"@type": "City", "name": "Chaves"}
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Macedo de Cavaleiros",
+            "addressRegion": "Bragança",
+            "addressCountry": "PT"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Início",
+              "item": "https://eletricista-urgente.pt"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Quanto tempo demoram a chegar em caso de urgência elétrica?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Chegamos em menos de 1 hora em Bragança, Macedo de Cavaleiros e Mirandela. Tempo médio de resposta: 40 minutos. Serviço 24h/7 dias com certificação CERTIEL."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Quanto custa uma intervenção elétrica urgente?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Avaria elétrica urgente: €100-180. Quadro elétrico urgente: €150-300. Preço final depende da complexidade. Certificação CERTIEL incluída. Orçamento gratuito por telefone."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "São certificados CERTIEL?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim, somos eletricistas certificados CERTIEL. Todas as intervenções urgentes incluem certificação elétrica obrigatória conforme legislação portuguesa."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Trabalham 24 horas por dia?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim, trabalhamos 24h/7 dias incluindo fins de semana e feriados. Ligue 932 321 892 a qualquer hora para urgências elétricas."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Têm garantia nos serviços urgentes?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim, todos os serviços urgentes têm garantia de 12 meses. Se o problema voltar, reparamos gratuitamente com certificação CERTIEL."
+              }
+            }
+          ]
+        }
+      ]
     }
     </script>
 </body>
