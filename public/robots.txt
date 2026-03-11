@@ -1,0 +1,26 @@
+# robots.txt pour eletricista-urgente.pt
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://eletricista-urgente.pt/sitemap.xml
+
+# Crawl-delay pour bots agressifs
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: DotBot
+Crawl-delay: 10
+
+# Bloquer bots inutiles
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
