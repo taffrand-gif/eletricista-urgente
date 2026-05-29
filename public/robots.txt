@@ -1,4 +1,4 @@
-# robots.txt pour eletricista-urgente.pt
+# robots.txt para eletricista-urgente.pt
 User-agent: *
 Allow: /
 

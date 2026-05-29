@@ -1,5 +1,15 @@
 {
   "version": 2,
-  "buildCommand": "echo 'No build needed'",
-  "outputDirectory": "public"
+  "cleanUrls": true,
+  "public": "public",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/$1" }
+  ],
+  "redirects": [
+    { "source": "/guarda", "destination": "/guarda-urgente", "permanent": true },
+    { "source": "/guarda-urgente.html", "destination": "/guarda-urgente", "permanent": true }
+  ],
+  "headers": [
+    { "source": "/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }] }
+  ]
 }
