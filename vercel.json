@@ -1,7 +1,7 @@
 {
   "version": 2,
   "cleanUrls": true,
-  "public": true,
+  "public": true  // force redeploy,
   "rewrites": [
     { "source": "/(.*)", "destination": "/$1" }
   ],
