@@ -1,15 +1,5 @@
 {
   "version": 2,
   "cleanUrls": true,
-  "public": true  // force redeploy,
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/$1" }
-  ],
-  "redirects": [
-    { "source": "/guarda", "destination": "/guarda-urgente", "permanent": true },
-    { "source": "/guarda-urgente.html", "destination": "/guarda-urgente", "permanent": true }
-  ],
-  "headers": [
-    { "source": "/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }] }
-  ]
+  "public": true
 }
