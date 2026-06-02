@@ -1,5 +1,10 @@
 # robots.txt para eletricista-urgente.pt
 User-agent: *
+Disallow: /*?
+Geo-target: only
+Servicedomain: eletricista-urgente.pt
+Target: PT
+# Radius: 130km
 Allow: /
 
 # Sitemaps
