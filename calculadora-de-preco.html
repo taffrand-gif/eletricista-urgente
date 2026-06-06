@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Calculadora de Preço - Canalizador e Eletricista | Norte Reparos</title>
+<meta name="description" content="Calculadora de preço online para serviços de canalização e eletricidade em Trás-os-Montes. Estimativa imediata, sem compromisso.">
+<link rel="canonical" href="https://canalizador-norte-reparos.pt/calculadora-de-preco">
+<meta name="robots" content="index,follow">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calculadora de Preço Norte Reparos","url":"https://canalizador-norte-reparos.pt/calculadora-de-preco","applicationCategory":"UtilityApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"}}</script>
+<style>
+*{style##
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;background:linear-gradient(135deg,#2193b0,#1a7a9a);min-height:100vh;padding:2rem 1rem}
+.wrap{max-width:700px;margin:0 auto;background:#fff;border-radius:16px;box-shadow:0 10px 40px rgba(0,0,0,.2);padding:2.5rem}
+h1{color:#2193b0;font-size:1.8rem;margin-bottom:.5rem}
+.subtitle{color:#666;margin-bottom:2rem}
+.tabs{display:flex;gap:0;margin-bottom:2rem;border-bottom:2px solid #e0e0e0}
+.tab{flex:1;padding:1rem;text-align:center;cursor:pointer;color:#999;font-weight:700;border-bottom:3px solid transparent;transition:all .2s}
+.tab.active{color:#2193b0;border-bottom-color:#2193b0}
+.form-group{margin-bottom:1.25rem}
+label{display:block;font-weight:600;color:#333;margin-bottom:.5rem;font-size:.9rem}
+select,input{width:100%;padding:.7rem;border:1px solid #ddd;border-radius:8px;font-size:1rem;background:#fff}
+select:focus,input:focus{outline:none;border-color:#2193b0}
+.result{background:linear-gradient(135deg,#27ae60,#229954);color:#fff;padding:2rem;border-radius:12px;margin-top:2rem;text-align:center;display:none}
+.result.show{display:block}
+.result .price{font-size:3rem;font-weight:900;margin:.5rem 0}
+.result .label{font-size:.9rem;opacity:.95;margin-bottom:1rem}
+.result .cta{display:inline-block;background:#fff;color:#229954;padding:1rem 2rem;border-radius:50px;font-weight:900;text-decoration:none;margin:.5rem;box-shadow:0 4px 12px rgba(0,0,0,.2)}
+.urgency-info{background:#fff5e0;border:1px solid #ffcc80;border-radius:8px;padding:.75rem;margin-top:1rem;font-size:.85rem;color:#e65100}
+footer{text-align:center;color:#fff;margin-top:1rem;font-size:.85rem;opacity:.9}
+.hidden{display:none}
+##endstyle##
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>💧⚡ Calculadora de Preço</h1>
+<p class="subtitle">Estimativa imediata para serviço de canalizador ou eletricista. Sem compromisso. Preços incluem IVA e deslocação na zona indicada.</p>
+
+<div class="tabs">
+  <div class="tab active" onclick="setService('canal')">💧 Canalizador</div>
+  <div class="tab" onclick="setService('elec')">⚡ Eletricista</div>
+</div>
+
+<div class="form-group">
+  <label>Tipo de serviço</label>
+  <select id="service" onchange="calculate()">
+    <option value="">Escolha o serviço...</option>
+  </select>
+</div>
+
+<div class="form-group">
+  <label>Zona (distância de Macedo de Cavaleiros)</label>
+  <select id="zone" onchange="calculate()">
+    <option value="1">Zona 1 (0-30 km) - €20 deslocação</option>
+    <option value="2">Zona 2 (31-50 km) - €25 deslocação</option>
+    <option value="3">Zona 3 (51-90 km) - €30 deslocação</option>
+    <option value="4">Zona 4 (91-130 km) - €40 deslocação</option>
+  </select>
+</div>
+
+<div class="form-group">
+  <label>Urgência</label>
+  <select id="urgency" onchange="calculate()">
+    <option value="normal">Normal (dias úteis 8h-18h) - preço base</option>
+    <option value="noite">Noite (18h-8h) - +50%</option>
+    <option value="sabado">Sábado - hora a 80-90€</option>
+    <option value="domingo">Domingo / Feriado - 90-95€/h</option>
+  </select>
+</div>
+
+<div class="form-group">
+  <label>Duração estimada (horas)</label>
+  <select id="hours" onchange="calculate()">
+    <option value="1">1 hora (mínimo)</option>
+    <option value="2" selected>2 horas (típico)</option>
+    <option value="3">3 horas</option>
+    <option value="4">4 horas (meio dia)</option>
+    <option value="8">8 horas (dia completo)</option>
+  </select>
+</div>
+
+<div id="result" class="result">
+  <div class="label">Estimativa total (IVA incluído)</div>
+  <div class="price" id="price">€0</div>
+  <div id="breakdown" style="font-size:.85rem;margin-bottom:1.5rem;opacity:.95"></div>
+  <a href="tel:+351928484451" class="cta" id="phone-canal">📞 Ligar 928 484 451</a>
+  <a href="tel:+351932321892" class="cta" id="phone-elec hidden">📞 Ligar 932 321 892</a>
+  <a href="https://wa.me/351928484451" class="cta" id="wa-canal">💬 WhatsApp</a>
+  <a href="https://wa.me/351932321892" class="cta" id="wa-elec hidden">💬 WhatsApp</a>
+</div>
+
+<div class="urgency-info">
+  <strong>⚠️ Aviso:</strong> Esta é uma estimativa. O preço final é sempre comunicado por telefone antes da deslocação. Preços podem variar conforme complexidade do trabalho.
+</div>
+</div>
+<footer>© 2024 Norte Reparos — Serviços profissionais 24h/7j</footer>
+
+<script>
+const SERVICES = {
+  canal: {
+    icon: '💧',
+    base_price: 110,  // min service price
+    hour_price: {1: 80, 2: 80, 3: 80, 4: 80, 5: 80},
+    items: [
+      {value: '', label: 'Escolha o serviço...'},
+      {value: 'desentupimento', label: 'Desentupimento (sanita, ralo, esgoto)', base: 110},
+      {value: 'fuga', label: 'Busca de Fuga (câmara térmica)', base: 150},
+      {value: 'esquentador', label: 'Esquentador (reparação/instalação)', base: 150},
+      {value: 'canalizacao', label: 'Canalização nova (instalação)', base: 250},
+      {value: 'fossa', label: 'Fossa Séptica (limpeza/reparação)', base: 200},
+      {value: 'autoclismo', label: 'Autoclismo (reparação/substituição)', base: 80},
+      {value: 'torneira', label: 'Torneira (reparação/substituição)', base: 80},
+      {value: 'pressao', label: 'Diagnóstico pressão de água', base: 90}
+    ],
+    phone: '+351928484451',
+    phone_display: '+351 928 484 451',
+    wa: 'https://wa.me/351928484451'
+  },
+  elec: {
+    icon: '⚡',
+    base_price: 90,
+    hour_price: {1: 80, 2: 80, 3: 80, 4: 80, 5: 80},
+    items: [
+      {value: '', label: 'Escolha o serviço...'},
+      {value: 'avaria', label: 'Avaria elétrica (curto-circuito, disjuntor)', base: 110},
+      {value: 'quadro', label: 'Quadro elétrico (substituição/modernização)', base: 280},
+      {value: 'iluminacao', label: 'Iluminação LED (instalação)', base: 75},
+      {value: 'certificacao', label: 'Certificação elétrica (oficial DGEG)', base: 180},
+      {value: 'tomada', label: 'Tomadas e interruptores', base: 60},
+      {value: 'carregador', label: 'Carregador veículo elétrico (wallbox)', base: 850},
+      {value: 'iluminacao_ext', label: 'Iluminação exterior (jardim, fachada)', base: 120},
+      {value: 'fuga_corrente', label: 'Fuga de corrente (diagnóstico)', base: 110}
+    ],
+    phone: '+351932321892',
+    phone_display: '+351 932 321 892',
+    wa: 'https://wa.me/351932321892'
+  }
+};
+
+let currentService = 'canal';
+
+function setService(svc) {
+  currentService = svc;
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  event.target.classList.add('active');
+  // Update service options
+  const select = document.getElementById('service');
+  select.innerHTML = '';
+  SERVICES[svc].items.forEach(item => {
+    const opt = document.createElement('option');
+    opt.value = item.value;
+    opt.textContent = item.label;
+    opt.dataset.base = item.base || '';
+    select.appendChild(opt);
+  });
+  // Update phone display
+  document.getElementById('phone-canal').classList.toggle('hidden', svc !== 'canal');
+  document.getElementById('phone-elec').classList.toggle('hidden', svc !== 'elec');
+  document.getElementById('wa-canal').classList.toggle('hidden', svc !== 'canal');
+  document.getElementById('wa-elec').classList.toggle('hidden', svc !== 'elec');
+  calculate();
+}
+
+function calculate() {
+  const svc = SERVICES[currentService];
+  const select = document.getElementById('service');
+  const selectedOption = select.options[select.selectedIndex];
+  const serviceBase = parseFloat(selectedOption?.dataset?.base) || svc.base_price;
+  const zone = parseInt(document.getElementById('zone').value);
+  const urgency = document.getElementById('urgency').value;
+  const hours = parseInt(document.getElementById('hours').value);
+
+  // Travel
+  const travelPrices = {1: 20, 2: 25, 3: 30, 4: 40};
+  const travel = travelPrices[zone] || 25;
+
+  // Hour price with urgency multiplier
+  const hourBase = 80;
+  let hourMultiplier = 1;
+  if (urgency === 'noite') hourMultiplier = 1.5;
+  else if (urgency === 'sabado') hourMultiplier = 1;
+  else if (urgency === 'domingo') hourMultiplier = 1.2;
+
+  const hourPrice = hourBase * hourMultiplier * hours;
+  const total = serviceBase + travel + hourPrice;
+
+  // Show result
+  const result = document.getElementById('result');
+  result.classList.add('show');
+  document.getElementById('price').textContent = `€${Math.round(total)}`;
+  document.getElementById('breakdown').innerHTML = `
+    Serviço base: €${serviceBase}<br>
+    Deslocação (Zona ${zone}): €${travel}<br>
+    ${hours}h × €${Math.round(hourBase * hourMultiplier)}/h: €${Math.round(hourPrice)}
+  `;
+}
+
+// Init
+setService('canal');
+</script>
+</body>
+</html>
