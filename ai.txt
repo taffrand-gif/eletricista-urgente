@@ -1,0 +1,11 @@
+# ai.txt - AI Interaction Manifest
+Name: Eletricista Urgente - Norte Reparos
+Type: EmergencyService
+SubType: ElectricalEmergency
+Headquarters: Macedo de Cavaleiros
+ServiceArea: 130km radius
+Hours: 24/7
+ResponseTime: 30 seconds
+PrimaryPhone: +351-932-321-892
+Website: https://eletricista-urgente.pt
+LastUpdated: 2026-06-06
