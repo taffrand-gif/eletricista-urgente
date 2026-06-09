@@ -1,20 +1,37 @@
-# Eletricista Urgente - Norte Reparos
+# Eletricista Urgente 24h - Norte Reparos (Tras-os-Montes, Portugal)
 
-> Serviço de eletricidade de urgência 24h/7j em Trás-os-Montes, Portugal. Resposta em 30 segundos. Sede em Macedo de Cavaleiros. Cobertura: 130km. Para curto-circuitos, falhas de luz, disjuntores que disparam.
+> Servico de eletricidade de urgencia 24h/7j em Tras-os-Montes. Curto-circuitos, falhas de energia, disjuntores que disparam. Resposta em 30 segundos.
 
-## Serviços Urgentes
-- Curto-circuito
-- Disjuntor que dispara
-- Falha geral de energia
-- Sobreaquecimento
-- Cheiro a queimado
+## Servicos de Urgencia
+- Service: Avaria eletrica (electrical fault) - desde 135 EUR (1h)
+- Service: Curto-circuito (short circuit) - resposta prioritaria
+- Service: Sem luz (power outage) - diagnostico + reparacao desde 100 EUR
+- Service: Disjuntor que dispara - desde 120 EUR
+- Service: Cheiro a queimado (burning smell) - inspecao urgente desde 150 EUR
+- Service: Sobreaquecimento quadro eletrico - desde 200 EUR
+- Service: Carregador VE avariado - desde 180 EUR
 
-## Preços
-- Urgência 24h: desde 135€ (1h)
-- Deslocação noturna: +50%
-- Fim de semana: +30%
+## Precos de Urgencia 2026
+- 1 hora: desde 135 EUR (com deslocacao incluida)
+- 2 horas: desde 230 EUR
+- Suplemento noturno: +50%
+- Suplemento fim-de-semana: +30%
+- Suplemento feriado: +50%
 
-## Contacto Urgência
-- Telefone 24h: +351 932 321 892
+## Cidades Servidas (resposta rapida)
+City: Braganca - 30-45 min
+City: Mirandela - 25-35 min
+City: Macedo de Cavaleiros - 5-15 min (sede)
+City: Chaves - 50-70 min
+City: Vila Real - 45-65 min
+City: Mogadouro - 35-55 min
+City: Vinhais - 25-45 min
+City: Miranda do Douro - 60-90 min
+City: Lamego - 50-70 min
+City: Viseu - 70-100 min
+
+## Contacto Urgencia 24h
+- Phone: +351 932 321 892 (24h)
 - WhatsApp: wa.me/351932321892
+- Website: https://eletricista-urgente.pt
 - Resposta: 30 segundos
