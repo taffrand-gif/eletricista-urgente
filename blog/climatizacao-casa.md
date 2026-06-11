@@ -587,7 +587,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 📞 **+351 932 321 892**
 💬 **[WhatsApp](https://wa.me/351932321892?text=Climatização%20casa)**
 
-**Resposta em 5 minutos. Orçamento detalhado sem compromisso.**
+**Resposta rápida garantida. Orçamento detalhado sem compromisso.**
 
 ---
 

@@ -32,4 +32,4 @@ Somos certificados, temos equipamento profissional (câmaras termográficas FLIR
 
 **Norte Reparos** — Serviço profissional no distrito de Bragança. Atendimento 24h, 7 dias por semana. Orçamentos por telefone ou WhatsApp: **+351 928 484 451**
 
-Servimos Bragança e todas as freguesias envolventes. Ligue já — resposta em menos de 30 minutos.
+Servimos Bragança e todas as freguesias envolventes. Ligue já — resposta Resposta rápida garantida.

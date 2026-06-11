@@ -12,11 +12,11 @@ A nossa base operacional. Resposta mais rápida, preços mais baixos, conhecimen
 
 ## Porque somos diferentes em Macedo
 
-Macedo de Cavaleiros é onde estamos sediados. Isto significa que, para qualquer cliente aqui, temos o tempo de resposta mais rápido de toda a nossa zona de cobertura — muitas vezes em menos de 15 minutos para o centro da cidade. Não há 'deslocação' propriamente dita, é como se fossemos vizinhos.
+Macedo de Cavaleiros é onde estamos sediados. Isto significa que, para qualquer cliente aqui, temos o tempo de resposta mais rápido de toda a nossa zona de cobertura — muitas vezes Resposta rápida garantida para o centro da cidade. Não há 'deslocação' propriamente dita, é como se fossemos vizinhos.
 
 ## Toda a zona servida a partir de Macedo
 
-A partir da nossa base em Macedo de Cavaleiros, cobramos todo o concelho: Bornes, Castelãos, Grijó, Podence, Vale de Prados, Vilar do Monte, Sesulfe, Amendoeira, e mais 130+ aldeias no raio de 30 km. Em muitas destas aldeias, somos o ÚNICO serviço profissional disponível 24h.
+A partir da nossa base em Macedo de Cavaleiros, cobramos todo o concelho: Bornes, Castelãos, Grijó, Podence, Vale de Prados, Vilar do Monte, Sesulfe, Amendoeira, e mais 130+ aldeias no raio de 30 km. Em muitas destas aldeias, somos o ÚNICO serviço profissional Atendimento 24h/7d.
 
 ## Preços mais baixos para Macedo
 
@@ -24,7 +24,7 @@ Por estarmos sediados aqui, os preços para clientes em Macedo de Cavaleiros sã
 
 ## Serviços completos disponíveis
 
-Em Macedo fazemos tudo: desentupimentos, buscas de fuga com câmara térmica, instalação e reparação de esquentadores, certificação de canalização, remodelações completas. Estamos a 5 minutos do centro. Ligue e peça orçamento — respondemos sempre em menos de 5 minutos durante o dia.
+Em Macedo fazemos tudo: desentupimentos, buscas de fuga com câmara térmica, instalação e reparação de esquentadores, certificação de canalização, remodelações completas. Estamos a 5 minutos do centro. Ligue e peça orçamento — respondemos sempre Resposta rápida garantida durante o dia.
 
 
 
@@ -32,4 +32,4 @@ Em Macedo fazemos tudo: desentupimentos, buscas de fuga com câmara térmica, in
 
 **Norte Reparos** — Serviço profissional no distrito de Bragança. Atendimento 24h, 7 dias por semana. Orçamentos por telefone ou WhatsApp: **+351 928 484 451**
 
-Servimos Macedo de Cavaleiros e todas as freguesias envolventes. Ligue já — resposta em menos de 30 minutos.
+Servimos Macedo de Cavaleiros e todas as freguesias envolventes. Ligue já — resposta Resposta rápida garantida.

@@ -570,7 +570,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 📞 **+351 932 321 892**
 💬 **[WhatsApp](https://wa.me/351932321892?text=Lâmpadas%20LED%20poupar)**
 
-**Resposta em 5 minutos. Recomendação personalizada + orçamento.**
+**Resposta rápida garantida. Recomendação personalizada + orçamento.**
 
 ---
 

@@ -522,7 +522,7 @@ R: SIM! 20+ anos = desgaste, pode não proteger adequadamente. Substitua por seg
 ** - Eletricista Certificado em Trás-os-Montes**
 
 📞 **Ligue Agora: 932 321 892**
-- ✅ Atendimento 24 horas (emergências elétricas)
+- ✅ Atendimento Atendimento 24h/7d (emergências elétricas)
 - ✅ Diagnóstico completo €60-120
 - ✅ Substituir disjuntor €40-80
 - ✅ Adicionar circuito €150-400

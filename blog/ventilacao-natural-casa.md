@@ -471,7 +471,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 📞 **+351 932 321 892**
 💬 **[WhatsApp](https://wa.me/351932321892?text=Ventilação%20natural)**
 
-**Resposta em 5 minutos. Análise casa sem compromisso.**
+**Resposta rápida garantida. Análise casa sem compromisso.**
 
 ---
 

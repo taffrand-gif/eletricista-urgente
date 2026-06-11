@@ -534,7 +534,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 📞 **+351 932 321 892**
 💬 **[WhatsApp](https://wa.me/351932321892?text=Reduzir%20consumo%20eletricidade)**
 
-**Resposta em 5 minutos. Análise consumo + recomendações personalizadas.**
+**Resposta rápida garantida. Análise consumo + recomendações personalizadas.**
 
 ---
 

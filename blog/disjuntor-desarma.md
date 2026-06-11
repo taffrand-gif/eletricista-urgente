@@ -13,7 +13,7 @@ priority: "CRITICAL"
 
 **O disjuntor desarma constantemente e fica sem luz?** Este é um problema crítico que indica sobrecarga, curto-circuito ou falha elétrica. Neste guia completo, vou mostrar-lhe **as 7 causas principais** de disjuntores que desarmam e **como resolver cada uma com segurança**.
 
-> ⚠️ **PERIGO: Risco de incêndio!** Se disjuntor desarma repetidamente, NÃO force. Ligue já: **[932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança em 30 minutos, 24 horas.
+> ⚠️ **PERIGO: Risco de incêndio!** Se disjuntor desarma repetidamente, NÃO force. Ligue já: **[932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança Atendimento prioritário, Atendimento 24h/7d.
 
 ## 🔍 O Que É um Disjuntor e Como Funciona?
 
@@ -293,7 +293,7 @@ Instalar protetor de sobretensão no quadro (obrigatório desde 2006 em instala�
 | Instalar protetor sobretensão | €120-250 |
 | Urgência 24h | +€50-80 |
 
-> 💡 **Disjuntor desarma constantemente?** Eletricista certificado: **[932 321 892](tel:+351932321892)** — Diagnóstico em 30 minutos, arranjo urgente.
+> 💡 **Disjuntor desarma constantemente?** Eletricista certificado: **[932 321 892](tel:+351932321892)** — Diagnóstico Atendimento prioritário, arranjo urgente.
 
 ## 🔍 Como Diagnosticar o Problema
 
@@ -456,8 +456,8 @@ Disjuntor que desarma constantemente é **sinal de problema elétrico** que prec
 📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20o%20meu%20disjuntor%20desarma%20constantemente.%20Preciso%20de%20ajuda%20urgente!)**
 
-✅ Atendimento 24 horas (urgências elétricas)  
-✅ Diagnóstico rápido em 30 minutos  
+✅ Atendimento Atendimento 24h/7d (urgências elétricas)  
+✅ Diagnóstico rápido Atendimento prioritário  
 ✅ Arranjo imediata  
 ✅ Equipamento de deteção profissional  
 ✅ Garantia 1 ano no serviço  

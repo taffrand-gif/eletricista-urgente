@@ -556,7 +556,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 📞 **+351 932 321 892**
 💬 **[WhatsApp](https://wa.me/351932321892?text=Casa%20passiva%20construir)**
 
-**Resposta em 5 minutos. Análise viabilidade + orçamento sem compromisso.**
+**Resposta rápida garantida. Análise viabilidade + orçamento sem compromisso.**
 
 ---
 

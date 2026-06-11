@@ -451,7 +451,7 @@ Trocar um fusível é uma tarefa **simples mas que requer atenção absoluta à 
 - Soluções definitivas (não temporárias)
 - Orçamento transparente antes de iniciar
 - Garantia de 2 anos no trabalho
-- Disponível 24/7 para urgências
+- Disponível Atendimento 24h/7d para urgências
 
 **Não arrisque. Segurança elétrica não tem preço.**
 

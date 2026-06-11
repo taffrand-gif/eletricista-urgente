@@ -479,7 +479,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 📞 **+351 932 321 892**
 💬 **[WhatsApp](https://wa.me/351932321892?text=Proteção%20sobretensão)**
 
-**Resposta em 5 minutos. Proteja equipamentos antes tempestade.**
+**Resposta rápida garantida. Proteja equipamentos antes tempestade.**
 
 ---
 

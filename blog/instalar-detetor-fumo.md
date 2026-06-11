@@ -578,7 +578,7 @@ Um detetor de fumo é o **investimento mais importante** que pode fazer para pro
 
 ✅ **Reduz mortes em 50%** (estatística comprovada)  
 ✅ **Custa apenas €15-50** (menos que jantar fora)  
-✅ **Instala em 15 minutos** (qualquer pessoa consegue)  
+✅ **Instala Atendimento prioritário** (qualquer pessoa consegue)  
 ✅ **Alerta nos primeiros 30-60 segundos** (tempo para escapar)  
 ✅ **Funciona 24h/dia, 365 dias/ano**  
 

@@ -13,7 +13,7 @@ priority: "HIGH DEMAND"
 
 **A campainha não toca quando carrega no botão?** Este é um problema irritante mas geralmente tem solução simples. Neste guia completo, vou mostrar-lhe **as 6 causas principais** de campainhas que não funcionam e **como arranjar cada uma**.
 
-> ⚠️ **Precisa de ajuda profissional?** Eletricista certificado em Bragança: **[932 321 892](tel:+351932321892)** — Diagnóstico e arranjo rápida em 30 minutos.
+> ⚠️ **Precisa de ajuda profissional?** Eletricista certificado em Bragança: **[932 321 892](tel:+351932321892)** — Diagnóstico e arranjo rápida Atendimento prioritário.
 
 ## 🔍 Tipos de Campainhas
 
@@ -495,7 +495,7 @@ Na maioria dos casos, campainha que não funciona tem **solução fácil e barat
 📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20a%20minha%20campainha%20não%20funciona.%20Pode%20ajudar%3F)**
 
-✅ Diagnóstico rápido em 30 minutos  
+✅ Diagnóstico rápido Atendimento prioritário  
 ✅ Arranjo ou instalação nova  
 ✅ Materiais em stock  
 ✅ Garantia 1 ano no serviço  

@@ -32,4 +32,4 @@ Por ser a nossa sede, os preços em Macedo são os mais baixos: deslocação 20�
 
 **Norte Reparos** — Serviço profissional no distrito de Bragança. Atendimento 24h, 7 dias por semana. Orçamentos por telefone ou WhatsApp: **+351 932 321 892**
 
-Servimos Macedo de Cavaleiros e todas as freguesias envolventes. Ligue já — resposta em menos de 30 minutos.
+Servimos Macedo de Cavaleiros e todas as freguesias envolventes. Ligue já — resposta Resposta rápida garantida.

@@ -390,7 +390,7 @@ Orçamento escrito detalhado, sem surpresas
 ### ✅ Garantia 5 Anos
 Material + mão obra
 
-### ✅ Disponível 24/7
+### ✅ Disponível Atendimento 24h/7d
 Urgências atendidas em 15-90 min
 
 ### ✅ Equipamento Profissional
@@ -410,7 +410,7 @@ Explicamos tudo em português simples
 - [Fichas eletrotécnicas assinadas por técnico certificado DGEG: Preços e Processo](https://eletricista-urgente.pt/blog/preco-certificacao-certiel-2026)
 - [Eletricista vs Bricolagem: Quando Vale a Pena](https://eletricista-urgente.pt/blog/eletricista-vs-bricolagem-quando-vale-pena)
 - [Quanto Custa Eletricista Domingo](https://eletricista-urgente.pt/blog/quanto-custa-eletricista-domingo-2026)
-- [Eletricista 24 Horas: Guia Completo](https://eletricista-urgente.pt/blog/eletricista-24-horas-guia-completo)
+- [Eletricista Atendimento 24h/7d: Guia Completo](https://eletricista-urgente.pt/blog/eletricista-24-horas-guia-completo)
 
 ## Precisa de Eletricista Confiável?
 

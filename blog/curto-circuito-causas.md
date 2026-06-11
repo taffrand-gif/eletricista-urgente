@@ -519,8 +519,8 @@ R: Diagnóstico €60-120, arranjo €100-500. Urgente 24h: +50-100%. : **932 32
 ** - Eletricista Certificado em Trás-os-Montes**
 
 📞 **Ligue Agora: 932 321 892**
-- ✅ Atendimento 24 horas (emergências elétricas)
-- ✅ Eletricista certificado chega em 30 minutos
+- ✅ Atendimento Atendimento 24h/7d (emergências elétricas)
+- ✅ Eletricista certificado chega Atendimento prioritário
 - ✅ Diagnóstico de curto-circuito com equipamento profissional
 - ✅ Inspeção elétrica completa €150-400
 - ✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG incluída

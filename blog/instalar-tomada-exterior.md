@@ -13,7 +13,7 @@ priority: "HIGH DEMAND"
 
 **Precisa de uma tomada no jardim, garagem ou terraço?** A instalação de tomadas no exterior requer cuidados especiais de segurança e proteção contra água. Neste guia completo, vou mostrar-lhe **como instalar tomada exterior IP65** de forma segura e conforme as normas portuguesas.
 
-> ⚠️ **ATENÇÃO:** Trabalhos elétricos no exterior envolvem risco de eletrocussão. Se não tem experiência, ligue já: **[932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança em 30 minutos.
+> ⚠️ **ATENÇÃO:** Trabalhos elétricos no exterior envolvem risco de eletrocussão. Se não tem experiência, ligue já: **[932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança Atendimento prioritário.
 
 ## 🔍 O Que É Uma Tomada Exterior IP65?
 

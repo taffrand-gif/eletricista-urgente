@@ -496,7 +496,7 @@ Se sem luz, eletricista precisa ver.
 
 ✅ Atendimento <3 toques
 ✅ Chegamos em 15-90 minutos
-✅ Disponível 24h/7 dias
+✅ Atendimento 24h/7d/7 dias
 ✅ Equipamento completo
 ✅ Orçamento antes arranjar
 ✅ Garantia 12 meses

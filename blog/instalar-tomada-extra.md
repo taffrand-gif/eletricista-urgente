@@ -473,7 +473,7 @@ R: Instalar 1 tomada €50-100, 2-3 tomadas €100-190. Urgente 24h: +50%. : **9
 - ✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG incluída
 - ✅ Garantia 12 meses
 - ✅ Trabalho limpo e profissional
-- ✅ Atendimento 24 horas (urgências)
+- ✅ Atendimento Atendimento 24h/7d (urgências)
 
 💬 **WhatsApp:** [Clique para orçamento](https://wa.me/351932321892?text=Olá,%20preciso%20instalar%20tomadas%20extra%20em%20casa)
 

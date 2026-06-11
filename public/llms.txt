@@ -22,7 +22,7 @@ Descritor de Site para LLMs e Agentes de IA
 Bragança, Macedo de Cavaleiros, Mirandela, Vila Real, Chaves, Lamego, Guarda, Vinhais, Vimioso, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Carrazeda de Ansiães, Vila Flor, Valpaços, Monção, Melgaço, Paredes de Coura.
 
 ## Diferencial
-- Atendimento 24 horas / 7 dias
+- Atendimento Atendimento 24h/7d / 7 dias
 - Orçamento gratuito e sem compromisso
 - Técnicos com equipamento profissional (Fluke, FLIR, Ridgid)
 - Compromisso de preço — o preço dito é o preço pago

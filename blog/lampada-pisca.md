@@ -467,7 +467,7 @@ Uma lâmpada que pisca não é apenas irritante — pode indicar **problemas el�
 - Arranjo rápida (30-90 minutos)
 - Materiais de qualidade (Philips, Legrand, Schneider)
 - Garantia de 2 anos no trabalho
-- Disponível 24/7 para urgências
+- Disponível Atendimento 24h/7d para urgências
 
 **Não ignore o problema. Lâmpada que pisca pode indicar perigo de incêndio.**
 
@@ -480,4 +480,4 @@ Uma lâmpada que pisca não é apenas irritante — pode indicar **problemas el�
 
 ---
 
-* - Eletricista Certificado em Trás-os-Montes | Urgências 24/7 | 932 321 892*
+* - Eletricista Certificado em Trás-os-Montes | Urgências Atendimento 24h/7d | 932 321 892*

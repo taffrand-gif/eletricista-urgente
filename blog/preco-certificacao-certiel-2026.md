@@ -284,7 +284,7 @@ Se sabe que tem problemas (ex: falta diferencial), corrija antes da inspeção. 
 - [Certificação Elétrica Obrigatória: Guia Completo](https://eletricista-urgente.pt/blog/certificacao-eletrica-obrigatoria-quando-como)
 - [Quanto Custa Quadro Elétrico 2026](https://eletricista-urgente.pt/blog/quanto-custa-quadro-fusiveis-2026)
 - [Melhores Eletricistas Bragança](https://eletricista-urgente.pt/blog/melhores-eletricistas-braganca-2026)
-- [Eletricista 24 Horas: Como Funciona](https://eletricista-urgente.pt/blog/eletricista-24-horas-guia-completo)
+- [Eletricista Atendimento 24h/7d: Como Funciona](https://eletricista-urgente.pt/blog/eletricista-24-horas-guia-completo)
 
 **Ganho:** Evita reagendamentos
 

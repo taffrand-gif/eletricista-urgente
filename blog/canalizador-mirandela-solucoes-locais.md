@@ -24,7 +24,7 @@ Para além dos serviços habituais (desentupimento, fugas, esquentadores), em Mi
 
 ## Zona e preços
 
-Mirandela fica na nossa Zona 1 (próxima da base, em Macedo de Cavaleiros). Deslocação: 25€. Tempo médio de chegada: 23 minutos. Preço-hora: 80€. Para emergências, podemos estar no local em menos de 30 minutos.
+Mirandela fica na nossa Zona 1 (próxima da base, em Macedo de Cavaleiros). Deslocação: 25€. Tempo médio de chegada: 23 minutos. Preço-hora: 80€. Para emergências, podemos estar no local Resposta rápida garantida.
 
 
 
@@ -32,4 +32,4 @@ Mirandela fica na nossa Zona 1 (próxima da base, em Macedo de Cavaleiros). Desl
 
 **Norte Reparos** — Serviço profissional no distrito de Bragança. Atendimento 24h, 7 dias por semana. Orçamentos por telefone ou WhatsApp: **+351 928 484 451**
 
-Servimos Mirandela e todas as freguesias envolventes. Ligue já — resposta em menos de 30 minutos.
+Servimos Mirandela e todas as freguesias envolventes. Ligue já — resposta Resposta rápida garantida.
