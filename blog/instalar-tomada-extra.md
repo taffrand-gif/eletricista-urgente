@@ -3,7 +3,7 @@ title: "Instalar Tomada Extra: Guia Completo e Seguro (2026)"
 slug: "instalar-tomada-extra"
 category: "Instalação Elétrica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Precisa de mais tomadas em casa? Guia completo sobre como instalar tomada extra com segurança, custos e quando chamar eletricista em Trás-os-Montes."
 keywords: "instalar tomada, adicionar tomada, tomada extra, eletricista braganca, instalacao eletrica, tomadas casa"
 priority: "HIGH DEMAND"
@@ -33,7 +33,7 @@ priority: "HIGH DEMAND"
 2. **TESTE ausência de corrente** (multímetro)
 3. **Use ferramentas isoladas**
 4. **Trabalhe com mãos e chão secos**
-5. **Peça certificação CERTIEL depois**
+5. **Peça Fichas eletrotécnicas assinadas por técnico certificado DGEG depois**
 
 ## Por Que Precisa de Mais Tomadas?
 
@@ -297,7 +297,7 @@ priority: "HIGH DEMAND"
 - Zona 2 (60cm): IP44 obrigatório
 
 **6. Certificação:**
-- Instalação nova requer certificação CERTIEL
+- Instalação nova requer Fichas eletrotécnicas assinadas por técnico certificado DGEG
 - Apenas eletricista certificado pode emitir
 - Obrigatório para seguro e venda
 
@@ -318,7 +318,7 @@ priority: "HIGH DEMAND"
 | 4-6 tomadas (circuito novo) | €50-100 | €150-300 | €200-400 |
 | Calha técnica (2m + 4 tomadas) | €60-120 | €80-150 | €140-270 |
 | Tomada IP44 casa de banho | €15-30 | €50-100 | €65-130 |
-| Certificação CERTIEL | - | €80-150 | €80-150 |
+| Fichas eletrotécnicas assinadas por técnico certificado DGEG | - | €80-150 | €80-150 |
 
 **Fatores que aumentam custo:**
 - Parede de betão (+30%)
@@ -453,11 +453,11 @@ R: Máximo 8 tomadas por circuito 16A. Se precisar mais, adicione circuito novo 
 **P: Quanto custa adicionar tomada?**
 R: 1 tomada €50-100, 2-3 tomadas €100-190, circuito novo (4-6 tomadas) €200-400. Inclui material + instalação + certificação.
 
-**P: Preciso certificação CERTIEL?**
+**P: Preciso Fichas eletrotécnicas assinadas por técnico certificado DGEG?**
 R: SIM, para instalação nova. Obrigatório por lei. Apenas eletricista certificado emite. Custo €80-150 (geralmente incluído).
 
 **P: Quanto custa eletricista em Bragança?**
-R: Instalar 1 tomada €50-100, 2-3 tomadas €100-190. Urgente 24h: +50%. Staff Seekers: **932 321 892**
+R: Instalar 1 tomada €50-100, 2-3 tomadas €100-190. Urgente 24h: +50%. : **932 321 892**
 
 ## Conclusão: Segurança em Primeiro Lugar
 
@@ -465,21 +465,21 @@ R: Instalar 1 tomada €50-100, 2-3 tomadas €100-190. Urgente 24h: +50%. Staff
 
 ### 🚨 Precisa de Mais Tomadas? Ligue JÁ!
 
-**Staff Seekers - Eletricista Certificado em Trás-os-Montes**
+** - Eletricista Certificado em Trás-os-Montes**
 
 📞 **Ligue Agora: 932 321 892**
 - ✅ Instalação de tomadas €50-100/unidade
 - ✅ Circuito novo dedicado €200-400
-- ✅ Certificação CERTIEL incluída
+- ✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG incluída
 - ✅ Garantia 12 meses
 - ✅ Trabalho limpo e profissional
-- ✅ Atendimento 24 horas (urgências)
+- ✅ Atendimento 24h/7d (urgências)
 
 💬 **WhatsApp:** [Clique para orçamento](https://wa.me/351932321892?text=Olá,%20preciso%20instalar%20tomadas%20extra%20em%20casa)
 
 🌐 **Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
-**Zonas servidas:** Bragança, Vila Real, Mirandela, Chaves, Macedo de Cavaleiros, Valpaços, Murça, Alijó, Sabrosa, Vila Pouca de Aguiar e toda a região de Trás-os-Montes.
+**Zonas servidas:** Bragança, Vila Real, Mirandela, Chaves, Trás-os-Montes, Valpaços, Murça, Alijó, Sabrosa, Vila Pouca de Aguiar e toda a região de Trás-os-Montes.
 
 ---
 

@@ -3,7 +3,7 @@ title: "Como Carregar Carro Elétrico em Casa: Guia Completo 2026"
 slug: "carregar-carro-eletrico-casa"
 category: "Mobilidade Elétrica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Quer carregar carro elétrico em casa? Descubra tipos de carregamento (Tipo 2, wallbox), potências (3,7kW-22kW), instalação elétrica necessária, custos em Trás-os-Montes (€500-2.000) e incentivos."
 keywords: ["carregar carro elétrico casa", "wallbox", "carregador veículo elétrico", "instalação wallbox", "eletricista Trás-os-Montes", "Tipo 2", "carregamento doméstico"]
 priority: "TRENDING"
@@ -251,7 +251,7 @@ Em Trás-os-Montes, onde a rede de carregamento público ainda está em expansã
 | Instalação 11 kW (com trifásico) | €600-1.000 | 6-8h |
 | Instalação 22 kW | €800-1.500 | 8-12h |
 | Upgrade para trifásico | €1.500-3.000 | 1-2 dias |
-| Certificação CERTIEL | €150-250 | Incluído |
+| Fichas eletrotécnicas assinadas por técnico certificado DGEG | €150-250 | Incluído |
 
 ---
 
@@ -340,7 +340,7 @@ Em Trás-os-Montes, onde a rede de carregamento público ainda está em expansã
 
 ### 3. Posso instalar wallbox eu mesmo?
 
-**Resposta:** **NÃO!** Legalmente requer eletricista certificado + certificação CERTIEL. Além disso, é perigoso (alta corrente). Instalação profissional: €300-1.000.
+**Resposta:** **NÃO!** Legalmente requer eletricista certificado + Fichas eletrotécnicas assinadas por técnico certificado DGEG. Além disso, é perigoso (alta corrente). Instalação profissional: €300-1.000.
 
 ### 4. Wallbox funciona com qualquer carro elétrico?
 
@@ -380,10 +380,10 @@ Em Trás-os-Montes, onde a rede de carregamento público ainda está em expansã
 
 ### 📞 Quer Instalar Wallbox?
 
-**Staff Seekers** - Eletricista Certificado para Mobilidade Elétrica  
+**** - Eletricista Certificado para Mobilidade Elétrica  
 ✅ Instalação de wallbox (todas as marcas)  
 ✅ Upgrade elétrico para VE  
-✅ Certificação CERTIEL  
+✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG  
 ✅ Apoio candidatura a incentivos  
 ✅ Orçamento grátis sem compromisso  
 ✅ Garantia de 2 anos  
@@ -392,7 +392,7 @@ Em Trás-os-Montes, onde a rede de carregamento público ainda está em expansã
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20wallbox%20para%20carro%20elétrico!)  
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
-**Servimos:** Bragança, Vila Real, Chaves, Mirandela, Macedo de Cavaleiros e toda a região de Trás-os-Montes.
+**Servimos:** Bragança, Vila Real, Chaves, Mirandela, Trás-os-Montes e toda a região de Trás-os-Montes.
 
 ---
 

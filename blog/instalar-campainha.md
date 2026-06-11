@@ -3,7 +3,7 @@ title: "Como Instalar Campainha: Guia Completo (Com e Sem Fios)"
 slug: "instalar-campainha"
 category: "Instalações Elétricas"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Quer instalar campainha nova? Guia completo: campainha com fios vs sem fios, instalação passo a passo, custos €20-150, transformador 8-24V. Solução para Trás-os-Montes."
 keywords: ["instalar campainha", "campainha porta", "campainha sem fios", "eletricista Bragança", "transformador campainha", "campainha com fios"]
 priority: "HIGH DEMAND"
@@ -472,7 +472,7 @@ Instalar uma campainha é **simples e acessível**, especialmente modelos sem fi
 
 **📞 Ligue para orçamento: [932 321 892](tel:+351932321892)**
 
-**Serviços Staff Seekers:**
+**Serviços :**
 - Instalação de campainha (com/sem fios)
 - Passar cabos embutidos
 - Ligação ao quadro elétrico
@@ -480,12 +480,12 @@ Instalar uma campainha é **simples e acessível**, especialmente modelos sem fi
 
 **Cobertura:**
 - Bragança e arredores
-- Mirandela, Macedo de Cavaleiros, Miranda do Douro
+- Mirandela, Trás-os-Montes, Miranda do Douro
 - Toda a região de Trás-os-Montes
 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20uma%20campainha.%20Podem%20ajudar%3F)**
 
-**✅ Garantias Staff Seekers:**
+**✅ Garantias :**
 - Eletricistas certificados com 15+ anos de experiência
 - Instalação rápida (30 min a 3 horas)
 - Materiais de qualidade
@@ -504,4 +504,4 @@ Instalar uma campainha é **simples e acessível**, especialmente modelos sem fi
 
 ---
 
-*Staff Seekers - Eletricista Certificado em Trás-os-Montes | Instalações Profissionais | 932 321 892*
+* - Eletricista Certificado em Trás-os-Montes | Instalações Profissionais | 932 321 892*

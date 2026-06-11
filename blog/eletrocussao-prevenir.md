@@ -3,7 +3,7 @@ title: "Eletrocussão Prevenir: Segurança Elétrica Casa e Trabalho"
 slug: "eletrocussao-prevenir"
 category: "seguranca"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Eletrocussão prevenir: disjuntor diferencial 30mA obrigatório, não mexer quadro, água longe eletricidade. Descubra riscos, primeiros socorros e segurança elétrica."
 keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjuntor diferencial", "Trás-os-Montes"]
 ---
@@ -499,7 +499,7 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 ✅ Verificar ligações
 ✅ Termografia
 
-## ✅ Por Que Escolher Staff Seekers
+## ✅ Por Que Escolher 
 
 ### Especialização Segurança
 
@@ -541,7 +541,7 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 ## 🌍 Cobertura
 
 Atendemos **86 cidades** em Trás-os-Montes:
-- Bragança, Mirandela, Macedo de Cavaleiros
+- Bragança, Mirandela, Trás-os-Montes
 - Vila Real, Chaves, Vinhais
 - Vimioso, Miranda do Douro, Mogadouro
 - E mais 77 cidades
@@ -552,7 +552,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 📞 **+351 932 321 892**
 💬 **[WhatsApp Urgente](https://wa.me/351932321892?text=ELETROCUSSÃO%20URGENTE)**
 
-**Choque elétrico = Emergência extrema. Resposta em 5 minutos. Chegada 15-30 minutos.**
+**Choque elétrico = Emergência extrema. Resposta rápida garantida. Chegada 15-30 minutos.**
 
 ---
 

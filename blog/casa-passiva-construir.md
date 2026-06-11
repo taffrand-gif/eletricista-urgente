@@ -3,7 +3,7 @@ title: "Casa Passiva Construir: Conforto Sem Aquecimento e -90% Energia"
 slug: "casa-passiva-construir"
 category: "eficiencia-energetica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Casa passiva: conforto térmico sem aquecimento/AC, poupa 90% energia, ROI 10-15 anos. Descubra princípios, custos +5-15%, certificação e viabilidade Trás-os-Montes."
 keywords: ["casa passiva", "passivhaus", "eficiência energética", "construção sustentável", "Trás-os-Montes"]
 ---
@@ -509,7 +509,7 @@ keywords: ["casa passiva", "passivhaus", "eficiência energética", "construçã
 ✅ Auditoria
 ✅ Documentação
 
-## ✅ Por Que Escolher Staff Seekers
+## ✅ Por Que Escolher 
 
 ### Parceria Arquitetos Passivhaus
 
@@ -545,7 +545,7 @@ keywords: ["casa passiva", "passivhaus", "eficiência energética", "construçã
 ## 🌍 Cobertura
 
 Atendemos **86 cidades** em Trás-os-Montes:
-- Bragança, Mirandela, Macedo de Cavaleiros
+- Bragança, Mirandela, Trás-os-Montes
 - Vila Real, Chaves, Vinhais
 - Vimioso, Miranda do Douro, Mogadouro
 - E mais 77 cidades
@@ -556,7 +556,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 📞 **+351 932 321 892**
 💬 **[WhatsApp](https://wa.me/351932321892?text=Casa%20passiva%20construir)**
 
-**Resposta em 5 minutos. Análise viabilidade + orçamento sem compromisso.**
+**Resposta rápida garantida. Análise viabilidade + orçamento sem compromisso.**
 
 ---
 

@@ -3,7 +3,7 @@ title: "Luz Pisca em Casa? 8 Causas e Como Resolver Rápido"
 slug: "luz-pisca-causas-resolver"
 category: "Problemas Elétricos"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Luz a piscar em casa é sinal de problema elétrico! Descubra as 8 causas principais (lâmpada solta 40%, contacto defeituoso 25%, sobrecarga 15%) e como resolver em Trás-os-Montes."
 keywords: ["luz pisca", "luz a piscar", "lâmpada pisca", "luz intermitente", "problema elétrico", "eletricista Trás-os-Montes", "luz falha", "instalação elétrica"]
 priority: "HIGH DEMAND"
@@ -195,7 +195,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **Custo:** €200-500 (inspeção + arranjos)  
 **Tempo:** 4-8 horas  
-**Benefício:** Certificação CERTIEL + segurança
+**Benefício:** Fichas eletrotécnicas assinadas por técnico certificado DGEG + segurança
 
 ---
 
@@ -300,7 +300,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 |---------|-------|-----------|
 | Substituir todos interruptores (T3) | €300-500 | Segurança + estética |
 | Instalar disjuntor diferencial | €150-200 | Proteção choque |
-| Certificação CERTIEL | €200-350 | Obrigatório venda |
+| Fichas eletrotécnicas assinadas por técnico certificado DGEG | €200-350 | Obrigatório venda |
 
 ---
 
@@ -328,7 +328,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 ### 5. Inspeção Elétrica Regular
 - Casa com 20+ anos: inspeção a cada 5 anos
 - Após obras: inspeção obrigatória
-- Certificação CERTIEL atualizada
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG atualizada
 
 ### 6. Proteja de Humidade
 - Interruptores em WC/cozinha: IP44 mínimo
@@ -359,7 +359,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ### 4. Posso substituir o interruptor eu mesmo?
 
-**Resposta:** **Legalmente NÃO** em Portugal. Trabalhos elétricos devem ser feitos por eletricista certificado com emissão de certificado CERTIEL. Além disso, é perigoso sem conhecimentos.
+**Resposta:** **Legalmente NÃO** em Portugal. Trabalhos elétricos devem ser feitos por eletricista certificado com emissão de Fichas eletrotécnicas assinadas por técnico certificado DGEG. Além disso, é perigoso sem conhecimentos.
 
 ### 5. Quanto tempo demora a arranjar luz que pisca?
 
@@ -379,10 +379,10 @@ Luz a piscar pode ser desde um problema simples (lâmpada solta - €0) até gra
 
 ### 📞 Precisa de Ajuda Profissional?
 
-**Staff Seekers** - Eletricista Certificado em Trás-os-Montes  
+**** - Eletricista Certificado em Trás-os-Montes  
 ✅ Diagnóstico grátis por telefone  
 ✅ Emergências 24h/7 dias  
-✅ Certificação CERTIEL  
+✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG  
 ✅ Orçamento sem compromisso  
 ✅ Garantia de 2 anos  
 ✅ Técnico em menos de 2h (urgências)
@@ -391,7 +391,7 @@ Luz a piscar pode ser desde um problema simples (lâmpada solta - €0) até gra
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20luzes%20a%20piscar%20e%20preciso%20de%20ajuda!)  
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
-**Servimos:** Bragança, Vila Real, Chaves, Mirandela, Macedo de Cavaleiros e toda a região de Trás-os-Montes.
+**Servimos:** Bragança, Vila Real, Chaves, Mirandela, Trás-os-Montes e toda a região de Trás-os-Montes.
 
 ---
 

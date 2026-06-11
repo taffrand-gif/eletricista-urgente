@@ -24,7 +24,7 @@ Se vai colocar a sua casa em Mirandela no mercado de arrendamento, é obrigatór
 
 ## Cobertura e preços
 
-Mirandela fica na nossa Zona 1, com deslocação a 25€ e hora a 80€. Estamos lá em 23 minutos. Para emergências, em menos de 30 minutos.
+Mirandela fica na nossa Zona 1, com deslocação a 25€ e hora a 80€. Estamos lá Atendimento prioritário. Para emergências, Resposta rápida garantida.
 
 
 
@@ -32,4 +32,4 @@ Mirandela fica na nossa Zona 1, com deslocação a 25€ e hora a 80€. Estamos
 
 **Norte Reparos** — Serviço profissional no distrito de Bragança. Atendimento 24h, 7 dias por semana. Orçamentos por telefone ou WhatsApp: **+351 932 321 892**
 
-Servimos Mirandela e todas as freguesias envolventes. Ligue já — resposta em menos de 30 minutos.
+Servimos Mirandela e todas as freguesias envolventes. Ligue já — Resposta rápida garantida.

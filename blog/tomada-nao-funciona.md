@@ -3,7 +3,7 @@ title: "Tomada Não Funciona: 8 Causas e Como Resolver (2026)"
 slug: "tomada-nao-funciona"
 category: "Problemas Elétricos"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Tomada não funciona ou sem corrente? Descubra as 8 causas principais (desde disjuntor desarmado até tomada queimada) e como resolver com segurança. Guia completo com diagnóstico."
 keywords: ["tomada não funciona", "tomada sem corrente", "tomada queimada", "arranjar tomada", "eletricista Bragança", "tomada avariada"]
 priority: "HIGH DEMAND"
@@ -13,7 +13,7 @@ priority: "HIGH DEMAND"
 
 **A tomada não funciona ou não tem corrente?** Este é um problema comum que pode ter causas simples (disjuntor desarmado) ou mais complexas (cabo partido). Neste guia completo, vou mostrar-lhe **as 8 causas principais** de tomadas que não funcionam e **como resolver cada uma com segurança**.
 
-> ⚠️ **ATENÇÃO:** Trabalhos elétricos envolvem risco de eletrocussão. Se não tem experiência, ligue já: **[932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança em 30 minutos.
+> ⚠️ **ATENÇÃO:** Trabalhos elétricos envolvem risco de eletrocussão. Se não tem experiência, ligue já: **[932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança Atendimento prioritário.
 
 ## 🔍 Diagnóstico Inicial: Teste Simples
 
@@ -466,18 +466,18 @@ Na maioria dos casos, tomada que não funciona tem **causa identificável e solu
 
 ### 🚨 Tomada Não Funciona? Ajuda Profissional em Trás-os-Montes
 
-**Staff Seekers — Eletricista Certificado em Bragança**
+** — Eletricista Certificado em Bragança**
 
 📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20uma%20tomada%20que%20não%20funciona.%20Pode%20ajudar%3F)**
 
-✅ Diagnóstico rápido em 30 minutos  
+✅ Diagnóstico rápido Atendimento prioritário  
 ✅ Arranjo imediata  
 ✅ Materiais de qualidade em stock  
 ✅ Garantia 1 ano no serviço  
 ✅ Preços transparentes  
 ✅ Técnico em sua casa em 30-45 minutos  
-✅ Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região
+✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não fique sem tomadas funcionais!** Contacte-nos já para arranjo rápida e segura.
 

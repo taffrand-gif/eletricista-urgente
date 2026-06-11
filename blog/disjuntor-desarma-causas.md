@@ -3,7 +3,7 @@ title: "Disjuntor Desarma: 12 Causas e Como Resolver (2026)"
 slug: "disjuntor-desarma-causas"
 category: "Problemas Elétricos"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Disjuntor desarma constantemente? Descubra as 12 causas principais e soluções. Guia completo de segurança elétrica para Trás-os-Montes."
 keywords: "disjuntor desarma, luz vai abaixo, quadro eletrico, sobrecarga eletrica, eletricista braganca, curto circuito"
 priority: "HIGH DEMAND"
@@ -508,7 +508,7 @@ R: Desligue aparelhos, teste 1 a 1 para identificar culpado. Se desarma sem apar
 R: NÃO! Indica humidade na instalação ou fuga. Problema grave que precisa arranjo. Não desative diferencial!
 
 **P: Quanto custa eletricista em Bragança?**
-R: Diagnóstico €60-120, substituir disjuntor €40-80, adicionar circuito €150-400. Urgente 24h: +50-100%. Staff Seekers: **932 321 892**
+R: Diagnóstico €60-120, substituir disjuntor €40-80, adicionar circuito €150-400. Urgente 24h: +50-100%. : **932 321 892**
 
 **P: Disjuntor antigo é perigoso?**
 R: SIM! 20+ anos = desgaste, pode não proteger adequadamente. Substitua por segurança (€40-80).
@@ -519,21 +519,21 @@ R: SIM! 20+ anos = desgaste, pode não proteger adequadamente. Substitua por seg
 
 ### 🚨 Disjuntor Desarma Constantemente? Ligue JÁ!
 
-**Staff Seekers - Eletricista Certificado em Trás-os-Montes**
+** - Eletricista Certificado em Trás-os-Montes**
 
 📞 **Ligue Agora: 932 321 892**
-- ✅ Atendimento 24 horas (emergências elétricas)
+- ✅ Atendimento 24h/7d (emergências elétricas)
 - ✅ Diagnóstico completo €60-120
 - ✅ Substituir disjuntor €40-80
 - ✅ Adicionar circuito €150-400
 - ✅ Garantia 12 meses
-- ✅ Certificação CERTIEL incluída
+- ✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG incluída
 
 💬 **WhatsApp:** [Emergência elétrica](https://wa.me/351932321892?text=Olá,%20o%20disjuntor%20desarma%20constantemente!)
 
 🌐 **Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
-**Zonas servidas:** Bragança, Vila Real, Mirandela, Chaves, Macedo de Cavaleiros, Valpaços, Murça, Alijó, Sabrosa, Vila Pouca de Aguiar e toda a região de Trás-os-Montes.
+**Zonas servidas:** Bragança, Vila Real, Mirandela, Chaves, Trás-os-Montes, Valpaços, Murça, Alijó, Sabrosa, Vila Pouca de Aguiar e toda a região de Trás-os-Montes.
 
 ---
 

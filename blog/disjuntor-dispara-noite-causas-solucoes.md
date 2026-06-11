@@ -2,7 +2,7 @@
 title: "Disjuntor Dispara à Noite: 7 Causas e Soluções 2026"
 slug: "disjuntor-dispara-noite-causas-solucoes"
 date: "2026-03-08"
-author: "Staff Seekers"
+author: ""
 category: "Avarias"
 excerpt: "Disjuntor dispara sempre à noite? Descubra as 7 causas principais, diagnóstico passo a passo e quando chamar eletricista profissional."
 image: "/images-optimized/blog/blog-disjuntor-dispara.webp"
@@ -431,8 +431,8 @@ Não ligar tudo ao mesmo tempo.
 
 - [Quanto Custa Quadro Elétrico 2026](https://eletricista-urgente.pt/blog/quanto-custa-quadro-fusiveis-2026)
 - [Urgência Elétrica: O Que Fazer](https://eletricista-urgente.pt/blog/urgencia-eletrica-o-que-fazer-antes)
-- [Eletricista 24 Horas: Guia Completo](https://eletricista-urgente.pt/blog/eletricista-24-horas-guia-completo)
-- [Certificação CERTIEL Obrigatória](https://eletricista-urgente.pt/blog/certificacao-eletrica-obrigatoria-quando-como)
+- [Eletricista Atendimento 24h/7d: Guia Completo](https://eletricista-urgente.pt/blog/eletricista-24-horas-guia-completo)
+- [Fichas eletrotécnicas assinadas por técnico certificado DGEG Obrigatória](https://eletricista-urgente.pt/blog/certificacao-eletrica-obrigatoria-quando-como)
 
 ## Disjuntor Dispara Frequentemente?
 

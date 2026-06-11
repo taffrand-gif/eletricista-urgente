@@ -3,7 +3,7 @@ title: "Interruptor Não Funciona: 7 Causas e Como Arranjar (2026)"
 slug: "interruptor-nao-funciona"
 category: "Problemas Elétricos"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Interruptor não liga a luz ou está partido? Descubra as 7 causas principais (desde lâmpada queimada até interruptor avariado) e como arranjar. Guia completo com segurança."
 keywords: ["interruptor não funciona", "interruptor avariado", "luz não acende", "trocar interruptor", "eletricista Bragança", "arranjar interruptor"]
 priority: "HIGH DEMAND"
@@ -13,7 +13,7 @@ priority: "HIGH DEMAND"
 
 **O interruptor não liga a luz ou está partido?** Este é um problema comum que pode ter causas simples (lâmpada queimada) ou mais complexas (interruptor avariado). Neste guia completo, vou mostrar-lhe **as 7 causas principais** e **como arranjar com segurança**.
 
-> ⚠️ **ATENÇÃO:** Trabalhos elétricos envolvem risco de eletrocussão. Se não tem experiência, ligue já: **[932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança em 30 minutos.
+> ⚠️ **ATENÇÃO:** Trabalhos elétricos envolvem risco de eletrocussão. Se não tem experiência, ligue já: **[932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança Atendimento prioritário.
 
 ## 🔍 Diagnóstico Inicial: Teste Simples
 
@@ -426,18 +426,18 @@ Na maioria dos casos, interruptor que não funciona tem **causa identificável e
 
 ### 🚨 Interruptor Não Funciona? Ajuda Profissional
 
-**Staff Seekers — Eletricista Certificado em Bragança**
+** — Eletricista Certificado em Bragança**
 
 📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20um%20interruptor%20que%20não%20funciona.%20Pode%20ajudar%3F)**
 
-✅ Diagnóstico rápido em 30 minutos  
+✅ Diagnóstico rápido Atendimento prioritário  
 ✅ Arranjo ou substituição  
 ✅ Materiais de qualidade em stock  
 ✅ Garantia 1 ano no serviço  
 ✅ Preços transparentes  
 ✅ Técnico em sua casa em 30-45 minutos  
-✅ Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região
+✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não fique sem luz!** Contacte-nos já para arranjo rápida e segura.
 

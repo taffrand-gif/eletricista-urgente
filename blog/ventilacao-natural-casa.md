@@ -3,7 +3,7 @@ title: "Ventilação Natural Casa: Conforto Verão Sem AC e Grátis"
 slug: "ventilacao-natural-casa"
 category: "eficiencia-energetica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Ventilação natural casa: ventilação cruzada, efeito chaminé, ventilação noturna. Arrefece 5-10°C sem AC, grátis, ecológico. Descubra técnicas e melhorias."
 keywords: ["ventilação natural", "arrefecer casa", "sem ar condicionado", "verão", "Trás-os-Montes"]
 ---
@@ -424,7 +424,7 @@ keywords: ["ventilação natural", "arrefecer casa", "sem ar condicionado", "ver
 ✅ Ventiladores teto (se experiência)
 ✅ Rotina ventilação
 
-## ✅ Por Que Escolher Staff Seekers
+## ✅ Por Que Escolher 
 
 ### Consultoria Ventilação
 
@@ -460,7 +460,7 @@ keywords: ["ventilação natural", "arrefecer casa", "sem ar condicionado", "ver
 ## 🌍 Cobertura
 
 Atendemos **86 cidades** em Trás-os-Montes:
-- Bragança, Mirandela, Macedo de Cavaleiros
+- Bragança, Mirandela, Trás-os-Montes
 - Vila Real, Chaves, Vinhais
 - Vimioso, Miranda do Douro, Mogadouro
 - E mais 77 cidades
@@ -471,7 +471,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 📞 **+351 932 321 892**
 💬 **[WhatsApp](https://wa.me/351932321892?text=Ventilação%20natural)**
 
-**Resposta em 5 minutos. Análise casa sem compromisso.**
+**Resposta rápida garantida. Análise casa sem compromisso.**
 
 ---
 

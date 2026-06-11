@@ -3,7 +3,7 @@ title: "Alarme de Incêndio Obrigatório? Guia Completo 2026"
 slug: "alarme-incendio-obrigatorio"
 category: "Segurança"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Alarme de incêndio é obrigatório em casa? Descubra a legislação 2026, tipos de detetores (fumo, calor, CO), onde instalar, custos em Trás-os-Montes (€15-150) e como salva vidas."
 keywords: ["alarme incêndio obrigatório", "detetor fumo", "detetor incêndio", "legislação alarme incêndio", "eletricista Trás-os-Montes", "segurança incêndio casa", "detetor monóxido carbono"]
 priority: "HIGH DEMAND"
@@ -479,7 +479,7 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 
 ### 📞 Quer Instalar Sistema de Alarme?
 
-**Staff Seekers** - Eletricista Certificado em Trás-os-Montes  
+**** - Eletricista Certificado em Trás-os-Montes  
 ✅ Instalação de detetores de incêndio  
 ✅ Sistemas interligados  
 ✅ Consultoria de segurança  
@@ -490,7 +490,7 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20alarmes%20de%20incêndio!)  
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
-**Servimos:** Bragança, Vila Real, Chaves, Mirandela, Macedo de Cavaleiros e toda a região de Trás-os-Montes.
+**Servimos:** Bragança, Vila Real, Chaves, Mirandela, Trás-os-Montes e toda a região de Trás-os-Montes.
 
 ---
 

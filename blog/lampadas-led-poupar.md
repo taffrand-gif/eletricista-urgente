@@ -3,7 +3,7 @@ title: "Lâmpadas LED Poupar: -80% Energia e ROI 6 Meses"
 slug: "lampadas-led-poupar"
 category: "eficiencia-energetica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Lâmpadas LED: poupam 80% vs incandescentes, duram 25,000h (25 anos), ROI 6 meses. Descubra tipos, custos €2-15, equivalências e como escolher melhor."
 keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista", "Trás-os-Montes"]
 ---
@@ -517,7 +517,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 **Instalar dimmer**: €30-60/unidade
 **Projeto iluminação**: €200-500
 
-## ✅ Por Que Escolher Staff Seekers
+## ✅ Por Que Escolher 
 
 ### Consultoria Iluminação
 
@@ -559,7 +559,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 ## 🌍 Cobertura
 
 Atendemos **86 cidades** em Trás-os-Montes:
-- Bragança, Mirandela, Macedo de Cavaleiros
+- Bragança, Mirandela, Trás-os-Montes
 - Vila Real, Chaves, Vinhais
 - Vimioso, Miranda do Douro, Mogadouro
 - E mais 77 cidades
@@ -570,7 +570,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 📞 **+351 932 321 892**
 💬 **[WhatsApp](https://wa.me/351932321892?text=Lâmpadas%20LED%20poupar)**
 
-**Resposta em 5 minutos. Recomendação personalizada + orçamento.**
+**Resposta rápida garantida. Recomendação personalizada + orçamento.**
 
 ---
 

@@ -3,7 +3,7 @@ title: "Iluminação LED: 10 Vantagens e Como Poupar 80% (2026)"
 slug: "iluminacao-led-vantagens"
 category: "Eficiência Energética"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Iluminação LED poupa 80% na conta de luz. Descubra as 10 vantagens, como escolher lâmpadas certas e ROI em 6 meses. Guia completo para Trás-os-Montes."
 keywords: "iluminacao led, lampadas led, poupar energia, led vs incandescente, eletricista braganca, eficiencia energetica"
 priority: "HIGH DEMAND"
@@ -469,7 +469,7 @@ R: 2700K (quente) para quartos/salas, 4000K (neutro) para cozinhas/WC, 6000K (fr
 R: Apenas LED "regulável" ou "dimmable". LED normal pisca em dimmer. Verifique embalagem antes de comprar.
 
 **P: Quanto custa eletricista em Bragança?**
-R: Instalar dimmer LED €60-100, focos embutidos €40-80/cada, sistema smart €150-500. Staff Seekers: **932 321 892**
+R: Instalar dimmer LED €60-100, focos embutidos €40-80/cada, sistema smart €150-500. : **932 321 892**
 
 ## Conclusão: Mude Hoje, Poupe Amanhã
 
@@ -477,7 +477,7 @@ R: Instalar dimmer LED €60-100, focos embutidos €40-80/cada, sistema smart �
 
 ### 🚨 Quer Instalar Iluminação LED Profissional?
 
-**Staff Seekers - Eletricista Certificado em Trás-os-Montes**
+** - Eletricista Certificado em Trás-os-Montes**
 
 📞 **Ligue Agora: 932 321 892**
 - ✅ Consultoria iluminação LED gratuita
@@ -491,7 +491,7 @@ R: Instalar dimmer LED €60-100, focos embutidos €40-80/cada, sistema smart �
 
 🌐 **Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
-**Zonas servidas:** Bragança, Vila Real, Mirandela, Chaves, Macedo de Cavaleiros, Valpaços, Murça, Alijó, Sabrosa, Vila Pouca de Aguiar e toda a região de Trás-os-Montes.
+**Zonas servidas:** Bragança, Vila Real, Mirandela, Chaves, Trás-os-Montes, Valpaços, Murça, Alijó, Sabrosa, Vila Pouca de Aguiar e toda a região de Trás-os-Montes.
 
 ---
 

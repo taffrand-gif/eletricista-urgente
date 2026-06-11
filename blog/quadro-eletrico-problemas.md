@@ -3,7 +3,7 @@ title: "Quadro Elétrico: 8 Problemas Comuns e Soluções (2026)"
 slug: "quadro-eletrico-problemas"
 category: "Instalação Elétrica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Problemas no quadro elétrico? Descubra os 8 problemas mais comuns, como identificar e quando substituir. Guia completo de segurança para Trás-os-Montes."
 keywords: "quadro eletrico, disjuntor desarma, quadro eletrico antigo, substituir quadro, eletricista braganca, instalacao eletrica"
 priority: "HIGH DEMAND"
@@ -395,7 +395,7 @@ TOTAL: 11-15 circuitos
 | Quadro básico (6-8 circuitos) | €400-700 | €700-1.200 |
 | Quadro médio (10-12 circuitos) | €600-1.000 | €1.000-1.600 |
 | Quadro completo (14-18 circuitos) | €800-1.500 | €1.400-2.500 |
-| Certificação CERTIEL | €150-300 | €250-450 |
+| Fichas eletrotécnicas assinadas por técnico certificado DGEG | €150-300 | €250-450 |
 
 **Dica:** Substituição preventiva €600 vs emergência €1.500+
 
@@ -452,21 +452,21 @@ R: SIM! Sem diferencial = risco eletrocussão. Fusíveis = proteção inadequada
 
 ### 🚨 Problema no Quadro Elétrico? Ligue JÁ!
 
-**Staff Seekers - Eletricista Certificado em Trás-os-Montes**
+** - Eletricista Certificado em Trás-os-Montes**
 
 📞 **Ligue Agora: 932 321 892**
-- ✅ Atendimento 24 horas (emergências elétricas)
-- ✅ Eletricista certificado chega em 30 minutos
+- ✅ Atendimento 24h/7d (emergências elétricas)
+- ✅ Eletricista certificado chega Atendimento prioritário
 - ✅ Inspeção completa do quadro €80-150
 - ✅ Substituição quadro completo €600-1.500
-- ✅ Certificação CERTIEL incluída
+- ✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG incluída
 - ✅ Garantia 12 meses em todos os serviços
 
 💬 **WhatsApp:** [Emergência elétrica](https://wa.me/351932321892?text=Olá,%20tenho%20problema%20no%20quadro%20elétrico!)
 
 🌐 **Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
-**Zonas servidas:** Bragança, Vila Real, Mirandela, Chaves, Macedo de Cavaleiros, Valpaços, Murça, Alijó, Sabrosa, Vila Pouca de Aguiar e toda a região de Trás-os-Montes.
+**Zonas servidas:** Bragança, Vila Real, Mirandela, Chaves, Trás-os-Montes, Valpaços, Murça, Alijó, Sabrosa, Vila Pouca de Aguiar e toda a região de Trás-os-Montes.
 
 ---
 

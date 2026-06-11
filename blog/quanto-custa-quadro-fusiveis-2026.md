@@ -2,7 +2,7 @@
 title: "Quanto Custa Mudar Quadro Elétrico Fusíveis 2026"
 slug: "quanto-custa-mudar-quadro-eletrico-fusiveis"
 date: "2026-03-08"
-author: "Staff Seekers"
+author: ""
 category: "Modernização"
 excerpt: "Guia completo sobre substituição de quadro elétrico com fusíveis. Preços 2026, processo, subvenções e ROI segurança."
 image: "/images-optimized/blog/blog-quadro-antigo.webp"
@@ -23,7 +23,7 @@ Quadro elétrico com fusíveis é perigoso, ilegal e desvaloriza o imóvel. Este
 Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétricas).
 
 **Consequências:**
-- ❌ Não pode vender imóvel (certificação CERTIEL recusada)
+- ❌ Não pode vender imóvel (Fichas eletrotécnicas assinadas por técnico certificado DGEG recusada)
 - ❌ Contrato arrendamento inválido
 - ❌ Seguro pode recusar cobrir danos elétricos
 - ❌ Multa até 3740€ se fiscalizado
@@ -89,7 +89,7 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 ✅ Instalação quadro novo
 ✅ Ligação todos circuitos
 ✅ Testes elétricos completos
-✅ Certificação CERTIEL
+✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG
 ✅ Limpeza área trabalho
 
 **Garantia:**
@@ -219,9 +219,9 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 - Resultados testes
 - Esquema unifilar
 
-**Envio CERTIEL:**
+**Envio DGEG:**
 - Eletricista envia documentação
-- CERTIEL valida
+- DGEG valida
 - Emite certificado
 - Envia por email + correio
 
@@ -230,7 +230,7 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 ### PASSO 6: Entrega (Dia 5)
 
 **Recebe:**
-- Certificado CERTIEL original
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG original
 - Termo Responsabilidade
 - Garantia 5 anos
 - Manual quadro
@@ -251,7 +251,7 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 
 **Inclui:**
 - Modernização quadro elétrico
-- Certificação CERTIEL
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG
 - Iluminação LED
 - Isolamento térmico
 
@@ -381,7 +381,7 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 ## Artigos Relacionados
 
 - [Disjuntor Dispara: Causas e Soluções](https://eletricista-urgente.pt/blog/disjuntor-dispara-noite-causas-solucoes)
-- [Certificação CERTIEL: Preços 2026](https://eletricista-urgente.pt/blog/preco-certificacao-certiel-2026)
+- [Fichas eletrotécnicas assinadas por técnico certificado DGEG: Preços 2026](https://eletricista-urgente.pt/blog/preco-certificacao-certiel-2026)
 - [Urgência Elétrica: O Que Fazer](https://eletricista-urgente.pt/blog/urgencia-eletrica-o-que-fazer-antes)
 - [Eletricista vs Bricolagem](https://eletricista-urgente.pt/blog/eletricista-vs-bricolagem-quando-vale-pena)
 
@@ -392,7 +392,7 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 ✅ Orçamento gratuito sem compromisso
 ✅ Quadros certificados (Schneider, Legrand)
 ✅ Instalação em 2-4 horas
-✅ Certificação CERTIEL incluída
+✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG incluída
 ✅ Garantia 5 anos
 ✅ Subvenções até 85%
 

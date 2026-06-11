@@ -3,7 +3,7 @@ title: "Como Instalar Ventilador de Teto: Guia Completo Passo a Passo (2026)"
 slug: "instalar-ventilador-teto"
 category: "Instalações Elétricas"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Quer instalar ventilador de teto? Descubra como fazer em 10 passos seguros. Guia completo com tipos, fixação, ligação elétrica, custos e erros a evitar."
 keywords: ["instalar ventilador teto", "ventilador teto com luz", "como montar ventilador", "ventilador teto seguro", "eletricista Bragança", "fixar ventilador"]
 priority: "SEASONAL"
@@ -13,7 +13,7 @@ priority: "SEASONAL"
 
 **Quer instalar um ventilador de teto para refrescar a casa no verão?** A instalação é relativamente simples mas requer cuidados especiais de segurança e fixação. Neste guia completo, vou mostrar-lhe **como instalar ventilador de teto em 10 passos**, com todos os detalhes sobre tipos, fixação segura e ligação elétrica.
 
-> ⚠️ **ATENÇÃO:** Trabalhos elétricos envolvem risco de eletrocussão. Se não tem experiência, ligue já: **[932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança em 30 minutos.
+> ⚠️ **ATENÇÃO:** Trabalhos elétricos envolvem risco de eletrocussão. Se não tem experiência, ligue já: **[932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança Atendimento prioritário.
 
 ## 🔍 Tipos de Ventiladores de Teto
 
@@ -492,7 +492,7 @@ Instalar ventilador de teto é **relativamente simples** mas requer **atenção 
 
 ### 🚨 Precisa de Eletricista Certificado em Trás-os-Montes?
 
-**Staff Seekers — Eletricista Certificado em Bragança**
+** — Eletricista Certificado em Bragança**
 
 📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20instalar%20um%20ventilador%20de%20teto.%20Pode%20ajudar%3F)**
@@ -503,7 +503,7 @@ Instalar ventilador de teto é **relativamente simples** mas requer **atenção 
 ✅ Garantia 2 anos no serviço  
 ✅ Fornecemos ventiladores de qualidade  
 ✅ Técnico em sua casa em 30-45 minutos  
-✅ Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região
+✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não arrisque a sua segurança!** Fixação inadequada pode causar acidentes graves. Contacte-nos já para instalação profissional.
 

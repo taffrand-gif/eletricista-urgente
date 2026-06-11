@@ -2,7 +2,7 @@
 title: "Quanto Custa Instalar Tomada Exterior Portugal 2026"
 slug: "quanto-custa-instalar-tomada-exterior"
 date: "2026-03-08"
-author: "Staff Seekers"
+author: ""
 category: "Instalações"
 excerpt: "Guia completo sobre instalação de tomadas exteriores. Preços, tipos (IP44/IP65), normas, materiais e processo de instalação."
 image: "/images-optimized/blog/blog-tomada-exterior.webp"
@@ -356,7 +356,7 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 ### 2. Quanto tempo dura a instalação?
 **2-4 horas** conforme distância. Instalação simples (5m): 2h. Instalação longa (30m enterrado): 4h.
 
-### 3. Preciso de certificação CERTIEL?
+### 3. Preciso de Fichas eletrotécnicas assinadas por técnico certificado DGEG?
 **Não obrigatório** para adicionar 1 tomada. Mas se fizer remodelação >50% instalação, sim.
 
 ### 4. Posso usar extensão em vez de instalar tomada?
@@ -374,7 +374,7 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 ## Artigos Relacionados
 
 - [Quanto Custa Quadro Elétrico 2026](https://eletricista-urgente.pt/blog/quanto-custa-quadro-fusiveis-2026)
-- [Certificação CERTIEL: Preços e Processo](https://eletricista-urgente.pt/blog/preco-certificacao-certiel-2026)
+- [Fichas eletrotécnicas assinadas por técnico certificado DGEG: Preços e Processo](https://eletricista-urgente.pt/blog/preco-certificacao-certiel-2026)
 - [Eletricista vs Bricolagem: Quando Vale a Pena](https://eletricista-urgente.pt/blog/eletricista-vs-bricolagem-quando-vale-pena)
 - [Melhores Eletricistas Bragança](https://eletricista-urgente.pt/blog/melhores-eletricistas-braganca-2026)
 

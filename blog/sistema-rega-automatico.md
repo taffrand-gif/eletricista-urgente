@@ -3,7 +3,7 @@ title: "Sistema Rega Automático: Poupe Água e Tempo no Jardim"
 slug: "sistema-rega-automatico"
 category: "modernizacao"
 date: "2026-03-03"
-author: "Staff Seekers"
+author: ""
 excerpt: "Sistema rega automático poupa 30-50% água, tempo e mantém jardim perfeito. Descubra tipos (gota-a-gota, aspersores), custos €300-2000, instalação e programação."
 keywords: ["rega automática", "sistema rega", "gota-a-gota", "aspersores", "Trás-os-Montes"]
 ---
@@ -499,7 +499,7 @@ keywords: ["rega automática", "sistema rega", "gota-a-gota", "aspersores", "Tr�
 
 **Custo**: €100-200
 
-## ✅ Por Que Escolher Staff Seekers
+## ✅ Por Que Escolher 
 
 ### Projeto Personalizado
 
@@ -544,7 +544,7 @@ keywords: ["rega automática", "sistema rega", "gota-a-gota", "aspersores", "Tr�
 ## 🌍 Cobertura
 
 Atendemos **86 cidades** em Trás-os-Montes:
-- Bragança, Mirandela, Macedo de Cavaleiros
+- Bragança, Mirandela, Trás-os-Montes
 - Vila Real, Chaves, Vinhais
 - Vimioso, Miranda do Douro, Mogadouro
 - E mais 77 cidades
@@ -555,7 +555,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 📞 **+351 932 321 892**
 💬 **[WhatsApp](https://wa.me/351932321892?text=Sistema%20rega%20automático)**
 
-**Resposta em 5 minutos. Projeto personalizado sem compromisso.**
+**Resposta rápida garantida. Projeto personalizado sem compromisso.**
 
 ---
 

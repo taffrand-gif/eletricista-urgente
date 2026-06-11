@@ -2,12 +2,12 @@
 title: "Melhores Eletricistas Bragança 2026: Como Escolher"
 slug: "melhores-eletricistas-braganca-como-escolher"
 date: "2026-03-08"
-author: "Staff Seekers"
+author: ""
 category: "Guias"
 excerpt: "Guia completo para escolher eletricista em Bragança. 10 critérios essenciais, perguntas a fazer, red flags e checklist de verificação."
 image: "/images-optimized/blog/blog-escolher-eletricista.webp"
 metaTitle: "Melhores Eletricistas Bragança 2026 | Guia"
-metaDescription: "Como escolher eletricista em Bragança: certificação CERTIEL, experiência, preços justos. Checklist 12 pontos. Red flags evitar. Ligue 932 321 892!"
+metaDescription: "Como escolher eletricista em Bragança: Fichas eletrotécnicas assinadas por técnico certificado DGEG, experiência, preços justos. Checklist 12 pontos. Red flags evitar. Ligue 932 321 892!"
 keywords: ["melhores eletricistas bragança", "como escolher eletricista", "eletricista certificado bragança", "eletricista confiável"]
 ---
 
@@ -17,14 +17,14 @@ Precisa de eletricista em Bragança mas não sabe como escolher? Este guia compl
 
 ## 10 Critérios Essenciais
 
-### 1. Certificação CERTIEL (OBRIGATÓRIO)
+### 1. Fichas eletrotécnicas assinadas por técnico certificado DGEG (OBRIGATÓRIO)
 
 **O que é:**
 Certificação oficial que permite emitir certificados elétricos.
 
 **Porquê importante:**
 - Sem certificação = trabalho ilegal
-- Certificado CERTIEL inválido se não for certificado
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG inválido se não for certificado
 - Seguro não cobre se não for certificado
 - Multa até 3740€ por trabalho ilegal
 
@@ -176,10 +176,10 @@ Pedir apólice seguro (nome, validade, valor)
 
 ### Sobre Certificação
 
-**1. Tem certificação CERTIEL válida?**
+**1. Tem Fichas eletrotécnicas assinadas por técnico certificado DGEG válida?**
 Resposta esperada: "Sim, número XXXX, pode verificar em certiel.pt"
 
-**2. Emite certificado CERTIEL?**
+**2. Emite Fichas eletrotécnicas assinadas por técnico certificado DGEG?**
 Resposta esperada: "Sim, incluído no preço" ou "Sim, custo adicional X€"
 
 ### Sobre Experiência
@@ -304,7 +304,7 @@ Saber se pode deixar chaves
 
 ### Antes de Contratar
 
-- [ ] Verificou certificação CERTIEL online
+- [ ] Verificou Fichas eletrotécnicas assinadas por técnico certificado DGEG online
 - [ ] Pediu e recebeu orçamento escrito
 - [ ] Comparou 2-3 orçamentos diferentes
 - [ ] Verificou reviews online (Google, Facebook)
@@ -324,7 +324,7 @@ Saber se pode deixar chaves
 ### Após Trabalho
 
 - [ ] Recebeu fatura detalhada
-- [ ] Recebeu certificado CERTIEL (se aplicável)
+- [ ] Recebeu Fichas eletrotécnicas assinadas por técnico certificado DGEG (se aplicável)
 - [ ] Recebeu garantia por escrito
 - [ ] Trabalho testado e funcional
 - [ ] Área limpa
@@ -373,9 +373,9 @@ Saber se pode deixar chaves
 ### 7. Devo pagar antes ou depois?
 **Sinal 30-50%, resto após conclusão.** Nunca 100% adiantado.
 
-## Porque Escolher Staff Seekers?
+## Porque Escolher ?
 
-### ✅ Certificação CERTIEL Válida
+### ✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG Válida
 Número certificação verificável em certiel.pt
 
 ### ✅ 15+ Anos Experiência
@@ -390,7 +390,7 @@ Orçamento escrito detalhado, sem surpresas
 ### ✅ Garantia 5 Anos
 Material + mão obra
 
-### ✅ Disponível 24/7
+### ✅ Disponível Atendimento 24h/7d
 Urgências atendidas em 15-90 min
 
 ### ✅ Equipamento Profissional
@@ -407,17 +407,17 @@ Explicamos tudo em português simples
 
 ## Artigos Relacionados
 
-- [Certificação CERTIEL: Preços e Processo](https://eletricista-urgente.pt/blog/preco-certificacao-certiel-2026)
+- [Fichas eletrotécnicas assinadas por técnico certificado DGEG: Preços e Processo](https://eletricista-urgente.pt/blog/preco-certificacao-certiel-2026)
 - [Eletricista vs Bricolagem: Quando Vale a Pena](https://eletricista-urgente.pt/blog/eletricista-vs-bricolagem-quando-vale-pena)
 - [Quanto Custa Eletricista Domingo](https://eletricista-urgente.pt/blog/quanto-custa-eletricista-domingo-2026)
-- [Eletricista 24 Horas: Guia Completo](https://eletricista-urgente.pt/blog/eletricista-24-horas-guia-completo)
+- [Eletricista Atendimento 24h/7d: Guia Completo](https://eletricista-urgente.pt/blog/eletricista-24-horas-guia-completo)
 
 ## Precisa de Eletricista Confiável?
 
 **Ligue agora: 932 321 892**
 
 ✅ Orçamento gratuito sem compromisso
-✅ Certificação CERTIEL verificável
+✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG verificável
 ✅ 15+ anos experiência
 ✅ Garantia 5 anos
 ✅ Preços transparentes

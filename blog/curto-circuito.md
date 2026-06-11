@@ -3,7 +3,7 @@ title: "Curto-Circuito: O Que É, Causas e Como Prevenir"
 slug: "curto-circuito"
 category: "Segurança Elétrica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "O que é curto-circuito e como prevenir? Descubra as causas principais (cabo danificado 40%, aparelho defeituoso 30%, humidade 15%), sinais de perigo, e proteções obrigatórias. Guia de segurança para Trás-os-Montes."
 keywords: ["curto-circuito", "curto circuito", "o que é curto-circuito", "eletricista Bragança", "prevenir curto-circuito", "disjuntor dispara"]
 priority: "HIGH DEMAND"
@@ -495,27 +495,27 @@ Curto-circuito é um **perigo real e grave**, responsável por **30-40% dos inc�
 
 **📞 Ligue para inspeção: [932 321 892](tel:+351932321892)**
 
-**Serviços Staff Seekers:**
+**Serviços :**
 - Inspeção elétrica completa
 - Teste de isolamento
 - Atualização de instalações antigas
 - Instalação de proteções (diferencial, protetor sobretensão)
-- Certificação CERTIEL
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG
 
 **Cobertura:**
 - Bragança e arredores
-- Mirandela, Macedo de Cavaleiros, Miranda do Douro
+- Mirandela, Trás-os-Montes, Miranda do Douro
 - Toda a região de Trás-os-Montes
 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20inspeção%20elétrica%20completa.)**
 
-**✅ Garantias Staff Seekers:**
+**✅ Garantias :**
 - Eletricistas certificados com 15+ anos de experiência
 - Equipamento profissional (megóhmetro, testadores)
 - Relatório detalhado
 - Orçamento transparente
 - Garantia de 2 anos no trabalho
-- Disponível 24/7 para urgências
+- Disponível Atendimento 24h/7d para urgências
 
 **Proteja a sua família. Segurança elétrica é investimento, não despesa.**
 
@@ -528,4 +528,4 @@ Curto-circuito é um **perigo real e grave**, responsável por **30-40% dos inc�
 
 ---
 
-*Staff Seekers - Eletricista Certificado em Trás-os-Montes | Segurança Elétrica | 932 321 892*
+* - Eletricista Certificado em Trás-os-Montes | Segurança Elétrica | 932 321 892*

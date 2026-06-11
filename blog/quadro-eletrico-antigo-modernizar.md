@@ -3,9 +3,9 @@ title: "Quadro Elétrico Antigo? Quando e Como Modernizar"
 slug: "quadro-eletrico-antigo-modernizar"
 category: "Modernização Elétrica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Quadro elétrico com mais de 20 anos é perigoso! Descubra os 8 sinais de que precisa modernizar, benefícios (segurança +90%, disjuntor diferencial), custos em Trás-os-Montes (€300-800)."
-keywords: ["quadro elétrico antigo", "modernizar quadro elétrico", "substituir quadro elétrico", "disjuntor diferencial", "eletricista Trás-os-Montes", "certificação CERTIEL", "upgrade elétrico"]
+keywords: ["quadro elétrico antigo", "modernizar quadro elétrico", "substituir quadro elétrico", "disjuntor diferencial", "eletricista Trás-os-Montes", "Fichas eletrotécnicas assinadas por técnico certificado DGEG", "upgrade elétrico"]
 priority: "HIGH DEMAND"
 ---
 
@@ -21,7 +21,7 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 - ✅ Benefícios da modernização (segurança +90%)
 - ✅ O que inclui um upgrade completo
 - ✅ Custos em Trás-os-Montes (€300-800)
-- ✅ Certificação CERTIEL obrigatória
+- ✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG obrigatória
 
 **📞 Eletricista Certificado 24h:** [932 321 892](tel:+351932321892)  
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20modernizar%20o%20quadro%20elétrico!)
@@ -123,7 +123,7 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 
 ---
 
-### 8. Não Tem Certificação CERTIEL
+### 8. Não Tem Fichas eletrotécnicas assinadas por técnico certificado DGEG
 
 **Sinal:** Não tem certificado elétrico válido
 
@@ -174,7 +174,7 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 - Protege contra choque elétrico
 - Protege aparelhos (TV, PC, etc.)
 - Não desarma sem motivo
-- Certificação CERTIEL válida
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG válida
 - Valoriza imóvel 5-10%
 
 ---
@@ -209,7 +209,7 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 **5. Certificação:**
 - Inspeção completa
 - Termo de Responsabilidade
-- Certificado CERTIEL
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG
 - Registo na DGEG
 
 ---
@@ -235,7 +235,7 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 | Disjuntor magnetotérmico 16A | €8-15 cada |
 | Proteção sobretensão | €50-100 |
 | Elétrodo de terra | €30-60 |
-| Certificação CERTIEL | €150-250 |
+| Fichas eletrotécnicas assinadas por técnico certificado DGEG | €150-250 |
 | Mão de obra | €200-400 |
 
 ### Upgrades Opcionais
@@ -281,7 +281,7 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 
 ### 3. Valorização do Imóvel
 
-**Certificação CERTIEL:**
+**Fichas eletrotécnicas assinadas por técnico certificado DGEG:**
 - Obrigatória para venda/arrendamento
 - Valoriza imóvel 5-10%
 - Facilita venda (comprador exige)
@@ -356,7 +356,7 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 
 **Documentos recebidos:**
 - Termo de Responsabilidade
-- Certificado CERTIEL
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG
 - Esquema elétrico
 - Manual de instruções
 
@@ -368,7 +368,7 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 
 **Resposta:** 1 dia (T1-T2) a 3 dias (T4-T5). Casa fica sem luz 4-8h durante trabalhos. Planeie (trabalhar fora, ir a casa de familiares).
 
-### 2. Preciso mesmo de certificação CERTIEL?
+### 2. Preciso mesmo de Fichas eletrotécnicas assinadas por técnico certificado DGEG?
 
 **Resposta:** **SIM!** Obrigatória para venda/arrendamento. Sem certificação: multa €500-3.740 + seguro não cobre sinistros + comprador pode desistir.
 
@@ -413,10 +413,10 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 
 ### 📞 Precisa de Modernizar Quadro Elétrico?
 
-**Staff Seekers** - Eletricista Certificado em Trás-os-Montes  
+**** - Eletricista Certificado em Trás-os-Montes  
 ✅ Inspeção gratuita  
 ✅ Modernização completa de quadros  
-✅ Certificação CERTIEL incluída  
+✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG incluída  
 ✅ Orçamento sem compromisso  
 ✅ Garantia de 2 anos  
 ✅ Trabalhos em 1-3 dias  
@@ -425,7 +425,7 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20modernizar%20o%20quadro%20elétrico!)  
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
-**Servimos:** Bragança, Vila Real, Chaves, Mirandela, Macedo de Cavaleiros e toda a região de Trás-os-Montes.
+**Servimos:** Bragança, Vila Real, Chaves, Mirandela, Trás-os-Montes e toda a região de Trás-os-Montes.
 
 ---
 

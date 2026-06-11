@@ -3,7 +3,7 @@ title: "Como Ligar Exaustor: Guia Completo (Cozinha e Casa de Banho)"
 slug: "ligar-exaustor"
 category: "Instalações Elétricas"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Quer ligar exaustor na cozinha ou casa de banho? Guia completo: ligação elétrica, instalação de tubo, custos €80-300, normas de ventilação. Solução para Trás-os-Montes."
 keywords: ["ligar exaustor", "instalar exaustor", "exaustor cozinha", "eletricista Bragança", "ventilação casa banho", "exaustor extração"]
 priority: "HIGH DEMAND"
@@ -461,7 +461,7 @@ Instalar um exaustor é **investimento essencial** para manter ar saudável (eli
 
 **📞 Ligue para orçamento: [932 321 892](tel:+351932321892)**
 
-**Serviços Staff Seekers:**
+**Serviços :**
 - Instalação de exaustor (cozinha, casa de banho)
 - Ligação elétrica certificada
 - Fazer furo na parede
@@ -470,12 +470,12 @@ Instalar um exaustor é **investimento essencial** para manter ar saudável (eli
 
 **Cobertura:**
 - Bragança e arredores
-- Mirandela, Macedo de Cavaleiros, Miranda do Douro
+- Mirandela, Trás-os-Montes, Miranda do Douro
 - Toda a região de Trás-os-Montes
 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20um%20exaustor.%20Podem%20ajudar%3F)**
 
-**✅ Garantias Staff Seekers:**
+**✅ Garantias :**
 - Eletricistas certificados com 15+ anos de experiência
 - Instalação conforme normas elétricas
 - Teste completo de extração
@@ -493,4 +493,4 @@ Instalar um exaustor é **investimento essencial** para manter ar saudável (eli
 
 ---
 
-*Staff Seekers - Eletricista Certificado em Trás-os-Montes | Instalações Profissionais | 932 321 892*
+* - Eletricista Certificado em Trás-os-Montes | Instalações Profissionais | 932 321 892*

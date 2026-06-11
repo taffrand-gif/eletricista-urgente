@@ -3,7 +3,7 @@ title: "Interruptor Não Funciona? 7 Causas e Como Arranjar"
 slug: "interruptor-nao-funciona-arranjar"
 category: "Arranjos Elétricas"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Interruptor não liga a luz? Descubra as 7 causas principais (lâmpada queimada 35%, interruptor defeituoso 30%, disjuntor desarmado 20%) e como resolver em Trás-os-Montes."
 keywords: ["interruptor não funciona", "interruptor avariado", "luz não acende", "interruptor defeituoso", "arranjar interruptor", "eletricista Trás-os-Montes", "trocar interruptor"]
 priority: "HIGH DEMAND"
@@ -301,7 +301,7 @@ O problema é:
 
 ### 6. Inspeção Elétrica Regular
 - Casa com 20+ anos: inspeção a cada 5 anos
-- Certificação CERTIEL atualizada
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG atualizada
 - Identifica problemas antes de falharem
 
 ---
@@ -310,7 +310,7 @@ O problema é:
 
 ### 1. Posso substituir o interruptor eu mesmo?
 
-**Resposta:** **Legalmente NÃO** em Portugal. Trabalhos elétricos devem ser feitos por eletricista certificado com emissão de certificado CERTIEL. Além disso, é **perigoso** sem conhecimentos - risco de choque elétrico fatal.
+**Resposta:** **Legalmente NÃO** em Portugal. Trabalhos elétricos devem ser feitos por eletricista certificado com emissão de Fichas eletrotécnicas assinadas por técnico certificado DGEG. Além disso, é **perigoso** sem conhecimentos - risco de choque elétrico fatal.
 
 ### 2. Quanto tempo dura um interruptor?
 
@@ -356,10 +356,10 @@ O problema é:
 
 ### 📞 Precisa de Ajuda Profissional?
 
-**Staff Seekers** - Eletricista Certificado em Trás-os-Montes  
+**** - Eletricista Certificado em Trás-os-Montes  
 ✅ Diagnóstico grátis por telefone  
 ✅ Emergências 24h/7 dias  
-✅ Certificação CERTIEL  
+✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG  
 ✅ Orçamento sem compromisso  
 ✅ Garantia de 2 anos  
 ✅ Técnico em menos de 2h (urgências)
@@ -368,7 +368,7 @@ O problema é:
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20um%20interruptor%20que%20não%20funciona%20e%20preciso%20de%20ajuda!)  
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
-**Servimos:** Bragança, Vila Real, Chaves, Mirandela, Macedo de Cavaleiros e toda a região de Trás-os-Montes.
+**Servimos:** Bragança, Vila Real, Chaves, Mirandela, Trás-os-Montes e toda a região de Trás-os-Montes.
 
 ---
 

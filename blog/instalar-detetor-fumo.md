@@ -3,7 +3,7 @@ title: "Instalar Detetor de Fumo: Guia Completo + Onde Colocar (Salva Vidas)"
 slug: instalar-detetor-fumo
 category: Segurança Elétrica
 date: 2026-03-04
-author: Staff Seekers
+author: 
 excerpt: "Detetores de fumo salvam vidas — reduzem mortes em incêndios em 50%. Descubra os 3 tipos, onde instalar (7 locais essenciais), como testar, manutenção e requisitos legais em Portugal. Guia completo 2026."
 keywords: 
   - detetor de fumo
@@ -32,7 +32,7 @@ Neste guia completo, vou mostrar-lhe:
 
 **⚠️ IMPORTANTE:** Detetor de fumo **NÃO é opcional** — é questão de vida ou morte. Invista €15-40 e proteja a sua família.
 
-**📞 Precisa de ajuda profissional? Ligue já: [932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança, Mirandela, Macedo de Cavaleiros.
+**📞 Precisa de ajuda profissional? Ligue já: [932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança, Mirandela, Trás-os-Montes.
 
 ---
 
@@ -556,7 +556,7 @@ Neste guia completo, vou mostrar-lhe:
 
 ## 📍 Instalação de Detetores de Fumo em Trás-os-Montes
 
-**Staff Seekers — Eletricista Certificado**
+** — Eletricista Certificado**
 
 ✅ Instalação de detetores de fumo e CO  
 ✅ Sistemas interligados (wireless ou cabo)  
@@ -568,7 +568,7 @@ Neste guia completo, vou mostrar-lhe:
 
 **💬 WhatsApp:** [Clique para falar connosco](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20detetores%20de%20fumo%20em%20casa.)
 
-**Zonas servidas:** Bragança, Mirandela, Macedo de Cavaleiros, Chaves, Vila Real, Vinhais, Mogadouro, Miranda do Douro e todo o distrito de Bragança e Vila Real.
+**Zonas servidas:** Bragança, Mirandela, Trás-os-Montes, Chaves, Vila Real, Vinhais, Mogadouro, Miranda do Douro e todo o distrito de Bragança e Vila Real.
 
 ---
 
@@ -578,7 +578,7 @@ Um detetor de fumo é o **investimento mais importante** que pode fazer para pro
 
 ✅ **Reduz mortes em 50%** (estatística comprovada)  
 ✅ **Custa apenas €15-50** (menos que jantar fora)  
-✅ **Instala em 15 minutos** (qualquer pessoa consegue)  
+✅ **Instala Atendimento prioritário** (qualquer pessoa consegue)  
 ✅ **Alerta nos primeiros 30-60 segundos** (tempo para escapar)  
 ✅ **Funciona 24h/dia, 365 dias/ano**  
 

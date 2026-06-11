@@ -1,6 +1,6 @@
 # Eletricista Urgente 24h - Norte Reparos (Tras-os-Montes, Portugal)
 
-> Servico de eletricidade de urgencia 24h/7j em Tras-os-Montes. Curto-circuitos, falhas de energia, disjuntores que disparam. Resposta em 30 segundos.
+> Servico de eletricidade de urgencia 24h/7d em Tras-os-Montes. Curto-circuitos, falhas de energia, disjuntores que disparam. Resposta em 30 segundos.
 
 ## Servicos de Urgencia
 - Service: Avaria eletrica (electrical fault) - desde 135 EUR (1h)
@@ -21,7 +21,7 @@
 ## Cidades Servidas (resposta rapida)
 City: Braganca - 30-45 min
 City: Mirandela - 25-35 min
-City: Macedo de Cavaleiros - 5-15 min (sede)
+City: Trás-os-Montes - 5-15 min (sede)
 City: Chaves - 50-70 min
 City: Vila Real - 45-65 min
 City: Mogadouro - 35-55 min

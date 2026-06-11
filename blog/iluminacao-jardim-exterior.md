@@ -3,7 +3,7 @@ title: "Iluminação Jardim Exterior: LED, Solar e Automação 2026"
 slug: "iluminacao-jardim-exterior"
 category: "modernizacao"
 date: "2026-03-03"
-author: "Staff Seekers"
+author: ""
 excerpt: "Iluminação jardim exterior: LED poupa 80%, solar sem cabos, automação crepuscular. Descubra tipos, custos €200-2000, instalação e design paisagístico."
 keywords: ["iluminação jardim", "iluminação exterior", "LED jardim", "solar jardim", "Trás-os-Montes"]
 ---
@@ -495,7 +495,7 @@ keywords: ["iluminação jardim", "iluminação exterior", "LED jardim", "solar 
 **Custo operacional**: €0
 **Mas**: Bateria substituir 2-3 anos (€10-30 cada)
 
-## ✅ Por Que Escolher Staff Seekers
+## ✅ Por Que Escolher 
 
 ### Design Paisagístico
 
@@ -539,7 +539,7 @@ keywords: ["iluminação jardim", "iluminação exterior", "LED jardim", "solar 
 ## 🌍 Cobertura
 
 Atendemos **86 cidades** em Trás-os-Montes:
-- Bragança, Mirandela, Macedo de Cavaleiros
+- Bragança, Mirandela, Trás-os-Montes
 - Vila Real, Chaves, Vinhais
 - Vimioso, Miranda do Douro, Mogadouro
 - E mais 77 cidades
@@ -550,7 +550,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 📞 **+351 932 321 892**
 💬 **[WhatsApp](https://wa.me/351932321892?text=Iluminação%20jardim)**
 
-**Resposta em 5 minutos. Projeto personalizado sem compromisso.**
+**Resposta rápida garantida. Projeto personalizado sem compromisso.**
 
 ---
 

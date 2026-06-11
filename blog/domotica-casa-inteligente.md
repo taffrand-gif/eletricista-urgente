@@ -3,7 +3,7 @@ title: "Domótica Casa Inteligente: Automação Completa 2026"
 slug: "domotica-casa-inteligente"
 category: "modernizacao"
 date: "2026-03-03"
-author: "Staff Seekers"
+author: ""
 excerpt: "Domótica transforma casa em inteligente: controlo luzes, aquecimento, persianas por app. Descubra sistemas (KNX, Zigbee, WiFi), custos €500-8000 e poupança 20-40%."
 keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-os-Montes"]
 ---
@@ -482,7 +482,7 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 - Exterior
 - Cara mas excelente
 
-## ✅ Por Que Escolher Staff Seekers
+## ✅ Por Que Escolher 
 
 ### Especialização Domótica
 
@@ -525,7 +525,7 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 ## 🌍 Cobertura
 
 Atendemos **86 cidades** em Trás-os-Montes:
-- Bragança, Mirandela, Macedo de Cavaleiros
+- Bragança, Mirandela, Trás-os-Montes
 - Vila Real, Chaves, Vinhais
 - Vimioso, Miranda do Douro, Mogadouro
 - E mais 77 cidades
@@ -536,7 +536,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 📞 **+351 932 321 892**
 💬 **[WhatsApp](https://wa.me/351932321892?text=Domótica%20casa%20inteligente)**
 
-**Resposta em 5 minutos. Projeto personalizado sem compromisso.**
+**Resposta rápida garantida. Projeto personalizado sem compromisso.**
 
 ---
 

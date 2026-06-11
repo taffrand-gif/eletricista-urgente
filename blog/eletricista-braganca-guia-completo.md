@@ -32,4 +32,4 @@ Se vai vender, comprar ou alugar um imóvel em Bragança, vai precisar de um cer
 
 **Norte Reparos** — Serviço profissional no distrito de Bragança. Atendimento 24h, 7 dias por semana. Orçamentos por telefone ou WhatsApp: **+351 932 321 892**
 
-Servimos Bragança e todas as freguesias envolventes. Ligue já — resposta em menos de 30 minutos.
+Servimos Bragança e todas as freguesias envolventes. Ligue já — Resposta rápida garantida.

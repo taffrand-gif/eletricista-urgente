@@ -3,7 +3,7 @@ title: "Como Trocar Fusível: Guia Completo e Seguro (2026)"
 slug: "trocar-fusivel"
 category: "Manutenção Elétrica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Fusível queimou e ficou sem luz? Aprenda a identificar, trocar e prevenir fusíveis queimados. Guia completo: tipos de fusíveis, causas (sobrecarga 60%, curto-circuito 30%), segurança. Trás-os-Montes."
 keywords: ["trocar fusível", "fusível queimado", "como trocar fusível", "eletricista Bragança", "fusível cerâmico", "disjuntor vs fusível"]
 priority: "HIGH DEMAND"
@@ -370,7 +370,7 @@ Um fusível é um **dispositivo de proteção** que:
 - Grandes superfícies (Leroy Merlin, etc.)
 
 **Outras cidades:**
-- Mirandela, Macedo de Cavaleiros, Miranda do Douro
+- Mirandela, Trás-os-Montes, Miranda do Douro
 - Ferragens locais
 
 ### Online
@@ -432,26 +432,26 @@ Trocar um fusível é uma tarefa **simples mas que requer atenção absoluta à 
 
 **📞 Ligue para diagnóstico: [932 321 892](tel:+351932321892)**
 
-**Serviços Staff Seekers:**
+**Serviços :**
 - Diagnóstico de problemas elétricos
 - Atualização de fusíveis para disjuntores
 - Substituição de quadro elétrico completo
-- Certificação CERTIEL
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG
 
 **Cobertura:**
 - Bragança e arredores (30 minutos)
-- Mirandela, Macedo de Cavaleiros, Miranda do Douro
+- Mirandela, Trás-os-Montes, Miranda do Douro
 - Toda a região de Trás-os-Montes
 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20o%20fusível%20queima%20constantemente.%20Preciso%20de%20diagnóstico.)**
 
-**✅ Garantias Staff Seekers:**
+**✅ Garantias :**
 - Eletricistas certificados com 15+ anos de experiência
 - Diagnóstico preciso com equipamento profissional
 - Soluções definitivas (não temporárias)
 - Orçamento transparente antes de iniciar
 - Garantia de 2 anos no trabalho
-- Disponível 24/7 para urgências
+- Disponível Atendimento 24h/7d para urgências
 
 **Não arrisque. Segurança elétrica não tem preço.**
 
@@ -464,4 +464,4 @@ Trocar um fusível é uma tarefa **simples mas que requer atenção absoluta à 
 
 ---
 
-*Staff Seekers - Eletricista Certificado em Trás-os-Montes | Segurança Elétrica | 932 321 892*
+* - Eletricista Certificado em Trás-os-Montes | Segurança Elétrica | 932 321 892*

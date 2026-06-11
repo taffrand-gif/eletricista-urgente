@@ -3,7 +3,7 @@ title: "Cabo Elétrico Danificado? Como Identificar e Arranjar"
 slug: "cabo-eletrico-danificado-arranjar"
 category: "Segurança Elétrica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Cabo elétrico cortado, derretido ou exposto é PERIGO DE INCÊNDIO! Descubra os 8 sinais de dano, quando substituir vs arranjar, custos em Trás-os-Montes e como prevenir."
 keywords: ["cabo elétrico danificado", "fio elétrico cortado", "cabo derretido", "arranjar cabo elétrico", "eletricista Trás-os-Montes", "substituir cabo", "segurança elétrica"]
 priority: "HIGH DEMAND"
@@ -441,11 +441,11 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 
 ### 📞 Precisa de Substituir Cabo Danificado?
 
-**Staff Seekers** - Eletricista Certificado em Trás-os-Montes  
+**** - Eletricista Certificado em Trás-os-Montes  
 ✅ Emergências 24h/7 dias  
 ✅ Substituição de cabos danificados  
 ✅ Inspeção de instalações elétricas  
-✅ Certificação CERTIEL  
+✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG  
 ✅ Orçamento grátis sem compromisso  
 ✅ Atendimento em menos de 2h (urgências)  
 
@@ -453,7 +453,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20um%20cabo%20elétrico%20danificado%20e%20preciso%20de%20ajuda!)  
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
-**Servimos:** Bragança, Vila Real, Chaves, Mirandela, Macedo de Cavaleiros e toda a região de Trás-os-Montes.
+**Servimos:** Bragança, Vila Real, Chaves, Mirandela, Trás-os-Montes e toda a região de Trás-os-Montes.
 
 ---
 

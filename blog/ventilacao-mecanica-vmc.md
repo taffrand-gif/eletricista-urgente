@@ -3,7 +3,7 @@ title: "Ventilação Mecânica VMC: Solução Definitiva Humidade e Bolor"
 slug: "ventilacao-mecanica-vmc"
 category: "modernizacao"
 date: "2026-03-03"
-author: "Staff Seekers"
+author: ""
 excerpt: "VMC (Ventilação Mecânica Controlada) elimina humidade, bolor e condensação. Descubra tipos (simples/duplo fluxo), custos €800-3000, poupança energia 15-30%."
 keywords: ["VMC", "ventilação mecânica", "humidade casa", "bolor", "Trás-os-Montes"]
 ---
@@ -437,7 +437,7 @@ keywords: ["VMC", "ventilação mecânica", "humidade casa", "bolor", "Trás-os-
 - Integração Alexa/Google
 - +€200-500
 
-## ✅ Por Que Escolher Staff Seekers
+## ✅ Por Que Escolher 
 
 ### Especialização VMC
 
@@ -480,7 +480,7 @@ keywords: ["VMC", "ventilação mecânica", "humidade casa", "bolor", "Trás-os-
 ## 🌍 Cobertura
 
 Atendemos **86 cidades** em Trás-os-Montes:
-- Bragança, Mirandela, Macedo de Cavaleiros
+- Bragança, Mirandela, Trás-os-Montes
 - Vila Real, Chaves, Vinhais
 - Vimioso, Miranda do Douro, Mogadouro
 - E mais 77 cidades
@@ -491,7 +491,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 📞 **+351 932 321 892**
 💬 **[WhatsApp](https://wa.me/351932321892?text=VMC%20ventilação)**
 
-**Resposta em 5 minutos. Projeto personalizado sem compromisso.**
+**Resposta rápida garantida. Projeto personalizado sem compromisso.**
 
 ---
 

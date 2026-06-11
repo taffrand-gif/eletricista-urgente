@@ -3,7 +3,7 @@ title: "Como Poupar Eletricidade em Casa: 20 Dicas Práticas (2026)"
 slug: "poupar-eletricidade-casa"
 category: "Eficiência Energética"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Quer reduzir a conta da luz? Descubra 20 dicas práticas para poupar eletricidade em casa (desde LED até eletrodomésticos eficientes). Economize €30-100/mês com mudanças simples."
 keywords: ["poupar eletricidade", "reduzir conta luz", "economizar energia", "eficiência energética", "eletricista Bragança", "consumo elétrico"]
 priority: "TRENDING"
@@ -433,7 +433,7 @@ Poupar eletricidade não é difícil e **compensa financeiramente**:
 
 ### 🚨 Quer Otimizar Consumo Elétrico? Ajuda Profissional
 
-**Staff Seekers — Eletricista Certificado em Bragança**
+** — Eletricista Certificado em Bragança**
 
 📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20reduzir%20o%20consumo%20elétrico.%20Pode%20ajudar%3F)**
@@ -444,7 +444,7 @@ Poupar eletricidade não é difícil e **compensa financeiramente**:
 ✅ Instalação de LED, sensores, proteção  
 ✅ Consultoria para painéis solares  
 ✅ Orçamento grátis sem compromisso  
-✅ Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região
+✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Reduza a conta da luz até 50%!** Contacte-nos já para auditoria e soluções personalizadas.
 

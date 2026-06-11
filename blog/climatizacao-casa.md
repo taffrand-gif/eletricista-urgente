@@ -3,7 +3,7 @@ title: "Climatização Casa: Escolher Sistema Ideal e Poupar 30%"
 slug: "climatizacao-casa"
 category: "modernizacao"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Climatização casa: AC split, multi-split, VRF, bomba calor. Descubra qual escolher, custos €600-8000, poupança 30% com inverter, instalação e manutenção."
 keywords: ["climatização", "ar condicionado", "bomba calor", "AC inverter", "Trás-os-Montes"]
 ---
@@ -531,7 +531,7 @@ keywords: ["climatização", "ar condicionado", "bomba calor", "AC inverter", "T
 ✅ Fuga gás
 ✅ Avaria componente
 
-## ✅ Por Que Escolher Staff Seekers
+## ✅ Por Que Escolher 
 
 ### Especialização Climatização
 
@@ -576,7 +576,7 @@ keywords: ["climatização", "ar condicionado", "bomba calor", "AC inverter", "T
 ## 🌍 Cobertura
 
 Atendemos **86 cidades** em Trás-os-Montes:
-- Bragança, Mirandela, Macedo de Cavaleiros
+- Bragança, Mirandela, Trás-os-Montes
 - Vila Real, Chaves, Vinhais
 - Vimioso, Miranda do Douro, Mogadouro
 - E mais 77 cidades
@@ -587,7 +587,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 📞 **+351 932 321 892**
 💬 **[WhatsApp](https://wa.me/351932321892?text=Climatização%20casa)**
 
-**Resposta em 5 minutos. Orçamento detalhado sem compromisso.**
+**Resposta rápida garantida. Orçamento detalhado sem compromisso.**
 
 ---
 

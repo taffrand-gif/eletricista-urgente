@@ -3,7 +3,7 @@ title: "Energia Renovável: Incentivos e Apoios Portugal 2026"
 slug: "energia-renovavel-incentivos-2026"
 category: "eficiencia-energetica"
 date: "2026-03-03"
-author: "Staff Seekers"
+author: ""
 excerpt: "Incentivos energia renovável 2026: painéis solares até €2,500, baterias €1,500, bombas calor €2,500. Descubra apoios, como candidatar e ROI 6-12 anos."
 keywords: ["energia renovável", "incentivos 2026", "painéis solares", "apoios", "Trás-os-Montes"]
 ---
@@ -372,7 +372,7 @@ keywords: ["energia renovável", "incentivos 2026", "painéis solares", "apoios"
 - Compressor: 7-10 anos
 - Instalação: 2-5 anos
 
-## ✅ Por Que Escolher Staff Seekers
+## ✅ Por Que Escolher 
 
 ### Certificação Oficial
 
@@ -416,7 +416,7 @@ keywords: ["energia renovável", "incentivos 2026", "painéis solares", "apoios"
 ## 🌍 Cobertura
 
 Atendemos **86 cidades** em Trás-os-Montes:
-- Bragança, Mirandela, Macedo de Cavaleiros
+- Bragança, Mirandela, Trás-os-Montes
 - Vila Real, Chaves, Vinhais
 - Vimioso, Miranda do Douro, Mogadouro
 - E mais 77 cidades
@@ -427,7 +427,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 📞 **+351 932 321 892**
 💬 **[WhatsApp](https://wa.me/351932321892?text=Energia%20renovável%20incentivos)**
 
-**Resposta em 5 minutos. Projeto completo + apoio candidaturas.**
+**Resposta rápida garantida. Projeto completo + apoio candidaturas.**
 
 ---
 
