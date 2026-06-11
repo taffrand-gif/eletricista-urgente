@@ -265,7 +265,7 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 
 ✅ Atendimento imediato Atendimento 24h/7d
 ✅ Orçamento gratuito por telefone
-✅ Chegamos em 15-90 minutos
+✅ Resposta rápida garantida-90 minutos
 ✅ Preços transparentes sem surpresas
 ✅ Garantia 12 meses
 

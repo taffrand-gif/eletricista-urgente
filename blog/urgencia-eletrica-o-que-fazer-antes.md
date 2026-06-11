@@ -7,7 +7,7 @@ category: "Segurança"
 excerpt: "Guia urgência elétrica: como agir nos primeiros minutos, cortar corrente com segurança, documentar problema e preparar intervenção."
 image: "/images-optimized/blog/blog-seguranca-urgencia.webp"
 metaTitle: "Urgência Elétrica: O Que Fazer Antes | Guia"
-metaDescription: "Urgência elétrica: desligue quadro, não toque água, documente problema. 8 erros fatais evitar. Chegamos em 15-90min. Ligue 932 321 892!"
+metaDescription: "Urgência elétrica: desligue quadro, não toque água, documente problema. 8 erros fatais evitar. Resposta rápida garantida-90min. Ligue 932 321 892!"
 keywords: ["urgência elétrica o que fazer", "como cortar corrente casa", "emergência elétrica", "cheiro queimado eletricidade"]
 schema:
   type: "HowTo"
@@ -495,7 +495,7 @@ Se sem luz, eletricista precisa ver.
 **Ligue IMEDIATAMENTE: 932 321 892**
 
 ✅ Atendimento <3 toques
-✅ Chegamos em 15-90 minutos
+✅ Resposta rápida garantida-90 minutos
 ✅ Atendimento 24h/7d/7 dias
 ✅ Equipamento completo
 ✅ Orçamento antes arranjar

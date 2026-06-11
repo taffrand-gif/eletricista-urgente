@@ -413,7 +413,7 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 **Ligue AGORA: 932 321 892**
 
 ✅ Atendimento em <3 toques
-✅ Chegamos em 15-90 minutos
+✅ Resposta rápida garantida-90 minutos
 ✅ Equipamento completo na viatura
 ✅ Preços transparentes
 ✅ Garantia 12 meses
