@@ -436,7 +436,7 @@ R: SIM, mas verifique: potência máxima, se tem dimmer (use LED regulável), es
 ** - Eletricista Certificado em Trás-os-Montes**
 
 📞 **Ligue Agora: 932 321 892**
-- ✅ Atendimento Atendimento 24h/7d (urgências elétricas)
+- ✅ Atendimento 24h/7d (urgências elétricas)
 - ✅ Eletricista certificado chega Atendimento prioritário
 - ✅ Diagnóstico grátis (se contratar serviço)
 - ✅ Garantia 12 meses em todos os serviços

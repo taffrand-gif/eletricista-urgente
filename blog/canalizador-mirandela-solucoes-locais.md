@@ -32,4 +32,4 @@ Mirandela fica na nossa Zona 1 (próxima da base, em Trás-os-Montes). Deslocaç
 
 **Norte Reparos** — Serviço profissional no distrito de Bragança. Atendimento 24h, 7 dias por semana. Orçamentos por telefone ou WhatsApp: **+351 928 484 451**
 
-Servimos Mirandela e todas as freguesias envolventes. Ligue já — resposta Resposta rápida garantida.
+Servimos Mirandela e todas as freguesias envolventes. Ligue já — Resposta rápida garantida.

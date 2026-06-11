@@ -32,4 +32,4 @@ Em Macedo fazemos tudo: desentupimentos, buscas de fuga com câmara térmica, in
 
 **Norte Reparos** — Serviço profissional no distrito de Bragança. Atendimento 24h, 7 dias por semana. Orçamentos por telefone ou WhatsApp: **+351 928 484 451**
 
-Servimos Macedo de Cavaleiros e todas as freguesias envolventes. Ligue já — resposta Resposta rápida garantida.
+Servimos Macedo de Cavaleiros e todas as freguesias envolventes. Ligue já — Resposta rápida garantida.

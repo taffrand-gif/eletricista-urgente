@@ -455,7 +455,7 @@ R: SIM! Sem diferencial = risco eletrocussão. Fusíveis = proteção inadequada
 ** - Eletricista Certificado em Trás-os-Montes**
 
 📞 **Ligue Agora: 932 321 892**
-- ✅ Atendimento Atendimento 24h/7d (emergências elétricas)
+- ✅ Atendimento 24h/7d (emergências elétricas)
 - ✅ Eletricista certificado chega Atendimento prioritário
 - ✅ Inspeção completa do quadro €80-150
 - ✅ Substituição quadro completo €600-1.500

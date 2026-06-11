@@ -456,7 +456,7 @@ Disjuntor que desarma constantemente é **sinal de problema elétrico** que prec
 📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20o%20meu%20disjuntor%20desarma%20constantemente.%20Preciso%20de%20ajuda%20urgente!)**
 
-✅ Atendimento Atendimento 24h/7d (urgências elétricas)  
+✅ Atendimento 24h/7d (urgências elétricas)  
 ✅ Diagnóstico rápido Atendimento prioritário  
 ✅ Arranjo imediata  
 ✅ Equipamento de deteção profissional  
