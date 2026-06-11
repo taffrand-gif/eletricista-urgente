@@ -12,7 +12,7 @@ keywords: ["preço Fichas eletrotécnicas assinadas por técnico certificado DGE
 schema:
   type: "HowTo"
   name: "Como Obter Fichas eletrotécnicas assinadas por técnico certificado DGEG"
-  description: "Processo completo para obter certificação elétrica CERTIEL em Portugal"
+  description: "Processo completo para obter certificação elétrica DGEG em Portugal"
   totalTime: "P3D"
   estimatedCost:
     currency: "EUR"
@@ -32,7 +32,7 @@ A Fichas eletrotécnicas assinadas por técnico certificado DGEG é obrigatória
 
 ## O Que É a Fichas eletrotécnicas assinadas por técnico certificado DGEG?
 
-**CERTIEL** (Associação Certificadora de Instalações Elétricas) é a entidade responsável por certificar que as instalações elétricas cumprem as **Regras Técnicas das Instalações Elétricas de Baixa Tensão (RTIEBT)**.
+**DGEG** (Associação Certificadora de Instalações Elétricas) é a entidade responsável por certificar que as instalações elétricas cumprem as **Regras Técnicas das Instalações Elétricas de Baixa Tensão (RTIEBT)**.
 
 ### Porquê Existe?
 
@@ -64,7 +64,7 @@ A Fichas eletrotécnicas assinadas por técnico certificado DGEG é obrigatória
 | **Loja grande** | >150m² | 600€ | 600-1000€ |
 | **Armazém/Indústria** | Variável | 800€+ | Sob orçamento |
 
-*Nota: Preços incluem inspeção completa, testes elétricos, emissão certificado e registo CERTIEL. Não incluem correções se instalação não conforme.*
+*Nota: Preços incluem inspeção completa, testes elétricos, emissão certificado e registo DGEG. Não incluem correções se instalação não conforme.*
 
 ## Quando É Obrigatória a Certificação?
 
@@ -175,8 +175,8 @@ A Fichas eletrotécnicas assinadas por técnico certificado DGEG é obrigatória
 
 **Processo:**
 1. Eletricista preenche Termo de Responsabilidade
-2. Envia documentação para CERTIEL
-3. CERTIEL valida e emite certificado
+2. Envia documentação para DGEG
+3. DGEG valida e emite certificado
 4. Certificado enviado por email + correio
 
 **Prazo:**
@@ -192,7 +192,7 @@ A Fichas eletrotécnicas assinadas por técnico certificado DGEG é obrigatória
 - Dados imóvel e proprietário
 - Data emissão e validade
 - Assinatura eletricista certificado
-- Carimbo CERTIEL
+- Carimbo DGEG
 
 ### 2. Termo de Responsabilidade
 - Declaração eletricista
@@ -205,7 +205,7 @@ A Fichas eletrotécnicas assinadas por técnico certificado DGEG é obrigatória
 - Esquema unifilar (se aplicável)
 - Observações técnicas
 
-### 4. Comprovativo Registo CERTIEL
+### 4. Comprovativo Registo DGEG
 - Registo na base dados nacional
 - Consultável online
 - Válido para todo território nacional
@@ -338,7 +338,7 @@ Se sabe que tem problemas (ex: falta diferencial), corrija antes da inspeção. 
 - Refazer ligação terra: 180-250€
 
 ### 4. Posso certificar eu mesmo?
-**Não.** Apenas eletricistas certificados pela CERTIEL podem emitir certificados. Lista disponível em certiel.pt.
+**Não.** Apenas eletricistas certificados pela DGEG podem emitir certificados. Lista disponível em certiel.pt.
 
 ### 5. O que acontece se não tiver certificado?
 **Venda:** Escritura bloqueada

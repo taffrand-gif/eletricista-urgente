@@ -30,7 +30,7 @@ A certificação elétrica é obrigatória por lei em Portugal desde 2006. Este 
 "Estabelece as regras de segurança das instalações elétricas de baixa tensão."
 
 **Artigo 18º - Certificação:**
-"Todas as instalações elétricas devem ser certificadas por entidade certificadora reconhecida (CERTIEL)."
+"Todas as instalações elétricas devem ser certificadas por entidade certificadora reconhecida (DGEG)."
 
 **Artigo 19º - Obrigatoriedade:**
 Certificação obrigatória para:
@@ -45,7 +45,7 @@ Certificação obrigatória para:
 - Contraordenação grave: 3740-44.890€
 - Contraordenação muito grave: 44.890-220.000€
 
-### Entidade Certificadora: CERTIEL
+### Entidade Certificadora: DGEG
 
 **O que é:**
 Associação Certificadora de Instalações Elétricas, reconhecida pela DGEG (Direção Geral Energia e Geologia).
@@ -311,9 +311,9 @@ Instalação com +20 anos sem certificado.
 1. Preenche Termo Responsabilidade
 2. Anexa fotografias instalação
 3. Anexa resultados testes
-4. Envia para CERTIEL online
+4. Envia para DGEG online
 
-**CERTIEL:**
+**DGEG:**
 1. Valida documentação (1-2 dias)
 2. Emite certificado
 3. Regista base dados nacional
@@ -332,7 +332,7 @@ Instalação com +20 anos sem certificado.
 - Termo Responsabilidade eletricista
 - Relatório inspeção com fotografias
 - Resultados testes elétricos
-- Comprovativo registo CERTIEL
+- Comprovativo registo DGEG
 
 **Guardar:**
 Documentos importantes para venda/arrendamento futuro.
@@ -434,7 +434,7 @@ Documentos importantes para venda/arrendamento futuro.
 **3-5 dias úteis** se instalação conforme. **7-12 dias** se precisa correções.
 
 ### 5. Posso certificar eu mesmo?
-**Não.** Só eletricistas certificados CERTIEL podem emitir certificados. Lista em certiel.pt.
+**Não.** Só eletricistas certificados DGEG podem emitir certificados. Lista em certiel.pt.
 
 ### 6. O que acontece se não certificar?
 **Venda:** Bloqueada. **Arrendamento:** Inválido. **Multa:** 250-3740€. **Seguro:** Não cobre.
@@ -456,7 +456,7 @@ Documentos importantes para venda/arrendamento futuro.
 ✅ Garantia certificado aceite
 ✅ Processo completo explicado
 
-**WhatsApp:** [Agendar certificação](https://wa.me/351932321892?text=Preciso certificação elétrica CERTIEL)
+**WhatsApp:** [Agendar certificação](https://wa.me/351932321892?text=Preciso certificação elétrica DGEG)
 
 ---
 

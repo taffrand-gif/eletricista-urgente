@@ -219,9 +219,9 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 - Resultados testes
 - Esquema unifilar
 
-**Envio CERTIEL:**
+**Envio DGEG:**
 - Eletricista envia documentação
-- CERTIEL valida
+- DGEG valida
 - Emite certificado
 - Envia por email + correio
 

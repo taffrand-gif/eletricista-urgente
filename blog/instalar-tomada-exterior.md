@@ -365,6 +365,6 @@ A instalação de tomada no exterior requer **cuidados especiais de segurança**
 **Artigos relacionados:**
 - [Protetor de Sobretensão: O Que É e Por Que Precisa](/blog/protecao-sobretensao)
 - [Como Ligar Exaustor: Guia Completo](/blog/ligar-exaustor)
-- [Certificação Elétrica CERTIEL: Guia Completo](/blog/certificacao-eletrica-certiel-guia)
+- [Certificação Elétrica DGEG: Guia Completo](/blog/certificacao-eletrica-certiel-guia)
 - [Quadro Elétrico: Guia Completo de Manutenção](/blog/quadro-eletrico-manutencao)
 - [Eletricista em Bragança 24h](/eletricista-braganca)

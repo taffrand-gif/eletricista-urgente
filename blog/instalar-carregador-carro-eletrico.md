@@ -24,7 +24,7 @@ Mas atenção: **não é só comprar e ligar na tomada**. Precisa de:
 - ✅ Instalação elétrica adequada (potência contratada, quadro elétrico)
 - ✅ Carregador compatível com o seu carro
 - ✅ Instalação por eletricista certificado (obrigatório por lei)
-- ✅ Certificação elétrica CERTIEL
+- ✅ Certificação elétrica DGEG
 
 Neste guia completo, vou explicar **tudo o que precisa saber** para instalar um carregador de carro elétrico em casa: tipos de carregadores, potências, custos, requisitos técnicos, incentivos do governo e como escolher o melhor para o seu caso.
 

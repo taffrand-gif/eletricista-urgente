@@ -440,7 +440,7 @@ R: SIM, mas verifique: potência máxima, se tem dimmer (use LED regulável), es
 - ✅ Eletricista certificado chega Atendimento prioritário
 - ✅ Diagnóstico grátis (se contratar serviço)
 - ✅ Garantia 12 meses em todos os serviços
-- ✅ Certificação elétrica CERTIEL incluída
+- ✅ Certificação elétrica DGEG incluída
 
 💬 **WhatsApp:** [Clique para falar connosco](https://wa.me/351932321892?text=Olá,%20tenho%20uma%20lâmpada%20que%20pisca%20e%20preciso%20de%20ajuda)
 

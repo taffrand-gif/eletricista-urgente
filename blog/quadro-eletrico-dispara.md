@@ -381,7 +381,7 @@ Um quadro elétrico que dispara constantemente não é apenas um incómodo — �
 
 **Artigos relacionados:**
 - [Quadro Elétrico Antigo: Quando Substituir?](/blog/quadro-eletrico-antigo)
-- [Certificação Elétrica CERTIEL: Guia Completo](/blog/certificacao-eletrica-certiel-guia)
+- [Certificação Elétrica DGEG: Guia Completo](/blog/certificacao-eletrica-certiel-guia)
 - [Quanto Custa um Eletricista em Trás-os-Montes?](/blog/custo-eletricista-tras-os-montes-precos)
 
 ---
