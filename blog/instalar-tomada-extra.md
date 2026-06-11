@@ -33,7 +33,7 @@ priority: "HIGH DEMAND"
 2. **TESTE ausência de corrente** (multímetro)
 3. **Use ferramentas isoladas**
 4. **Trabalhe com mãos e chão secos**
-5. **Peça certificação CERTIEL depois**
+5. **Peça Fichas eletrotécnicas assinadas por técnico certificado DGEG depois**
 
 ## Por Que Precisa de Mais Tomadas?
 
@@ -297,7 +297,7 @@ priority: "HIGH DEMAND"
 - Zona 2 (60cm): IP44 obrigatório
 
 **6. Certificação:**
-- Instalação nova requer certificação CERTIEL
+- Instalação nova requer Fichas eletrotécnicas assinadas por técnico certificado DGEG
 - Apenas eletricista certificado pode emitir
 - Obrigatório para seguro e venda
 
@@ -318,7 +318,7 @@ priority: "HIGH DEMAND"
 | 4-6 tomadas (circuito novo) | €50-100 | €150-300 | €200-400 |
 | Calha técnica (2m + 4 tomadas) | €60-120 | €80-150 | €140-270 |
 | Tomada IP44 casa de banho | €15-30 | €50-100 | €65-130 |
-| Certificação CERTIEL | - | €80-150 | €80-150 |
+| Fichas eletrotécnicas assinadas por técnico certificado DGEG | - | €80-150 | €80-150 |
 
 **Fatores que aumentam custo:**
 - Parede de betão (+30%)
@@ -453,7 +453,7 @@ R: Máximo 8 tomadas por circuito 16A. Se precisar mais, adicione circuito novo 
 **P: Quanto custa adicionar tomada?**
 R: 1 tomada €50-100, 2-3 tomadas €100-190, circuito novo (4-6 tomadas) €200-400. Inclui material + instalação + certificação.
 
-**P: Preciso certificação CERTIEL?**
+**P: Preciso Fichas eletrotécnicas assinadas por técnico certificado DGEG?**
 R: SIM, para instalação nova. Obrigatório por lei. Apenas eletricista certificado emite. Custo €80-150 (geralmente incluído).
 
 **P: Quanto custa eletricista em Bragança?**
@@ -470,7 +470,7 @@ R: Instalar 1 tomada €50-100, 2-3 tomadas €100-190. Urgente 24h: +50%. : **9
 📞 **Ligue Agora: 932 321 892**
 - ✅ Instalação de tomadas €50-100/unidade
 - ✅ Circuito novo dedicado €200-400
-- ✅ Certificação CERTIEL incluída
+- ✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG incluída
 - ✅ Garantia 12 meses
 - ✅ Trabalho limpo e profissional
 - ✅ Atendimento 24 horas (urgências)

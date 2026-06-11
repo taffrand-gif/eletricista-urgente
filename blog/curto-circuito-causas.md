@@ -523,7 +523,7 @@ R: Diagnóstico €60-120, arranjo €100-500. Urgente 24h: +50-100%. : **932 32
 - ✅ Eletricista certificado chega em 30 minutos
 - ✅ Diagnóstico de curto-circuito com equipamento profissional
 - ✅ Inspeção elétrica completa €150-400
-- ✅ Certificação CERTIEL incluída
+- ✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG incluída
 
 💬 **WhatsApp:** [Emergência elétrica](https://wa.me/351932321892?text=URGENTE:%20Tenho%20problema%20elétrico%20grave!)
 

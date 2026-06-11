@@ -405,7 +405,7 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 
 - [Quanto Custa Eletricista Domingo 2026](https://eletricista-urgente.pt/blog/quanto-custa-eletricista-domingo-2026)
 - [Urgência Elétrica: O Que Fazer Antes](https://eletricista-urgente.pt/blog/urgencia-eletrica-o-que-fazer-antes)
-- [Certificação CERTIEL: Preços e Processo](https://eletricista-urgente.pt/blog/preco-certificacao-certiel-2026)
+- [Fichas eletrotécnicas assinadas por técnico certificado DGEG: Preços e Processo](https://eletricista-urgente.pt/blog/preco-certificacao-certiel-2026)
 - [Melhores Eletricistas Bragança](https://eletricista-urgente.pt/blog/melhores-eletricistas-braganca-2026)
 
 ## Precisa de Eletricista Urgente?

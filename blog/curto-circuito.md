@@ -500,7 +500,7 @@ Curto-circuito é um **perigo real e grave**, responsável por **30-40% dos inc�
 - Teste de isolamento
 - Atualização de instalações antigas
 - Instalação de proteções (diferencial, protetor sobretensão)
-- Certificação CERTIEL
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG
 
 **Cobertura:**
 - Bragança e arredores

@@ -412,7 +412,7 @@ Escolher o cabo elétrico correto é **essencial para segurança e eficiência**
 
 ✅ Escolhemos cabos adequados para cada aplicação  
 ✅ Instalação conforme normas RTIEBT  
-✅ Certificado CERTIEL incluído  
+✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG incluído  
 ✅ Materiais de qualidade certificados  
 ✅ Garantia 2 anos no serviço  
 ✅ Orçamento grátis sem compromisso  

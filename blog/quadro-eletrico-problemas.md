@@ -395,7 +395,7 @@ TOTAL: 11-15 circuitos
 | Quadro básico (6-8 circuitos) | €400-700 | €700-1.200 |
 | Quadro médio (10-12 circuitos) | €600-1.000 | €1.000-1.600 |
 | Quadro completo (14-18 circuitos) | €800-1.500 | €1.400-2.500 |
-| Certificação CERTIEL | €150-300 | €250-450 |
+| Fichas eletrotécnicas assinadas por técnico certificado DGEG | €150-300 | €250-450 |
 
 **Dica:** Substituição preventiva €600 vs emergência €1.500+
 
@@ -459,7 +459,7 @@ R: SIM! Sem diferencial = risco eletrocussão. Fusíveis = proteção inadequada
 - ✅ Eletricista certificado chega em 30 minutos
 - ✅ Inspeção completa do quadro €80-150
 - ✅ Substituição quadro completo €600-1.500
-- ✅ Certificação CERTIEL incluída
+- ✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG incluída
 - ✅ Garantia 12 meses em todos os serviços
 
 💬 **WhatsApp:** [Emergência elétrica](https://wa.me/351932321892?text=Olá,%20tenho%20problema%20no%20quadro%20elétrico!)

@@ -527,7 +527,7 @@ R: SIM! 20+ anos = desgaste, pode não proteger adequadamente. Substitua por seg
 - ✅ Substituir disjuntor €40-80
 - ✅ Adicionar circuito €150-400
 - ✅ Garantia 12 meses
-- ✅ Certificação CERTIEL incluída
+- ✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG incluída
 
 💬 **WhatsApp:** [Emergência elétrica](https://wa.me/351932321892?text=Olá,%20o%20disjuntor%20desarma%20constantemente!)
 

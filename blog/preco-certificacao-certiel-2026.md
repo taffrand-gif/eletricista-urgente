@@ -1,36 +1,36 @@
 ---
-title: "Preço Certificação CERTIEL 2026 Trás-os-Montes"
+title: "Preço Fichas eletrotécnicas assinadas por técnico certificado DGEG 2026 Trás-os-Montes"
 slug: "preco-certificacao-certiel-2026"
 date: "2026-03-08"
 author: ""
 category: "Certificação"
-excerpt: "Guia completo sobre preços de certificação CERTIEL em 2026. Quanto custa, quando é obrigatória, processo completo e prazos."
+excerpt: "Guia completo sobre preços de Fichas eletrotécnicas assinadas por técnico certificado DGEG em 2026. Quanto custa, quando é obrigatória, processo completo e prazos."
 image: "/images-optimized/blog/blog-certificacao-certiel.webp"
-metaTitle: "Preço Certificação CERTIEL 2026 | Guia Completo"
-metaDescription: "Certificação CERTIEL: T1-T2 200€, T3-T4 280€, T4+ 350€. Obrigatória venda/arrendamento. Prazo 2-5 dias. Ligue 932 321 892!"
-keywords: ["preço certificação certiel", "quanto custa certiel", "certificação elétrica obrigatória", "certiel trás-os-montes"]
+metaTitle: "Preço Fichas eletrotécnicas assinadas por técnico certificado DGEG 2026 | Guia Completo"
+metaDescription: "Fichas eletrotécnicas assinadas por técnico certificado DGEG: T1-T2 200€, T3-T4 280€, T4+ 350€. Obrigatória venda/arrendamento. Prazo 2-5 dias. Ligue 932 321 892!"
+keywords: ["preço Fichas eletrotécnicas assinadas por técnico certificado DGEG", "quanto custa certiel", "certificação elétrica obrigatória", "certiel trás-os-montes"]
 schema:
   type: "HowTo"
-  name: "Como Obter Certificação CERTIEL"
+  name: "Como Obter Fichas eletrotécnicas assinadas por técnico certificado DGEG"
   description: "Processo completo para obter certificação elétrica CERTIEL em Portugal"
   totalTime: "P3D"
   estimatedCost:
     currency: "EUR"
     value: "200-350"
 faqSchema:
-  - question: "Quanto custa certificação CERTIEL?"
+  - question: "Quanto custa Fichas eletrotécnicas assinadas por técnico certificado DGEG?"
     answer: "T1-T2: 200-250€, T3-T4: 280-320€, T4+: 350-400€. Inclui inspeção, termo responsabilidade e emissão certificado. Sem IVA."
-  - question: "Quanto tempo demora certificação CERTIEL?"
+  - question: "Quanto tempo demora Fichas eletrotécnicas assinadas por técnico certificado DGEG?"
     answer: "2-3 dias úteis se instalação conforme. 5-7 dias se precisar correções pequenas. 7-10 dias se correções grandes."
-  - question: "Certificação CERTIEL é obrigatória?"
+  - question: "Fichas eletrotécnicas assinadas por técnico certificado DGEG é obrigatória?"
     answer: "Sim para venda, arrendamento, instalação nova ou alteração >50%. Obrigatório por lei DL 226/2005. Multa até 3740€."
 ---
 
-# Preço Certificação CERTIEL 2026 Trás-os-Montes
+# Preço Fichas eletrotécnicas assinadas por técnico certificado DGEG 2026 Trás-os-Montes
 
-A certificação CERTIEL é obrigatória por lei para venda e arrendamento de imóveis em Portugal. Este guia completo explica quanto custa, quando é necessária, o processo completo e como obter rapidamente em Trás-os-Montes.
+A Fichas eletrotécnicas assinadas por técnico certificado DGEG é obrigatória por lei para venda e arrendamento de imóveis em Portugal. Este guia completo explica quanto custa, quando é necessária, o processo completo e como obter rapidamente em Trás-os-Montes.
 
-## O Que É a Certificação CERTIEL?
+## O Que É a Fichas eletrotécnicas assinadas por técnico certificado DGEG?
 
 **CERTIEL** (Associação Certificadora de Instalações Elétricas) é a entidade responsável por certificar que as instalações elétricas cumprem as **Regras Técnicas das Instalações Elétricas de Baixa Tensão (RTIEBT)**.
 
@@ -89,7 +89,7 @@ A certificação CERTIEL é obrigatória por lei para venda e arrendamento de im
 ### PASSO 1: Contacto e Agendamento (Dia 0)
 
 **O que fazer:**
-- Ligar para eletricista certificado CERTIEL
+- Ligar para eletricista Fichas eletrotécnicas assinadas por técnico certificado DGEG
 - Indicar tipo de imóvel (T2, T3, etc.)
 - Agendar data para inspeção
 
@@ -187,7 +187,7 @@ A certificação CERTIEL é obrigatória por lei para venda e arrendamento de im
 
 ## Documentos Entregues
 
-### 1. Certificado CERTIEL (Original)
+### 1. Fichas eletrotécnicas assinadas por técnico certificado DGEG (Original)
 - Número único de certificado
 - Dados imóvel e proprietário
 - Data emissão e validade
@@ -325,7 +325,7 @@ Se sabe que tem problemas (ex: falta diferencial), corrija antes da inspeção. 
 
 ## Perguntas Frequentes
 
-### 1. O certificado CERTIEL tem validade?
+### 1. O Fichas eletrotécnicas assinadas por técnico certificado DGEG tem validade?
 **Tecnicamente indefinida**, mas recomenda-se renovar a cada 10 anos ou após remodelações. Para venda/arrendamento, aceita-se certificado antigo se instalação não foi alterada.
 
 ### 2. Posso vender casa sem certificado?
@@ -378,7 +378,7 @@ Se sabe que tem problemas (ex: falta diferencial), corrija antes da inspeção. 
 - Máximo 7500€ por imóvel
 
 **Inclui:**
-- Certificação CERTIEL
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG
 - Modernização quadro elétrico
 - Iluminação LED
 - Isolamento
@@ -417,17 +417,17 @@ Se sabe que tem problemas (ex: falta diferencial), corrija antes da inspeção. 
 - [ ] Agendar correções
 - [ ] Aguardar certificado (2-5 dias)
 
-## Precisa de Certificação CERTIEL?
+## Precisa de Fichas eletrotécnicas assinadas por técnico certificado DGEG?
 
 **Ligue agora: 932 321 892**
 
-✅ Eletricista certificado CERTIEL
+✅ Eletricista Fichas eletrotécnicas assinadas por técnico certificado DGEG
 ✅ Preços transparentes sem surpresas
 ✅ Certificado em 3-5 dias úteis
 ✅ Orçamento gratuito por telefone
 ✅ Correções incluídas no serviço
 
-**WhatsApp:** [Clique para agendar](https://wa.me/351932321892?text=Olá, preciso de certificação CERTIEL)
+**WhatsApp:** [Clique para agendar](https://wa.me/351932321892?text=Olá, preciso de Fichas eletrotécnicas assinadas por técnico certificado DGEG)
 
 ---
 

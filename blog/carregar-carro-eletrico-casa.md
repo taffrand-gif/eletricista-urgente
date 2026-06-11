@@ -251,7 +251,7 @@ Em Trás-os-Montes, onde a rede de carregamento público ainda está em expansã
 | Instalação 11 kW (com trifásico) | €600-1.000 | 6-8h |
 | Instalação 22 kW | €800-1.500 | 8-12h |
 | Upgrade para trifásico | €1.500-3.000 | 1-2 dias |
-| Certificação CERTIEL | €150-250 | Incluído |
+| Fichas eletrotécnicas assinadas por técnico certificado DGEG | €150-250 | Incluído |
 
 ---
 
@@ -340,7 +340,7 @@ Em Trás-os-Montes, onde a rede de carregamento público ainda está em expansã
 
 ### 3. Posso instalar wallbox eu mesmo?
 
-**Resposta:** **NÃO!** Legalmente requer eletricista certificado + certificação CERTIEL. Além disso, é perigoso (alta corrente). Instalação profissional: €300-1.000.
+**Resposta:** **NÃO!** Legalmente requer eletricista certificado + Fichas eletrotécnicas assinadas por técnico certificado DGEG. Além disso, é perigoso (alta corrente). Instalação profissional: €300-1.000.
 
 ### 4. Wallbox funciona com qualquer carro elétrico?
 
@@ -383,7 +383,7 @@ Em Trás-os-Montes, onde a rede de carregamento público ainda está em expansã
 **** - Eletricista Certificado para Mobilidade Elétrica  
 ✅ Instalação de wallbox (todas as marcas)  
 ✅ Upgrade elétrico para VE  
-✅ Certificação CERTIEL  
+✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG  
 ✅ Apoio candidatura a incentivos  
 ✅ Orçamento grátis sem compromisso  
 ✅ Garantia de 2 anos  

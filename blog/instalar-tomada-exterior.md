@@ -60,7 +60,7 @@ O código IP indica a proteção contra sólidos e líquidos:
 ### Certificação Obrigatória
 
 **Instalações novas ou alterações significativas:**
-- Certificado CERTIEL obrigatório
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG obrigatório
 - Emitido por eletricista certificado
 - Custo: €80-150 (incluído no serviço profissional)
 - Válido para inspeção ou venda de imóvel
@@ -223,14 +223,14 @@ O código IP indica a proteção contra sólidos e líquidos:
 | Tomada exterior simples (até 5m cabo) | €120-200 |
 | Tomada com cabo enterrado (até 10m) | €180-300 |
 | Instalação de 2-3 tomadas | €250-450 |
-| Com certificado CERTIEL | +€80-150 |
+| Com Fichas eletrotécnicas assinadas por técnico certificado DGEG | +€80-150 |
 | Urgência 24h | +€50-80 |
 
 **Incluído no serviço profissional:**
 ✅ Materiais de qualidade  
 ✅ Instalação conforme normas  
 ✅ Testes de segurança  
-✅ Certificado CERTIEL (se necessário)  
+✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG (se necessário)  
 ✅ Garantia 2 anos  
 
 **Tempo de instalação:** 1-2 horas
@@ -308,7 +308,7 @@ O código IP indica a proteção contra sólidos e líquidos:
 ## ❓ Perguntas Frequentes
 
 **1. Posso instalar tomada exterior sozinho?**
-Tecnicamente sim, se tiver conhecimentos de eletricidade. MAS: (1) é obrigatório certificado CERTIEL para instalações novas, (2) risco de eletrocussão é alto, (3) seguro de casa pode não cobrir acidentes em instalações não certificadas. Recomendo profissional.
+Tecnicamente sim, se tiver conhecimentos de eletricidade. MAS: (1) é obrigatório Fichas eletrotécnicas assinadas por técnico certificado DGEG para instalações novas, (2) risco de eletrocussão é alto, (3) seguro de casa pode não cobrir acidentes em instalações não certificadas. Recomendo profissional.
 
 **2. Qual a diferença entre IP44 e IP65?**
 IP44 protege contra salpicos de água (chuva leve, alpendre coberto). IP65 protege contra jatos de água de todas as direções (chuva forte, lavagem com mangueira). Para exterior exposto, use sempre IP65.
@@ -319,7 +319,7 @@ Sim, MAS a extensão também deve ser IP44 mínimo (própria para exterior). Ext
 **4. Quantas tomadas posso instalar no mesmo circuito?**
 Depende da potência. Circuito 16A (cabo 2,5mm²) suporta até 3.680W (16A × 230V). Recomendo máximo 4-5 tomadas por circuito exterior, considerando uso simultâneo de aparelhos.
 
-**5. Preciso de certificado CERTIEL para uma tomada?**
+**5. Preciso de Fichas eletrotécnicas assinadas por técnico certificado DGEG para uma tomada?**
 Depende. Se for instalação nova (novo circuito) ou alteração do quadro: SIM, obrigatório. Se for substituir tomada existente por outra igual: NÃO. Para venda/arrendamento: SIM, sempre.
 
 **6. A tomada exterior consome mais eletricidade?**
@@ -339,7 +339,7 @@ A instalação de tomada no exterior requer **cuidados especiais de segurança**
 ✅ **Cabo H07RN-F** próprio para exterior  
 ✅ **Disjuntor diferencial 30mA** obrigatório  
 ✅ **Altura mínima 60cm** (120cm em jardim)  
-✅ **Certificado CERTIEL** para instalações novas
+✅ **Fichas eletrotécnicas assinadas por técnico certificado DGEG** para instalações novas
 
 **DIY:** Possível se tiver experiência, mas sem certificado (€130-300)  
 **Profissional:** Recomendado, com certificado e garantia (€120-300)
@@ -352,7 +352,7 @@ A instalação de tomada no exterior requer **cuidados especiais de segurança**
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20instalar%20uma%20tomada%20exterior.%20Pode%20ajudar%3F)**
 
 ✅ Instalação conforme normas RTIEBT  
-✅ Certificado CERTIEL incluído  
+✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG incluído  
 ✅ Materiais de qualidade (IP65)  
 ✅ Garantia 2 anos no serviço  
 ✅ Técnico em sua casa em 30-45 minutos  

@@ -445,7 +445,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 ✅ Emergências 24h/7 dias  
 ✅ Substituição de cabos danificados  
 ✅ Inspeção de instalações elétricas  
-✅ Certificação CERTIEL  
+✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG  
 ✅ Orçamento grátis sem compromisso  
 ✅ Atendimento em menos de 2h (urgências)  
 

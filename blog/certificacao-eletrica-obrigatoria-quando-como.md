@@ -328,7 +328,7 @@ Instalação com +20 anos sem certificado.
 ### PASSO 6: Entrega Documentos (Dia 5)
 
 **Recebe:**
-- Certificado CERTIEL original (papel)
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG original (papel)
 - Termo Responsabilidade eletricista
 - Relatório inspeção com fotografias
 - Resultados testes elétricos
@@ -449,7 +449,7 @@ Documentos importantes para venda/arrendamento futuro.
 
 **Ligue agora: 932 321 892**
 
-✅ Eletricista certificado CERTIEL
+✅ Eletricista Fichas eletrotécnicas assinadas por técnico certificado DGEG
 ✅ Certificado em 3-5 dias úteis
 ✅ Preços transparentes (200-350€)
 ✅ Correções incluídas no serviço

@@ -436,7 +436,7 @@ Trocar um fusível é uma tarefa **simples mas que requer atenção absoluta à 
 - Diagnóstico de problemas elétricos
 - Atualização de fusíveis para disjuntores
 - Substituição de quadro elétrico completo
-- Certificação CERTIEL
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG
 
 **Cobertura:**
 - Bragança e arredores (30 minutos)

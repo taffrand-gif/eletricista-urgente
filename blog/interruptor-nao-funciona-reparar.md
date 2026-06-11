@@ -301,7 +301,7 @@ O problema é:
 
 ### 6. Inspeção Elétrica Regular
 - Casa com 20+ anos: inspeção a cada 5 anos
-- Certificação CERTIEL atualizada
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG atualizada
 - Identifica problemas antes de falharem
 
 ---
@@ -310,7 +310,7 @@ O problema é:
 
 ### 1. Posso substituir o interruptor eu mesmo?
 
-**Resposta:** **Legalmente NÃO** em Portugal. Trabalhos elétricos devem ser feitos por eletricista certificado com emissão de certificado CERTIEL. Além disso, é **perigoso** sem conhecimentos - risco de choque elétrico fatal.
+**Resposta:** **Legalmente NÃO** em Portugal. Trabalhos elétricos devem ser feitos por eletricista certificado com emissão de Fichas eletrotécnicas assinadas por técnico certificado DGEG. Além disso, é **perigoso** sem conhecimentos - risco de choque elétrico fatal.
 
 ### 2. Quanto tempo dura um interruptor?
 
@@ -359,7 +359,7 @@ O problema é:
 **** - Eletricista Certificado em Trás-os-Montes  
 ✅ Diagnóstico grátis por telefone  
 ✅ Emergências 24h/7 dias  
-✅ Certificação CERTIEL  
+✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG  
 ✅ Orçamento sem compromisso  
 ✅ Garantia de 2 anos  
 ✅ Técnico em menos de 2h (urgências)

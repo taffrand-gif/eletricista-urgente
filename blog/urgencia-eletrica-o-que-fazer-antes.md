@@ -320,7 +320,7 @@ Esquecer avisar.
 
 **2. Preparar Documentação**
 - Fatura eletricidade (potência contratada)
-- Certificado CERTIEL (se tiver)
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG (se tiver)
 - Garantias aparelhos (se problema aparelho)
 
 **3. Anotar Informação**

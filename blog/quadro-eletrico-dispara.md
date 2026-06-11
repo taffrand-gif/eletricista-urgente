@@ -257,7 +257,7 @@ Siga este procedimento para identificar o problema:
 - Quadro novo com disjuntores modernos
 - Diferencial 30mA tipo A
 - Reorganização de circuitos
-- Certificação CERTIEL
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG
 
 **Recomendado para casas em Trás-os-Montes com:**
 - Quadro com mais de 25 anos
@@ -331,7 +331,7 @@ Comum em casos de humidade (condensação noturna) ou aparelhos com fuga intermi
 - Atualizar quadro completo: 1-2 dias
 
 **7. Preciso de certificação após a arranjo?**  
-Sim, para alterações significativas (novo circuito, quadro novo). Certificação CERTIEL obrigatória.
+Sim, para alterações significativas (novo circuito, quadro novo). Fichas eletrotécnicas assinadas por técnico certificado DGEG obrigatória.
 
 ---
 
@@ -371,7 +371,7 @@ Um quadro elétrico que dispara constantemente não é apenas um incómodo — �
 - Diagnóstico preciso com equipamento profissional
 - Orçamento transparente antes de iniciar
 - Eletricistas certificados com 15+ anos de experiência
-- Certificação CERTIEL incluída
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG incluída
 - Garantia de 2 anos em todo o trabalho
 - Disponível 24/7 para urgências
 

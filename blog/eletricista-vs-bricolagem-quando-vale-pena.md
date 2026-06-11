@@ -148,7 +148,7 @@ Pode fazer trabalhos elétricos sozinho ou deve chamar eletricista? Este guia co
 
 **Custo profissional:** 138-210€
 
-### ❌ Certificação CERTIEL
+### ❌ Fichas eletrotécnicas assinadas por técnico certificado DGEG
 
 **Porquê IMPOSSÍVEL:**
 - Só eletricistas certificados podem emitir
@@ -214,7 +214,7 @@ Incêndio causado por instalação DIY mal feita.
 ### 2. Venda Imóvel Bloqueada
 
 **Situação:**
-Quer vender casa. Precisa certificação CERTIEL.
+Quer vender casa. Precisa Fichas eletrotécnicas assinadas por técnico certificado DGEG.
 
 **Eletricista certificado:**
 "Instalação não está conforme. Precisa refazer."
@@ -311,7 +311,7 @@ Arrenda casa sem certificação elétrica.
 **Se tivesse chamado profissional:** 480€
 **DIFERENÇA: 149.520€**
 
-### Exemplo 3: Certificação CERTIEL
+### Exemplo 3: Fichas eletrotécnicas assinadas por técnico certificado DGEG
 
 **DIY impossível:**
 Não pode emitir certificado.
@@ -391,7 +391,7 @@ Choque elétrico, hospital 2 dias.
 **Sim, MAS** só se souber identificar fios (fase, neutro, terra) e ligar corretamente. Se dúvida = chamar profissional.
 
 ### 2. É legal fazer trabalhos elétricos em minha casa?
-**Pequenos trabalhos sim** (lâmpadas, fichas). **Instalações novas não** - precisa certificação CERTIEL.
+**Pequenos trabalhos sim** (lâmpadas, fichas). **Instalações novas não** - precisa Fichas eletrotécnicas assinadas por técnico certificado DGEG.
 
 ### 3. Seguro cobre se fizer DIY?
 **Geralmente NÃO.** Cláusula típica exige profissional certificado para instalações.
@@ -427,7 +427,7 @@ Choque elétrico, hospital 2 dias.
 ✅ Mexer no quadro elétrico
 ✅ Instalar tomadas/interruptores novos
 ✅ Trabalhos exterior (jardim, garagem)
-✅ Certificação CERTIEL
+✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG
 ✅ Aumentar potência
 ✅ Arranjar curto-circuitos
 ✅ Instalar aquecimento/AC
@@ -452,7 +452,7 @@ Custo profissional (50-200€) é SEMPRE menor que:
 ## Artigos Relacionados
 
 - [Melhores Eletricistas Bragança: Como Escolher](https://eletricista-urgente.pt/blog/melhores-eletricistas-braganca-2026)
-- [Certificação CERTIEL Obrigatória](https://eletricista-urgente.pt/blog/certificacao-eletrica-obrigatoria-quando-como)
+- [Fichas eletrotécnicas assinadas por técnico certificado DGEG Obrigatória](https://eletricista-urgente.pt/blog/certificacao-eletrica-obrigatoria-quando-como)
 - [Urgência Elétrica: O Que Fazer](https://eletricista-urgente.pt/blog/urgencia-eletrica-o-que-fazer-antes)
 - [Quanto Custa Quadro Elétrico](https://eletricista-urgente.pt/blog/quanto-custa-quadro-fusiveis-2026)
 
@@ -460,7 +460,7 @@ Custo profissional (50-200€) é SEMPRE menor que:
 
 **Ligue agora: 932 321 892**
 
-✅ Certificação CERTIEL válida
+✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG válida
 ✅ Seguro RC 100.000€
 ✅ 15+ anos experiência
 ✅ Preços transparentes

@@ -461,7 +461,7 @@ Disjuntor que desarma constantemente é **sinal de problema elétrico** que prec
 ✅ Arranjo imediata  
 ✅ Equipamento de deteção profissional  
 ✅ Garantia 1 ano no serviço  
-✅ Certificado CERTIEL se necessário  
+✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG se necessário  
 ✅ Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região
 
 **Não arrisque incêndio ou eletrocussão!** Disjuntor que desarma é aviso de problema grave. Contacte-nos já para intervenção urgente.

@@ -204,7 +204,7 @@ Neste guia completo, vamos explicar **o que é sobretensão**, tipos de protetor
 
 **Sem protetor:**
 - Instalação não conforme
-- Certificação CERTIEL recusada
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG recusada
 - Seguro pode não cobrir danos
 
 ### 4. Trás-os-Montes: Zona de Risco
@@ -407,7 +407,7 @@ Protetor de sobretensão é **investimento pequeno** (€230-640) que protege **
 - Instalação de protetor Tipo 1, 2, 3
 - Verificação de terra (essencial)
 - Melhoria de terra (se necessário)
-- Certificação CERTIEL
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG
 - Consultoria personalizada
 
 **Cobertura:**

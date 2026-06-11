@@ -155,7 +155,7 @@ Uma tomada que faz faíscas não é normal e representa um **risco grave de inc�
 ### 7. Instalação Profissional
 - **NUNCA faça instalações elétricas sem certificação**
 - Contrate sempre eletricista certificado
-- Exija certificado CERTIEL
+- Exija Fichas eletrotécnicas assinadas por técnico certificado DGEG
 
 ### 8. Disjuntor Diferencial
 - **Obrigatório** em instalações modernas
@@ -190,7 +190,7 @@ Uma tomada que faz faíscas não é normal e representa um **risco grave de inc�
 
 ### 4. Posso substituir a tomada eu mesmo?
 
-**Resposta:** **Legalmente NÃO** em Portugal. Instalações elétricas devem ser feitas por eletricista certificado e com emissão de certificado CERTIEL. Além disso, é **perigoso** sem conhecimentos técnicos.
+**Resposta:** **Legalmente NÃO** em Portugal. Instalações elétricas devem ser feitas por eletricista certificado e com emissão de Fichas eletrotécnicas assinadas por técnico certificado DGEG. Além disso, é **perigoso** sem conhecimentos técnicos.
 
 ### 5. A minha casa tem 30 anos. Devo substituir todas as tomadas?
 
@@ -206,7 +206,7 @@ Uma tomada a fazer faíscas **não é um problema pequeno** que pode esperar. É
 
 **** - Eletricista Certificado em Trás-os-Montes  
 ✅ Emergências 24h/7 dias  
-✅ Certificação CERTIEL  
+✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG  
 ✅ Orçamento grátis sem compromisso  
 ✅ Garantia de 2 anos  
 ✅ Técnico em menos de 2h (urgências)

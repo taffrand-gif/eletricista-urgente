@@ -5,7 +5,7 @@ category: "Instalações Elétricas"
 date: "2026-03-04"
 author: ""
 excerpt: "Quer instalar placa de indução? Descubra potência necessária (3,7-7,4kW), instalação elétrica (trifásico vs monofásico), custos em Trás-os-Montes (€300-800) e certificação obrigatória."
-keywords: ["ligar placa indução", "instalar placa indução", "placa indução trifásico", "instalação elétrica placa", "eletricista Trás-os-Montes", "potência placa indução", "certificação CERTIEL"]
+keywords: ["ligar placa indução", "instalar placa indução", "placa indução trifásico", "instalação elétrica placa", "eletricista Trás-os-Montes", "potência placa indução", "Fichas eletrotécnicas assinadas por técnico certificado DGEG"]
 priority: "HIGH DEMAND"
 ---
 
@@ -20,7 +20,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 - ✅ Monofásico vs trifásico (quando precisa)
 - ✅ Instalação elétrica passo a passo
 - ✅ Custos completos em Trás-os-Montes
-- ✅ Certificação CERTIEL obrigatória
+- ✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG obrigatória
 - ✅ Erros comuns a evitar
 
 **⚠️ AVISO:** Instalação elétrica deve ser feita por eletricista certificado. Este guia é informativo.
@@ -261,7 +261,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 **Certificação:**
 - Termo de Responsabilidade
-- Certificado CERTIEL
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG
 - Registo na DGEG
 
 **Custo certificação:** €150-250 (incluído em instalação profissional)
@@ -340,7 +340,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 ### 4. Não Certificar ❌
 
-**Erro:** Instalar sem certificação CERTIEL  
+**Erro:** Instalar sem Fichas eletrotécnicas assinadas por técnico certificado DGEG  
 **Problema:** Ilegal, multa €500-3.740, seguro não cobre  
 **Solução:** SEMPRE certificar (obrigatório)
 
@@ -388,7 +388,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 ### 1. Posso instalar placa de indução eu mesmo?
 
-**Resposta:** **Legalmente NÃO** em Portugal - instalações elétricas requerem eletricista certificado + certificação CERTIEL. Além disso, é **perigoso** (alta corrente, risco de choque fatal).
+**Resposta:** **Legalmente NÃO** em Portugal - instalações elétricas requerem eletricista certificado + Fichas eletrotécnicas assinadas por técnico certificado DGEG. Além disso, é **perigoso** (alta corrente, risco de choque fatal).
 
 ### 2. Preciso de trifásico para placa de indução?
 
@@ -406,7 +406,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 **Resposta:** (1) Potência contratada insuficiente, (2) Disjuntor subdimensionado, (3) Outros aparelhos ligados simultaneamente. Solução: aumentar potência ou desligar outros aparelhos.
 
-### 6. Preciso de certificação CERTIEL?
+### 6. Preciso de Fichas eletrotécnicas assinadas por técnico certificado DGEG?
 
 **Resposta:** **SIM, obrigatório!** Instalação sem certificação é ilegal (multa €500-3.740) e seguro não cobre sinistros. Eletricista certificado emite automaticamente.
 
@@ -437,7 +437,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 **** - Eletricista Certificado em Trás-os-Montes  
 ✅ Especialistas em placas de indução  
 ✅ Avaliação gratuita (potência necessária)  
-✅ Instalação completa + certificação CERTIEL  
+✅ Instalação completa + Fichas eletrotécnicas assinadas por técnico certificado DGEG  
 ✅ Upgrade de quadro elétrico  
 ✅ Orçamento sem compromisso  
 ✅ Garantia de 2 anos  

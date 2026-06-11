@@ -260,7 +260,7 @@ priority: "HIGH DEMAND"
 - Testar tudo
 
 **3. Certificação (€80-150)**
-- Certificado CERTIEL
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG
 - Obrigatório para quadros novos
 - Válido para inspeções
 
@@ -295,7 +295,7 @@ priority: "HIGH DEMAND"
 | Quadro básico (4-6 circuitos) | €500-900 |
 | Quadro médio (8-12 circuitos) | €800-1.500 |
 | Quadro completo (12-20 circuitos) | €1.200-2.500 |
-| Com certificado CERTIEL | Incluído |
+| Com Fichas eletrotécnicas assinadas por técnico certificado DGEG | Incluído |
 | Urgência 24h | +€100-200 |
 
 > 💡 **Precisa de inspeção ou substituição?** Eletricista certificado: **[932 321 892](tel:+351932321892)** — Orçamento grátis, trabalho garantido.
@@ -390,7 +390,7 @@ Depende. Se há espaço e capacidade: sim (€80-200 por circuito). Se quadro es
 **5. Quadro faz zumbido, é normal?**
 Não. Zumbido indica: ligação solta, disjuntor avariado, ou sobrecarga. Chame eletricista para verificar. Pode ser perigoso.
 
-**6. Preciso de certificado CERTIEL?**
+**6. Preciso de Fichas eletrotécnicas assinadas por técnico certificado DGEG?**
 Para quadro novo ou alterações significativas: sim, obrigatório. Para manutenção simples: não. Para venda/arrendamento: sim (inspeção periódica).
 
 **7. Quadro pode ficar no exterior?**
@@ -445,7 +445,7 @@ O quadro elétrico é **essencial para segurança** da sua casa:
 ✅ Manutenção preventiva  
 ✅ Substituição de disjuntores  
 ✅ Instalação de quadros novos  
-✅ Certificado CERTIEL incluído  
+✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG incluído  
 ✅ Garantia 2 anos no serviço  
 ✅ Orçamento grátis sem compromisso  
 ✅ Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região

@@ -384,7 +384,7 @@ Fase e neutro tocam-se diretamente, corrente dispara, fusível queima instantane
 - Disjuntores magnetotérmicos
 - Disjuntor diferencial 30mA (obrigatório)
 - Quadro moderno
-- Certificação CERTIEL
+- Fichas eletrotécnicas assinadas por técnico certificado DGEG
 
 **ROI:** Paga-se em 2-3 anos (economia + segurança)
 
@@ -504,7 +504,7 @@ R: Diagnóstico €60-120, upgrade quadro €400-1.200. : **932 321 892**
 - ✅ Upgrade fusíveis → disjuntores €400-1.200
 - ✅ Arranjar curto-circuito €100-500
 - ✅ Quadro elétrico moderno completo
-- ✅ Certificação CERTIEL incluída
+- ✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG incluída
 - ✅ Garantia 12 meses
 
 💬 **WhatsApp:** [Emergência elétrica](https://wa.me/351932321892?text=URGENTE:%20Fusível%20queima%20constantemente!)
