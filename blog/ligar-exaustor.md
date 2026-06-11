@@ -470,7 +470,7 @@ Instalar um exaustor é **investimento essencial** para manter ar saudável (eli
 
 **Cobertura:**
 - Bragança e arredores
-- Mirandela, Macedo de Cavaleiros, Miranda do Douro
+- Mirandela, Trás-os-Montes, Miranda do Douro
 - Toda a região de Trás-os-Montes
 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20um%20exaustor.%20Podem%20ajudar%3F)**

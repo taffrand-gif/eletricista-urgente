@@ -370,7 +370,7 @@ Um fusível é um **dispositivo de proteção** que:
 - Grandes superfícies (Leroy Merlin, etc.)
 
 **Outras cidades:**
-- Mirandela, Macedo de Cavaleiros, Miranda do Douro
+- Mirandela, Trás-os-Montes, Miranda do Douro
 - Ferragens locais
 
 ### Online
@@ -440,7 +440,7 @@ Trocar um fusível é uma tarefa **simples mas que requer atenção absoluta à 
 
 **Cobertura:**
 - Bragança e arredores (30 minutos)
-- Mirandela, Macedo de Cavaleiros, Miranda do Douro
+- Mirandela, Trás-os-Montes, Miranda do Douro
 - Toda a região de Trás-os-Montes
 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20o%20fusível%20queima%20constantemente.%20Preciso%20de%20diagnóstico.)**

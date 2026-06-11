@@ -504,7 +504,7 @@ Curto-circuito é um **perigo real e grave**, responsável por **30-40% dos inc�
 
 **Cobertura:**
 - Bragança e arredores
-- Mirandela, Macedo de Cavaleiros, Miranda do Douro
+- Mirandela, Trás-os-Montes, Miranda do Douro
 - Toda a região de Trás-os-Montes
 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20inspeção%20elétrica%20completa.)**

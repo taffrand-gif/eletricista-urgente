@@ -32,7 +32,7 @@ Neste guia completo, vou mostrar-lhe:
 
 **⚠️ IMPORTANTE:** Detetor de fumo **NÃO é opcional** — é questão de vida ou morte. Invista €15-40 e proteja a sua família.
 
-**📞 Precisa de ajuda profissional? Ligue já: [932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança, Mirandela, Macedo de Cavaleiros.
+**📞 Precisa de ajuda profissional? Ligue já: [932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança, Mirandela, Trás-os-Montes.
 
 ---
 
@@ -568,7 +568,7 @@ Neste guia completo, vou mostrar-lhe:
 
 **💬 WhatsApp:** [Clique para falar connosco](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20detetores%20de%20fumo%20em%20casa.)
 
-**Zonas servidas:** Bragança, Mirandela, Macedo de Cavaleiros, Chaves, Vila Real, Vinhais, Mogadouro, Miranda do Douro e todo o distrito de Bragança e Vila Real.
+**Zonas servidas:** Bragança, Mirandela, Trás-os-Montes, Chaves, Vila Real, Vinhais, Mogadouro, Miranda do Douro e todo o distrito de Bragança e Vila Real.
 
 ---
 

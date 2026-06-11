@@ -466,7 +466,7 @@ R: SIM! Sem diferencial = risco eletrocussão. Fusíveis = proteção inadequada
 
 🌐 **Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
-**Zonas servidas:** Bragança, Vila Real, Mirandela, Chaves, Macedo de Cavaleiros, Valpaços, Murça, Alijó, Sabrosa, Vila Pouca de Aguiar e toda a região de Trás-os-Montes.
+**Zonas servidas:** Bragança, Vila Real, Mirandela, Chaves, Trás-os-Montes, Valpaços, Murça, Alijó, Sabrosa, Vila Pouca de Aguiar e toda a região de Trás-os-Montes.
 
 ---
 

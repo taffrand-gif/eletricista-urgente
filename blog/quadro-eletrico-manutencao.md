@@ -448,7 +448,7 @@ O quadro elétrico é **essencial para segurança** da sua casa:
 ✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG incluído  
 ✅ Garantia 2 anos no serviço  
 ✅ Orçamento grátis sem compromisso  
-✅ Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região
+✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não arrisque a segurança da sua família!** Quadro elétrico bem mantido previne incêndios e choques. Contacte-nos já.
 

@@ -28,7 +28,7 @@ Mas atenção: **não é só comprar e ligar na tomada**. Precisa de:
 
 Neste guia completo, vou explicar **tudo o que precisa saber** para instalar um carregador de carro elétrico em casa: tipos de carregadores, potências, custos, requisitos técnicos, incentivos do governo e como escolher o melhor para o seu caso.
 
-**📞 Quer um orçamento personalizado? Ligue já: [932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança, Mirandela, Macedo de Cavaleiros.
+**📞 Quer um orçamento personalizado? Ligue já: [932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança, Mirandela, Trás-os-Montes.
 
 ---
 
@@ -568,7 +568,7 @@ Neste guia completo, vou explicar **tudo o que precisa saber** para instalar um 
 
 **💬 WhatsApp:** [Clique para orçamento grátis](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20um%20carregador%20de%20carro%20elétrico%20em%20casa.%20Podem%20fazer%20uma%20avaliação%3F)
 
-**Zonas servidas:** Bragança, Mirandela, Macedo de Cavaleiros, Chaves, Vila Real, Vinhais, Mogadouro, Miranda do Douro e todo o distrito de Bragança e Vila Real.
+**Zonas servidas:** Bragança, Mirandela, Trás-os-Montes, Chaves, Vila Real, Vinhais, Mogadouro, Miranda do Douro e todo o distrito de Bragança e Vila Real.
 
 ---
 

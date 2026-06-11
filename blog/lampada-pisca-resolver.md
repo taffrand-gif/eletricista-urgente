@@ -446,7 +446,7 @@ R: SIM, mas verifique: potência máxima, se tem dimmer (use LED regulável), es
 
 🌐 **Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
-**Zonas servidas:** Bragança, Vila Real, Mirandela, Chaves, Macedo de Cavaleiros, Valpaços, Murça, Alijó, Sabrosa, Vila Pouca de Aguiar e toda a região de Trás-os-Montes.
+**Zonas servidas:** Bragança, Vila Real, Mirandela, Chaves, Trás-os-Montes, Valpaços, Murça, Alijó, Sabrosa, Vila Pouca de Aguiar e toda a região de Trás-os-Montes.
 
 ---
 

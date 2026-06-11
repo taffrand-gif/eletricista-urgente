@@ -2,7 +2,7 @@
 Name: Eletricista Urgente - Norte Reparos
 Type: EmergencyService
 SubType: ElectricalEmergency
-Headquarters: Macedo de Cavaleiros
+Headquarters: Trás-os-Montes
 ServiceArea: 130km radius
 Hours: Atendimento 24h/7d
 ResponseTime: 30 seconds

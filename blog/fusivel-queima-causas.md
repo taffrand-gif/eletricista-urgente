@@ -511,7 +511,7 @@ R: Diagnóstico €60-120, upgrade quadro €400-1.200. : **932 321 892**
 
 🌐 **Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
-**Zonas servidas:** Bragança, Vila Real, Mirandela, Chaves, Macedo de Cavaleiros, Valpaços, Murça, Alijó, Sabrosa, Vila Pouca de Aguiar e toda a região de Trás-os-Montes.
+**Zonas servidas:** Bragança, Vila Real, Mirandela, Chaves, Trás-os-Montes, Valpaços, Murça, Alijó, Sabrosa, Vila Pouca de Aguiar e toda a região de Trás-os-Montes.
 
 ---
 

@@ -425,7 +425,7 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20modernizar%20o%20quadro%20elétrico!)  
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
-**Servimos:** Bragança, Vila Real, Chaves, Mirandela, Macedo de Cavaleiros e toda a região de Trás-os-Montes.
+**Servimos:** Bragança, Vila Real, Chaves, Mirandela, Trás-os-Montes e toda a região de Trás-os-Montes.
 
 ---
 

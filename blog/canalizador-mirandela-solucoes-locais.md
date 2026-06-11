@@ -24,7 +24,7 @@ Para além dos serviços habituais (desentupimento, fugas, esquentadores), em Mi
 
 ## Zona e preços
 
-Mirandela fica na nossa Zona 1 (próxima da base, em Macedo de Cavaleiros). Deslocação: 25€. Tempo médio de chegada: 23 minutos. Preço-hora: 80€. Para emergências, podemos estar no local Resposta rápida garantida.
+Mirandela fica na nossa Zona 1 (próxima da base, em Trás-os-Montes). Deslocação: 25€. Tempo médio de chegada: 23 minutos. Preço-hora: 80€. Para emergências, podemos estar no local Resposta rápida garantida.
 
 
 

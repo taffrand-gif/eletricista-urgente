@@ -437,7 +437,7 @@ Na maioria dos casos, interruptor que não funciona tem **causa identificável e
 ✅ Garantia 1 ano no serviço  
 ✅ Preços transparentes  
 ✅ Técnico em sua casa em 30-45 minutos  
-✅ Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região
+✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não fique sem luz!** Contacte-nos já para arranjo rápida e segura.
 

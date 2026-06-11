@@ -416,7 +416,7 @@ Escolher o cabo elétrico correto é **essencial para segurança e eficiência**
 ✅ Materiais de qualidade certificados  
 ✅ Garantia 2 anos no serviço  
 ✅ Orçamento grátis sem compromisso  
-✅ Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região
+✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Cabo errado = risco de incêndio!** Não arrisque. Contacte-nos já para instalação profissional e segura.
 

@@ -16,7 +16,7 @@ Macedo de Cavaleiros é onde estamos sediados. Isto significa que, para qualquer
 
 ## Toda a zona servida a partir de Macedo
 
-A partir da nossa base em Macedo de Cavaleiros, cobramos todo o concelho: Bornes, Castelãos, Grijó, Podence, Vale de Prados, Vilar do Monte, Sesulfe, Amendoeira, e mais 130+ aldeias no raio de 30 km. Em muitas destas aldeias, somos o ÚNICO serviço profissional Atendimento 24h/7d.
+A partir da nossa base no norte de Portugal, cobramos todo o concelho: Bornes, Castelãos, Grijó, Podence, Vale de Prados, Vilar do Monte, Sesulfe, Amendoeira, e mais 130+ aldeias no raio de 30 km. Em muitas destas aldeias, somos o ÚNICO serviço profissional Atendimento 24h/7d.
 
 ## Preços mais baixos para Macedo
 

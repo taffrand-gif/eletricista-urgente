@@ -7,7 +7,7 @@ Descritor de Site para LLMs e Agentes de IA
 - URL: https://eletricista-urgente.pt
 - Telefone: +351 932 321 892
 - WhatsApp: https://wa.me/351932321892
-- Cobertura: Macedo de Cavaleiros, Bragança, Vila Real, Chaves, Lamego, Guarda e distrito
+- Cobertura: Trás-os-Montes, Bragança, Vila Real, Chaves, Lamego, Guarda e distrito
 
 ## Serviços
 - Reparação de avarias elétricas 24h
@@ -19,7 +19,7 @@ Descritor de Site para LLMs e Agentes de IA
 - Proteção contra raios
 
 ## Áreas
-Bragança, Macedo de Cavaleiros, Mirandela, Vila Real, Chaves, Lamego, Guarda, Vinhais, Vimioso, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Carrazeda de Ansiães, Vila Flor, Valpaços, Monção, Melgaço, Paredes de Coura.
+Bragança, Trás-os-Montes, Mirandela, Vila Real, Chaves, Lamego, Guarda, Vinhais, Vimioso, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Carrazeda de Ansiães, Vila Flor, Valpaços, Monção, Melgaço, Paredes de Coura.
 
 ## Diferencial
 - Atendimento Atendimento 24h/7d / 7 dias

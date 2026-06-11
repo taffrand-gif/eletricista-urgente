@@ -347,7 +347,7 @@ Na maioria dos casos, lâmpadas LED a piscar têm **solução simples e barata**
 ✅ Materiais de qualidade incluídos  
 ✅ Garantia 1 ano no serviço  
 ✅ Técnico em sua casa em 30-45 minutos  
-✅ Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região
+✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não viva com lâmpadas a piscar!** É irritante e pode indicar problema elétrico grave. Contacte-nos já para orçamento grátis.
 

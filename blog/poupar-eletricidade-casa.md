@@ -444,7 +444,7 @@ Poupar eletricidade não é difícil e **compensa financeiramente**:
 ✅ Instalação de LED, sensores, proteção  
 ✅ Consultoria para painéis solares  
 ✅ Orçamento grátis sem compromisso  
-✅ Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região
+✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Reduza a conta da luz até 50%!** Contacte-nos já para auditoria e soluções personalizadas.
 

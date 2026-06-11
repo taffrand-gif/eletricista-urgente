@@ -356,7 +356,7 @@ A instalação de tomada no exterior requer **cuidados especiais de segurança**
 ✅ Materiais de qualidade (IP65)  
 ✅ Garantia 2 anos no serviço  
 ✅ Técnico em sua casa em 30-45 minutos  
-✅ Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região
+✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não arrisque a sua segurança!** Trabalhos elétricos mal feitos podem causar incêndios ou eletrocussão. Contacte-nos já para orçamento grátis.
 

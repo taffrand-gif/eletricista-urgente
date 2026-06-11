@@ -477,7 +477,7 @@ Na maioria dos casos, tomada que não funciona tem **causa identificável e solu
 ✅ Garantia 1 ano no serviço  
 ✅ Preços transparentes  
 ✅ Técnico em sua casa em 30-45 minutos  
-✅ Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região
+✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não fique sem tomadas funcionais!** Contacte-nos já para arranjo rápida e segura.
 

@@ -30,7 +30,7 @@ Neste guia completo, vou explicar:
 - ✅ Requisitos legais em Portugal (RGPD, CNPD)
 - ✅ Melhores marcas e modelos 2026
 
-**📞 Quer um orçamento personalizado? Ligue já: [932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança, Mirandela, Macedo de Cavaleiros.
+**📞 Quer um orçamento personalizado? Ligue já: [932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança, Mirandela, Trás-os-Montes.
 
 ---
 
@@ -601,7 +601,7 @@ Neste guia completo, vou explicar:
 
 **💬 WhatsApp:** [Clique para orçamento grátis](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20um%20sistema%20de%20videovigilância%20em%20casa.%20Podem%20fazer%20uma%20avaliação%3F)
 
-**Zonas servidas:** Bragança, Mirandela, Macedo de Cavaleiros, Chaves, Vila Real, Vinhais, Mogadouro, Miranda do Douro e todo o distrito de Bragança e Vila Real.
+**Zonas servidas:** Bragança, Mirandela, Trás-os-Montes, Chaves, Vila Real, Vinhais, Mogadouro, Miranda do Douro e todo o distrito de Bragança e Vila Real.
 
 ---
 

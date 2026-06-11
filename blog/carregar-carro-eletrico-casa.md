@@ -392,7 +392,7 @@ Em Trás-os-Montes, onde a rede de carregamento público ainda está em expansã
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20wallbox%20para%20carro%20elétrico!)  
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
-**Servimos:** Bragança, Vila Real, Chaves, Mirandela, Macedo de Cavaleiros e toda a região de Trás-os-Montes.
+**Servimos:** Bragança, Vila Real, Chaves, Mirandela, Trás-os-Montes e toda a região de Trás-os-Montes.
 
 ---
 

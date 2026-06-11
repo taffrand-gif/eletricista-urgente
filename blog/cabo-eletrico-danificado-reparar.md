@@ -453,7 +453,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20um%20cabo%20elétrico%20danificado%20e%20preciso%20de%20ajuda!)  
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
-**Servimos:** Bragança, Vila Real, Chaves, Mirandela, Macedo de Cavaleiros e toda a região de Trás-os-Montes.
+**Servimos:** Bragança, Vila Real, Chaves, Mirandela, Trás-os-Montes e toda a região de Trás-os-Montes.
 
 ---
 

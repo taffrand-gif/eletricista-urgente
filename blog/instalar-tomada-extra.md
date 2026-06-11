@@ -479,7 +479,7 @@ R: Instalar 1 tomada €50-100, 2-3 tomadas €100-190. Urgente 24h: +50%. : **9
 
 🌐 **Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
-**Zonas servidas:** Bragança, Vila Real, Mirandela, Chaves, Macedo de Cavaleiros, Valpaços, Murça, Alijó, Sabrosa, Vila Pouca de Aguiar e toda a região de Trás-os-Montes.
+**Zonas servidas:** Bragança, Vila Real, Mirandela, Chaves, Trás-os-Montes, Valpaços, Murça, Alijó, Sabrosa, Vila Pouca de Aguiar e toda a região de Trás-os-Montes.
 
 ---
 

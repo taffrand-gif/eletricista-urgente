@@ -503,7 +503,7 @@ Instalar ventilador de teto é **relativamente simples** mas requer **atenção 
 ✅ Garantia 2 anos no serviço  
 ✅ Fornecemos ventiladores de qualidade  
 ✅ Técnico em sua casa em 30-45 minutos  
-✅ Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região
+✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não arrisque a sua segurança!** Fixação inadequada pode causar acidentes graves. Contacte-nos já para instalação profissional.
 

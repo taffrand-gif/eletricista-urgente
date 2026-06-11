@@ -461,7 +461,7 @@ Instalar uma ventoinha de teto é um **investimento inteligente** que proporcion
 
 **Cobertura:**
 - Bragança e arredores
-- Mirandela, Macedo de Cavaleiros, Miranda do Douro
+- Mirandela, Trás-os-Montes, Miranda do Douro
 - Toda a região de Trás-os-Montes
 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20uma%20ventoinha%20de%20teto.%20Podem%20ajudar%3F)**
