@@ -3,7 +3,7 @@ title: "Lâmpada LED Pisca: 7 Causas e Como Resolver (2026)"
 slug: "lampada-led-pisca"
 category: "Problemas Elétricos"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Lâmpada LED a piscar ou tremer? Descubra as 7 causas principais (desde interruptor com luz até problema no quadro) e como resolver cada uma. Guia completo com soluções DIY e profissionais."
 keywords: ["lâmpada LED pisca", "LED a piscar", "lâmpada tremula", "LED não funciona", "eletricista Bragança", "lâmpada pisca apagada"]
 priority: "HIGH DEMAND"
@@ -337,7 +337,7 @@ Na maioria dos casos, lâmpadas LED a piscar têm **solução simples e barata**
 
 ### 🚨 Precisa de Eletricista Certificado em Trás-os-Montes?
 
-**Staff Seekers — Eletricista Certificado em Bragança**
+** — Eletricista Certificado em Bragança**
 
 📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20lâmpadas%20LED%20a%20piscar.%20Pode%20ajudar%3F)**

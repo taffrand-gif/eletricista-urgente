@@ -3,7 +3,7 @@ title: "Casa Passiva Construir: Conforto Sem Aquecimento e -90% Energia"
 slug: "casa-passiva-construir"
 category: "eficiencia-energetica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Casa passiva: conforto térmico sem aquecimento/AC, poupa 90% energia, ROI 10-15 anos. Descubra princípios, custos +5-15%, certificação e viabilidade Trás-os-Montes."
 keywords: ["casa passiva", "passivhaus", "eficiência energética", "construção sustentável", "Trás-os-Montes"]
 ---
@@ -509,7 +509,7 @@ keywords: ["casa passiva", "passivhaus", "eficiência energética", "construçã
 ✅ Auditoria
 ✅ Documentação
 
-## ✅ Por Que Escolher Staff Seekers
+## ✅ Por Que Escolher 
 
 ### Parceria Arquitetos Passivhaus
 

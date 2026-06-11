@@ -3,7 +3,7 @@ title: "Interruptor Não Funciona? 7 Causas e Como Arranjar"
 slug: "interruptor-nao-funciona-arranjar"
 category: "Arranjos Elétricas"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Interruptor não liga a luz? Descubra as 7 causas principais (lâmpada queimada 35%, interruptor defeituoso 30%, disjuntor desarmado 20%) e como resolver em Trás-os-Montes."
 keywords: ["interruptor não funciona", "interruptor avariado", "luz não acende", "interruptor defeituoso", "arranjar interruptor", "eletricista Trás-os-Montes", "trocar interruptor"]
 priority: "HIGH DEMAND"
@@ -356,7 +356,7 @@ O problema é:
 
 ### 📞 Precisa de Ajuda Profissional?
 
-**Staff Seekers** - Eletricista Certificado em Trás-os-Montes  
+**** - Eletricista Certificado em Trás-os-Montes  
 ✅ Diagnóstico grátis por telefone  
 ✅ Emergências 24h/7 dias  
 ✅ Certificação CERTIEL  

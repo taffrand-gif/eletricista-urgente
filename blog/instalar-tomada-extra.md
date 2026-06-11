@@ -3,7 +3,7 @@ title: "Instalar Tomada Extra: Guia Completo e Seguro (2026)"
 slug: "instalar-tomada-extra"
 category: "Instalação Elétrica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Precisa de mais tomadas em casa? Guia completo sobre como instalar tomada extra com segurança, custos e quando chamar eletricista em Trás-os-Montes."
 keywords: "instalar tomada, adicionar tomada, tomada extra, eletricista braganca, instalacao eletrica, tomadas casa"
 priority: "HIGH DEMAND"
@@ -457,7 +457,7 @@ R: 1 tomada €50-100, 2-3 tomadas €100-190, circuito novo (4-6 tomadas) €20
 R: SIM, para instalação nova. Obrigatório por lei. Apenas eletricista certificado emite. Custo €80-150 (geralmente incluído).
 
 **P: Quanto custa eletricista em Bragança?**
-R: Instalar 1 tomada €50-100, 2-3 tomadas €100-190. Urgente 24h: +50%. Staff Seekers: **932 321 892**
+R: Instalar 1 tomada €50-100, 2-3 tomadas €100-190. Urgente 24h: +50%. : **932 321 892**
 
 ## Conclusão: Segurança em Primeiro Lugar
 
@@ -465,7 +465,7 @@ R: Instalar 1 tomada €50-100, 2-3 tomadas €100-190. Urgente 24h: +50%. Staff
 
 ### 🚨 Precisa de Mais Tomadas? Ligue JÁ!
 
-**Staff Seekers - Eletricista Certificado em Trás-os-Montes**
+** - Eletricista Certificado em Trás-os-Montes**
 
 📞 **Ligue Agora: 932 321 892**
 - ✅ Instalação de tomadas €50-100/unidade

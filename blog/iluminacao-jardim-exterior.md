@@ -3,7 +3,7 @@ title: "Iluminação Jardim Exterior: LED, Solar e Automação 2026"
 slug: "iluminacao-jardim-exterior"
 category: "modernizacao"
 date: "2026-03-03"
-author: "Staff Seekers"
+author: ""
 excerpt: "Iluminação jardim exterior: LED poupa 80%, solar sem cabos, automação crepuscular. Descubra tipos, custos €200-2000, instalação e design paisagístico."
 keywords: ["iluminação jardim", "iluminação exterior", "LED jardim", "solar jardim", "Trás-os-Montes"]
 ---
@@ -495,7 +495,7 @@ keywords: ["iluminação jardim", "iluminação exterior", "LED jardim", "solar 
 **Custo operacional**: €0
 **Mas**: Bateria substituir 2-3 anos (€10-30 cada)
 
-## ✅ Por Que Escolher Staff Seekers
+## ✅ Por Que Escolher 
 
 ### Design Paisagístico
 

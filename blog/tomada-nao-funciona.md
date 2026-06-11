@@ -3,7 +3,7 @@ title: "Tomada Não Funciona: 8 Causas e Como Resolver (2026)"
 slug: "tomada-nao-funciona"
 category: "Problemas Elétricos"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Tomada não funciona ou sem corrente? Descubra as 8 causas principais (desde disjuntor desarmado até tomada queimada) e como resolver com segurança. Guia completo com diagnóstico."
 keywords: ["tomada não funciona", "tomada sem corrente", "tomada queimada", "arranjar tomada", "eletricista Bragança", "tomada avariada"]
 priority: "HIGH DEMAND"
@@ -466,7 +466,7 @@ Na maioria dos casos, tomada que não funciona tem **causa identificável e solu
 
 ### 🚨 Tomada Não Funciona? Ajuda Profissional em Trás-os-Montes
 
-**Staff Seekers — Eletricista Certificado em Bragança**
+** — Eletricista Certificado em Bragança**
 
 📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20uma%20tomada%20que%20não%20funciona.%20Pode%20ajudar%3F)**

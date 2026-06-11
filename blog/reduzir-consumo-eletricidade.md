@@ -3,7 +3,7 @@ title: "Reduzir Consumo Eletricidade: 20 Formas Poupar 30-50% Conta Luz"
 slug: "reduzir-consumo-eletricidade"
 category: "eficiencia-energetica"
 date: "2026-03-03"
-author: "Staff Seekers"
+author: ""
 excerpt: "Reduzir consumo eletricidade: 20 formas práticas poupar 30-50% conta luz. LED, eletrodomésticos A+++, tarifa bi-horária, standby, isolamento. Poupança €300-800/ano."
 keywords: ["reduzir consumo eletricidade", "poupar luz", "conta luz alta", "eficiência energética", "Trás-os-Montes"]
 ---
@@ -478,7 +478,7 @@ keywords: ["reduzir consumo eletricidade", "poupar luz", "conta luz alta", "efic
 - Programação
 - Estatísticas
 
-## ✅ Por Que Escolher Staff Seekers
+## ✅ Por Que Escolher 
 
 ### Auditoria Energética
 

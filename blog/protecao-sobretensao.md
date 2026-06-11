@@ -3,7 +3,7 @@ title: "Protetor de Sobretensão: O Que É e Por Que Precisa (2026)"
 slug: "protecao-sobretensao"
 category: "Segurança Elétrica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Protetor de sobretensão protege aparelhos contra picos de tensão (raios, rede). Descubra tipos (Tipo 1, 2, 3), custos €20-400, instalação, e por que é essencial em Trás-os-Montes. Guia completo."
 keywords: ["protetor sobretensão", "proteção contra raios", "pico de tensão", "eletricista Bragança", "DPS", "protetor surtos"]
 priority: "HIGH DEMAND"
@@ -403,7 +403,7 @@ Protetor de sobretensão é **investimento pequeno** (€230-640) que protege **
 
 **📞 Ligue para orçamento: [932 321 892](tel:+351932321892)**
 
-**Serviços Staff Seekers:**
+**Serviços :**
 - Instalação de protetor Tipo 1, 2, 3
 - Verificação de terra (essencial)
 - Melhoria de terra (se necessário)
@@ -417,7 +417,7 @@ Protetor de sobretensão é **investimento pequeno** (€230-640) que protege **
 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20protetor%20de%20sobretensão.%20Podem%20ajudar%3F)**
 
-**✅ Garantias Staff Seekers:**
+**✅ Garantias :**
 - Eletricistas certificados com 15+ anos de experiência
 - Protetores de qualidade (marcas reconhecidas)
 - Instalação conforme normas
@@ -436,4 +436,4 @@ Protetor de sobretensão é **investimento pequeno** (€230-640) que protege **
 
 ---
 
-*Staff Seekers - Eletricista Certificado em Trás-os-Montes | Proteção Elétrica | 932 321 892*
+* - Eletricista Certificado em Trás-os-Montes | Proteção Elétrica | 932 321 892*

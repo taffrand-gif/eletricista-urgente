@@ -3,7 +3,7 @@ title: "Como Instalar Ventoinha de Teto: Guia Completo (2026)"
 slug: "instalar-ventoinha-teto"
 category: "Instalações Elétricas"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Quer instalar ventoinha de teto? Guia completo: escolha do modelo, instalação segura passo a passo, custos €80-250, normas elétricas. Refresque a casa com eficiência em Trás-os-Montes."
 keywords: ["instalar ventoinha teto", "ventoinha teto", "ventilador teto", "eletricista Bragança", "instalação ventoinha", "ventoinha com luz"]
 priority: "SEASONAL"
@@ -453,7 +453,7 @@ Instalar uma ventoinha de teto é um **investimento inteligente** que proporcion
 
 **📞 Ligue para orçamento gratuito: [932 321 892](tel:+351932321892)**
 
-**Serviços Staff Seekers:**
+**Serviços :**
 - Consultoria (escolha modelo adequado)
 - Instalação profissional certificada
 - Reforço estrutural (se necessário)
@@ -466,7 +466,7 @@ Instalar uma ventoinha de teto é um **investimento inteligente** que proporcion
 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20uma%20ventoinha%20de%20teto.%20Podem%20ajudar%3F)**
 
-**✅ Garantias Staff Seekers:**
+**✅ Garantias :**
 - Eletricistas certificados com 15+ anos de experiência
 - Verificação estrutural do teto
 - Instalação conforme normas de segurança
@@ -485,4 +485,4 @@ Instalar uma ventoinha de teto é um **investimento inteligente** que proporcion
 
 ---
 
-*Staff Seekers - Eletricista Certificado em Trás-os-Montes | Instalações Seguras | 932 321 892*
+* - Eletricista Certificado em Trás-os-Montes | Instalações Seguras | 932 321 892*

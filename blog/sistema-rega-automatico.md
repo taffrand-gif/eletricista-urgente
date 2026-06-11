@@ -3,7 +3,7 @@ title: "Sistema Rega Automático: Poupe Água e Tempo no Jardim"
 slug: "sistema-rega-automatico"
 category: "modernizacao"
 date: "2026-03-03"
-author: "Staff Seekers"
+author: ""
 excerpt: "Sistema rega automático poupa 30-50% água, tempo e mantém jardim perfeito. Descubra tipos (gota-a-gota, aspersores), custos €300-2000, instalação e programação."
 keywords: ["rega automática", "sistema rega", "gota-a-gota", "aspersores", "Trás-os-Montes"]
 ---
@@ -499,7 +499,7 @@ keywords: ["rega automática", "sistema rega", "gota-a-gota", "aspersores", "Tr�
 
 **Custo**: €100-200
 
-## ✅ Por Que Escolher Staff Seekers
+## ✅ Por Que Escolher 
 
 ### Projeto Personalizado
 

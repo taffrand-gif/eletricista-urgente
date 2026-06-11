@@ -3,7 +3,7 @@ title: "Interruptor Não Funciona: 7 Causas e Como Arranjar (2026)"
 slug: "interruptor-nao-funciona"
 category: "Problemas Elétricos"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Interruptor não liga a luz ou está partido? Descubra as 7 causas principais (desde lâmpada queimada até interruptor avariado) e como arranjar. Guia completo com segurança."
 keywords: ["interruptor não funciona", "interruptor avariado", "luz não acende", "trocar interruptor", "eletricista Bragança", "arranjar interruptor"]
 priority: "HIGH DEMAND"
@@ -426,7 +426,7 @@ Na maioria dos casos, interruptor que não funciona tem **causa identificável e
 
 ### 🚨 Interruptor Não Funciona? Ajuda Profissional
 
-**Staff Seekers — Eletricista Certificado em Bragança**
+** — Eletricista Certificado em Bragança**
 
 📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20um%20interruptor%20que%20não%20funciona.%20Pode%20ajudar%3F)**

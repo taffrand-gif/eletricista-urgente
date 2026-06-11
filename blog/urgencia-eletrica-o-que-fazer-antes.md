@@ -2,7 +2,7 @@
 title: "Urgência Elétrica: O Que Fazer Antes Eletricista Chegar"
 slug: "urgencia-eletrica-o-que-fazer-antes"
 date: "2026-03-08"
-author: "Staff Seekers"
+author: ""
 category: "Segurança"
 excerpt: "Guia urgência elétrica: como agir nos primeiros minutos, cortar corrente com segurança, documentar problema e preparar intervenção."
 image: "/images-optimized/blog/blog-seguranca-urgencia.webp"

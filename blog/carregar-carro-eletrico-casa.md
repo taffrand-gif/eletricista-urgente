@@ -3,7 +3,7 @@ title: "Como Carregar Carro Elétrico em Casa: Guia Completo 2026"
 slug: "carregar-carro-eletrico-casa"
 category: "Mobilidade Elétrica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Quer carregar carro elétrico em casa? Descubra tipos de carregamento (Tipo 2, wallbox), potências (3,7kW-22kW), instalação elétrica necessária, custos em Trás-os-Montes (€500-2.000) e incentivos."
 keywords: ["carregar carro elétrico casa", "wallbox", "carregador veículo elétrico", "instalação wallbox", "eletricista Trás-os-Montes", "Tipo 2", "carregamento doméstico"]
 priority: "TRENDING"
@@ -380,7 +380,7 @@ Em Trás-os-Montes, onde a rede de carregamento público ainda está em expansã
 
 ### 📞 Quer Instalar Wallbox?
 
-**Staff Seekers** - Eletricista Certificado para Mobilidade Elétrica  
+**** - Eletricista Certificado para Mobilidade Elétrica  
 ✅ Instalação de wallbox (todas as marcas)  
 ✅ Upgrade elétrico para VE  
 ✅ Certificação CERTIEL  

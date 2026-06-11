@@ -3,7 +3,7 @@ title: "Proteção Sobretensão: Proteja Equipamentos de Raios e Picos"
 slug: "protecao-sobretensao-instalar"
 category: "seguranca"
 date: "2026-03-03"
-author: "Staff Seekers"
+author: ""
 excerpt: "Proteção sobretensão protege equipamentos de raios, picos rede e descargas. Descubra tipos (DPS), custos €80-400, instalação e como evitar danos €1000+."
 keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os-Montes"]
 ---
@@ -426,7 +426,7 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 - Obrigatório instalação
 - Custo: €200-400
 
-## ✅ Por Que Escolher Staff Seekers
+## ✅ Por Que Escolher 
 
 ### Especialização Proteção
 

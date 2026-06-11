@@ -3,7 +3,7 @@ title: "Lâmpadas LED Poupar: -80% Energia e ROI 6 Meses"
 slug: "lampadas-led-poupar"
 category: "eficiencia-energetica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Lâmpadas LED: poupam 80% vs incandescentes, duram 25,000h (25 anos), ROI 6 meses. Descubra tipos, custos €2-15, equivalências e como escolher melhor."
 keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista", "Trás-os-Montes"]
 ---
@@ -517,7 +517,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 **Instalar dimmer**: €30-60/unidade
 **Projeto iluminação**: €200-500
 
-## ✅ Por Que Escolher Staff Seekers
+## ✅ Por Que Escolher 
 
 ### Consultoria Iluminação
 

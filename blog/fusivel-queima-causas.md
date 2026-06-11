@@ -3,7 +3,7 @@ title: "Fusível Queima: 10 Causas e Como Resolver (2026)"
 slug: "fusivel-queima-causas"
 category: "Problemas Elétricos"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Fusível queima constantemente? Descubra as 10 causas principais e como substituir com segurança. Guia completo para Trás-os-Montes."
 keywords: "fusivel queima, fusivel salta, trocar fusivel, quadro eletrico, eletricista braganca, sobrecarga eletrica"
 priority: "HIGH DEMAND"
@@ -489,7 +489,7 @@ R: NUNCA! Arame não protege - fios queimam, incêndio garantido. Crime punível
 R: SIM! Investimento €400-800 compensa em 2-3 anos. Mais seguro, conveniente, valoriza imóvel. Obrigatório por normas atuais.
 
 **P: Quanto custa eletricista em Bragança?**
-R: Diagnóstico €60-120, upgrade quadro €400-1.200. Staff Seekers: **932 321 892**
+R: Diagnóstico €60-120, upgrade quadro €400-1.200. : **932 321 892**
 
 ## Conclusão: Upgrade Para Disjuntores!
 
@@ -497,7 +497,7 @@ R: Diagnóstico €60-120, upgrade quadro €400-1.200. Staff Seekers: **932 321
 
 ### 🚨 Fusível Queima Constantemente? Ligue JÁ!
 
-**Staff Seekers - Eletricista Certificado em Trás-os-Montes**
+** - Eletricista Certificado em Trás-os-Montes**
 
 📞 **Ligue Agora: 932 321 892**
 - ✅ Diagnóstico problema elétrico €60-120

@@ -3,7 +3,7 @@ title: "Instalar Carregador de Carro Elétrico em Casa: Guia Completo 2026"
 slug: instalar-carregador-carro-eletrico
 category: Instalações Elétricas
 date: 2026-03-04
-author: Staff Seekers
+author: 
 excerpt: "Quer instalar um carregador de carro elétrico em casa? Descubra os 5 tipos de carregadores, potências necessárias, custos completos (€800-2,500), requisitos elétricos e como escolher o melhor para o seu veículo."
 keywords: 
   - carregador carro elétrico
@@ -554,7 +554,7 @@ Neste guia completo, vou explicar **tudo o que precisa saber** para instalar um 
 
 ## 📍 Instalação de Carregadores em Trás-os-Montes
 
-**Staff Seekers — Eletricista Certificado CERTIEL**
+** — Eletricista Certificado CERTIEL**
 
 ✅ Avaliação técnica grátis  
 ✅ Instalação de wallbox 7.4 kW, 11 kW, 22 kW  

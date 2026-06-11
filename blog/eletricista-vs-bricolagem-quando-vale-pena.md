@@ -2,7 +2,7 @@
 title: "Eletricista vs Bricolagem: Quando Chamar Profissional"
 slug: "eletricista-vs-bricolagem-quando-chamar"
 date: "2026-03-08"
-author: "Staff Seekers"
+author: ""
 category: "Segurança"
 excerpt: "Guia completo sobre quando pode fazer DIY elétrico e quando DEVE chamar eletricista. Riscos legais, segurança e economias reais."
 image: "/images-optimized/blog/blog-diy-vs-pro.webp"

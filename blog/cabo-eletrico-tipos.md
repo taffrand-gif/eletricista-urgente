@@ -3,7 +3,7 @@ title: "Tipos de Cabos Elétricos: Guia Completo para Escolher (2026)"
 slug: "cabo-eletrico-tipos"
 category: "Guias Técnicos"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Precisa escolher cabo elétrico? Descubra os tipos (H05VV-F, H07RN-F, etc.), secções (1,5mm², 2,5mm², 4mm²) e aplicações. Guia completo com tabelas e recomendações."
 keywords: ["tipos cabos elétricos", "cabo H05VV-F", "secção cabo", "escolher cabo", "eletricista Bragança", "cabo elétrico casa"]
 priority: "TRENDING"
@@ -405,7 +405,7 @@ Escolher o cabo elétrico correto é **essencial para segurança e eficiência**
 
 ### 🚨 Precisa de Instalação Elétrica Profissional?
 
-**Staff Seekers — Eletricista Certificado em Bragança**
+** — Eletricista Certificado em Bragança**
 
 📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20instalação%20elétrica.%20Pode%20ajudar%3F)**

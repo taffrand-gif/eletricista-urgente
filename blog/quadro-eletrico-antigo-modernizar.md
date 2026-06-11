@@ -3,7 +3,7 @@ title: "Quadro Elétrico Antigo? Quando e Como Modernizar"
 slug: "quadro-eletrico-antigo-modernizar"
 category: "Modernização Elétrica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Quadro elétrico com mais de 20 anos é perigoso! Descubra os 8 sinais de que precisa modernizar, benefícios (segurança +90%, disjuntor diferencial), custos em Trás-os-Montes (€300-800)."
 keywords: ["quadro elétrico antigo", "modernizar quadro elétrico", "substituir quadro elétrico", "disjuntor diferencial", "eletricista Trás-os-Montes", "certificação CERTIEL", "upgrade elétrico"]
 priority: "HIGH DEMAND"
@@ -413,7 +413,7 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 
 ### 📞 Precisa de Modernizar Quadro Elétrico?
 
-**Staff Seekers** - Eletricista Certificado em Trás-os-Montes  
+**** - Eletricista Certificado em Trás-os-Montes  
 ✅ Inspeção gratuita  
 ✅ Modernização completa de quadros  
 ✅ Certificação CERTIEL incluída  

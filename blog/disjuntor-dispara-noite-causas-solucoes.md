@@ -2,7 +2,7 @@
 title: "Disjuntor Dispara à Noite: 7 Causas e Soluções 2026"
 slug: "disjuntor-dispara-noite-causas-solucoes"
 date: "2026-03-08"
-author: "Staff Seekers"
+author: ""
 category: "Avarias"
 excerpt: "Disjuntor dispara sempre à noite? Descubra as 7 causas principais, diagnóstico passo a passo e quando chamar eletricista profissional."
 image: "/images-optimized/blog/blog-disjuntor-dispara.webp"

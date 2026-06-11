@@ -3,7 +3,7 @@ title: "Tomada Faz Faíscas? 7 Causas e Como Resolver URGENTE"
 slug: "tomada-faisca-perigo"
 category: "Segurança Elétrica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Tomada a fazer faíscas é PERIGO DE INCÊNDIO! Descubra as 7 causas principais (sobrecarga 35%, contacto solto 30%) e o que fazer IMEDIATAMENTE para proteger sua casa em Trás-os-Montes."
 keywords: ["tomada faz faíscas", "tomada com faísca", "faísca na tomada", "tomada perigosa", "risco incêndio elétrico", "eletricista urgente", "tomada avariada", "segurança elétrica", "Trás-os-Montes"]
 priority: "CRITICAL"
@@ -204,7 +204,7 @@ Uma tomada a fazer faíscas **não é um problema pequeno** que pode esperar. É
 
 ### 📞 Precisa de Ajuda URGENTE?
 
-**Staff Seekers** - Eletricista Certificado em Trás-os-Montes  
+**** - Eletricista Certificado em Trás-os-Montes  
 ✅ Emergências 24h/7 dias  
 ✅ Certificação CERTIEL  
 ✅ Orçamento grátis sem compromisso  

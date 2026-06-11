@@ -3,7 +3,7 @@ title: "Como Poupar Eletricidade no Inverno: 15 Dicas (Poupa €300/Ano)"
 slug: "poupar-eletricidade-inverno"
 category: "Eficiência Energética"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Inverno em Trás-os-Montes dispara fatura elétrica? Descubra 15 dicas comprovadas para poupar até €300/ano: aquecimento eficiente, isolamento, LED, eletrodomésticos classe A. Guia completo 2026."
 keywords: ["poupar eletricidade inverno", "reduzir fatura luz", "aquecimento eficiente", "eletricista Bragança", "consumo elétrico inverno", "dicas poupar energia"]
 priority: "SEASONAL"
@@ -485,7 +485,7 @@ O inverno em Trás-os-Montes não precisa significar faturas astronómicas. Com 
 
 **📞 Ligue para auditoria energética: [932 321 892](tel:+351932321892)**
 
-**Serviços Staff Seekers:**
+**Serviços :**
 - Auditoria energética completa: €80-150
 - Instalação de sistemas eficientes
 - Otimização de circuitos elétricos
@@ -498,7 +498,7 @@ O inverno em Trás-os-Montes não precisa significar faturas astronómicas. Com 
 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20reduzir%20a%20minha%20fatura%20de%20eletricidade.%20Podem%20ajudar%3F)**
 
-**✅ Garantias Staff Seekers:**
+**✅ Garantias :**
 - Eletricistas certificados com 15+ anos de experiência
 - Análise detalhada do consumo
 - Recomendações personalizadas
@@ -517,4 +517,4 @@ O inverno em Trás-os-Montes não precisa significar faturas astronómicas. Com 
 
 ---
 
-*Staff Seekers - Eletricista Certificado em Trás-os-Montes | Eficiência Energética | 932 321 892*
+* - Eletricista Certificado em Trás-os-Montes | Eficiência Energética | 932 321 892*

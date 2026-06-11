@@ -3,7 +3,7 @@ title: "Climatização Casa: Escolher Sistema Ideal e Poupar 30%"
 slug: "climatizacao-casa"
 category: "modernizacao"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Climatização casa: AC split, multi-split, VRF, bomba calor. Descubra qual escolher, custos €600-8000, poupança 30% com inverter, instalação e manutenção."
 keywords: ["climatização", "ar condicionado", "bomba calor", "AC inverter", "Trás-os-Montes"]
 ---
@@ -531,7 +531,7 @@ keywords: ["climatização", "ar condicionado", "bomba calor", "AC inverter", "T
 ✅ Fuga gás
 ✅ Avaria componente
 
-## ✅ Por Que Escolher Staff Seekers
+## ✅ Por Que Escolher 
 
 ### Especialização Climatização
 

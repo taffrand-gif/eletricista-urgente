@@ -3,7 +3,7 @@ title: "Lâmpada Pisca ou Tremula? 7 Causas e Como Resolver"
 slug: "lampada-pisca"
 category: "Problemas Elétricos"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Lâmpada a piscar ou tremulicar? Descubra as 7 causas principais (lâmpada defeituosa 40%, mau contacto 25%, problema no interruptor 15%) e como resolver. Guia completo para Trás-os-Montes."
 keywords: ["lâmpada pisca", "luz tremula", "lâmpada intermitente", "eletricista Bragança", "problema iluminação", "luz pisca-pisca"]
 priority: "HIGH DEMAND"
@@ -461,7 +461,7 @@ Uma lâmpada que pisca não é apenas irritante — pode indicar **problemas el�
 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20a%20minha%20lâmpada%20não%20para%20de%20piscar.%20Podem%20ajudar%3F)**
 
-**✅ Garantias Staff Seekers:**
+**✅ Garantias :**
 - Eletricistas certificados com 15+ anos de experiência
 - Diagnóstico preciso com equipamento profissional
 - Arranjo rápida (30-90 minutos)
@@ -480,4 +480,4 @@ Uma lâmpada que pisca não é apenas irritante — pode indicar **problemas el�
 
 ---
 
-*Staff Seekers - Eletricista Certificado em Trás-os-Montes | Urgências 24/7 | 932 321 892*
+* - Eletricista Certificado em Trás-os-Montes | Urgências 24/7 | 932 321 892*

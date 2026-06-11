@@ -3,7 +3,7 @@ title: "Como Usar Extensão Elétrica em Segurança: 10 Regras"
 slug: "extensao-eletrica-segura"
 category: "Segurança Elétrica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Usar extensão elétrica errado causa 30% dos incêndios domésticos! Descubra as 10 regras de segurança, potência máxima (2.300W), quando NÃO usar e como escolher extensão certificada em Trás-os-Montes."
 keywords: ["extensão elétrica", "extensão segura", "tripla elétrica", "sobrecarga elétrica", "incêndio elétrico", "eletricista Trás-os-Montes", "extensão certificada", "segurança elétrica"]
 priority: "HIGH DEMAND"
@@ -405,7 +405,7 @@ Em Trás-os-Montes, onde muitas casas têm poucas tomadas (construções antigas
 
 ### 📞 Precisa de Instalar Tomadas Adicionais?
 
-**Staff Seekers** - Eletricista Certificado em Trás-os-Montes  
+**** - Eletricista Certificado em Trás-os-Montes  
 ✅ Instalação de tomadas adicionais  
 ✅ Upgrade de quadro elétrico  
 ✅ Certificação CERTIEL  

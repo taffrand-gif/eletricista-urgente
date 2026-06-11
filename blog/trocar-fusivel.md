@@ -3,7 +3,7 @@ title: "Como Trocar Fusível: Guia Completo e Seguro (2026)"
 slug: "trocar-fusivel"
 category: "Manutenção Elétrica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Fusível queimou e ficou sem luz? Aprenda a identificar, trocar e prevenir fusíveis queimados. Guia completo: tipos de fusíveis, causas (sobrecarga 60%, curto-circuito 30%), segurança. Trás-os-Montes."
 keywords: ["trocar fusível", "fusível queimado", "como trocar fusível", "eletricista Bragança", "fusível cerâmico", "disjuntor vs fusível"]
 priority: "HIGH DEMAND"
@@ -432,7 +432,7 @@ Trocar um fusível é uma tarefa **simples mas que requer atenção absoluta à 
 
 **📞 Ligue para diagnóstico: [932 321 892](tel:+351932321892)**
 
-**Serviços Staff Seekers:**
+**Serviços :**
 - Diagnóstico de problemas elétricos
 - Atualização de fusíveis para disjuntores
 - Substituição de quadro elétrico completo
@@ -445,7 +445,7 @@ Trocar um fusível é uma tarefa **simples mas que requer atenção absoluta à 
 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20o%20fusível%20queima%20constantemente.%20Preciso%20de%20diagnóstico.)**
 
-**✅ Garantias Staff Seekers:**
+**✅ Garantias :**
 - Eletricistas certificados com 15+ anos de experiência
 - Diagnóstico preciso com equipamento profissional
 - Soluções definitivas (não temporárias)
@@ -464,4 +464,4 @@ Trocar um fusível é uma tarefa **simples mas que requer atenção absoluta à 
 
 ---
 
-*Staff Seekers - Eletricista Certificado em Trás-os-Montes | Segurança Elétrica | 932 321 892*
+* - Eletricista Certificado em Trás-os-Montes | Segurança Elétrica | 932 321 892*

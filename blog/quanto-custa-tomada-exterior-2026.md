@@ -2,7 +2,7 @@
 title: "Quanto Custa Instalar Tomada Exterior Portugal 2026"
 slug: "quanto-custa-instalar-tomada-exterior"
 date: "2026-03-08"
-author: "Staff Seekers"
+author: ""
 category: "Instalações"
 excerpt: "Guia completo sobre instalação de tomadas exteriores. Preços, tipos (IP44/IP65), normas, materiais e processo de instalação."
 image: "/images-optimized/blog/blog-tomada-exterior.webp"

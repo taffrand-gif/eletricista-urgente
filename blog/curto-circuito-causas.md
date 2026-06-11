@@ -3,7 +3,7 @@ title: "Curto-Circuito: 10 Causas e Como Prevenir (Guia 2026)"
 slug: "curto-circuito-causas"
 category: "Segurança Elétrica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Curto-circuito em casa? Descubra as 10 causas principais, como prevenir e agir em emergência. Guia completo de segurança elétrica para Trás-os-Montes."
 keywords: "curto circuito, disjuntor desarma, problema eletrico, incendio eletrico, eletricista braganca, seguranca eletrica"
 priority: "CRITICAL"
@@ -508,7 +508,7 @@ R: Inspeção €150-400, manutenção anual €80-150, proteções €200-400. 
 R: SIM! 30+ anos = risco alto. Fios deteriorados, sem terra, subdimensionada. Rewiring €3.000-8.000 salva vidas.
 
 **P: Quanto custa eletricista em Bragança?**
-R: Diagnóstico €60-120, arranjo €100-500. Urgente 24h: +50-100%. Staff Seekers: **932 321 892**
+R: Diagnóstico €60-120, arranjo €100-500. Urgente 24h: +50-100%. : **932 321 892**
 
 ## Conclusão: Prevenção Salva Vidas
 
@@ -516,7 +516,7 @@ R: Diagnóstico €60-120, arranjo €100-500. Urgente 24h: +50-100%. Staff Seek
 
 ### 🚨 Problema Elétrico? Ligue JÁ!
 
-**Staff Seekers - Eletricista Certificado em Trás-os-Montes**
+** - Eletricista Certificado em Trás-os-Montes**
 
 📞 **Ligue Agora: 932 321 892**
 - ✅ Atendimento 24 horas (emergências elétricas)

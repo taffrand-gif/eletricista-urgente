@@ -2,7 +2,7 @@
 title: "Eletricista 24 Horas Trás-os-Montes: Guia Completo"
 slug: "eletricista-24-horas-guia-completo"
 date: "2026-03-08"
-author: "Staff Seekers"
+author: ""
 category: "Urgências"
 excerpt: "Guia completo sobre serviço de eletricista 24 horas em Trás-os-Montes. Tempos de resposta, preços, quando chamar e o que fazer."
 image: "/images-optimized/blog/blog-24h-service.webp"

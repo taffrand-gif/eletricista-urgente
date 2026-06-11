@@ -3,7 +3,7 @@ title: "Quadro Elétrico: Guia Completo de Manutenção e Segurança (2026)"
 slug: "quadro-eletrico-manutencao"
 category: "Manutenção"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Quadro elétrico antigo ou com problemas? Descubra como fazer manutenção, quando substituir e sinais de perigo. Guia completo com segurança e custos."
 keywords: ["quadro elétrico", "manutenção quadro", "disjuntores", "substituir quadro", "eletricista Bragança", "segurança elétrica"]
 priority: "HIGH DEMAND"
@@ -436,7 +436,7 @@ O quadro elétrico é **essencial para segurança** da sua casa:
 
 ### 🚨 Quadro Elétrico com Problemas? Ajuda Profissional
 
-**Staff Seekers — Eletricista Certificado em Bragança**
+** — Eletricista Certificado em Bragança**
 
 📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20inspeção%2Fmanutenção%20do%20quadro%20elétrico.%20Pode%20ajudar%3F)**

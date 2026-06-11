@@ -2,7 +2,7 @@
 title: "Preço Certificação CERTIEL 2026 Trás-os-Montes"
 slug: "preco-certificacao-certiel-2026"
 date: "2026-03-08"
-author: "Staff Seekers"
+author: ""
 category: "Certificação"
 excerpt: "Guia completo sobre preços de certificação CERTIEL em 2026. Quanto custa, quando é obrigatória, processo completo e prazos."
 image: "/images-optimized/blog/blog-certificacao-certiel.webp"
@@ -354,12 +354,12 @@ Se sabe que tem problemas (ex: falta diferencial), corrija antes da inspeção. 
 
 | Empresa | Preço | Prazo | Inclui Correções |
 |---------|-------|-------|------------------|
-| **Staff Seekers** | 280€ | 3-5 dias | Orçamento separado |
+| **** | 280€ | 3-5 dias | Orçamento separado |
 | Concorrente A | 350€ | 5-7 dias | Não |
 | Concorrente B | 250€ | 7-10 dias | Não |
 | Concorrente C | 300€ | 4-6 dias | Pequenas incluídas |
 
-**Vantagem Staff Seekers:**
+**Vantagem :**
 - ✅ Preço justo e transparente
 - ✅ Prazo rápido (3-5 dias)
 - ✅ Orçamento correções antes de começar

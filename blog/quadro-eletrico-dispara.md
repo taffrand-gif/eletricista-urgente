@@ -3,7 +3,7 @@ title: "Quadro Elétrico Dispara Sempre? 7 Causas e Como Resolver"
 slug: "quadro-eletrico-dispara"
 category: "Problemas Elétricos"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Disjuntor ou diferencial dispara constantemente? Descubra as 7 causas mais comuns (sobrecarga 45%, fuga de corrente 30%, curto-circuito 15%) e como resolver definitivamente. Guia completo para Trás-os-Montes."
 keywords: ["quadro elétrico dispara", "disjuntor dispara", "diferencial dispara", "eletricista Bragança", "fuga de corrente", "sobrecarga elétrica", "curto-circuito"]
 priority: "CRITICAL"
@@ -367,7 +367,7 @@ Um quadro elétrico que dispara constantemente não é apenas um incómodo — �
 
 **💬 WhatsApp urgente: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20o%20meu%20quadro%20elétrico%20dispara%20constantemente.%20Preciso%20de%20ajuda%20urgente.)**
 
-**✅ Garantias Staff Seekers:**
+**✅ Garantias :**
 - Diagnóstico preciso com equipamento profissional
 - Orçamento transparente antes de iniciar
 - Eletricistas certificados com 15+ anos de experiência
@@ -386,4 +386,4 @@ Um quadro elétrico que dispara constantemente não é apenas um incómodo — �
 
 ---
 
-*Staff Seekers - Eletricista Certificado em Trás-os-Montes | Urgências 24/7 | 932 321 892*
+* - Eletricista Certificado em Trás-os-Montes | Urgências 24/7 | 932 321 892*

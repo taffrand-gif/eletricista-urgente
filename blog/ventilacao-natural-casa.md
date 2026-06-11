@@ -3,7 +3,7 @@ title: "Ventilação Natural Casa: Conforto Verão Sem AC e Grátis"
 slug: "ventilacao-natural-casa"
 category: "eficiencia-energetica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Ventilação natural casa: ventilação cruzada, efeito chaminé, ventilação noturna. Arrefece 5-10°C sem AC, grátis, ecológico. Descubra técnicas e melhorias."
 keywords: ["ventilação natural", "arrefecer casa", "sem ar condicionado", "verão", "Trás-os-Montes"]
 ---
@@ -424,7 +424,7 @@ keywords: ["ventilação natural", "arrefecer casa", "sem ar condicionado", "ver
 ✅ Ventiladores teto (se experiência)
 ✅ Rotina ventilação
 
-## ✅ Por Que Escolher Staff Seekers
+## ✅ Por Que Escolher 
 
 ### Consultoria Ventilação
 

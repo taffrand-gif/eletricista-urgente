@@ -3,7 +3,7 @@ title: "Como Instalar Ventilador de Teto: Guia Completo Passo a Passo (2026)"
 slug: "instalar-ventilador-teto"
 category: "Instalações Elétricas"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Quer instalar ventilador de teto? Descubra como fazer em 10 passos seguros. Guia completo com tipos, fixação, ligação elétrica, custos e erros a evitar."
 keywords: ["instalar ventilador teto", "ventilador teto com luz", "como montar ventilador", "ventilador teto seguro", "eletricista Bragança", "fixar ventilador"]
 priority: "SEASONAL"
@@ -492,7 +492,7 @@ Instalar ventilador de teto é **relativamente simples** mas requer **atenção 
 
 ### 🚨 Precisa de Eletricista Certificado em Trás-os-Montes?
 
-**Staff Seekers — Eletricista Certificado em Bragança**
+** — Eletricista Certificado em Bragança**
 
 📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20instalar%20um%20ventilador%20de%20teto.%20Pode%20ajudar%3F)**

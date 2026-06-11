@@ -3,7 +3,7 @@ title: "Cabo Elétrico Danificado? Como Identificar e Arranjar"
 slug: "cabo-eletrico-danificado-arranjar"
 category: "Segurança Elétrica"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Cabo elétrico cortado, derretido ou exposto é PERIGO DE INCÊNDIO! Descubra os 8 sinais de dano, quando substituir vs arranjar, custos em Trás-os-Montes e como prevenir."
 keywords: ["cabo elétrico danificado", "fio elétrico cortado", "cabo derretido", "arranjar cabo elétrico", "eletricista Trás-os-Montes", "substituir cabo", "segurança elétrica"]
 priority: "HIGH DEMAND"
@@ -441,7 +441,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 
 ### 📞 Precisa de Substituir Cabo Danificado?
 
-**Staff Seekers** - Eletricista Certificado em Trás-os-Montes  
+**** - Eletricista Certificado em Trás-os-Montes  
 ✅ Emergências 24h/7 dias  
 ✅ Substituição de cabos danificados  
 ✅ Inspeção de instalações elétricas  

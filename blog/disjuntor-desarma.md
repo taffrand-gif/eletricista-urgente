@@ -3,7 +3,7 @@ title: "Disjuntor Desarma Sempre: 7 Causas e Como Resolver (2026)"
 slug: "disjuntor-desarma"
 category: "Problemas Elétricos"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Disjuntor desarma constantemente? Descubra as 7 causas principais (desde sobrecarga até curto-circuito) e como resolver. Guia completo com diagnóstico e soluções seguras."
 keywords: ["disjuntor desarma", "disjuntor salta", "luz vai abaixo", "curto circuito", "eletricista Bragança", "quadro elétrico"]
 priority: "CRITICAL"
@@ -451,7 +451,7 @@ Disjuntor que desarma constantemente é **sinal de problema elétrico** que prec
 
 ### 🚨 Disjuntor Desarma Constantemente? Ajuda Urgente
 
-**Staff Seekers — Eletricista Certificado em Bragança**
+** — Eletricista Certificado em Bragança**
 
 📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20o%20meu%20disjuntor%20desarma%20constantemente.%20Preciso%20de%20ajuda%20urgente!)**

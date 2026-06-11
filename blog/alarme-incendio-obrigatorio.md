@@ -3,7 +3,7 @@ title: "Alarme de Incêndio Obrigatório? Guia Completo 2026"
 slug: "alarme-incendio-obrigatorio"
 category: "Segurança"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Alarme de incêndio é obrigatório em casa? Descubra a legislação 2026, tipos de detetores (fumo, calor, CO), onde instalar, custos em Trás-os-Montes (€15-150) e como salva vidas."
 keywords: ["alarme incêndio obrigatório", "detetor fumo", "detetor incêndio", "legislação alarme incêndio", "eletricista Trás-os-Montes", "segurança incêndio casa", "detetor monóxido carbono"]
 priority: "HIGH DEMAND"
@@ -479,7 +479,7 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 
 ### 📞 Quer Instalar Sistema de Alarme?
 
-**Staff Seekers** - Eletricista Certificado em Trás-os-Montes  
+**** - Eletricista Certificado em Trás-os-Montes  
 ✅ Instalação de detetores de incêndio  
 ✅ Sistemas interligados  
 ✅ Consultoria de segurança  

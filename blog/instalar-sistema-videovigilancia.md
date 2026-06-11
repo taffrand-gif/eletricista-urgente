@@ -3,7 +3,7 @@ title: "Instalar Sistema de Videovigilância em Casa: Guia Completo 2026"
 slug: instalar-sistema-videovigilancia
 category: Instalações Elétricas
 date: 2026-03-04
-author: Staff Seekers
+author: 
 excerpt: "Quer instalar câmaras de vigilância em casa? Descubra os 4 tipos de sistemas, custos completos (€300-2,500), como escolher câmaras, instalação DIY vs profissional e requisitos legais em Portugal."
 keywords: 
   - sistema videovigilância
@@ -587,7 +587,7 @@ Neste guia completo, vou explicar:
 
 ## 📍 Instalação de Videovigilância em Trás-os-Montes
 
-**Staff Seekers — Eletricista Certificado**
+** — Eletricista Certificado**
 
 ✅ Avaliação e orçamento grátis  
 ✅ Instalação de sistemas IP, analógicos, híbridos  

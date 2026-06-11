@@ -3,7 +3,7 @@ title: "Lâmpada Pisca: 8 Causas e Como Resolver (Guia 2026)"
 slug: "lampada-pisca-resolver"
 category: "Arranjos Elétricas"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Lâmpada pisca ou tremula? Descubra as 8 causas principais e soluções seguras. Guia completo com diagnóstico passo a passo e quando chamar eletricista em Trás-os-Montes."
 keywords: "lampada pisca, luz pisca, lampada tremula, luz intermitente, eletricista bragança, problema eletrico"
 priority: "HIGH DEMAND"
@@ -422,7 +422,7 @@ R: Interruptor com luz piloto ou corrente residual. Solução: instale resistor 
 R: Humidade na instalação externa ou caixa de derivação. Problema grave - chame eletricista urgente.
 
 **P: Quanto custa eletricista em Bragança?**
-R: Diagnóstico €40-60 (normal) ou €80-100 (urgente 24h). Arranjo €80-200. Staff Seekers: **932 321 892**
+R: Diagnóstico €40-60 (normal) ou €80-100 (urgente 24h). Arranjo €80-200. : **932 321 892**
 
 **P: Posso usar LED em qualquer candeeiro?**
 R: SIM, mas verifique: potência máxima, se tem dimmer (use LED regulável), espaço suficiente para LED (alguns são maiores).
@@ -433,7 +433,7 @@ R: SIM, mas verifique: potência máxima, se tem dimmer (use LED regulável), es
 
 ### 🚨 Precisa Ajuda Profissional?
 
-**Staff Seekers - Eletricista Certificado em Trás-os-Montes**
+** - Eletricista Certificado em Trás-os-Montes**
 
 📞 **Ligue Agora: 932 321 892**
 - ✅ Atendimento 24 horas (urgências elétricas)

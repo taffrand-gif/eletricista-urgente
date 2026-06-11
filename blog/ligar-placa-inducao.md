@@ -3,7 +3,7 @@ title: "Como Ligar Placa de Indução: Guia Completo de Instalação"
 slug: "ligar-placa-inducao"
 category: "Instalações Elétricas"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Quer instalar placa de indução? Descubra potência necessária (3,7-7,4kW), instalação elétrica (trifásico vs monofásico), custos em Trás-os-Montes (€300-800) e certificação obrigatória."
 keywords: ["ligar placa indução", "instalar placa indução", "placa indução trifásico", "instalação elétrica placa", "eletricista Trás-os-Montes", "potência placa indução", "certificação CERTIEL"]
 priority: "HIGH DEMAND"
@@ -434,7 +434,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 ### 📞 Precisa de Instalar Placa de Indução?
 
-**Staff Seekers** - Eletricista Certificado em Trás-os-Montes  
+**** - Eletricista Certificado em Trás-os-Montes  
 ✅ Especialistas em placas de indução  
 ✅ Avaliação gratuita (potência necessária)  
 ✅ Instalação completa + certificação CERTIEL  

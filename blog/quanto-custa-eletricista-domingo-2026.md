@@ -2,7 +2,7 @@
 title: "Quanto Custa Chamar Eletricista Domingo 2026"
 slug: "quanto-custa-eletricista-domingo-2026"
 date: "2026-03-08"
-author: "Staff Seekers"
+author: ""
 category: "Preços"
 excerpt: "Descubra os preços reais para chamar um eletricista ao domingo em 2026. Tabela completa de preços, comparações e quando vale a pena."
 image: "/images-optimized/blog/blog-urgencia-domingo.webp"
@@ -216,12 +216,12 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 
 | Empresa | Preço/Hora | Deslocação | Disponibilidade |
 |---------|------------|------------|-----------------|
-| **Staff Seekers** | 100€ | 15-65€ | 24/7 real |
+| **** | 100€ | 15-65€ | 24/7 real |
 | Concorrente A | 120€ | 50€ fixo | Só até 22h |
 | Concorrente B | 95€ | 80€ fixo | Não atende sempre |
 | Concorrente C | 110€ | 40-90€ | 24/7 |
 
-**Vantagem Staff Seekers:**
+**Vantagem :**
 - ✅ Preço justo e transparente
 - ✅ Deslocação por zonas (mais justo)
 - ✅ Disponibilidade real 24/7

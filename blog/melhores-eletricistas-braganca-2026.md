@@ -2,7 +2,7 @@
 title: "Melhores Eletricistas Bragança 2026: Como Escolher"
 slug: "melhores-eletricistas-braganca-como-escolher"
 date: "2026-03-08"
-author: "Staff Seekers"
+author: ""
 category: "Guias"
 excerpt: "Guia completo para escolher eletricista em Bragança. 10 critérios essenciais, perguntas a fazer, red flags e checklist de verificação."
 image: "/images-optimized/blog/blog-escolher-eletricista.webp"
@@ -373,7 +373,7 @@ Saber se pode deixar chaves
 ### 7. Devo pagar antes ou depois?
 **Sinal 30-50%, resto após conclusão.** Nunca 100% adiantado.
 
-## Porque Escolher Staff Seekers?
+## Porque Escolher ?
 
 ### ✅ Certificação CERTIEL Válida
 Número certificação verificável em certiel.pt

@@ -3,7 +3,7 @@ title: "Campainha Não Funciona: 6 Causas e Como Arranjar (2026)"
 slug: "campainha-nao-funciona"
 category: "Problemas Elétricos"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Campainha não toca ou sem som? Descubra as 6 causas principais (desde pilhas gastas até transformador avariado) e como arranjar. Guia completo com diagnóstico passo a passo."
 keywords: ["campainha não funciona", "campainha não toca", "arranjar campainha", "botão campainha", "eletricista Bragança", "campainha sem som"]
 priority: "HIGH DEMAND"
@@ -490,7 +490,7 @@ Na maioria dos casos, campainha que não funciona tem **solução fácil e barat
 
 ### 🚨 Campainha Não Funciona? Ajuda Profissional em Trás-os-Montes
 
-**Staff Seekers — Eletricista Certificado em Bragança**
+** — Eletricista Certificado em Bragança**
 
 📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20a%20minha%20campainha%20não%20funciona.%20Pode%20ajudar%3F)**

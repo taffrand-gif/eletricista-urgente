@@ -2,7 +2,7 @@
 title: "Quanto Custa Mudar Quadro Elétrico Fusíveis 2026"
 slug: "quanto-custa-mudar-quadro-eletrico-fusiveis"
 date: "2026-03-08"
-author: "Staff Seekers"
+author: ""
 category: "Modernização"
 excerpt: "Guia completo sobre substituição de quadro elétrico com fusíveis. Preços 2026, processo, subvenções e ROI segurança."
 image: "/images-optimized/blog/blog-quadro-antigo.webp"

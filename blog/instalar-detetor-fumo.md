@@ -3,7 +3,7 @@ title: "Instalar Detetor de Fumo: Guia Completo + Onde Colocar (Salva Vidas)"
 slug: instalar-detetor-fumo
 category: Segurança Elétrica
 date: 2026-03-04
-author: Staff Seekers
+author: 
 excerpt: "Detetores de fumo salvam vidas — reduzem mortes em incêndios em 50%. Descubra os 3 tipos, onde instalar (7 locais essenciais), como testar, manutenção e requisitos legais em Portugal. Guia completo 2026."
 keywords: 
   - detetor de fumo
@@ -556,7 +556,7 @@ Neste guia completo, vou mostrar-lhe:
 
 ## 📍 Instalação de Detetores de Fumo em Trás-os-Montes
 
-**Staff Seekers — Eletricista Certificado**
+** — Eletricista Certificado**
 
 ✅ Instalação de detetores de fumo e CO  
 ✅ Sistemas interligados (wireless ou cabo)  

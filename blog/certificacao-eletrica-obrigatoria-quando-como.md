@@ -2,7 +2,7 @@
 title: "Certificação Elétrica Obrigatória: Guia Completo 2026"
 slug: "certificacao-eletrica-obrigatoria-guia-2026"
 date: "2026-03-08"
-author: "Staff Seekers"
+author: ""
 category: "Legislação"
 excerpt: "Guia completo sobre certificação elétrica obrigatória em Portugal. Quando é obrigatória, legislação, processo, prazos e penalidades."
 image: "/images-optimized/blog/blog-certificacao-obrigatoria.webp"

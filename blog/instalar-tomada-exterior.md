@@ -3,7 +3,7 @@ title: "Como Instalar Tomada no Exterior: Guia Completo IP65 (2026)"
 slug: "instalar-tomada-exterior"
 category: "Instalações Elétricas"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Precisa de tomada no jardim, garagem ou terraço? Descubra como instalar tomada exterior IP65 com segurança. Guia completo com normas, custos e proteção contra água."
 keywords: ["instalar tomada exterior", "tomada jardim", "tomada IP65", "tomada à prova de água", "eletricista Bragança", "tomada garagem"]
 priority: "HIGH DEMAND"
@@ -346,7 +346,7 @@ A instalação de tomada no exterior requer **cuidados especiais de segurança**
 
 ### 🚨 Precisa de Eletricista Certificado em Trás-os-Montes?
 
-**Staff Seekers — Eletricista Certificado em Bragança**
+** — Eletricista Certificado em Bragança**
 
 📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20instalar%20uma%20tomada%20exterior.%20Pode%20ajudar%3F)**

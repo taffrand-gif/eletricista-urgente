@@ -3,7 +3,7 @@ title: "Luz Pisca em Casa? 8 Causas e Como Resolver Rápido"
 slug: "luz-pisca-causas-resolver"
 category: "Problemas Elétricos"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Luz a piscar em casa é sinal de problema elétrico! Descubra as 8 causas principais (lâmpada solta 40%, contacto defeituoso 25%, sobrecarga 15%) e como resolver em Trás-os-Montes."
 keywords: ["luz pisca", "luz a piscar", "lâmpada pisca", "luz intermitente", "problema elétrico", "eletricista Trás-os-Montes", "luz falha", "instalação elétrica"]
 priority: "HIGH DEMAND"
@@ -379,7 +379,7 @@ Luz a piscar pode ser desde um problema simples (lâmpada solta - €0) até gra
 
 ### 📞 Precisa de Ajuda Profissional?
 
-**Staff Seekers** - Eletricista Certificado em Trás-os-Montes  
+**** - Eletricista Certificado em Trás-os-Montes  
 ✅ Diagnóstico grátis por telefone  
 ✅ Emergências 24h/7 dias  
 ✅ Certificação CERTIEL  

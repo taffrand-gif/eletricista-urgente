@@ -3,7 +3,7 @@ title: "Eletrocussão Prevenir: Segurança Elétrica Casa e Trabalho"
 slug: "eletrocussao-prevenir"
 category: "seguranca"
 date: "2026-03-04"
-author: "Staff Seekers"
+author: ""
 excerpt: "Eletrocussão prevenir: disjuntor diferencial 30mA obrigatório, não mexer quadro, água longe eletricidade. Descubra riscos, primeiros socorros e segurança elétrica."
 keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjuntor diferencial", "Trás-os-Montes"]
 ---
@@ -499,7 +499,7 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 ✅ Verificar ligações
 ✅ Termografia
 
-## ✅ Por Que Escolher Staff Seekers
+## ✅ Por Que Escolher 
 
 ### Especialização Segurança
 
