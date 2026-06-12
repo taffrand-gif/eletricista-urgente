@@ -1447,6 +1447,101 @@
       "source": "/en",
       "destination": "/",
       "statusCode": 410
+    },
+    {
+      "source": "/eletricista-a-gudia",
+      "destination": "/eletricista-a-gudina",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-campo-de-vboras",
+      "destination": "/eletricista-campo-de-viboras",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-cerezal-de-peahorcada",
+      "destination": "/eletricista-cerezal-de-penahorcada",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-espadaedo",
+      "destination": "/eletricista-espadanedo",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-gensio",
+      "destination": "/eletricista-genisio",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-gradssimo",
+      "destination": "/eletricista-gradissimo",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-la-pea",
+      "destination": "/eletricista-la-pena",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-la-vdola",
+      "destination": "/eletricista-la-vidola",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-pedralba-de-la-pradera",
+      "destination": "/eletricista-pedralba-de-la-praderia",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-perea-de-la-ribera",
+      "destination": "/eletricista-perena-de-la-ribera",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-samir-de-los-caos",
+      "destination": "/eletricista-samir-de-los-canos",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-carrazeda-de-anciaes",
+      "destination": "/eletricista-urgente-carrazeda-de-ansiaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-vilario-de-conso",
+      "destination": "/eletricista-vilarino-de-conso",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-mós-de-celas",
+      "destination": "/eletricista-urgente-mós-de-celas",
+      "statusCode": 410
+    },
+    {
+      "source": "/eletricista-urgente-mós",
+      "destination": "/eletricista-urgente-mós",
+      "statusCode": 410
+    },
+    {
+      "source": "/eletricista-urgente-tó",
+      "destination": "/eletricista-urgente-tó",
+      "statusCode": 410
+    },
+    {
+      "source": "/eletricista-gallegos-del-ro",
+      "destination": "/eletricista-gallegos-del-ro",
+      "statusCode": 410
+    },
+    {
+      "source": "/eletricista-urgente-peso-da-r-gua",
+      "destination": "/eletricista-urgente-peso-da-regua",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-alij",
+      "destination": "/eletricista-urgente-alijo",
+      "statusCode": 301
     }
   ]
 }
