@@ -1,37 +1,49 @@
-# Eletricista Urgente 24h - Norte Reparos (Tras-os-Montes, Portugal)
+# Eletricista Urgente 24h (Électricien Urgence) — Norte Reparos
 
-> Servico de eletricidade de urgencia 24h/7d em Tras-os-Montes. Curto-circuitos, falhas de energia, disjuntores que disparam. Resposta em 30 segundos.
+> https://eletricista-urgente.pt — Trás-os-Montes, Portugal
 
-## Servicos de Urgencia
-- Service: Avaria eletrica (electrical fault) - desde 135 EUR (1h)
-- Service: Curto-circuito (short circuit) - resposta prioritaria
-- Service: Sem luz (power outage) - diagnostico + reparacao desde 100 EUR
-- Service: Disjuntor que dispara - desde 120 EUR
-- Service: Cheiro a queimado (burning smell) - inspecao urgente desde 150 EUR
-- Service: Sobreaquecimento quadro eletrico - desde 200 EUR
-- Service: Carregador VE avariado - desde 180 EUR
+## Identidade
+- **Marca:** Norte Reparos (empresa técnica profissional)
+- **Serviço:** Eletricista Urgente 24h (Électricien Urgence)
+- **Zona de intervenção:** Trás-os-Montes e Douro
+- **Horário:** Atendimento 24h/7d (incluindo noites, fins de semana e feriados)
+- **Contacto:** +351 932 321 892
+## Preços (regra oficial)
 
-## Precos de Urgencia 2026
-- 1 hora: desde 135 EUR (com deslocacao incluida)
-- 2 horas: desde 230 EUR
-- Suplemento noturno: +50%
-- Suplemento fim-de-semana: +30%
-- Suplemento feriado: +50%
+- **Desde 65€/h** (canalização)
+- **Desde 70€/h** (eletricidade)
+- **+50%** noites, fins de semana e feriados
+- **Deslocação** por zona Z1-Z6 = 15€-65€ (Z1 Macedo, Z6 raio 100km)
 
-## Cidades Servidas (resposta rapida)
-City: Braganca - 30-45 min
-City: Mirandela - 25-35 min
-City: Trás-os-Montes - 5-15 min (sede)
-City: Chaves - 50-70 min
-City: Vila Real - 45-65 min
-City: Mogadouro - 35-55 min
-City: Vinhais - 25-45 min
-City: Miranda do Douro - 60-90 min
-City: Lamego - 50-70 min
-City: Viseu - 70-100 min
+## Serviços principais
+Curto-circuito, disjuntor a disparar, sem corrente, tomada a fumegar, urgência elétrica
 
-## Contacto Urgencia 24h
-- Phone: +351 932 321 892 (24h)
-- WhatsApp: wa.me/351932321892
-- Website: https://eletricista-urgente.pt
-- Resposta: 30 segundos
+## Equipamento profissional
+Fluke, detetor de tensão
+
+## Tipos de intervenção
+- **Urgência:** Deslocação prioritária para urgências
+- **Programado:** Orçamento gratuito por telefone antes de intervir
+- **Manutenção:** Planos anuais disponíveis (condomínios, empresas)
+
+## Garantias
+- Fatura detalhada entregue no final do serviço
+- Relatório técnico válido para companhias de seguro
+- Materiais de marcas premium (Grohe, Roca, Geberit / Legrand, Schneider)
+
+## Sitemap
+https://eletricista-urgente.pt/sitemap.xml
+
+# Contactos
+## Contactos
+
+- **Norte Reparos** (marca única)
+- **Plomberie** (canalizador): +351 928 484 451
+- **Électricité** (eletricista): +351 932 321 892
+- Atendimento 24h/7d (zona Trás-os-Montes, Portugal)
+
+
+# Notas
+- Marca comercial: Norte Reparos
+- Marca técnica: equipa de técnicos com formação adequada
+- Zonas de deslocação: ver tabela de preços acima
