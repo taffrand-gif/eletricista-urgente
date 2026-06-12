@@ -19,11 +19,11 @@
 
 <!-- Breadcrumb visible -->
 <nav role="navigation" aria-label="Breadcrumb" style="background: #f0f9ff; padding: .8rem 1.5rem; border-radius: 8px; margin: 1rem auto; max-width: 1100px; font-size: .9rem;">
-  <ol style="list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: .5rem;">
-    <li><a href="/" style="color: #2193b0; text-decoration: none;">Início</a> <span style="color: #999;">›</span></li>
-    <li><a href="/distritos/tras-os-montes.html" style="color: #2193b0; text-decoration: none;">Trás-os-Montes</a></li>
-    <li style="color: #555;">Esta página</li>
-  </ol>
+ <ol style="list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: .5rem;">
+ <li><a href="/" style="color: #2193b0; text-decoration: none;">Início</a> <span style="color: #999;">›</span></li>
+ <li><a href="/distritos/tras-os-montes.html" style="color: #2193b0; text-decoration: none;">Trás-os-Montes</a></li>
+ <li style="color: #555;">Esta página</li>
+ </ol>
 </nav>
 
 <h1 role="heading" aria-level="1">☀️ Calculadora ROI Painel Solar 2026</h1>
@@ -86,34 +86,34 @@
 
 <script>
 function calcular() {
-    const consumo = parseFloat(document.getElementById('consumo').value);
-    const preco = parseFloat(document.getElementById('preco').value);
-    const kit = parseInt(document.getElementById('kit').value);
-    const autoconsumo = parseFloat(document.getElementById('autoconsumo').value) / 100;
-    
-    // Custo médio por kW instalado (2026)
-    const custoPorKWh = {3: 5500, 5: 8500, 10: 15000};
-    const custo = custoPorKWh[kit];
-    
-    // Poupança anual
-    const poupancaAnual = consumo * autoconsumo;
-    
-    // Payback
-    const payback = custo / poupancaAnual;
-    
-    // Poupança em 25 anos (vida util painéis)
-    const poupanca25 = poupancaAnual * 25;
-    
-    // Mostrar resultado
-    document.getElementById('custoKit').textContent = custo.toFixed(0) + '€';
-    document.getElementById('poupancaAnual').textContent = poupancaAnual.toFixed(0) + '€';
-    document.getElementById('payback').textContent = payback.toFixed(1) + ' anos';
-    document.getElementById('poupanca25').textContent = poupanca25.toFixed(0) + '€';
-    document.getElementById('paybackNum').textContent = payback.toFixed(1);
-    document.getElementById('resultado').classList.add('show');
-    
-    // Scroll
-    document.getElementById('resultado').scrollIntoView({behavior: 'smooth', block: 'center'});
+ const consumo = parseFloat(document.getElementById('consumo').value);
+ const preco = parseFloat(document.getElementById('preco').value);
+ const kit = parseInt(document.getElementById('kit').value);
+ const autoconsumo = parseFloat(document.getElementById('autoconsumo').value) / 100;
+ 
+ // Custo médio por kW instalado (2026)
+ const custoPorKWh = {3: 5500, 5: 8500, 10: 15000};
+ const custo = custoPorKWh[kit];
+ 
+ // Poupança anual
+ const poupancaAnual = consumo * autoconsumo;
+ 
+ // Payback
+ const payback = custo / poupancaAnual;
+ 
+ // Poupança em 25 anos (vida util painéis)
+ const poupanca25 = poupancaAnual * 25;
+ 
+ // Mostrar resultado
+ document.getElementById('custoKit').textContent = custo.toFixed(0) + '€';
+ document.getElementById('poupancaAnual').textContent = poupancaAnual.toFixed(0) + '€';
+ document.getElementById('payback').textContent = payback.toFixed(1) + ' anos';
+ document.getElementById('poupanca25').textContent = poupanca25.toFixed(0) + '€';
+ document.getElementById('paybackNum').textContent = payback.toFixed(1);
+ document.getElementById('resultado').classList.add('show');
+ 
+ // Scroll
+ document.getElementById('resultado').scrollIntoView({behavior: 'smooth', block: 'center'});
 }
 
 // Auto-calculate on load
@@ -126,7 +126,7 @@ window.addEventListener('load', calcular);
 <a href="/calculadora-de-preco.html" style="display:block;padding:1rem;background:#fff;border-radius:6px;text-decoration:none;border:1px solid #eee;text-align:center;font-size:.9rem;color:#2193b0"><strong>🧮 Calculadora de Preço</strong><br><small style="color:#666">Resultado em 30s</small></a>
 <a href="/mapa-do-site.html" style="display:block;padding:1rem;background:#fff;border-radius:6px;text-decoration:none;border:1px solid #eee;text-align:center;font-size:.9rem;color:#2193b0"><strong>🗺️ Mapa do Site</strong><br><small style="color:#666">Todas as páginas</small></a>
 <a href="/politica-privacidade.html" style="display:block;padding:1rem;background:#fff;border-radius:6px;text-decoration:none;border:1px solid #eee;text-align:center;font-size:.9rem;color:#2193b0"><strong>🔒 Política Privacidade</strong><br><small style="color:#666">RGPD</small></a>
-<a href="/testemunhos.html" style="display:block;padding:1rem;background:#fff;border-radius:6px;text-decoration:none;border:1px solid #eee;text-align:center;font-size:.9rem;color:#2193b0"><strong>⭐ Testemunhos</strong><br><small style="color:#666"> 4.9★</small></a>
+<a href="/testemunhos.html" style="display:block;padding:1rem;background:#fff;border-radius:6px;text-decoration:none;border:1px solid #eee;text-align:center;font-size:.9rem;color:#2193b0"><strong>⭐ Testemunhos</strong><br><small style="color:#666"> </small></a>
 </div>
 </section>
 <section class="eeat" style="background:#fff5e0;padding:1.5rem;border-radius:10px;margin:1.5rem 0;border-left:5px solid #FF6B35">
