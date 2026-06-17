@@ -1434,6 +1434,16 @@
   ],
   "redirects": [
     {
+      "source": "/public/eletricista-urgente-(.*)",
+      "destination": "/eletricista-urgente-$1",
+      "statusCode": 301
+    },
+    {
+      "source": "/public/blog/(.*)",
+      "destination": "/blog/$1",
+      "statusCode": 301
+    },
+    {
       "source": "/es",
       "destination": "/",
       "statusCode": 410
