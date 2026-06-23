@@ -1,0 +1,2772 @@
+{
+  "macedo-de-cavaleiros": [
+    {
+      "name": "Travanca",
+      "km": 2.1
+    },
+    {
+      "name": "Nogueirinha",
+      "km": 2.2
+    },
+    {
+      "name": "Vale de Prados",
+      "km": 2.2
+    },
+    {
+      "name": "Castelãos",
+      "km": 2.6
+    },
+    {
+      "name": "Pinhovelo",
+      "km": 3.1
+    },
+    {
+      "name": "Arrifana",
+      "km": 3.4
+    },
+    {
+      "name": "Gradíssimo",
+      "km": 3.5
+    },
+    {
+      "name": "Vilar do Monte",
+      "km": 3.6
+    },
+    {
+      "name": "Amendoeira",
+      "km": 3.9
+    },
+    {
+      "name": "Grijó",
+      "km": 4.1
+    },
+    {
+      "name": "Carrapatas",
+      "km": 4.3
+    },
+    {
+      "name": "Vale Pradinhos",
+      "km": 4.7
+    },
+    {
+      "name": "Azibo",
+      "km": 4.8
+    },
+    {
+      "name": "Vale da Porca",
+      "km": 4.9
+    },
+    {
+      "name": "Lamas",
+      "km": 5.9
+    },
+    {
+      "name": "Cortiços",
+      "km": 5.9
+    },
+    {
+      "name": "Sezulfe",
+      "km": 6.3
+    },
+    {
+      "name": "Vale Benfeito",
+      "km": 6.3
+    },
+    {
+      "name": "Podence",
+      "km": 6.6
+    },
+    {
+      "name": "Olmos",
+      "km": 6.9
+    },
+    {
+      "name": "Malta",
+      "km": 6.9
+    },
+    {
+      "name": "Salselas",
+      "km": 7.0
+    },
+    {
+      "name": "Santa Combinha",
+      "km": 7.2
+    },
+    {
+      "name": "Corujas",
+      "km": 7.3
+    },
+    {
+      "name": "Cernadela",
+      "km": 7.7
+    },
+    {
+      "name": "Açoreira",
+      "km": 8.0
+    },
+    {
+      "name": "Vimieiro",
+      "km": 8.2
+    },
+    {
+      "name": "Azibeiro",
+      "km": 8.3
+    },
+    {
+      "name": "Carrapatinha",
+      "km": 8.4
+    },
+    {
+      "name": "Romeu",
+      "km": 8.6
+    }
+  ],
+  "mirandela": [
+    {
+      "name": "Bairro do Fundo de Fomento à Habitação",
+      "km": 1.1
+    },
+    {
+      "name": "Vila Nova das Patas",
+      "km": 2.2
+    },
+    {
+      "name": "Vale de Madeiro",
+      "km": 2.2
+    },
+    {
+      "name": "Freixedinha",
+      "km": 2.8
+    },
+    {
+      "name": "Carvalhais",
+      "km": 3.0
+    },
+    {
+      "name": "Chelas",
+      "km": 3.5
+    },
+    {
+      "name": "Bronceda",
+      "km": 3.6
+    },
+    {
+      "name": "Eixes",
+      "km": 4.7
+    },
+    {
+      "name": "Eivados",
+      "km": 4.8
+    },
+    {
+      "name": "Vilar de Ledra",
+      "km": 5.1
+    },
+    {
+      "name": "Contins",
+      "km": 5.1
+    },
+    {
+      "name": "São Salvador",
+      "km": 5.2
+    },
+    {
+      "name": "Vale de Pareiro",
+      "km": 5.3
+    },
+    {
+      "name": "Vale de Juncal",
+      "km": 5.7
+    },
+    {
+      "name": "Cedães",
+      "km": 6.0
+    },
+    {
+      "name": "Vale de Lobo",
+      "km": 6.2
+    },
+    {
+      "name": "Marmelos",
+      "km": 6.4
+    },
+    {
+      "name": "Suçães",
+      "km": 6.9
+    },
+    {
+      "name": "Valbom de Figos",
+      "km": 7.0
+    },
+    {
+      "name": "Vila Verde",
+      "km": 7.1
+    },
+    {
+      "name": "Pousadas",
+      "km": 7.3
+    },
+    {
+      "name": "Abambres",
+      "km": 7.5
+    },
+    {
+      "name": "Passos",
+      "km": 7.6
+    },
+    {
+      "name": "São Pedro de Vale do Conde",
+      "km": 7.6
+    },
+    {
+      "name": "Valongo das Meadas",
+      "km": 8.1
+    },
+    {
+      "name": "Vila Verdinho",
+      "km": 8.2
+    },
+    {
+      "name": "Lilela",
+      "km": 8.2
+    },
+    {
+      "name": "Fonte da Urze",
+      "km": 8.2
+    },
+    {
+      "name": "Paradela",
+      "km": 8.7
+    },
+    {
+      "name": "Mascarenhas",
+      "km": 8.7
+    }
+  ],
+  "alfandega-da-fe": [
+    {
+      "name": "Valverde",
+      "km": 2.7
+    },
+    {
+      "name": "Castelo de Balsamão",
+      "km": 3.9
+    },
+    {
+      "name": "Pombal",
+      "km": 5.2
+    },
+    {
+      "name": "Eucisia",
+      "km": 5.3
+    },
+    {
+      "name": "Sendim da Serra",
+      "km": 5.5
+    },
+    {
+      "name": "Sendim da Ribeira",
+      "km": 5.8
+    },
+    {
+      "name": "Cerejais",
+      "km": 6.1
+    },
+    {
+      "name": "Vales",
+      "km": 6.3
+    },
+    {
+      "name": "Gouveia",
+      "km": 6.4
+    },
+    {
+      "name": "Santa Justa",
+      "km": 6.5
+    },
+    {
+      "name": "Vilarelhos",
+      "km": 6.6
+    },
+    {
+      "name": "Vale Pereiro",
+      "km": 7.2
+    },
+    {
+      "name": "Agrobom",
+      "km": 7.3
+    },
+    {
+      "name": "Cabreira",
+      "km": 7.7
+    },
+    {
+      "name": "Parada",
+      "km": 7.8
+    },
+    {
+      "name": "Sambade",
+      "km": 8.0
+    },
+    {
+      "name": "Sardão",
+      "km": 8.1
+    },
+    {
+      "name": "Vilar Chão",
+      "km": 8.3
+    },
+    {
+      "name": "Vilares da Vilariça",
+      "km": 8.4
+    },
+    {
+      "name": "Santa Comba de Vilariça",
+      "km": 9.0
+    },
+    {
+      "name": "Covelas",
+      "km": 9.2
+    },
+    {
+      "name": "Colmeais",
+      "km": 9.3
+    },
+    {
+      "name": "Felgueiras",
+      "km": 9.3
+    },
+    {
+      "name": "Vilar Seco",
+      "km": 9.4
+    },
+    {
+      "name": "Legoinha",
+      "km": 9.5
+    },
+    {
+      "name": "Vila Nova",
+      "km": 9.9
+    },
+    {
+      "name": "Valbom da Trindade",
+      "km": 10.1
+    },
+    {
+      "name": "Soeima",
+      "km": 10.1
+    },
+    {
+      "name": "Saldonha",
+      "km": 10.2
+    },
+    {
+      "name": "Quinta da Roca",
+      "km": 10.2
+    }
+  ],
+  "vila-flor": [
+    {
+      "name": "Roios",
+      "km": 2.1
+    },
+    {
+      "name": "Samões",
+      "km": 2.6
+    },
+    {
+      "name": "Nabo",
+      "km": 4.3
+    },
+    {
+      "name": "Carvalho de Egas",
+      "km": 5.0
+    },
+    {
+      "name": "Seixo de Manhoses",
+      "km": 5.1
+    },
+    {
+      "name": "Vilas Boas",
+      "km": 5.8
+    },
+    {
+      "name": "Lodões",
+      "km": 6.0
+    },
+    {
+      "name": "Meireles",
+      "km": 6.0
+    },
+    {
+      "name": "Vale Frechoso",
+      "km": 6.3
+    },
+    {
+      "name": "Candoso",
+      "km": 6.4
+    },
+    {
+      "name": "Assares",
+      "km": 7.2
+    },
+    {
+      "name": "Freixiel",
+      "km": 7.5
+    },
+    {
+      "name": "Valtorno",
+      "km": 7.6
+    },
+    {
+      "name": "Nozelos",
+      "km": 7.7
+    },
+    {
+      "name": "Mourão",
+      "km": 8.4
+    },
+    {
+      "name": "Castedo",
+      "km": 8.5
+    },
+    {
+      "name": "Cachão",
+      "km": 8.6
+    },
+    {
+      "name": "Horta da Vilariça",
+      "km": 8.6
+    },
+    {
+      "name": "Adeganha",
+      "km": 9.1
+    },
+    {
+      "name": "Benlhevai",
+      "km": 9.2
+    },
+    {
+      "name": "Vilarinho das Azenhas",
+      "km": 9.4
+    },
+    {
+      "name": "Vale da Sancha",
+      "km": 10.4
+    },
+    {
+      "name": "Barcel",
+      "km": 10.5
+    },
+    {
+      "name": "Navalho",
+      "km": 13.7
+    }
+  ],
+  "braganca": [
+    {
+      "name": "Samil",
+      "km": 3.5
+    },
+    {
+      "name": "Castro de Avelãs",
+      "km": 4.0
+    },
+    {
+      "name": "São Pedro de Sarracenos",
+      "km": 4.8
+    },
+    {
+      "name": "Donai",
+      "km": 4.9
+    },
+    {
+      "name": "Gimonde",
+      "km": 5.0
+    },
+    {
+      "name": "Meixedo",
+      "km": 5.1
+    },
+    {
+      "name": "Gostei",
+      "km": 5.3
+    },
+    {
+      "name": "Alfaião",
+      "km": 5.6
+    },
+    {
+      "name": "Nogueira",
+      "km": 6.1
+    },
+    {
+      "name": "Baçal",
+      "km": 6.1
+    },
+    {
+      "name": "Rabal",
+      "km": 7.0
+    },
+    {
+      "name": "Carragosa",
+      "km": 7.4
+    },
+    {
+      "name": "Sarzeda",
+      "km": 7.9
+    },
+    {
+      "name": "Casa Nova",
+      "km": 8.5
+    },
+    {
+      "name": "Rebordãos",
+      "km": 9.1
+    },
+    {
+      "name": "Faílde",
+      "km": 9.3
+    },
+    {
+      "name": "Gondesende",
+      "km": 9.8
+    },
+    {
+      "name": "Espinhosela",
+      "km": 9.8
+    },
+    {
+      "name": "Carocedo",
+      "km": 10.4
+    },
+    {
+      "name": "Babe",
+      "km": 10.4
+    },
+    {
+      "name": "França",
+      "km": 10.6
+    },
+    {
+      "name": "Mós",
+      "km": 10.7
+    },
+    {
+      "name": "Milhão",
+      "km": 11.5
+    },
+    {
+      "name": "Grijó de Parada",
+      "km": 11.8
+    },
+    {
+      "name": "Paredes",
+      "km": 12.0
+    },
+    {
+      "name": "Martim",
+      "km": 12.6
+    },
+    {
+      "name": "Sortes",
+      "km": 12.7
+    },
+    {
+      "name": "São Julião de Palácios",
+      "km": 13.2
+    },
+    {
+      "name": "Rio Frio",
+      "km": 13.3
+    },
+    {
+      "name": "Parâmio",
+      "km": 13.4
+    }
+  ],
+  "valpacos": [
+    {
+      "name": "Possacos",
+      "km": 3.2
+    },
+    {
+      "name": "Sanfins",
+      "km": 3.5
+    },
+    {
+      "name": "Vassal",
+      "km": 4.0
+    },
+    {
+      "name": "Vale de Casas",
+      "km": 4.6
+    },
+    {
+      "name": "Crasto",
+      "km": 5.1
+    },
+    {
+      "name": "Rio Torto",
+      "km": 6.1
+    },
+    {
+      "name": "Miradezes",
+      "km": 6.3
+    },
+    {
+      "name": "Vilarandelo",
+      "km": 6.4
+    },
+    {
+      "name": "Água Revés",
+      "km": 6.4
+    },
+    {
+      "name": "Vale de Salgueiro",
+      "km": 6.5
+    },
+    {
+      "name": "Algeriz",
+      "km": 6.5
+    },
+    {
+      "name": "Fornos do Pinhal",
+      "km": 6.5
+    },
+    {
+      "name": "Ervões",
+      "km": 6.7
+    },
+    {
+      "name": "Vale de Telhas",
+      "km": 7.0
+    },
+    {
+      "name": "Santiago da Ribeira de Alhariz",
+      "km": 7.7
+    },
+    {
+      "name": "Cabanelas",
+      "km": 8.9
+    },
+    {
+      "name": "Santa Maria de Émeres",
+      "km": 9.0
+    },
+    {
+      "name": "Santa Valha",
+      "km": 9.1
+    },
+    {
+      "name": "Gorgoço",
+      "km": 9.3
+    },
+    {
+      "name": "Vale de Gouvinhas",
+      "km": 9.4
+    },
+    {
+      "name": "Bouça",
+      "km": 9.4
+    },
+    {
+      "name": "Veiga de Lila",
+      "km": 9.4
+    },
+    {
+      "name": "Vale Bom Pitez",
+      "km": 9.5
+    },
+    {
+      "name": "Friões",
+      "km": 9.7
+    },
+    {
+      "name": "Ferradosa",
+      "km": 10.8
+    },
+    {
+      "name": "Vale de Maior",
+      "km": 10.8
+    },
+    {
+      "name": "Carrazedo de Montenegro",
+      "km": 10.8
+    },
+    {
+      "name": "Fradizela",
+      "km": 10.9
+    },
+    {
+      "name": "Barreiros",
+      "km": 11.4
+    },
+    {
+      "name": "Canaveses",
+      "km": 12.2
+    }
+  ],
+  "mogadouro": [
+    {
+      "name": "Vale da Madre",
+      "km": 2.5
+    },
+    {
+      "name": "Brunhoso",
+      "km": 4.6
+    },
+    {
+      "name": "Vila de Rei",
+      "km": 4.9
+    },
+    {
+      "name": "Vale de Porco",
+      "km": 5.1
+    },
+    {
+      "name": "Azinhoso",
+      "km": 5.2
+    },
+    {
+      "name": "Remondes",
+      "km": 6.0
+    },
+    {
+      "name": "Soutelo",
+      "km": 6.4
+    },
+    {
+      "name": "Penas Roias",
+      "km": 7.4
+    },
+    {
+      "name": "Salgueiro",
+      "km": 7.8
+    },
+    {
+      "name": "Castelo Branco",
+      "km": 8.1
+    },
+    {
+      "name": "Vila de Ala",
+      "km": 8.3
+    },
+    {
+      "name": "Sampaio",
+      "km": 9.1
+    },
+    {
+      "name": "Quinta do Souto",
+      "km": 9.4
+    },
+    {
+      "name": "Vilarinho dos Galegos",
+      "km": 11.1
+    },
+    {
+      "name": "Bruçó",
+      "km": 11.6
+    },
+    {
+      "name": "Porrais",
+      "km": 11.8
+    },
+    {
+      "name": "São Martinho do Peso",
+      "km": 12.1
+    },
+    {
+      "name": "Tó",
+      "km": 12.4
+    },
+    {
+      "name": "Lagoa",
+      "km": 12.5
+    },
+    {
+      "name": "Ventoselo",
+      "km": 12.5
+    },
+    {
+      "name": "Macedo do Peso",
+      "km": 12.6
+    },
+    {
+      "name": "Meirinhos",
+      "km": 12.9
+    },
+    {
+      "name": "Sanhoane",
+      "km": 13.0
+    },
+    {
+      "name": "Peredo de Bemposta",
+      "km": 15.1
+    },
+    {
+      "name": "Aldeadávila de la Ribera",
+      "km": 15.7
+    },
+    {
+      "name": "Saldanha",
+      "km": 15.8
+    },
+    {
+      "name": "Brunhosinho",
+      "km": 16.1
+    },
+    {
+      "name": "Talhas",
+      "km": 16.5
+    },
+    {
+      "name": "Bemposta",
+      "km": 17.9
+    },
+    {
+      "name": "Masueco",
+      "km": 18.5
+    }
+  ],
+  "vinhais": [
+    {
+      "name": "Ermida",
+      "km": 3.5
+    },
+    {
+      "name": "Sobreiro de Baixo",
+      "km": 3.7
+    },
+    {
+      "name": "Nunes",
+      "km": 4.5
+    },
+    {
+      "name": "Romariz",
+      "km": 5.2
+    },
+    {
+      "name": "Cidões",
+      "km": 5.2
+    },
+    {
+      "name": "Vilar de Ossos",
+      "km": 5.2
+    },
+    {
+      "name": "Alvaredos",
+      "km": 6.0
+    },
+    {
+      "name": "Armoniz",
+      "km": 6.1
+    },
+    {
+      "name": "Ousilhão",
+      "km": 6.3
+    },
+    {
+      "name": "Vilar de Peregrinos",
+      "km": 6.6
+    },
+    {
+      "name": "Campo",
+      "km": 6.9
+    },
+    {
+      "name": "Fontão",
+      "km": 7.4
+    },
+    {
+      "name": "Vila Boa de Ousilhão",
+      "km": 7.5
+    },
+    {
+      "name": "Tuizelo",
+      "km": 7.8
+    },
+    {
+      "name": "Curopos",
+      "km": 7.9
+    },
+    {
+      "name": "Soeira",
+      "km": 8.4
+    },
+    {
+      "name": "Edrosa",
+      "km": 8.5
+    },
+    {
+      "name": "Santa Cruz",
+      "km": 8.6
+    },
+    {
+      "name": "Brito de Baixo",
+      "km": 9.0
+    },
+    {
+      "name": "Candedo",
+      "km": 9.3
+    },
+    {
+      "name": "Fresulfe",
+      "km": 9.7
+    },
+    {
+      "name": "Vale de Janeiro",
+      "km": 9.7
+    },
+    {
+      "name": "Penhas Juntas",
+      "km": 10.1
+    },
+    {
+      "name": "Castrelos",
+      "km": 10.2
+    },
+    {
+      "name": "Alimonde",
+      "km": 10.6
+    },
+    {
+      "name": "Montouto",
+      "km": 10.6
+    },
+    {
+      "name": "Melhe",
+      "km": 10.9
+    },
+    {
+      "name": "Quinta dos Cavages",
+      "km": 11.1
+    },
+    {
+      "name": "Santalha",
+      "km": 11.2
+    },
+    {
+      "name": "Carrazedo",
+      "km": 11.4
+    }
+  ],
+  "carrazeda-de-ansiaes": [
+    {
+      "name": "Amedo",
+      "km": 2.2
+    },
+    {
+      "name": "Marzagão",
+      "km": 3.9
+    },
+    {
+      "name": "Fonte Longa",
+      "km": 4.0
+    },
+    {
+      "name": "Zedes",
+      "km": 4.1
+    },
+    {
+      "name": "Belver",
+      "km": 4.4
+    },
+    {
+      "name": "Selores",
+      "km": 4.5
+    },
+    {
+      "name": "Mogo da Malta",
+      "km": 4.8
+    },
+    {
+      "name": "Parambos",
+      "km": 4.8
+    },
+    {
+      "name": "Lavandeira",
+      "km": 5.7
+    },
+    {
+      "name": "Linhares",
+      "km": 6.3
+    },
+    {
+      "name": "Pinhal do Norte",
+      "km": 6.6
+    },
+    {
+      "name": "Castanheiro do Norte",
+      "km": 6.7
+    },
+    {
+      "name": "Seixo de Ansiães",
+      "km": 6.8
+    },
+    {
+      "name": "Beira Grande",
+      "km": 6.8
+    },
+    {
+      "name": "Vilarinho da Castanheira",
+      "km": 8.8
+    },
+    {
+      "name": "Abreiro",
+      "km": 11.9
+    }
+  ],
+  "torre-de-moncorvo": [
+    {
+      "name": "Larinho",
+      "km": 4.8
+    },
+    {
+      "name": "Maçores",
+      "km": 6.7
+    },
+    {
+      "name": "Felgar",
+      "km": 8.9
+    },
+    {
+      "name": "Cardanha",
+      "km": 9.3
+    },
+    {
+      "name": "Souto da Velha",
+      "km": 10.5
+    },
+    {
+      "name": "Ligares",
+      "km": 12.0
+    }
+  ],
+  "murca": [
+    {
+      "name": "Noura",
+      "km": 3.5
+    },
+    {
+      "name": "Fiolhoso",
+      "km": 4.1
+    },
+    {
+      "name": "Valongo de Milhais",
+      "km": 4.2
+    },
+    {
+      "name": "Palheiros",
+      "km": 4.6
+    },
+    {
+      "name": "Pópulo",
+      "km": 5.6
+    },
+    {
+      "name": "Pegarinhos",
+      "km": 5.8
+    },
+    {
+      "name": "Ribalonga",
+      "km": 6.9
+    },
+    {
+      "name": "Santa Eugénia",
+      "km": 7.6
+    },
+    {
+      "name": "Carva",
+      "km": 8.5
+    },
+    {
+      "name": "Jou",
+      "km": 8.6
+    },
+    {
+      "name": "Tresminas",
+      "km": 9.6
+    },
+    {
+      "name": "Franco",
+      "km": 9.8
+    },
+    {
+      "name": "Curros",
+      "km": 11.0
+    },
+    {
+      "name": "Pereira",
+      "km": 11.5
+    },
+    {
+      "name": "Sobreira",
+      "km": 11.5
+    },
+    {
+      "name": "Avidagos",
+      "km": 12.3
+    }
+  ],
+  "vila-nova-de-foz-coa": [
+    {
+      "name": "Muxagata",
+      "km": 5.5
+    },
+    {
+      "name": "Peredo dos Castelhanos",
+      "km": 6.4
+    },
+    {
+      "name": "Freixo de Numão",
+      "km": 6.8
+    },
+    {
+      "name": "Touça",
+      "km": 8.6
+    },
+    {
+      "name": "Castelo Melhor",
+      "km": 9.0
+    },
+    {
+      "name": "Urros",
+      "km": 9.8
+    },
+    {
+      "name": "Lousa",
+      "km": 10.2
+    },
+    {
+      "name": "Chãs",
+      "km": 10.5
+    },
+    {
+      "name": "Sebadelhe",
+      "km": 10.7
+    },
+    {
+      "name": "Almendra",
+      "km": 11.6
+    },
+    {
+      "name": "Longroiva",
+      "km": 14.3
+    },
+    {
+      "name": "Cidadelhe",
+      "km": 18.6
+    },
+    {
+      "name": "Vilar de Amargo",
+      "km": 18.9
+    },
+    {
+      "name": "Barreira",
+      "km": 19.4
+    },
+    {
+      "name": "Vale de Afonsinho",
+      "km": 21.0
+    },
+    {
+      "name": "Quintã de Pero Martins",
+      "km": 22.8
+    },
+    {
+      "name": "Freixeda do Torrão",
+      "km": 23.3
+    },
+    {
+      "name": "Penha de Águia",
+      "km": 24.6
+    }
+  ],
+  "vimioso": [
+    {
+      "name": "Carção",
+      "km": 4.9
+    },
+    {
+      "name": "Pinelo",
+      "km": 6.1
+    },
+    {
+      "name": "Campo de Víboras",
+      "km": 7.0
+    },
+    {
+      "name": "Vale de Frades",
+      "km": 7.4
+    },
+    {
+      "name": "Santulhão",
+      "km": 8.1
+    },
+    {
+      "name": "Caçarelhos",
+      "km": 8.2
+    },
+    {
+      "name": "Argozelo",
+      "km": 8.7
+    },
+    {
+      "name": "Avinhó",
+      "km": 10.4
+    },
+    {
+      "name": "Uva",
+      "km": 10.4
+    },
+    {
+      "name": "Angueira",
+      "km": 10.7
+    },
+    {
+      "name": "San Pedro de la Silba",
+      "km": 10.9
+    },
+    {
+      "name": "Avelanoso",
+      "km": 11.6
+    },
+    {
+      "name": "Paradinha Nova",
+      "km": 11.8
+    },
+    {
+      "name": "Matela",
+      "km": 11.8
+    },
+    {
+      "name": "Outeiro",
+      "km": 12.4
+    },
+    {
+      "name": "Paradinha Velha",
+      "km": 13.2
+    },
+    {
+      "name": "Algoso",
+      "km": 13.3
+    },
+    {
+      "name": "Quinta de Montezinho",
+      "km": 13.6
+    },
+    {
+      "name": "Coelhoso",
+      "km": 13.8
+    },
+    {
+      "name": "Junqueira",
+      "km": 14.9
+    },
+    {
+      "name": "Calvelhe",
+      "km": 15.1
+    },
+    {
+      "name": "Talhinhas",
+      "km": 15.8
+    },
+    {
+      "name": "Izeda",
+      "km": 16.1
+    },
+    {
+      "name": "São Martinho de Angueira",
+      "km": 16.2
+    },
+    {
+      "name": "Gralhós",
+      "km": 18.0
+    },
+    {
+      "name": "Trabazos",
+      "km": 18.3
+    },
+    {
+      "name": "Atenor",
+      "km": 18.6
+    },
+    {
+      "name": "Rábano de Aliste",
+      "km": 19.5
+    },
+    {
+      "name": "Alcañices",
+      "km": 19.8
+    },
+    {
+      "name": "Viñas",
+      "km": 21.7
+    }
+  ],
+  "alijo": [
+    {
+      "name": "Presandães",
+      "km": 1.7
+    },
+    {
+      "name": "Favaios",
+      "km": 2.3
+    },
+    {
+      "name": "Sanfins do Douro",
+      "km": 4.0
+    },
+    {
+      "name": "São Mamede de Ribatua",
+      "km": 4.6
+    },
+    {
+      "name": "Cotas",
+      "km": 6.5
+    },
+    {
+      "name": "Amieiro",
+      "km": 6.6
+    },
+    {
+      "name": "Carlão",
+      "km": 7.1
+    }
+  ],
+  "chaves": [
+    {
+      "name": "Madalena",
+      "km": 1.1
+    },
+    {
+      "name": "Cocanha",
+      "km": 2.2
+    },
+    {
+      "name": "Vale de Anta",
+      "km": 2.6
+    },
+    {
+      "name": "Seixal",
+      "km": 2.8
+    },
+    {
+      "name": "Eiras",
+      "km": 3.1
+    },
+    {
+      "name": "Outeiro Seco",
+      "km": 3.6
+    },
+    {
+      "name": "Vilar de Nantes",
+      "km": 3.9
+    },
+    {
+      "name": "Faiões",
+      "km": 4.2
+    },
+    {
+      "name": "Samaiões",
+      "km": 4.4
+    },
+    {
+      "name": "Santo Estêvão",
+      "km": 4.8
+    },
+    {
+      "name": "Sanjurge",
+      "km": 4.8
+    },
+    {
+      "name": "Cela",
+      "km": 5.1
+    },
+    {
+      "name": "Curalha",
+      "km": 5.1
+    },
+    {
+      "name": "Bustelo",
+      "km": 5.4
+    },
+    {
+      "name": "São Pedro de Agostém",
+      "km": 6.1
+    },
+    {
+      "name": "Vila Verde da Raia",
+      "km": 6.9
+    },
+    {
+      "name": "São Julião de Montenegro",
+      "km": 7.0
+    },
+    {
+      "name": "Seara Velha",
+      "km": 7.9
+    },
+    {
+      "name": "Calvão",
+      "km": 8.2
+    },
+    {
+      "name": "Vilela do Tâmega",
+      "km": 8.8
+    },
+    {
+      "name": "Ervededo",
+      "km": 8.9
+    },
+    {
+      "name": "Nogueira da Montanha",
+      "km": 9.3
+    },
+    {
+      "name": "Vilela Seca",
+      "km": 9.5
+    },
+    {
+      "name": "Santo António de Monforte",
+      "km": 9.7
+    },
+    {
+      "name": "Águas Frias",
+      "km": 10.5
+    },
+    {
+      "name": "Oucidres",
+      "km": 11.0
+    },
+    {
+      "name": "Alvarelhos",
+      "km": 11.6
+    },
+    {
+      "name": "Vilarelho da Raia",
+      "km": 11.6
+    },
+    {
+      "name": "Lama de Arcos",
+      "km": 12.5
+    },
+    {
+      "name": "Loivos",
+      "km": 13.0
+    }
+  ],
+  "sao-joao-da-pesqueira": [
+    {
+      "name": "Nagozelo do Douro",
+      "km": 4.3
+    },
+    {
+      "name": "Vale de Vila",
+      "km": 4.4
+    },
+    {
+      "name": "Soutelo do Douro",
+      "km": 5.2
+    },
+    {
+      "name": "Vale de Figueira",
+      "km": 5.5
+    },
+    {
+      "name": "Ervedosa do Douro",
+      "km": 6.1
+    },
+    {
+      "name": "Vilarouco",
+      "km": 6.3
+    },
+    {
+      "name": "Várzea de Trevões",
+      "km": 7.2
+    },
+    {
+      "name": "Olas",
+      "km": 7.4
+    },
+    {
+      "name": "Trevões",
+      "km": 7.8
+    },
+    {
+      "name": "Custóias",
+      "km": 8.5
+    },
+    {
+      "name": "Valongo dos Azeites",
+      "km": 8.6
+    },
+    {
+      "name": "Numão",
+      "km": 11.0
+    }
+  ],
+  "sabrosa": [
+    {
+      "name": "Paços",
+      "km": 1.5
+    },
+    {
+      "name": "Vilarinho de São Romão",
+      "km": 2.3
+    },
+    {
+      "name": "Souto Maior",
+      "km": 2.9
+    },
+    {
+      "name": "São Martinho de Anta",
+      "km": 3.7
+    },
+    {
+      "name": "São Lourenço de Ribapinhão",
+      "km": 5.5
+    },
+    {
+      "name": "Provesende",
+      "km": 5.5
+    },
+    {
+      "name": "Vale de Mendiz",
+      "km": 6.1
+    },
+    {
+      "name": "Paradela de Guiães",
+      "km": 6.6
+    },
+    {
+      "name": "Vilar de Maçada",
+      "km": 6.9
+    },
+    {
+      "name": "São Cristóvão do Douro",
+      "km": 6.9
+    },
+    {
+      "name": "Vilarinho de Cotas",
+      "km": 7.2
+    },
+    {
+      "name": "Parada do Pinhão",
+      "km": 7.8
+    },
+    {
+      "name": "Gouvães do Douro",
+      "km": 7.8
+    },
+    {
+      "name": "Casal de Loivos",
+      "km": 8.1
+    },
+    {
+      "name": "Lamares",
+      "km": 8.7
+    },
+    {
+      "name": "Guiães",
+      "km": 9.6
+    },
+    {
+      "name": "Justes",
+      "km": 9.8
+    },
+    {
+      "name": "Torre do Pinhão",
+      "km": 12.3
+    }
+  ],
+  "vila-real": [
+    {
+      "name": "Folhadela",
+      "km": 1.9
+    },
+    {
+      "name": "Parada de Cunhos",
+      "km": 2.0
+    },
+    {
+      "name": "Mateus",
+      "km": 2.8
+    },
+    {
+      "name": "Lordelo",
+      "km": 2.9
+    },
+    {
+      "name": "Vila Marim",
+      "km": 3.0
+    },
+    {
+      "name": "Arroios",
+      "km": 3.5
+    },
+    {
+      "name": "Borbela",
+      "km": 3.6
+    },
+    {
+      "name": "Mondrões",
+      "km": 3.6
+    },
+    {
+      "name": "Mouçós",
+      "km": 4.6
+    },
+    {
+      "name": "Adoufe",
+      "km": 4.7
+    },
+    {
+      "name": "Cumieira",
+      "km": 5.1
+    },
+    {
+      "name": "Vale de Nogueiras",
+      "km": 5.6
+    },
+    {
+      "name": "Andrães",
+      "km": 5.9
+    },
+    {
+      "name": "Pena",
+      "km": 5.9
+    },
+    {
+      "name": "São Tomé do Castelo",
+      "km": 8.6
+    },
+    {
+      "name": "Lamas de Olo",
+      "km": 9.2
+    },
+    {
+      "name": "Vila Cova",
+      "km": 9.5
+    },
+    {
+      "name": "Vilarinho de Samardã",
+      "km": 10.0
+    },
+    {
+      "name": "Campeã",
+      "km": 11.2
+    }
+  ],
+  "vila-pouca-de-aguiar": [
+    {
+      "name": "Soutelo de Aguiar",
+      "km": 3.3
+    },
+    {
+      "name": "Lixa do Alvão",
+      "km": 3.8
+    },
+    {
+      "name": "Afonsim",
+      "km": 4.2
+    },
+    {
+      "name": "Carrazedo do Alvão",
+      "km": 5.5
+    },
+    {
+      "name": "Pedras Salgadas",
+      "km": 5.8
+    },
+    {
+      "name": "Telões",
+      "km": 6.2
+    },
+    {
+      "name": "Bornes de Aguiar",
+      "km": 6.4
+    },
+    {
+      "name": "Pensalvos",
+      "km": 6.9
+    },
+    {
+      "name": "Vreia de Bornes",
+      "km": 8.2
+    },
+    {
+      "name": "Vreia de Jales",
+      "km": 8.4
+    },
+    {
+      "name": "Alfarela de Jales",
+      "km": 8.7
+    },
+    {
+      "name": "Bragado",
+      "km": 9.2
+    },
+    {
+      "name": "Sabroso de Aguiar",
+      "km": 9.3
+    },
+    {
+      "name": "Valoura",
+      "km": 11.6
+    },
+    {
+      "name": "Tazém",
+      "km": 14.0
+    },
+    {
+      "name": "Padrela",
+      "km": 14.6
+    }
+  ],
+  "miranda-do-douro": [
+    {
+      "name": "Malhadas",
+      "km": 6.5
+    },
+    {
+      "name": "Duas Igrejas",
+      "km": 7.4
+    },
+    {
+      "name": "Fariza de Sayago",
+      "km": 8.5
+    },
+    {
+      "name": "Pruoba",
+      "km": 8.8
+    },
+    {
+      "name": "Ifanes",
+      "km": 9.4
+    },
+    {
+      "name": "Vila Chã de Braciosa",
+      "km": 9.7
+    },
+    {
+      "name": "Genísio",
+      "km": 10.6
+    },
+    {
+      "name": "Águas Vivas",
+      "km": 12.0
+    },
+    {
+      "name": "Picote",
+      "km": 13.3
+    },
+    {
+      "name": "Constantim",
+      "km": 13.9
+    },
+    {
+      "name": "Palaçoulo",
+      "km": 14.9
+    },
+    {
+      "name": "Cicuiro",
+      "km": 16.5
+    },
+    {
+      "name": "Sendim",
+      "km": 17.5
+    },
+    {
+      "name": "Fermoselle",
+      "km": 22.4
+    }
+  ],
+  "freixo-de-espada-a-cinta": [
+    {
+      "name": "Poiares",
+      "km": 5.9
+    },
+    {
+      "name": "Mazouco",
+      "km": 6.7
+    },
+    {
+      "name": "Saucelle",
+      "km": 6.7
+    },
+    {
+      "name": "Vilvestre",
+      "km": 7.2
+    },
+    {
+      "name": "Fornos",
+      "km": 11.7
+    },
+    {
+      "name": "Hinojosa de Duero",
+      "km": 11.8
+    },
+    {
+      "name": "Barruecopardo",
+      "km": 12.1
+    },
+    {
+      "name": "Carviçais",
+      "km": 12.2
+    },
+    {
+      "name": "La Fregeneda",
+      "km": 12.4
+    },
+    {
+      "name": "Lagoaça",
+      "km": 13.2
+    },
+    {
+      "name": "Cerezal de Peñahorcada",
+      "km": 13.6
+    },
+    {
+      "name": "Saldeana",
+      "km": 16.2
+    },
+    {
+      "name": "El Milano",
+      "km": 17.6
+    },
+    {
+      "name": "Villasbuenas",
+      "km": 17.9
+    },
+    {
+      "name": "Escalhão",
+      "km": 18.5
+    },
+    {
+      "name": "Lumbrales",
+      "km": 18.7
+    },
+    {
+      "name": "Sobradillo",
+      "km": 19.3
+    },
+    {
+      "name": "Mata de Lobos",
+      "km": 22.1
+    }
+  ],
+  "penedono": [
+    {
+      "name": "Alcarva",
+      "km": 3.4
+    },
+    {
+      "name": "Castainço",
+      "km": 4.6
+    },
+    {
+      "name": "Ourozinho",
+      "km": 5.1
+    },
+    {
+      "name": "Antas",
+      "km": 5.2
+    },
+    {
+      "name": "Ranhados",
+      "km": 5.4
+    },
+    {
+      "name": "Chosendo",
+      "km": 5.7
+    },
+    {
+      "name": "Beselga",
+      "km": 6.0
+    },
+    {
+      "name": "Penela da Beira",
+      "km": 6.2
+    },
+    {
+      "name": "Póvoa de Penela",
+      "km": 6.9
+    },
+    {
+      "name": "Cedovim",
+      "km": 8.2
+    },
+    {
+      "name": "Outeiro de Gatos",
+      "km": 8.7
+    },
+    {
+      "name": "Aveloso",
+      "km": 9.2
+    },
+    {
+      "name": "Riodades",
+      "km": 9.4
+    },
+    {
+      "name": "Prova",
+      "km": 9.5
+    },
+    {
+      "name": "Poço do Canto",
+      "km": 10.6
+    },
+    {
+      "name": "Horta",
+      "km": 10.8
+    },
+    {
+      "name": "Escurquela",
+      "km": 10.8
+    },
+    {
+      "name": "Casa do Povo e Sede da Junta de Freguesia",
+      "km": 12.5
+    },
+    {
+      "name": "Pai Penela",
+      "km": 12.6
+    },
+    {
+      "name": "Vale Flor",
+      "km": 12.7
+    },
+    {
+      "name": "Casteição",
+      "km": 13.5
+    },
+    {
+      "name": "Marialva",
+      "km": 16.4
+    },
+    {
+      "name": "Rabaçal",
+      "km": 18.9
+    },
+    {
+      "name": "Coriscada",
+      "km": 20.9
+    },
+    {
+      "name": "Gateira",
+      "km": 21.4
+    },
+    {
+      "name": "Cótimos",
+      "km": 22.2
+    }
+  ],
+  "peso-da-regua": [
+    {
+      "name": "Godim",
+      "km": 1.5
+    },
+    {
+      "name": "Vilarinho dos Freires",
+      "km": 3.8
+    },
+    {
+      "name": "Samodães",
+      "km": 4.1
+    },
+    {
+      "name": "Valdigem",
+      "km": 4.3
+    },
+    {
+      "name": "Canelas",
+      "km": 4.9
+    },
+    {
+      "name": "Parada do Bispo",
+      "km": 5.1
+    }
+  ],
+  "boticas": [
+    {
+      "name": "Sapiãos",
+      "km": 3.1
+    },
+    {
+      "name": "Beça",
+      "km": 3.4
+    },
+    {
+      "name": "Pinho",
+      "km": 4.0
+    },
+    {
+      "name": "Codessoso",
+      "km": 4.6
+    },
+    {
+      "name": "Cervos",
+      "km": 5.8
+    },
+    {
+      "name": "Arcossó",
+      "km": 6.9
+    },
+    {
+      "name": "Anelhe",
+      "km": 7.1
+    },
+    {
+      "name": "Vilarinho das Paranheiras",
+      "km": 8.7
+    },
+    {
+      "name": "Fiães do Tâmega",
+      "km": 8.8
+    },
+    {
+      "name": "Vidago",
+      "km": 9.3
+    },
+    {
+      "name": "Ardãos",
+      "km": 9.8
+    },
+    {
+      "name": "Oura",
+      "km": 11.3
+    },
+    {
+      "name": "Covas do Barroso",
+      "km": 11.4
+    },
+    {
+      "name": "Selhariz",
+      "km": 12.3
+    },
+    {
+      "name": "Alturas do Barroso",
+      "km": 13.1
+    }
+  ],
+  "santa-marta-de-penaguiao": [
+    {
+      "name": "São Miguel de Lobrigos",
+      "km": 0.7
+    },
+    {
+      "name": "São João de Lobrigos",
+      "km": 1.4
+    },
+    {
+      "name": "Alvações do Corgo",
+      "km": 3.0
+    },
+    {
+      "name": "Medrões",
+      "km": 3.0
+    },
+    {
+      "name": "Moura Morta",
+      "km": 4.4
+    },
+    {
+      "name": "Vinhós",
+      "km": 4.8
+    },
+    {
+      "name": "Louredo",
+      "km": 5.8
+    },
+    {
+      "name": "Abaças",
+      "km": 7.7
+    },
+    {
+      "name": "Galafura",
+      "km": 8.7
+    }
+  ],
+  "tabuaco": [
+    {
+      "name": "Barcos",
+      "km": 2.8
+    },
+    {
+      "name": "Desejosa",
+      "km": 3.2
+    },
+    {
+      "name": "Távora",
+      "km": 3.4
+    },
+    {
+      "name": "Chavães",
+      "km": 3.4
+    },
+    {
+      "name": "Pinheiros",
+      "km": 4.3
+    },
+    {
+      "name": "Valença do Douro",
+      "km": 4.6
+    },
+    {
+      "name": "Adorigo",
+      "km": 4.6
+    },
+    {
+      "name": "Castanheiro do Sul",
+      "km": 5.1
+    },
+    {
+      "name": "Sarzedinho",
+      "km": 5.6
+    },
+    {
+      "name": "Ribeira de Goujoim",
+      "km": 5.6
+    },
+    {
+      "name": "Longa",
+      "km": 6.8
+    },
+    {
+      "name": "Granja do Tedo",
+      "km": 6.9
+    },
+    {
+      "name": "Espinhosa",
+      "km": 7.8
+    },
+    {
+      "name": "Covas do Douro",
+      "km": 8.2
+    },
+    {
+      "name": "Pinhão",
+      "km": 8.4
+    },
+    {
+      "name": "Nagosa",
+      "km": 9.0
+    },
+    {
+      "name": "Gouvinhas",
+      "km": 9.4
+    },
+    {
+      "name": "Paredes da Beira",
+      "km": 9.6
+    },
+    {
+      "name": "Cabaços",
+      "km": 11.5
+    }
+  ],
+  "lamego": [
+    {
+      "name": "Bairro Social de Alvoraçães",
+      "km": 0.6
+    },
+    {
+      "name": "Vila Nova de Souto d'El-Rei",
+      "km": 1.7
+    },
+    {
+      "name": "Ferreiros de Avões",
+      "km": 2.4
+    },
+    {
+      "name": "Avões",
+      "km": 2.6
+    },
+    {
+      "name": "Cepões",
+      "km": 3.3
+    },
+    {
+      "name": "Cambres",
+      "km": 3.4
+    },
+    {
+      "name": "Sande",
+      "km": 3.6
+    },
+    {
+      "name": "Penude",
+      "km": 3.9
+    },
+    {
+      "name": "Várzea de Abrunhais",
+      "km": 4.1
+    },
+    {
+      "name": "Britiande",
+      "km": 4.2
+    },
+    {
+      "name": "Melcões",
+      "km": 5.7
+    },
+    {
+      "name": "Meijinhos",
+      "km": 6.4
+    },
+    {
+      "name": "Lalim",
+      "km": 6.6
+    },
+    {
+      "name": "Gouviães",
+      "km": 6.8
+    },
+    {
+      "name": "Lazarim",
+      "km": 7.9
+    },
+    {
+      "name": "Dálvares",
+      "km": 8.0
+    },
+    {
+      "name": "Ucanha",
+      "km": 8.1
+    },
+    {
+      "name": "Magueija",
+      "km": 8.1
+    },
+    {
+      "name": "Paus",
+      "km": 8.1
+    },
+    {
+      "name": "Mondim da Beira",
+      "km": 10.1
+    },
+    {
+      "name": "Pretarouca",
+      "km": 10.7
+    },
+    {
+      "name": "Várzea da Serra",
+      "km": 11.4
+    },
+    {
+      "name": "Bigorne",
+      "km": 11.8
+    },
+    {
+      "name": "Feirão",
+      "km": 11.9
+    },
+    {
+      "name": "São João de Tarouca",
+      "km": 12.5
+    },
+    {
+      "name": "Gosende",
+      "km": 12.8
+    },
+    {
+      "name": "Mezio",
+      "km": 14.4
+    },
+    {
+      "name": "Colo de Pito",
+      "km": 16.5
+    },
+    {
+      "name": "Monteiras",
+      "km": 17.1
+    }
+  ],
+  "armamar": [
+    {
+      "name": "Aldeias",
+      "km": 2.4
+    },
+    {
+      "name": "São Romão",
+      "km": 2.4
+    },
+    {
+      "name": "Vacalar",
+      "km": 2.6
+    },
+    {
+      "name": "Aricera",
+      "km": 3.1
+    },
+    {
+      "name": "São Martinho das Chãs",
+      "km": 4.5
+    },
+    {
+      "name": "Queimadela",
+      "km": 4.9
+    },
+    {
+      "name": "Santo Adrião",
+      "km": 4.9
+    },
+    {
+      "name": "Folgosa",
+      "km": 5.0
+    },
+    {
+      "name": "Goujoim",
+      "km": 5.3
+    },
+    {
+      "name": "Covelinhas",
+      "km": 5.7
+    },
+    {
+      "name": "São Cosmado",
+      "km": 6.3
+    },
+    {
+      "name": "Cimbres",
+      "km": 6.4
+    },
+    {
+      "name": "Salzedas",
+      "km": 6.6
+    },
+    {
+      "name": "Vila Chã da Beira",
+      "km": 8.7
+    },
+    {
+      "name": "Passô",
+      "km": 10.0
+    },
+    {
+      "name": "Sarzedo",
+      "km": 11.1
+    }
+  ],
+  "montalegre": [
+    {
+      "name": "Donões",
+      "km": 2.2
+    },
+    {
+      "name": "Padroso",
+      "km": 4.0
+    },
+    {
+      "name": "Cambeses do Rio",
+      "km": 4.4
+    },
+    {
+      "name": "Mourilhe",
+      "km": 4.4
+    },
+    {
+      "name": "Padornelos",
+      "km": 5.3
+    },
+    {
+      "name": "Sezelhe",
+      "km": 6.9
+    },
+    {
+      "name": "Gralhas",
+      "km": 7.9
+    },
+    {
+      "name": "Negrões",
+      "km": 9.1
+    },
+    {
+      "name": "Viade de Baixo",
+      "km": 9.1
+    },
+    {
+      "name": "Covelães",
+      "km": 9.1
+    },
+    {
+      "name": "Solveira",
+      "km": 10.5
+    },
+    {
+      "name": "Sarraquinhos",
+      "km": 10.9
+    },
+    {
+      "name": "Fervidelas",
+      "km": 11.7
+    },
+    {
+      "name": "Fiães do Rio",
+      "km": 12.2
+    },
+    {
+      "name": "Vilar de Perdizes",
+      "km": 13.6
+    }
+  ],
+  "mesao-frio": [
+    {
+      "name": "São Nicolau",
+      "km": 0.5
+    },
+    {
+      "name": "Vila Jusã",
+      "km": 1.2
+    },
+    {
+      "name": "Tresouras",
+      "km": 2.6
+    },
+    {
+      "name": "Barrô",
+      "km": 2.9
+    },
+    {
+      "name": "Barqueiros",
+      "km": 2.9
+    },
+    {
+      "name": "Teixeiró",
+      "km": 2.9
+    },
+    {
+      "name": "Penajoia",
+      "km": 3.5
+    },
+    {
+      "name": "Loivos da Ribeira",
+      "km": 3.5
+    },
+    {
+      "name": "Gestaçô",
+      "km": 3.5
+    },
+    {
+      "name": "Frende",
+      "km": 4.9
+    },
+    {
+      "name": "Sedielos",
+      "km": 5.2
+    },
+    {
+      "name": "Santa Marinha do Zêzere",
+      "km": 5.6
+    },
+    {
+      "name": "Viariz",
+      "km": 6.4
+    },
+    {
+      "name": "São Martinho de Mouros",
+      "km": 6.5
+    },
+    {
+      "name": "São João de Fontoura",
+      "km": 6.5
+    },
+    {
+      "name": "Valadares",
+      "km": 7.9
+    },
+    {
+      "name": "Loivos do Monte",
+      "km": 8.0
+    },
+    {
+      "name": "São Tomé de Covelas",
+      "km": 8.6
+    },
+    {
+      "name": "Resende",
+      "km": 8.8
+    },
+    {
+      "name": "Santa Cruz do Douro",
+      "km": 11.2
+    },
+    {
+      "name": "São Romão de Aregos",
+      "km": 11.2
+    },
+    {
+      "name": "Ansiães",
+      "km": 11.6
+    },
+    {
+      "name": "Candemil",
+      "km": 11.7
+    },
+    {
+      "name": "Carvalho de Rei",
+      "km": 13.0
+    },
+    {
+      "name": "Gouveia (São Simão)",
+      "km": 15.4
+    },
+    {
+      "name": "Jazente",
+      "km": 16.5
+    },
+    {
+      "name": "Folhada",
+      "km": 16.6
+    },
+    {
+      "name": "Padronelo",
+      "km": 17.0
+    },
+    {
+      "name": "Salvador do Monte",
+      "km": 19.1
+    },
+    {
+      "name": "Cepelos",
+      "km": 19.3
+    }
+  ],
+  "sernancelhe": [
+    {
+      "name": "Ferreirim",
+      "km": 5.0
+    },
+    {
+      "name": "Gradiz",
+      "km": 5.3
+    },
+    {
+      "name": "Arnas",
+      "km": 6.5
+    },
+    {
+      "name": "Mouções",
+      "km": 6.6
+    },
+    {
+      "name": "Guilheiro",
+      "km": 6.7
+    },
+    {
+      "name": "Cunha",
+      "km": 7.9
+    },
+    {
+      "name": "Sebadelhe de Serra",
+      "km": 8.8
+    },
+    {
+      "name": "Aguiar da Beira",
+      "km": 10.1
+    },
+    {
+      "name": "Palhais",
+      "km": 10.8
+    },
+    {
+      "name": "Souto de Aguiar da Beira",
+      "km": 10.8
+    },
+    {
+      "name": "Baldos",
+      "km": 11.7
+    },
+    {
+      "name": "Torre do Terrenho",
+      "km": 11.8
+    },
+    {
+      "name": "Terrenho",
+      "km": 12.3
+    },
+    {
+      "name": "Rio de Mel",
+      "km": 13.1
+    },
+    {
+      "name": "Eirado",
+      "km": 14.1
+    },
+    {
+      "name": "Castaíde",
+      "km": 15.0
+    },
+    {
+      "name": "Moreira de Rei",
+      "km": 16.5
+    },
+    {
+      "name": "Casal do Monte",
+      "km": 18.2
+    },
+    {
+      "name": "Moreira",
+      "km": 18.2
+    },
+    {
+      "name": "Queiriz",
+      "km": 18.6
+    },
+    {
+      "name": "Valdujo",
+      "km": 19.1
+    },
+    {
+      "name": "Pena Verde",
+      "km": 19.3
+    },
+    {
+      "name": "Ribeira do Freixo",
+      "km": 21.0
+    },
+    {
+      "name": "Tamanhos",
+      "km": 21.6
+    },
+    {
+      "name": "Cogula",
+      "km": 22.0
+    },
+    {
+      "name": "Vale do Seixo",
+      "km": 22.1
+    },
+    {
+      "name": "Freches",
+      "km": 22.8
+    },
+    {
+      "name": "Vila Garcia",
+      "km": 23.3
+    },
+    {
+      "name": "Sobral Pichorro",
+      "km": 23.4
+    },
+    {
+      "name": "Carnicães",
+      "km": 23.8
+    }
+  ],
+  "ribeira-de-pena": [
+    {
+      "name": "Santo Aleixo de Além-Tâmega",
+      "km": 2.3
+    },
+    {
+      "name": "Santa Marta da Montanha",
+      "km": 4.9
+    },
+    {
+      "name": "Cerva",
+      "km": 7.0
+    },
+    {
+      "name": "Gouvães da Serra",
+      "km": 7.6
+    },
+    {
+      "name": "Parada de Monteiros",
+      "km": 7.8
+    },
+    {
+      "name": "Limões",
+      "km": 8.2
+    },
+    {
+      "name": "Alvadia",
+      "km": 9.2
+    }
+  ],
+  "mondim-de-basto": [
+    {
+      "name": "Paradança",
+      "km": 3.6
+    },
+    {
+      "name": "Vilar de Ferreiros",
+      "km": 4.0
+    },
+    {
+      "name": "Ermelo",
+      "km": 7.7
+    },
+    {
+      "name": "Bilhó",
+      "km": 8.4
+    },
+    {
+      "name": "Pardelhas",
+      "km": 9.8
+    },
+    {
+      "name": "Canadelo",
+      "km": 9.8
+    },
+    {
+      "name": "Campanhó",
+      "km": 9.9
+    },
+    {
+      "name": "Moreira do Castelo",
+      "km": 11.4
+    },
+    {
+      "name": "Olo",
+      "km": 12.9
+    },
+    {
+      "name": "Fridão",
+      "km": 13.1
+    },
+    {
+      "name": "Chapa",
+      "km": 13.2
+    },
+    {
+      "name": "Vila Chã do Marão",
+      "km": 15.1
+    },
+    {
+      "name": "Sanche",
+      "km": 15.5
+    },
+    {
+      "name": "Gatão",
+      "km": 16.4
+    },
+    {
+      "name": "Lufrei",
+      "km": 17.1
+    },
+    {
+      "name": "Freixo de Baixo",
+      "km": 18.2
+    },
+    {
+      "name": "Borba de Godim",
+      "km": 18.6
+    },
+    {
+      "name": "Freixo de Cima",
+      "km": 18.7
+    },
+    {
+      "name": "Fregim",
+      "km": 20.7
+    },
+    {
+      "name": "Mancelos",
+      "km": 22.7
+    }
+  ]
+}
