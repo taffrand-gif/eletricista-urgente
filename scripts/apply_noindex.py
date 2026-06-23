@@ -18,6 +18,22 @@ FORBIDDEN = [  # hors cœur métier — noindex, conservés (gate compliance sé
     "painel-solar-vale-pena.html",
     "como-carregar-carro-eletrico-casa.html",
     "case-study-certificacao-dgeg.html",
+    # G2 (2026-06-23) — contamination cœur métier encore indexable.
+    # Plomberie sur site ÉLEC (cross-craft, viole NAP/cœur strict):
+    "marcas-grohe-roca-junkers.html",
+    "guia-canalizacao.html",
+    "glossario-canalizacao.html",
+    "case-study-fuga-braganca.html",
+    "top-10-fugas-mais-comuns.html",
+    "top-10-razoes-contratar-canalizador.html",
+    # Solaire / VE (hors cœur, même politique que les 5 ci-dessus):
+    "blog/painel-solar-avariado.html",
+    "blog/avaria-carregador-carro.html",
+    "public/blog/bateria-solar-vale-pena.html",
+    "public/blog/carregador-carro-eletrico-garagem.html",
+    "public/blog/carregador-carro-eletrico-problema.html",
+    "public/blog/carregador-carro-eletrico-solar.html",
+    "public/blog/como-escolher-painel-solar-casa.html",
 ]
 
 ROBOTS_RE = re.compile(r"<meta\s+name=(['\"])robots\1\s+content=(['\"])(.*?)\2\s*/?>", re.I)
