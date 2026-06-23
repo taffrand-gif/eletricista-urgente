@@ -10,3 +10,6 @@ __pycache__/
 
 # Logs
 *.log
+
+# build artifact (was committed by mistake)
+dist/
