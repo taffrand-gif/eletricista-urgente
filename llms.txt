@@ -100,6 +100,33 @@ Sim, fatura com NIF em todos os trabalhos. Relatório técnico disponível para 
 ## Também prestamos serviços de canalizador urgente
 Para fugas de água, desentupimentos e urgências de canalização 24h: canalizador-urgente.pt · +351 928 484 451
 
+
+## Zonas de cobertura e tarifas de deslocação
+
+Distância calculada via routing routier OSRM (centrée sur Macedo de Cavaleiros, rayon 130 km, 914 localités officielles).
+
+| Zona | Distance route | Tarif déplacement | Villes principales |
+|---|---|---|---|
+| **Z1** | 0 – 22 km | **15 €** | Macedo de Cavaleiros, Pinhovelo, Castelãos, Podence, Cortiços, Bornes, Salselas, Vale de Prados |
+| **Z2** | 23 – 43 km | **25 €** | Mirandela, Alfândega da Fé, Vila Flor, Torre de Dona Chama, Carrazeda de Ansiães, Macedo do Mato, Bragança (limite Z2 → corrigé Z3) |
+| **Z3** | 44 – 65 km | **35 €** | Bragança, Vinhais, Mogadouro, Vimioso, Valpaços, Murça, Vila Nova de Foz Côa, Carrazedo de Montenegro, Miranda do Douro (limite) |
+| **Z4** | 66 – 87 km | **45 €** | Chaves, Vila Real, Alijó, Sabrosa, Santa Marta de Penaguião |
+| **Z5** | 88 – 109 km | **55 €** | Peso da Régua, Tabuaço, Penedono (limite zone), Lamego (limite) |
+| **Z6** | 110 – 130 km | **65 €** | (limite périmètre opérationnel) |
+
+## Tarif main d'œuvre
+
+- **70€/h** heure (main d'œuvre standard)
+- **+50%** heure en période nuit (18h-08h), week-end (samedi/dimanche) et jours fériés nationaux
+- Devis par téléphone avant intervention, sans engagement
+- Fatura detalhée + relatório técnico válido para seguro
+
+## IVA e fatura
+
+- **IVA taxa reduzida 6%** aplicável em habitação própria e permanente (rehab/construction ≤ 5 ans)
+- **IVA taxa normal 23%** nos autres cas
+- Fatura com NIF emitida no final de cada trabalho
+
 ## Contacto
 Norte Reparos — Eletricista Urgente
 Telefone / WhatsApp: +351 932 321 892
