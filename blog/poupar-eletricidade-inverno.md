@@ -499,7 +499,7 @@ O inverno em Trás-os-Montes não precisa significar faturas astronómicas. Com 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20reduzir%20a%20minha%20fatura%20de%20eletricidade.%20Podem%20ajudar%3F)**
 
 **✅ Garantias :**
-- Eletricistas certificados com 15+ anos de experiência
+- eletricistas com experiência com 15+ anos de experiência
 - Análise detalhada do consumo
 - Recomendações personalizadas
 - Instalação de sistemas eficientes
@@ -517,4 +517,4 @@ O inverno em Trás-os-Montes não precisa significar faturas astronómicas. Com 
 
 ---
 
-* - Eletricista Certificado em Trás-os-Montes | Eficiência Energética | 932 321 892*
+* - eletricista com experiência em Trás-os-Montes | Eficiência Energética | 932 321 892*

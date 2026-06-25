@@ -143,8 +143,8 @@ keywords: ["energia renovável", "incentivos 2026", "painéis solares", "apoios"
 ### Requisitos Importantes
 
 **Instalador certificado**:
-- DGEG (painéis solares)
-- DGEG (bombas calor)
+- (painéis solares)
+- (bombas calor)
 - Certificado obrigatório
 - **Sem certificado = sem apoio**
 
@@ -323,7 +323,7 @@ keywords: ["energia renovável", "incentivos 2026", "painéis solares", "apoios"
 ### Escolher Instalador
 
 **Verificar**:
-- ✅ Certificação DGEG
+- ✅ Experiência profissional
 - ✅ Seguro responsabilidade civil
 - ✅ Referências/portfolio
 - ✅ Garantias (10+ anos painéis)
@@ -376,8 +376,8 @@ keywords: ["energia renovável", "incentivos 2026", "painéis solares", "apoios"
 
 ### Certificação Oficial
 
-- DGEG certificado (painéis solares)
-- DGEG certificado (bombas calor)
+- certificado (painéis solares)
+- certificado (bombas calor)
 - Seguro responsabilidade civil
 - 100+ instalações renováveis
 
@@ -393,7 +393,7 @@ keywords: ["energia renovável", "incentivos 2026", "painéis solares", "apoios"
 
 - Equipamentos qualidade (Tier 1)
 - Instalação profissional
-- Certificado DGEG
+- Profissional
 - Garantias extensas
 - Teste completo
 

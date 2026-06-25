@@ -62,7 +62,7 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 - ❌ Arranjar sem desligar geral
 
 **Sempre**:
-- ✅ Chamar eletricista certificado
+- ✅ Chamar eletricista com experiência
 - ✅ Manter fechado
 - ✅ Crianças longe
 
@@ -185,9 +185,9 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 ### Instalação Certificada
 
 **Obrigatório**:
-- Eletricista certificado
+- eletricista com experiência
 - Projeto elétrico
-- Inspeção DGEG (>50m²)
+- Inspeção (>50m²)
 - Certificado conformidade
 
 **Normas**:
@@ -406,10 +406,10 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 
 ### Certificação
 
-**Eletricista certificado**:
+**eletricista com experiência**:
 - Formação específica
 - Seguro responsabilidade civil
-- Certificado DGEG
+- Profissional
 - **Obrigatório**
 
 **Multas sem certificação**:
@@ -503,7 +503,7 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 
 ### Especialização Segurança
 
-- Certificação DGEG
+- Experiência profissional
 - Formação segurança
 - Equipamento teste profissional
 - 10+ anos experiência
@@ -571,7 +571,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 **Muito perigoso**. Sem terra + sem disjuntor diferencial = risco eletrocussão alto. Solução: Adicionar terra + disjuntor diferencial €500-1,500. Ou renovação completa €2,000-5,000.
 
 ### Tomadas casa banho são permitidas?
-**Sim** mas regras: >60cm banheira, disjuntor diferencial 30mA obrigatório, IPX4 mínimo. Proibido volume 0-1 (perto banheira). Normas RTIEBT. Eletricista certificado instala.
+**Sim** mas regras: >60cm banheira, disjuntor diferencial 30mA obrigatório, IPX4 mínimo. Proibido volume 0-1 (perto banheira). Normas RTIEBT. eletricista com experiência instala.
 
 ### Quanto custa instalação segura?
 **€500-1,500**: Disjuntor diferencial (€50-150), terra (€200-800), tomadas terra (€15-30/unidade), inspeção (€150-300). ROI: VIDA. Previne 90% acidentes. Obrigatório legal.

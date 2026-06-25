@@ -1,36 +1,36 @@
 ---
-title: "Preço Fichas eletrotécnicas assinadas por técnico certificado DGEG 2026 Trás-os-Montes"
+title: "Preço Fichas eletrotécnicas assinadas por técnico Profissional 2026 Trás-os-Montes"
 slug: "preco-certificacao-certiel-2026"
 date: "2026-03-08"
 author: ""
 category: "Certificação"
-excerpt: "Guia completo sobre preços de Fichas eletrotécnicas assinadas por técnico certificado DGEG em 2026. Quanto custa, quando é obrigatória, processo completo e prazos."
+excerpt: "Guia completo sobre preços de Fichas eletrotécnicas assinadas por técnico Profissional em 2026. Quanto custa, quando é obrigatória, processo completo e prazos."
 image: "/images-optimized/blog/blog-certificacao-certiel.webp"
-metaTitle: "Preço Fichas eletrotécnicas assinadas por técnico certificado DGEG 2026 | Guia Completo"
-metaDescription: "Fichas eletrotécnicas assinadas por técnico certificado DGEG: T1-T2 200€, T3-T4 280€, T4+ 350€. Obrigatória venda/arrendamento. Prazo 2-5 dias. Ligue 932 321 892!"
-keywords: ["preço Fichas eletrotécnicas assinadas por técnico certificado DGEG", "quanto custa certiel", "certificação elétrica obrigatória", "certiel trás-os-montes"]
+metaTitle: "Preço Fichas eletrotécnicas assinadas por técnico Profissional 2026 | Guia Completo"
+metaDescription: "Fichas eletrotécnicas assinadas por técnico Profissional: T1-T2 200€, T3-T4 280€, T4+ 350€. Obrigatória venda/arrendamento. Prazo 2-5 dias. Ligue 932 321 892!"
+keywords: ["preço Fichas eletrotécnicas assinadas por técnico Profissional", "quanto custa certiel", "certificação elétrica obrigatória", "certiel trás-os-montes"]
 schema:
   type: "HowTo"
-  name: "Como Obter Fichas eletrotécnicas assinadas por técnico certificado DGEG"
-  description: "Processo completo para obter certificação elétrica DGEG em Portugal"
+  name: "Como Obter Fichas eletrotécnicas assinadas por técnico Profissional"
+  description: "Processo completo para obter certificação elétrica em Portugal"
   totalTime: "P3D"
   estimatedCost:
     currency: "EUR"
     value: "200-350"
 faqSchema:
-  - question: "Quanto custa Fichas eletrotécnicas assinadas por técnico certificado DGEG?"
+  - question: "Quanto custa Fichas eletrotécnicas assinadas por técnico Profissional?"
     answer: "T1-T2: 200-250€, T3-T4: 280-320€, T4+: 350-400€. Inclui inspeção, termo responsabilidade e emissão certificado. Sem IVA."
-  - question: "Quanto tempo demora Fichas eletrotécnicas assinadas por técnico certificado DGEG?"
+  - question: "Quanto tempo demora Fichas eletrotécnicas assinadas por técnico Profissional?"
     answer: "2-3 dias úteis se instalação conforme. 5-7 dias se precisar correções pequenas. 7-10 dias se correções grandes."
-  - question: "Fichas eletrotécnicas assinadas por técnico certificado DGEG é obrigatória?"
+  - question: "Fichas eletrotécnicas assinadas por técnico Profissional é obrigatória?"
     answer: "Sim para venda, arrendamento, instalação nova ou alteração >50%. Obrigatório por lei DL 226/2005. Multa até 3740€."
 ---
 
-# Preço Fichas eletrotécnicas assinadas por técnico certificado DGEG 2026 Trás-os-Montes
+# Preço Fichas eletrotécnicas assinadas por técnico Profissional 2026 Trás-os-Montes
 
-A Fichas eletrotécnicas assinadas por técnico certificado DGEG é obrigatória por lei para venda e arrendamento de imóveis em Portugal. Este guia completo explica quanto custa, quando é necessária, o processo completo e como obter rapidamente em Trás-os-Montes.
+A Fichas eletrotécnicas assinadas por técnico Profissional é obrigatória por lei para venda e arrendamento de imóveis em Portugal. Este guia completo explica quanto custa, quando é necessária, o processo completo e como obter rapidamente em Trás-os-Montes.
 
-## O Que É a Fichas eletrotécnicas assinadas por técnico certificado DGEG?
+## O Que É a Fichas eletrotécnicas assinadas por técnico Profissional?
 
 **DGEG** (Associação Certificadora de Instalações Elétricas) é a entidade responsável por certificar que as instalações elétricas cumprem as **Regras Técnicas das Instalações Elétricas de Baixa Tensão (RTIEBT)**.
 
@@ -64,7 +64,7 @@ A Fichas eletrotécnicas assinadas por técnico certificado DGEG é obrigatória
 | **Loja grande** | >150m² | 600€ | 600-1000€ |
 | **Armazém/Indústria** | Variável | 800€+ | Sob orçamento |
 
-*Nota: Preços incluem inspeção completa, testes elétricos, emissão certificado e registo DGEG. Não incluem correções se instalação não conforme.*
+*Nota: Preços incluem inspeção completa, testes elétricos, emissão certificado e registo. Não incluem correções se instalação não conforme.*
 
 ## Quando É Obrigatória a Certificação?
 
@@ -89,7 +89,7 @@ A Fichas eletrotécnicas assinadas por técnico certificado DGEG é obrigatória
 ### PASSO 1: Contacto e Agendamento (Dia 0)
 
 **O que fazer:**
-- Ligar para eletricista Fichas eletrotécnicas assinadas por técnico certificado DGEG
+- Ligar para eletricista Fichas eletrotécnicas assinadas por técnico Profissional
 - Indicar tipo de imóvel (T2, T3, etc.)
 - Agendar data para inspeção
 
@@ -176,7 +176,7 @@ A Fichas eletrotécnicas assinadas por técnico certificado DGEG é obrigatória
 **Processo:**
 1. Eletricista preenche Termo de Responsabilidade
 2. Envia documentação para DGEG
-3. DGEG valida e emite certificado
+3. valida e emite certificado
 4. Certificado enviado por email + correio
 
 **Prazo:**
@@ -187,11 +187,11 @@ A Fichas eletrotécnicas assinadas por técnico certificado DGEG é obrigatória
 
 ## Documentos Entregues
 
-### 1. Fichas eletrotécnicas assinadas por técnico certificado DGEG (Original)
+### 1. Fichas eletrotécnicas assinadas por técnico Profissional (Original)
 - Número único de certificado
 - Dados imóvel e proprietário
 - Data emissão e validade
-- Assinatura eletricista certificado
+- Assinatura eletricista com experiência
 - Carimbo DGEG
 
 ### 2. Termo de Responsabilidade
@@ -325,7 +325,7 @@ Se sabe que tem problemas (ex: falta diferencial), corrija antes da inspeção. 
 
 ## Perguntas Frequentes
 
-### 1. O Fichas eletrotécnicas assinadas por técnico certificado DGEG tem validade?
+### 1. O Fichas eletrotécnicas assinadas por técnico Profissional tem validade?
 **Tecnicamente indefinida**, mas recomenda-se renovar a cada 10 anos ou após remodelações. Para venda/arrendamento, aceita-se certificado antigo se instalação não foi alterada.
 
 ### 2. Posso vender casa sem certificado?
@@ -338,7 +338,7 @@ Se sabe que tem problemas (ex: falta diferencial), corrija antes da inspeção. 
 - Refazer ligação terra: 180-250€
 
 ### 4. Posso certificar eu mesmo?
-**Não.** Apenas eletricistas certificados pela DGEG podem emitir certificados. Lista disponível em certiel.pt.
+**Não.** Apenas eletricistas com experiência podem emitir certificados. Lista disponível em certiel.pt.
 
 ### 5. O que acontece se não tiver certificado?
 **Venda:** Escritura bloqueada
@@ -378,7 +378,7 @@ Se sabe que tem problemas (ex: falta diferencial), corrija antes da inspeção. 
 - Máximo 7500€ por imóvel
 
 **Inclui:**
-- Fichas eletrotécnicas assinadas por técnico certificado DGEG
+- Fichas eletrotécnicas assinadas por técnico Profissional
 - Modernização quadro elétrico
 - Iluminação LED
 - Isolamento
@@ -394,7 +394,7 @@ Se sabe que tem problemas (ex: falta diferencial), corrija antes da inspeção. 
 ## Checklist Antes de Certificar
 
 ### 2 Semanas Antes
-- [ ] Contactar eletricista certificado
+- [ ] Contactar eletricista com experiência
 - [ ] Reunir documentação (caderneta, fatura)
 - [ ] Verificar acesso quadro elétrico
 - [ ] Fotografar instalação atual
@@ -417,17 +417,17 @@ Se sabe que tem problemas (ex: falta diferencial), corrija antes da inspeção. 
 - [ ] Agendar correções
 - [ ] Aguardar certificado (2-5 dias)
 
-## Precisa de Fichas eletrotécnicas assinadas por técnico certificado DGEG?
+## Precisa de Fichas eletrotécnicas assinadas por técnico Profissional?
 
 **Ligue agora: 932 321 892**
 
-✅ Eletricista Fichas eletrotécnicas assinadas por técnico certificado DGEG
+✅ Eletricista Fichas eletrotécnicas assinadas por técnico Profissional
 ✅ Preços transparentes sem surpresas
 ✅ Certificado em 3-5 dias úteis
 ✅ Orçamento gratuito por telefone
 ✅ Correções incluídas no serviço
 
-**WhatsApp:** [Clique para agendar](https://wa.me/351932321892?text=Olá, preciso de Fichas eletrotécnicas assinadas por técnico certificado DGEG)
+**WhatsApp:** [Clique para agendar](https://wa.me/351932321892?text=Olá, preciso de Fichas eletrotécnicas assinadas por técnico Profissional)
 
 ---
 

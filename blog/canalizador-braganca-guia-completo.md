@@ -24,7 +24,7 @@ Os preços praticados na nossa empresa são tabelados por zonas. Para Bragança 
 
 ## Porquê escolher Norte Reparos em Bragança
 
-Somos certificados, temos equipamento profissional (câmaras termográficas FLIR, sistemas de inspeção HD, máquinas Ridgid), emitimos relatórios técnicos válidos para seguro, e o preço que indicamos ao telefone é o que paga. Sem surpresas.
+Temos experiência, temos equipamento profissional (câmaras termográficas FLIR, sistemas de inspeção HD, máquinas Ridgid), emitimos relatórios técnicos válidos para seguro, e o preço que indicamos ao telefone é o que paga. Sem surpresas.
 
 
 

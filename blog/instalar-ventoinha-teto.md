@@ -13,7 +13,7 @@ priority: "SEASONAL"
 
 **Quer instalar uma ventoinha de teto para refrescar a casa?** Em Trás-os-Montes, onde os verões podem atingir **35-40°C**, uma ventoinha de teto é uma solução **eficiente e económica** para melhorar o conforto térmico. Consome apenas **15-75W** (vs 1.000-2.500W de ar condicionado), poupa até **€200/ano** na fatura elétrica, e proporciona circulação de ar agradável.
 
-Neste guia completo, vamos explicar **como escolher a ventoinha adequada**, instalação segura passo a passo, custos reais, normas elétricas obrigatórias, e quando chamar um eletricista certificado.
+Neste guia completo, vamos explicar **como escolher a ventoinha adequada**, instalação segura passo a passo, custos reais, normas elétricas obrigatórias, e quando chamar um eletricista com experiência.
 
 **📞 Quer instalar ventoinha de teto? Ligue já: [932 321 892](tel:+351932321892)**  
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20uma%20ventoinha%20de%20teto.%20Podem%20ajudar%3F)**
@@ -150,7 +150,7 @@ Neste guia completo, vamos explicar **como escolher a ventoinha adequada**, inst
 
 ## Instalação Passo a Passo
 
-**⚠️ AVISO IMPORTANTE:** Trabalhos elétricos devem ser realizados por eletricista certificado. Instalação incorreta pode causar choque elétrico fatal, queda da ventoinha, ou incêndio.
+**⚠️ AVISO IMPORTANTE:** Trabalhos elétricos devem ser realizados por eletricista com experiência. Instalação incorreta pode causar choque elétrico fatal, queda da ventoinha, ou incêndio.
 
 ### Materiais Necessários
 
@@ -467,7 +467,7 @@ Instalar uma ventoinha de teto é um **investimento inteligente** que proporcion
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20uma%20ventoinha%20de%20teto.%20Podem%20ajudar%3F)**
 
 **✅ Garantias :**
-- Eletricistas certificados com 15+ anos de experiência
+- eletricistas com experiência com 15+ anos de experiência
 - Verificação estrutural do teto
 - Instalação conforme normas de segurança
 - Teste completo de funcionamento
@@ -485,4 +485,4 @@ Instalar uma ventoinha de teto é um **investimento inteligente** que proporcion
 
 ---
 
-* - Eletricista Certificado em Trás-os-Montes | Instalações Seguras | 932 321 892*
+* - eletricista com experiência em Trás-os-Montes | Instalações Seguras | 932 321 892*

@@ -23,12 +23,12 @@ priority: TRENDING
 Mas atenção: **não é só comprar e ligar na tomada**. Precisa de:
 - ✅ Instalação elétrica adequada (potência contratada, quadro elétrico)
 - ✅ Carregador compatível com o seu carro
-- ✅ Instalação por eletricista certificado (obrigatório por lei)
+- ✅ Instalação por eletricista com experiência (obrigatório por lei)
 - ✅ Certificação elétrica DGEG
 
 Neste guia completo, vou explicar **tudo o que precisa saber** para instalar um carregador de carro elétrico em casa: tipos de carregadores, potências, custos, requisitos técnicos, incentivos do governo e como escolher o melhor para o seu caso.
 
-**📞 Quer um orçamento personalizado? Ligue já: [932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança, Mirandela, Trás-os-Montes.
+**📞 Quer um orçamento personalizado? Ligue já: [932 321 892](tel:+351932321892)** — eletricista com experiência em Bragança, Mirandela, Trás-os-Montes.
 
 ---
 
@@ -275,7 +275,7 @@ Neste guia completo, vou explicar **tudo o que precisa saber** para instalar um 
 | **Diferencial tipo A** | €80-150 |
 | **Cabo 6mm² (20m)** | €60-100 |
 | **Mão de obra** | €200-400 |
-| **Fichas eletrotécnicas assinadas por técnico certificado DGEG** | €80-150 |
+| **Fichas eletrotécnicas assinadas por técnico Profissional** | €80-150 |
 | **TOTAL** | **€850-1,660** |
 
 **Prazo:** 1 dia (4-6 horas).
@@ -289,7 +289,7 @@ Neste guia completo, vou explicar **tudo o que precisa saber** para instalar um 
 | **Wallbox 7.4 kW** | €400-800 |
 | **Instalação elétrica** | €370-710 |
 | **Aumento potência (6.9→10.35 kVA)** | €30-100 |
-| **Fichas eletrotécnicas assinadas por técnico certificado DGEG** | €80-150 |
+| **Fichas eletrotécnicas assinadas por técnico Profissional** | €80-150 |
 | **TOTAL** | **€880-1,760** |
 
 **Prazo:** 1-2 semanas (espera aumento potência).
@@ -305,7 +305,7 @@ Neste guia completo, vou explicar **tudo o que precisa saber** para instalar um 
 | **Diferencial tipo B** | €150-300 |
 | **Cabo 10mm² (20m)** | €100-160 |
 | **Mão de obra** | €300-500 |
-| **Fichas eletrotécnicas assinadas por técnico certificado DGEG** | €80-150 |
+| **Fichas eletrotécnicas assinadas por técnico Profissional** | €80-150 |
 | **TOTAL** | **€1,280-2,410** |
 
 **Prazo:** 1 dia.
@@ -319,7 +319,7 @@ Neste guia completo, vou explicar **tudo o que precisa saber** para instalar um 
 | **Wallbox 11 kW** | €600-1,200 |
 | **Conversão para trifásico** | €500-1,500 |
 | **Instalação elétrica** | €600-1,060 |
-| **Fichas eletrotécnicas assinadas por técnico certificado DGEG** | €80-150 |
+| **Fichas eletrotécnicas assinadas por técnico Profissional** | €80-150 |
 | **TOTAL** | **€1,780-3,910** |
 
 **Prazo:** 2-4 semanas.
@@ -418,7 +418,7 @@ Neste guia completo, vou explicar **tudo o que precisa saber** para instalar um 
 
 ---
 
-### Passo 4: Fichas eletrotécnicas assinadas por técnico certificado DGEG (Obrigatória)
+### Passo 4: Fichas eletrotécnicas assinadas por técnico Profissional (Obrigatória)
 
 **O que é:**
 - Certificado que comprova que instalação está conforme normas
@@ -445,7 +445,7 @@ Neste guia completo, vou explicar **tudo o que precisa saber** para instalar um 
 
 ### 1. Posso instalar o carregador eu próprio?
 
-**❌ NÃO!** Por lei, instalações elétricas >3.68 kW **devem ser feitas por eletricista certificado** e ter Fichas eletrotécnicas assinadas por técnico certificado DGEG.
+**❌ NÃO!** Por lei, instalações elétricas >3.68 kW **devem ser feitas por eletricista com experiência** e ter Fichas eletrotécnicas assinadas por técnico Profissional.
 
 **Riscos de instalar sozinho:**
 - Incêndio, eletrocussão
@@ -532,7 +532,7 @@ Neste guia completo, vou explicar **tudo o que precisa saber** para instalar um 
 - Multa até €3,740
 - Risco de incêndio
 
-**Solução:** Contratar eletricista certificado + pedir Fichas eletrotécnicas assinadas por técnico certificado DGEG.
+**Solução:** Contratar eletricista com experiência + pedir Fichas eletrotécnicas assinadas por técnico Profissional.
 
 ---
 
@@ -554,12 +554,12 @@ Neste guia completo, vou explicar **tudo o que precisa saber** para instalar um 
 
 ## 📍 Instalação de Carregadores em Trás-os-Montes
 
-** — Eletricista Fichas eletrotécnicas assinadas por técnico certificado DGEG**
+** — Eletricista Fichas eletrotécnicas assinadas por técnico Profissional**
 
 ✅ Avaliação técnica grátis  
 ✅ Instalação de wallbox 7.4 kW, 11 kW, 22 kW  
 ✅ Aumento de potência contratada  
-✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG incluída  
+✅ Fichas eletrotécnicas assinadas por técnico Profissional incluída  
 ✅ Apoio candidatura Fundo Ambiental  
 ✅ Integração com painéis solares  
 ✅ Garantia 2 anos  
@@ -589,7 +589,7 @@ Neste guia completo, vou explicar **tudo o que precisa saber** para instalar um 
 
 **Ligue JÁ: [932 321 892](tel:+351932321892)**
 
-**Eletricista certificado • Avaliação grátis • Fichas eletrotécnicas assinadas por técnico certificado DGEG incluída • Garantia 2 anos**
+**eletricista com experiência • Avaliação grátis • Fichas eletrotécnicas assinadas por técnico Profissional incluída • Garantia 2 anos**
 
 ---
 

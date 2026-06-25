@@ -13,7 +13,7 @@ priority: "HIGH DEMAND"
 
 **A tomada não funciona ou não tem corrente?** Este é um problema comum que pode ter causas simples (disjuntor desarmado) ou mais complexas (cabo partido). Neste guia completo, vou mostrar-lhe **as 8 causas principais** de tomadas que não funcionam e **como resolver cada uma com segurança**.
 
-> ⚠️ **ATENÇÃO:** Trabalhos elétricos envolvem risco de eletrocussão. Se não tem experiência, ligue já: **[932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança Atendimento prioritário.
+> ⚠️ **ATENÇÃO:** Trabalhos elétricos envolvem risco de eletrocussão. Se não tem experiência, ligue já: **[932 321 892](tel:+351932321892)** — eletricista com experiência em Bragança Atendimento prioritário.
 
 ## 🔍 Diagnóstico Inicial: Teste Simples
 
@@ -220,7 +220,7 @@ Cabo foi cortado acidentalmente (furar parede, pregar quadro), roído por roedor
 - Fechar parede e rebocar
 - Custo: €80-400 (dependendo da localização)
 
-**Requer eletricista certificado.**
+**Requer eletricista com experiência.**
 
 ### Causa 6: Tomada Mal Instalada (5% dos casos)
 
@@ -311,7 +311,7 @@ Mecanismo de proteção infantil está bloqueado ou rígido.
 | Arranjar curto-circuito | €80-300 |
 | Urgência 24h | +€50-80 |
 
-> 💡 **Tomada não funciona?** Eletricista certificado: **[932 321 892](tel:+351932321892)** — Diagnóstico rápido, arranjo garantida.
+> 💡 **Tomada não funciona?** eletricista com experiência: **[932 321 892](tel:+351932321892)** — Diagnóstico rápido, arranjo garantida.
 
 ## 🔍 Diagnóstico Completo Passo a Passo
 
@@ -466,7 +466,7 @@ Na maioria dos casos, tomada que não funciona tem **causa identificável e solu
 
 ### 🚨 Tomada Não Funciona? Ajuda Profissional em Trás-os-Montes
 
-** — Eletricista Certificado em Bragança**
+** — eletricista com experiência em Bragança**
 
 📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20uma%20tomada%20que%20não%20funciona.%20Pode%20ajudar%3F)**

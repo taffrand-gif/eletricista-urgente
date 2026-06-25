@@ -30,7 +30,7 @@ Neste guia completo, vou explicar:
 - ✅ Requisitos legais em Portugal (RGPD, CNPD)
 - ✅ Melhores marcas e modelos 2026
 
-**📞 Quer um orçamento personalizado? Ligue já: [932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança, Mirandela, Trás-os-Montes.
+**📞 Quer um orçamento personalizado? Ligue já: [932 321 892](tel:+351932321892)** — eletricista com experiência em Bragança, Mirandela, Trás-os-Montes.
 
 ---
 
@@ -587,7 +587,7 @@ Neste guia completo, vou explicar:
 
 ## 📍 Instalação de Videovigilância em Trás-os-Montes
 
-** — Eletricista Certificado**
+** — eletricista com experiência**
 
 ✅ Avaliação e orçamento grátis  
 ✅ Instalação de sistemas IP, analógicos, híbridos  
@@ -622,7 +622,7 @@ Um sistema de videovigilância:
 
 **Ligue JÁ: [932 321 892](tel:+351932321892)**
 
-**Eletricista certificado • Avaliação grátis • Instalação profissional • Garantia 2 anos**
+**eletricista com experiência • Avaliação grátis • Instalação profissional • Garantia 2 anos**
 
 ---
 

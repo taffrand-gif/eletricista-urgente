@@ -148,10 +148,10 @@ Pode fazer trabalhos elétricos sozinho ou deve chamar eletricista? Este guia co
 
 **Custo profissional:** 138-210€
 
-### ❌ Fichas eletrotécnicas assinadas por técnico certificado DGEG
+### ❌ Fichas eletrotécnicas assinadas por técnico Profissional
 
 **Porquê IMPOSSÍVEL:**
-- Só eletricistas certificados podem emitir
+- Só eletricistas com experiência podem emitir
 - Precisa equipamento profissional (megger)
 - Precisa conhecimento normas RTIEBT
 - Responsabilidade legal
@@ -201,7 +201,7 @@ Pode fazer trabalhos elétricos sozinho ou deve chamar eletricista? Este guia co
 Incêndio causado por instalação DIY mal feita.
 
 **Seguradora:**
-"Instalação não foi feita por profissional certificado. Não cobrimos."
+"Instalação não foi feita por profissional com experiência. Não cobrimos."
 
 **Resultado:**
 - Perde casa
@@ -209,14 +209,14 @@ Incêndio causado por instalação DIY mal feita.
 - Pode ser processado por vizinhos
 
 **Cláusula típica seguro:**
-"Instalações elétricas devem ser executadas por profissional certificado."
+"Instalações elétricas devem ser executadas por profissional com experiência."
 
 ### 2. Venda Imóvel Bloqueada
 
 **Situação:**
-Quer vender casa. Precisa Fichas eletrotécnicas assinadas por técnico certificado DGEG.
+Quer vender casa. Precisa Fichas eletrotécnicas assinadas por técnico Profissional.
 
-**Eletricista certificado:**
+**eletricista com experiência:**
 "Instalação não está conforme. Precisa refazer."
 
 **Resultado:**
@@ -229,7 +229,7 @@ Quer vender casa. Precisa Fichas eletrotécnicas assinadas por técnico certific
 ### 3. Multa Fiscalização
 
 **Situação:**
-Fiscalização DGEG (Direção Geral Energia) detecta instalação ilegal.
+Fiscalização (Direção Geral Energia) detecta instalação ilegal.
 
 **Multa:**
 - Pessoa singular: até 3740€
@@ -311,7 +311,7 @@ Arrenda casa sem certificação elétrica.
 **Se tivesse chamado profissional:** 480€
 **DIFERENÇA: 149.520€**
 
-### Exemplo 3: Fichas eletrotécnicas assinadas por técnico certificado DGEG
+### Exemplo 3: Fichas eletrotécnicas assinadas por técnico Profissional
 
 **DIY impossível:**
 Não pode emitir certificado.
@@ -391,10 +391,10 @@ Choque elétrico, hospital 2 dias.
 **Sim, MAS** só se souber identificar fios (fase, neutro, terra) e ligar corretamente. Se dúvida = chamar profissional.
 
 ### 2. É legal fazer trabalhos elétricos em minha casa?
-**Pequenos trabalhos sim** (lâmpadas, fichas). **Instalações novas não** - precisa Fichas eletrotécnicas assinadas por técnico certificado DGEG.
+**Pequenos trabalhos sim** (lâmpadas, fichas). **Instalações novas não** - precisa Fichas eletrotécnicas assinadas por técnico Profissional.
 
 ### 3. Seguro cobre se fizer DIY?
-**Geralmente NÃO.** Cláusula típica exige profissional certificado para instalações.
+**Geralmente NÃO.** Cláusula típica exige profissional com experiência para instalações.
 
 ### 4. Posso aprender vendo YouTube?
 **Vídeos ajudam a entender, mas não substituem:**
@@ -427,7 +427,7 @@ Choque elétrico, hospital 2 dias.
 ✅ Mexer no quadro elétrico
 ✅ Instalar tomadas/interruptores novos
 ✅ Trabalhos exterior (jardim, garagem)
-✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG
+✅ Fichas eletrotécnicas assinadas por técnico Profissional
 ✅ Aumentar potência
 ✅ Arranjar curto-circuitos
 ✅ Instalar aquecimento/AC
@@ -452,7 +452,7 @@ Custo profissional (50-200€) é SEMPRE menor que:
 ## Artigos Relacionados
 
 - [Melhores Eletricistas Bragança: Como Escolher](https://eletricista-urgente.pt/blog/melhores-eletricistas-braganca-2026)
-- [Fichas eletrotécnicas assinadas por técnico certificado DGEG Obrigatória](https://eletricista-urgente.pt/blog/certificacao-eletrica-obrigatoria-quando-como)
+- [Fichas eletrotécnicas assinadas por técnico Profissional Obrigatória](https://eletricista-urgente.pt/blog/certificacao-eletrica-obrigatoria-quando-como)
 - [Urgência Elétrica: O Que Fazer](https://eletricista-urgente.pt/blog/urgencia-eletrica-o-que-fazer-antes)
 - [Quanto Custa Quadro Elétrico](https://eletricista-urgente.pt/blog/quanto-custa-quadro-fusiveis-2026)
 
@@ -460,14 +460,14 @@ Custo profissional (50-200€) é SEMPRE menor que:
 
 **Ligue agora: 932 321 892**
 
-✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG válida
+✅ Fichas eletrotécnicas assinadas por técnico Profissional válida
 ✅ Seguro RC 100.000€
 ✅ 15+ anos experiência
 ✅ Preços transparentes
 ✅ Garantia 5 anos
 ✅ Trabalho seguro e legal
 
-**WhatsApp:** [Pedir orçamento](https://wa.me/351932321892?text=Preciso eletricista profissional certificado)
+**WhatsApp:** [Pedir orçamento](https://wa.me/351932321892?text=Preciso eletricista profissional com experiência)
 
 ---
 

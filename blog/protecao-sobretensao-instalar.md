@@ -327,7 +327,7 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 ❌ Instalação incorreta = sem proteção
 ❌ Sem terra = inútil ou perigoso
 ❌ Ligação errada = incêndio
-❌ **Sempre chamar eletricista certificado**
+❌ **Sempre chamar eletricista com experiência**
 
 ## 🔍 Manutenção e Verificação
 
@@ -445,7 +445,7 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 
 ### Instalação Certificada
 
-- Eletricistas certificados
+- eletricistas com experiência
 - Materiais qualidade
 - Teste funcionamento
 - Certificado instalação

@@ -550,7 +550,7 @@ keywords: ["climatização", "ar condicionado", "bomba calor", "AC inverter", "T
 
 ### Instalação Certificada
 
-- Eletricistas certificados
+- eletricistas com experiência
 - Instalação profissional
 - Vácuo correto
 - Teste completo

@@ -13,7 +13,7 @@ priority: "SEASONAL"
 
 **Quer instalar um ventilador de teto para refrescar a casa no verão?** A instalação é relativamente simples mas requer cuidados especiais de segurança e fixação. Neste guia completo, vou mostrar-lhe **como instalar ventilador de teto em 10 passos**, com todos os detalhes sobre tipos, fixação segura e ligação elétrica.
 
-> ⚠️ **ATENÇÃO:** Trabalhos elétricos envolvem risco de eletrocussão. Se não tem experiência, ligue já: **[932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança Atendimento prioritário.
+> ⚠️ **ATENÇÃO:** Trabalhos elétricos envolvem risco de eletrocussão. Se não tem experiência, ligue já: **[932 321 892](tel:+351932321892)** — eletricista com experiência em Bragança Atendimento prioritário.
 
 ## 🔍 Tipos de Ventiladores de Teto
 
@@ -328,7 +328,7 @@ priority: "SEASONAL"
 
 ### Opção Profissional
 
-**Serviço completo por eletricista certificado:**
+**Serviço completo por eletricista com experiência:**
 
 | Serviço | Preço em Trás-os-Montes |
 |---------|-------------------------|
@@ -490,9 +490,9 @@ Instalar ventilador de teto é **relativamente simples** mas requer **atenção 
 
 **Manutenção:** Limpeza mensal + verificação anual = 10-20 anos de vida útil
 
-### 🚨 Precisa de Eletricista Certificado em Trás-os-Montes?
+### 🚨 Precisa de eletricista com experiência em Trás-os-Montes?
 
-** — Eletricista Certificado em Bragança**
+** — eletricista com experiência em Bragança**
 
 📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20instalar%20um%20ventilador%20de%20teto.%20Pode%20ajudar%3F)**
