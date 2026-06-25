@@ -11,7 +11,7 @@ priority: "HIGH DEMAND"
 
 # Disjuntor Desarma: 12 Causas e Como Resolver (2026)
 
-**Disjuntor que desarma constantemente afeta 62% das habitações em Trás-os-Montes.** Luz vai abaixo, aparelhos desligam, frigorífico descongela - problema frustrante mas que indica proteção a funcionar. Neste guia completo, vou mostrar-lhe as 12 causas principais, como diagnosticar e quando é essencial chamar um eletricista certificado.
+**Disjuntor que desarma constantemente afeta 62% das habitações em Trás-os-Montes.** Luz vai abaixo, aparelhos desligam, frigorífico descongela - problema frustrante mas que indica proteção a funcionar. Neste guia completo, vou mostrar-lhe as 12 causas principais, como diagnosticar e quando é essencial chamar um eletricista com experiência.
 
 ## ⚠️ AVISO DE SEGURANÇA CRÍTICO
 
@@ -519,7 +519,7 @@ R: SIM! 20+ anos = desgaste, pode não proteger adequadamente. Substitua por seg
 
 ### 🚨 Disjuntor Desarma Constantemente? Ligue JÁ!
 
-** - Eletricista Certificado em Trás-os-Montes**
+** - eletricista com experiência em Trás-os-Montes**
 
 📞 **Ligue Agora: 932 321 892**
 - ✅ Atendimento 24h/7d (emergências elétricas)
@@ -527,7 +527,7 @@ R: SIM! 20+ anos = desgaste, pode não proteger adequadamente. Substitua por seg
 - ✅ Substituir disjuntor €40-80
 - ✅ Adicionar circuito €150-400
 - ✅ Garantia 12 meses
-- ✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG incluída
+- ✅ Fichas eletrotécnicas assinadas por técnico Profissional incluída
 
 💬 **WhatsApp:** [Emergência elétrica](https://wa.me/351932321892?text=Olá,%20o%20disjuntor%20desarma%20constantemente!)
 
@@ -537,4 +537,4 @@ R: SIM! 20+ anos = desgaste, pode não proteger adequadamente. Substitua por seg
 
 ---
 
-**Não force disjuntor! Eletricista certificado resolve causa em 1-2 horas!**
+**Não force disjuntor! eletricista com experiência resolve causa em 1-2 horas!**

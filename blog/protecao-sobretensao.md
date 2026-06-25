@@ -204,7 +204,7 @@ Neste guia completo, vamos explicar **o que é sobretensão**, tipos de protetor
 
 **Sem protetor:**
 - Instalação não conforme
-- Fichas eletrotécnicas assinadas por técnico certificado DGEG recusada
+- Fichas eletrotécnicas assinadas por técnico Profissional recusada
 - Seguro pode não cobrir danos
 
 ### 4. Trás-os-Montes: Zona de Risco
@@ -223,7 +223,7 @@ Neste guia completo, vamos explicar **o que é sobretensão**, tipos de protetor
 
 ## Instalação de Protetor Tipo 2 (Quadro)
 
-**⚠️ AVISO:** Trabalho elétrico. Contrate eletricista certificado.
+**⚠️ AVISO:** Trabalho elétrico. Contrate eletricista com experiência.
 
 ### Materiais
 
@@ -383,7 +383,7 @@ Tipo 1: sim (raios diretos). Tipo 2: sim (raios indiretos). Tipo 3: proteção a
 LED verde = funcional. LED vermelho/apagado = danificado (substituir).
 
 **8. Posso instalar protetor sozinho?**  
-Tipo 3 (tomada): sim (DIY). Tipo 2 (quadro): não (requer eletricista certificado).
+Tipo 3 (tomada): sim (DIY). Tipo 2 (quadro): não (requer eletricista com experiência).
 
 ---
 
@@ -407,7 +407,7 @@ Protetor de sobretensão é **investimento pequeno** (€230-640) que protege **
 - Instalação de protetor Tipo 1, 2, 3
 - Verificação de terra (essencial)
 - Melhoria de terra (se necessário)
-- Fichas eletrotécnicas assinadas por técnico certificado DGEG
+- Fichas eletrotécnicas assinadas por técnico Profissional
 - Consultoria personalizada
 
 **Cobertura:**
@@ -418,7 +418,7 @@ Protetor de sobretensão é **investimento pequeno** (€230-640) que protege **
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20protetor%20de%20sobretensão.%20Podem%20ajudar%3F)**
 
 **✅ Garantias :**
-- Eletricistas certificados com 15+ anos de experiência
+- eletricistas com experiência com 15+ anos de experiência
 - Protetores de qualidade (marcas reconhecidas)
 - Instalação conforme normas
 - Teste completo de funcionamento
@@ -436,4 +436,4 @@ Protetor de sobretensão é **investimento pequeno** (€230-640) que protege **
 
 ---
 
-* - Eletricista Certificado em Trás-os-Montes | Proteção Elétrica | 932 321 892*
+* - eletricista com experiência em Trás-os-Montes | Proteção Elétrica | 932 321 892*

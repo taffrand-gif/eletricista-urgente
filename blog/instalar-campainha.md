@@ -13,7 +13,7 @@ priority: "HIGH DEMAND"
 
 **Quer instalar uma campainha nova ou substituir a antiga?** Seja por avaria, modernização, ou simplesmente porque não tem campainha, instalar este dispositivo essencial é mais simples do que parece. Pode escolher entre **campainha com fios** (mais fiável, requer instalação elétrica) ou **sem fios** (instalação em minutos, funciona com pilhas).
 
-Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação passo a passo, custos, vantagens/desvantagens, e quando chamar um eletricista certificado. Com mais de 15 anos de experiência em instalações elétricas na região de Bragança, já instalámos centenas de campainhas.
+Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação passo a passo, custos, vantagens/desvantagens, e quando chamar um eletricista com experiência. Com mais de 15 anos de experiência em instalações elétricas na região de Bragança, já instalámos centenas de campainhas.
 
 **📞 Quer instalar campainha? Ligue já: [932 321 892](tel:+351932321892)**  
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20uma%20campainha.%20Podem%20ajudar%3F)**
@@ -486,7 +486,7 @@ Instalar uma campainha é **simples e acessível**, especialmente modelos sem fi
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20uma%20campainha.%20Podem%20ajudar%3F)**
 
 **✅ Garantias :**
-- Eletricistas certificados com 15+ anos de experiência
+- eletricistas com experiência com 15+ anos de experiência
 - Instalação rápida (30 min a 3 horas)
 - Materiais de qualidade
 - Teste completo
@@ -504,4 +504,4 @@ Instalar uma campainha é **simples e acessível**, especialmente modelos sem fi
 
 ---
 
-* - Eletricista Certificado em Trás-os-Montes | Instalações Profissionais | 932 321 892*
+* - eletricista com experiência em Trás-os-Montes | Instalações Profissionais | 932 321 892*

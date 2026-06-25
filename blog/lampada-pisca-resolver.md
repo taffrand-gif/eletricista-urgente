@@ -11,7 +11,7 @@ priority: "HIGH DEMAND"
 
 # Lâmpada Pisca: 8 Causas e Como Resolver (Guia 2026)
 
-**Lâmpada que pisca ou tremula é sinal de problema elétrico que precisa atenção imediata.** Em Trás-os-Montes, 28% das chamadas de eletricista são por luzes intermitentes. Neste guia completo, vou mostrar-lhe as 8 causas principais, como diagnosticar em segurança e quando é essencial chamar um eletricista certificado.
+**Lâmpada que pisca ou tremula é sinal de problema elétrico que precisa atenção imediata.** Em Trás-os-Montes, 28% das chamadas de eletricista são por luzes intermitentes. Neste guia completo, vou mostrar-lhe as 8 causas principais, como diagnosticar em segurança e quando é essencial chamar um eletricista com experiência.
 
 ## ⚠️ AVISO DE SEGURANÇA CRÍTICO
 
@@ -163,7 +163,7 @@ priority: "HIGH DEMAND"
 
 **⚠️ PERIGO:** Risco de incêndio elétrico!
 
-**Solução:** Eletricista certificado urgente €80-200
+**Solução:** eletricista com experiência urgente €80-200
 
 ### 7. Sobrecarga no Circuito (1,5% dos casos)
 **Demasiados aparelhos no mesmo circuito:**
@@ -288,7 +288,7 @@ priority: "HIGH DEMAND"
 ### Problema Grave (CHAME ELETRICISTA):
 
 **6. Fiação defeituosa:**
-- Eletricista certificado
+- eletricista com experiência
 - Custo: €80-200
 
 **7. Sobrecarga circuito:**
@@ -299,7 +299,7 @@ priority: "HIGH DEMAND"
 - Inspeção + arranjo urgente
 - Custo: €100-1.200
 
-## Quando Chamar Eletricista Certificado?
+## Quando Chamar eletricista com experiência?
 
 ### Situações que EXIGEM profissional:
 
@@ -433,14 +433,14 @@ R: SIM, mas verifique: potência máxima, se tem dimmer (use LED regulável), es
 
 ### 🚨 Precisa Ajuda Profissional?
 
-** - Eletricista Certificado em Trás-os-Montes**
+** - eletricista com experiência em Trás-os-Montes**
 
 📞 **Ligue Agora: 932 321 892**
 - ✅ Atendimento 24h/7d (urgências elétricas)
-- ✅ Eletricista certificado chega Atendimento prioritário
+- ✅ eletricista com experiência chega Atendimento prioritário
 - ✅ Diagnóstico grátis (se contratar serviço)
 - ✅ Garantia 12 meses em todos os serviços
-- ✅ Certificação elétrica DGEG incluída
+- ✅ Certificação elétrica incluída
 
 💬 **WhatsApp:** [Clique para falar connosco](https://wa.me/351932321892?text=Olá,%20tenho%20uma%20lâmpada%20que%20pisca%20e%20preciso%20de%20ajuda)
 
@@ -450,4 +450,4 @@ R: SIM, mas verifique: potência máxima, se tem dimmer (use LED regulável), es
 
 ---
 
-**Sua segurança não tem preço. Problema elétrico resolve-se com profissional certificado!**
+**Sua segurança não tem preço. Problema elétrico resolve-se com profissional com experiência!**

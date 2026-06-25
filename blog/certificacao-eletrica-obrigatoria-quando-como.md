@@ -48,7 +48,7 @@ Certificação obrigatória para:
 ### Entidade Certificadora: DGEG
 
 **O que é:**
-Associação Certificadora de Instalações Elétricas, reconhecida pela DGEG (Direção Geral Energia e Geologia).
+Associação Certificadora de Instalações Elétricas, reconhecida (Direção Geral Energia e Geologia).
 
 **Função:**
 - Certificar instaladores elétricos
@@ -217,7 +217,7 @@ Instalação com +20 anos sem certificado.
 
 ## Processo Completo Certificação
 
-### PASSO 1: Contactar Eletricista Certificado (Dia 0)
+### PASSO 1: Contactar eletricista com experiência (Dia 0)
 
 **Como encontrar:**
 - Consultar lista em certiel.pt
@@ -311,7 +311,7 @@ Instalação com +20 anos sem certificado.
 1. Preenche Termo Responsabilidade
 2. Anexa fotografias instalação
 3. Anexa resultados testes
-4. Envia para DGEG online
+4. Envia para online
 
 **DGEG:**
 1. Valida documentação (1-2 dias)
@@ -328,7 +328,7 @@ Instalação com +20 anos sem certificado.
 ### PASSO 6: Entrega Documentos (Dia 5)
 
 **Recebe:**
-- Fichas eletrotécnicas assinadas por técnico certificado DGEG original (papel)
+- Fichas eletrotécnicas assinadas por técnico Profissional original (papel)
 - Termo Responsabilidade eletricista
 - Relatório inspeção com fotografias
 - Resultados testes elétricos
@@ -434,7 +434,7 @@ Documentos importantes para venda/arrendamento futuro.
 **3-5 dias úteis** se instalação conforme. **7-12 dias** se precisa correções.
 
 ### 5. Posso certificar eu mesmo?
-**Não.** Só eletricistas certificados DGEG podem emitir certificados. Lista em certiel.pt.
+**Não.** Só eletricistas com experiência podem emitir certificados. Lista em certiel.pt.
 
 ### 6. O que acontece se não certificar?
 **Venda:** Bloqueada. **Arrendamento:** Inválido. **Multa:** 250-3740€. **Seguro:** Não cobre.
@@ -449,14 +449,14 @@ Documentos importantes para venda/arrendamento futuro.
 
 **Ligue agora: 932 321 892**
 
-✅ Eletricista Fichas eletrotécnicas assinadas por técnico certificado DGEG
+✅ Eletricista Fichas eletrotécnicas assinadas por técnico Profissional
 ✅ Certificado em 3-5 dias úteis
 ✅ Preços transparentes (200-350€)
 ✅ Correções incluídas no serviço
 ✅ Garantia certificado aceite
 ✅ Processo completo explicado
 
-**WhatsApp:** [Agendar certificação](https://wa.me/351932321892?text=Preciso certificação elétrica DGEG)
+**WhatsApp:** [Agendar certificação](https://wa.me/351932321892?text=Preciso certificação elétrica)
 
 ---
 

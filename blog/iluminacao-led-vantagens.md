@@ -477,7 +477,7 @@ R: Instalar dimmer LED €60-100, focos embutidos €40-80/cada, sistema smart �
 
 ### 🚨 Quer Instalar Iluminação LED Profissional?
 
-** - Eletricista Certificado em Trás-os-Montes**
+** - eletricista com experiência em Trás-os-Montes**
 
 📞 **Ligue Agora: 932 321 892**
 - ✅ Consultoria iluminação LED gratuita

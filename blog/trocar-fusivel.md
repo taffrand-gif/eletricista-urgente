@@ -144,7 +144,7 @@ Um fusível é um **dispositivo de proteção** que:
 **⚠️ AVISO DE SEGURANÇA CRÍTICO:**
 - **SEMPRE desligue eletricidade antes de trocar fusível**
 - Trabalhar com eletricidade ligada pode causar **choque elétrico fatal**
-- Se não se sentir confortável, chame eletricista certificado
+- Se não se sentir confortável, chame eletricista com experiência
 
 ### Materiais Necessários
 
@@ -436,7 +436,7 @@ Trocar um fusível é uma tarefa **simples mas que requer atenção absoluta à 
 - Diagnóstico de problemas elétricos
 - Atualização de fusíveis para disjuntores
 - Substituição de quadro elétrico completo
-- Fichas eletrotécnicas assinadas por técnico certificado DGEG
+- Fichas eletrotécnicas assinadas por técnico Profissional
 
 **Cobertura:**
 - Bragança e arredores (30 minutos)
@@ -446,7 +446,7 @@ Trocar um fusível é uma tarefa **simples mas que requer atenção absoluta à 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20o%20fusível%20queima%20constantemente.%20Preciso%20de%20diagnóstico.)**
 
 **✅ Garantias :**
-- Eletricistas certificados com 15+ anos de experiência
+- eletricistas com experiência com 15+ anos de experiência
 - Diagnóstico preciso com equipamento profissional
 - Soluções definitivas (não temporárias)
 - Orçamento transparente antes de iniciar
@@ -464,4 +464,4 @@ Trocar um fusível é uma tarefa **simples mas que requer atenção absoluta à 
 
 ---
 
-* - Eletricista Certificado em Trás-os-Montes | Segurança Elétrica | 932 321 892*
+* - eletricista com experiência em Trás-os-Montes | Segurança Elétrica | 932 321 892*

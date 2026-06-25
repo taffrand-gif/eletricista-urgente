@@ -326,7 +326,7 @@ keywords: ["iluminação jardim", "iluminação exterior", "LED jardim", "solar 
 - Profissional
 
 **Instalação**:
-- Eletricista certificado
+- eletricista com experiência
 - Cabo enterrado 60cm
 - Condutas
 - Certificação
@@ -507,7 +507,7 @@ keywords: ["iluminação jardim", "iluminação exterior", "LED jardim", "solar 
 
 ### Instalação Certificada
 
-- Eletricistas certificados
+- eletricistas com experiência
 - Sistema 230V ou 12V
 - Cabo enterrado profundo
 - IP65+ garantido

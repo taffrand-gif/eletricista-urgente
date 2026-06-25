@@ -23,7 +23,7 @@ Em Trás-os-Montes, onde a rede de carregamento público ainda está em expansã
 - ✅ Incentivos e apoios (até €500)
 - ✅ Quanto poupa vs gasolina
 
-**📞 Eletricista Certificado para Wallbox:** [932 321 892](tel:+351932321892)  
+**📞 eletricista com experiência para Wallbox:** [932 321 892](tel:+351932321892)  
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20wallbox%20para%20carro%20elétrico!)
 
 ---
@@ -251,7 +251,7 @@ Em Trás-os-Montes, onde a rede de carregamento público ainda está em expansã
 | Instalação 11 kW (com trifásico) | €600-1.000 | 6-8h |
 | Instalação 22 kW | €800-1.500 | 8-12h |
 | Upgrade para trifásico | €1.500-3.000 | 1-2 dias |
-| Fichas eletrotécnicas assinadas por técnico certificado DGEG | €150-250 | Incluído |
+| Fichas eletrotécnicas assinadas por técnico Profissional | €150-250 | Incluído |
 
 ---
 
@@ -340,7 +340,7 @@ Em Trás-os-Montes, onde a rede de carregamento público ainda está em expansã
 
 ### 3. Posso instalar wallbox eu mesmo?
 
-**Resposta:** **NÃO!** Legalmente requer eletricista certificado + Fichas eletrotécnicas assinadas por técnico certificado DGEG. Além disso, é perigoso (alta corrente). Instalação profissional: €300-1.000.
+**Resposta:** **NÃO!** Legalmente requer eletricista com experiência + Fichas eletrotécnicas assinadas por técnico Profissional. Além disso, é perigoso (alta corrente). Instalação profissional: €300-1.000.
 
 ### 4. Wallbox funciona com qualquer carro elétrico?
 
@@ -380,10 +380,10 @@ Em Trás-os-Montes, onde a rede de carregamento público ainda está em expansã
 
 ### 📞 Quer Instalar Wallbox?
 
-**** - Eletricista Certificado para Mobilidade Elétrica  
+**** - eletricista com experiência para Mobilidade Elétrica  
 ✅ Instalação de wallbox (todas as marcas)  
 ✅ Upgrade elétrico para VE  
-✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG  
+✅ Fichas eletrotécnicas assinadas por técnico Profissional  
 ✅ Apoio candidatura a incentivos  
 ✅ Orçamento grátis sem compromisso  
 ✅ Garantia de 2 anos  
@@ -400,4 +400,4 @@ Em Trás-os-Montes, onde a rede de carregamento público ainda está em expansã
 
 ---
 
-*Artigo escrito por eletricistas certificados com 15+ anos de experiência em Trás-os-Montes. Atualizado em Março 2026.*
+*Artigo escrito por eletricistas com experiência com 15+ anos de experiência em Trás-os-Montes. Atualizado em Março 2026.*

@@ -13,7 +13,7 @@ priority: "TRENDING"
 
 **A conta da luz está muito alta?** Com os preços da eletricidade em alta, poupar energia tornou-se essencial. Neste guia completo, vou mostrar-lhe **20 dicas práticas** para reduzir o consumo elétrico e **poupar €30-100/mês** na conta da luz.
 
-> 💡 **Quer otimizar instalação elétrica?** Eletricista certificado em Bragança: **[932 321 892](tel:+351932321892)** — Auditoria energética, soluções de eficiência.
+> 💡 **Quer otimizar instalação elétrica?** eletricista com experiência em Bragança: **[932 321 892](tel:+351932321892)** — Auditoria energética, soluções de eficiência.
 
 ## 💰 Quanto Pode Poupar?
 
@@ -433,7 +433,7 @@ Poupar eletricidade não é difícil e **compensa financeiramente**:
 
 ### 🚨 Quer Otimizar Consumo Elétrico? Ajuda Profissional
 
-** — Eletricista Certificado em Bragança**
+** — eletricista com experiência em Bragança**
 
 📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20reduzir%20o%20consumo%20elétrico.%20Pode%20ajudar%3F)**

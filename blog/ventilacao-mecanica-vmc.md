@@ -310,7 +310,7 @@ keywords: ["VMC", "ventilação mecânica", "humidade casa", "bolor", "Trás-os-
 ❌ Cálculos complexos
 ❌ Instalação técnica
 ❌ Regulação precisa
-❌ **Sempre profissional certificado**
+❌ **Sempre profissional com experiência**
 
 ## 🏠 VMC em Trás-os-Montes
 
@@ -456,7 +456,7 @@ keywords: ["VMC", "ventilação mecânica", "humidade casa", "bolor", "Trás-os-
 
 ### Instalação Certificada
 
-- Eletricistas certificados
+- eletricistas com experiência
 - Instalação profissional
 - Regulação precisa
 - Teste funcionamento

@@ -13,7 +13,7 @@ priority: "HIGH DEMAND"
 
 **O interruptor não liga a luz ou está partido?** Este é um problema comum que pode ter causas simples (lâmpada queimada) ou mais complexas (interruptor avariado). Neste guia completo, vou mostrar-lhe **as 7 causas principais** e **como arranjar com segurança**.
 
-> ⚠️ **ATENÇÃO:** Trabalhos elétricos envolvem risco de eletrocussão. Se não tem experiência, ligue já: **[932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança Atendimento prioritário.
+> ⚠️ **ATENÇÃO:** Trabalhos elétricos envolvem risco de eletrocussão. Se não tem experiência, ligue já: **[932 321 892](tel:+351932321892)** — eletricista com experiência em Bragança Atendimento prioritário.
 
 ## 🔍 Diagnóstico Inicial: Teste Simples
 
@@ -187,7 +187,7 @@ Cabo foi cortado acidentalmente (furar, pregar), roído por roedores, ou desligo
 
 **Custo:** €80-300 (dependendo da localização)
 
-**Requer eletricista certificado.**
+**Requer eletricista com experiência.**
 
 ### Causa 5: Disjuntor Desarmado (5% dos casos)
 
@@ -283,7 +283,7 @@ Interruptores de escada (comutadores) precisam ligação específica. Se mal lig
 | Configurar interruptor escada | €60-120 |
 | Urgência 24h | +€30-50 |
 
-> 💡 **Interruptor não funciona?** Eletricista certificado: **[932 321 892](tel:+351932321892)** — Diagnóstico rápido, arranjo garantida.
+> 💡 **Interruptor não funciona?** eletricista com experiência: **[932 321 892](tel:+351932321892)** — Diagnóstico rápido, arranjo garantida.
 
 ## 🛡️ Segurança ao Trabalhar com Interruptores
 
@@ -426,7 +426,7 @@ Na maioria dos casos, interruptor que não funciona tem **causa identificável e
 
 ### 🚨 Interruptor Não Funciona? Ajuda Profissional
 
-** — Eletricista Certificado em Bragança**
+** — eletricista com experiência em Bragança**
 
 📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20um%20interruptor%20que%20não%20funciona.%20Pode%20ajudar%3F)**

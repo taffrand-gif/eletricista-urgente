@@ -223,7 +223,7 @@ Siga este procedimento para identificar o problema:
 2. Deve desligar imediatamente
 3. Se não desligar → diferencial defeituoso
 
-**⚠️ Se não conseguir identificar ou o problema persistir, NÃO insista. Chame um eletricista certificado.**
+**⚠️ Se não conseguir identificar ou o problema persistir, NÃO insista. Chame um eletricista com experiência.**
 
 ---
 
@@ -257,7 +257,7 @@ Siga este procedimento para identificar o problema:
 - Quadro novo com disjuntores modernos
 - Diferencial 30mA tipo A
 - Reorganização de circuitos
-- Fichas eletrotécnicas assinadas por técnico certificado DGEG
+- Fichas eletrotécnicas assinadas por técnico Profissional
 
 **Recomendado para casas em Trás-os-Montes com:**
 - Quadro com mais de 25 anos
@@ -331,7 +331,7 @@ Comum em casos de humidade (condensação noturna) ou aparelhos com fuga intermi
 - Atualizar quadro completo: 1-2 dias
 
 **7. Preciso de certificação após a arranjo?**  
-Sim, para alterações significativas (novo circuito, quadro novo). Fichas eletrotécnicas assinadas por técnico certificado DGEG obrigatória.
+Sim, para alterações significativas (novo circuito, quadro novo). Fichas eletrotécnicas assinadas por técnico Profissional obrigatória.
 
 ---
 
@@ -370,8 +370,8 @@ Um quadro elétrico que dispara constantemente não é apenas um incómodo — �
 **✅ Garantias :**
 - Diagnóstico preciso com equipamento profissional
 - Orçamento transparente antes de iniciar
-- Eletricistas certificados com 15+ anos de experiência
-- Fichas eletrotécnicas assinadas por técnico certificado DGEG incluída
+- eletricistas com experiência com 15+ anos de experiência
+- Fichas eletrotécnicas assinadas por técnico Profissional incluída
 - Garantia de 2 anos em todo o trabalho
 - Disponível Atendimento 24h/7d para urgências
 
@@ -381,9 +381,9 @@ Um quadro elétrico que dispara constantemente não é apenas um incómodo — �
 
 **Artigos relacionados:**
 - [Quadro Elétrico Antigo: Quando Substituir?](/blog/quadro-eletrico-antigo)
-- [Certificação Elétrica DGEG: Guia Completo](/blog/certificacao-eletrica-certiel-guia)
+- [Certificação Elétrica: Guia Completo](/blog/certificacao-eletrica-certiel-guia)
 - [Quanto Custa um Eletricista em Trás-os-Montes?](/blog/custo-eletricista-tras-os-montes-precos)
 
 ---
 
-* - Eletricista Certificado em Trás-os-Montes | Urgências Atendimento 24h/7d | 932 321 892*
+* - eletricista com experiência em Trás-os-Montes | Urgências Atendimento 24h/7d | 932 321 892*

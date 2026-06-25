@@ -153,7 +153,7 @@ Corrente: 100-1.000A (descontrolada)
 - Tomada quente
 
 **Prevenção:**
-- Contrate eletricista certificado
+- Contrate eletricista com experiência
 - Não faça instalações elétricas sem conhecimento
 - Verifique aperto de ligações anualmente
 
@@ -500,7 +500,7 @@ Curto-circuito é um **perigo real e grave**, responsável por **30-40% dos inc�
 - Teste de isolamento
 - Atualização de instalações antigas
 - Instalação de proteções (diferencial, protetor sobretensão)
-- Fichas eletrotécnicas assinadas por técnico certificado DGEG
+- Fichas eletrotécnicas assinadas por técnico Profissional
 
 **Cobertura:**
 - Bragança e arredores
@@ -510,7 +510,7 @@ Curto-circuito é um **perigo real e grave**, responsável por **30-40% dos inc�
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20inspeção%20elétrica%20completa.)**
 
 **✅ Garantias :**
-- Eletricistas certificados com 15+ anos de experiência
+- eletricistas com experiência com 15+ anos de experiência
 - Equipamento profissional (megóhmetro, testadores)
 - Relatório detalhado
 - Orçamento transparente
@@ -528,4 +528,4 @@ Curto-circuito é um **perigo real e grave**, responsável por **30-40% dos inc�
 
 ---
 
-* - Eletricista Certificado em Trás-os-Montes | Segurança Elétrica | 932 321 892*
+* - eletricista com experiência em Trás-os-Montes | Segurança Elétrica | 932 321 892*

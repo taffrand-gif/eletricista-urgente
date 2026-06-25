@@ -23,7 +23,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 - ✅ Custos de substituição em Trás-os-Montes
 - ✅ Como prevenir danos futuros
 
-**⚠️ AVISO:** Trabalhos elétricos devem ser feitos por eletricista certificado. Este guia é informativo.
+**⚠️ AVISO:** Trabalhos elétricos devem ser feitos por eletricista com experiência. Este guia é informativo.
 
 **📞 Eletricista 24h:** [932 321 892](tel:+351932321892)  
 **💬 WhatsApp Urgente:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20um%20cabo%20elétrico%20danificado%20e%20preciso%20de%20ajuda!)
@@ -441,11 +441,11 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 
 ### 📞 Precisa de Substituir Cabo Danificado?
 
-**** - Eletricista Certificado em Trás-os-Montes  
+**** - eletricista com experiência em Trás-os-Montes  
 ✅ Emergências 24h/7 dias  
 ✅ Substituição de cabos danificados  
 ✅ Inspeção de instalações elétricas  
-✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG  
+✅ Fichas eletrotécnicas assinadas por técnico Profissional  
 ✅ Orçamento grátis sem compromisso  
 ✅ Atendimento em menos de 2h (urgências)  
 
@@ -461,4 +461,4 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 
 ---
 
-*Artigo escrito por eletricistas certificados com 15+ anos de experiência em Trás-os-Montes. Atualizado em Março 2026.*
+*Artigo escrito por eletricistas com experiência com 15+ anos de experiência em Trás-os-Montes. Atualizado em Março 2026.*

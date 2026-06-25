@@ -32,7 +32,7 @@ Neste guia completo, vou mostrar-lhe:
 
 **⚠️ IMPORTANTE:** Detetor de fumo **NÃO é opcional** — é questão de vida ou morte. Invista €15-40 e proteja a sua família.
 
-**📞 Precisa de ajuda profissional? Ligue já: [932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança, Mirandela, Trás-os-Montes.
+**📞 Precisa de ajuda profissional? Ligue já: [932 321 892](tel:+351932321892)** — eletricista com experiência em Bragança, Mirandela, Trás-os-Montes.
 
 ---
 
@@ -556,7 +556,7 @@ Neste guia completo, vou mostrar-lhe:
 
 ## 📍 Instalação de Detetores de Fumo em Trás-os-Montes
 
-** — Eletricista Certificado**
+** — eletricista com experiência**
 
 ✅ Instalação de detetores de fumo e CO  
 ✅ Sistemas interligados (wireless ou cabo)  
@@ -594,7 +594,7 @@ Um detetor de fumo é o **investimento mais importante** que pode fazer para pro
 
 **Ligue JÁ: [932 321 892](tel:+351932321892)**
 
-**Eletricista certificado • Instalação profissional • Consultoria de segurança • Orçamento grátis**
+**eletricista com experiência • Instalação profissional • Consultoria de segurança • Orçamento grátis**
 
 ---
 

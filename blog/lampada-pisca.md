@@ -462,7 +462,7 @@ Uma lâmpada que pisca não é apenas irritante — pode indicar **problemas el�
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20a%20minha%20lâmpada%20não%20para%20de%20piscar.%20Podem%20ajudar%3F)**
 
 **✅ Garantias :**
-- Eletricistas certificados com 15+ anos de experiência
+- eletricistas com experiência com 15+ anos de experiência
 - Diagnóstico preciso com equipamento profissional
 - Arranjo rápida (30-90 minutos)
 - Materiais de qualidade (Philips, Legrand, Schneider)
@@ -480,4 +480,4 @@ Uma lâmpada que pisca não é apenas irritante — pode indicar **problemas el�
 
 ---
 
-* - Eletricista Certificado em Trás-os-Montes | Urgências Atendimento 24h/7d | 932 321 892*
+* - eletricista com experiência em Trás-os-Montes | Urgências Atendimento 24h/7d | 932 321 892*

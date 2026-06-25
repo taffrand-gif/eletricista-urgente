@@ -162,7 +162,7 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 ### Mão de Obra Inclui:
 ✅ Diagnóstico profissional com equipamento
 ✅ Tempo de trabalho efetivo
-✅ Conhecimento técnico certificado
+✅ Conhecimento técnico com experiência
 ✅ Garantia 12 meses no arranjo
 ✅ Limpeza após intervenção
 
@@ -206,7 +206,7 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 ## Artigos Relacionados
 
 - [Eletricista Atendimento 24h/7d: Guia Completo](https://eletricista-urgente.pt/blog/eletricista-24-horas-guia-completo)
-- [Fichas eletrotécnicas assinadas por técnico certificado DGEG: Preços 2026](https://eletricista-urgente.pt/blog/preco-certificacao-certiel-2026)
+- [Fichas eletrotécnicas assinadas por técnico Profissional: Preços 2026](https://eletricista-urgente.pt/blog/preco-certificacao-certiel-2026)
 - [Urgência Elétrica: O Que Fazer](https://eletricista-urgente.pt/blog/urgencia-eletrica-o-que-fazer-antes)
 - [Eletricista vs Bricolagem: Quando Vale a Pena](https://eletricista-urgente.pt/blog/eletricista-vs-bricolagem-quando-vale-pena)
 

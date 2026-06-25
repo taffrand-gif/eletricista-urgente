@@ -501,7 +501,7 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 
 ### Instalação Certificada
 
-- Eletricistas certificados
+- eletricistas com experiência
 - Instalação profissional
 - Programação automações
 - Formação utilizador

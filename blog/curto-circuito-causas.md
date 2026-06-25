@@ -230,7 +230,7 @@ TOTAL: 6.000W → SOBRECARGA 63%!
 **Solução:** Refazer ligações corretamente €60-200
 
 **Prevenção:**
-- Contratar eletricista certificado
+- Contratar eletricista com experiência
 - Não fazer DIY sem conhecimento
 - Usar conectores adequados (Wago, não fita)
 
@@ -343,7 +343,7 @@ TOTAL: 2.600W → SOBRECARGA 13%!
 
 ### 1. Inspeção Elétrica a Cada 10 Anos
 **Obrigatória por lei em instalações 40+ anos**
-- Eletricista certificado
+- eletricista com experiência
 - Relatório de conformidade
 - Custo: €150-400
 - Previne 80% dos problemas
@@ -374,7 +374,7 @@ TOTAL: 2.600W → SOBRECARGA 13%!
 
 ### 6. Não Faça DIY Elétrico
 **Eletricidade mata:**
-- Contrate eletricista certificado
+- Contrate eletricista com experiência
 - Economia de €50 pode custar vida
 - Seguro não cobre DIY
 
@@ -516,14 +516,14 @@ R: Diagnóstico €60-120, arranjo €100-500. Urgente 24h: +50-100%. : **932 32
 
 ### 🚨 Problema Elétrico? Ligue JÁ!
 
-** - Eletricista Certificado em Trás-os-Montes**
+** - eletricista com experiência em Trás-os-Montes**
 
 📞 **Ligue Agora: 932 321 892**
 - ✅ Atendimento 24h/7d (emergências elétricas)
-- ✅ Eletricista certificado chega Atendimento prioritário
+- ✅ eletricista com experiência chega Atendimento prioritário
 - ✅ Diagnóstico de curto-circuito com equipamento profissional
 - ✅ Inspeção elétrica completa €150-400
-- ✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG incluída
+- ✅ Fichas eletrotécnicas assinadas por técnico Profissional incluída
 
 💬 **WhatsApp:** [Emergência elétrica](https://wa.me/351932321892?text=URGENTE:%20Tenho%20problema%20elétrico%20grave!)
 

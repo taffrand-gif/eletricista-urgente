@@ -301,7 +301,7 @@ O problema é:
 
 ### 6. Inspeção Elétrica Regular
 - Casa com 20+ anos: inspeção a cada 5 anos
-- Fichas eletrotécnicas assinadas por técnico certificado DGEG atualizada
+- Fichas eletrotécnicas assinadas por técnico Profissional atualizada
 - Identifica problemas antes de falharem
 
 ---
@@ -310,7 +310,7 @@ O problema é:
 
 ### 1. Posso substituir o interruptor eu mesmo?
 
-**Resposta:** **Legalmente NÃO** em Portugal. Trabalhos elétricos devem ser feitos por eletricista certificado com emissão de Fichas eletrotécnicas assinadas por técnico certificado DGEG. Além disso, é **perigoso** sem conhecimentos - risco de choque elétrico fatal.
+**Resposta:** **Legalmente NÃO** em Portugal. Trabalhos elétricos devem ser feitos por eletricista com experiência com emissão de Fichas eletrotécnicas assinadas por técnico Profissional. Além disso, é **perigoso** sem conhecimentos - risco de choque elétrico fatal.
 
 ### 2. Quanto tempo dura um interruptor?
 
@@ -356,10 +356,10 @@ O problema é:
 
 ### 📞 Precisa de Ajuda Profissional?
 
-**** - Eletricista Certificado em Trás-os-Montes  
+**** - eletricista com experiência em Trás-os-Montes  
 ✅ Diagnóstico grátis por telefone  
 ✅ Emergências 24h/7 dias  
-✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG  
+✅ Fichas eletrotécnicas assinadas por técnico Profissional  
 ✅ Orçamento sem compromisso  
 ✅ Garantia de 2 anos  
 ✅ Técnico em menos de 2h (urgências)
@@ -376,4 +376,4 @@ O problema é:
 
 ---
 
-*Artigo escrito por eletricistas certificados com 15+ anos de experiência em Trás-os-Montes. Atualizado em Março 2026.*
+*Artigo escrito por eletricistas com experiência com 15+ anos de experiência em Trás-os-Montes. Atualizado em Março 2026.*
