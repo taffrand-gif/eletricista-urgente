@@ -59,7 +59,7 @@ priority: "HIGH DEMAND"
 4. Coloque lâmpada nova
 5. Ligue o interruptor e teste
 
-**Custo:** €2-15 (lâmpada LED)  
+**Custo:** €2-15 (lâmpada LED) 
 **Tempo:** 2 minutos
 
 **Não é problema do interruptor!**
@@ -87,44 +87,44 @@ Contactos internos oxidam, partem-se ou desgastam-se com o tempo e uso frequente
 **⚠️ CRÍTICO: DESLIGUE O DISJUNTOR PRIMEIRO!**
 
 1. **Desligue o disjuntor do circuito**
-   - Vá ao quadro elétrico
-   - Desligue disjuntor da iluminação
-   - Teste com multímetro que não há tensão
+ - Vá ao quadro elétrico
+ - Desligue disjuntor da iluminação
+ - Teste com multímetro que não há tensão
 
 2. **Remova a tampa do interruptor:**
-   - Desaperte parafusos (geralmente 2)
-   - Ou retire tampa com chave de fendas (encaixe)
-   - Puxe tampa para fora
+ - Desaperte parafusos (geralmente 2)
+ - Ou retire tampa com chave de fendas (encaixe)
+ - Puxe tampa para fora
 
 3. **Remova o interruptor:**
-   - Desaperte parafusos que prendem à caixa
-   - Puxe interruptor para fora (cuidado com fios)
-   - Não puxe fios!
+ - Desaperte parafusos que prendem à caixa
+ - Puxe interruptor para fora (cuidado com fios)
+ - Não puxe fios!
 
 4. **Desconecte os fios:**
-   - **ANOTE AS POSIÇÕES DOS FIOS!** (tire foto)
-   - Desaperte parafusos dos terminais
-   - Retire fios cuidadosamente
+ - **ANOTE AS POSIÇÕES DOS FIOS!** (tire foto)
+ - Desaperte parafusos dos terminais
+ - Retire fios cuidadosamente
 
 5. **Ligue fios ao interruptor novo:**
-   - Ligue fios nas mesmas posições
-   - Geralmente: fase entra num terminal, fase sai noutro
-   - Aperte bem os parafusos
-   - Puxe levemente cada fio (deve estar firme)
+ - Ligue fios nas mesmas posições
+ - Geralmente: fase entra num terminal, fase sai noutro
+ - Aperte bem os parafusos
+ - Puxe levemente cada fio (deve estar firme)
 
 6. **Volte a montar:**
-   - Empurre interruptor para dentro da caixa
-   - Fixe com parafusos
-   - Coloque tampa
-   - Aperte parafusos da tampa
+ - Empurre interruptor para dentro da caixa
+ - Fixe com parafusos
+ - Coloque tampa
+ - Aperte parafusos da tampa
 
 7. **Teste:**
-   - Ligue o disjuntor
-   - Teste o interruptor
-   - Deve ligar e desligar a luz
+ - Ligue o disjuntor
+ - Teste o interruptor
+ - Deve ligar e desligar a luz
 
-**Custo DIY:** €3-15  
-**Custo profissional:** €40-80  
+**Custo DIY:** €3-15 
+**Custo profissional:** €40-80 
 **Tempo:** 20-30 minutos
 
 ### Causa 3: Ligação Solta ou Oxidada (15% dos casos)
@@ -147,18 +147,18 @@ Parafusos dos terminais soltaram-se com vibração/tempo, ou terminais oxidaram 
 2. **Remova tampa e interruptor** (ver Causa 2)
 
 3. **Verifique ligações:**
-   - Parafusos soltos? → Aperte bem
-   - Oxidação verde/branca? → Limpe com lixa fina
-   - Fios danificados? → Corte e descarne novamente
+ - Parafusos soltos? → Aperte bem
+ - Oxidação verde/branca? → Limpe com lixa fina
+ - Fios danificados? → Corte e descarne novamente
 
 4. **Reaperte todos os parafusos:**
-   - Firme mas sem forçar demais
-   - Puxe fios para testar
+ - Firme mas sem forçar demais
+ - Puxe fios para testar
 
 5. **Volte a montar e teste**
 
-**Custo DIY:** Grátis  
-**Custo profissional:** €40-60  
+**Custo DIY:** Grátis 
+**Custo profissional:** €40-60 
 **Tempo:** 15-20 minutos
 
 ### Causa 4: Cabo Partido ou Desligado (10% dos casos)
@@ -290,17 +290,17 @@ Interruptores de escada (comutadores) precisam ligação específica. Se mal lig
 ### Regras de Ouro
 
 **SEMPRE:**
-✅ Desligue o disjuntor antes de trabalhar  
-✅ Teste ausência de tensão com multímetro  
-✅ Use ferramentas isoladas  
-✅ Trabalhe com mãos secas  
+✅ Desligue o disjuntor antes de trabalhar 
+✅ Teste ausência de tensão com multímetro 
+✅ Use ferramentas isoladas 
+✅ Trabalhe com mãos secas 
 ✅ Anote posições dos fios (tire foto)
 
 **NUNCA:**
-❌ Trabalhe com corrente ligada  
-❌ Toque em fios sem verificar tensão  
-❌ Use ferramentas metálicas sem isolamento  
-❌ Trabalhe em pé molhado  
+❌ Trabalhe com corrente ligada 
+❌ Toque em fios sem verificar tensão 
+❌ Use ferramentas metálicas sem isolamento 
+❌ Trabalhe em pé molhado 
 ❌ Force ligações
 
 ### Quando Chamar Eletricista
@@ -419,24 +419,24 @@ Na maioria dos casos, interruptor que não funciona tem **causa identificável e
 - Quer garantia profissional
 
 **SEGURANÇA:**
-⚠️ SEMPRE desligue disjuntor antes de trabalhar  
-⚠️ NUNCA trabalhe com corrente ligada  
-⚠️ Use ferramentas isoladas  
+⚠️ SEMPRE desligue disjuntor antes de trabalhar 
+⚠️ NUNCA trabalhe com corrente ligada 
+⚠️ Use ferramentas isoladas 
 ⚠️ Se não tem certeza, chame profissional
 
 ### 🚨 Interruptor Não Funciona? Ajuda Profissional
 
 ** — eletricista com experiência em Bragança**
 
-📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
+📞 **Ligue agora: [932 321 892](tel:+351932321892)** 
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20um%20interruptor%20que%20não%20funciona.%20Pode%20ajudar%3F)**
 
-✅ Diagnóstico rápido Atendimento prioritário  
-✅ Arranjo ou substituição  
-✅ Materiais de qualidade em stock  
-✅ Garantia 1 ano no serviço  
-✅ Preços transparentes  
-✅ Técnico em sua casa em 30-45 minutos  
+✅ Diagnóstico rápido Atendimento prioritário 
+✅ Arranjo ou substituição 
+✅ Materiais de qualidade em stock 
+✅ Garantia 1 ano no serviço 
+✅ Preços transparentes 
+✅ Técnico em sua casa em 30-45 minutos 
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não fique sem luz!** Contacte-nos já para arranjo rápida e segura.

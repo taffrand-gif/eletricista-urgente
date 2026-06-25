@@ -60,15 +60,15 @@ Sobrecarga (aparelhos a consumir mais que a capacidade do circuito) ou curto-cir
 1. **Vá ao quadro elétrico**
 
 2. **Identifique o disjuntor desarmado**
-   - Está na posição baixo (OFF)
-   - Geralmente identificado (ex: "Tomadas Sala")
+ - Está na posição baixo (OFF)
+ - Geralmente identificado (ex: "Tomadas Sala")
 
 3. **Desligue aparelhos potentes**
-   - Aquecedores, ferros, chaleiras
-   - Evita desarmar novamente
+ - Aquecedores, ferros, chaleiras
+ - Evita desarmar novamente
 
 4. **Ligue o disjuntor**
-   - Empurre para cima (posição ON)
+ - Empurre para cima (posição ON)
 
 5. **Teste a tomada**
 
@@ -126,40 +126,40 @@ Sobrecarga, curto-circuito, ligação solta, ou aparelho com defeito criou arco 
 **Passo a passo:**
 
 1. **DESLIGUE o disjuntor do circuito**
-   - Vá ao quadro elétrico
-   - Desligue o disjuntor
-   - Teste com multímetro que não há tensão
+ - Vá ao quadro elétrico
+ - Desligue o disjuntor
+ - Teste com multímetro que não há tensão
 
 2. **Remova a tomada velha:**
-   - Desaperte os parafusos da tampa
-   - Retire a tampa
-   - Desaperte os parafusos que prendem a tomada à caixa
-   - Puxe a tomada para fora (cuidado com os fios)
-   - Desaperte os parafusos dos terminais
-   - Retire os fios (anote as posições!)
+ - Desaperte os parafusos da tampa
+ - Retire a tampa
+ - Desaperte os parafusos que prendem a tomada à caixa
+ - Puxe a tomada para fora (cuidado com os fios)
+ - Desaperte os parafusos dos terminais
+ - Retire os fios (anote as posições!)
 
 3. **Verifique os cabos:**
-   - Se estiverem queimados, corte a parte danificada
-   - Descarne 8-10mm de fio novo
-   - Se muito danificados, chame eletricista
+ - Se estiverem queimados, corte a parte danificada
+ - Descarne 8-10mm de fio novo
+ - Se muito danificados, chame eletricista
 
 4. **Instale a tomada nova:**
-   - Ligue os fios aos terminais corretos:
-     - **Castanho (Fase)** → Terminal L
-     - **Azul (Neutro)** → Terminal N
-     - **Verde-amarelo (Terra)** → Terminal ⏚
-   - Aperte bem os parafusos
-   - Puxe levemente cada fio (deve estar firme)
-   - Empurre a tomada para dentro da caixa
-   - Fixe com os parafusos
-   - Coloque a tampa
+ - Ligue os fios aos terminais corretos:
+ - **Castanho (Fase)** → Terminal L
+ - **Azul (Neutro)** → Terminal N
+ - **Verde-amarelo (Terra)** → Terminal ⏚
+ - Aperte bem os parafusos
+ - Puxe levemente cada fio (deve estar firme)
+ - Empurre a tomada para dentro da caixa
+ - Fixe com os parafusos
+ - Coloque a tampa
 
 5. **Teste:**
-   - Ligue o disjuntor
-   - Teste com multímetro (deve ter 230V)
-   - Teste com aparelho simples (lâmpada)
+ - Ligue o disjuntor
+ - Teste com multímetro (deve ter 230V)
+ - Teste com aparelho simples (lâmpada)
 
-**Custo DIY:** €5-50 (tomada + ferramentas)  
+**Custo DIY:** €5-50 (tomada + ferramentas) 
 **Custo profissional:** €50-120 (instalação + materiais)
 
 **Tempo:** 30-45 minutos (primeira vez)
@@ -184,12 +184,12 @@ Parafusos dos terminais soltaram-se com o tempo, ou terminais oxidaram (humidade
 2. **Remova a tampa da tomada**
 
 3. **Verifique os terminais:**
-   - Parafusos soltos? → Aperte bem
-   - Oxidação verde/branca? → Limpe com lixa fina
-   - Fios danificados? → Corte e descarne novamente
+ - Parafusos soltos? → Aperte bem
+ - Oxidação verde/branca? → Limpe com lixa fina
+ - Fios danificados? → Corte e descarne novamente
 
 4. **Reaperte todos os parafusos**
-   - Firme mas sem forçar demais
+ - Firme mas sem forçar demais
 
 5. **Volte a montar e teste**
 
@@ -238,9 +238,9 @@ Fios ligados incorretamente (fase e neutro trocados, terra não ligada), ou liga
 1. Desligue o disjuntor
 2. Remova a tampa
 3. Verifique ligações:
-   - **Castanho (Fase)** deve ir ao terminal L
-   - **Azul (Neutro)** deve ir ao terminal N
-   - **Verde-amarelo (Terra)** deve ir ao terminal ⏚
+ - **Castanho (Fase)** deve ir ao terminal L
+ - **Azul (Neutro)** deve ir ao terminal N
+ - **Verde-amarelo (Terra)** deve ir ao terminal ⏚
 4. Corrija se necessário
 5. Aperte bem todos os parafusos
 
@@ -318,36 +318,36 @@ Mecanismo de proteção infantil está bloqueado ou rígido.
 ### Passo 1: Teste Básico
 
 1. **Teste outro aparelho na tomada**
-   - Funciona? → Problema é o aparelho original
-   - Não funciona? → Continue
+ - Funciona? → Problema é o aparelho original
+ - Não funciona? → Continue
 
 2. **Teste o aparelho noutra tomada**
-   - Funciona? → Problema é a tomada
-   - Não funciona? → Problema é o aparelho
+ - Funciona? → Problema é a tomada
+ - Não funciona? → Problema é o aparelho
 
 ### Passo 2: Verificar Quadro Elétrico
 
 1. **Vá ao quadro elétrico**
 2. **Procure disjuntor desarmado**
-   - Encontrou? → Ligue (se não desarmar = resolvido)
-   - Não encontrou? → Continue
+ - Encontrou? → Ligue (se não desarmar = resolvido)
+ - Não encontrou? → Continue
 
 ### Passo 3: Inspeção Visual
 
 1. **Remova a tampa da tomada** (com disjuntor DESLIGADO)
 2. **Procure sinais de:**
-   - Queimadura (preto, derretido)
-   - Oxidação (verde, branco)
-   - Fios soltos
-   - Fios partidos
+ - Queimadura (preto, derretido)
+ - Oxidação (verde, branco)
+ - Fios soltos
+ - Fios partidos
 
 ### Passo 4: Teste com Multímetro
 
 **Se tem multímetro:**
 1. **Ligue o disjuntor**
 2. **Teste tensão na tomada** (230V entre fase e neutro)
-   - Tem tensão? → Tomada defeituosa (substituir)
-   - Sem tensão? → Problema no circuito (eletricista)
+ - Tem tensão? → Tomada defeituosa (substituir)
+ - Sem tensão? → Problema no circuito (eletricista)
 
 **Se não tem multímetro:**
 - Chame eletricista para diagnóstico (€40-80)
@@ -369,16 +369,16 @@ Mecanismo de proteção infantil está bloqueado ou rígido.
 ### Usar Tomadas Corretamente
 
 **Boas práticas:**
-✅ Puxe pela ficha (não pelo cabo)  
-✅ Não force fichas que não encaixam  
-✅ Não use tomadas danificadas  
-✅ Não sobrecarregue extensões  
+✅ Puxe pela ficha (não pelo cabo) 
+✅ Não force fichas que não encaixam 
+✅ Não use tomadas danificadas 
+✅ Não sobrecarregue extensões 
 ✅ Use extensões com proteção
 
 **Más práticas:**
-❌ Adaptar fichas com fita isoladora  
-❌ Ligar extensão em extensão  
-❌ Usar tomadas molhadas  
+❌ Adaptar fichas com fita isoladora 
+❌ Ligar extensão em extensão 
+❌ Usar tomadas molhadas 
 ❌ Deixar fichas soltas (faíscas)
 
 ### Manutenção Preventiva
@@ -402,11 +402,11 @@ Mecanismo de proteção infantil está bloqueado ou rígido.
 ### Sinais de Perigo
 
 **Chame eletricista IMEDIATAMENTE se:**
-🚨 Cheiro a queimado  
-🚨 Fumo na tomada  
-🚨 Faíscas ao ligar/desligar  
-🚨 Tomada muito quente  
-🚨 Choque elétrico ao tocar  
+🚨 Cheiro a queimado 
+🚨 Fumo na tomada 
+🚨 Faíscas ao ligar/desligar 
+🚨 Tomada muito quente 
+🚨 Choque elétrico ao tocar 
 🚨 Disjuntor desarma repetidamente
 
 ## ❓ Perguntas Frequentes
@@ -459,24 +459,24 @@ Na maioria dos casos, tomada que não funciona tem **causa identificável e solu
 - Quer garantia profissional
 
 **SEGURANÇA:**
-⚠️ SEMPRE desligue o disjuntor antes de trabalhar  
-⚠️ NUNCA trabalhe com corrente ligada  
-⚠️ Use ferramentas isoladas  
+⚠️ SEMPRE desligue o disjuntor antes de trabalhar 
+⚠️ NUNCA trabalhe com corrente ligada 
+⚠️ Use ferramentas isoladas 
 ⚠️ Se não tem certeza, chame profissional
 
 ### 🚨 Tomada Não Funciona? Ajuda Profissional em Trás-os-Montes
 
 ** — eletricista com experiência em Bragança**
 
-📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
+📞 **Ligue agora: [932 321 892](tel:+351932321892)** 
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20uma%20tomada%20que%20não%20funciona.%20Pode%20ajudar%3F)**
 
-✅ Diagnóstico rápido Atendimento prioritário  
-✅ Arranjo imediata  
-✅ Materiais de qualidade em stock  
-✅ Garantia 1 ano no serviço  
-✅ Preços transparentes  
-✅ Técnico em sua casa em 30-45 minutos  
+✅ Diagnóstico rápido Atendimento prioritário 
+✅ Arranjo imediata 
+✅ Materiais de qualidade em stock 
+✅ Garantia 1 ano no serviço 
+✅ Preços transparentes 
+✅ Técnico em sua casa em 30-45 minutos 
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não fique sem tomadas funcionais!** Contacte-nos já para arranjo rápida e segura.

@@ -32,12 +32,12 @@ priority: "HIGH DEMAND"
 - Cabos de ligação
 
 **Vantagens:**
-✅ Não precisa pilhas  
-✅ Som mais alto  
+✅ Não precisa pilhas 
+✅ Som mais alto 
 ✅ Durável
 
 **Desvantagens:**
-❌ Instalação mais complexa  
+❌ Instalação mais complexa 
 ❌ Precisa passar cabos
 
 ### 2. Campainha Sem Fios (Moderna)
@@ -54,13 +54,13 @@ priority: "HIGH DEMAND"
 - Sem cabos entre eles
 
 **Vantagens:**
-✅ Instalação muito fácil  
-✅ Sem cabos  
+✅ Instalação muito fácil 
+✅ Sem cabos 
 ✅ Portátil
 
 **Desvantagens:**
-❌ Precisa pilhas  
-❌ Alcance limitado  
+❌ Precisa pilhas 
+❌ Alcance limitado 
 ❌ Interferências possíveis
 
 ### 3. Videoporteiro (Avançado)
@@ -109,7 +109,7 @@ Pilhas do botão transmissor ou da campainha recetora esgotaram-se.
 - **CR2032 (3V):** Botão tipo moeda, duram 1-2 anos
 - **9V:** Menos comuns, duram 6-12 meses
 
-**Custo:** €3-10 (pilhas)  
+**Custo:** €3-10 (pilhas) 
 **Tempo:** 5 minutos
 
 **Prevenção:** Substitua pilhas anualmente (preventivo).
@@ -135,24 +135,24 @@ Contactos internos do botão oxidaram, partiram-se, ou sujaram-se. Humidade e in
 **Passo a passo:**
 
 1. **Teste o botão (opcional):**
-   - Remova o botão da parede
-   - Junte os dois fios diretamente
-   - Se campainha tocar = botão avariado
-   - Se não tocar = problema noutro componente
+ - Remova o botão da parede
+ - Junte os dois fios diretamente
+ - Se campainha tocar = botão avariado
+ - Se não tocar = problema noutro componente
 
 2. **Remova o botão velho:**
-   - Desaperte parafusos de fixação
-   - Desconecte os fios (anote posições)
-   - Retire o botão
+ - Desaperte parafusos de fixação
+ - Desconecte os fios (anote posições)
+ - Retire o botão
 
 3. **Instale o botão novo:**
-   - Ligue os fios aos terminais (ordem não importa em botões simples)
-   - Aperte os parafusos dos terminais
-   - Fixe o botão na parede
-   - Teste
+ - Ligue os fios aos terminais (ordem não importa em botões simples)
+ - Aperte os parafusos dos terminais
+ - Fixe o botão na parede
+ - Teste
 
-**Custo DIY:** €5-20  
-**Custo profissional:** €40-80  
+**Custo DIY:** €5-20 
+**Custo profissional:** €40-80 
 **Tempo:** 15 minutos
 
 **Dica:** Escolha botão com proteção IP44 mínimo (resistente à água).
@@ -191,21 +191,21 @@ Transformador queimou-se (sobrecarga, curto-circuito, fim de vida útil). Vida �
 3. **Localize o transformador velho**
 
 4. **Desconecte os fios:**
-   - Lado 230V (entrada): 2 fios
-   - Lado 8-24V (saída): 2 fios
-   - Anote as ligações
+ - Lado 230V (entrada): 2 fios
+ - Lado 8-24V (saída): 2 fios
+ - Anote as ligações
 
 5. **Remova o transformador velho**
 
 6. **Instale o transformador novo:**
-   - Ligue lado 230V (entrada)
-   - Ligue lado 8-24V (saída)
-   - Fixe o transformador
+ - Ligue lado 230V (entrada)
+ - Ligue lado 8-24V (saída)
+ - Fixe o transformador
 
 7. **Ligue o disjuntor e teste**
 
-**Custo DIY:** €10-30  
-**Custo profissional:** €60-120  
+**Custo DIY:** €10-30 
+**Custo profissional:** €60-120 
 **Tempo:** 30 minutos
 
 **Recomendo profissional** (trabalho com 230V).
@@ -226,14 +226,14 @@ Cabo foi cortado acidentalmente, roído por roedores, ou desligou-se numa caixa 
 **Diagnóstico:**
 
 1. **Teste continuidade com multímetro:**
-   - Modo continuidade (beep)
-   - Teste entre botão e campainha
-   - Se não há continuidade = cabo partido
+ - Modo continuidade (beep)
+ - Teste entre botão e campainha
+ - Se não há continuidade = cabo partido
 
 2. **Localize o ponto de rutura:**
-   - Verifique caixas de derivação
-   - Procure sinais de dano visível
-   - Pode precisar detetor de cabos
+ - Verifique caixas de derivação
+ - Procure sinais de dano visível
+ - Pode precisar detetor de cabos
 
 **Arranjo:**
 
@@ -278,17 +278,17 @@ Buzzer interno queimou-se ou mecanismo partiu-se. Vida útil: 10-20 anos.
 1. **Desligue o disjuntor** (se com fios)
 
 2. **Remova a campainha velha:**
-   - Desaperte parafusos de fixação
-   - Desconecte os fios (anote posições)
-   - Retire a campainha
+ - Desaperte parafusos de fixação
+ - Desconecte os fios (anote posições)
+ - Retire a campainha
 
 3. **Instale a campainha nova:**
-   - Ligue os fios aos terminais
-   - Fixe na parede
-   - Teste
+ - Ligue os fios aos terminais
+ - Fixe na parede
+ - Teste
 
-**Custo DIY:** €10-40  
-**Custo profissional:** €50-100  
+**Custo DIY:** €10-40 
+**Custo profissional:** €50-100 
 **Tempo:** 20 minutos
 
 ### Causa 6: Interferências (Sem Fios) - 2% dos casos
@@ -492,15 +492,15 @@ Na maioria dos casos, campainha que não funciona tem **solução fácil e barat
 
 ** — eletricista com experiência em Bragança**
 
-📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
+📞 **Ligue agora: [932 321 892](tel:+351932321892)** 
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20a%20minha%20campainha%20não%20funciona.%20Pode%20ajudar%3F)**
 
-✅ Diagnóstico rápido Atendimento prioritário  
-✅ Arranjo ou instalação nova  
-✅ Materiais em stock  
-✅ Garantia 1 ano no serviço  
-✅ Preços transparentes  
-✅ Técnico em sua casa em 30-45 minutos  
+✅ Diagnóstico rápido Atendimento prioritário 
+✅ Arranjo ou instalação nova 
+✅ Materiais em stock 
+✅ Garantia 1 ano no serviço 
+✅ Preços transparentes 
+✅ Técnico em sua casa em 30-45 minutos 
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não fique sem campainha funcional!** Contacte-nos já para arranjo rápida e garantida.

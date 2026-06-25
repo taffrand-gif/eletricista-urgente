@@ -15,7 +15,7 @@ priority: "HIGH DEMAND"
 
 Neste guia completo, vamos explicar as **7 causas principais** que fazem uma lâmpada piscar, como identificar cada uma, e as soluções definitivas. Com mais de 15 anos de experiência em instalações elétricas na região de Bragança, já resolvemos milhares de casos de iluminação problemática.
 
-**📞 Lâmpada pisca constantemente? Ligue já: [932 321 892](tel:+351932321892)**  
+**📞 Lâmpada pisca constantemente? Ligue já: [932 321 892](tel:+351932321892)** 
 **💬 WhatsApp urgente: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20a%20minha%20lâmpada%20não%20para%20de%20piscar.%20Podem%20ajudar%3F)**
 
 ---
@@ -413,28 +413,28 @@ Contacte imediatamente se:
 
 ## Perguntas Frequentes (FAQ)
 
-**1. Por que lâmpada LED pisca quando desligada?**  
+**1. Por que lâmpada LED pisca quando desligada?** 
 Corrente residual no circuito (comum com interruptores luminosos). Solução: instalar resistor ou substituir interruptor.
 
-**2. Lâmpada pisca só em dimmer. É normal?**  
+**2. Lâmpada pisca só em dimmer. É normal?** 
 Não. Dimmer incompatível com LED ou lâmpada não dimerizável. Use dimmer LED específico + lâmpada dimerizável.
 
-**3. Quanto custa arranjar lâmpada que pisca?**  
+**3. Quanto custa arranjar lâmpada que pisca?** 
 DIY: €0-20. Profissional: €40-120 (depende da causa).
 
-**4. Posso usar lâmpada LED em dimmer antigo?**  
+**4. Posso usar lâmpada LED em dimmer antigo?** 
 Não recomendado. 80% das vezes causa piscar. Use dimmer LED específico.
 
-**5. Todas as lâmpadas piscam. O que fazer?**  
+**5. Todas as lâmpadas piscam. O que fazer?** 
 Problema na rede ou quadro. Contacte EDP (808 506 506) e eletricista.
 
-**6. Lâmpada pisca quando liga micro-ondas. É grave?**  
+**6. Lâmpada pisca quando liga micro-ondas. É grave?** 
 Indica sobrecarga ou cabo subdimensionado. Não é urgente mas deve resolver (criar circuito dedicado).
 
-**7. Quanto tempo dura lâmpada LED de qualidade?**  
+**7. Quanto tempo dura lâmpada LED de qualidade?** 
 15.000-25.000 horas (10-15 anos com uso 4h/dia). Marcas baratas: 5.000-10.000 horas (3-5 anos).
 
-**8. Lâmpada nova pisca. Está defeituosa?**  
+**8. Lâmpada nova pisca. Está defeituosa?** 
 Possivelmente. Teste em outro casquilho. Se continuar → defeituosa (troque em garantia).
 
 ---

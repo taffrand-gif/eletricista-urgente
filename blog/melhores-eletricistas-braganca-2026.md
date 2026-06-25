@@ -30,7 +30,7 @@ Certificação oficial que permite emitir certificados elétricos.
 
 **Como verificar:**
 1. Pedir número certificação
-2. Consultar em certiel.pt
+2. Consultar em certificação.pt
 3. Verificar validade
 
 **Red flag:** Diz "tenho certificação" mas não mostra número
@@ -177,7 +177,7 @@ Pedir apólice seguro (nome, validade, valor)
 ### Sobre Certificação
 
 **1. Tem Fichas eletrotécnicas assinadas por técnico Profissional válida?**
-Resposta esperada: "Sim, número XXXX, pode verificar em certiel.pt"
+Resposta esperada: "Sim, número XXXX, pode verificar em certificação.pt"
 
 **2. Emite Fichas eletrotécnicas assinadas por técnico Profissional?**
 Resposta esperada: "Sim, incluído no preço" ou "Sim, custo adicional X€"
@@ -376,7 +376,7 @@ Saber se pode deixar chaves
 ## Porque Escolher ?
 
 ### ✅ Fichas eletrotécnicas assinadas por técnico Profissional Válida
-Número certificação verificável em certiel.pt
+Número certificação verificável em certificação.pt
 
 ### ✅ 15+ Anos Experiência
 Milhares instalações em Trás-os-Montes
@@ -407,7 +407,7 @@ Explicamos tudo em português simples
 
 ## Artigos Relacionados
 
-- [Fichas eletrotécnicas assinadas por técnico Profissional: Preços e Processo](https://eletricista-urgente.pt/blog/preco-certificacao-certiel-2026)
+- [Fichas eletrotécnicas assinadas por técnico Profissional: Preços e Processo](https://eletricista-urgente.pt/blog/preco-certificacao-certificação-2026)
 - [Eletricista vs Bricolagem: Quando Vale a Pena](https://eletricista-urgente.pt/blog/eletricista-vs-bricolagem-quando-vale-pena)
 - [Quanto Custa Eletricista Domingo](https://eletricista-urgente.pt/blog/quanto-custa-eletricista-domingo-2026)
 - [Eletricista Atendimento 24h/7d: Guia Completo](https://eletricista-urgente.pt/blog/eletricista-24-horas-guia-completo)

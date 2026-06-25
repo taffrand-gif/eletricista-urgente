@@ -23,7 +23,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 - ✅ Como prevenir o problema
 - ✅ Quando é emergência elétrica
 
-**📞 Eletricista 24h:** [932 321 892](tel:+351932321892)  
+**📞 Eletricista 24h:** [932 321 892](tel:+351932321892) 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20um%20interruptor%20que%20não%20funciona%20e%20preciso%20de%20ajuda!)
 
 ---
@@ -46,8 +46,8 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 3. Substitua por lâmpada nova
 4. Teste
 
-**Custo:** €3-12 (lâmpada)  
-**Tempo:** 5 minutos  
+**Custo:** €3-12 (lâmpada) 
+**Tempo:** 5 minutos 
 **Dificuldade:** Muito fácil
 
 **💡 Dica:** Antes de chamar eletricista, SEMPRE teste com lâmpada nova!
@@ -69,8 +69,8 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **⚠️ PERIGO:** Interruptor defeituoso pode causar curto-circuito e incêndio. Não tente arranjar sozinho.
 
-**Custo:** €40-70 (substituir interruptor)  
-**Tempo:** 30 minutos  
+**Custo:** €40-70 (substituir interruptor) 
+**Tempo:** 30 minutos 
 **Garantia:** 2 anos
 
 ---
@@ -113,7 +113,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 3. Aperte a lâmpada firmemente (não force demais)
 4. Teste
 
-**Custo:** €0  
+**Custo:** €0 
 **Tempo:** 2 minutos
 
 ---
@@ -130,7 +130,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **Solução:** **CHAMAR ELETRICISTA** - substituir casquilho
 
-**Custo:** €30-60 (substituir casquilho)  
+**Custo:** €30-60 (substituir casquilho) 
 **Tempo:** 20-30 minutos
 
 ---
@@ -147,7 +147,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **Solução:** **CHAMAR ELETRICISTA** - arranjar ligação
 
-**Custo:** €50-100 (arranjar ligação)  
+**Custo:** €50-100 (arranjar ligação) 
 **Tempo:** 30-60 minutos
 
 ---
@@ -166,7 +166,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **⚠️ PERIGO:** Não abra o quadro elétrico. Risco de choque elétrico fatal.
 
-**Custo:** €100-300 (arranjo no quadro)  
+**Custo:** €100-300 (arranjo no quadro) 
 **Tempo:** 1-3 horas
 
 ---
@@ -177,7 +177,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **Pergunta:** Outras luzes na casa funcionam?
 
-✅ **SIM, outras funcionam:** Problema local (lâmpada, interruptor, casquilho)  
+✅ **SIM, outras funcionam:** Problema local (lâmpada, interruptor, casquilho) 
 ❌ **NÃO, várias não funcionam:** Problema no disjuntor ou quadro → Passo 3
 
 ---
@@ -189,7 +189,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 3. Substitua por lâmpada nova que sabe que funciona
 4. Teste
 
-✅ **Funcionou:** Era lâmpada queimada (35% dos casos) - RESOLVIDO!  
+✅ **Funcionou:** Era lâmpada queimada (35% dos casos) - RESOLVIDO! 
 ❌ **Não funcionou:** Próximo passo
 
 ---
@@ -200,8 +200,8 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 2. Procure disjuntor em posição "baixo" (desarmado)
 3. Se encontrar, rearme (posição cima)
 
-✅ **Funcionou:** Era disjuntor desarmado - RESOLVIDO!  
-❌ **Desarma novamente:** **CHAMAR ELETRICISTA** (curto-circuito)  
+✅ **Funcionou:** Era disjuntor desarmado - RESOLVIDO! 
+❌ **Desarma novamente:** **CHAMAR ELETRICISTA** (curto-circuito) 
 ❌ **Todos armados:** Próximo passo
 
 ---
@@ -210,9 +210,9 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **Carregue no interruptor e observe:**
 
-✅ **Faz "clique" firme:** Interruptor OK, problema noutro lado  
-❌ **Não faz "clique" ou solto:** Interruptor defeituoso → **CHAMAR ELETRICISTA**  
-❌ **Quente ao toque:** Interruptor defeituoso → **CHAMAR ELETRICISTA URGENTE**  
+✅ **Faz "clique" firme:** Interruptor OK, problema noutro lado 
+❌ **Não faz "clique" ou solto:** Interruptor defeituoso → **CHAMAR ELETRICISTA** 
+❌ **Quente ao toque:** Interruptor defeituoso → **CHAMAR ELETRICISTA URGENTE** 
 ❌ **Estalidos:** Arco elétrico → **CHAMAR ELETRICISTA URGENTE**
 
 ---
@@ -356,16 +356,16 @@ O problema é:
 
 ### 📞 Precisa de Ajuda Profissional?
 
-**** - eletricista com experiência em Trás-os-Montes  
-✅ Diagnóstico grátis por telefone  
-✅ Emergências 24h/7 dias  
-✅ Fichas eletrotécnicas assinadas por técnico Profissional  
-✅ Orçamento sem compromisso  
-✅ Garantia de 2 anos  
+**** - eletricista com experiência em Trás-os-Montes 
+✅ Diagnóstico grátis por telefone 
+✅ Emergências 24h/7 dias 
+✅ Fichas eletrotécnicas assinadas por técnico Profissional 
+✅ Orçamento sem compromisso 
+✅ Garantia de 2 anos 
 ✅ Técnico em menos de 2h (urgências)
 
-**📞 Ligue Agora:** [932 321 892](tel:+351932321892)  
-**💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20um%20interruptor%20que%20não%20funciona%20e%20preciso%20de%20ajuda!)  
+**📞 Ligue Agora:** [932 321 892](tel:+351932321892) 
+**💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20um%20interruptor%20que%20não%20funciona%20e%20preciso%20de%20ajuda!) 
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
 **Servimos:** Bragança, Vila Real, Chaves, Mirandela, Trás-os-Montes e toda a região de Trás-os-Montes.

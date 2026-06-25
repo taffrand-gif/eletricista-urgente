@@ -23,7 +23,7 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 - ✅ Custos em Trás-os-Montes
 - ✅ Manutenção e testes
 
-**📞 Eletricista para Instalação de Alarmes:** [932 321 892](tel:+351932321892)  
+**📞 Eletricista para Instalação de Alarmes:** [932 321 892](tel:+351932321892) 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20alarmes%20de%20incêndio!)
 
 ---
@@ -212,19 +212,19 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 **Obrigatório/Recomendado:**
 
 1. **Todos os quartos** (1 por quarto)
-   - Detetor de fumo
-   - No teto, centro do quarto
-   - Ou parede a 30 cm do teto
+ - Detetor de fumo
+ - No teto, centro do quarto
+ - Ou parede a 30 cm do teto
 
 2. **Corredor/Hall** (1 por andar)
-   - Detetor de fumo
-   - Entre quartos e escadas
-   - Rota de fuga
+ - Detetor de fumo
+ - Entre quartos e escadas
+ - Rota de fuga
 
 3. **Perto de esquentador/caldeira**
-   - Detetor de CO
-   - Mesma divisão ou adjacente
-   - Altura 1,5-2m (CO sobe)
+ - Detetor de CO
+ - Mesma divisão ou adjacente
+ - Altura 1,5-2m (CO sobe)
 
 **Total mínimo:** 4-5 detetores (T3)
 
@@ -235,20 +235,20 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 **Adicionar:**
 
 4. **Cozinha**
-   - Detetor de calor (não fumo!)
-   - Longe de fogão (3+ metros)
+ - Detetor de calor (não fumo!)
+ - Longe de fogão (3+ metros)
 
 5. **Sala com lareira/salamandra**
-   - Detetor de CO
-   - Detetor de fumo (longe da lareira)
+ - Detetor de CO
+ - Detetor de fumo (longe da lareira)
 
 6. **Garagem**
-   - Detetor de calor
-   - Detetor de CO (se guarda carro)
+ - Detetor de calor
+ - Detetor de CO (se guarda carro)
 
 7. **Sótão/Cave**
-   - Detetor de fumo
-   - Especialmente se tem quadro elétrico
+ - Detetor de fumo
+ - Especialmente se tem quadro elétrico
 
 **Total completo:** 8-10 detetores
 
@@ -479,15 +479,15 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 
 ### 📞 Quer Instalar Sistema de Alarme?
 
-**** - eletricista com experiência em Trás-os-Montes  
-✅ Instalação de detetores de incêndio  
-✅ Sistemas interligados  
-✅ Consultoria de segurança  
-✅ Orçamento grátis sem compromisso  
-✅ Garantia de 2 anos  
+**** - eletricista com experiência em Trás-os-Montes 
+✅ Instalação de detetores de incêndio 
+✅ Sistemas interligados 
+✅ Consultoria de segurança 
+✅ Orçamento grátis sem compromisso 
+✅ Garantia de 2 anos 
 
-**📞 Ligue Agora:** [932 321 892](tel:+351932321892)  
-**💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20alarmes%20de%20incêndio!)  
+**📞 Ligue Agora:** [932 321 892](tel:+351932321892) 
+**💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20alarmes%20de%20incêndio!) 
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
 **Servimos:** Bragança, Vila Real, Chaves, Mirandela, Trás-os-Montes e toda a região de Trás-os-Montes.

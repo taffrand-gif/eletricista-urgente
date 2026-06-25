@@ -15,7 +15,7 @@ priority: "HIGH DEMAND"
 
 Neste guia completo, vamos explicar **o que é um curto-circuito**, as causas principais, sinais de perigo, como prevenir, e as proteções obrigatórias. Com mais de 15 anos de experiência em instalações elétricas na região de Bragança, ajudamos centenas de famílias a proteger as suas casas.
 
-**📞 Suspeita de curto-circuito? Ligue já: [932 321 892](tel:+351932321892)**  
+**📞 Suspeita de curto-circuito? Ligue já: [932 321 892](tel:+351932321892)** 
 **💬 WhatsApp urgente: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20suspeito%20de%20curto-circuito%20na%20minha%20casa.%20Podem%20ajudar%3F)**
 
 ---
@@ -373,7 +373,7 @@ Corrente: 100-1.000A (descontrolada)
 - Quadro elétrico desatualizado
 - Sem diferencial (obrigatório desde 2006)
 
-**Atualização:** €2.000-8.000 (casa T3)  
+**Atualização:** €2.000-8.000 (casa T3) 
 **Benefício:** Segurança, conformidade, valorização
 
 ### 3. Use Aparelhos de Qualidade
@@ -453,28 +453,28 @@ Corrente: 100-1.000A (descontrolada)
 
 ## Perguntas Frequentes (FAQ)
 
-**1. O que é curto-circuito?**  
+**1. O que é curto-circuito?** 
 Contacto direto entre fase e neutro, criando corrente excessiva (100-1.000A). Causa aquecimento extremo, pode causar incêndio.
 
-**2. O que causa curto-circuito?**  
+**2. O que causa curto-circuito?** 
 Cabo danificado (40%), aparelho defeituoso (30%), humidade (15%), ligação mal feita (8%).
 
-**3. Como prevenir curto-circuito?**  
+**3. Como prevenir curto-circuito?** 
 Manutenção preventiva, disjuntores adequados, diferencial 30mA, substituir instalações antigas (30+ anos).
 
-**4. Curto-circuito pode causar incêndio?**  
+**4. Curto-circuito pode causar incêndio?** 
 Sim. Responsável por 30-40% dos incêndios domésticos em Portugal.
 
-**5. Disjuntor protege contra curto-circuito?**  
+**5. Disjuntor protege contra curto-circuito?** 
 Sim. Desliga circuito em 0.1-5 segundos, previne incêndio.
 
-**6. Diferencial protege contra curto-circuito?**  
+**6. Diferencial protege contra curto-circuito?** 
 Não diretamente. Protege contra choque elétrico (fuga de corrente). Disjuntor protege contra curto.
 
-**7. Quanto custa atualizar instalação elétrica?**  
+**7. Quanto custa atualizar instalação elétrica?** 
 €2.000-8.000 (casa T3). Inclui cabos novos, quadro moderno, diferencial, certificação.
 
-**8. Curto-circuito pode matar?**  
+**8. Curto-circuito pode matar?** 
 Sim, se tocar em fio durante curto. Diferencial 30mA protege (desliga em 0.03 segundos).
 
 ---

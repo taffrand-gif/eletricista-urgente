@@ -6,13 +6,13 @@ date: 2026-03-04
 author: 
 excerpt: "Quer instalar um carregador de carro elétrico em casa? Descubra os 5 tipos de carregadores, potências necessárias, custos completos (€800-2,500), requisitos elétricos e como escolher o melhor para o seu veículo."
 keywords: 
-  - carregador carro elétrico
-  - wallbox instalação
-  - carregar carro elétrico casa
-  - eletricista Trás-os-Montes
-  - tomada carro elétrico
-  - carregamento doméstico
-  - wallbox preço
+ - carregador carro elétrico
+ - wallbox instalação
+ - carregar carro elétrico casa
+ - eletricista Trás-os-Montes
+ - tomada carro elétrico
+ - carregamento doméstico
+ - wallbox preço
 priority: TRENDING
 ---
 
@@ -24,7 +24,7 @@ Mas atenção: **não é só comprar e ligar na tomada**. Precisa de:
 - ✅ Instalação elétrica adequada (potência contratada, quadro elétrico)
 - ✅ Carregador compatível com o seu carro
 - ✅ Instalação por eletricista com experiência (obrigatório por lei)
-- ✅ Certificação elétrica DGEG
+- ✅ Certificação elétrica 
 
 Neste guia completo, vou explicar **tudo o que precisa saber** para instalar um carregador de carro elétrico em casa: tipos de carregadores, potências, custos, requisitos técnicos, incentivos do governo e como escolher o melhor para o seu caso.
 
@@ -556,13 +556,13 @@ Neste guia completo, vou explicar **tudo o que precisa saber** para instalar um 
 
 ** — Eletricista Fichas eletrotécnicas assinadas por técnico Profissional**
 
-✅ Avaliação técnica grátis  
-✅ Instalação de wallbox 7.4 kW, 11 kW, 22 kW  
-✅ Aumento de potência contratada  
-✅ Fichas eletrotécnicas assinadas por técnico Profissional incluída  
-✅ Apoio candidatura Fundo Ambiental  
-✅ Integração com painéis solares  
-✅ Garantia 2 anos  
+✅ Avaliação técnica grátis 
+✅ Instalação de wallbox 7.4 kW, 11 kW, 22 kW 
+✅ Aumento de potência contratada 
+✅ Fichas eletrotécnicas assinadas por técnico Profissional incluída 
+✅ Apoio candidatura Fundo Ambiental 
+✅ Integração com painéis solares 
+✅ Garantia 2 anos 
 
 **📞 Ligue já: [932 321 892](tel:+351932321892)**
 
@@ -576,13 +576,13 @@ Neste guia completo, vou explicar **tudo o que precisa saber** para instalar um 
 
 **SIM, 100%!** Instalar um carregador em casa:
 
-✅ **Poupa €500-1,000/ano** (vs postos públicos)  
-✅ **Conveniência total** (carrega durante a noite)  
-✅ **Carrega 5-10x mais rápido** que tomada normal  
-✅ **Valoriza a casa** (€2,000-5,000)  
-✅ **Apoios do governo** (€500 + IVA 6%)  
+✅ **Poupa €500-1,000/ano** (vs postos públicos) 
+✅ **Conveniência total** (carrega durante a noite) 
+✅ **Carrega 5-10x mais rápido** que tomada normal 
+✅ **Valoriza a casa** (€2,000-5,000) 
+✅ **Apoios do governo** (€500 + IVA 6%) 
 
-**Investimento:** €850-1,660 (wallbox 7.4 kW)  
+**Investimento:** €850-1,660 (wallbox 7.4 kW) 
 **Retorno:** 1-2 anos (poupança em carregamentos)
 
 **👉 Quer instalar o seu carregador?**

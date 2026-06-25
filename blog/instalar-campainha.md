@@ -15,7 +15,7 @@ priority: "HIGH DEMAND"
 
 Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação passo a passo, custos, vantagens/desvantagens, e quando chamar um eletricista com experiência. Com mais de 15 anos de experiência em instalações elétricas na região de Bragança, já instalámos centenas de campainhas.
 
-**📞 Quer instalar campainha? Ligue já: [932 321 892](tel:+351932321892)**  
+**📞 Quer instalar campainha? Ligue já: [932 321 892](tel:+351932321892)** 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20uma%20campainha.%20Podem%20ajudar%3F)**
 
 ---
@@ -116,8 +116,8 @@ Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação
 
 ### Instalar Campainha Sem Fios
 
-**Tempo:** 5-15 minutos  
-**Dificuldade:** Muito fácil  
+**Tempo:** 5-15 minutos 
+**Dificuldade:** Muito fácil 
 **Ferramentas:** Chave de fendas, fita dupla face ou parafusos
 
 #### Passo 1: Escolher Localização
@@ -234,8 +234,8 @@ Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação
 
 **⚠️ AVISO:** Trabalho elétrico. Se não se sentir confortável, chame eletricista.
 
-**Tempo:** 1-3 horas  
-**Dificuldade:** Média a Difícil  
+**Tempo:** 1-3 horas 
+**Dificuldade:** Média a Difícil 
 **Ferramentas:** Berbequim, chave de fendas, alicate, testador de tensão
 
 #### Passo 1: Planeamento
@@ -268,9 +268,9 @@ Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação
 **Instalação:**
 1. Fixe transformador na parede (parafusos)
 2. Ligue entrada (230V) ao quadro:
-   - Fase (castanho/preto)
-   - Neutro (azul)
-   - Terra (verde/amarelo) - se disponível
+ - Fase (castanho/preto)
+ - Neutro (azul)
+ - Terra (verde/amarelo) - se disponível
 3. Saída (8-24V) fica livre (ligar depois)
 
 **⚠️ ATENÇÃO:** Entrada é 230V (perigoso). Saída é 8-24V (seguro).
@@ -324,8 +324,8 @@ Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação
 **Esquema de ligação:**
 ```
 Transformador (saída 8-24V)
-    ├─── Botão (2 fios)
-    └─── Campainha (2 fios)
+ ├─── Botão (2 fios)
+ └─── Campainha (2 fios)
 ```
 
 #### Passo 8: Ligar Eletricidade e Testar
@@ -428,28 +428,28 @@ Transformador (saída 8-24V)
 
 ## Perguntas Frequentes (FAQ)
 
-**1. Campainha com fios ou sem fios?**  
+**1. Campainha com fios ou sem fios?** 
 Sem fios: instalação rápida, ideal para arrendamento. Com fios: mais fiável, solução permanente.
 
-**2. Quanto custa instalar campainha?**  
+**2. Quanto custa instalar campainha?** 
 Sem fios DIY: €18-208. Com fios DIY: €38-168. Profissional: +€40-200.
 
-**3. Posso instalar campainha sozinho?**  
+**3. Posso instalar campainha sozinho?** 
 Sem fios: sim, muito fácil (5-15 min). Com fios: requer conhecimento elétrico (1-3h).
 
-**4. Campainha sem fios funciona bem?**  
+**4. Campainha sem fios funciona bem?** 
 Sim, 99% fiabilidade. Alcance 50-300m suficiente para maioria das casas.
 
-**5. Quanto tempo duram pilhas?**  
+**5. Quanto tempo duram pilhas?** 
 Botão: 1-2 anos. Recetor (se pilhas): 6-12 meses.
 
-**6. Posso ter múltiplos recetores?**  
+**6. Posso ter múltiplos recetores?** 
 Sim, em modelos sem fios (compre recetores adicionais). Com fios: possível mas mais complexo.
 
-**7. Campainha com vídeo vale a pena?**  
+**7. Campainha com vídeo vale a pena?** 
 Sim, para segurança. Vê quem está à porta (smartphone). Preço: €80-200.
 
-**8. Quanto tempo demora instalação profissional?**  
+**8. Quanto tempo demora instalação profissional?** 
 Sem fios: 30 min. Com fios: 1-3 horas (depende de passar cabos).
 
 ---

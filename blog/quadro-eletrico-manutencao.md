@@ -126,7 +126,7 @@ priority: "HIGH DEMAND"
 - Estado dos cabos
 - Conformidade com normas
 
-**Custo:** €80-150  
+**Custo:** €80-150 
 **Duração:** 1-2 horas
 
 **Recomendado especialmente se:**
@@ -305,19 +305,19 @@ priority: "HIGH DEMAND"
 ### Regras de Segurança
 
 **NUNCA:**
-❌ Toque em partes metálicas com corrente ligada  
-❌ Trabalhe no quadro sem desligar disjuntor geral  
-❌ Use água para limpar  
-❌ Force disjuntores a ficar ligados  
-❌ Faça arranjos sem conhecimentos  
+❌ Toque em partes metálicas com corrente ligada 
+❌ Trabalhe no quadro sem desligar disjuntor geral 
+❌ Use água para limpar 
+❌ Force disjuntores a ficar ligados 
+❌ Faça arranjos sem conhecimentos 
 ❌ Deixe quadro aberto (crianças, animais)
 
 **SEMPRE:**
-✅ Desligue disjuntor geral antes de trabalhar  
-✅ Use ferramentas isoladas  
-✅ Teste ausência de tensão (multímetro)  
-✅ Mantenha quadro fechado  
-✅ Identifique circuitos claramente  
+✅ Desligue disjuntor geral antes de trabalhar 
+✅ Use ferramentas isoladas 
+✅ Teste ausência de tensão (multímetro) 
+✅ Mantenha quadro fechado 
+✅ Identifique circuitos claramente 
 ✅ Chame profissional se não tem certeza
 
 ### Localização do Quadro
@@ -438,16 +438,16 @@ O quadro elétrico é **essencial para segurança** da sua casa:
 
 ** — eletricista com experiência em Bragança**
 
-📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
+📞 **Ligue agora: [932 321 892](tel:+351932321892)** 
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20inspeção%2Fmanutenção%20do%20quadro%20elétrico.%20Pode%20ajudar%3F)**
 
-✅ Inspeção completa do quadro  
-✅ Manutenção preventiva  
-✅ Substituição de disjuntores  
-✅ Instalação de quadros novos  
-✅ Fichas eletrotécnicas assinadas por técnico Profissional incluído  
-✅ Garantia 2 anos no serviço  
-✅ Orçamento grátis sem compromisso  
+✅ Inspeção completa do quadro 
+✅ Manutenção preventiva 
+✅ Substituição de disjuntores 
+✅ Instalação de quadros novos 
+✅ Fichas eletrotécnicas assinadas por técnico Profissional incluído 
+✅ Garantia 2 anos no serviço 
+✅ Orçamento grátis sem compromisso 
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não arrisque a segurança da sua família!** Quadro elétrico bem mantido previne incêndios e choques. Contacte-nos já.

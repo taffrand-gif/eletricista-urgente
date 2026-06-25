@@ -38,11 +38,11 @@ priority: "TRENDING"
 
 **Exemplo: H05VV-F 3G1,5**
 
-**H** = Cabo harmonizado (norma europeia)  
-**05** = Tensão nominal 300/500V  
-**VV** = Isolamento PVC + bainha PVC  
-**F** = Flexível  
-**3G** = 3 condutores com terra (G = ground)  
+**H** = Cabo harmonizado (norma europeia) 
+**05** = Tensão nominal 300/500V 
+**VV** = Isolamento PVC + bainha PVC 
+**F** = Flexível 
+**3G** = 3 condutores com terra (G = ground) 
 **1,5** = Secção 1,5mm²
 
 ## 📊 Tipos Principais de Cabos
@@ -56,15 +56,15 @@ priority: "TRENDING"
 - Tensão: 300/500V
 
 **Aplicações:**
-✅ Instalações interiores  
-✅ Aparelhos móveis  
-✅ Extensões  
-✅ Iluminação  
+✅ Instalações interiores 
+✅ Aparelhos móveis 
+✅ Extensões 
+✅ Iluminação 
 ✅ Tomadas
 
 **Não usar:**
-❌ Exterior (degrada com UV)  
-❌ Enterrado  
+❌ Exterior (degrada com UV) 
+❌ Enterrado 
 ❌ Ambientes húmidos permanentes
 
 **Cores comuns:**
@@ -83,11 +83,11 @@ priority: "TRENDING"
 - Resistente a água, óleo, UV
 
 **Aplicações:**
-✅ Exterior  
-✅ Jardim  
-✅ Obras  
-✅ Ferramentas elétricas  
-✅ Ambientes húmidos  
+✅ Exterior 
+✅ Jardim 
+✅ Obras 
+✅ Ferramentas elétricas 
+✅ Ambientes húmidos 
 ✅ Temperaturas extremas (-25°C a +60°C)
 
 **Vantagens:**
@@ -106,14 +106,14 @@ priority: "TRENDING"
 - Tensão: 450/750V
 
 **Aplicações:**
-✅ Instalações fixas em condutas  
-✅ Quadros elétricos  
-✅ Ligações permanentes  
+✅ Instalações fixas em condutas 
+✅ Quadros elétricos 
+✅ Ligações permanentes 
 ✅ Tubagem embutida
 
 **Não usar:**
-❌ Aparelhos móveis  
-❌ Sem proteção mecânica  
+❌ Aparelhos móveis 
+❌ Sem proteção mecânica 
 ❌ Exterior direto
 
 **Cores:**
@@ -132,9 +132,9 @@ priority: "TRENDING"
 - Baixa emissão de fumo
 
 **Aplicações:**
-✅ Locais públicos (escolas, hospitais)  
-✅ Edifícios altos  
-✅ Locais com muita gente  
+✅ Locais públicos (escolas, hospitais) 
+✅ Edifícios altos 
+✅ Locais com muita gente 
 ✅ Instalações de segurança
 
 **Vantagens:**
@@ -154,9 +154,9 @@ priority: "TRENDING"
 - Para instalações embutidas
 
 **Aplicações:**
-✅ Paredes  
-✅ Tetos falsos  
-✅ Pavimentos  
+✅ Paredes 
+✅ Tetos falsos 
+✅ Pavimentos 
 ✅ Instalações novas
 
 **Vantagens:**
@@ -280,32 +280,32 @@ priority: "TRENDING"
 
 ### Erro 1: Secção Insuficiente
 
-**Erro:** Usar 1,5mm² para tomadas.  
-**Consequência:** Aquecimento, risco de incêndio.  
+**Erro:** Usar 1,5mm² para tomadas. 
+**Consequência:** Aquecimento, risco de incêndio. 
 **Solução:** Mínimo 2,5mm² para tomadas.
 
 ### Erro 2: Cabo Interior no Exterior
 
-**Erro:** Usar H05VV-F no jardim.  
-**Consequência:** Degrada com UV e humidade, risco de choque.  
+**Erro:** Usar H05VV-F no jardim. 
+**Consequência:** Degrada com UV e humidade, risco de choque. 
 **Solução:** Use H07RN-F para exterior.
 
 ### Erro 3: Cabo Flexível em Instalação Fixa
 
-**Erro:** Usar H05VV-F em condutas embutidas.  
-**Consequência:** Não é o mais adequado (use H07V-U).  
+**Erro:** Usar H05VV-F em condutas embutidas. 
+**Consequência:** Não é o mais adequado (use H07V-U). 
 **Solução:** Cabo rígido para instalações fixas.
 
 ### Erro 4: Não Respeitar Cores
 
-**Erro:** Usar qualquer cor para qualquer função.  
-**Consequência:** Confusão, risco de erro em manutenção.  
+**Erro:** Usar qualquer cor para qualquer função. 
+**Consequência:** Confusão, risco de erro em manutenção. 
 **Solução:** Respeite código de cores (castanho=fase, azul=neutro, verde-amarelo=terra).
 
 ### Erro 5: Cabo Muito Longo Sem Ajustar Secção
 
-**Erro:** Usar 2,5mm² para 50 metros.  
-**Consequência:** Queda de tensão excessiva, aparelhos não funcionam bem.  
+**Erro:** Usar 2,5mm² para 50 metros. 
+**Consequência:** Queda de tensão excessiva, aparelhos não funcionam bem. 
 **Solução:** Aumente secção para distâncias longas (ver tabela).
 
 ## 🔧 Instalação de Cabos: Boas Práticas
@@ -407,15 +407,15 @@ Escolher o cabo elétrico correto é **essencial para segurança e eficiência**
 
 ** — eletricista com experiência em Bragança**
 
-📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
+📞 **Ligue agora: [932 321 892](tel:+351932321892)** 
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20instalação%20elétrica.%20Pode%20ajudar%3F)**
 
-✅ Escolhemos cabos adequados para cada aplicação  
-✅ Instalação conforme normas RTIEBT  
-✅ Fichas eletrotécnicas assinadas por técnico Profissional incluído  
-✅ Materiais de qualidade certificados  
-✅ Garantia 2 anos no serviço  
-✅ Orçamento grátis sem compromisso  
+✅ Escolhemos cabos adequados para cada aplicação 
+✅ Instalação conforme normas RTIEBT 
+✅ Fichas eletrotécnicas assinadas por técnico Profissional incluído 
+✅ Materiais de qualidade certificados 
+✅ Garantia 2 anos no serviço 
+✅ Orçamento grátis sem compromisso 
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Cabo errado = risco de incêndio!** Não arrisque. Contacte-nos já para instalação profissional e segura.

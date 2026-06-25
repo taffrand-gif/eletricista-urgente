@@ -117,9 +117,9 @@ LEDs baratos têm driver (transformador interno) de má qualidade que não regul
 - **Evite:** Marcas desconhecidas < €2
 
 **Dica:** Lâmpadas de qualidade têm:
-✅ Garantia de 2-5 anos  
-✅ Certificação CE  
-✅ Embalagem com especificações técnicas  
+✅ Garantia de 2-5 anos 
+✅ Certificação CE 
+✅ Embalagem com especificações técnicas 
 ✅ Preço razoável (€5-15)
 
 ### Causa 4: Tensão Instável na Rede (10% dos casos)
@@ -223,10 +223,10 @@ Problema grave: ligação solta, disjuntor defeituoso, neutro com problema, ou s
 3. Não use eletricidade até resolver
 
 **Sinais de emergência:**
-🚨 Cheiro a queimado  
-🚨 Faíscas no quadro  
-🚨 Disjuntores muito quentes  
-🚨 Fumo  
+🚨 Cheiro a queimado 
+🚨 Faíscas no quadro 
+🚨 Disjuntores muito quentes 
+🚨 Fumo 
 
 **Custo arranjo:** €80-300 (dependendo do problema)
 
@@ -272,26 +272,26 @@ Use esta tabela para identificar a causa:
 
 ### Ao Comprar Lâmpadas LED
 
-✅ **Escolha marcas de qualidade** (Philips, Osram, Ledvance)  
-✅ **Verifique garantia** (mínimo 2 anos)  
-✅ **Certificação CE** obrigatória  
-✅ **Preço razoável** (€5-15, desconfie de < €2)  
-✅ **Dimerizável** se usar com dimmer  
+✅ **Escolha marcas de qualidade** (Philips, Osram, Ledvance) 
+✅ **Verifique garantia** (mínimo 2 anos) 
+✅ **Certificação CE** obrigatória 
+✅ **Preço razoável** (€5-15, desconfie de < €2) 
+✅ **Dimerizável** se usar com dimmer 
 ✅ **Tensão 220-240V** (suporta variações)
 
 ### Ao Instalar
 
-✅ **Use interruptores simples** (sem luz piloto)  
-✅ **Dimmer específico LED** se precisar  
-✅ **Boa ventilação** (LEDs aquecem)  
-✅ **Respeite potência máxima** da luminária  
+✅ **Use interruptores simples** (sem luz piloto) 
+✅ **Dimmer específico LED** se precisar 
+✅ **Boa ventilação** (LEDs aquecem) 
+✅ **Respeite potência máxima** da luminária 
 ✅ **Circuitos adequados** (cabo 1,5mm² mínimo)
 
 ### Manutenção
 
-✅ **Limpe lâmpadas** (poeira aquece)  
-✅ **Verifique ligações** anualmente  
-✅ **Substitua lâmpadas** que começam a piscar  
+✅ **Limpe lâmpadas** (poeira aquece) 
+✅ **Verifique ligações** anualmente 
+✅ **Substitua lâmpadas** que começam a piscar 
 ✅ **Não force** lâmpadas em casquilhos apertados
 
 ## ❓ Perguntas Frequentes
@@ -339,14 +339,14 @@ Na maioria dos casos, lâmpadas LED a piscar têm **solução simples e barata**
 
 ** — eletricista com experiência em Bragança**
 
-📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
+📞 **Ligue agora: [932 321 892](tel:+351932321892)** 
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20lâmpadas%20LED%20a%20piscar.%20Pode%20ajudar%3F)**
 
-✅ Diagnóstico rápido e preciso  
-✅ Soluções definitivas (não provisórias)  
-✅ Materiais de qualidade incluídos  
-✅ Garantia 1 ano no serviço  
-✅ Técnico em sua casa em 30-45 minutos  
+✅ Diagnóstico rápido e preciso 
+✅ Soluções definitivas (não provisórias) 
+✅ Materiais de qualidade incluídos 
+✅ Garantia 1 ano no serviço 
+✅ Técnico em sua casa em 30-45 minutos 
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não viva com lâmpadas a piscar!** É irritante e pode indicar problema elétrico grave. Contacte-nos já para orçamento grátis.

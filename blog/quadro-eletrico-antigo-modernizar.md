@@ -23,7 +23,7 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 - ✅ Custos em Trás-os-Montes (€300-800)
 - ✅ Fichas eletrotécnicas assinadas por técnico Profissional obrigatória
 
-**📞 eletricista com experiência 24h:** [932 321 892](tel:+351932321892)  
+**📞 eletricista com experiência 24h:** [932 321 892](tel:+351932321892) 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20modernizar%20o%20quadro%20elétrico!)
 
 ---
@@ -210,7 +210,7 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 - Inspeção completa
 - Termo de Responsabilidade
 - Fichas eletrotécnicas assinadas por técnico Profissional
-- Registo na DGEG
+- Registo na 
 
 ---
 
@@ -351,7 +351,7 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 1. **Inspeção final**
 2. **Medições elétricas** (resistência terra, isolamento)
 3. **Emissão de certificado**
-4. **Registo na DGEG**
+4. **Registo na **
 5. **Entrega de documentação**
 
 **Documentos recebidos:**
@@ -413,16 +413,16 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 
 ### 📞 Precisa de Modernizar Quadro Elétrico?
 
-**** - eletricista com experiência em Trás-os-Montes  
-✅ Inspeção gratuita  
-✅ Modernização completa de quadros  
-✅ Fichas eletrotécnicas assinadas por técnico Profissional incluída  
-✅ Orçamento sem compromisso  
-✅ Garantia de 2 anos  
-✅ Trabalhos em 1-3 dias  
+**** - eletricista com experiência em Trás-os-Montes 
+✅ Inspeção gratuita 
+✅ Modernização completa de quadros 
+✅ Fichas eletrotécnicas assinadas por técnico Profissional incluída 
+✅ Orçamento sem compromisso 
+✅ Garantia de 2 anos 
+✅ Trabalhos em 1-3 dias 
 
-**📞 Ligue Agora:** [932 321 892](tel:+351932321892)  
-**💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20modernizar%20o%20quadro%20elétrico!)  
+**📞 Ligue Agora:** [932 321 892](tel:+351932321892) 
+**💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20modernizar%20o%20quadro%20elétrico!) 
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
 **Servimos:** Bragança, Vila Real, Chaves, Mirandela, Trás-os-Montes e toda a região de Trás-os-Montes.

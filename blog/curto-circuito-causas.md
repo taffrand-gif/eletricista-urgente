@@ -431,13 +431,13 @@ TOTAL: 2.600W → SOBRECARGA 13%!
 1. **Desligue disjuntor geral**
 2. **Identifique origem do cheiro**
 3. **Se houver fumo/chamas:**
-   - Saia de casa
-   - Ligue 112
-   - Não volte até bombeiros autorizarem
+ - Saia de casa
+ - Ligue 112
+ - Não volte até bombeiros autorizarem
 4. **Se não houver chamas:**
-   - Ventile casa
-   - Ligue eletricista urgente: 932 321 892
-   - NÃO religue eletricidade
+ - Ventile casa
+ - Ligue eletricista urgente: 932 321 892
+ - NÃO religue eletricidade
 
 ### Se Vir Faíscas:
 
@@ -448,9 +448,9 @@ TOTAL: 2.600W → SOBRECARGA 13%!
 3. **Saia da zona**
 4. **Ligue eletricista urgente: 932 321 892**
 5. **Se houver fogo:**
-   - Use extintor CO₂ (NUNCA água!)
-   - Ligue 112
-   - Saia de casa
+ - Use extintor CO₂ (NUNCA água!)
+ - Ligue 112
+ - Saia de casa
 
 ## Custos de Prevenção vs Arranjo
 

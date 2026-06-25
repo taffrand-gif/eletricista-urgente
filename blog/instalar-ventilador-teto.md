@@ -26,9 +26,9 @@ priority: "SEASONAL"
 - Controlo por corrente ou comando
 
 **Vantagens:**
-✅ Mais barato (€40-120)  
-✅ Instalação simples (2 fios)  
-✅ Consumo baixo  
+✅ Mais barato (€40-120) 
+✅ Instalação simples (2 fios) 
+✅ Consumo baixo 
 ✅ Menos peso
 
 **Ideal para:** Quartos, escritórios, garagens
@@ -42,13 +42,13 @@ priority: "SEASONAL"
 - Controlo independente
 
 **Vantagens:**
-✅ 2 em 1 (poupa espaço)  
-✅ Iluminação + ventilação  
+✅ 2 em 1 (poupa espaço) 
+✅ Iluminação + ventilação 
 ✅ Design moderno
 
 **Desvantagens:**
-❌ Mais caro (€80-250)  
-❌ Instalação mais complexa (4-5 fios)  
+❌ Mais caro (€80-250) 
+❌ Instalação mais complexa (4-5 fios) 
 ❌ Mais pesado (precisa fixação reforçada)
 
 **Ideal para:** Salas, quartos principais
@@ -62,13 +62,13 @@ priority: "SEASONAL"
 - Inversão de rotação (verão/inverno)
 
 **Vantagens:**
-✅ Muito prático  
-✅ Controlo preciso  
+✅ Muito prático 
+✅ Controlo preciso 
 ✅ Função inverno (circula ar quente)
 
 **Desvantagens:**
-❌ Mais caro (€100-300)  
-❌ Pilhas do comando  
+❌ Mais caro (€100-300) 
+❌ Pilhas do comando 
 ❌ Recetor ocupa espaço
 
 **Ideal para:** Salas grandes, quartos
@@ -82,12 +82,12 @@ priority: "SEASONAL"
 - Controlo remoto incluído
 
 **Vantagens:**
-✅ Consumo mínimo  
-✅ Silencioso  
+✅ Consumo mínimo 
+✅ Silencioso 
 ✅ Durável
 
 **Desvantagens:**
-❌ Muito caro (€200-500)  
+❌ Muito caro (€200-500) 
 ❌ Arranjo mais cara
 
 **Ideal para:** Uso intensivo, quartos de bebé
@@ -271,26 +271,26 @@ priority: "SEASONAL"
 **Passo 10: Testes finais**
 
 1. **Verificação visual:**
-   - Todos os parafusos apertados
-   - Pás bem fixas
-   - Fios bem isolados
-   - Nada solto
+ - Todos os parafusos apertados
+ - Pás bem fixas
+ - Fios bem isolados
+ - Nada solto
 
 2. **Ligar a eletricidade:**
-   - Ligue o disjuntor
-   - Ligue o interruptor
+ - Ligue o disjuntor
+ - Ligue o interruptor
 
 3. **Teste de funcionamento:**
-   - Ligue o ventilador (velocidade baixa primeiro)
-   - Observe se há vibração excessiva
-   - Teste todas as velocidades
-   - Teste a luz (se tiver)
-   - Teste o comando remoto (se tiver)
+ - Ligue o ventilador (velocidade baixa primeiro)
+ - Observe se há vibração excessiva
+ - Teste todas as velocidades
+ - Teste a luz (se tiver)
+ - Teste o comando remoto (se tiver)
 
 4. **Teste de equilíbrio:**
-   - Ventilador não deve vibrar ou balançar
-   - Se vibrar: verifique que pás estão bem apertadas
-   - Use kit de balanceamento (€5-10) se necessário
+ - Ventilador não deve vibrar ou balançar
+ - Se vibrar: verifique que pás estão bem apertadas
+ - Use kit de balanceamento (€5-10) se necessário
 
 **Pronto!** O seu ventilador está instalado.
 
@@ -316,14 +316,14 @@ priority: "SEASONAL"
 **Tempo necessário:** 2-4 horas (primeira vez)
 
 **Vantagens:**
-✅ Mais barato  
-✅ Aprende uma habilidade  
+✅ Mais barato 
+✅ Aprende uma habilidade 
 ✅ Satisfação pessoal
 
 **Desvantagens:**
-❌ Risco de queda se fixação inadequada  
-❌ Risco de eletrocussão  
-❌ Demora mais tempo  
+❌ Risco de queda se fixação inadequada 
+❌ Risco de eletrocussão 
+❌ Demora mais tempo 
 ❌ Sem garantia profissional
 
 ### Opção Profissional
@@ -340,11 +340,11 @@ priority: "SEASONAL"
 | Urgência (verão) | +€30-50 |
 
 **Incluído no serviço profissional:**
-✅ Verificação da estrutura do teto  
-✅ Fixação segura e reforçada  
-✅ Ligação elétrica conforme normas  
-✅ Balanceamento das pás  
-✅ Garantia 1-2 anos  
+✅ Verificação da estrutura do teto 
+✅ Fixação segura e reforçada 
+✅ Ligação elétrica conforme normas 
+✅ Balanceamento das pás 
+✅ Garantia 1-2 anos 
 ✅ Limpeza após trabalho
 
 **Tempo de instalação:** 1-2 horas
@@ -355,44 +355,44 @@ priority: "SEASONAL"
 
 ### 1. Fixação Inadequada (PERIGOSO!)
 
-**Erro:** Fixar só no pladur ou com buchas fracas.  
-**Consequência:** Ventilador cai (risco de ferimentos graves ou morte).  
+**Erro:** Fixar só no pladur ou com buchas fracas. 
+**Consequência:** Ventilador cai (risco de ferimentos graves ou morte). 
 **Solução:** Fixar sempre em viga, betão maciço, ou estrutura reforçada.
 
 ### 2. Ventilador Muito Grande para o Quarto
 
-**Erro:** Ventilador 132cm num quarto de 10m².  
-**Consequência:** Muito vento, barulho excessivo, consumo alto.  
+**Erro:** Ventilador 132cm num quarto de 10m². 
+**Consequência:** Muito vento, barulho excessivo, consumo alto. 
 **Solução:** Siga a tabela de dimensões (10m² = 107cm máximo).
 
 ### 3. Pás Muito Perto do Teto ou Chão
 
-**Erro:** Menos de 30cm do teto ou menos de 2,1m do chão.  
-**Consequência:** Má circulação de ar, risco de bater a cabeça.  
+**Erro:** Menos de 30cm do teto ou menos de 2,1m do chão. 
+**Consequência:** Má circulação de ar, risco de bater a cabeça. 
 **Solução:** Mínimo 30cm do teto, 2,1m do chão (ideal 2,3m).
 
 ### 4. Não Desligar a Eletricidade
 
-**Erro:** Trabalhar com corrente ligada.  
-**Consequência:** Eletrocussão (pode ser fatal).  
+**Erro:** Trabalhar com corrente ligada. 
+**Consequência:** Eletrocussão (pode ser fatal). 
 **Solução:** SEMPRE desligar disjuntor e testar com multímetro.
 
 ### 5. Pás Mal Apertadas
 
-**Erro:** Parafusos das pás soltos.  
-**Consequência:** Vibração, barulho, pá pode soltar-se.  
+**Erro:** Parafusos das pás soltos. 
+**Consequência:** Vibração, barulho, pá pode soltar-se. 
 **Solução:** Apertar bem todos os parafusos, verificar mensalmente.
 
 ### 6. Fios Mal Ligados
 
-**Erro:** Fase e neutro trocados, ou terra não ligada.  
-**Consequência:** Ventilador não funciona, ou risco de choque.  
+**Erro:** Fase e neutro trocados, ou terra não ligada. 
+**Consequência:** Ventilador não funciona, ou risco de choque. 
 **Solução:** Seguir esquema de cores, usar ligadores adequados.
 
 ### 7. Ventilador Desequilibrado
 
-**Erro:** Pás desalinhadas ou peso desigual.  
-**Consequência:** Vibração, barulho, desgaste do motor.  
+**Erro:** Pás desalinhadas ou peso desigual. 
+**Consequência:** Vibração, barulho, desgaste do motor. 
 **Solução:** Usar kit de balanceamento (€5-10), verificar alinhamento.
 
 ## 🛡️ Manutenção do Ventilador
@@ -494,15 +494,15 @@ Instalar ventilador de teto é **relativamente simples** mas requer **atenção 
 
 ** — eletricista com experiência em Bragança**
 
-📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
+📞 **Ligue agora: [932 321 892](tel:+351932321892)** 
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20instalar%20um%20ventilador%20de%20teto.%20Pode%20ajudar%3F)**
 
-✅ Fixação segura e reforçada  
-✅ Instalação conforme normas  
-✅ Balanceamento profissional  
-✅ Garantia 2 anos no serviço  
-✅ Fornecemos ventiladores de qualidade  
-✅ Técnico em sua casa em 30-45 minutos  
+✅ Fixação segura e reforçada 
+✅ Instalação conforme normas 
+✅ Balanceamento profissional 
+✅ Garantia 2 anos no serviço 
+✅ Fornecemos ventiladores de qualidade 
+✅ Técnico em sua casa em 30-45 minutos 
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não arrisque a sua segurança!** Fixação inadequada pode causar acidentes graves. Contacte-nos já para instalação profissional.

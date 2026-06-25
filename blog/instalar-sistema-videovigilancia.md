@@ -6,13 +6,13 @@ date: 2026-03-04
 author: 
 excerpt: "Quer instalar câmaras de vigilância em casa? Descubra os 4 tipos de sistemas, custos completos (€300-2,500), como escolher câmaras, instalação DIY vs profissional e requisitos legais em Portugal."
 keywords: 
-  - sistema videovigilância
-  - câmaras vigilância casa
-  - instalar câmaras segurança
-  - eletricista Trás-os-Montes
-  - CCTV residencial
-  - videovigilância preço
-  - câmaras IP
+ - sistema videovigilância
+ - câmaras vigilância casa
+ - instalar câmaras segurança
+ - eletricista Trás-os-Montes
+ - CCTV residencial
+ - videovigilância preço
+ - câmaras IP
 priority: TRENDING
 ---
 
@@ -589,13 +589,13 @@ Neste guia completo, vou explicar:
 
 ** — eletricista com experiência**
 
-✅ Avaliação e orçamento grátis  
-✅ Instalação de sistemas IP, analógicos, híbridos  
-✅ Configuração de acesso remoto  
-✅ Passagem de cabos profissional  
-✅ Formação de utilização  
-✅ Suporte técnico  
-✅ Garantia 2 anos  
+✅ Avaliação e orçamento grátis 
+✅ Instalação de sistemas IP, analógicos, híbridos 
+✅ Configuração de acesso remoto 
+✅ Passagem de cabos profissional 
+✅ Formação de utilização 
+✅ Suporte técnico 
+✅ Garantia 2 anos 
 
 **📞 Ligue já: [932 321 892](tel:+351932321892)**
 
@@ -609,13 +609,13 @@ Neste guia completo, vou explicar:
 
 Um sistema de videovigilância:
 
-✅ **Reduz 60-70% risco de assalto** (efeito dissuasor)  
-✅ **Permite monitorizar remotamente** (via app)  
-✅ **Grava provas** (em caso de crime)  
-✅ **Aumenta sensação de segurança**  
-✅ **Valoriza a casa** (€1,000-3,000)  
+✅ **Reduz 60-70% risco de assalto** (efeito dissuasor) 
+✅ **Permite monitorizar remotamente** (via app) 
+✅ **Grava provas** (em caso de crime) 
+✅ **Aumenta sensação de segurança** 
+✅ **Valoriza a casa** (€1,000-3,000) 
 
-**Investimento:** €640-2,850 (4-8 câmaras)  
+**Investimento:** €640-2,850 (4-8 câmaras) 
 **Retorno:** Tranquilidade e proteção da família
 
 **👉 Quer proteger a sua casa?**

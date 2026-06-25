@@ -381,7 +381,7 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 ## Artigos Relacionados
 
 - [Disjuntor Dispara: Causas e Soluções](https://eletricista-urgente.pt/blog/disjuntor-dispara-noite-causas-solucoes)
-- [Fichas eletrotécnicas assinadas por técnico Profissional: Preços 2026](https://eletricista-urgente.pt/blog/preco-certificacao-certiel-2026)
+- [Fichas eletrotécnicas assinadas por técnico Profissional: Preços 2026](https://eletricista-urgente.pt/blog/preco-certificacao-certificação-2026)
 - [Urgência Elétrica: O Que Fazer](https://eletricista-urgente.pt/blog/urgencia-eletrica-o-que-fazer-antes)
 - [Eletricista vs Bricolagem](https://eletricista-urgente.pt/blog/eletricista-vs-bricolagem-quando-vale-pena)
 

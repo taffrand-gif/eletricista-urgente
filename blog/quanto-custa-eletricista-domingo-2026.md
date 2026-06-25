@@ -10,12 +10,12 @@ metaTitle: "Quanto Custa Eletricista Domingo 2026 | Preços Reais"
 metaDescription: "Eletricista domingo: 100€/h + deslocação. Sábado 90€/h. Dias úteis 70€/h. Preços 2026. Orçamento grátis. Ligue 932 321 892!"
 keywords: ["quanto custa eletricista domingo", "preço eletricista fim de semana", "eletricista domingo urgente", "eletricista sábado preço"]
 faqSchema:
-  - question: "Quanto custa eletricista ao domingo?"
-    answer: "95-100€/hora em horário normal (8h-20h) e 140-150€/hora em horário noturno (20h-8h). Mais deslocação 30-60€ conforme distância."
-  - question: "Eletricista domingo é mais caro que dias úteis?"
-    answer: "Sim, cerca de 40% mais caro. Dias úteis: 70€/h, Domingo: 95-100€/h. Diferença justificada por disponibilidade Atendimento 24h/7d."
-  - question: "Vale a pena chamar eletricista ao domingo?"
-    answer: "Sim para urgências reais: sem corrente, cheiro queimado, faíscas, disjuntor não liga. Não urgente pode esperar segunda-feira e poupar 25-30%."
+ - question: "Quanto custa eletricista ao domingo?"
+ answer: "95-100€/hora em horário normal (8h-20h) e 140-150€/hora em horário noturno (20h-8h). Mais deslocação 30-60€ conforme distância."
+ - question: "Eletricista domingo é mais caro que dias úteis?"
+ answer: "Sim, cerca de 40% mais caro. Dias úteis: 70€/h, Domingo: 95-100€/h. Diferença justificada por disponibilidade Atendimento 24h/7d."
+ - question: "Vale a pena chamar eletricista ao domingo?"
+ answer: "Sim para urgências reais: sem corrente, cheiro queimado, faíscas, disjuntor não liga. Não urgente pode esperar segunda-feira e poupar 25-30%."
 ---
 
 # Quanto Custa Chamar Eletricista Domingo 2026
@@ -206,7 +206,7 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 ## Artigos Relacionados
 
 - [Eletricista Atendimento 24h/7d: Guia Completo](https://eletricista-urgente.pt/blog/eletricista-24-horas-guia-completo)
-- [Fichas eletrotécnicas assinadas por técnico Profissional: Preços 2026](https://eletricista-urgente.pt/blog/preco-certificacao-certiel-2026)
+- [Fichas eletrotécnicas assinadas por técnico Profissional: Preços 2026](https://eletricista-urgente.pt/blog/preco-certificacao-certificação-2026)
 - [Urgência Elétrica: O Que Fazer](https://eletricista-urgente.pt/blog/urgencia-eletrica-o-que-fazer-antes)
 - [Eletricista vs Bricolagem: Quando Vale a Pena](https://eletricista-urgente.pt/blog/eletricista-vs-bricolagem-quando-vale-pena)
 
