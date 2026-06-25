@@ -13,7 +13,7 @@ priority: "HIGH DEMAND"
 
 **A sua lâmpada LED está a piscar, tremer ou fica a piscar mesmo apagada?** Este é um dos problemas mais comuns com iluminação LED e tem várias causas possíveis. Neste guia completo, vou mostrar-lhe **as 7 causas principais** de lâmpadas LED a piscar e **como resolver cada uma**.
 
-> ⚠️ **Problema elétrico grave?** Se várias lâmpadas piscam ou há cheiro a queimado, desligue o disjuntor e ligue já: **[932 321 892](tel:+351932321892)** — Eletricista certificado em Bragança Atendimento prioritário.
+> ⚠️ **Problema elétrico grave?** Se várias lâmpadas piscam ou há cheiro a queimado, desligue o disjuntor e ligue já: **[932 321 892](tel:+351932321892)** — eletricista com experiência em Bragança Atendimento prioritário.
 
 ## 🔍 Por Que as Lâmpadas LED Piscam?
 
@@ -177,7 +177,7 @@ Cabo muito longo ou fino causa queda de tensão. No fim do circuito, a tensão �
 - Deve ter 220-230V
 - Se < 210V, há queda de tensão excessiva
 
-**Requer eletricista certificado.**
+**Requer eletricista com experiência.**
 
 ### Causa 6: Problema no Driver da Lâmpada (5% dos casos)
 
@@ -335,9 +335,9 @@ Na maioria dos casos, lâmpadas LED a piscar têm **solução simples e barata**
 - Problema persiste após trocar lâmpada e interruptor
 - Não tem experiência com eletricidade
 
-### 🚨 Precisa de Eletricista Certificado em Trás-os-Montes?
+### 🚨 Precisa de eletricista com experiência em Trás-os-Montes?
 
-** — Eletricista Certificado em Bragança**
+** — eletricista com experiência em Bragança**
 
 📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20lâmpadas%20LED%20a%20piscar.%20Pode%20ajudar%3F)**

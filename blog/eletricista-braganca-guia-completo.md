@@ -24,7 +24,7 @@ Diagnóstico elétrico a partir de 90€, substituição de quadro elétrico a p
 
 ## Certificação elétrica em Bragança
 
-Se vai vender, comprar ou alugar um imóvel em Bragança, vai precisar de um certificado de exploração elétrica. Emitimos certificados reconhecidos pela DGEG, válidos para licenciamento, seguros e transações imobiliárias.
+Se vai vender, comprar ou alugar um imóvel em Bragança, vai precisar de um certificado de exploração elétrica. Emitimos certificados reconhecidos, válidos para licenciamento, seguros e transações imobiliárias.
 
 
 

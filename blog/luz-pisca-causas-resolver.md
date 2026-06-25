@@ -195,7 +195,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **Custo:** €200-500 (inspeção + arranjos)  
 **Tempo:** 4-8 horas  
-**Benefício:** Fichas eletrotécnicas assinadas por técnico certificado DGEG + segurança
+**Benefício:** Fichas eletrotécnicas assinadas por técnico Profissional + segurança
 
 ---
 
@@ -300,7 +300,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 |---------|-------|-----------|
 | Substituir todos interruptores (T3) | €300-500 | Segurança + estética |
 | Instalar disjuntor diferencial | €150-200 | Proteção choque |
-| Fichas eletrotécnicas assinadas por técnico certificado DGEG | €200-350 | Obrigatório venda |
+| Fichas eletrotécnicas assinadas por técnico Profissional | €200-350 | Obrigatório venda |
 
 ---
 
@@ -328,7 +328,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 ### 5. Inspeção Elétrica Regular
 - Casa com 20+ anos: inspeção a cada 5 anos
 - Após obras: inspeção obrigatória
-- Fichas eletrotécnicas assinadas por técnico certificado DGEG atualizada
+- Fichas eletrotécnicas assinadas por técnico Profissional atualizada
 
 ### 6. Proteja de Humidade
 - Interruptores em WC/cozinha: IP44 mínimo
@@ -359,7 +359,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ### 4. Posso substituir o interruptor eu mesmo?
 
-**Resposta:** **Legalmente NÃO** em Portugal. Trabalhos elétricos devem ser feitos por eletricista certificado com emissão de Fichas eletrotécnicas assinadas por técnico certificado DGEG. Além disso, é perigoso sem conhecimentos.
+**Resposta:** **Legalmente NÃO** em Portugal. Trabalhos elétricos devem ser feitos por eletricista com experiência com emissão de Fichas eletrotécnicas assinadas por técnico Profissional. Além disso, é perigoso sem conhecimentos.
 
 ### 5. Quanto tempo demora a arranjar luz que pisca?
 
@@ -375,14 +375,14 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 Luz a piscar pode ser desde um problema simples (lâmpada solta - €0) até grave (instalação defeituosa - risco de incêndio). A chave é **diagnosticar corretamente** e **não ignorar sinais de perigo**.
 
-**Regra de ouro:** Se após substituir lâmpada o problema persiste, ou se há sinais de perigo (calor, estalidos, cheiro), **chame eletricista certificado**.
+**Regra de ouro:** Se após substituir lâmpada o problema persiste, ou se há sinais de perigo (calor, estalidos, cheiro), **chame eletricista com experiência**.
 
 ### 📞 Precisa de Ajuda Profissional?
 
-**** - Eletricista Certificado em Trás-os-Montes  
+**** - eletricista com experiência em Trás-os-Montes  
 ✅ Diagnóstico grátis por telefone  
 ✅ Emergências 24h/7 dias  
-✅ Fichas eletrotécnicas assinadas por técnico certificado DGEG  
+✅ Fichas eletrotécnicas assinadas por técnico Profissional  
 ✅ Orçamento sem compromisso  
 ✅ Garantia de 2 anos  
 ✅ Técnico em menos de 2h (urgências)
@@ -399,4 +399,4 @@ Luz a piscar pode ser desde um problema simples (lâmpada solta - €0) até gra
 
 ---
 
-*Artigo escrito por eletricistas certificados com 15+ anos de experiência em Trás-os-Montes. Atualizado em Março 2026.*
+*Artigo escrito por eletricistas com experiência com 15+ anos de experiência em Trás-os-Montes. Atualizado em Março 2026.*
