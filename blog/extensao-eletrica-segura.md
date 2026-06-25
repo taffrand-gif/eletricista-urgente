@@ -23,7 +23,7 @@ Em Trás-os-Montes, onde muitas casas têm poucas tomadas (construções antigas
 - ✅ Sinais de perigo (sobrecarga, aquecimento)
 - ✅ Alternativas mais seguras
 
-**📞 Eletricista 24h:** [932 321 892](tel:+351932321892)  
+**📞 Eletricista 24h:** [932 321 892](tel:+351932321892) 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20ajuda%20com%20instalação%20elétrica!)
 
 ---
@@ -96,10 +96,10 @@ Em Trás-os-Montes, onde muitas casas têm poucas tomadas (construções antigas
 
 **Verifique MENSALMENTE:**
 
-✅ **Cabo:** Sem cortes, dobras, esmagamentos  
-✅ **Ficha:** Sem rachas, pinos tortos, queimaduras  
-✅ **Tomadas:** Sem deformação, derretimento  
-✅ **Cheiro:** Sem odor a queimado ou plástico  
+✅ **Cabo:** Sem cortes, dobras, esmagamentos 
+✅ **Ficha:** Sem rachas, pinos tortos, queimaduras 
+✅ **Tomadas:** Sem deformação, derretimento 
+✅ **Cheiro:** Sem odor a queimado ou plástico 
 
 **Se encontrar qualquer problema:** SUBSTITUA IMEDIATAMENTE. Não vale a pena arriscar por €15-20.
 
@@ -202,7 +202,7 @@ Em Trás-os-Montes, onde muitas casas têm poucas tomadas (construções antigas
 
 **Se usar extensão em bobina/carretel:**
 
-✅ **SEMPRE desenrole COMPLETAMENTE** antes de usar  
+✅ **SEMPRE desenrole COMPLETAMENTE** antes de usar 
 ❌ **NUNCA use enrolada**
 
 **Porquê:** Cabo enrolado cria campo magnético que aquece o cabo (efeito transformador). Pode derreter isolamento e causar incêndio.
@@ -405,15 +405,15 @@ Em Trás-os-Montes, onde muitas casas têm poucas tomadas (construções antigas
 
 ### 📞 Precisa de Instalar Tomadas Adicionais?
 
-**** - eletricista com experiência em Trás-os-Montes  
-✅ Instalação de tomadas adicionais  
-✅ Upgrade de quadro elétrico  
-✅ Fichas eletrotécnicas assinadas por técnico Profissional  
-✅ Orçamento grátis sem compromisso  
-✅ Garantia de 2 anos  
+**** - eletricista com experiência em Trás-os-Montes 
+✅ Instalação de tomadas adicionais 
+✅ Upgrade de quadro elétrico 
+✅ Fichas eletrotécnicas assinadas por técnico Profissional 
+✅ Orçamento grátis sem compromisso 
+✅ Garantia de 2 anos 
 
-**📞 Ligue Agora:** [932 321 892](tel:+351932321892)  
-**💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20instalar%20tomadas%20adicionais!)  
+**📞 Ligue Agora:** [932 321 892](tel:+351932321892) 
+**💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20instalar%20tomadas%20adicionais!) 
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
 **Servimos:** Bragança, Vila Real, Chaves, Mirandela, Trás-os-Montes e toda a região de Trás-os-Montes.

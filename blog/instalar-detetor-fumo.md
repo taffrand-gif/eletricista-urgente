@@ -6,13 +6,13 @@ date: 2026-03-04
 author: 
 excerpt: "Detetores de fumo salvam vidas — reduzem mortes em incêndios em 50%. Descubra os 3 tipos, onde instalar (7 locais essenciais), como testar, manutenção e requisitos legais em Portugal. Guia completo 2026."
 keywords: 
-  - detetor de fumo
-  - alarme de incêndio
-  - instalar detetor fumo
-  - eletricista Trás-os-Montes
-  - segurança contra incêndios
-  - detetor fumo obrigatório
-  - onde colocar detetor fumo
+ - detetor de fumo
+ - alarme de incêndio
+ - instalar detetor fumo
+ - eletricista Trás-os-Montes
+ - segurança contra incêndios
+ - detetor fumo obrigatório
+ - onde colocar detetor fumo
 priority: CRITICAL
 ---
 
@@ -558,11 +558,11 @@ Neste guia completo, vou mostrar-lhe:
 
 ** — eletricista com experiência**
 
-✅ Instalação de detetores de fumo e CO  
-✅ Sistemas interligados (wireless ou cabo)  
-✅ Manutenção e testes  
-✅ Consultoria de segurança  
-✅ Orçamento grátis sem compromisso  
+✅ Instalação de detetores de fumo e CO 
+✅ Sistemas interligados (wireless ou cabo) 
+✅ Manutenção e testes 
+✅ Consultoria de segurança 
+✅ Orçamento grátis sem compromisso 
 
 **📞 Ligue já: [932 321 892](tel:+351932321892)**
 
@@ -576,11 +576,11 @@ Neste guia completo, vou mostrar-lhe:
 
 Um detetor de fumo é o **investimento mais importante** que pode fazer para proteger a sua família:
 
-✅ **Reduz mortes em 50%** (estatística comprovada)  
-✅ **Custa apenas €15-50** (menos que jantar fora)  
-✅ **Instala Atendimento prioritário** (qualquer pessoa consegue)  
-✅ **Alerta nos primeiros 30-60 segundos** (tempo para escapar)  
-✅ **Funciona 24h/dia, 365 dias/ano**  
+✅ **Reduz mortes em 50%** (estatística comprovada) 
+✅ **Custa apenas €15-50** (menos que jantar fora) 
+✅ **Instala Atendimento prioritário** (qualquer pessoa consegue) 
+✅ **Alerta nos primeiros 30-60 segundos** (tempo para escapar) 
+✅ **Funciona 24h/dia, 365 dias/ano** 
 
 **Investimento mínimo:**
 - Casa T2: 3 detetores = **€45-105**

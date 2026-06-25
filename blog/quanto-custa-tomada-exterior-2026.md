@@ -374,7 +374,7 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 ## Artigos Relacionados
 
 - [Quanto Custa Quadro Elétrico 2026](https://eletricista-urgente.pt/blog/quanto-custa-quadro-fusiveis-2026)
-- [Fichas eletrotécnicas assinadas por técnico Profissional: Preços e Processo](https://eletricista-urgente.pt/blog/preco-certificacao-certiel-2026)
+- [Fichas eletrotécnicas assinadas por técnico Profissional: Preços e Processo](https://eletricista-urgente.pt/blog/preco-certificacao-certificação-2026)
 - [Eletricista vs Bricolagem: Quando Vale a Pena](https://eletricista-urgente.pt/blog/eletricista-vs-bricolagem-quando-vale-pena)
 - [Melhores Eletricistas Bragança](https://eletricista-urgente.pt/blog/melhores-eletricistas-braganca-2026)
 

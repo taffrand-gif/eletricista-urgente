@@ -15,7 +15,7 @@ priority: "HIGH DEMAND"
 
 Neste guia completo, vamos explicar **como identificar um fusível queimado**, os diferentes tipos de fusíveis, como trocar com segurança, as causas principais (sobrecarga 60%, curto-circuito 30%), e quando é hora de atualizar para disjuntores modernos.
 
-**📞 Fusível queima constantemente? Ligue já: [932 321 892](tel:+351932321892)**  
+**📞 Fusível queima constantemente? Ligue já: [932 321 892](tel:+351932321892)** 
 **💬 WhatsApp urgente: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20o%20fusível%20queimou%20e%20preciso%20de%20ajuda.)**
 
 ---
@@ -394,28 +394,28 @@ Um fusível é um **dispositivo de proteção** que:
 
 ## Perguntas Frequentes (FAQ)
 
-**1. Como sei que amperagem de fusível preciso?**  
+**1. Como sei que amperagem de fusível preciso?** 
 Verifique fusível queimado (amperagem marcada) ou etiqueta no quadro. Comum: 10A (iluminação), 16A (tomadas), 20-25A (aparelhos potentes).
 
-**2. Posso usar fusível de amperagem superior?**  
+**2. Posso usar fusível de amperagem superior?** 
 **NÃO!** Risco de incêndio. Cabo pode sobreaquecer sem proteção. Use sempre amperagem correta ou inferior.
 
-**3. Fusível queima constantemente. O que fazer?**  
+**3. Fusível queima constantemente. O que fazer?** 
 Indica problema no circuito (sobrecarga, curto-circuito, cabo danificado). Não continue substituindo. Chame eletricista.
 
-**4. Quanto custa trocar fusível?**  
+**4. Quanto custa trocar fusível?** 
 DIY: €1.50-5 (fusível). Profissional: €40-80 (chamada + fusível).
 
-**5. Fusível ou disjuntor: qual é melhor?**  
+**5. Fusível ou disjuntor: qual é melhor?** 
 Disjuntor é mais moderno, conveniente e seguro. Fusível é mais barato inicialmente mas requer substituição.
 
-**6. Posso trocar fusível sozinho?**  
+**6. Posso trocar fusível sozinho?** 
 Sim, se desligar eletricidade primeiro e usar amperagem correta. Se não se sentir confortável, chame eletricista.
 
-**7. Quanto custa atualizar de fusíveis para disjuntores?**  
+**7. Quanto custa atualizar de fusíveis para disjuntores?** 
 €200-600 (substituir fusíveis por disjuntores) ou €400-1.200 (quadro completo novo).
 
-**8. Fusível queimou à noite. O que fazer?**  
+**8. Fusível queimou à noite. O que fazer?** 
 Desligue aparelhos do circuito afetado. Se tiver fusível sobressalente, substitua (com eletricidade desligada). Caso contrário, aguarde até manhã ou chame eletricista de urgência.
 
 ---

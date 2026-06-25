@@ -10,20 +10,20 @@ metaTitle: "Eletricista 24h Trás-os-Montes | Urgências"
 metaDescription: "Eletricista 24h em Trás-os-Montes. Bragança 15-40min, Mirandela 35-70min. Preços: 70-150€/h. Urgências reais. Ligue 932 321 892!"
 keywords: ["eletricista Atendimento 24h/7d", "urgência elétrica noite", "eletricista urgente trás-os-montes", "eletricista domingo noite"]
 schema:
-  type: "HowTo"
-  name: "Como Chamar Eletricista Atendimento 24h/7d em Urgência"
-  description: "Guia passo a passo para chamar eletricista Atendimento 24h/7d em caso de urgência elétrica"
-  totalTime: "PT15M"
-  estimatedCost:
-    currency: "EUR"
-    value: "70-150"
+ type: "HowTo"
+ name: "Como Chamar Eletricista Atendimento 24h/7d em Urgência"
+ description: "Guia passo a passo para chamar eletricista Atendimento 24h/7d em caso de urgência elétrica"
+ totalTime: "PT15M"
+ estimatedCost:
+ currency: "EUR"
+ value: "70-150"
 faqSchema:
-  - question: "Quanto tempo demora eletricista 24h a chegar?"
-    answer: "15-40 minutos em Bragança, 30-70 minutos em Mirandela, até 90 minutos em zonas mais afastadas de Trás-os-Montes."
-  - question: "Quanto custa eletricista Atendimento 24h/7d?"
-    answer: "Dias úteis: 70€/h, Sábados: 85€/h, Domingos/feriados: 95€/h, Noite (20h-8h): 140€/h. Mais deslocação 30-60€."
-  - question: "Eletricista 24h trabalha feriados?"
-    answer: "Sim, 365 dias por ano incluindo Natal, Ano Novo e todos os feriados. Preços iguais a domingos."
+ - question: "Quanto tempo demora eletricista 24h a chegar?"
+ answer: "15-40 minutos em Bragança, 30-70 minutos em Mirandela, até 90 minutos em zonas mais afastadas de Trás-os-Montes."
+ - question: "Quanto custa eletricista Atendimento 24h/7d?"
+ answer: "Dias úteis: 70€/h, Sábados: 85€/h, Domingos/feriados: 95€/h, Noite (20h-8h): 140€/h. Mais deslocação 30-60€."
+ - question: "Eletricista 24h trabalha feriados?"
+ answer: "Sim, 365 dias por ano incluindo Natal, Ano Novo e todos os feriados. Preços iguais a domingos."
 ---
 
 # Eletricista Atendimento 24h/7d Trás-os-Montes: Guia Completo
@@ -405,7 +405,7 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 
 - [Quanto Custa Eletricista Domingo 2026](https://eletricista-urgente.pt/blog/quanto-custa-eletricista-domingo-2026)
 - [Urgência Elétrica: O Que Fazer Antes](https://eletricista-urgente.pt/blog/urgencia-eletrica-o-que-fazer-antes)
-- [Fichas eletrotécnicas assinadas por técnico Profissional: Preços e Processo](https://eletricista-urgente.pt/blog/preco-certificacao-certiel-2026)
+- [Fichas eletrotécnicas assinadas por técnico Profissional: Preços e Processo](https://eletricista-urgente.pt/blog/preco-certificacao-certificação-2026)
 - [Melhores Eletricistas Bragança](https://eletricista-urgente.pt/blog/melhores-eletricistas-braganca-2026)
 
 ## Precisa de Eletricista Urgente?

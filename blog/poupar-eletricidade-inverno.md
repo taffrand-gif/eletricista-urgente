@@ -15,7 +15,7 @@ priority: "SEASONAL"
 
 Neste guia completo, vamos partilhar **15 dicas comprovadas** para reduzir o consumo elétrico no inverno, poupando **€200-400 por ano** sem sacrificar o conforto. Com mais de 15 anos de experiência em eficiência energética na região de Bragança, ajudámos centenas de famílias a reduzir faturas em 30-50%.
 
-**📞 Quer reduzir fatura elétrica? Ligue já: [932 321 892](tel:+351932321892)**  
+**📞 Quer reduzir fatura elétrica? Ligue já: [932 321 892](tel:+351932321892)** 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20reduzir%20a%20minha%20fatura%20de%20eletricidade.%20Podem%20ajudar%3F)**
 
 ---
@@ -430,28 +430,28 @@ Neste guia completo, vamos partilhar **15 dicas comprovadas** para reduzir o con
 
 ## Perguntas Frequentes (FAQ)
 
-**1. Quanto posso poupar no inverno?**  
+**1. Quanto posso poupar no inverno?** 
 €200-600/ano com medidas simples (LED, standby, hábitos). €500-1.500/ano com investimentos (bomba calor, isolamento).
 
-**2. Qual a medida mais eficaz?**  
+**2. Qual a medida mais eficaz?** 
 Substituir lâmpadas por LED: retorno em 2-4 meses, poupança €300-600/ano.
 
-**3. Vale a pena bomba de calor em Trás-os-Montes?**  
+**3. Vale a pena bomba de calor em Trás-os-Montes?** 
 Sim. Poupa 60-70% vs aquecedor elétrico. Retorno em 3-5 anos. Funciona até -15°C (modelos modernos).
 
-**4. Tarifa bi-horária compensa?**  
+**4. Tarifa bi-horária compensa?** 
 Sim, se >40% consumo em vazio (22h-8h). Poupança: €100-200/ano.
 
-**5. Quanto custa isolamento térmico?**  
+**5. Quanto custa isolamento térmico?** 
 ETICS: €40-80/m². Casa 100m²: €4.000-8.000. Poupança: €300-600/ano. Retorno: 7-13 anos.
 
-**6. Painéis solares compensam no inverno?**  
+**6. Painéis solares compensam no inverno?** 
 Sim, mas produzem 40-60% menos que verão. Retorno: 6-10 anos. Apoios disponíveis (até 85%).
 
-**7. Como reduzir fatura imediatamente?**  
+**7. Como reduzir fatura imediatamente?** 
 Substitua lâmpadas por LED (€100-200), desligue standby (€0), baixe temperatura 2-3°C (€0). Poupança imediata: €50-100/mês.
 
-**8. Eletricista pode ajudar a poupar?**  
+**8. Eletricista pode ajudar a poupar?** 
 Sim. Auditoria energética (€80-150) identifica desperdícios. Instalação de sistemas eficientes, otimização de circuitos.
 
 ---

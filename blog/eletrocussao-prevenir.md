@@ -352,7 +352,7 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 **Disjuntor diferencial 30mA**: €50-150
 **Terra instalação**: €200-800 (se não existe)
 **Tomadas terra**: €15-30/unidade
-**Inspeção DGEG**: €150-300
+**Inspeção **: €150-300
 
 **Total instalação segura**: €500-1,500
 
@@ -383,7 +383,7 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 - Decreto-Lei 226/2005
 - Atualizado regularmente
 - Obrigatório cumprimento
-- Fiscalização DGEG
+- Fiscalização 
 
 ### Disjuntor Diferencial
 
@@ -393,7 +393,7 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 - Tempo disparo <0.03s
 - Teste mensal
 
-### Inspeção DGEG
+### Inspeção 
 
 **Obrigatória**:
 - Instalações >50m²

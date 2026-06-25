@@ -15,7 +15,7 @@ priority: "SEASONAL"
 
 Neste guia completo, vamos explicar **como escolher a ventoinha adequada**, instalação segura passo a passo, custos reais, normas elétricas obrigatórias, e quando chamar um eletricista com experiência.
 
-**📞 Quer instalar ventoinha de teto? Ligue já: [932 321 892](tel:+351932321892)**  
+**📞 Quer instalar ventoinha de teto? Ligue já: [932 321 892](tel:+351932321892)** 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20uma%20ventoinha%20de%20teto.%20Podem%20ajudar%3F)**
 
 ---
@@ -412,28 +412,28 @@ Neste guia completo, vamos explicar **como escolher a ventoinha adequada**, inst
 
 ## Perguntas Frequentes (FAQ)
 
-**1. Posso instalar ventoinha sozinho?**  
+**1. Posso instalar ventoinha sozinho?** 
 Tecnicamente sim, mas não recomendado. Requer conhecimento elétrico e estrutural. Instalação incorreta pode causar queda ou choque elétrico.
 
-**2. Quanto consome uma ventoinha de teto?**  
+**2. Quanto consome uma ventoinha de teto?** 
 Motor AC: 40-75W. Motor DC: 15-30W. Custo: €0.01-0.05/hora (vs €0.20-0.50/hora AC).
 
-**3. Ventoinha refresca mesmo?**  
+**3. Ventoinha refresca mesmo?** 
 Não baixa temperatura real, mas cria sensação de -3°C a -5°C através da brisa. Suficiente para conforto em dias moderados.
 
-**4. Quanto custa instalar ventoinha em Bragança?**  
+**4. Quanto custa instalar ventoinha em Bragança?** 
 DIY: €90-220 (materiais). Profissional: €150-350 (completo com instalação).
 
-**5. Posso instalar em teto de gesso cartonado?**  
+**5. Posso instalar em teto de gesso cartonado?** 
 Sim, mas precisa fixar em viga ou instalar reforço estrutural. Não fixe diretamente no gesso (cai).
 
-**6. Ventoinha faz barulho. É normal?**  
+**6. Ventoinha faz barulho. É normal?** 
 Não. Ventoinha moderna deve ser silenciosa (20-40 dB). Barulho indica pás desalinhadas, parafusos soltos, ou motor defeituoso.
 
-**7. Quanto tempo demora instalação?**  
+**7. Quanto tempo demora instalação?** 
 DIY: 2-4 horas. Profissional: 1-2 horas (simples) ou 3-5 horas (complexa).
 
-**8. Preciso de certificação?**  
+**8. Preciso de certificação?** 
 Não obrigatório para substituir luminária por ventoinha. Mas recomendado para seguro e conformidade.
 
 ---

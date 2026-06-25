@@ -25,7 +25,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 **⚠️ AVISO:** Instalação elétrica deve ser feita por eletricista com experiência. Este guia é informativo.
 
-**📞 eletricista com experiência:** [932 321 892](tel:+351932321892)  
+**📞 eletricista com experiência:** [932 321 892](tel:+351932321892) 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20instalar%20placa%20de%20indução!)
 
 ---
@@ -262,7 +262,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 **Certificação:**
 - Termo de Responsabilidade
 - Fichas eletrotécnicas assinadas por técnico Profissional
-- Registo na DGEG
+- Registo na 
 
 **Custo certificação:** €150-250 (incluído em instalação profissional)
 
@@ -316,40 +316,40 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 ### 1. Usar Disjuntor Diferencial Tipo AC ❌
 
-**Erro:** Instalar diferencial tipo AC (standard)  
-**Problema:** Não protege contra choque com placa indução  
+**Erro:** Instalar diferencial tipo AC (standard) 
+**Problema:** Não protege contra choque com placa indução 
 **Solução:** SEMPRE usar tipo A (obrigatório)
 
 ---
 
 ### 2. Cabo Subdimensionado ❌
 
-**Erro:** Usar cabo 1,5mm² para placa 7,4 kW  
-**Problema:** Cabo aquece, risco de incêndio  
+**Erro:** Usar cabo 1,5mm² para placa 7,4 kW 
+**Problema:** Cabo aquece, risco de incêndio 
 **Solução:** Seguir tabela (6mm² para 7,4 kW)
 
 ---
 
 ### 3. Ligar em Tomada Normal ❌
 
-**Erro:** Ligar placa 6 kW em tomada Schuko (16A)  
-**Problema:** Sobrecarga, tomada derrete  
+**Erro:** Ligar placa 6 kW em tomada Schuko (16A) 
+**Problema:** Sobrecarga, tomada derrete 
 **Solução:** Circuito dedicado + ligação fixa
 
 ---
 
 ### 4. Não Certificar ❌
 
-**Erro:** Instalar sem Fichas eletrotécnicas assinadas por técnico Profissional  
-**Problema:** Ilegal, multa €500-3.740, seguro não cobre  
+**Erro:** Instalar sem Fichas eletrotécnicas assinadas por técnico Profissional 
+**Problema:** Ilegal, multa €500-3.740, seguro não cobre 
 **Solução:** SEMPRE certificar (obrigatório)
 
 ---
 
 ### 5. DIY Sem Conhecimentos ❌
 
-**Erro:** Instalar sozinho sem experiência  
-**Problema:** Risco de choque fatal, incêndio  
+**Erro:** Instalar sozinho sem experiência 
+**Problema:** Risco de choque fatal, incêndio 
 **Solução:** Chamar eletricista com experiência
 
 ---
@@ -434,16 +434,16 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 ### 📞 Precisa de Instalar Placa de Indução?
 
-**** - eletricista com experiência em Trás-os-Montes  
-✅ Especialistas em placas de indução  
-✅ Avaliação gratuita (potência necessária)  
-✅ Instalação completa + Fichas eletrotécnicas assinadas por técnico Profissional  
-✅ Upgrade de quadro elétrico  
-✅ Orçamento sem compromisso  
-✅ Garantia de 2 anos  
+**** - eletricista com experiência em Trás-os-Montes 
+✅ Especialistas em placas de indução 
+✅ Avaliação gratuita (potência necessária) 
+✅ Instalação completa + Fichas eletrotécnicas assinadas por técnico Profissional 
+✅ Upgrade de quadro elétrico 
+✅ Orçamento sem compromisso 
+✅ Garantia de 2 anos 
 
-**📞 Ligue Agora:** [932 321 892](tel:+351932321892)  
-**💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20instalar%20placa%20de%20indução!)  
+**📞 Ligue Agora:** [932 321 892](tel:+351932321892) 
+**💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20instalar%20placa%20de%20indução!) 
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
 **Servimos:** Bragança, Vila Real, Chaves, Mirandela, Trás-os-Montes e toda a região de Trás-os-Montes.

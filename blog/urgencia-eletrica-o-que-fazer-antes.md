@@ -10,17 +10,17 @@ metaTitle: "Urgência Elétrica: O Que Fazer Antes | Guia"
 metaDescription: "Urgência elétrica: desligue quadro, não toque água, documente problema. 8 erros fatais evitar. Resposta rápida garantida-90min. Ligue 932 321 892!"
 keywords: ["urgência elétrica o que fazer", "como cortar corrente casa", "emergência elétrica", "cheiro queimado eletricidade"]
 schema:
-  type: "HowTo"
-  name: "O Que Fazer em Urgência Elétrica Antes do Eletricista Chegar"
-  description: "Guia passo a passo de segurança para agir corretamente em urgência elétrica"
-  totalTime: "PT5M"
+ type: "HowTo"
+ name: "O Que Fazer em Urgência Elétrica Antes do Eletricista Chegar"
+ description: "Guia passo a passo de segurança para agir corretamente em urgência elétrica"
+ totalTime: "PT5M"
 faqSchema:
-  - question: "O que fazer primeiro em urgência elétrica?"
-    answer: "Avaliar perigo (cheiro queimado, fumo, faíscas, água). Se houver perigo extremo, desligar quadro elétrico imediatamente e evacuar. Nunca tocar em água ou equipamentos molhados."
-  - question: "Como desligar corrente em emergência?"
-    answer: "Desligar disjuntor geral no quadro elétrico. Usar mãos secas, não tocar partes metálicas, desligar de baixo para cima. Se quadro inacessível, chamar bombeiros."
-  - question: "Posso usar água em incêndio elétrico?"
-    answer: "NÃO! Nunca usar água em incêndio elétrico. Usar extintor CO2 ou pó químico. Se não tiver, desligar corrente e evacuar."
+ - question: "O que fazer primeiro em urgência elétrica?"
+ answer: "Avaliar perigo (cheiro queimado, fumo, faíscas, água). Se houver perigo extremo, desligar quadro elétrico imediatamente e evacuar. Nunca tocar em água ou equipamentos molhados."
+ - question: "Como desligar corrente em emergência?"
+ answer: "Desligar disjuntor geral no quadro elétrico. Usar mãos secas, não tocar partes metálicas, desligar de baixo para cima. Se quadro inacessível, chamar bombeiros."
+ - question: "Posso usar água em incêndio elétrico?"
+ answer: "NÃO! Nunca usar água em incêndio elétrico. Usar extintor CO2 ou pó químico. Se não tiver, desligar corrente e evacuar."
 ---
 
 # Urgência Elétrica: O Que Fazer Antes Eletricista Chegar

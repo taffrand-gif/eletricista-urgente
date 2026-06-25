@@ -51,9 +51,9 @@ priority: "TRENDING"
 - Retorno: 4-10 meses
 
 **Benefícios adicionais:**
-✅ Duram 15.000-50.000 horas (10-25 anos)  
-✅ Não aquecem  
-✅ Acendem instantaneamente  
+✅ Duram 15.000-50.000 horas (10-25 anos) 
+✅ Não aquecem 
+✅ Acendem instantaneamente 
 ✅ Variedade de cores (2700K-6500K)
 
 ### Dica 2: Use Sensores de Movimento
@@ -71,7 +71,7 @@ priority: "TRENDING"
 - Reduz consumo em 50-70%
 - Segurança (luz automática)
 
-**Custo:** €15-40 por sensor  
+**Custo:** €15-40 por sensor 
 **Instalação:** DIY ou eletricista (€40-80)
 
 ### Dica 3: Aproveite Luz Natural
@@ -124,7 +124,7 @@ priority: "TRENDING"
 - Filme isolante para janelas (€20-50)
 - Tapar frestas com silicone (€3-8)
 
-**Investimento:** €50-200  
+**Investimento:** €50-200 
 **Retorno:** 2-6 meses
 
 **Teste simples:** Passe vela acesa perto de portas/janelas. Se chama tremer = há corrente de ar.
@@ -343,7 +343,7 @@ Identifique aparelhos que consomem mais e ajuste uso.
 5. Lave roupa a frio
 6. Desligue aparelhos não usados
 
-**Investimento: €0**  
+**Investimento: €0** 
 **Poupança: €30-50/mês**
 
 ### Mês 2-3: Investimentos Pequenos (€40-70/mês)
@@ -353,8 +353,8 @@ Identifique aparelhos que consomem mais e ajuste uso.
 3. Réguas com interruptor (€30-80)
 4. Medidor de consumo (€15-40)
 
-**Investimento: €145-470**  
-**Poupança adicional: €10-20/mês**  
+**Investimento: €145-470** 
+**Poupança adicional: €10-20/mês** 
 **Retorno: 7-24 meses**
 
 ### Mês 4-12: Investimentos Médios (€60-100/mês)
@@ -364,8 +364,8 @@ Identifique aparelhos que consomem mais e ajuste uso.
 3. Auditoria elétrica (€80-150)
 4. Protetor sobretensão (€120-250)
 
-**Investimento: €290-710**  
-**Poupança adicional: €20-30/mês**  
+**Investimento: €290-710** 
+**Poupança adicional: €20-30/mês** 
 **Retorno: 10-36 meses**
 
 ### Ano 2-5: Investimentos Grandes (€100-200/mês)
@@ -374,8 +374,8 @@ Identifique aparelhos que consomem mais e ajuste uso.
 2. Painéis solares (€4.000-10.000)
 3. Isolamento térmico (€1.000-5.000)
 
-**Investimento: €5.500-18.000**  
-**Poupança adicional: €40-100/mês**  
+**Investimento: €5.500-18.000** 
+**Poupança adicional: €40-100/mês** 
 **Retorno: 3-10 anos**
 
 ## ❓ Perguntas Frequentes
@@ -435,15 +435,15 @@ Poupar eletricidade não é difícil e **compensa financeiramente**:
 
 ** — eletricista com experiência em Bragança**
 
-📞 **Ligue agora: [932 321 892](tel:+351932321892)**  
+📞 **Ligue agora: [932 321 892](tel:+351932321892)** 
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20reduzir%20o%20consumo%20elétrico.%20Pode%20ajudar%3F)**
 
-✅ Auditoria energética completa  
-✅ Identificação de desperdícios  
-✅ Soluções de eficiência personalizadas  
-✅ Instalação de LED, sensores, proteção  
-✅ Consultoria para painéis solares  
-✅ Orçamento grátis sem compromisso  
+✅ Auditoria energética completa 
+✅ Identificação de desperdícios 
+✅ Soluções de eficiência personalizadas 
+✅ Instalação de LED, sensores, proteção 
+✅ Consultoria para painéis solares 
+✅ Orçamento grátis sem compromisso 
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Reduza a conta da luz até 50%!** Contacte-nos já para auditoria e soluções personalizadas.

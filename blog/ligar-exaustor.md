@@ -15,7 +15,7 @@ priority: "HIGH DEMAND"
 
 Neste guia completo, vamos explicar **como escolher o exaustor adequado**, ligação elétrica passo a passo, instalação do tubo de extração, custos reais, e quando chamar um eletricista com experiência. Com mais de 15 anos de experiência em instalações elétricas na região de Bragança, já instalámos centenas de exaustores.
 
-**📞 Quer instalar exaustor? Ligue já: [932 321 892](tel:+351932321892)**  
+**📞 Quer instalar exaustor? Ligue já: [932 321 892](tel:+351932321892)** 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20um%20exaustor.%20Podem%20ajudar%3F)**
 
 ---
@@ -420,28 +420,28 @@ Quadro → Interruptor → Exaustor
 
 ## Perguntas Frequentes (FAQ)
 
-**1. Quanto custa instalar exaustor?**  
+**1. Quanto custa instalar exaustor?** 
 DIY: €85-800 (materiais). Profissional: €150-500 (completo com instalação).
 
-**2. Posso instalar exaustor sozinho?**  
+**2. Posso instalar exaustor sozinho?** 
 Possível se tiver conhecimento elétrico básico. Fazer furo na parede requer berbequim potente.
 
-**3. Exaustor consome muita eletricidade?**  
+**3. Exaustor consome muita eletricidade?** 
 Não. 15-100W. Custo: €4-20/ano (uso 2h/dia).
 
-**4. Preciso de eletricista para instalar exaustor?**  
+**4. Preciso de eletricista para instalar exaustor?** 
 Recomendado para ligação elétrica segura e conforme normas. DIY possível se conhecimento.
 
-**5. Quanto tempo demora instalação?**  
+**5. Quanto tempo demora instalação?** 
 DIY: 3-6 horas. Profissional: 2-4 horas.
 
-**6. Exaustor elimina humidade completamente?**  
+**6. Exaustor elimina humidade completamente?** 
 Reduz significativamente (70-90%) mas não elimina 100%. Combine com ventilação natural.
 
-**7. Posso ligar exaustor à luz?**  
+**7. Posso ligar exaustor à luz?** 
 Sim, em paralelo. Liga/desliga com luz. Ou instale interruptor separado (mais controlo).
 
-**8. Tubo flexível ou rígido?**  
+**8. Tubo flexível ou rígido?** 
 Rígido: mais eficaz, menos ruído. Flexível: mais fácil instalar. Recomendação: rígido se possível.
 
 ---

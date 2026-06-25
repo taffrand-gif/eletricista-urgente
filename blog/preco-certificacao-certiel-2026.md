@@ -1,29 +1,29 @@
 ---
 title: "Preço Fichas eletrotécnicas assinadas por técnico Profissional 2026 Trás-os-Montes"
-slug: "preco-certificacao-certiel-2026"
+slug: "preco-certificacao-certificação-2026"
 date: "2026-03-08"
 author: ""
 category: "Certificação"
 excerpt: "Guia completo sobre preços de Fichas eletrotécnicas assinadas por técnico Profissional em 2026. Quanto custa, quando é obrigatória, processo completo e prazos."
-image: "/images-optimized/blog/blog-certificacao-certiel.webp"
+image: "/images-optimized/blog/blog-certificacao-certificação.webp"
 metaTitle: "Preço Fichas eletrotécnicas assinadas por técnico Profissional 2026 | Guia Completo"
 metaDescription: "Fichas eletrotécnicas assinadas por técnico Profissional: T1-T2 200€, T3-T4 280€, T4+ 350€. Obrigatória venda/arrendamento. Prazo 2-5 dias. Ligue 932 321 892!"
-keywords: ["preço Fichas eletrotécnicas assinadas por técnico Profissional", "quanto custa certiel", "certificação elétrica obrigatória", "certiel trás-os-montes"]
+keywords: ["preço Fichas eletrotécnicas assinadas por técnico Profissional", "quanto custa certificação", "certificação elétrica obrigatória", "certificação trás-os-montes"]
 schema:
-  type: "HowTo"
-  name: "Como Obter Fichas eletrotécnicas assinadas por técnico Profissional"
-  description: "Processo completo para obter certificação elétrica em Portugal"
-  totalTime: "P3D"
-  estimatedCost:
-    currency: "EUR"
-    value: "200-350"
+ type: "HowTo"
+ name: "Como Obter Fichas eletrotécnicas assinadas por técnico Profissional"
+ description: "Processo completo para obter certificação elétrica em Portugal"
+ totalTime: "P3D"
+ estimatedCost:
+ currency: "EUR"
+ value: "200-350"
 faqSchema:
-  - question: "Quanto custa Fichas eletrotécnicas assinadas por técnico Profissional?"
-    answer: "T1-T2: 200-250€, T3-T4: 280-320€, T4+: 350-400€. Inclui inspeção, termo responsabilidade e emissão certificado. Sem IVA."
-  - question: "Quanto tempo demora Fichas eletrotécnicas assinadas por técnico Profissional?"
-    answer: "2-3 dias úteis se instalação conforme. 5-7 dias se precisar correções pequenas. 7-10 dias se correções grandes."
-  - question: "Fichas eletrotécnicas assinadas por técnico Profissional é obrigatória?"
-    answer: "Sim para venda, arrendamento, instalação nova ou alteração >50%. Obrigatório por lei DL 226/2005. Multa até 3740€."
+ - question: "Quanto custa Fichas eletrotécnicas assinadas por técnico Profissional?"
+ answer: "T1-T2: 200-250€, T3-T4: 280-320€, T4+: 350-400€. Inclui inspeção, termo responsabilidade e emissão certificado. Sem IVA."
+ - question: "Quanto tempo demora Fichas eletrotécnicas assinadas por técnico Profissional?"
+ answer: "2-3 dias úteis se instalação conforme. 5-7 dias se precisar correções pequenas. 7-10 dias se correções grandes."
+ - question: "Fichas eletrotécnicas assinadas por técnico Profissional é obrigatória?"
+ answer: "Sim para venda, arrendamento, instalação nova ou alteração >50%. Obrigatório por lei DL 226/2005. Multa até 3740€."
 ---
 
 # Preço Fichas eletrotécnicas assinadas por técnico Profissional 2026 Trás-os-Montes
@@ -32,7 +32,7 @@ A Fichas eletrotécnicas assinadas por técnico Profissional é obrigatória por
 
 ## O Que É a Fichas eletrotécnicas assinadas por técnico Profissional?
 
-**DGEG** (Associação Certificadora de Instalações Elétricas) é a entidade responsável por certificar que as instalações elétricas cumprem as **Regras Técnicas das Instalações Elétricas de Baixa Tensão (RTIEBT)**.
+**** (Associação Certificadora de Instalações Elétricas) é a entidade responsável por certificar que as instalações elétricas cumprem as **Regras Técnicas das Instalações Elétricas de Baixa Tensão (RTIEBT)**.
 
 ### Porquê Existe?
 
@@ -175,7 +175,7 @@ A Fichas eletrotécnicas assinadas por técnico Profissional é obrigatória por
 
 **Processo:**
 1. Eletricista preenche Termo de Responsabilidade
-2. Envia documentação para DGEG
+2. Envia documentação para 
 3. valida e emite certificado
 4. Certificado enviado por email + correio
 
@@ -192,7 +192,7 @@ A Fichas eletrotécnicas assinadas por técnico Profissional é obrigatória por
 - Dados imóvel e proprietário
 - Data emissão e validade
 - Assinatura eletricista com experiência
-- Carimbo DGEG
+- Carimbo 
 
 ### 2. Termo de Responsabilidade
 - Declaração eletricista
@@ -205,7 +205,7 @@ A Fichas eletrotécnicas assinadas por técnico Profissional é obrigatória por
 - Esquema unifilar (se aplicável)
 - Observações técnicas
 
-### 4. Comprovativo Registo DGEG
+### 4. Comprovativo Registo 
 - Registo na base dados nacional
 - Consultável online
 - Válido para todo território nacional
@@ -338,7 +338,7 @@ Se sabe que tem problemas (ex: falta diferencial), corrija antes da inspeção. 
 - Refazer ligação terra: 180-250€
 
 ### 4. Posso certificar eu mesmo?
-**Não.** Apenas eletricistas com experiência podem emitir certificados. Lista disponível em certiel.pt.
+**Não.** Apenas eletricistas com experiência podem emitir certificados. Lista disponível em certificação.pt.
 
 ### 5. O que acontece se não tiver certificado?
 **Venda:** Escritura bloqueada

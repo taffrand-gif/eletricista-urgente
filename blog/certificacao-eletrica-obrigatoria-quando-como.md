@@ -8,14 +8,14 @@ excerpt: "Guia completo sobre certificação elétrica obrigatória em Portugal.
 image: "/images-optimized/blog/blog-certificacao-obrigatoria.webp"
 metaTitle: "Certificação Elétrica Obrigatória 2026 | Lei"
 metaDescription: "Certificação elétrica obrigatória: venda, arrendamento, instalação nova. DL 226/2005. Multa até 3740€. Prazo 2-5 dias. Ligue 932 321 892!"
-keywords: ["certificação elétrica obrigatória", "certiel obrigatório quando", "lei certificação elétrica", "dl 226/2005"]
+keywords: ["certificação elétrica obrigatória", "certificação obrigatório quando", "lei certificação elétrica", "dl 226/2005"]
 faqSchema:
-  - question: "Quando é obrigatória certificação elétrica?"
-    answer: "Obrigatória em venda, arrendamento, instalação nova, alteração >50% instalação, aumento potência >20%. Lei DL 226/2005."
-  - question: "O que acontece se não tiver certificação elétrica?"
-    answer: "Venda bloqueada, arrendamento inválido, multa 1250-3740€, seguro pode não cobrir sinistros, responsabilidade civil em acidentes."
-  - question: "Certificação elétrica antiga é válida?"
-    answer: "Sim se <10 anos e instalação não foi alterada. Se >10 anos ou houve alterações, precisa nova certificação."
+ - question: "Quando é obrigatória certificação elétrica?"
+ answer: "Obrigatória em venda, arrendamento, instalação nova, alteração >50% instalação, aumento potência >20%. Lei DL 226/2005."
+ - question: "O que acontece se não tiver certificação elétrica?"
+ answer: "Venda bloqueada, arrendamento inválido, multa 1250-3740€, seguro pode não cobrir sinistros, responsabilidade civil em acidentes."
+ - question: "Certificação elétrica antiga é válida?"
+ answer: "Sim se <10 anos e instalação não foi alterada. Se >10 anos ou houve alterações, precisa nova certificação."
 ---
 
 # Certificação Elétrica Obrigatória: Guia Completo 2026
@@ -30,7 +30,7 @@ A certificação elétrica é obrigatória por lei em Portugal desde 2006. Este 
 "Estabelece as regras de segurança das instalações elétricas de baixa tensão."
 
 **Artigo 18º - Certificação:**
-"Todas as instalações elétricas devem ser certificadas por entidade certificadora reconhecida (DGEG)."
+"Todas as instalações elétricas devem ser certificadas por entidade certificadora reconhecida ."
 
 **Artigo 19º - Obrigatoriedade:**
 Certificação obrigatória para:
@@ -45,7 +45,7 @@ Certificação obrigatória para:
 - Contraordenação grave: 3740-44.890€
 - Contraordenação muito grave: 44.890-220.000€
 
-### Entidade Certificadora: DGEG
+### Entidade Certificadora: 
 
 **O que é:**
 Associação Certificadora de Instalações Elétricas, reconhecida (Direção Geral Energia e Geologia).
@@ -56,7 +56,7 @@ Associação Certificadora de Instalações Elétricas, reconhecida (Direção G
 - Manter base dados nacional
 - Fiscalizar conformidade
 
-**Website:** certiel.pt
+**Website:** certificação.pt
 
 ## Quando É Obrigatória (8 Situações)
 
@@ -220,7 +220,7 @@ Instalação com +20 anos sem certificado.
 ### PASSO 1: Contactar eletricista com experiência (Dia 0)
 
 **Como encontrar:**
-- Consultar lista em certiel.pt
+- Consultar lista em certificação.pt
 - Pedir recomendações
 - Verificar certificação válida
 
@@ -313,7 +313,7 @@ Instalação com +20 anos sem certificado.
 3. Anexa resultados testes
 4. Envia para online
 
-**DGEG:**
+**:**
 1. Valida documentação (1-2 dias)
 2. Emite certificado
 3. Regista base dados nacional
@@ -332,7 +332,7 @@ Instalação com +20 anos sem certificado.
 - Termo Responsabilidade eletricista
 - Relatório inspeção com fotografias
 - Resultados testes elétricos
-- Comprovativo registo DGEG
+- Comprovativo registo 
 
 **Guardar:**
 Documentos importantes para venda/arrendamento futuro.
@@ -434,7 +434,7 @@ Documentos importantes para venda/arrendamento futuro.
 **3-5 dias úteis** se instalação conforme. **7-12 dias** se precisa correções.
 
 ### 5. Posso certificar eu mesmo?
-**Não.** Só eletricistas com experiência podem emitir certificados. Lista em certiel.pt.
+**Não.** Só eletricistas com experiência podem emitir certificados. Lista em certificação.pt.
 
 ### 6. O que acontece se não certificar?
 **Venda:** Bloqueada. **Arrendamento:** Inválido. **Multa:** 250-3740€. **Seguro:** Não cobre.

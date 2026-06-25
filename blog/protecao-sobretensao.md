@@ -15,7 +15,7 @@ priority: "HIGH DEMAND"
 
 Neste guia completo, vamos explicar **o que é sobretensão**, tipos de protetores (Tipo 1, 2, 3), como funcionam, custos, instalação, e por que são obrigatórios em novas instalações. Com mais de 15 anos de experiência em instalações elétricas na região de Bragança, protegemos centenas de casas contra sobretensões.
 
-**📞 Quer instalar protetor de sobretensão? Ligue já: [932 321 892](tel:+351932321892)**  
+**📞 Quer instalar protetor de sobretensão? Ligue já: [932 321 892](tel:+351932321892)** 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20protetor%20de%20sobretensão.%20Podem%20ajudar%3F)**
 
 ---
@@ -163,7 +163,7 @@ Neste guia completo, vamos explicar **o que é sobretensão**, tipos de protetor
 
 ### Indicador de Estado
 
-**LED verde:** Protetor funcional  
+**LED verde:** Protetor funcional 
 **LED vermelho/apagado:** Protetor danificado (substituir)
 
 **⚠️ IMPORTANTE:** Protetor sacrifica-se para proteger aparelhos. Após sobretensão grave, pode ficar danificado (substituir).
@@ -181,7 +181,7 @@ Neste guia completo, vamos explicar **o que é sobretensão**, tipos de protetor
 - Sistema Hi-Fi: €200-2.000
 - Consola jogos: €300-600
 
-**Custo de substituir:** €2.000-8.000+  
+**Custo de substituir:** €2.000-8.000+ 
 **Custo de protetor:** €100-280 (Tipo 2 + Tipo 3)
 
 **Retorno:** 1 sobretensão evitada paga o investimento
@@ -243,8 +243,8 @@ Neste guia completo, vamos explicar **o que é sobretensão**, tipos de protetor
 **Esquema:**
 ```
 Entrada → Disjuntor Geral → Protetor Tipo 2 → Circuitos
-                                ↓
-                              Terra
+ ↓
+ Terra
 ```
 
 **Cabos:**
@@ -361,28 +361,28 @@ Entrada → Disjuntor Geral → Protetor Tipo 2 → Circuitos
 
 ## Perguntas Frequentes (FAQ)
 
-**1. O que é protetor de sobretensão?**  
+**1. O que é protetor de sobretensão?** 
 Dispositivo que protege aparelhos contra picos de tensão (raios, rede). Desvia sobretensão para terra.
 
-**2. Preciso de protetor de sobretensão?**  
+**2. Preciso de protetor de sobretensão?** 
 Sim. Obrigatório em novas instalações (desde 2006). Protege aparelhos caros (€2.000-8.000+) e previne incêndios.
 
-**3. Qual tipo de protetor preciso?**  
+**3. Qual tipo de protetor preciso?** 
 Mínimo: Tipo 2 (quadro, €140-320). Recomendado: Tipo 2 + Tipo 3 (tomadas, €230-640).
 
-**4. Quanto custa instalar protetor?**  
+**4. Quanto custa instalar protetor?** 
 Tipo 2: €140-320 (material + instalação). Tipo 3: €20-80 (DIY).
 
-**5. Protetor funciona contra raios?**  
+**5. Protetor funciona contra raios?** 
 Tipo 1: sim (raios diretos). Tipo 2: sim (raios indiretos). Tipo 3: proteção adicional. Mas não substitui para-raios.
 
-**6. Protetor dura quanto tempo?**  
+**6. Protetor dura quanto tempo?** 
 10-15 anos (se não sofrer sobretensão grave). Após raio próximo, pode danificar (substituir).
 
-**7. Como sei se protetor funciona?**  
+**7. Como sei se protetor funciona?** 
 LED verde = funcional. LED vermelho/apagado = danificado (substituir).
 
-**8. Posso instalar protetor sozinho?**  
+**8. Posso instalar protetor sozinho?** 
 Tipo 3 (tomada): sim (DIY). Tipo 2 (quadro): não (requer eletricista com experiência).
 
 ---

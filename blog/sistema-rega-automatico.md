@@ -214,29 +214,29 @@ keywords: ["rega automática", "sistema rega", "gota-a-gota", "aspersores", "Tr�
 
 **Passo a passo**:
 1. **Planejar** (1h):
-   - Desenhar jardim
-   - Marcar plantas
-   - Calcular tubos/gotejadores
+ - Desenhar jardim
+ - Marcar plantas
+ - Calcular tubos/gotejadores
 
 2. **Instalar linha principal** (2h):
-   - Tubo 16mm ou 20mm
-   - Ligar torneira
-   - Filtro obrigatório
+ - Tubo 16mm ou 20mm
+ - Ligar torneira
+ - Filtro obrigatório
 
 3. **Ramais secundários** (3h):
-   - Tubos 16mm
-   - Conectores T
-   - Até plantas
+ - Tubos 16mm
+ - Conectores T
+ - Até plantas
 
 4. **Gotejadores** (2h):
-   - Furar tubo
-   - Inserir gotejadores
-   - 2-4L/h por planta
+ - Furar tubo
+ - Inserir gotejadores
+ - 2-4L/h por planta
 
 5. **Programador** (1h):
-   - Ligar torneira
-   - Programar horários
-   - Testar
+ - Ligar torneira
+ - Programar horários
+ - Testar
 
 **Tempo total**: 1-2 dias
 **Dificuldade**: Fácil
@@ -246,30 +246,30 @@ keywords: ["rega automática", "sistema rega", "gota-a-gota", "aspersores", "Tr�
 
 **Passo a passo**:
 1. **Projeto** (1 dia):
-   - Calcular cobertura
-   - Pressão/caudal
-   - Zonas
-   - Profissional recomendado
+ - Calcular cobertura
+ - Pressão/caudal
+ - Zonas
+ - Profissional recomendado
 
 2. **Escavação** (1-2 dias):
-   - Valas 30-40cm
-   - Tubagem PVC 25-32mm
-   - Caixas eletroválvulas
+ - Valas 30-40cm
+ - Tubagem PVC 25-32mm
+ - Caixas eletroválvulas
 
 3. **Instalação tubagem** (1 dia):
-   - Colar tubos PVC
-   - Eletroválvulas
-   - Aspersores
+ - Colar tubos PVC
+ - Eletroválvulas
+ - Aspersores
 
 4. **Ligação elétrica** (1 dia):
-   - Cabo 24V programador → válvulas
-   - Enterrado
-   - Eletricista se 230V
+ - Cabo 24V programador → válvulas
+ - Enterrado
+ - Eletricista se 230V
 
 5. **Programação** (1 dia):
-   - Ajustar aspersores
-   - Programar zonas
-   - Testar cobertura
+ - Ajustar aspersores
+ - Programar zonas
+ - Testar cobertura
 
 **Tempo total**: 4-6 dias
 **Dificuldade**: Alta

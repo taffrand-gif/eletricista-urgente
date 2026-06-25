@@ -220,48 +220,48 @@ priority: "HIGH DEMAND"
 **Passos gerais (APENAS informativo):**
 
 1. **Planear localização**
-   - Altura standard: 30cm do chão
-   - Distância de água: mínimo 60cm
-   - Evitar tubagens
+ - Altura standard: 30cm do chão
+ - Distância de água: mínimo 60cm
+ - Evitar tubagens
 
 2. **Desligar corrente**
-   - Disjuntor do circuito
-   - Testar com multímetro
-   - Colocar aviso no quadro
+ - Disjuntor do circuito
+ - Testar com multímetro
+ - Colocar aviso no quadro
 
 3. **Abrir caixa nova**
-   - Marcar posição
-   - Broca copo 68mm
-   - Profundidade 50mm
+ - Marcar posição
+ - Broca copo 68mm
+ - Profundidade 50mm
 
 4. **Fazer ranhura**
-   - Da tomada existente à nova
-   - Largura 20mm, profundidade 20mm
-   - Horizontal ou vertical (nunca diagonal)
+ - Da tomada existente à nova
+ - Largura 20mm, profundidade 20mm
+ - Horizontal ou vertical (nunca diagonal)
 
 5. **Passar fios**
-   - Fase (castanho), Neutro (azul), Terra (verde/amarelo)
-   - Fio 2,5mm² (tomadas 16A)
-   - Deixar folga 15cm em cada caixa
+ - Fase (castanho), Neutro (azul), Terra (verde/amarelo)
+ - Fio 2,5mm² (tomadas 16A)
+ - Deixar folga 15cm em cada caixa
 
 6. **Ligar na tomada existente**
-   - Abrir tomada existente
-   - Conectar novos fios aos existentes (Wago)
-   - Fase com fase, neutro com neutro, terra com terra
+ - Abrir tomada existente
+ - Conectar novos fios aos existentes (Wago)
+ - Fase com fase, neutro com neutro, terra com terra
 
 7. **Ligar tomada nova**
-   - Fase à direita (castanho)
-   - Neutro à esquerda (azul)
-   - Terra ao centro (verde/amarelo)
-   - Apertar bem parafusos
+ - Fase à direita (castanho)
+ - Neutro à esquerda (azul)
+ - Terra ao centro (verde/amarelo)
+ - Apertar bem parafusos
 
 8. **Fechar e testar**
-   - Fixar caixas
-   - Fechar ranhuras (gesso)
-   - Colocar espelhos
-   - Ligar corrente
-   - Testar com multímetro
-   - Testar com aparelho
+ - Fixar caixas
+ - Fechar ranhuras (gesso)
+ - Colocar espelhos
+ - Ligar corrente
+ - Testar com multímetro
+ - Testar com aparelho
 
 **Tempo:** 2-4 horas (profissional)
 **Dificuldade:** ALTA - requer conhecimento elétrico

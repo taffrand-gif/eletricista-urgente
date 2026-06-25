@@ -25,7 +25,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 
 **⚠️ AVISO:** Trabalhos elétricos devem ser feitos por eletricista com experiência. Este guia é informativo.
 
-**📞 Eletricista 24h:** [932 321 892](tel:+351932321892)  
+**📞 Eletricista 24h:** [932 321 892](tel:+351932321892) 
 **💬 WhatsApp Urgente:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20um%20cabo%20elétrico%20danificado%20e%20preciso%20de%20ajuda!)
 
 ---
@@ -441,16 +441,16 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 
 ### 📞 Precisa de Substituir Cabo Danificado?
 
-**** - eletricista com experiência em Trás-os-Montes  
-✅ Emergências 24h/7 dias  
-✅ Substituição de cabos danificados  
-✅ Inspeção de instalações elétricas  
-✅ Fichas eletrotécnicas assinadas por técnico Profissional  
-✅ Orçamento grátis sem compromisso  
-✅ Atendimento em menos de 2h (urgências)  
+**** - eletricista com experiência em Trás-os-Montes 
+✅ Emergências 24h/7 dias 
+✅ Substituição de cabos danificados 
+✅ Inspeção de instalações elétricas 
+✅ Fichas eletrotécnicas assinadas por técnico Profissional 
+✅ Orçamento grátis sem compromisso 
+✅ Atendimento em menos de 2h (urgências) 
 
-**📞 Ligue Agora:** [932 321 892](tel:+351932321892)  
-**💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20um%20cabo%20elétrico%20danificado%20e%20preciso%20de%20ajuda!)  
+**📞 Ligue Agora:** [932 321 892](tel:+351932321892) 
+**💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20um%20cabo%20elétrico%20danificado%20e%20preciso%20de%20ajuda!) 
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
 **Servimos:** Bragança, Vila Real, Chaves, Mirandela, Trás-os-Montes e toda a região de Trás-os-Montes.

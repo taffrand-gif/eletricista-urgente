@@ -109,11 +109,11 @@ keywords: ["energia renovável", "incentivos 2026", "painéis solares", "apoios"
 - Criar conta
 - Preencher formulário
 - Anexar documentos:
-  - Faturas
-  - Certificados energéticos
-  - Certificado instalação
-  - Comprovativos pagamento
-  - NIF, IBAN
+ - Faturas
+ - Certificados energéticos
+ - Certificado instalação
+ - Comprovativos pagamento
+ - NIF, IBAN
 
 **Passo 4: Análise** (2-4 meses)
 - Fundo Ambiental analisa
@@ -339,13 +339,13 @@ keywords: ["energia renovável", "incentivos 2026", "painéis solares", "apoios"
 
 **Painéis solares** (2-5 dias):
 1. Visita técnica
-2. Projeto (DGEG)
+2. Projeto 
 3. Instalação painéis
 4. Instalação inversor
 5. Ligação quadro
 6. Teste funcionamento
 7. Certificado instalação
-8. Registo DGEG
+8. Registo 
 
 **Bomba calor** (2-4 dias):
 1. Dimensionamento

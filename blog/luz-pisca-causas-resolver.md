@@ -23,7 +23,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 - ✅ Como prevenir o problema no futuro
 - ✅ Quando é emergência elétrica
 
-**📞 Eletricista 24h:** [932 321 892](tel:+351932321892)  
+**📞 Eletricista 24h:** [932 321 892](tel:+351932321892) 
 **💬 WhatsApp Urgente:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20luzes%20a%20piscar%20em%20casa%20e%20preciso%20de%20ajuda!)
 
 ---
@@ -45,8 +45,8 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 3. Aperte a lâmpada firmemente (não force demais)
 4. Teste
 
-**Custo:** €0  
-**Tempo:** 2 minutos  
+**Custo:** €0 
+**Tempo:** 2 minutos 
 **Dificuldade:** Muito fácil
 
 ---
@@ -68,8 +68,8 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 2. Verifique compatibilidade com dimmer
 3. Use lâmpada "dimmable" se tiver regulador de intensidade
 
-**Custo:** €3-12 (lâmpada nova)  
-**Tempo:** 5 minutos  
+**Custo:** €3-12 (lâmpada nova) 
+**Tempo:** 5 minutos 
 **Dificuldade:** Muito fácil
 
 **💡 Dica:** Lâmpadas LED baratas (€1-2) frequentemente piscam. Invista em marcas de qualidade (€5-10).
@@ -90,8 +90,8 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **⚠️ PERIGO:** Interruptor defeituoso pode causar curto-circuito e incêndio. Não tente arranjar sozinho.
 
-**Custo:** €40-70 (substituir interruptor)  
-**Tempo:** 30 minutos  
+**Custo:** €40-70 (substituir interruptor) 
+**Tempo:** 30 minutos 
 **Garantia:** 2 anos
 
 ---
@@ -114,7 +114,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 - Upgrade do quadro elétrico
 - Redistribuir cargas
 
-**Custo:** €150-300 (novo circuito)  
+**Custo:** €150-300 (novo circuito) 
 **Tempo:** 2-4 horas
 
 ---
@@ -138,7 +138,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 - Substituir fio completo
 - Arranjar casquilho
 
-**Custo DIY:** €3-10  
+**Custo DIY:** €3-10 
 **Custo Profissional:** €30-50
 
 ---
@@ -174,7 +174,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **⚠️ PERIGO:** Ligação solta aquece e pode causar incêndio. Não abra o quadro elétrico.
 
-**Custo:** €60-120 (apertar ligações + inspeção)  
+**Custo:** €60-120 (apertar ligações + inspeção) 
 **Tempo:** 1-2 horas
 
 ---
@@ -193,8 +193,8 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **Solução:** **INSPEÇÃO ELÉTRICA COMPLETA**
 
-**Custo:** €200-500 (inspeção + arranjos)  
-**Tempo:** 4-8 horas  
+**Custo:** €200-500 (inspeção + arranjos) 
+**Tempo:** 4-8 horas 
 **Benefício:** Fichas eletrotécnicas assinadas por técnico Profissional + segurança
 
 ---
@@ -379,16 +379,16 @@ Luz a piscar pode ser desde um problema simples (lâmpada solta - €0) até gra
 
 ### 📞 Precisa de Ajuda Profissional?
 
-**** - eletricista com experiência em Trás-os-Montes  
-✅ Diagnóstico grátis por telefone  
-✅ Emergências 24h/7 dias  
-✅ Fichas eletrotécnicas assinadas por técnico Profissional  
-✅ Orçamento sem compromisso  
-✅ Garantia de 2 anos  
+**** - eletricista com experiência em Trás-os-Montes 
+✅ Diagnóstico grátis por telefone 
+✅ Emergências 24h/7 dias 
+✅ Fichas eletrotécnicas assinadas por técnico Profissional 
+✅ Orçamento sem compromisso 
+✅ Garantia de 2 anos 
 ✅ Técnico em menos de 2h (urgências)
 
-**📞 Ligue Agora:** [932 321 892](tel:+351932321892)  
-**💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20luzes%20a%20piscar%20e%20preciso%20de%20ajuda!)  
+**📞 Ligue Agora:** [932 321 892](tel:+351932321892) 
+**💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20luzes%20a%20piscar%20e%20preciso%20de%20ajuda!) 
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
 **Servimos:** Bragança, Vila Real, Chaves, Mirandela, Trás-os-Montes e toda a região de Trás-os-Montes.
