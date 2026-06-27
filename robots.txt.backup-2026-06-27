@@ -41,13 +41,6 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-# SEO crawlers tiers - explicitement autorisés (GO Philippe 2026-06-27)
-User-agent: SemrushBot
-Allow: /
-
-User-agent: AhrefsBot
-Allow: /
-
 # Sitemap
 Sitemap: https://eletricista-urgente.pt/sitemap.xml
 
