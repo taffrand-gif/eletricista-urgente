@@ -13,3 +13,9 @@ __pycache__/
 
 # build artifact (was committed by mistake)
 dist/
+
+# Backups parasites (ex: robots.txt.backup-2026-06-27)
+*.backup-*
+
+# IndexNow key (déjà servie par Vercel, jamais à commiter)
+public/e1ede796962ebc575aaaa6dc.txt
