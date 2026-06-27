@@ -13,3 +13,9 @@ __pycache__/
 
 # build artifact (was committed by mistake)
 dist/
+
+# Backups
+*.backup-*
+
+# IndexNow key (verification file)
+public/e1ede796962ebc575aaaa6dc.txt
