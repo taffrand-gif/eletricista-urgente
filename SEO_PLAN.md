@@ -165,7 +165,7 @@ grep -c "schema.org" index.html
 ---
 
 **Dernière MAJ** : 2026-06-29 — A2-BIS mergée sur main (commit `b70364ca`). Les 5 fichiers services `eletricista-{urgente,avaria-eletrica,fuga-corrente,quadro-eletrico,certificacao-eletrica}-braganca.html` sont désormais **100% conformes Doctrine §12** (bloc Doctrine + contenu nettoyé, 0 interdit SEO, NAP 932 321 892, tarif **70 €/h**).
-**Prochaine action** : **A3 = étendre A2-BIS aux autres villes** du sitemap.xml. Pattern validé, méthode industrialisable : `sed -i`/patch sur les pages `eletricista-{service}-{ville}.html` pour remplacer chaîne défaillante, fourchettes, canonical cassé, etc. ~9 services × ~8 villes ≈ 70 fichiers par site. À confirmer avec Philippe sur le scope (top 10 villes ou toutes).
+**Prochaine action** : **A4 = étendre Doctrine §12 aux 1203 autres pages HTML eletricista-urgente (pages locales élec courtes)** du sitemap.xml. Pattern validé, méthode industrialisable : `sed -i`/patch sur les pages `eletricista-{service}-{ville}.html` pour remplacer chaîne défaillante, fourchettes, canonical cassé, etc. ~9 services × ~8 villes ≈ 70 fichiers par site. À confirmer avec Philippe sur le scope (top 10 villes ou toutes).
 
 ## 🤖 RÈGLES DE COORDINATION MULTI-IA
 
@@ -206,5 +206,6 @@ grep -c "schema.org" index.html
 
 ---
 
+| 2026-06-29 | Hermes (multi-agent + mode loupe) | A3 Doctrine §12 services étendu | A2 (bloc Doctrine §12 variante élec : 70 €/h, NAP 932, ⚡, Staff-Seekers/Norte Reparos, équipement Fluke+Megger+ROLeak+FLIR) + A2-BIS (cleanup SEO pré-existant) sur 266 fichiers `eletricista-urgente-*.html`. Périmètre élargi de 32 (sitemap) à 266 (tout service) pour cohérence avec canalizador A3 PR #48. 1 commit `9a6e67f00`. Leçon #204 appliquée : pattern noindex quotes simples+doubles dès le premier patch, et pattern Acréscimos élargi pour capturer la formulation réelle. R7 : PR #35 ouvert + STOP merge + GO explicite Philippe | Témoins AVANT/APRÈS sur 266 fichiers : bloc_doctrine 32/266 → 266/266, noindex 266/266 → 0/266, Acréscimos mal formulés 76/266 → 0/266, desde X€ 32/266 → 0/266, orçamento grátis 19/266 → 0/266. NAP 932 321 892 + tarif 70 €/h préservés. Vérifié moi-même sur 5 fichiers random (Chaves, Mirandela, Pinhão, Torre de Moncorvo, Vila Real). Bragança intact | ✅ Fait (PR #35) |
 **Dernière MAJ** : 2026-06-28 16h30 BST
 **Prochaine action** : A1 (homepage complète selon Doctrine §12, 70€/h) — en attente GO Philippe
