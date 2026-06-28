@@ -158,11 +158,14 @@ grep -c "schema.org" index.html
 | 2026-06-29 | Hermes | R11 fourchettes service | Patch ~70 fourchettes SERVICE (80-200€, 50-150€, 150-500€, 250-350€, 1000-2000€, 7000-15000€, etc.) → "sob orçamento" | R11 (zéro invention) — fourchettes déplacement (15-65€) CONSERVÉES, fourchettes économie (250-400€/ano) CONSERVÉES | Témoin AVANT=528, APRÈS=0 | ✅ Fait |
 | 2026-06-29 | Hermes | R11 formulaires annexes | Patch "mais de X anos de atividade", "mais de uma década", "X anos de experiência no setor/em canalização" | R11 (zéro invention) — 213 occurrences virées sur 204 fichiers | Témoin AVANT=213, APRÈS=0 | ✅ Fait |
 | 2026-06-29 | Hermes | R11 testemunhos + sobre | Réécriture testemunhos.html, avaliacoes-clientes.html, sobre.html | R11 (zéro invention) — "12+ Anos de Experiência" + fake testemunhos virés | 3 pages honnêtes (compromisso + CTA + équipement exact) | ✅ Fait |
+| 2026-06-29 | Hermes (multi-agent) | A1 homepage Doctrine §12 | Refonte from scratch index.html : header sticky + hero + bandeau grille **70€/h** (élec, PAS 65) + Z1-Z6 + +50% + artisan local (Filipe, Staff-Seekers/Norte Reparos, "mesma pessoa") + 5 outils réels (Fluke T6-1000, Megger MFT1741+, ROLeak Aqua 3Plus, FLIR E96 43200px, caméra 30m) + 8 villes Z1-Z6 + FAQ transparente (6 questions NIF/seguro RC/fichas eletrotécnicas) + CTA NAP 932 321 892 + Schema.org Electrician géo-neutre | Doctrine §12 Transparence Radicale — pas de branche `prototype-home` ici, from scratch. R7 respecté : PR #32 ouvert + STOP merge + GO explicite Philippe. **Tarif 70€/h** maintenu (correction antérieure du bug 65→70€/h en PR #30) | Témoin AVANT=218 lignes / APRÈS=626 lignes (+623/-215). 15/15 éléments §12, **0 interdit**. Commit `54954f966`, merge squash `bfd783b25` | ✅ Fait |
 
 ---
 
-**Dernière MAJ** : 2026-06-29 — R11 anos + fourchettes + testemunhos : **~2950 occurrences virées sur 2025 fichiers, 0 fake restant**
-**Prochaine action** : A1 (homepage complète selon Doctrine §12, 70€/h) — en attente GO Philippe
+**Dernière MAJ** : 2026-06-29 — A1 refonte homepage Doctrine §12 mergée sur main (commit `bfd783b25`). Vercel déploie automatiquement eletricista-urgente.pt avec grille **70€/h** + artisan identifiable + 0 crochetterie marketing.
+**Prochaine action** : A2 — pages services `-urgente` (curto-circuito / sem luz / disjuntor / cheiro queimado) avec même grille tarifaire Doctrine §12.
+
+## 🤖 RÈGLES DE COORDINATION MULTI-IA
 
 ## 🤖 RÈGLES DE COORDINATION MULTI-IA
 
