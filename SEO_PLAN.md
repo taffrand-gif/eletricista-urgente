@@ -190,6 +190,41 @@ grep -c "schema.org" index.html
 
 ---
 
+## 🧹 MÉNAGE 2026-06-30 — Réorganisation multi-sites
+
+**Déclencheur** : demande Philippe « fait du ménage, fait en sorte que tout soit propre, bien organisé sur Vercel et GitHub ».
+
+### Repos GitHub supprimés (backup local `/Users/admin/archives/`)
+- ❌ `taffrand-gif/staff-seekers` (166 Mo, 4223 fichiers, fourre-tout historique, mort) — backup `/Users/admin/archives/staff-seekers-2026-06-30/`
+- ❌ `taffrand-gif/norte-microsites` (1.3 Mo, 5 mini-sites thématiques `site1-guia-canalizacao`/`site2-dicas-eletricidade`/`site3-bricolage-casa`/`site4-energia-solar`/`site5-manutencao-casa`, jamais déployés en prod) — backup `/Users/admin/archives/norte-microsites-2026-06-30/`
+
+### Projets Vercel supprimés
+- ❌ `staff-seekers` (orphelin, aucun domaine)
+- ❌ `workspace` (vide, 0 déploiement, pas de repo)
+- ❌ `client` (vide, 0 déploiement, pas de repo)
+- ❌ `norte-reparos-clean` (doublon détenant `canalizador-norte-reparos.pt`, a servi du contenu DOWN après incident Index.html)
+
+### Actions correctives réalisées
+- ✅ Transfert domaine `canalizador-norte-reparos.pt` : `norte-reparos-clean` (DOWN) → `canalizador-norte-reparos` (UP, lié à `taffrand-gif/norte-reparos`)
+- ✅ Détachement des domaines legacy `norte-reparos.com` + `www.norte-reparos.com` (redirections historiques désactivées)
+- ✅ Site `canalizador-norte-reparos.pt` restored après incident commit vide `457e56cd` (contenu réel restauré byte-à-byte via PUT /contents avec base64)
+
+### État final propre — mapping 1-pour-1
+| URL | Repo GitHub | Projet Vercel | Status |
+|-----|-------------|---------------|--------|
+| canalizador-norte-reparos.pt | taffrand-gif/norte-reparos | canalizador-norte-reparos | ✅ |
+| eletricista-norte-reparos.pt | taffrand-gif/eletricista-norte-reparos | eletricista-norte-reparos | ✅ |
+| canalizador-urgente.pt | taffrand-gif/canalizador-urgente | canalizador-urgente | ✅ |
+| eletricista-urgente.pt | taffrand-gif/eletricista-urgente | eletricista-urgente | ✅ |
+
+### Google Search Console — actions manuelles recommandées
+À faire par Philippe dans `search.google.com/search-console` :
+- Désenregistrer propriétés mortes : `staff-seekers.com`, `norte-reparos.com`, `www.norte-reparos.com`
+- Conserver propriétés actives des 4 `.pt` + leurs sous-domaines `www.`
+
+---
+
+
 ## 📝 NOTES pour les futures IA
 
 ### Contexte critique
