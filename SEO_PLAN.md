@@ -164,7 +164,7 @@ grep -c "schema.org" index.html
 
 ---
 
-**Dernière MAJ** : 2026-06-29 — **A4-BIS mergée sur main (squash `ba117640` PR #39 typo + squash `6f72ff157` PR #38 cleanup SEO)**. 271 fichiers `+351****1892` → `+351****4892` + 184 fichiers « orçamento gratuito » → « orçamento por escrito » + 181 occurrences « Atendimento prioritário » → « atendimento mediante confirmação por telefone ». Branches `a4-bis-cleanup-residuel` + `a4-bis-cleanup-gratis` supprimées (locale + origin) après merge. Backup `/tmp/a4-bis-backup-elec-2026-06-29/` supprimé.
+**Dernière MAJ** : 2026-06-30 — **A4-BIS mergée sur main (squash `ba117640` PR #39 typo + squash `6f72ff157` PR #38 cleanup SEO)**. 271 fichiers `+351****1892` → `+351****4892` + 184 fichiers « orçamento gratuito » → « orçamento por escrito » + 181 occurrences « Atendimento prioritário » → « atendimento mediante confirmação por telefone ». Branches `a4-bis-cleanup-residuel` + `a4-bis-cleanup-gratis` supprimées (locale + origin) après merge. Backup `/tmp/a4-bis-backup-elec-2026-06-29/` supprimé.
 **Prochaine action** : **A4-TER cleanup résiduel final** : (1) 76 `[Aa]tendimento prioritário` survivants (fichiers hors périmètre A4-BIS initial) ; (2) 1 défaut stylistique sur `eletricista-urgente-alij.html` (double « orçamento por escrito ») ; (3) claims §11 type « Termas e património romano » à auditer. **Dette totale estimée** : ~80 fichiers, 15 min en subagent unique.
 
 ## 🤖 RÈGLES DE COORDINATION MULTI-IA
