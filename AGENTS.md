@@ -230,4 +230,25 @@ Moule de toutes les pages service/urgence électricité — focus risque électr
 
 ---
 
+## Annexe A. Identité Norte Reparos (transversale — ajoutée 30/06/2026 par Philippe, verrouillée)
+
+> Bloc partagé entre les 4 sites Norte Reparos. À ne PAS dupliquer dans les pages client ; sert uniquement au contexte IA.
+
+- **Maison-mère** : Norte Reparos (Portugal) — présentée comme une PME professionnelle multi-sites
+- **Sites actifs** : canalizador-norte-reparos.pt (928 484 451) · canalizador-urgente.pt (928 484 451) · eletricista-norte-reparos.pt (932 321 892) · eletricista-urgente.pt (932 321 892)
+- **Zone** : Trás-os-Montes, ~34 concelhos, rayon ~130 km autour de Macedo de Cavaleiros
+- **Stack transversale** : React + Vite · GitHub (org `taffrand-gif`) · Vercel · Cloudflare DNS · n8n · Obsidian (vault `NORTE-OS`) · GA4 · Google Search Console · Google Ads · Meta Ads · TomTom · WhatsApp · ElevenLabs + Twilio (agent vocal, conçu, pas encore construit)
+- **Certification élec** : DGEG `1757/2026/DIEN` en attente · co-signature LDE Mirandela en attendant
+- **Langue** : interne FR informel · tout contenu client **PT-PT uniquement** (jamais PT-BR)
+
+**Règle pronom — rédaction client uniquement (verrouillée 30/06/2026)** :
+- « nous » toujours, « je » jamais côté HTML/PT visible
+- Interdits : *je suis, je fais, mon entreprise, sozinho, contacto pessoal, falar comigo*
+- OK : *a nossa equipa, os nossos técnicos, contacte-nos, garantimos, a nossa empresa*
+- Vérifié à chaque livraison
+
+**Compatibilité** : ce bloc complète la doctrine locale (R1-R11 + §11 ZÉRO INVENTION + §12 Doctrine Transparence Radicale + §13 gabarit + §14 boucle élec) sans la remplacer. En cas de contradiction, la doctrine locale prime.
+
+---
+
 **Source de vérité unique** : `~/.openclaw/workspace/AGENTS.md` (global) + ce fichier (site-spécifique).
