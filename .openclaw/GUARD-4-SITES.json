@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "loop": "6-fin",
+  "date_verrouillage": "2026-06-29",
+  "verrouille_par": "Philippe Braganca (Boucle perniciosa detectee 4 URLs / 6 dossiers)",
+  "perimetre_imperatif": {
+    "urls": [
+      "https://canalizador-norte-reparos.pt",
+      "https://eletricista-norte-reparos.pt",
+      "https://canalizador-urgente.pt",
+      "https://eletricista-urgente.pt"
+    ],
+    "repos_github": {
+      "canalizador-norte-reparos.pt": "taffrand-gif/canalizador-norte-reparos",
+      "eletricista-norte-reparos.pt":  "taffrand-gif/eletricista-norte-reparos",
+      "canalizador-urgente.pt":        "taffrand-gif/canalizador-urgente",
+      "eletricista-urgente.pt":        "taffrand-gif/eletricista-urgente"
+    },
+    "dossiers_locaux": [
+      "~/work/Sites/canalizador-norte-reparos/",
+      "~/work/Sites/eletricista-norte-reparos/",
+      "~/work/Sites/canalizador-urgente/",
+      "~/work/Sites/eletricista-urgente/"
+    ]
+  },
+  "interdit": {
+    "urls": [
+      "staff-seekers.com",
+      "norte-reparos.com"
+    ],
+    "dossiers_locaux_supprimes_decommissions": [
+      "~/work/Sites/canalizador/",
+      "~/work/Sites/norte-reparos/  (renomme canalizador/, supprime ancien double clone)",
+      "~/work/Sites/microsites/  (5 sous-projets non lies)"
+    ],
+    "repos_github_interdits": [
+      "taffrand-gif/norte-reparos  (renomme vers canalizador-norte-reparos, redirect 301 actif)"
+    ]
+  },
+  "regle_or": "AVANT toute action modifiante (commit, push, edit, deploy), Hermes DOIT verifier que la cible est dans perimetre_imperatif.urls. Si NON, REFUSER et demander confirmation explicite Philippe en repetant le nom de la cible.",
+  "action_loop_init": "Backup de /Users/admin/work/Sites/norte-reparos et /Users/admin/work/Sites/microsites dans ~/Archives/sites-boucle-2026-06-29/ avant suppression.",
+  "a_prevenir_si_boucle_redetectee": "STOP IMMEDIAT. Sauver la garde dans ce fichier de reference, demander confirmation Philippe."
+}
