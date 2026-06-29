@@ -190,6 +190,34 @@ grep -c "schema.org" index.html
 
 ---
 
+## 🧹 MÉNAGE 2026-06-30 — Réorganisation multi-sites (V2 cohérence)
+
+**Déclencheur** : demande Philippe « tous a le même nom partout Vercel GitHub etc ? je veut une cohérence totale !! »
+
+### Renommage pour cohérence 4×4
+- ❌ `taffrand-gif/norte-reparos` → ✅ `taffrand-gif/canalizador-norte-reparos` (rename GitHub)
+- ❌ `norte-reparos` projet Vercel inexistant
+- ✅ Le projet Vercel `canalizador-norte-reparos` re-linké vers le nouveau repo
+- ✅ GitHub redirect 301 automatique pour les anciennes URL `norte-reparos`
+
+### Mapping final ULTRA cohérent (4×4)
+
+| URL `.pt` | Repo GitHub | Projet Vercel |
+|-----------|-------------|---------------|
+| `canalizador-norte-reparos.pt` | `taffrand-gif/canalizador-norte-reparos` | `canalizador-norte-reparos` |
+| `eletricista-norte-reparos.pt` | `taffrand-gif/eletricista-norte-reparos` | `eletricista-norte-reparos` |
+| `canalizador-urgente.pt` | `taffrand-gif/canalizador-urgente` | `canalizador-urgente` |
+| `eletricista-urgente.pt` | `taffrand-gif/eletricista-urgente` | `eletricista-urgente` |
+
+**REGLE verrouillée** : `URL = nom_repo_GitHub = nom_projet_Vercel` pour les 4 sites.
+
+### Pourquoi l'unique incohérence est corrigée
+- Avant : `canalizador-norte-reparos.pt` ↔ repo `norte-reparos` (incohérent)
+- Après : `canalizador-norte-reparos.pt` ↔ repo `canalizador-norte-reparos` (cohérent)
+
+---
+
+
 ## 🧹 MÉNAGE 2026-06-30 — Réorganisation multi-sites
 
 **Déclencheur** : demande Philippe « fait du ménage, fait en sorte que tout soit propre, bien organisé sur Vercel et GitHub ».
