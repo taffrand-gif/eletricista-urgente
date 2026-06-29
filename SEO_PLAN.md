@@ -325,3 +325,62 @@ grep -c "schema.org" index.html
 **Sync origin :** local main = `8be8a8e21` = origin/main (0 retard). Clean.
 
 ### Update 2026-06-30 13h00 — fin de pause
+
+## 🆕 Loop #6 — 30/06/2026 — Périmètre verrouillé + Vague 2 SEO + rebases
+
+### Actions accomplies
+
+- ✅ **Ménage 4-sites** : `~/work/Sites/canalizador/` renommé en `canalizador-norte-reparos/`
+  - `~/work/Sites/norte-reparos/` (ANCIEN clone, meme remote `taffrand-gif/norte-reparos`) supprimé après backup `~/Archives/sites-boucle-2026-06-29/norte-reparos/` (130 Mo)
+  - `~/work/Sites/microsites/` (5 sous-projets non liés) supprimé après backup (1.3 Mo)
+  - AGENTS.md source de vérité : « Working copy locale : canalizador-norte-reparos/ »
+- ✅ **Rename GitHub** : `taffrand-gif/norte-reparos` redirige (301) vers `taffrand-gif/canalizador-norte-reparos`. Remote local CNR mis à jour.
+- ✅ **Garde périmètre 4-sites** : `~/work/Sites/GUARD-4-SITES.json` créé + copié dans les 4 repos à `.openclaw/GUARD-4-SITES.json`. AVANT toute action modifiante, l'agent DOIT vérifier que la cible est dans `perimetre_imperatif.urls` (4 seuls URLs). Empêche la récurrence de la boucle "5-6 dossiers / 4 URLs".
+
+### Fix NAP tel: link (RFC 3966)
+
+- ✅ CNR `public/canalizador-vila-real.html` L62 : `tel:+351****4451` → `tel:+351928484451`
+- ✅ ENR `public/eletricista-macedo-cavaleiros.html` L106 : `tel:+351****1892` → `tel:+351932321892`
+- Le handover loop #5 évoquait JSON-LD ligne 35 mais le bug était UNIQUEMENT dans les liens tel: markdown des pages /zonas/.
+- VISIBLE était déjà correct (numéros lus correctement), seul le `href="tel:"` était cassé → mobile tap-to-call cassé.
+
+### Vague 2 SEO (CNR uniquement)
+
+Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb21cc)
+- ✅ 10 `client/src/pages/services/{ville}.tsx` : Desentupimentos, Arranjofugasagua, Arranjoesquentadores × Vila Real, Braganca, Chaves, Macedo de Cavaleiros (10 fichiers ~4500 B chacun)
+- ✅ 4 `client/src/pages/faq/{topic}.tsx` : QuantoCustaCanalizador, Canalizador24Horas, ComoDesentupirSanitaSozinha, FugaAgua (4 fichiers ~3500 B chacun)
+- ✅ **Sitemap dynamique patché** dans `scripts/generate-sitemap.ts` : intègre automatiquement les 30 pages SEO Vagues 1+2 (16 urgencias + 10 services + 4 FAQ) via lecture du `href` canonical direct dans chaque .tsx
+- ✅ Sitemap régénéré : 545 URLs au total (vs ~515 avant)
+- ✅ Confo R4/R5/R8 OK (témoins 0/0/0 occurrences)
+- ✅ TS check : 0 nouvelle erreur (2 erreurs préexistantes dans PriceTransparency.tsx + useGeolocation.ts — non liées, déjà ciblées par PR #85)
+
+### Rebases R12 (boucle cleanée)
+
+- ✅ PR #86 CNR `fix/a5-1-r12-can` rebasée + force-push + mergée dans main (3 commits SEO_PLAN MAJ, +8/-3 sur 1 fichier)
+- ✅ PR #74 ENR `fix/a5-1-r12-rapido-imediat-garantido` rebasée + force-push (4 commits, mais branche 100% derrière main = **redondante, à fermer en close via UI**)
+- Conflits SEO_PLAN.md résolus en gardant version HEAD (état le plus récent, boucle #5 absorbe déjà le gros R12)
+- **Conclusion** : PR R12 #86/#74 étaient SEMANTIQUEMENT des PRs SEO_PLAN redondantes, pas des PRs R12 actives. La dette R12 a été payée en boucle #5 (gros merge `5b9b706e` "A5-1 R12 large 4175 fichiers").
+
+### État final 4 repos (branche + statut garde)
+
+- canalizador-norte-reparos.pt : main @ 3c155aa78 ✅ + ferme 4-sites guard ✅
+- eletricista-norte-reparos.pt : main @ 68b1b90fbf ✅ + ferme 4-sites guard ✅
+- canalizador-urgente.pt : main @ 57a7bce45 ✅ + ferme 4-sites guard ✅ (PR #66 BOMBE toujours ouverte, À merger)
+- eletricista-urgente.pt : main @ c52fdc93e ✅ + ferme 4-sites guard ✅ (PR #59 lag-doc À merger)
+
+### Leçons acquises loop #6
+
+- #245 : Garde périmètre 4-sites sur main (pas sur branche feature) pour que tout agent rentre dans le repo soit bloqué d'agir hors-périmètre.
+- #246 : Sitemap generator patché — lit `href` canonical DIRECT depuis .tsx (pas de déduction de slug, piège pour urgencias avec préfixe spécial).
+- #247 : Sub-agent Copilot CLI pas dispo → rebase main. Conflits SEO_PLAN.md résolus via "garde version HEAD" itératif.
+- #248 : PR R12 "dirty" étaient sémantiquement SEO_PLAN redondantes. Détecter ce pattern AVANT de merger.
+
+### Prochaines actions (décisions Philippe)
+
+- Fermer PR #74 ENR via UI GitHub (close, redondante — boutton "Close pull request" sur https://github.com/taffrand-gif/eletricista-norte-reparos/pull/74)
+- Merger PR #66 CU BOMBE + PR #59 EU lag-doc via UI (1 clic chacune)
+- Merger branches NAP CNR + ENR (push via force-with-lease déjà fait, attendre PR autoposée via activité ou merger manuellement les branches fix/nap-tel-link)
+- Merger branche Vague 2 SEO CNR (1 commit avec 3 commits intégrés)
+- Décision critique : merger ou non le patch App.tsx (`~/Documents/ObsidianVault/NORTE-OS/routes_patch_proposed_2026-06-27.txt`) qui rendrait visibles les 30 pages SEO via nav. Sans ce patch, les pages sont accessibles par URL mais invisibles depuis le menu/nav.
+
+#fin loop #6
