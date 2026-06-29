@@ -41,7 +41,13 @@
 - ✅ NAP cohérent : 932 321 892
 - ✅ Doctrine Transparence Radicale verrouillée
 
+### ✅ Corrigé 29/06/2026 (session Filipe)
+- ✅ **Services interdits PURGÉS** : 90 pages (chargeur VE, painel solar, ar condicionado, bomba calor) supprimées + 301 → vrai service. 0 restante. Services NON fournis confirmés par Filipe.
+- ✅ **1064 backups `.bak`/`.pre-fix`** retirés de git + ignorés (gitignore/vercelignore)
+
 ### Faiblesses SEO/GEO CRITIQUES (PRIORITÉ 1)
+- 🔴 **R12 délais inventés** : ~896 pages « resposta em X min » + ~1884 « resposta prioritária / mediante confirmação » (R145) ← gros chantier doctrine
+- 🟠 9 pages avec liens internes morts vers pages supprimées (édition contenu à faire)
 - 🔴 Homepage **squelettique** : 16-39 éléments
 - 🔴 Manque : grille de prix **70€/h** + Z1-Z6 — ⚠️ **CE SITE = 70€/h, PAS 65**
 - 🔴 Manque : "fala sempre com a mesma pessoa, não um call center"
@@ -161,6 +167,9 @@ grep -c "schema.org" index.html
 | 2026-06-29 | Hermes (multi-agent) | A1 homepage Doctrine §12 | Refonte from scratch index.html : header sticky + hero + bandeau grille **70€/h** (élec, PAS 65) + Z1-Z6 + +50% + artisan local (Filipe, Staff-Seekers/Norte Reparos, "mesma pessoa") + 5 outils réels (Fluke T6-1000, Megger MFT1741+, ROLeak Aqua 3Plus, FLIR E96 43200px, caméra 30m) + 8 villes Z1-Z6 + FAQ transparente (6 questions NIF/seguro RC/fichas eletrotécnicas) + CTA NAP 932 321 892 + Schema.org Electrician géo-neutre | Doctrine §12 Transparence Radicale — pas de branche `prototype-home` ici, from scratch. R7 respecté : PR #32 ouvert + STOP merge + GO explicite Philippe. **Tarif 70€/h** maintenu (correction antérieure du bug 65→70€/h en PR #30) | Témoin AVANT=218 lignes / APRÈS=626 lignes (+623/-215). 15/15 éléments §12, **0 interdit**. Commit `54954f966`, merge squash `bfd783b25` | ✅ Fait |
 | 2026-06-29 | Hermes (multi-agent) | A2 bloc Doctrine §12 services | Ajout bloc Doctrine §12 (grille **70€/h** + Z1-Z6 + +50% + artisan + 5 outils réels + NAP 932 321 892) sur top 5 services sitemap.xml × district Bragança (urgente, avaria-eletrica, fuga-corrente, quadro-eletrico, certificacao-eletrica). Contenu SEO existant préservé intentionnellement (ranking longue traîne acquis). | R7 : PR #33 ouvert + STOP merge + GO explicite Philippe | Témoin : +46/-5 sur 5 fichiers, 0 interdit **ajouté** par le bloc. Commit `4dd165311`, merge squash `7b7cf767` | ✅ Fait |
 | 2026-06-29 | Hermes (multi-agent) | A2-BIS nettoyage SEO pré-existant | Suppression « Resposta prioritária/imediata » (titre H1, meta desc, og:title, CTA, FAQ), « equipa de piquete », délai chiffré « 6 min » (R145), fourchettes inventées (desde 110€/90€/180€/280€/40€), « orçamento grátis », « + Experiência », canonical cassé vers `case-study-fuga-braganca.html` sur canalizador, `<meta noindex, follow>`. Bloc Doctrine §12 (A2) **INTACT**. | Constat post-A2 : le bloc Doctrine était noyé dans le contenu SEO pré-existant non-conforme. F5 (subagent abandonné) traité par moi-même via Python. R7 : PR #34 ouvert + STOP merge + GO explicite Philippe | Témoin : 5 fichiers, +34/-34 (purement suppressif/remplacement). 0 interdit SEO restant, 1 occurrence `doctrine-transparence`/fichier (intact). NAP 932 321 892 + tarif **70 €/h** préservés. Commit `68d0bd31`, merge squash `b70364ca` | ✅ Fait |
+| 2026-06-29 | claude-opus-4.8 (session Filipe) | cleanup backups | `git rm` 1064 fichiers `.bak`/`.pre-fix-r12-*` (batchs R12) + ajout `*.bak`/`*.pre-fix-*` à `.gitignore` + création `.vercelignore` (absent) | Repos pollués + backups HTML déployables/indexables (risque duplicate content) ; cause racine = batchs R12 laissant leurs backups | 0 backup tracké, ne reviendra plus. Commit `ea9e1b13e`, push origin/main OK | ✅ Fait |
+| 2026-06-29 | claude-opus-4.8 (session Filipe) | purge services interdits | Suppression 90 pages services NON fournis (confirmé Filipe : chargeur VE, painel solar, ar condicionado, bomba calor) : 77 `eletricista-carregador-veiculo-eletrico-<ville>` + pages solaire/VE/AC (racine + public/blog) + 90 redirects 301 (chargeur→`/eletricista-<ville>`, génériques→`/`) | Fausse offre = mauvais leads + non-conforme Transparence Radicale. Prototype 1 page (braganca) validé par Filipe AVANT batch (R12 §validation) | 0 page interdite restante, 0 destination 301 cassée, JSON valide, sitemap propre. Commit `03304a99f`, push origin/main OK | ✅ Fait |
+| 2026-06-29 | claude-opus-4.8 (session Filipe) | RESTE À FAIRE | (1) 9 pages avec liens internes morts vers pages supprimées + liens `/blog/painel-solar-*` (fichiers jamais créés) → édition contenu. (2) R12 : ~896 pages délais inventés + ~1884 « resposta prioritária ». | Suivi audit 29/06 | — | ⏳ À planifier |
 
 ---
 
