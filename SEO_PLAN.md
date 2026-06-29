@@ -164,8 +164,8 @@ grep -c "schema.org" index.html
 
 ---
 
-**Dernière MAJ** : 2026-06-30 — **PR #56 schema LocalBusiness homepage mergée squash `24e513896`** + 0 PR ouverte restante. Branches `feat/schema-localbusiness-eu` + `cleanup/eu-residual-2026-06-30` supprimées. Audit GSC API : eletricista-urgente.pt = **3 pages indexées / 4 impressions / 0 clic en 28j** sur 1823 fichiers (~0,16%). EU contactos.html NON finalisé : 3 `tel:+351****1892` + 2 `tel:+351****4451` + 3 `info@norte-reparos.pt` à patcher (sub-agent interrompu, dette restante).
-**Prochaine action** : **A4-TER cleanup résiduel final** : (1) 76 `[Aa]tendimento prioritário` survivants (fichiers hors périmètre A4-BIS initial) ; (2) 1 défaut stylistique sur `eletricista-urgente-alij.html` (double « orçamento por escrito ») ; (3) claims §11 type « Termas e património romano » à auditer. **Dette totale estimée** : ~80 fichiers, 15 min en subagent unique.
+**Dernière MAJ** : 2026-06-30 18h00 BST — **Loops Hermes ramas #2+#3 terminées** : 64→1 branche EU, 11 safe-drop supplémentaires avec preuve cherry-pick `-X ours` (rebase-main tree-identique). 3 GB disque libérés (work/_archive + dormant/*). Tags archivage créés. EU working tree clean, main=`8be8a8e21` = origin/main. Décisions P0/P1 inchangées (CF 301, Vague 2 SEO, 990 mots-clés). Détails dans "## 🆕 Session 29/06/2026 18h00 — Boucles #2 + #3" en bas du fichier.
+**Prochaine action** : (1) **Décision Philippe** sur les 4 branches courantes CU/ENR/CNR (dry-rebase `-X theirs` SAFE vérifié). (2) SEO_PLAN.md dirty → commit/éditer/checkout (R6 strict = pas touché par ce loop). (3) P0 inchangés : CF 301 (token manquant), Vague 2 SEO (GO requis), 990 mots-clés (P1). (4) **A4-TER dette** : 76 Atendimento prioritário + 1 défaut alij.html + claims §11 (~80 fichiers, 15 min subagent unique) — safe-drop ou PR dédiée, Philippe décide.
 
 ## 🤖 RÈGLES DE COORDINATION MULTI-IA
 
@@ -307,3 +307,21 @@ grep -c "schema.org" index.html
 
 ### Tags
 `#mode-loop #cleanup #sync-origin #push-ok #2026-06-29`
+
+
+### Update 29/06/2026 18h00 BST — Boucles #2 + #3 ramas terminées
+
+**Branches :**
+- 64 → 1 (main). **15 branches droppées** dans cette session (A5-2, A6 lots, h1-home, r4 stats, r4 massive, jsonld, etc.) avec preuve rebase-main + tree-identique.
+- Tag archivage `archive/branches-cleanup-2026-06-29` @ `2c65b1a2e`.
+
+**Disque libéré :**
+- `~/work/_archive/` (346 MB) droppé, backup `/tmp/cleanup-2026-06-29-loop3/work_archive_backup_1710.tar.gz` (203 MB).
+- `~/work/Archives/dormant/clones-2026-06-22.tar.gz` (1.4 GB) droppé, backup `clones_2026-06-22.tar.gz`.
+- `~/work/Archives/dormant/dormant-agents-2026-06-22/` (1.2 GB, IDE dormant) droppé, backup partiel `dormant_agents_2026-06-22.tar.gz`.
+
+**Verdict pause levé :** voir "Prochaine action" mise à jour au top.
+
+**Sync origin :** local main = `8be8a8e21` = origin/main (0 retard). Clean.
+
+### Update 2026-06-30 13h00 — fin de pause
