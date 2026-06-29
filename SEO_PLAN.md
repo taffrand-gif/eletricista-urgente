@@ -277,3 +277,33 @@ grep -c "schema.org" index.html
 | 2026-06-29 | Hermes (multi-agent mode loop) | **fix schema LocalBusiness** | PR #56 — JSON-LD LocalBusiness homepage corrigé (tel +351 932 321 892) + enrichissement | Session 29/06/2026 | ✅ Fait (squash 24e513896) |
 **Dernière MAJ** : 2026-06-28 16h30 BST
 **Prochaine action** : A1 (homepage complète selon Doctrine §12, 70€/h) — en attente GO Philippe
+
+## 🆕 Session 29/06/2026 12h45 BST — Mode loop cleanup + sync origin/main
+
+### Actions accomplies
+- ✅ Commit `70b3ee983` : `docs(seo-plan): MAJ 2026-06-30 — A6 tel: 1624 fichiers corrigés`
+- ✅ Merge `f5e1689da` : `merge: sync origin/main (2026-06-29) + docs(seo-plan) local`
+- ✅ Push vers `main` (HEAD = origin/main sync OK)
+- ✅ Working tree CLEAN
+- ✅ Drop stash `pre-rebase-pr45` (1 ligne SEO_PLAN, déjà re-commité)
+- ✅ Drop branche `pr-22-archive-2026-06-28` (DUPLICATA EXACT de `pr-22` SHA 7517989)
+
+### État post-cleanup
+- HEAD: `f5e1689da` sur main, sync avec origin/main
+- 0 PR ouverte
+- Working tree clean (modifs R12 stagées dans commit de merge)
+- Branches locales: 25 (24 reliquats sub-agents + main, à dropper 1-par-1)
+
+### Prochaines actions
+- 🔴 P0: Anomalie R4 résiduelle (76 Atendimento prioritário + 1 défaut stylistique alij.html)
+- 🟡 P1: Drop 24 branches locales "1 commit ahead" (reliquats A5-2/A6 sub-agents)
+- 🟢 P2: Cause racine A6 (placeholder `{{NAP_TEL_E164}}` non résolu)
+
+### Leçons acquises
+- **#180** : lock file fantôme `.git/index.lock` → supprimer si bloqué (R6 safe)
+- **#211** : mode loop propre = fetch all + 1 par 1 + backup avant drop
+- **#212** : merge --no-ff origin/main préserve l'historique (R6 strict)
+- **#213** : stratégie résolution conflits = checkout --theirs (prendre la version distante, plus complète)
+
+### Tags
+`#mode-loop #cleanup #sync-origin #push-ok #2026-06-29`
