@@ -50,5 +50,22 @@
 - ❌ Pas de duplication du plan dans `SEO_PLAN.md`
 - ❌ Pas de batch sans GO Philippe + prototype 1 page
 - ❌ Pas de copier-coller automatique (R12 §validation)
-- ❌ Pas d'invention de chantiers/témoignages (R11)
-- ❌ Pas de mention "65€/h" ici (c'est 70€/h pour l'élec)
+| ❌ Pas d'invention de chantiers/témoignages (R11)
+| ❌ Pas de mention "65€/h" ici (c'est 70€/h pour l'élec)
+
+---
+
+## Identité Norte Reparos (transversale — ajoutée 30/06/2026)
+
+> Bloc d'identité partagé entre les 4 sites. À ne PAS dupliquer dans les pages client ; sert uniquement au contexte IA.
+
+- **Maison-mère** : Norte Reparos (Portugal) — présentée comme une PME professionnelle multi-sites
+- **Sites actifs** : `canalizador-norte-reparos.pt` (928 484 451) · `canalizador-urgente.pt` (928 484 451) · `eletricista-norte-reparos.pt` (932 321 892) · `eletricista-urgente.pt` (932 321 892)
+- **Zone** : Trás-os-Montes, ~34 concelhos, rayon ~130 km autour de Macedo de Cavaleiros
+- **Stack transversale** : React + Vite · GitHub (org `taffrand-gif`) · Vercel · Cloudflare DNS · n8n · Obsidian (vault `NORTE-OS`) · GA4 · Google Search Console · Google Ads · Meta Ads · TomTom · WhatsApp · ElevenLabs + Twilio (agent vocal, conçu, pas encore construit)
+- **Certification élec** : DGEG `1757/2026/DIEN` en attente · co-signature LDE Mirandela en attendant
+- **Langue** : interne FR informel · tout contenu client **PT-PT uniquement** (jamais PT-BR)
+- **Positionnement site** : parler « a nossa equipa / os nossos técnicos / contacte-nous / garantimos ». **JAMAIS « je suis seul / entreprise individuelle / contacto pessoal »** sur les pages visibles client — règle absolue, verrouillée par Philippe 30/06/2026
+- **Pronom** : **« nous » toujours, « je » jamais** côté rédaction client. Interdits : *« je suis », « je fais », « mon entreprise », « sozinho »*. À utiliser : *« nous sommes », « notre équipe », « nous faisons », « a nossa equipa », « fazemos »*. Vérifié à chaque livraison.
+
+> **Note de compatibilité** : ce bloc ne remplace ni `AGENTS.md` (verrouillé, prime) ni `SEO_PLAN.md`. Si contradiction, `AGENTS.md` l'emporte.
