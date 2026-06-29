@@ -17,5 +17,9 @@ dist/
 # Backups parasites (ex: robots.txt.backup-2026-06-27)
 *.backup-*
 
+# Backups de batchs R12 (ex: page.html.pre-fix-r12-urg-batch-...bak)
+*.bak
+*.pre-fix-*
+
 # IndexNow key (déjà servie par Vercel, jamais à commiter)
 public/e1ede796962ebc575aaaa6dc.txt
