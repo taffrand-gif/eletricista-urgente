@@ -168,6 +168,11 @@ grep -c "schema.org" index.html
 **Prochaine action** : (1) **Décision Philippe** sur les 4 branches courantes CU/ENR/CNR (dry-rebase `-X theirs` SAFE vérifié). (2) SEO_PLAN.md dirty → commit/éditer/checkout (R6 strict = pas touché par ce loop). (3) P0 inchangés : CF 301 (token manquant), Vague 2 SEO (GO requis), 990 mots-clés (P1). (4) **A4-TER dette** : 76 Atendimento prioritário + 1 défaut alij.html + claims §11 (~80 fichiers, 15 min subagent unique) — safe-drop ou PR dédiée, Philippe décide.
 
 - **2026-06-29** — Appended Norte Reparos identity block + 'nous/je' pronoun rule to CLAUDE.md (docs commit, push origin main)
+  - **Bloc identité transversale** ajouté en bas de `CLAUDE.md` (maison-mère PME multi-sites, 4 sites, NAP, zone ~130 km Trás-os-Montes, stack, certif DGEG en attente, langue PT-PT)
+  - **Règle pronom** ajoutée : « nous » toujours, « je » jamais côté rédaction client. Interdits : « je suis », « je fais », « mon entreprise », « sozinho ». OK : « a nossa equipa », « contacte-nos », « garantimos ». Verrouillé 30/06/2026 par Philippe.
+  - **Rejets explicites** documentés : Doctrine A+ (contredit R12 §12 Doctrine Transparence Radicale), double NAP croisé (NAP unique par repo), tableau skills OpenClaw (config globale ≠ contexte repo, violation § Pas touche), bloc Mon rôle/ton rôle (propre session, pas repo).
+  - **Commits** : `d3ef39c52` (CLAUDE.md) + `f2f02cf7e` (SEO_PLAN history). **Push** origin/main OK, `ahead/behind = 0 0`.
+  - **Procédure** : skill `~/.hermes/skills/devops/append-claude-md-multirepo/SKILL.md` (réutilisable). **AGENTS.md non touché** (R3 STOP validation requis pour intégration formelle — site en attente refonte 🔴). **Tarif = 70 €/h élec** (PAS 65 €/h qui est canal) — règle inchangée.
 ## 🤖 RÈGLES DE COORDINATION MULTI-IA
 
 ## 🤖 RÈGLES DE COORDINATION MULTI-IA
