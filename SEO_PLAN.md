@@ -167,6 +167,7 @@ grep -c "schema.org" index.html
 **Dernière MAJ** : 2026-06-30 18h00 BST — **Loops Hermes ramas #2+#3 terminées** : 64→1 branche EU, 11 safe-drop supplémentaires avec preuve cherry-pick `-X ours` (rebase-main tree-identique). 3 GB disque libérés (work/_archive + dormant/*). Tags archivage créés. EU working tree clean, main=`8be8a8e21` = origin/main. Décisions P0/P1 inchangées (CF 301, Vague 2 SEO, 990 mots-clés). Détails dans "## 🆕 Session 29/06/2026 18h00 — Boucles #2 + #3" en bas du fichier.
 **Prochaine action** : (1) **Décision Philippe** sur les 4 branches courantes CU/ENR/CNR (dry-rebase `-X theirs` SAFE vérifié). (2) SEO_PLAN.md dirty → commit/éditer/checkout (R6 strict = pas touché par ce loop). (3) P0 inchangés : CF 301 (token manquant), Vague 2 SEO (GO requis), 990 mots-clés (P1). (4) **A4-TER dette** : 76 Atendimento prioritário + 1 défaut alij.html + claims §11 (~80 fichiers, 15 min subagent unique) — safe-drop ou PR dédiée, Philippe décide.
 
+- **2026-06-29** — Appended Norte Reparos identity block + 'nous/je' pronoun rule to CLAUDE.md (docs commit, push origin main)
 ## 🤖 RÈGLES DE COORDINATION MULTI-IA
 
 ## 🤖 RÈGLES DE COORDINATION MULTI-IA
