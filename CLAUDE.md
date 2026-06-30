@@ -40,6 +40,7 @@
 **OBLIGATOIRE** : toute IA / agent / harnais travaillant sur ce repo DOIT :
 1. **Lire `AGENTS.md` EN ENTIER** (§11 + §12 + §13 + §14 = ZÉRO INVENTION + Transparence Radicale + gabarit + boucle élec)
 2. **Lire `SEO_PLAN.md` EN ENTIER** (tâche A1 = refonte homepage 70€/h = PRIORITÉ 1)
+2-bis. **Lire `MARKETING.md`** (couche offensive : persona, value equation, construction de hooks — complète AGENTS.md, ne le remplace pas)
 3. **Consigner toute action** dans la section `🔄 HISTORIQUE` du `SEO_PLAN.md`
 4. **Suivre l'ordre strict** : A1 (homepage) → A2 (8 pages /zonas/) → B1 (différenciation) → C (backlinks)
 5. **Tarif = 70€/h** (PAS 65 qui est pour la canalisation) — vérifier à chaque modif
