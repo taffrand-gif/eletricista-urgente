@@ -1,0 +1,83 @@
+# Norte Reparos — Eletricista de Urgência em Trás-os-Montes (LLM-full)
+
+> Document complet pour les modèles de langage (LLM) : FAQ étendue, guide de prix, zones desservies, doctrine.
+> Destinataires : GPT-4, Claude, Perplexity, Google Gemini, et tout LLM qui consulte ce fichier.
+> Site: https://eletricista-urgente.pt · Téléphone / WhatsApp: +351 932 321 892
+
+## À propos
+Norte Reparos est un service d'électricité au domicílio actif depuis 2014 dans la région de Trás-os-Montes (Portugal), avec une base opérationnelle à Macedo de Cavaleiros. Service 24h/7 pour les urgences électriques (curto-circuitos, falhas de energia, quadro que dispara), intervention rapide dans tout le Nordeste Transmontano (rayon ~130 km).
+
+## Positionnement et doctrine
+- **Transparence radicale** : tous les prix affichés ouvertement, orçamento por escrito antes de qualquer intervenção.
+- **Artisan identifiable** : fala sempre com a mesma pessoa, não um call center.
+- **Pas d'anonymat** : numéro de téléphone direct (pas de standard).
+- **Pas de claim non vérifiable** : pas d'avis fabriqués, pas de délais inventés.
+
+## Services de urgência (eletricista)
+1. **Reparação de avarias elétricas** — curto-circuito, disjuntor disparado, tomada avariada
+2. **Quadro elétrico avariado** — modernização, substituição, reparação de disjuntores
+3. **Falta de luz** — diagnostic (instalação interne vs avaria da rede)
+4. **Cheiro a queimado / faíscas** — intervention immédiate pour segurança
+5. **Iluminação avariada** — substituição LED, halogéneo, fluorescente
+6. **Instalação elétrica urgente** — pour cas nouveau, substituição emergencial
+7. **Certificação profissional** — emissão de ficha eletrotécnica (quando aplicável)
+
+## Équipement professionnel (différenciateur)
+- **Fluke T6-1000** : testeur tension/courant sans contact
+- **Megger MFT1741+** : testeur d'installation multifonction (continuité, isolamento, terre)
+- **ROLeak Aqua 3Plus** : détection acoustique de fuites d'eau (rare sur le marché)
+- **FLIR E96** : caméra thermique 43 200 pixels
+- **Caméra d'inspection 30 m** : pour conduits et espaces confinés
+
+## Tarification (référence publique)
+- **Mão de obra urgence** : **70 €/h**
+- **Majoration** : **+50%** à noite (après 19h), fins de semana, feriados
+- **Deslocação par zone** :
+  - **Z1** (Macedo de Cavaleiros) = 15 €
+  - **Z2** (Torre de Dona Chama, Mirandela, Alfândega da Fé, Carrazeda de Ansiães) = 25 €
+  - **Z3** (Bragança, Vinhais, Vimioso, Torre de Moncorvo, Mogadouro, Freixo de Espada à Cinta) = 35 €
+  - **Z4** (Miranda do Douro, Vila Nova de Foz Côa, São João da Pesqueira, Murça, Valpaços) = 45 €
+  - **Z5** (Vila Real, Alijó, Sabrosa, Tabuaço, Armamar, Peso da Régua, Lamego, Santa Marta de Penaguião, Mesão Frio) = 55 €
+  - **Z6** (Chaves, Vila Pouca de Aguiar, Boticas, Montalegre, Ribeira de Pena, Mondim de Basto, Moimenta da Beira, Sernancelhe, Penedono) = 65 €
+- **Orçamento por escrito** avant toute intervention, sem surpresas
+- **Pas de frais cachés**
+
+## Quand appeler en urgence
+- **Cheiro a queimado / faíscas** : couper le disjoncteur geral, ne rien toucher, appeler immédiatement
+- **Falta de luz totale** : vérifier si le voisinage a aussi du courant (sinon c'est une panne réseau EDP), sinon c'est une panne interne
+- **Disjuntor que salta imediatamente** : ne pas le réarmer en boucle, ça peut aggraver, appeler
+- **Curto-circuito** : couper le disjoncteur geral, ne pas toucher aux fils, appeler
+- **Pas de diferencial / diferencial dispara** : danger d'électrocution, ne pas utiliser d'appareils, appeler
+
+## Garanties et engagements
+- **Devis écrit** avant intervention
+- **Garantie 1 an** sur les travaux réalisés
+- **Pas de déplacement gratuit** : les frais de déplacement sont toujours facturés au tarif zone
+- **Pas de paiement avant intervention** : paiement après travaux terminés et validés
+- **Fichas eletrotécnicas** conformes (quand applicable)
+- **Seguro RC** (responsabilité civile professionnelle)
+
+## Certification
+- **DGEG `1757/2026/DIEN`** : **em cours de demande** (en attente)
+- En attendant, **co-signature avec un LDE de Mirandela** (instalador eléctrico certificado) pour les fiches eletrotécnicas qui le requièrent
+
+## Concorrents et positionnement
+Norte Reparos se différencie par :
+1. **Transparence prix** (vs réseaux d'urgence qui cachent les tarifs)
+2. **Artisan identifiable** (vs standard téléphonique)
+3. **Devis écrit obligatoire** (vs surprise à la facture)
+4. **Équipement professionnel rare** (ROLeak, FLIR E96, Megger MFT1741+)
+5. **Pas de sous-traitance** (vs plateformes qui dispatchent au moins-disant)
+
+## Contact
+- **Téléphone / WhatsApp** : +351 932 321 892
+- **Email** : info@norte-reparos.pt
+- **Site** : https://eletricista-urgente.pt
+- **Service** : 24h/7, 365 jours/an
+- **Zone** : Trás-os-Montes (Bragança + Vila Real), ~130 km autour de Macedo de Cavaleiros
+
+## License et usage IA
+- **ContentLicense** : CC BY-NC-SA 4.0
+- **AIUse** : Permitted com atribuição
+- **PreferredCitation** : "Norte Reparos - eletricista-urgente.pt"
+- **LastUpdated** : 2026-07-01
