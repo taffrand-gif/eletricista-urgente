@@ -15,7 +15,7 @@ Même marché d'arnaqueurs anonymes (« 180€ para substituir uma tomada »). D
 
 ## Value Equation (Hormozi) — quel levier pousser
 - **Dream Outcome** : courant rétabli, maison sûre, peur levée.
-- **Perceived Likelihood ↑ ← LEVIER GAGNANT** : orçamento antes, Filipe identifiable, équipement réel (Fluke T6-1000, Megger MFT1741+, FLIR E96), fatura NIF + seguro RC. + sécurité = preuve de compétence.
+- **Perceived Likelihood ↑ ← LEVIER GAGNANT** : orçamento antes, responsable identifiable (Filipe Bragança) présenté en « a nossa equipa », équipement réel (Fluke T6-1000, Megger MFT1741+, FLIR E96), fatura NIF + seguro RC. + sécurité = preuve de compétence.
 - **Time Delay ↓** : UNIQUEMENT « 24h/7 dias ». **R145 : jamais de délai chiffré.**
 - **Effort ↓** : une chamada, conseil sécurité immédiat (« não toque, ligue »).
 
@@ -39,4 +39,4 @@ Tél **932 321 892** + WhatsApp. **Sans** promesse de délai chiffrée (R145). C
 Urgence → confiance → installation/rénovation planifiée sur `eletricista-norte-reparos.pt` → contrat manutenção.
 
 ## Garde-fous (rappel — détail dans AGENTS.md)
-R11 zéro invention · R12 transparence prix 70€/h HAUT de page + phrases obligatoires · R145 zéro délai · géo-neutre · DGEG = registo em curso (jamais validé) · services interdits (clima/PAC/solaire/VE) · **STOP : aucun batch sans prototype validé + GO Philippe ; jamais merger `main`**.
+R11 zéro invention · R12 transparence prix 70€/h HAUT de page + phrases obligatoires · R145 zéro délai · géo-neutre · **pronom client « nós / a nossa equipa / os nossos técnicos » ; JAMAIS « je / sozinho / entreprise individuelle / contacto pessoal » (bloc identité verrouillé 30/06)** · DGEG = registo em curso (jamais validé) · services interdits (clima/PAC/solaire/VE) · **STOP : aucun batch sans prototype validé + GO Philippe ; jamais merger `main`**.
