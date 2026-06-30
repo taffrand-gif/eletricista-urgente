@@ -483,3 +483,21 @@ Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb2
 
 | 2026-06-30 | claude-sonnet-4-6 (loop auto) | R4 FAQ schema calculadora | calculadora-de-preco.html : "Desde 135 EUR" → grille réelle "70 €/h + deslocação (Z1:15€ a Z6:65€). Mínimo 1h. +50% fora de horas úteis". Telephone schema "+351-" → "+351 " (NAP uniforme). | R4 (prix = grille AGENTS.md §12, 135 EUR non vérifiable), NAP cohérence | 1 fichier, +1/-1 ligne. Grep avant: 2 violations, après: 0. | ✅ Fait (PR #65 mergée) |
 | 2026-06-30 12:55 UTC | Hermes (mode loop batch — GO global) | M1 batch + PR #65 + #68 merge EU | M1 ENR #85 MERGE upstream, PR #65 loop FAQ schema cherry-pick sur main post-#85 (conflit SEO_PLAN.md résolu — entrées sessions 01/07 + d64a5fb5b conservées). PR #68 docs cherry-pick (audit 2026-06-30). | R11+R12+R145, R8 témoins, R6 safe force loop | 3 commits cherry-pick | ✅ Fait (PR #65 + #68 mergées) |
+
+---
+
+## 🔍 Session 2026-06-30 — Audit workspace (Filipe + Claude)
+
+> Audit des 4 repos. EU n'est PAS totalement propre des services FAUX (contredit « RAS »).
+
+### Constat
+**87 fichiers HTML root (hors `/blog/`) contiennent des termes de services FAUX** (`painéis solares`, `ar condicionado`, `carregador de carro elétrico`, `bomba de calor`). Pas de page dédiée confirmée, mais mentions en body de pages déployées.
+
+### Mission Hermes — M9 (P0 trust, après refonte A1)
+1. `grep -rl 'painéis solares\|painel solar\|ar condicionado\|bomba de calor\|carregador de carro elétric' . --include='*.html' | grep -v _archive` → lister les 87.
+2. Classer : 🔴 claim/liste de service → purger ; 🟢 blog éducatif → garder.
+3. Témoin grep avant/après, R8 réconciliation, pas de merge sans GO Filipe.
+4. ⚠️ Cohérent avec la priorité refonte A1 (homepage 70€/h) — traiter en même temps que le passage Transparence Radicale. Cf [[norte-reparos-verites]].
+
+### État réel
+- Branche `main`, propre/sync, Vercel lié (`prj_b4HVA1rL…`), ~1927 pages, 10 branches locales mortes à nettoyer.
