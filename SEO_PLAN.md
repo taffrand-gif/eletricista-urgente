@@ -447,3 +447,31 @@ Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb2
 - Dette A4-TER toujours en cours (76 Atendimento prioritário + claims §11) — ~15 min subagent unique
 
 #fin loop #7
+
+## 🆕 Session 2026-07-01 (mode loop batch) — Hermes
+
+### Actions accomplies (PRs mergées)
+
+| Date | Agent | Tâche | Action | Justification | Résultat | Statut |
+|---|---|---|---|---|---|---|
+| 2026-07-01 | Hermes (mode loop batch) | M4 llms.txt #66 | Ajout llms.txt + ai.txt + llms-full.txt (urgence élec, géo-neutre §5, NAP 932 321 892, équipement Fluke T6-1000, Megger MFT1741+, ROLeak Aqua 3Plus, FLIR E96) | 3 fichiers créés 9.8 KB, PR #66 mergée | 3 fichiers, 9.8 KB, PR #66 mergée | ✅ Fait |
+| 2026-07-01 | Hermes (sub-agent) | loop PR #64 #65 | PRs [loop] : #64 (B2 doublon) MERGED, #65 (R4 FAQ) CLOSED auto après merge main | PR #64 ✅, #65 ✅ (auto-closed) | PR #64 MERGED, #65 CLOSED | ✅ Fait |
+| 2026-07-01 | Hermes (sub-agent) | EU AggregateRating FAUX POSITIF | M5-audit §5.2/§6.1 signalait AggregateRating 4.9★/127 reviews prod. Enquête sub-agent : c est un FAUX POSITIF - claim était dans dist/public/index.html (gitignoré, non déployé). Sources public/index.html + index.html racine déjà CLEAN (fix ancien `88a9b588` + `31bee9cca`). | PR #67 doc-only SEO_PLAN MAJ, AMEND M5-audit §5.2 | PR #67 doc-only MERGED, AMEND §5.2 | ✅ Fait |
+
+### État actuel post-session
+
+- **M4 llms.txt/ai.txt/llms-full.txt** : ✅ 100% FAIT (PR #66 mergée). Le site EU est maintenant lisible par les crawlers IA.
+- **NAP** : 932 321 892 élec (cohérent).
+- **R8 R12 AggregateRating** : ✅ FAUX POSITIF levé. Source `dist/public/index.html` gitignoré, non déployé. Aucun claim AggregateRating en prod.
+- **Doctrine §12** : transparence prix (70€/h) + orçamento por escrito.
+
+### Prochaines actions
+
+- 🟢 **AMEND M5-AUDIT-AVIS-2026-06-30.md** : corriger §5.2/§6.1 EU (faux positif retiré).
+- 🟡 **M2-exec prototype Bragança** : réécrire `eletricista-urgente-braganca.html` avec angles urgence distincts vs ENR installation.
+- 🟡 **M3 pages prix datées 2026** : 4 par district cible.
+
+### Leçons acquises cette session
+
+- **#255-#266** : voir CNR SEO_PLAN.
+- Spécifique EU : **#266** sub-agent peut faire des "faux positifs" en audit distant — toujours valider en local avant d'agir. Le sub-agent a correctement amendé le diagnostic M5 et sauvé un cycle de travail inutile.
