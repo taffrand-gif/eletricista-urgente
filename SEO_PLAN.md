@@ -475,3 +475,21 @@ Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb2
 
 - **#255-#266** : voir CNR SEO_PLAN.
 - Spécifique EU : **#266** sub-agent peut faire des "faux positifs" en audit distant — toujours valider en local avant d'agir. Le sub-agent a correctement amendé le diagnostic M5 et sauvé un cycle de travail inutile.
+
+---
+
+## 🔍 Session 2026-06-30 — Audit workspace (Filipe + Claude)
+
+> Audit des 4 repos. EU n'est PAS totalement propre des services FAUX (contredit « RAS »).
+
+### Constat
+**87 fichiers HTML root (hors `/blog/`) contiennent des termes de services FAUX** (`painéis solares`, `ar condicionado`, `carregador de carro elétrico`, `bomba de calor`). Pas de page dédiée confirmée, mais mentions en body de pages déployées.
+
+### Mission Hermes — M9 (P0 trust, après refonte A1)
+1. `grep -rl 'painéis solares\|painel solar\|ar condicionado\|bomba de calor\|carregador de carro elétric' . --include='*.html' | grep -v _archive` → lister les 87.
+2. Classer : 🔴 claim/liste de service → purger ; 🟢 blog éducatif → garder.
+3. Témoin grep avant/après, R8 réconciliation, pas de merge sans GO Filipe.
+4. ⚠️ Cohérent avec la priorité refonte A1 (homepage 70€/h) — traiter en même temps que le passage Transparence Radicale. Cf [[norte-reparos-verites]].
+
+### État réel
+- Branche `main`, propre/sync, Vercel lié (`prj_b4HVA1rL…`), ~1927 pages, 10 branches locales mortes à nettoyer.
