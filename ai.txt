@@ -1,11 +1,43 @@
-# ai.txt - AI Interaction Manifest
-Name: Eletricista Urgente - Norte Reparos
+# ai.txt — AI Interaction Manifest
+# Norte Reparos — Eletricista Urgente
+# Última atualização: 2026-07-01
+
+Name: Eletricista Urgente — Norte Reparos
 Type: EmergencyService
 SubType: ElectricalEmergency
-Headquarters: Trás-os-Montes
-ServiceArea: 130km radius
+ServiceArea: Trás-os-Montes e Douro, raio operacional ~130 km
 Hours: Atendimento 24h/7d
-ResponseTime: 30 seconds
 PrimaryPhone: +351-932-321-892
+WhatsApp: +351-932-321-892
 Website: https://eletricista-urgente.pt
-LastUpdated: 2026-06-06
+Pricing:
+  HandLabor: 70 EUR/h
+  NightWeekendHolidaySurcharge: +50%
+  TravelZones:
+    Z1: 15 EUR
+    Z2: 25 EUR
+    Z3: 35 EUR
+    Z4: 45 EUR
+    Z5: 55 EUR
+    Z6: 65 EUR
+Services:
+  - Curto-circuito
+  - Disjuntor a disparar
+  - Sem corrente (total ou parcial)
+  - Tomada ou quadro a fumegar
+  - Disparos de proteção
+  - Falha de terra ou diferencial
+Equipment:
+  - Fluke T6-1000 (testador tensão/corrente sem contacto)
+  - Megger MFT1741+ (testador de instalação multifunção)
+  - ROLeak Aqua 3Plus (deteção acústica)
+  - FLIR E96 (câmara térmica 43 200 px)
+  - Câmara de inspeção 30 m
+QuotePolicy: Orçamento por escrito antes de qualquer intervenção, sem surpresas
+Billing: Fatura com NIF emitida no final de cada trabalho
+Insurance: Responsabilidade civil profissional coberta
+Certifications: DGEG 1757/2026/DIEN em curso · co-assinatura LDE Mirandela
+Language: PT-PT (Portugal)
+Pronoun: "nós" / "nossa equipa" (nunca "eu")
+ResponseChannel: Telefone + WhatsApp — fala sempre com a mesma pessoa, não um call center
+LastUpdated: 2026-07-01
