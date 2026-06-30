@@ -190,6 +190,8 @@ grep -c "schema.org" index.html
 
 ---
 
+| 2026-06-30 | Hermes (M1 sub-agent audit) | **M1 body purge services FAUX (audit only, EU = STOP §5 Filipe sur claim DGEG 4.9★/127)** | Audit READ-ONLY post-M1 : site **non touché** par la mission M1. Rappel STOP §5 Filipe (cf SESSION-HANDOFF 2026-06-29 + M5-AUDIT §5.2/§6.1) sur claim `AggregateRating 4.9★/127 reviews` : investigation antérieure (mission EU) a confirmé **FAUX POSITIF** = artefact local gitignoré `dist/public/index.html`, pas de code déployé. Aucune action code requise, consignation traçabilité uniquement. EU working tree clean (cf dernière MAJ 18h00). | R11/R12 + §5 STOP validation Filipe | 0 dirty file, 0 action code | 🛑 STOP maintenu - attente décision Filipe §5 |
+
 **Dernière MAJ** : 2026-06-30 18h00 BST — **Loops Hermes ramas #2+#3 terminées** : 64→1 branche EU, 11 safe-drop supplémentaires avec preuve cherry-pick `-X ours` (rebase-main tree-identique). 3 GB disque libérés (work/_archive + dormant/*). Tags archivage créés. EU working tree clean, main=`8be8a8e21` = origin/main. Décisions P0/P1 inchangées (CF 301, Vague 2 SEO, 990 mots-clés). Détails dans "## 🆕 Session 29/06/2026 18h00 — Boucles #2 + #3" en bas du fichier.
 **Prochaine action** : (1) **Décision Philippe** sur les 4 branches courantes CU/ENR/CNR (dry-rebase `-X theirs` SAFE vérifié). (2) SEO_PLAN.md dirty → commit/éditer/checkout (R6 strict = pas touché par ce loop). (3) P0 inchangés : CF 301 (token manquant), Vague 2 SEO (GO requis), 990 mots-clés (P1). (4) **A4-TER dette** : 76 Atendimento prioritário + 1 défaut alij.html + claims §11 (~80 fichiers, 15 min subagent unique) — safe-drop ou PR dédiée, Philippe décide.
 
