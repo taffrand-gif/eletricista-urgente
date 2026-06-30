@@ -18,7 +18,7 @@
 
 > Plan maître cross-sites (établi 30/06/2026). Objectif: occuper **plusieurs surfaces d'un seul résultat** par requête (Local Pack + 2 domaines organic + AI Overview + PAA + image pack + étoiles).
 > Rôle de ce site (urgence élec, 70€/h) = **2e slot organique** sur "eletricista <ville>" via intent distinct. Prérequis: refonte Transparence Radicale (🔴 ~25k violations héritées) avant d'être un slot efficace.
-> Priorités globales: **P0** purge/trust + différenciation → **P1** GBP/Local Pack → **P2** GEO → **P3** qualité pSEO → **P4** SERP features.
+> Priorités globales: **P0** purge/trust + différenciation → **P1** double organic (GBP exclu) → **P2** GEO → **P3** qualité pSEO → **P4** SERP features.
 > ⚠️ Risques: doorway/PBN (intent urgence≠installation obligatoire), scaled-content (signal local unique/page). Véracité R11/R12 prime.
 
 ---
