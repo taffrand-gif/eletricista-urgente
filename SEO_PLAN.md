@@ -398,4 +398,35 @@ Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb2
 - Merger branche Vague 2 SEO CNR (1 commit avec 3 commits intégrés)
 - Décision critique : merger ou non le patch App.tsx (`~/Documents/ObsidianVault/NORTE-OS/routes_patch_proposed_2026-06-27.txt`) qui rendrait visibles les 30 pages SEO via nav. Sans ce patch, les pages sont accessibles par URL mais invisibles depuis le menu/nav.
 
-#fin loop #6
+## 🆕 Session 01/07/2026 18h00 BST — PR #64 [loop] B2 doublon index.html validée (Vercel rate-limited)
+
+### Actions accomplies
+
+- ✅ **PR #64 validée** : `[loop] eletricista-urgente — B2 fix doublon public/index.html` (https://github.com/taffrand-gif/eletricista-urgente/pull/64)
+  - **Statut GitHub** : OPEN, mergeable MERGEABLE, pas draft, CI rate-limited Vercel
+  - **Fichiers** : `public/index.html` (remplacé par copie de `index.html`), `SEO_PLAN.md` (B2 statut ✅ + ligne HISTORIQUE)
+  - **Diff** : 2 fichiers, +653/-229
+  - **Verdict R-multi** : R12 (retrait "Atendimento urgente 24h" + scarcity + urgency + loss aversion), NAP 932 321 892 maintenu, **70 €/h maintenu** (≠ 65 €/h canal — différenciation élec/canal respectée), canonical OK (`https://eletricista-urgente.pt/`)
+  - **Témoins R8** : canonical AVANT = `/public/index.html` (FAUX) → APRÈS = `/` ✅, 70 €/h = 3 ✅, scarcity = 0 ✅
+
+- 🟡 **Bloqueur** : Vercel rate-limit (Free plan). Retry dans 24h après 29/06 20h59 UTC.
+
+### État final post-session
+
+- **main** : dfa4ba47f (sessions #5+#6 stables)
+- **4/4 SEO_PLAN.md** présents, branches main synchros origin/main
+- **PRs ouvertes** : #64 EU (cette PR), 2 autres sur CNR/CU (#90, #67) — toutes rate-limited
+- **PR #77 ENR mergée** (loop #7 ENR) — référence pour le pattern fix CI pnpm
+
+### Leçons acquises session 01/07
+
+- **#251** (cross-référence) : Vercel Free plan rate-limit 4 PRs/jour. Espacer ou échelonner.
+- **#253** (cross-référence) : `public/index.html` stale = pattern récurrent EU + CU touchés (leçon documentée sur SEO_PLAN CU #67).
+- **#254** : Sur EU tarif = 70 €/h (≠ 65 €/h canal). Confusion possible si l'agent ne lit pas l'INDEX_MULTI_SITES.md d'abord. Toujours vérifier NAP + tarif avant tout patch B1/B2.
+
+### Prochaines actions (décisions Philippe)
+
+- Re-tenter merge #64 EU après 24h (rate-limit Vercel reset)
+- Dette A4-TER toujours en cours (76 Atendimento prioritário + claims §11) — ~15 min subagent unique
+
+#fin loop #7
