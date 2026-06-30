@@ -399,3 +399,4 @@ Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb2
 - Décision critique : merger ou non le patch App.tsx (`~/Documents/ObsidianVault/NORTE-OS/routes_patch_proposed_2026-06-27.txt`) qui rendrait visibles les 30 pages SEO via nav. Sans ce patch, les pages sont accessibles par URL mais invisibles depuis le menu/nav.
 
 #fin loop #6
+| 2026-06-30 | claude-sonnet-4-6 (loop auto) | R4 FAQ schema calculadora | calculadora-de-preco.html : "Desde 135 EUR" → grille réelle "70 €/h + deslocação (Z1:15€ a Z6:65€). Mínimo 1h. +50% fora de horas úteis". Telephone schema "+351-" → "+351 " (NAP uniforme). | R4 (prix = grille AGENTS.md §12, 135 EUR non vérifiable), NAP cohérence | 1 fichier, +1/-1 ligne. Grep avant: 2 violations, après: 0. | ⏳ En cours — PR à ouvrir |
