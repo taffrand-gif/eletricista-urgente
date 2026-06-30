@@ -477,3 +477,9 @@ Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb2
 
 - **#255-#266** : voir CNR SEO_PLAN.
 - Spécifique EU : **#266** sub-agent peut faire des "faux positifs" en audit distant — toujours valider en local avant d'agir. Le sub-agent a correctement amendé le diagnostic M5 et sauvé un cycle de travail inutile.
+- **#271 (30/06)** : cherry-pick atomique > rebase interactif pour conflits SEO_PLAN.md (cf CNR PR #91 merge).
+- **#272 (30/06)** : mode loop batch GO global = max 3 agents simultanés + actions réversibles systématiques + preuves git log.
+#fin loop #6
+
+| 2026-06-30 | claude-sonnet-4-6 (loop auto) | R4 FAQ schema calculadora | calculadora-de-preco.html : "Desde 135 EUR" → grille réelle "70 €/h + deslocação (Z1:15€ a Z6:65€). Mínimo 1h. +50% fora de horas úteis". Telephone schema "+351-" → "+351 " (NAP uniforme). | R4 (prix = grille AGENTS.md §12, 135 EUR non vérifiable), NAP cohérence | 1 fichier, +1/-1 ligne. Grep avant: 2 violations, après: 0. | ✅ Fait (PR #65 mergée) |
+| 2026-06-30 12:55 UTC | Hermes (mode loop batch — GO global) | M1 batch + PR #65 + #68 merge EU | M1 ENR #85 MERGE upstream, PR #65 loop FAQ schema cherry-pick sur main post-#85 (conflit SEO_PLAN.md résolu — entrées sessions 01/07 + d64a5fb5b conservées). PR #68 docs cherry-pick (audit 2026-06-30). | R11+R12+R145, R8 témoins, R6 safe force loop | 3 commits cherry-pick | ✅ Fait (PR #65 + #68 mergées) |
