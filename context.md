@@ -3,31 +3,33 @@
 > Écrit par le loop Cowork après chaque run. NE PAS ÉDITER MANUELLEMENT.
 
 ## Dernier run
-- Date : 2026-06-29
-- Tâche exécutée : B2 — Correction doublon public/index.html (canonical cassé + R12 violations)
-- Branche créée : `loop/2026-06-29-eletricista-urgente-b2-doublon-homepage`
-- PR ouverte : https://github.com/taffrand-gif/eletricista-urgente/pull/64
-- Résultat : ✅ 1 commit, 1 fichier modifié. PR ouverte, attente merge Philippe.
+- Date : 2026-06-30
+- Tâche exécutée : R4 — FAQ schema calculadora-de-preco.html (prix + tel NAP)
+- Branche créée : `loop/2026-06-30-eletricista-urgente-faq-schema-r4`
+- PR ouverte : https://github.com/taffrand-gif/eletricista-urgente/pull/65
+- Résultat : ✅ 2 commits, 1 fichier modifié. PR ouverte, attente merge Philippe.
 
 ## Tâche suivante recommandée
 - Tâche : A2 — 8 pages /zonas/ prioritaires (eletricista-urgente-{braganca,vila-real,mirandela,chaves,...}.html)
 - Priorité : CRITIQUE (selon SEO_PLAN)
-- Note : Vérifier dans HISTORIQUE si Philippe a donné GO avant de commencer A2
+- Statut : 🛑 STOP — attente GO explicite Philippe (ne pas créer sans validation)
 
 ## Apprentissages (self-improving)
-- Pattern public/index.html doublon identique à canalizador-urgente → fix identique (cp index.html public/index.html)
+- Pattern identique à canalizador-urgente : calculadora-de-preco.html avait "Desde 135 EUR" + "+351-" — même bug copié-collé entre les 2 sites urgents (corrigé PR #68 CU + PR #65 EU en même run)
 - Ce site = 70€/h (PAS 65€/h) — NE PAS confondre avec les 3 autres sites
-- A1 ✅ FAIT depuis 29/06 (PR #33+#35+#36) — SEO_PLAN.md déjà à jour pour A1
+- grep R8 : utiliser "70 €" (avec espace) sur ce site
+- A2 /zonas/ STOP attente Philippe — ne pas démarrer sans GO écrit dans HISTORIQUE
 
 ## Edge cases détectés
 - Tarif spécifique : 70€/h pour eletricista-urgente (vs 65€/h sur les 3 autres sites)
-- grep R8 : utiliser "70 €" (avec espace) — le site écrit "70 €/h" avec espace
+- calculadora zones décalées vs AGENTS.md (possible intentionnel pour urgence vs normal) — ne pas toucher logique JS sans GO Philippe
 
 ## Blocages connus
-- A2 (/zonas/) : vérifier GO Philippe avant exécution (8h d'effort, création de 8 fichiers)
+- A2 (/zonas/ 8 pages) = 🛑 STOP attente GO Philippe
 
 ## Instructions améliorées pour prochain run
-1. Vérifier GO Philippe pour A2 dans HISTORIQUE SEO_PLAN.md avant de commencer
-2. Pour A2 : créer 8 fichiers HTML statiques dans racine repo avec contenu Doctrine §12 (70€/h, Z1-Z6, équipement Fluke/Megger/FLIR, FAQ urgence, NAP 932 321 892)
+1. En DÉBUT de loop : grep "Desde [0-9]\|+351-\|Suplemento [0-9]" sur calculadora-de-preco.html des 4 sites (pattern récurrent R4)
+2. Si GO A2 reçu : créer 8 fichiers HTML statiques avec Doctrine §12 (70€/h, Z1-Z6, Fluke/Megger/FLIR, FAQ urgence, NAP 932 321 892)
 3. ATTENTION : tarif = 70€/h sur ce site (pas 65€/h)
-4. Si lock file git : `mcp__desktop-commander__start_process` avec `rm -f ~/work/Sites/eletricista-urgente/.git/*.lock && git ...`
+4. Si lock file git : desktop-commander rm host-side
+5. SITE COMPLET pour tâches autonomes — prochaine tâche = A2 sur GO Philippe
