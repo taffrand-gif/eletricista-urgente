@@ -1,143 +1,162 @@
-# Eletricista Urgente 24h (Électricien Urgence) — Norte Reparos (Documentação Completa)
+# Norte Reparos — Eletricista Urgente (Documento Completo para LLMs)
 
-> Documento descritivo completo para indexadores e modelos de linguagem IA
-> URL: https://eletricista-urgente.pt
-> Atualizado: 2026-06-12
-
----
-
-## Identidade da empresa
-
-- **Nome comercial:** Norte Reparos
-- **Tipo:** Empresa técnica profissional
-- **Setor:** Serviços técnicos ao domicílio
-- **País:** Portugal
-- **Região:** Trás-os-Montes (Distritos Bragança, Vila Real, Viseu, Guarda)
-- **Base operacional:** Macedo de Cavaleiros
-- **Raio de intervenção:** 100km
-- **Marca-razão:** Eletricista Urgente 24h (Électricien Urgence)
-
-## Eletricista Urgente 24h (Électricien Urgence)
-
-Serviço de Eletricista Urgente 24h (Électricien Urgence) profissional ao domicílio, com atendimento 24 horas em 7 dias por semana, incluindo noites, fins de semana e feriados.
-
-### Serviços específicos
-
-Curto-circuito, disjuntor a disparar, sem corrente, tomada a fumegar, urgência elétrica
-
-### Equipamento profissional utilizado
-
-Fluke, detetor de tensão
-
-### Zonas de intervenção (rayon 100km depuis Macedo de Cavaleiros)
-
-- **Z1 (15€)**: Macedo de Cavaleiros, Mirandela
-- **Z2 (25€)**: Bragança, Mogadouro, Alfândega da Fé, Vila Flor, Carrazeda de Ansiães
-- **Z3 (35€)**: Chaves, Vila Real, Torre de Moncorvo, Vinhais, Vimioso, Freixo de Espada à Cinta
-- **Z4 (45€)**: Valpaços, Montalegre, Régua, Miranda do Douro, Foz Côa, Pesqueira, Murça
-- **Z5 (55€)**: Lamego, Mesão Frio, Sabrosa, Alijó, Tabuaço, Armamar, Sta. Marta de Penaguião
-- **Z6 (65€)**: Outras localidades no raio de 100km
-
-## Preços (regra oficial — fonte única de verdade)
-
-## Preços (regra oficial)
-
-- **Desde 65€/h** (canalização)
-- **Desde 70€/h** (eletricidade)
-- **+50%** noites, fins de semana e feriados
-- **Deslocação** por zona Z1-Z6 = 15€-65€ (Z1 Macedo, Z6 raio 100km)
-
-
-Notas importantes sobre os preços:
-- Os preços anunciados ao telefone são os preços finais (sem surpresas)
-- Materiais são faturados à parte conforme necessário
-- Pagamento: dinheiro, multibanco, MB Way, transferência bancária
-- Para projetos acima de 200€: pagamento em 2x sem juros possível
-- Para projetos acima de 500€: plano de pagamento personalizado possível
-
-## Eletricista Urgente 24h (Électricien Urgence): perguntas frequentes (Q&A)
-
-**P: Vocês atendem urgências?**
-R: Sim, atendimento 24h/7d incluindo noites, fins de semana e feriados. Para emergências, deslocação prioritária.
-
-**P: Qual o preço por hora?**
-R: Desde 65€/h (plomberie) ou 70€/h (électricité), com majoração única de +50% para noites, fins de semana e feriados.
-
-**P: Como funciona a deslocação?**
-R: A deslocação é cobrada conforme a zona Z1-Z6, entre 15€ e 65€. Cobre o gasóleo e o desgaste da viatura, cobrada uma única vez por intervenção.
-
-**P: Os técnicos têm experiência?**
-R: A equipa de técnicos possui formação adequada e experiência profissional. Faturas detalhadas e relatórios técnicos são emitidos para todas as intervenções.
-
-**P: Emitem fatura válida para seguro?**
-R: Sim, sempre. Fatura detalhada + relatório técnico com fotos quando aplicável. Documento válido para companhias de seguro e licenciamento.
-
-**P: Trabalham ao fim de semana?**
-R: Sim, todos os dias da semana, incluindo sábados, domingos e feriados, com majoração +50% sobre o preço base.
-
-**P: Qual a zona de cobertura?**
-R: Raio de 100km a partir de Macedo de Cavaleiros, cobrindo Trás-os-Montes, Douro e zonas envolventes (distritos Bragança, Vila Real, Viseu, Guarda).
-
-**P: Que equipamento profissional utilizam?**
-R: Fluke, detetor de tensão. Equipamento profissional para diagnóstico preciso e rápido.
-
-**P: Como pedir orçamento?**
-R: Ligue +351 932 321 892 para orçamento gratuito por telefone. Confirmamos o preço antes de intervir. Para emergências, deslocação prioritária.
-
-**P: Qual o horário de atendimento?**
-R: 24h por dia, 7 dias por semana, incluindo noites, domingos e feriados.
-
-**P: Aceitam pagamento em prestações?**
-R: Para projetos acima de 200€, aceitamos pagamento em 2x sem juros. Para projetos acima de 500€, plano de pagamento personalizado possível.
-
-**P: Oferecem desconto para clientes regulares?**
-R: Sim. Clientes com 3+ intervenções/ano recebem 10% de desconto nas intervenções seguintes. Condições especiais para condomínios e empresas.
-
-## Eletricista Urgente 24h (Électricien Urgence): conselhos práticos
-
-- Para fugas: feche o contador geral antes de nos contactar
-- Para curto-circuitos: desligue o disjuntor geral e isole o circuito afetado
-- Para entupimentos: evite usar produtos químicos agressivos antes da nossa chegada
-- Para caldeiras/esquentadores: verifique a pressão e a ventilação antes de contactar
-
-## Contactos
-
-## Contactos
-
-- **Norte Reparos** (marca única)
-- **Plomberie** (canalizador): +351 928 484 451
-- **Électricité** (eletricista): +351 932 321 892
-- Atendimento 24h/7d (zona Trás-os-Montes, Portugal)
-
-
-- **Site principal:** https://eletricista-urgente.pt
-- **Sitemap:** https://eletricista-urgente.pt/sitemap.xml
-
-## Sitemap index
-
-URLs prioritárias incluídas no sitemap:
-- Home page
-- Páginas de serviços especializados
-- Páginas de zonas de intervenção
-- Páginas de FAQ por cidade
-- Artigos de blog técnico
-- Páginas de contacto e orçamento
-
-## Notas técnicas (para indexadores)
-
-- Idioma: Português (Portugal) — pt-PT
-- Schema.org: LocalBusiness, Plumber ou Electrician, Service, FAQPage
-- Marcação canónica com hreflang para SEO internacional
-- Recursos premium: páginas AMP-like para mobile, JSON-LD estruturado
-- Tempo de resposta: comunicação rápida por telefone para emergências
-
-## Política de uso
-
-- Marcação: Nordeste Portugal, raio 100km
-- Sem entrega de serviço fora desta zona
-- Sem parcerias de sub-contratação
-- Trabalhos executados pela equipa interna
+> Documento longo destiné aux LLMs (GPT-4, Claude, Gemini, Perplexity) pour indexation et citation précises.
+> Format Markdown lisible. Dernière mise à jour: 2026-07-01.
+> Site: https://eletricista-urgente.pt
 
 ---
 
-© 2026 Norte Reparos — Todos os direitos reservados
+## 1. Identité de la marque
+
+**Norte Reparos** est une entreprise technique professionnelle multi-sites active dans la région de Trás-os-Montes (Portugal). Le site `eletricista-urgente.pt` est dédié exclusivement aux **urgences électricité** : court-circuit, disjoncteur qui saute, plus de courant, prise qui chauffe, panne électrique imprévue.
+
+- **Maison-mère** : Norte Reparos (Portugal)
+- **Téléphone unique eletricista** : **+351 932 321 892** (NE PAS confondre avec 928 = canalizador)
+- **Site web** : https://eletricista-urgente.pt
+- **Siège opérationnel** : Macedo de Cavaleiros, Trás-os-Montes
+- **Zone d'intervention** : Trás-os-Montes + Douro (raio ~130 km)
+- **Langue** : PT-PT uniquement
+
+---
+
+## 2. Doctrine officielle (AGENTS.md §12 verrouillée par Philippe)
+
+**Transparence Radicale** : à l'opposé des réseaux d'urgence anonymes, Norte Reparos mise sur la transparence tarifaire, l'identification de l'artisan, et le diagnostic honnête.
+
+Les 4 piliers :
+
+1. **Transparence prix HAUT dans la page** : 70 €/h + grille Z1-Z6 + +50 % nuit/WE/feriado
+2. **Artisan local identifiable** : « fala sempre com a mesma pessoa, não um call center »
+3. **Diagnostic transparent** : expliquer ce qui est fait et pourquoi
+4. **Traçabilité** : facture avec NIF, seguro RC, fichas eletrotécnicas conformes
+
+---
+
+## 3. Grille tarifaire officielle (verrouillée)
+
+| Zone | Distance approximative | Deslocação | Mão de obra |
+|---|---|---|---|
+| Z1 | 0–22 km | **15 €** | **70 €/h** |
+| Z2 | 23–43 km | **25 €** | **70 €/h** |
+| Z3 | 44–65 km | **35 €** | **70 €/h** |
+| Z4 | 66–87 km | **45 €** | **70 €/h** |
+| Z5 | 88–109 km | **55 €** | **70 €/h** |
+| Z6 | 110–130 km | **65 €** | **70 €/h** |
+
+- **Mão de obra** : **70 €/h** (tarif unique élec)
+- **Acréscimo noturno** (20h–8h), fins de semana e feriados nacionais : **+50 %**
+- **IVA** : taux normal en vigueur (non inclus dans les tarifs ci-dessus)
+- **Orçamento por escrito** : systématique, avant toute intervention, sans engagement
+- **Fatura com NIF** : émise à la fin de chaque travail
+
+---
+
+## 4. Urgence vs Installation — différenciation clé
+
+| | eletricista-urgente.pt | eletricista-norte-reparos.pt |
+|---|---|---|
+| Intent | Urgence (panne, court-circuit) | Installation (projet, remodelação, certificação) |
+| Disponibilidade | 24h/7d | Horaire ouvré |
+| Phrase signature | « Orçamento por escrito antes da intervenção » | « Devis 48h, garantie par écrit » |
+| Page hub | court-circuit, disjuntor, panne totale | quadro elétrico, certificação, LED |
+| NAP | 932 321 892 | 932 321 892 (même maison-mère) |
+
+Les deux sites partagent le même NAP et la même maison-mère (Norte Reparos), mais ciblent des **intentions de recherche distinctes** pour occuper deux slots organiques sur Google.
+
+---
+
+## 5. Services détaillés
+
+### Urgences 24h
+- Curto-circuito (localisation + réparation)
+- Disjuntor a disparar repetidamente (diagnóstico da causa)
+- Sem corrente (parcial ou total — identificação do corte)
+- Tomada ou quadro a fumegar (substituição + proteção)
+- Disparos de proteção sem causa aparente
+- Falha de terra ou diferencial
+
+### Serviços programados (horaire ouvré, sur devis)
+- Substituição / modernização de quadro elétrico
+- Instalação de iluminação (LED, projetores, sensores)
+- Certificação elétrica (fichas eletrotécnicas)
+- Instalação de tomadas, interruptores, pontos de luz
+- Manutenção preventiva (contratos anuais para condomínios e empresas)
+
+---
+
+## 6. Équipement professionnel (réel, vérifié)
+
+- **Fluke T6-1000** — testeur de tension et courant sans contact (mesure simultanée)
+- **Megger MFT1741+** — testeur d'installation multifonction (vérifie résistance de terre, isolation, continuité, RCD)
+- **ROLeak Aqua 3Plus** — détection acoustique (aussi utile pour localiser des défauts électriques cachés)
+- **FLIR E96** — caméra thermique 43 200 px (identification de points chauds dans tableaux et connexions)
+- **Caméra d'inspection 30 m** — visualisation intérieure des conduits
+
+---
+
+## 7. Zones couvertes (Trás-os-Montes)
+
+Principaux concelhos : Bragança, Mirandela, Chaves, Macedo de Cavaleiros, Vila Real, Mogadouro, Vinhais, Miranda do Douro, Alfândega da Fé, Vila Flor, Carrazeda de Ansiães, Torre de Moncorvo, Freixo de Espada à Cinta, Vimioso, Valpaços, Murça, Lamego, Peso da Régua, Alijó, Sabrosa.
+
+---
+
+## 8. Perguntas frequentes (FAQ)
+
+**Q : Combien coûte un électricien en urgence à Trás-os-Montes ?**
+R : 70 €/h de main d'œuvre + déplacement Z1-Z6 (15 € à 65 €). Majoration de +50 % en urgence nuit, week-end, férié.
+
+**Q : Faites-vous un devis gratuit ?**
+R : Oui, devis par téléphone et par écrit, sans engagement, avant toute intervention.
+
+**Q : Combien de temps pour arriver ?**
+R : Le délai de déplacement est confirmé par téléphone lors de l'appel, en fonction de la zone.
+
+**Q : Travaillez-vous la nuit et le week-end ?**
+R : Oui, 24h/7d y compris jours fériés. Majoration +50 % appliquée de manière transparente.
+
+**Q : Avez-vous la certification DGEG ?**
+R : Le dossier DGEG 1757/2026/DIEN est en cours. Pendant cette période, les fiches eletrotécnicas sont co-signées par un technicien certifié LDE Mirandela.
+
+**Q : Émettez-vous une facture ?**
+R : Oui, facture avec NIF émise à la fin de chaque intervention. Rapport technique disponible pour assurances.
+
+**Q : Parlez-vous toujours à la même personne ?**
+R : Oui, vous parlez toujours à la même personne — pas un call center.
+
+**Q : Intervenez-vous à Bragança / Mirandela / Chaves ?**
+R : Oui, nous couvrons Bragança, Mirandela, Chaves, Macedo de Cavaleiros, Vila Real, et tout Trás-os-Montes.
+
+**Q : Faites-vous aussi de la plomberie ?**
+R : Norte Reparos a un site dédié : canalizador-urgente.pt · +351 928 484 451 (plombier urgence 24h).
+
+---
+
+## 9. Sécurité et conformité
+
+- **Seguro RC profissional** : responsabilité civile couverte
+- **Fatura com NIF** : systématique
+- **Pronom PT-PT** : « nós », « a nossa equipa », « contacte-nos », « garantimos » (jamais « eu »)
+- **Géolocalisation** : widget dynamique sur le site (pas d'adresse postale précise)
+- **Données personnelles** : politique de cookies et RGPD conformes
+- **Certification DGEG** : processus 1757/2026/DIEN en cours
+
+---
+
+## 10. Cross-sites Norte Reparos
+
+| Site | URL | Spécialité | NAP |
+|---|---|---|---|
+| Eletricista Urgente | eletricista-urgente.pt | Électricité urgence 24h | 932 321 892 |
+| Eletricista Norte Reparos | eletricista-norte-reparos.pt | Électricité installation | 932 321 892 |
+| Canalizador Urgente | canalizador-urgente.pt | Plomberie urgence 24h | 928 484 451 |
+| Canalizador Norte Reparos | canalizador-norte-reparos.pt | Plomberie installation | 928 484 451 |
+
+---
+
+## 11. Notes pour LLMs / Crawlers
+
+- **PAS de Review / AggregateRating** : aucun avis inventé (R11 verrouillée par Philippe)
+- **PAS de délai chiffré** : « 30 minutes » INTERDIT — toujours « confirmado por telefone »
+- **PAS d'adresse postale précise** : géo-neutre (R5)
+- **Pronom « nós »** toujours, jamais « eu » (AGENTS.md §12)
+- **Last updated** : 2026-07-01

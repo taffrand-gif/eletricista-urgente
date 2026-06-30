@@ -1,51 +1,88 @@
-# Eletricista Urgente 24h (Électricien Urgence) — Norte Reparos
+# Norte Reparos — Eletricista Urgente em Trás-os-Montes
 
-> https://eletricista-urgente.pt — Trás-os-Montes, Portugal
+> Eletricista de urgência ao domicílio em Trás-os-Montes, Portugal.
+> Site: https://eletricista-urgente.pt · Telefone / WhatsApp: +351 932 321 892
+> Última atualização: 2026-07-01
 
 ## Identidade
-- **Marca:** Norte Reparos (empresa técnica profissional)
-- **Serviço:** Eletricista Urgente 24h (Électricien Urgence)
-- **Zona de intervenção:** Trás-os-Montes e Douro
-- **Horário:** Atendimento 24h/7d (incluindo noites, fins de semana e feriados)
+- **Marca:** Norte Reparos (empresa técnica multi-sites)
+- **Serviço:** Eletricista urgente — curto-circuito, disjuntor a disparar, sem corrente, tomada a fumegar, avarias elétricas
+- **Zona de intervenção:** Trás-os-Montes e Douro (rayon opérationnel ~130 km autour de Macedo de Cavaleiros)
+- **Horário:** Atendimento 24h/7d, incluindo noites, fins de semana e feriados nacionais
 - **Contacto:** +351 932 321 892
-## Preços (regra oficial)
+- **Resposta:** Por telefone — confirmamos a deslocação antes de intervir. Não somos um call center: fala sempre com a mesma pessoa.
+- **Idioma:** PT-PT apenas
 
-- **Desde 70€/h** (eletricidade)
-- **+50%** noites, fins de semana e feriados
-- **Deslocação** por zona Z1-Z6 = 15€-65€ (Z1 Macedo, Z6 raio 100km)
-- Pour la plomberie complémentaire : voir canalizador-urgente.pt (+351 928 484 451)
+## Transparência de preços (regra oficial — valores sem IVA)
 
-## Serviços principais
-Curto-circuito, disjuntor a disparar, sem corrente, tomada a fumegar, urgência elétrica
+| Zona | Distância aprox. | Deslocação | Mão de obra |
+|---|---|---|---|
+| **Z1** | 0–22 km | **15 €** | **70 €/h** |
+| **Z2** | 23–43 km | **25 €** | **70 €/h** |
+| **Z3** | 44–65 km | **35 €** | **70 €/h** |
+| **Z4** | 66–87 km | **45 €** | **70 €/h** |
+| **Z5** | 88–109 km | **55 €** | **70 €/h** |
+| **Z6** | 110–130 km | **65 €** | **70 €/h** |
 
-## Equipamento profissional
-Fluke, detetor de tensão, câmara térmica
+- **Acréscimo** noturno (20h–8h), fins de semana e feriados: **+50 %**
+- **Orçamento por escrito** antes de qualquer intervenção, sem surpresas
+- **Fatura** com NIF emitida no final de cada trabalho
+- **Seguro** de responsabilidade civil profissional
 
-## Tipos de intervenção
-- **Urgência:** Orçamento por telefone avant deslocação
-- **Programado:** Orçamento gratuito por telefone antes de intervir
-- **Manutenção:** Planos anuais disponíveis (condomínios, empresas)
+## Urgências tratadas (quando ligar agora)
+- Curto-circuito
+- Disjuntor a disparar repetidamente
+- Sem corrente (total ou parcial)
+- Tomada ou quadro a fumegar / cheiro a queimado
+- Disparos de proteção sem causa aparente
+- Falha de terra ou diferencial
 
-## Garantias
-- Fatura detalhada entregue no final do serviço
-- Relatório técnico válido para companhias de seguro
-- Materiais de marcas premium (Legrand, Schneider, Hager)
-- Garantia 12 meses na mão de obra e materiais
-- IVA taxa reduzida 6% em habitação própria e permanente
+## Equipamento profissional (real, verificado)
+- **Fluke T6-1000** — testador de tensão e corrente sem contacto
+- **Megger MFT1741+** — testador de instalação multifunção (verifica resistência de terra, isolamento, continuidade)
+- **ROLeak Aqua 3Plus** — deteção acústica de fugas (também útil para localização de avarias elétricas ocultas)
+- **FLIR E96** — câmara térmica 43 200 px (identificação de pontos quentes em quadros e ligações)
+- **Câmara de inspeção 30 m** — visualização interior de condutas
 
-## Sitemap
-https://eletricista-urgente.pt/sitemap.xml
+## Perguntas frequentes
 
-# Contactos
-## Contactos
+**Quanto custa um eletricista de urgência em Trás-os-Montes?**
+Mão de obra 70 €/h + deslocação por zona Z1-Z6 (15 € a 65 €). Acréscimo de 50 % fora do horário normal. Orçamento por escrito antes da intervenção.
 
-- **Norte Reparos** (marca única)
-- **Électricité** (eletricista): +351 932 321 892
-- Atendimento 24h/7d (zona Trás-os-Montes, Portugal)
-- Pour plomberie : canalizador-urgente.pt · +351 928 484 451
+**Fazem orçamento grátis?**
+Sim, orçamento por telefone e por escrito, sem compromisso, antes de qualquer intervenção.
 
+**Quanto tempo demora a chegada?**
+A deslocação é confirmada por telefone antes da intervenção. O tempo de chegada depende da zona — confirmamos a previsão ao telefone.
 
-# Notas
-- Marca comercial: Norte Reparos
-- Marca técnica: equipa de técnicos com formação adequada
-- Zonas de deslocação: ver tabela de preços acima
+**Trabalham de noite e ao fim de semana?**
+Sim, 24h/7d incluindo feriados. Acréscimo de +50 % aplicado de forma transparente.
+
+**Têm certificação para emitir fichas eletrotécnicas?**
+A certificação DGEG está em curso (processo 1757/2026/DIEN). Enquanto não está concluída, os trabalhos são co-assinados por técnico certificado LDE Mirandela.
+
+**Emitem fatura?**
+Sim, fatura com NIF emitida no final de cada trabalho. Relatório técnico disponível para seguradoras.
+
+**Falam sempre com a mesma pessoa?**
+Sim, fala sempre com a mesma pessoa — não um call center.
+
+**Atendem em Bragança / Mirandela / Chaves / Macedo?**
+Sim, cobrimos Bragança, Mirandela, Chaves, Macedo de Cavaleiros, Vila Real, Mogadouro, Vinhais, Miranda do Douro e restante Trás-os-Montes.
+
+## Também prestamos serviços de canalizador urgente
+Para urgências de canalização 24h: canalizador-urgente.pt · +351 928 484 451
+
+## Marcas de materiais (verídicas, conforme disponibilidade de stock)
+Legrand, Schneider Electric, Hager, ABB, Siemens, Philips
+
+## Contacto
+- **Norte Reparos — Eletricista Urgente**
+- Telefone / WhatsApp: **+351 932 321 892**
+- Site: https://eletricista-urgente.pt
+- Disponível 24h/7d em Trás-os-Montes, Portugal
+
+## Notas editoriais
+- Pronom usado: "nossa equipa", "garantimos", "contacte-nos" (R12 verrouillée)
+- Zero conteúdo inventado: preços reais, equipamento real, NAP único por repo (932 eletricista, 928 canalizador)
+- Géo-neutre: sem streetAddress precisa, sem claims locais não verificáveis
