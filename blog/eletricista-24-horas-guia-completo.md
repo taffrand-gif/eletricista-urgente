@@ -258,11 +258,11 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 
 ## Como Funciona o Atendimento 24h
 
-### PASSO 1: Ligação (< 3 toques)
+### PASSO 1: Ligação (atendimento prioritário)
 
 **Você liga:** 932 321 892
 
-**Atendemos:** Máximo 3 toques, pessoa real
+**Atendemos:** Atendimento prioritário, pessoa real
 
 **Perguntamos:**
 - Qual o problema?
@@ -381,7 +381,7 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 ## Perguntas Frequentes
 
 ### 1. Quanto tempo demoram a atender telefone?
-**Máximo 3 toques**, Atendimento 24h/7d/dia. Pessoa real, não máquina.
+**Atendimento prioritário**, 24h/7d/dia. Pessoa real, não máquina.
 
 ### 2. Cobram só por atender?
 **Não.** Atendimento e diagnóstico telefónico gratuitos. Só cobra se aceitar intervenção.
@@ -412,8 +412,8 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 
 **Ligue AGORA: 932 321 892**
 
-✅ Atendimento em <3 toques
-✅ Resposta rápida garantida-90 minutos
+✅ Atendimento prioritário
+✅ Resposta mediante confirmação por telefone
 ✅ Equipamento completo na viatura
 ✅ Preços transparentes
 ✅ Garantia 12 meses

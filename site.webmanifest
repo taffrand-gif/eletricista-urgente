@@ -1,7 +1,7 @@
 {
   "name": "Eletricista Urgente 24h - Norte Reparos",
   "short_name": "Eletricista",
-  "description": "Eletricista urgente 24h em Trás-os-Montes. Curto-circuitos, disjuntores, avarias. Resposta em 30 segundos.",
+  "description": "Eletricista urgente 24h em Trás-os-Montes. Curto-circuitos, disjuntores, avarias. Resposta mediante confirmação por telefone.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FF6B35",
