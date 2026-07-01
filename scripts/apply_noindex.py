@@ -19,7 +19,6 @@ FORBIDDEN = [  # hors cœur métier — noindex, conservés (gate compliance sé
     "como-carregar-carro-eletrico-casa.html",
     # G2 (2026-06-23) — contamination cœur métier encore indexable.
     # Plomberie sur site ÉLEC (cross-craft, viole NAP/cœur strict):
-    "marcas-grohe-roca-junkers.html",
     "guia-canalizacao.html",
     "glossario-canalizacao.html",
     "top-10-fugas-mais-comuns.html",
