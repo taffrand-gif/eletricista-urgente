@@ -457,6 +457,44 @@ Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb2
 
 #fin loop #7
 
+## 🆕 Session 2026-07-02 (mode loop batch) — Hermes M1+M2+M3 purge FAUX
+
+### Mission M1-purge (PR #77 MERGÉE)
+
+| Date | Agent | Tâche | Action | Justification | Résultat | Statut |
+|---|---|---|---|---|---|---|
+| 2026-07-02 | Hermes (sub-agent EU + parent rattrapage git) | M1-purge cluster domotique gardé | Cleanup `blog/domotica-casa-inteligente.md` (1 ligne "Climatização por zona" retirée), `public/blog/automacao-aquecimento.html` (4 modifs, chauffage électrique légitime GARDÉ), et **97 entrées retirées** dans `indice-a-z.html` (toutes les URLs vers pages FAUX : ar-condicionado-*, bomba-calor-*, carro-eletrico-*, carregador-veiculo-eletrico-*). 0 article supprimé (3 fichiers domotique gardés par décision Philippe 02/07). Ajout `.hermes/` au .gitignore. | R11 Doctrine (zéro invention), brief Philippe 02/07. Domotique GARDÉE. | 3 fichiers, +3 / -99 lignes. PR #77 mergée en squash `b9289cfff` → `3349b4b17`. | ✅ Fait |
+
+### Mission M2-purge-ciblée (PR #78 MERGÉE)
+
+| Date | Agent | Tâche | Action | Justification | Résultat | Statut |
+|---|---|---|---|---|---|---|
+| 2026-07-02 | Hermes (sub-agent EU + parent rattrapage git) | M2-purge-ciblée 265 pages (Pattern A) | Retrait Pattern A (PROMOTIONNEL DÉGUISÉ : "Linha dedicada para carregador de carro elétrico", "Paineis solares", "Ar condicionado", "Bomba de calor", "Preparação para VE") via script Python batch sur template commun (pages `eletricista-quadro-eletrico-{ville}.html`). Pattern B (ANTI-FUNNEL) GARDÉ. | R11 + M1 incomplet (299 fichiers additionnels détectés par agent EU post-M1). | 265 fichiers modifiés, +264 / -284 lignes. PR #78 mergée en squash `2565a4a94` → `0b812bf17`. | ✅ Fait |
+
+### Mission M3-cleanup-final (PR #79 MERGÉE)
+
+| Date | Agent | Tâche | Action | Justification | Résultat | Statut |
+|---|---|---|---|---|---|---|
+| 2026-07-02 | Hermes (sub-agent EU + parent rattrapage git) | M3 Étape 3-5 (sitemaps + vercel.json) | **Partie A** : `public/sitemap.xml` retrait 92 URLs orphelines (!!). `vercel.json` reformat whitespace (JSON validé, mêmes keys, mêmes counts rewrites/redirects — non-breaking). **Partie B** : 12 `blog/*.md` Pattern A retiré (cabo-eletrico-tipos, casa-passiva-construir, curto-circuito, disjuntor-desarma, etc.) + 12 pages racines (equipa, guia-eletricidade, imprensa, index, parceiros, perguntas-frequentes, politica-*, recursos-gratuitos, termos-condicoes, trabalhar-conosco, public/index) Pattern A retiré. | Fin Étape 3-5 du brief original. vercel.json déjà bien configuré en M1 (112 redirects = 110×301 + 5×410), reformat juste whitespace. | 26 fichiers, +1804 / -1896 lignes (gros diff vient du reformat vercel.json). PR #79 mergée en squash `f64cc284d` → `e15a0d823`. | ✅ Fait |
+
+### Cumul M1+M2+M3 EU
+
+- **294 fichiers touchés** (3 + 265 + 26)
+- **+2071 / -2279 lignes purgées**
+- 3 PRs mergées en squash
+- 0 lien mort, 0 URL orpheline (92 retirées), Pattern A vidé, Pattern B préservé
+- vercel.json reformat whitespace non-breaking (validé)
+- Doctrine R11 respectée
+
+### Leçons acquises session 2026-07-02
+
+- **#285** : "Silent partial completion" — sub-agents modifs disque sans commit final. Recovery = `git status` + finir git workflow parent-side. Inverse du pattern #266.
+- **#286** : "M1 strict vs M2 élargi" — audit large post-M1 révèle 299 fichiers. Stratégie smart = M1 (strict) + M2 (ciblé Pattern A) + M3 (cleanup final + élargi).
+- **#287** : "Pattern A vs B" — Pattern A (PROMO DÉGUISÉ, RETIRÉ) vs Pattern B (ANTI-FUNNEL, GARDÉ).
+- **#288** : "vercel.json reformat whitespace" — sub-agent peut reformatter sans changer le sémantique (3548 lignes diff non-breaking). TOUJOURS valider JSON + comparer keys/counts avant commit.
+- **#289 (codage)** : "Script Python batch sur 270 pages template" = gain de temps énorme vs patch fichier-par-fichier (~1 min vs 30 min). Pattern : identifier template commun, créer regex patterns, dry-run sur 2-3 fichiers, puis apply.
+#fin loop #8
+
 ## 🆕 Session 2026-07-01 (mode loop batch) — Hermes
 
 ### Actions accomplies (PRs mergées)
