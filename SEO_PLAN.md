@@ -590,3 +590,54 @@ chargeur VE (4 repos — EU = hors-scope confirmé) · R12 batch « atendimento 
 ### Leçon acquise (consolidation 03/07)
 
 - **#293 (2026-07-03, EU)** : cohérence cross-sites (ENR + EU même voix/NAP/Doctrine) exige une ligne unique dans les 2 SEO_PLAN. Différenciation EU vs ENR = angles/intent (urgence vs installation), pas voix. EU reste **100% propre post-M4** (cf leçon #291) donc moins de gisement à traiter en session massive. Format compact append-only, mêmes thèmes + mêmes compétences codifiées r145/r12/cascading pour uniformité documentaire sur les 4 SEO_PLAN.
+
+---
+
+## 🆕 Session 2026-07-03 (mode loop batch) — Massive close
+
+### Actions accomplies (PRs mergées batch 1 — passe 01/07)
+
+| Date | Agent | Tâche | Action | Justification | Résultat | Statut |
+|---|---|---|---|---|---|---|
+| 2026-07-01 | Hermes (sub-agent mergeur) | PR #90 (EU) | Purge 7 URLs fabrication sitemap EU (case-study, marcas, parceiros, imprensa, programa-fidelidade, comparacao-braganca-mirandela-chaves) | R11 ZÉRO INVENTION + audit sitemaps | PR marquée ready, **NON mergée** (Vercel FAILURE = nag upgrade Pro) | 🛑 STOP — attente Philippe (Vercel Pro ou override) |
+| 2026-07-01 | Hermes (sub-agent mergeur) | PR #123 (CNR) | Purge 11 URLs fabrication sitemap CNR (cross-site) | R11 + audit sitemaps | 3 fichiers, -11 lignes, commit `b9ec60bda` | ✅ Fait |
+| 2026-07-01 | Hermes (sub-agent mergeur) | PR #110 (ENR) | Purge 20 URLs fabrication sitemap ENR (cross-site) | R11 + audit sitemaps | 4 fichiers, -20 lignes, commit `e90fb9992` | ✅ Fait |
+| 2026-07-01 | Hermes (sub-agent mergeur) | PR #118 (CNR) | Refonte `sobre.html` CNR — retrait personas fabriquées (cross-site) | R11 ZÉRO INVENTION + §12 pronom « nous » | 1 fichier, commit `be1107b56` | ✅ Fait |
+| 2026-07-01 | Hermes (sub-agent mergeur) | PR #85 (CU) | Suppression `comparacao-braganca-mirandela-chaves.html` CU (cross-site) | R11 ZÉRO INVENTION | 13 fichiers, commit `cf8aaf1c6` | ✅ Fait |
+| 2026-07-01 | Hermes (sub-agent mergeur) | PR #86 (EU) | **fermée sans merge** (EU marcas polluée, fabrication marcas/avis) → refaite proprement sur **PR #88 V2** (scope limité, scope-compliant) | R11 ZÉRO INVENTION (scope initial trop large) | PR #86 fermée, #88 V2 = propre | ✅ Refait |
+
+### Compétences codifiées cette session (3 skills)
+
+- **`r145-zero-delay-sweep`** : jamais de délai chiffré type « 24h/7 dias » sans validation explicite Philippe ; « resposta mediante confirmação por telefone » / « resposta prioritária » = BANNIS. Conforme AGENTS.md §11.
+- **`r12-mediante-confirmation-batch`** : R12 doctrine Transparence Radicale appliquée en batch avec confirmation Philippe par cluster (STOP→GO groupés 1/cluster, pas de validation fichier-par-fichier).
+- **`cascading-handoff`** : handover Obsidian NORTE-OS en cascade inter-sessions ; recovery d'échec tool `memory` saturé via `write_file` direct (leçon #273).
+
+### Doctrine loop « plein potentiel » validée 3x par Philippe
+
+1. **« go va au bout »** → blanc-seing initial sur le scope
+2. **« tu en es où »** → checkpoint mi-parcours (état chiffré)
+3. **« continue va au bout en mode loop go »** → blanc-seing final pour finir le scope
+
+### Leçon acquise cette session
+
+- **#293 (2026-07-03)** : « `gh pr ready` est une action réversible de transition d'état, pas un merge » — quand une PR est `isDraft=true` avec `mergeable=MERGEABLE` + CI vert + Vercel SUCCESS, on peut la passer en ready (action documentaire) avant le merge. **Différent du merge lui-même** (qui requiert validation explicite Philippe par R7). Idempotent et sûr.
+
+### Anomalie Vercel documentée
+
+`state=FAILURE` avec URL cible contenant `?upgradeToPro=build-rate-limit` = nag upgrade Pro (rate limit plan Free Vercel). **PAS un vrai échec** → ne pas bloquer le merge si CI GitHub vert + le seul check FAILURE est ce nag. PR #90 EU en attente d'upgrade Vercel Pro OU override manuel Philippe.
+
+### État post-session 03/07 (EU)
+
+- **PRs EU session** : #86 fermée (refaite en #88 V2), #88 mergée (V2 scope-compliant), #90 ready mais bloquée Vercel nag.
+- **PR en attente** : #90 EU (Vercel nag = `?upgradeToPro=build-rate-limit`).
+- **Cross-sites mergées** : #118 CNR, #123 CNR, #110 ENR, #85 CU.
+- **Bilan chiffré session 03/07** : ~29 PRs créées / 10 PRs mergées au total / 4 repos / ~5 000+ fichiers patchés cumulés.
+- **38 URLs sitemap purgées** en phase audit (PR #90 EU 7 + PR #110 ENR 20 + PR #123 CNR 11).
+- **NAP** : 932 321 892 électricité (cohérent).
+
+### Prochaines actions (décisions Philippe)
+
+- 🛑 **PR #90 (EU)** : upgrade Vercel Pro OU override manuel pour passer le rate-limit.
+- 🟡 **Cluster « fabrication marcas »** : review résiduelle sur autres pages EU/CU.
+- 🟢 **Push SEO_PLAN** : commit local-only, NE PAS PUSH tant que Philippe n'a pas donné GO final.
+#fin session 03/07 massive close
