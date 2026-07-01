@@ -1992,6 +1992,11 @@
       "source": "/eletricista-urgente-alij",
       "destination": "/eletricista-urgente-alijo",
       "statusCode": 301
+    },
+    {
+      "source": "/programa-fidelidade",
+      "destination": "/",
+      "statusCode": 301
     }
   ]
 }
