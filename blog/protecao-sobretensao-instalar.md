@@ -420,12 +420,6 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 - Proteção linha comando
 - Custo: €60-120
 
-**Painéis solares**:
-- DPS DC (lado painéis)
-- DPS AC (lado inversor)
-- Obrigatório instalação
-- Custo: €200-400
-
 ## ✅ Por Que Escolher 
 
 ### Especialização Proteção

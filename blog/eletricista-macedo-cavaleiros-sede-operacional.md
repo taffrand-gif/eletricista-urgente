@@ -20,7 +20,7 @@ Toda a região em redor de Macedo está coberta com tempos de resposta curtos. M
 
 ## Serviços elétricos especializados
 
-Em Macedo fazemos: diagnóstico e reparação de avarias, substituição de quadros elétricos, instalação de iluminação LED interior e exterior, certificação elétrica, instalação de carregadores para veículos elétricos, sistemas solares fotovoltaicos. Temos experiência e emitimos documentação oficial.
+Em Macedo fazemos: diagnóstico e reparação de avarias, substituição de quadros elétricos, instalação de iluminação LED interior e exterior, certificação elétrica, instalação de carregadores para veículos elétricos. Temos experiência e emitimos documentação oficial.
 
 ## Preços Macedo — Zona 1
 

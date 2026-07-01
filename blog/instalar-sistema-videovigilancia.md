@@ -323,7 +323,7 @@ Neste guia completo, vou explicar:
 | Item | Custo |
 |------|-------|
 | **4 câmaras WiFi com bateria** | €400-1,000 (€100-250/cada) |
-| **Painéis solares (opcional)** | €80-200 |
+| **Bateria extra (opcional)** | €80-200 |
 | **Suportes de montagem** | €20-40 |
 | **Instalação DIY** | €0 (faz sozinho) |
 | **Cloud (opcional)** | €12-40/mês (€3-10/câmara) |
@@ -502,8 +502,8 @@ Neste guia completo, vou explicar:
 
 ### Câmaras Autónomas (WiFi + Bateria)
 
-**1. Reolink Argus 3 Pro (2K, solar)** — €100-150
-- ✅ Painel solar incluído
+**1. Reolink Argus 3 Pro (2K, bateria)** — €100-150
+- ✅ Bateria de longa duração
 - ✅ Spotlight colorido
 - ✅ Sem mensalidades
 
@@ -627,6 +627,6 @@ Um sistema de videovigilância:
 ---
 
 **Artigos relacionados:**
-- [Instalar Carregador de Carro Elétrico em Casa: Guia Completo](/blog/instalar-carregador-carro-eletrico)
+- [Linha Dedicada para Carregador VE](/blog/eletricista-quadro-eletrico)
 - [Quadro Elétrico: Guia Completo de Manutenção e Segurança](/blog/quadro-eletrico-manutencao)
 - [Instalar Tomada no Exterior: Guia Passo a Passo](/blog/instalar-tomada-exterior)
