@@ -551,3 +551,42 @@ Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb2
 
 ### État réel
 - Branche `main`, propre/sync, Vercel lié (`prj_b4HVA1rL…`), ~1927 pages, 10 branches locales mortes à nettoyer.
+
+---
+
+## 🔍 Session 2026-07-03 — Consolidation post-03/07 (mission Hermes traçabilité)
+
+> Session 03/07 massive (25+ PRs, 4 repos, 5 000+ fichiers patchés). EU = site élec urgence, plurilingue PT (doctrine Transparence Radicale §12 héritage). Détail par PR dans la branche de travail `fix/comparacao-villes-fabrication-purge`.
+
+### PRs mergées cette session (EU)
+
+- **#65** — R4 FAQ schema calculadora (`Desde 135 EUR` → grille réelle `70 €/h + deslocação (Z1:15€ a Z6:65€). Mínimo 1h. +50% fora de horas úteis`)
+- **#75** — MARKETING.md câblé (registre voix/positionnement append-only, session 02/07 reprise)
+- **M4** — llms.txt/ai.txt/llms-full.txt (site EU lisible par crawlers IA, R12 AggregateRating corrigé)
+- Chargeur VE : confirmé **hors-scope** EU (urgences 24h, focus panne/intervention immédiate, pas installation VE)
+
+### PRs en attente validation merge (R7 strict — STOP)
+
+- Branche `fix/comparacao-villes-fabrication-purge` (1 commit en avance sur main) — contenu cross-sites fabrication comparée
+- Piso radiante : non concerné EU (urgences 24h, pas installation/remodelação)
+- AMEND M5-AUDIT-AVIS-2026-06-30.md : corriger §5.2/§6.1 EU (faux positif retiré en M4)
+
+### Thèmes session 03/07
+
+chargeur VE (4 repos — EU = hors-scope confirmé) · R12 batch « atendimento mediante confirmação » → « orçamento por escrito » · R145 zéro chrono respecté · comparacao villes fabrication (patches cross-sites) · blockquotes `quanto-custa` Doctrine §12 · sitemap cleanup (URLs obsolètes retirées). EU hérite des décisions ENR (même Doctrine §12, même NAP 932 321 892, même voix éditoriale urgence) avec M4 audit services FAUX **100% propre** (cf leçon #291).
+
+### Compétences codifiées (3 skills)
+
+- **`r145-zero-delay-sweep`** : aucun délai chiffré dans le contenu public (regex sweep AVANT/APRÈS + filet R8)
+- **`r12-mediante-confirmation-batch`** : remplacement atomique « atendimento mediante confirmação » → « orçamento por escrito » sur batch R12
+- **`cascading-handoff` PR-lifecycle** : sub-agent produit PR → parent valide + commit + push + ouvre PR → R7 STOP merge (jamais auto-merge)
+
+### Statut
+
+- **R7 strict** : STOP — Philippe doit merger une par une OU valider batch (script `~/work/Sites/HERMES_MISSIONS_2026Q3.md`)
+- **Vercel** : 'FAILURE' sur build UI = nag upgrade Pro Free plan, pas vrai échec (à ignorer, prod OK)
+- **rédésynchro prod/main** : SHA prod rate-limité, main avance (post-PR #75 + commit vide retrigger) ; redeploy auto reprend à reset 24h
+
+### Leçon acquise (consolidation 03/07)
+
+- **#293 (2026-07-03, EU)** : cohérence cross-sites (ENR + EU même voix/NAP/Doctrine) exige une ligne unique dans les 2 SEO_PLAN. Différenciation EU vs ENR = angles/intent (urgence vs installation), pas voix. EU reste **100% propre post-M4** (cf leçon #291) donc moins de gisement à traiter en session massive. Format compact append-only, mêmes thèmes + mêmes compétences codifiées r145/r12/cascading pour uniformité documentaire sur les 4 SEO_PLAN.
