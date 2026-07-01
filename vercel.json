@@ -1434,6 +1434,26 @@
   ],
   "redirects": [
     {
+      "source": "/marcas-grohe-roca-junkers",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/marcas-grohe-roca-junkers.html",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/parceiros",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/parceiros.html",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
       "source": "/public/blog/ar-condicionado-eficiente-verao",
       "destination": "/",
       "statusCode": 301
