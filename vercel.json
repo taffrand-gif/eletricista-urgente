@@ -1992,6 +1992,16 @@
       "source": "/eletricista-urgente-alij",
       "destination": "/eletricista-urgente-alijo",
       "statusCode": 301
+    },
+    {
+      "source": "/comparacao-braganca-mirandela-chaves",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/comparacao-braganca-mirandela-chaves.html",
+      "destination": "/",
+      "statusCode": 301
     }
   ]
 }
