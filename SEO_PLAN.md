@@ -493,6 +493,9 @@ Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb2
 - **#287** : "Pattern A vs B" — Pattern A (PROMO DÉGUISÉ, RETIRÉ) vs Pattern B (ANTI-FUNNEL, GARDÉ).
 - **#288** : "vercel.json reformat whitespace" — sub-agent peut reformatter sans changer le sémantique (3548 lignes diff non-breaking). TOUJOURS valider JSON + comparer keys/counts avant commit.
 - **#289 (codage)** : "Script Python batch sur 270 pages template" = gain de temps énorme vs patch fichier-par-fichier (~1 min vs 30 min). Pattern : identifier template commun, créer regex patterns, dry-run sur 2-3 fichiers, puis apply.
+- **#290 (2026-07-02)** : "Re-grip réconcilié post-merge" (leçon #267 appliquée) — détecté 3 hits grep Pattern A résiduels après M1+M2+M3 mergées. M4-fin-residuel a patché 1 (calculadora option VE). 2 autres hits = contextes LÉGITIMES (Pattern B anti-funnel, guides théoriques) = GARDÉS.
+  - `carregamento-noturno-vantagens.html` : titre H1 + meta description = sujet article légitime (GARDÉ)
+  - `alexa-vs-google-home-eletricista.html` : `<li>Aquecimento/climatização</li>` dans liste "ce que la domotique peut contrôler" (guide théorique) = GARDÉ
 #fin loop #8
 
 ## 🆕 Session 2026-07-01 (mode loop batch) — Hermes
