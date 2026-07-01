@@ -17,13 +17,11 @@ FORBIDDEN = [  # hors cœur métier — noindex, conservés (gate compliance sé
     "como-instalar-painel-solar.html",
     "painel-solar-vale-pena.html",
     "como-carregar-carro-eletrico-casa.html",
-    "case-study-certificacao-dgeg.html",
     # G2 (2026-06-23) — contamination cœur métier encore indexable.
     # Plomberie sur site ÉLEC (cross-craft, viole NAP/cœur strict):
     "marcas-grohe-roca-junkers.html",
     "guia-canalizacao.html",
     "glossario-canalizacao.html",
-    "case-study-fuga-braganca.html",
     "top-10-fugas-mais-comuns.html",
     "top-10-razoes-contratar-canalizador.html",
     # Solaire / VE (hors cœur, même politique que les 5 ci-dessus):

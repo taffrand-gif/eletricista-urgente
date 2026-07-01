@@ -12,7 +12,7 @@ Tudo o que precisa saber sobre contratar um canalizador em Bragança. Preços, z
 
 ## Zona servida e tempo de resposta
 
-Em Bragança, a nossa base operacional fica a cerca de 42 km de distância (tempo médio: 34 min). Isto significa que para emergências dentro da cidade, conseguimos estar no local em menos de 1 hora após a chamada. Servimos todas as freguesias de Bragança — Sé, Santa Maria, São Vicente, além de toda a área urbana e rural envolvente.
+Em Bragança, a nossa base operacional fica a cerca de 42 km de distância. Servimos todas as freguesias de Bragança — Sé, Santa Maria, São Vicente, além de toda a área urbana e rural envolvente. Resposta mediante confirmação por telefone.
 
 ## Problemas de canalização mais frequentes em Bragança
 
