@@ -197,7 +197,6 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 - Sistema KNX completo
 - Multimédia integrado
 - Segurança avançada
-- Climatização por zona
 - Iluminação arquitetural
 - Jardim automatizado
 
