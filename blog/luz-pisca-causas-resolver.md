@@ -385,7 +385,7 @@ Luz a piscar pode ser desde um problema simples (lâmpada solta - €0) até gra
 ✅ Fichas eletrotécnicas assinadas por técnico Profissional 
 ✅ Orçamento sem compromisso 
 ✅ Garantia de 2 anos 
-✅ Técnico em menos de 2h (urgências)
+✅ Atendimento mediante confirmação por telefone
 
 **📞 Ligue Agora:** [932 321 892](tel:+351932321892) 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20luzes%20a%20piscar%20e%20preciso%20de%20ajuda!) 
