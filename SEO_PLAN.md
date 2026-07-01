@@ -164,6 +164,7 @@ grep -c "schema.org" index.html
 ## 🔄 HISTORIQUE
 
 > **Format OBLIGATOIRE** : `| DATE | AGENT | TÂCHE | ACTION | JUSTIFICATION | RÉSULTAT | STATUT |`
+| 2026-07-02 | Hermes (mode loop 02/07, R7-bis merge non requis EU wait rate-limit) | session 02/07 : MARKETING.md câblé | PR #75 MARKETING.md (squash, a5c5a24f4) | MARKETING.md câblé. Pas d'action solaire/VE (EU légitime urgence/panne). 13/13 locales + 69/69 distantes cleanup. Vercel prod = READY/PROMOTED SHA 1249df1c7 (PR #69 câblage) mais HEAD main = a5c5a24f4 (post-#75) puis f558eb0c1 (commit vide retrigger) → désynchro. Rate-limit Free plan bloque redeploy (HTTP 402 remaining 0, reset 24h). | LECONS #282 #283 #283-bis #287 #288 | ⏳ PR #75 mergée, main avance, prod rate-limited 24h — redeploy manuel API à reset demain
 
 | Date | Agent | Tâche | Action | Justification | Résultat | Statut |
 |---|---|---|---|---|---|---|
