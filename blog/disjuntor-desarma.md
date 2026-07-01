@@ -30,7 +30,7 @@ priority: "CRITICAL"
 - 16A: Tomadas normais
 - 20A: Tomadas cozinha
 - 25A: Forno, máquina lavar roupa
-- 32A: Placa vitrocerâmica, ar condicionado
+- 32A: Placa vitrocerâmica
 
 **2. Disjuntor Diferencial (Proteção contra fugas de corrente)**
 
@@ -85,7 +85,7 @@ Está a pedir mais corrente do que o circuito suporta. Exemplo: circuito 16A (3.
 
 **Solução C: Criar circuito adicional (€150-400)**
 
-Para aparelhos potentes (ar condicionado, forno), criar circuito dedicado.
+Para aparelhos potentes (forno, por ex.), criar circuito dedicado.
 
 ### Causa 2: Curto-Circuito (25% dos casos)
 

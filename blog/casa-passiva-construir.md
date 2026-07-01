@@ -436,7 +436,7 @@ keywords: ["casa passiva", "passivhaus", "eficiência energética", "construçã
 - VMC eficiente
 - Bomba calor (se necessário)
 
-**Fotovoltaico** (opcional):
+**Produção renovável** (opcional, não instalamos — contacte empresa especializada):
 - 3-5 kWp: €4,000-7,000
 - Produz 4,000-6,000 kWh/ano
 - Cobre consumo total
@@ -524,7 +524,7 @@ keywords: ["casa passiva", "passivhaus", "eficiência energética", "construçã
 - VMC duplo fluxo
 - Bomba calor
 - Solar térmico
-- Fotovoltaico
+- Produção renovável (não instalamos)
 - Domótica
 
 ### Consultoria Completa

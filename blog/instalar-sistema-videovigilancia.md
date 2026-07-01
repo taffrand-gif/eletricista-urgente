@@ -124,7 +124,7 @@ Neste guia completo, vou explicar:
 ### 4. Câmaras Autónomas (WiFi com Bateria/Solar) — Sem Fios
 
 **Como funciona:**
-- Câmaras independentes com bateria ou painel solar
+- Câmaras independentes com bateria ou módulo de captação autónoma (instalação de painéis não incluída — sugerimos empresa especializada)
 - Gravam em cartão SD ou cloud
 - Sem cabos (nem elétricos nem rede)
 

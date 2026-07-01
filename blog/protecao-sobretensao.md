@@ -53,7 +53,7 @@ Neste guia completo, vamos explicar **o que é sobretensão**, tipos de protetor
 - Comum em zonas rurais
 
 **3. Aparelhos Potentes**
-- Motor de elevador, ar condicionado liga/desliga
+- Motor de elevador, fornos industriais comutados
 - Cria pico de tensão na rede local
 - Tensão: 250-400V
 - Afeta vizinhos

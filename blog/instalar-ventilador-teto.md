@@ -453,7 +453,7 @@ priority: "SEASONAL"
 Sim, MAS precisa de fixação adequada. Teto de betão: fácil. Teto falso/pladur: precisa reforço estrutural. Teto de madeira: fixar nas vigas. Nunca fixe só no pladur (suporta apenas 3-5kg).
 
 **2. Ventilador consome muita eletricidade?**
-Não. Ventilador AC: 50-80W (€0,01-0,02/hora). Ventilador DC: 15-35W (€0,003-0,008/hora). Muito mais económico que ar condicionado (1.000-3.000W).
+Não. Ventilador AC: 50-80W (€0,01-0,02/hora). Ventilador DC: 15-35W (€0,003-0,008/hora). Muito mais económico que equipamento de climatização (1.000-3.000W).
 
 **3. Ventilador pode cair do teto?**
 Sim, se fixação inadequada. Por isso é CRÍTICO fixar em viga, betão maciço, ou estrutura reforçada. Nunca fixe só em pladur. Teste com 20kg antes de instalar.

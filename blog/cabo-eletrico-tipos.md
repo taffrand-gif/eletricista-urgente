@@ -178,7 +178,7 @@ priority: "TRENDING"
 | Forno | 4mm² | 25A | 5.750W |
 | Placa vitrocerâmica | 6mm² | 32A | 7.360W |
 | Máquina lavar roupa | 2,5mm² | 16-20A | 3.680-4.600W |
-| Ar condicionado | 2,5-4mm² | 16-25A | 3.680-5.750W |
+| Equipamento de climatização (não instalamos) | 2,5-4mm² | 16-25A | 3.680-5.750W |
 | Termoacumulador | 2,5-4mm² | 16-20A | 3.680-4.600W |
 
 ### Cálculo da Secção

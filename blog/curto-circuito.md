@@ -332,7 +332,7 @@ Corrente: 100-1.000A (descontrolada)
 **Tipos:**
 - Tipo AC: Básico (€35-60)
 - Tipo A: Recomendado (€60-100) - protege contra DC
-- Tipo B: Especial (€150-300) - painéis solares, VE
+- Tipo B: Especial (€150-300) - aplicações industriais específicas (não instalamos — contacte empresa especializada)
 
 ### 3. Protetor de Sobretensão
 
