@@ -496,6 +496,7 @@ Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb2
 - **#290 (2026-07-02)** : "Re-grip réconcilié post-merge" (leçon #267 appliquée) — détecté 3 hits grep Pattern A résiduels après M1+M2+M3 mergées. M4-fin-residuel a patché 1 (calculadora option VE). 2 autres hits = contextes LÉGITIMES (Pattern B anti-funnel, guides théoriques) = GARDÉS.
   - `carregamento-noturno-vantagens.html` : titre H1 + meta description = sujet article légitime (GARDÉ)
   - `alexa-vs-google-home-eletricista.html` : `<li>Aquecimento/climatização</li>` dans liste "ce que la domotique peut contrôler" (guide théorique) = GARDÉ
+- **#291 (2026-07-02)** : "Gisement M5 ENR" — 588 occurrences Pattern A sur 121 fichiers ENR détectées par audit large. Site EU **100% propre** post-M4 (3 hits grep = légitimes). Pas de M5 spécifique EU à exécuter (M5 = ENR uniquement).
 #fin loop #8
 
 ## 🆕 Session 2026-07-01 (mode loop batch) — Hermes
