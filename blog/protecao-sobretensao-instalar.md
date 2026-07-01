@@ -402,7 +402,7 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 - Máquina lavar smart
 - Forno elétrico
 - Micro-ondas
-- Ar condicionado
+- Aparelhos de climatização (não instalamos — contacte empresa especializada)
 
 **Proteção**:
 - DPS Tipo 2 no quadro (suficiente)

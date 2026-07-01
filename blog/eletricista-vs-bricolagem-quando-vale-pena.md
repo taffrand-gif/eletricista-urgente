@@ -183,7 +183,7 @@ Pode fazer trabalhos elétricos sozinho ou deve chamar eletricista? Este guia co
 
 **Custo profissional:** 150-250€
 
-### ❌ Instalar Aquecimento/Ar Condicionado
+### ❌ Instalar Equipamentos de Climatização (contacte diretamente uma empresa especializada)
 
 **Porquê PERIGOSO:**
 - Alta potência (2000-3000W)

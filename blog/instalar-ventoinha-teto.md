@@ -11,7 +11,7 @@ priority: "SEASONAL"
 
 # Como Instalar Ventoinha de Teto: Guia Completo (2026)
 
-**Quer instalar uma ventoinha de teto para refrescar a casa?** Em Trás-os-Montes, onde os verões podem atingir **35-40°C**, uma ventoinha de teto é uma solução **eficiente e económica** para melhorar o conforto térmico. Consome apenas **15-75W** (vs 1.000-2.500W de ar condicionado), poupa até **€200/ano** na fatura elétrica, e proporciona circulação de ar agradável.
+**Quer instalar uma ventoinha de teto para refrescar a casa?** Em Trás-os-Montes, onde os verões podem atingir **35-40°C**, uma ventoinha de teto é uma solução **eficiente e económica** para melhorar o conforto térmico. Consome apenas **15-75W** (vs 1.000-2.500W de equipamento de climatização), poupa até **€200/ano** na fatura elétrica, e proporciona circulação de ar agradável.
 
 Neste guia completo, vamos explicar **como escolher a ventoinha adequada**, instalação segura passo a passo, custos reais, normas elétricas obrigatórias, e quando chamar um eletricista com experiência.
 
@@ -25,7 +25,7 @@ Neste guia completo, vamos explicar **como escolher a ventoinha adequada**, inst
 ### Vantagens
 
 **1. Eficiência Energética**
-- Consumo: 15-75W (vs 1.000-2.500W ar condicionado)
+- Consumo: 15-75W (vs 1.000-2.500W de equipamento de climatização)
 - Custo operação: €0.01-0.05/hora (vs €0.20-0.50/hora AC)
 - Poupança anual: €150-300
 
@@ -41,7 +41,7 @@ Neste guia completo, vamos explicar **como escolher a ventoinha adequada**, inst
 
 **4. Silenciosa**
 - Modelos modernos: 20-40 dB
-- Mais silenciosa que ar condicionado (50-60 dB)
+- Mais silenciosa que equipamento de climatização (50-60 dB)
 
 **5. Estética**
 - Variedade de designs

@@ -5,7 +5,7 @@ category: "eficiencia-energetica"
 date: "2026-03-04"
 author: ""
 excerpt: "Ventilação natural casa: ventilação cruzada, efeito chaminé, ventilação noturna. Arrefece 5-10°C sem AC, grátis, ecológico. Descubra técnicas e melhorias."
-keywords: ["ventilação natural", "arrefecer casa", "sem ar condicionado", "verão", "Trás-os-Montes"]
+keywords: ["ventilação natural", "arrefecer casa", "sem climatização ativa", "verão", "Trás-os-Montes"]
 ---
 
 # Ventilação Natural Casa: Conforto Verão Sem AC e Grátis

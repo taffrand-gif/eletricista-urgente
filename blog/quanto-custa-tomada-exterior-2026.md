@@ -329,7 +329,7 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 
 ### Garagem e Alpendre
 ✅ Ferramentas elétricas
-✅ Carregador carro elétrico
+✅ Wallbox (não instalamos — contacte empresa especializada)
 ✅ Aspirador
 ✅ Compressor
 ✅ Máquina lavar pressão
