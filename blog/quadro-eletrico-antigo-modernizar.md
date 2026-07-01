@@ -305,8 +305,6 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 ### 5. Parranjado para Futuro
 
 **Consumo moderno:**
-- Carregamento carro elétrico (futuro, linha dedicada)
-- Placas de indução
 - Carregadores USB-C
 - Equipamento de cozinha moderno
 

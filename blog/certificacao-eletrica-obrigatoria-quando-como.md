@@ -146,25 +146,7 @@ Verificar se instalação suporta potência maior.
 
 **Custo:** 50-150€ (se instalação ok) ou 370-650€ (se precisa mudar quadro)
 
-### 5. LIGAÇÃO EQUIPAMENTO ALTA POTÊNCIA (Recomendado)
-
-**Legislação:** DL 226/2005 (interpretação)
-
-**Quando:**
-- Bomba calor (>3kW)
-- Carregador carro elétrico (>3.7kW)
-- Ar condicionado central (>5kW)
-- Forno industrial (>5kW)
-
-**Porquê:**
-Equipamento potente precisa circuito dedicado adequado.
-
-**Obrigatório?**
-Tecnicamente não, mas EDP/fabricante podem exigir.
-
-**Custo:** 200-350€
-
-### 6. SEGURO HABITAÇÃO (Algumas Seguradoras)
+### 5. SEGURO HABITAÇÃO (Algumas Seguradoras)
 
 **Legislação:** Contrato seguro
 
