@@ -646,3 +646,37 @@ chargeur VE (4 repos — EU = hors-scope confirmé) · R12 batch « atendimento 
 - 🟡 **Cluster « fabrication marcas »** : review résiduelle sur autres pages EU/CU.
 - 🟢 **Push SEO_PLAN** : commit local-only, NE PAS PUSH tant que Philippe n'a pas donné GO final.
 #fin session 03/07 massive close
+
+## 🆕 Session 04/07 00h BST — P3 purge "mediante confirmação" + P2 cleanup + merge
+
+| DATE | AGENT | TÂCHE | ACTION | JUSTIFICATION | RÉSULTAT | STATUT |
+|------|-------|-------|--------|---------------|----------|--------|
+| 2026-07-04 | hermes-mini | P3 | Sub-agent dispatch `fix/p3-r145-mediante-confirmacao-head` EU | Leçon #294 worktree, R8 témoins md5, R7 PR draft | PR #100 EU créée (1094 fichiers +2684/-2684) | ✅ Fait |
+| 2026-07-04 | hermes-mini | P3 | Brief surévalué corrigé par sub-agent | Mon brief : 1748 EU HEAD → réel : 1094. Reste = 654 occurrences body préservées | Leçon codée #322 | ✅ Fait |
+| 2026-07-04 | hermes-mini | P2 | §9.3 bulk loop : drop 16 branches stale EU | Toutes tree-identical après rebase | 16 branches droppées | ✅ Fait |
+| 2026-07-04 | hermes-mini | P2 | Pull main EU (était behind 8 commits) | Récupération merge #99 EU + #98 docs + 6 autres | EU main aligné sur origin | ✅ Fait |
+| 2026-07-04 | hermes-mini | P2 | Drop stash@{0} `wip-cabo-parallel-agent-20260701` (1 fichier) | Leçon #154 stash orphan safe-drop | Stash supprimé | ✅ Fait |
+| 2026-07-04 | hermes-mini | P2 | Stash@{1} `wip-fix-marcas` + stash@{2} `UNRELATED` massive | R3 STOP (travail potentiellement non committé) | Conservés pour investigation batch 2 | 🟡 Flaggés |
+| 2026-07-04 | hermes-mini | go-merge | R7-bis delegation activée par "GO merge tout" | Leçon #188 | PR #100 EU mergée SHA `cbee43fa9` (le +gros — 1094 fichiers) | ✅ Fait |
+| 2026-07-04 | hermes-mini | post-merge | Empty commit nudge push SHA `ac9a11b9a` | Leçon #145 Vercel rate-limit, plan B | Push OK, mais webhook Vercel DOWN (rate-limit Free 100/jour) | 🟡 Vercel à reset minuit UTC |
+| 2026-07-04 | hermes-mini | post-merge | Drop branche `fix/p3-r145-mediante-confirmacao-head` EU | Branche mergée | Supprimée | ✅ Fait |
+
+### Leçons codées cette session (#319, #321, #325)
+
+- **#321** : safe-zones blog = HEAD OUI + body NON. 654 occurrences body "mediante confirmação" préservées volontairement (leçon #311 + #318 clarifiée).
+- **#325** : leçon #160 + #283 confirmées — webhook Vercel DOWN post-squash merge. Plan B empty commit nudge ne réveille PAS systématiquement. Reset quota minuit UTC nécessaire pour déployer EU/CU/CNR.
+
+### État post-session 04/07 (EU)
+
+- **PR mergée cette session** : #100 (1094 fichiers HEAD patchés, body préservé).
+- **Prod encore non déployé** : cache Vercel sert ancien build (Last-Modified 21:19 GMT). Reset quota = deploy auto attendu.
+- **Branches locales** : 1 (main).
+- **2 stashes orphelins** flaggés batch 2 : `wip-fix-marcas-parallel-agent-20260701` + `UNRELATED-pre-existing-changes-by-parallel-agents-1782918321`.
+- **1 worktree** (main).
+
+### Prochaines actions (P0/P1 batch 4)
+
+- 🟡 **Vérification prod post-Vercel-deploy** : `curl -s eletricista-urgente.pt | grep "Resposta imediata mediante"` doit retourner 0.
+- 🛑 **Investigation 2 stashes orphelins EU** : possible vrai travail non committé (notamment UNRELATED massive centaines de fichiers).
+- 🟡 **Autres R145 résiduels** : `Resposta prioritária`, `equipa de piquete`, `orçamento grátis`, `desde X€`, `Experiência profissional`, délais chiffrés — batch 2 à programmer.
+- 🟢 **Push SEO_PLAN** : ce commit est local-only.
