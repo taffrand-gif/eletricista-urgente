@@ -876,3 +876,31 @@ Source unique zones : `~/work/Sites/norte-os-marketing/prototypes/zonas-data.jso
 **Si NO-GO D5-*** : re-scoping mission, nouveaux briefs sub-agents selon retours.
 
 **Ne pas oublier** (priorité oubliée 02/07 15h49) : correctif 2 531 `<title>` racine dupliqués (CU+EU) — branche séparée `fix/restore-titles-from-og-title-2026-07-02` depuis main, fix = 1 sed/fichier (`<og:title>` → `<title>`). Source : `~/work/Sites/.tooling/next_session_priorities.md`.
+
+
+---
+
+## 🎯 SESSION 02/07 17h — P0.5 PROTOTYPE EU LIVRÉ, STOP D5/D6
+
+**Suite directe CU.** Prototype EU : `9028cde28 wip(EU): P0.5 prototype S2 — eletricista-iluminacao-exterior-braganca Z3→Z2`.
+
+### ✅ Prototype P0.5 S2 strict livré
+
+| Surface | Avant | Après |
+|---|---|---|
+| `<title>` | "🚨 Eletricista Urgente Bragança sob orçamento por escrito" | "⚡ Eletricista Iluminação Exterior Bragança — Z2 / 25€ deslocação · 70€/h" |
+| `<meta description>` | "35€ deslocação + 70€/h. A partir de 120€ (1h)" | "25€ deslocação + 70€/h. A partir de 95€ (1h). Orçamento por escrito." |
+| `og:title` / `og:description` | pas de Z2 | "(Z2) — 25€ deslocação · 70€/h" |
+| `data-zone` | "3" | "2" |
+| `zone-info` visible | "Zona 3 · 35€" | "Zona 2 · 25€" |
+| `zone-badge` hero | "Zona 4" | "Zona 2 · 25€" |
+| H1 | "Iluminacao Exterior Braganca" | "Iluminação Exterior Bragança — Zona 2" |
+| body "Deslocação" | "Zona 4: 40€" | "Zona 2 (Bragança): 25€" |
+| FAQ body "Quanto custa" | "Zona 4, deslocação incluída" | "Zona 2 (Bragança, 25€ deslocação incluída)" |
+| JSON-LD FAQPage text | "15-35€ conforme zona" | "25€ Z2 Bragança" (+ grille canonique) |
+
+NON touché : aucun Offer JSON-LD service.
+
+### 🚦 STOP strict — En attente GO D5 + D6
+
+29 KO1 listés exhaustifs (couvre 13 localités × patterns badge KO).
