@@ -763,3 +763,41 @@ chargeur VE (4 repos — EU = hors-scope confirmé) · R12 batch « atendimento 
 - 🛑 **Investigation 2 stashes orphelins EU** : possible vrai travail non committé (notamment UNRELATED massive centaines de fichiers).
 - 🟡 **Autres R145 résiduels** : `Resposta prioritária`, `equipa de piquete`, `orçamento grátis`, `desde X€`, `Experiência profissional`, délais chiffrés — batch 2 à programmer.
 - 🟢 **Push SEO_PLAN** : ce commit est local-only.
+
+---
+
+## 🎯 SESSION 02/07 15h45 — CLÔTURE (P0 batches terminés, STOP-Filipe prioritaire)
+
+**Bilan chiffré** : 4 PRs DRAFT MERGEABLES · 0 force-push · 0 token en clair · 0 merge main (R7 respecté).
+
+| Repo | PR | Commits | Fichiers | + | - | SHA dernier | Action STOP-Filipe |
+|---|---|---:|---:|---:|---:|---|---|
+| canalizador-norte-reparos | #127 | 9 | 306 | +378 | -344 | `7d365c649` | review + merge |
+| eletricista-norte-reparos | #114 | 6 | 137 | +163 | -136 | `5081dc3efc` | review + merge |
+| canalizador-urgente | #101 | 9 | 230 | +262 | -228 | `0d1a164d8` | review + merge |
+| eletricista-urgente | #101 | 8 | 94 | +180 | -149 | `819a23179` | review + merge |
+
+**Corrections post-batch (déjà intégrées dans PRs)**
+- CNR : `355b7201c fix(CNR): correctif zone-badge Boticas Z4→Z5 (9 fichiers)` — triangulation #4b40c9fd
+- EU : `e224a9f03 fix(EU): correctif R145 FAQ "X min" → "Sob marcação" (45 fichiers)` — site -urgente strict R145
+- CU : `d94312630 fix(CU): correctif R145 + cohérence prix/zone (5 KO levés)` — audit prototypes #8ec8672d
+
+**Nouveaux livrables**
+- 6 pages prix-district datées 2026 (CU/EU × 3 districts : Chaves/Mirandela/Vila Real), commits `0d1a164d8` CU + `b41f5d713` EU
+- M3 (pilot) terminé sur 2 sites -urgente, 1 page/district conforme §12 + schema Offer/FAQPage + atualizado julho 2026
+- 3 briefs `.md` "P0.5 audit CEO" créés (CNR/CU/EU) : SAFE (pas de modif code, juste docs)
+- 4 leçons #295/#296/#297/#298 codées dans `~/work/Sites/LECONS.md`
+- Handover Obsidian `SESSION-HANDOFF-2026-07-02-P0-BATCH-AUDIT-PR.md` (12 KB)
+
+**Doctrine #329 validée 2x ce jour** : (1) audit qualité prototypes via sub-agents AVANT batch (4/4 GO) ; (2) triangulation post-batch a débusqué 334 KO dont 90% faux-positifs structurels (signal faible abondant).
+
+**SEO duplicate content** : 76% du parc touché (10 028/13 139). Cause identifiée = fallback template "em Trás-os-Montes" non substitué (variable `{ville}` manquante). Cible correctif : `client/src/` ou script de build (à identifier en prochaine session).
+
+**Zéro-conflit confirmé** : 4 worktrees test merge → `Automatic merge went well` partout, aucun UU/UD/UA/AU/DU/DD, pas de vercel.json impacté.
+
+**Prochaines priorités post-merge** (pour la prochaine session si Philippe l'autorise)
+1. P0 secondaires Bragança/Mirandela/Vila Real (~340 localités restantes par repo)
+2. Correctif bug template "em Trás-os-Montes" (7000+ pages affectées, 1 ligne de patch suffit probablement)
+3. 26 PRs loop CU/EU en attente merge (#87-#94 CU + #91-#96 EU, doctrine §12 R12 cleanée)
+4. Mission M1 maillage 19/20/39/39 hubs concelhos
+5. Mission M5 témoignages (R11 strict — pas d'invention)
