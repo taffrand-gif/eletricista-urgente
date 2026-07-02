@@ -18,6 +18,16 @@ P0.5B (mission P0.5B, 02/07/2026 soir, audit CEO 8,5/10) :
 - OUT_OF_AREA Guarda : fornos-de-algodres, trancoso = district Guarda,
   hors zone de service. Nouvelle categorie (lister pour Filipe, PAS patcher).
 
+P0.5C (mission P0.5C, 02/07/2026, arbitrage CEO commit 71f1956b7) :
+- KO2ter (body 'Deslocação Zona X' != badge ET/OU != zone attendue) est
+  ajoute au pipeline. Temoin de validation : VPA (Vila Pouca de Aguiar)
+  avec badge Z5 + body Z3 doit declencher KO2ter_body_vs_badge ET
+  KO2ter_body_vs_expected.
+- Le check s'applique au body VISIBLE (scripts strippés, pas seulement
+  JSON-LD) pour eviter le double-comptage avec KO2bis. Si la mention est
+  dans un <script>...</script>, elle est traitée par KO2bis (scope JSON-LD
+  only, comportement inchange).
+
 Pour chaque page HTML (hors -es, hors dist/, hors _archive/, hors node_modules/) :
   1. Resoudre la zone attendue : strip prefixes service du filename -> slug
      (fuga-agua-, desentupimento-, fossa-septica-, canalizacao-nova-,
@@ -31,16 +41,30 @@ Pour chaque page HTML (hors -es, hors dist/, hors _archive/, hors node_modules/)
   3. KO2 - Badge != JSON-LD "Desloca[çc][ãa]o Zona X" :
        la zone annoncee dans la Offer JSON-LD desplazacao doit matcher la zone
        attendue (et le badge si present).
-  4. KO3 - Prix body vs grille officielle :
+  4. KO2ter — body « Deslocação Zona X » ≠ badge (et ≠ zone attendue si résolue) :
+       extracted du body VISIBLE (scripts strippés pour eviter doublon avec
+       KO2bis). Declenche si badge ET body presents ET valeurs differentes.
+       Variante KO2ter_zone_attendue : badge OK (matche zone_body) MAIS
+       body != zone_attendue. Variante KO2ter_body_seul : pas de badge mais
+       body annonce une zone != zone_attendue.
+  5. KO3 - Prix body vs grille officielle :
        Z1=15€ / Z2=25€ / Z3=35€ / Z4=45€ / Z5=55€ / Z6=65€.
        Survit aux patchs partiels (ex. badge Z2 corrige mais body dit "Z3 35€").
-  5. KO4 - Delais chiffres residuels :
+  6. KO4 - Delais chiffres residuels :
        regex (Tempo|Chegada|resposta)[^<]{0,40}\d{1,3}\s*min
        (R145 strict sur -urgente, tolere sur -norte sous lecon #298).
 
 ORDRE DES CHECKS (P0.5B, le bug v1) :
   KO2bis (badge vs JSON-LD - coherence INTERNE) et KO4 (delais) ne dependent
   PAS de expected_zone. Ils sont executes MEME si localite introuvable.
+
+ORDRE DES CHECKS (P0.5C) : KO2ter execute MEME si localite introuvable.
+  KO2ter est un check de coherence interne (badge vs body 'Deslocação Zona X')
+  qui ne depend pas de la resolution. Il s'execute apres KO2bis/KO4 et AVANT
+  le early-return NO_RESOL — comme KO2bis, c'est un check de coherence
+  pure applicable meme sur une page no_resol. Cela evite de rater le cas
+  "badge Z5, body Z3" sur une page dont la localite n'est pas encore
+  ajoutee a zonas-data.json.
 
 REGLE D'USAGE (bareme prochain audit, +2 self-audit chiffre joint) :
   Tout commit de batch inclut la sortie de ce script.
@@ -178,6 +202,14 @@ RE_BODY_DESLOCACAO = re.compile(
     r"Desloca[çc][ãa]o[^.<>\n]{0,40}?(\d{1,3})\s*€",
     re.IGNORECASE,
 )
+# Regex body « Deslocação Zona N » — utilisée par KO2ter.
+# P0.5C (mission P0.5C, CEO commit 71f1956b7) : on l'applique sur le contenu
+# HORS blocs <script>...</script> (tous, pas seulement JSON-LD) pour eviter les
+# doublons avec KO2bis. Scope géré dans extract_body_deslocacao_zones().
+RE_BODY_DESLOCACAO_ZONE = re.compile(
+    r"Desloca[çc][ãa]o\s*[—–-]?\s*Zona\s*(\d)",
+    re.IGNORECASE,
+)
 RE_BODY_ZONE_PRIX = re.compile(
     r"\bZona\s+(\d)\b[^.<>\n]{0,80}?(\d{1,3})\s*€",
     re.IGNORECASE,
@@ -297,6 +329,32 @@ def extract_jsonld_deslocacao_zone(content: str) -> object:
     return None
 
 
+def extract_body_deslocacao_zones(content: str) -> list[int]:
+    """Extrait TOUTES les zones N mentionnées par 'Desloca[cç][ãa]o Zona N' dans
+    le body VISIBLE (HORS blocs <script>...</script>).
+
+    P0.5C (mission P0.5C, CEO commit 71f1956b7) : KO2ter s'applique au body
+    uniquement (pas au JSON-LD, déjà couvert par KO2/KO2bis). On strippe
+    TOUS les scripts (pas seulement application/ld+json) car un éditeur peut
+    avoir inline du JSON-LD ou autre contenu structuré dans le body via JS.
+
+    Retourne une liste de zones (pas un set, on garde l'ordre des occurrences
+    pour les messages KO2ter). Vide si aucune mention.
+    """
+    # Supprime tous les blocs <script ...>...</script> (greedy=False pour eviter
+    # de manger du HTML legitime en cas de bug, mais DOTALL pour multilignes).
+    content_no_scripts = re.sub(
+        r'<script\b[^>]*>.*?</script>',
+        '',
+        content,
+        flags=re.DOTALL | re.IGNORECASE,
+    )
+    zones: list[int] = []
+    for m in RE_BODY_DESLOCACAO_ZONE.finditer(content_no_scripts):
+        zones.append(int(m.group(1)))
+    return zones
+
+
 def extract_body_prix_par_zone(content: str) -> dict[int, int]:
     """Extrait les couples (zone → prix) détectés dans le body."""
     result: dict[int, int] = {}
@@ -414,6 +472,12 @@ def audit_page(path: Path, zonas: dict) -> dict:
       PAS de expected_zone. Ils sont exécutés MÊME si localité introuvable, AVANT
       tout early-return. Une page avec un NO_RESOL peut quand même avoir un
       badge incohérent avec son JSON-LD (= KO2bis détectable).
+
+    P0.5C — extension :
+      KO2ter (badge vs body « Deslocação Zona N ») est EXÉCUTÉ avant le
+      early-return au même titre que KO2bis (cohérence interne pure : la
+      résolution n'est pas requise pour comparer badge et body). Variantes
+      zone_attendue et body_seul ne s'appliquent que sur localité résolue.
     """
     try:
         content = path.read_text(encoding="utf-8", errors="replace")
@@ -441,6 +505,9 @@ def audit_page(path: Path, zonas: dict) -> dict:
     # Extraction badges + JSON-LD (rapide et sans dépendance à expected_zone)
     badge = extract_badge_zone(content, slug)
     jsonld_zone = extract_jsonld_deslocacao_zone(content)
+    # KO2ter : « Deslocação Zona N » dans le body VISIBLE (scripts strippés).
+    body_zones_list = extract_body_deslocacao_zones(content)
+    body_zones_set = set(body_zones_list)
 
     # ───────────────────────────────────────────────────────────────────
     # CHECKS NO-ZONE-DEPENDANTS : exécutés AVANT tout early-return
@@ -465,8 +532,47 @@ def audit_page(path: Path, zonas: dict) -> dict:
             })
         # Sur -norte : info seulement (lecon #298), pas KO
 
+    # KO2ter (interne — P0.5C) : badge vs body « Deslocação Zona N ».
+    # 3 variantes :
+    #   - KO2ter_body_vs_badge : badge + body presents, valeurs differentes
+    #     (incoherence interne : le badge ment, le body dit autre chose).
+    #     Active MEME en no_resol (coherence interne pure, comme KO2bis).
+    #   - KO2ter_zone_attendue : page resolue et le body mentionne une zone
+    #     qui n'est PAS la zone_attendue (ex temoin VPA : badge Z5, body Z3,
+    #     attendu Z5 → KO2ter_zone_attendue). Detecte le cas "le body promet
+    #     un prix Z alors que la page est Z reelle".
+    #   - KO2ter_body_seul : pas de badge mais body annonce une zone != attendu.
+    #     Necessite que la localite soit resolue.
+    if badge is not None and body_zones_set and badge not in body_zones_set:
+        # Variante badge vs body (incoherence interne)
+        body_zones_str = ",".join(str(z) for z in body_zones_list)
+        result["kos"].append({
+            "type": "KO2ter_body_vs_badge",
+            "msg": (f"badge={badge} != body Deslocação Zona "
+                    f"[{body_zones_str}]"),
+        })
+    # Variante zone_attendue : body mentionne une zone != attendu.
+    # Detecte le cas "body promet un prix Z alors que la page est en zone Y".
+    if (status == "resolved"
+            and expected_zone is not None
+            and body_zones_set
+            and expected_zone not in body_zones_set):
+        body_zones_str = ",".join(str(z) for z in body_zones_list)
+        if badge is None:
+            result["kos"].append({
+                "type": "KO2ter_body_seul",
+                "msg": (f"pas de badge, body Deslocação Zona "
+                        f"[{body_zones_str}] != attendu={expected_zone}"),
+            })
+        else:
+            result["kos"].append({
+                "type": "KO2ter_zone_attendue",
+                "msg": (f"body Deslocação Zona [{body_zones_str}] "
+                        f"!= attendu={expected_zone} (badge={badge})"),
+            })
+
     # ───────────────────────────────────────────────────────────────────
-    # EARLY-RETURN si localité introuvable (KO2bis + KO4 déjà collectés)
+    # EARLY-RETURN si localité introuvable (KO2bis + KO4 + KO2ter déjà collectés)
     # ───────────────────────────────────────────────────────────────────
     if status != "resolved":
         return result
@@ -522,6 +628,7 @@ def scan_repo(repo: Path, zonas: dict) -> dict:
         "ko1": 0,
         "ko2": 0,
         "ko2bis": 0,
+        "ko2ter": 0,
         "ko3": 0,
         "ko4": 0,
         "kos_total": 0,
@@ -570,6 +677,10 @@ def scan_repo(repo: Path, zonas: dict) -> dict:
             if t == "KO1_badge_zona": stats["ko1"] += 1
             elif t == "KO2_jsonld_zone": stats["ko2"] += 1
             elif t == "KO2bis_badge_vs_jsonld": stats["ko2bis"] += 1
+            elif (t == "KO2ter_body_vs_badge"
+                  or t == "KO2ter_zone_attendue"
+                  or t == "KO2ter_body_seul"):
+                stats["ko2ter"] += 1
             elif t == "KO3_prix_body": stats["ko3"] += 1
             elif t == "KO4_delai_chiffre_urgente": stats["ko4"] += 1
             stats["kos_total"] += 1
@@ -619,6 +730,7 @@ def print_repo_stats(s: dict) -> None:
     print(f"  KO1 badge != zonas-data.json     : {s['ko1']}")
     print(f"  KO2 JSON-LD deslocacao != attendu: {s['ko2']}")
     print(f"  KO2bis badge != JSON-LD (interne): {s['ko2bis']}")
+    print(f"  KO2ter body Deslocação Zona != badge/attendu : {s['ko2ter']}")
     print(f"  KO3 prix body != grille Z1=15..Z6=65 : {s['ko3']}")
     print(f"  KO4 delais chiffres (R145 -urgente)   : {s['ko4']}")
     print(f"  -------------------------------------")
@@ -681,7 +793,7 @@ def main():
         "no_resol": 0,
         "no_resol_unknown": 0,
         "no_resol_out_of_area": 0,
-        "ko1": 0, "ko2": 0, "ko2bis": 0, "ko3": 0, "ko4": 0, "kos_total": 0,
+        "ko1": 0, "ko2": 0, "ko2bis": 0, "ko2ter": 0, "ko3": 0, "ko4": 0, "kos_total": 0,
     }
     repo_results = []
     for repo_arg in sys.argv[1:]:

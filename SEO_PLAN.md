@@ -957,3 +957,71 @@ NON touché : aucun Offer JSON-LD service.
 | KO3 (0 CEO) | **653** | NEW (mesure réelle) |
 
 **Étalonnage NON matché** : STOP, Filipe doit trancher sémantique KO2bis et valider +107 KO1 avant vagues.
+
+---
+
+## 🎯 SESSION 02/07 22h45 — P0.5B S1-bis — AJOUT KO2ter (CEO arbitrage 71f1956b7)
+
+**Source** : commit `71f1956b7` (CU, CEO après STOP Hermes) — section ARBITRAGE S1
+du MISSION_HERMES_P0.5B_2026-07-02.md.
+
+### Pivots S1-bis (script v3)
+
+`tools/p0.5-self-audit/self-audit-zones.py` (canonique : `canalizador-urgente/tools/`)
+
+- Nouvelle regex `RE_BODY_DESLOCACAO_ZONE` : `Desloca[çc][ãa]o\s*[—–-]?\s*Zona\s*(\d)`
+- Helper `extract_body_deslocacao_zones(content)` : applique sur body APRÈS strip
+  de TOUS les `<script>...</script>` (anti double-comptage KO2/KO2bis).
+- 3 variantes KO2ter : `body_vs_badge` (cohérence interne pure, sur NO_RESOL OK),
+  `zone_attendue` (body ≠ attendu alors que badge OK), `body_seul` (pas de badge,
+  body ≠ attendu).
+- `scan_repo()` : agrégation `ko2ter` + chaque variante comptée séparément.
+
+### Synchro SHA script v3 (Voie B — fait)
+
+- SHA canonique : `addd098cd442` (script v3 dans CU après sub-agent)
+- Copie synchrone sur les 4 repos + 2 hors-repo (`~/.openclaw/scripts`,
+  `~/.hermes/skills/.../scripts`).
+- Commits synchro satellites déjà pushés sur origin : `35b2ca629` (EU),
+  `eb9a68f8c` (CNR), `6299bc646c` (ENR).
+- Note : le commit synchro contient le script v2 (KO2bis) ; le script v3
+  (KO2ter) arrive dans CE commit (post-71f1956b7).
+
+### Sortie brute v3 — `/tmp/self-audit-v3-2026-07-02.log`
+
+| Métrique | CU | EU | CNR | ENR | TOTAL |
+|---|---:|---:|---:|---:|---:|
+| HTML scannés | 2 014 | 1 967 | 4 946 | 4 185 | 13 112 |
+| Pages résolues OK | 332 | 292 | 728 | 645 | 1 997 |
+| NO_RESOL total | 445 | 473 | 3 136 | 2 511 | 6 565 |
+| - out_of_area Guarda | 0 | 0 | 2 | 2 | 4 |
+| KO1 badge | 35 | 61 | 80 | 102 | 278 |
+| KO2 JSON-LD | 156 | 156 | 0 | 11 | 323 |
+| KO2bis | 0 | 0 | 0 | 11 | 11 |
+| **KO2ter body_vs_badge (CEO strict)** | **210** | **201** | **211** | **206** | **828** |
+| KO2ter zone_attendue | 116 | 92 | 115 | 96 | 419 |
+| KO2ter body_seul | 739 | 716 | 738 | 705 | 2 898 |
+| KO3 prix | 170 | 177 | 156 | 150 | 653 |
+| KO4 -urgente | 38 | 41 | 206* | 0 | 285 |
+| **TOTAL KO** | **1 464** | **1 444** | **1 391** | **1 185** | **5 484** |
+
+*CNR KO4 206 = -norte → info leçon #298.
+
+### Étalonnage CEO 842 (S1-bis FERMÉ)
+
+| Repo | Baseline CEO | **Mesure v3** | Δ |
+|---|---:|---:|---:|
+| CU | 210 | 210 | 0 ✅ |
+| EU | 201 | 201 | 0 ✅ |
+| CNR | 211 | 211 | 0 ✅ |
+| ENR | 217 | 206 | -5% (tolérance 10%) ✅ |
+| **Total** | **839** | **828** | **-1.3%** ✅ |
+
+### STOP — décision CEO requise avant S2
+
+| Question | Options |
+|---|---|
+| **Périmètre vagues S2** | (a) CEO strict = 828 KO2ter_body_vs_badge + reste (~2 172 KO) |
+| | (b) Élargi = 4 145 KO2ter (toutes variantes) + reste (~5 488 KO) |
+
+Co-Authored-By: Claude (Fable 5 Sonnet) <noreply@anthropic.com>
