@@ -1045,3 +1045,22 @@ Garde-fous : pas de dist/, -es exclues, Offers service intacts, grille
 canonique intacte, PR draft, pas de merge sans review.
 
 Co-Authored-By: Claude (Fable 5 Sonnet) <noreply@anthropic.com>
+
+---
+
+## 🎯 SESSION 02/07 22h35 — vagues 3-5 (cumul -28.1% KO2ter baseline 4145)
+
+**Vagues 1+2+3 livrees** (commits dans cette branche `fix/prix-zones-osrm`) :
+
+| Repo | Vague 1 | Vague 2 | Vague 3 | Cumul KO2ter fermes |
+|---|---|---|---|---|
+| CU | -147 | -110 | -14 | -271 |
+| EU | -145 | -98 | -1 | -244 |
+| CNR | -146 | -98 | -114 | -358 |
+| ENR | -121 | -98 | -75 | -294 |
+| **TOTAL** | | | | **-1167** |
+
+Vagues 4-5 dispatchees en parallele via deleg_61c15033 (4 sub-agents).
+Patcher canonique apply_vague.py SHA 6ab04f4d8, garde-fous R8 OpenClaw respectes.
+
+Co-Authored-By: Claude (Fable 5 Sonnet) <noreply@anthropic.com>
