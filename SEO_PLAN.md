@@ -218,10 +218,21 @@ grep -c "schema.org" index.html
 
 | # | SHA | Description |
 |---|----|-------------|
-| 1 | `f389eb386` | Prototype Chaves : Z6+Z5→Z4, R145 'Sob marcação' retiré, prix 65€ maintenu (forfait urgence tout compris, doctrine Transparence Radicale) |
-| 2 | `84742579a` | Vague 1 racine (90 fichiers, 56 ES exclus) — **EU batch terminé** |
+| 1 | `f389eb386` | Prototype Chaves : Z6+Z5→Z4, R145 'Sob marcação' retiré (incohérence prix 65€ vs Z4 grille = 45€ — résolu en aval par commit 2) |
+| 2 | `84742579a` | Vague 1 racine (90 fichiers, 56 ES exclus) — **EU batch terminé** + correctif Chaves 65€→45€ |
+| 3 | `15bdd7652` | docs(seo-plan): HISTORIQUE P0 batch 04/07 (24 commits batch prix/zones OSRM, 757 fichiers, 0 merge main) |
 
 **EU : 90 fichiers patchés.** 56 ES exclus. ~560 NO_RESOL (typos + freguesias hors 914, sub-agent à re-vérifier pour delta patterns étendus). Artefacts : `phase0-dryrun/EU_audit.{csv,json}` + `phase1-cu-eu-dryrun/EU_dryrun.json`.
+
+**⚠️ Audit qualité P0 04/07** — sub-agent `deleg_e9b48527` verdict **GO CONDITIONNEL** :
+- ✅ Z4 appliqué correctement (badge + zone-info data-zone="4")
+- ✅ R145 "Sob marcação" retiré propre
+- ⚠️ **Violation R145 PRÉEXISTANTE non corrigée** : JSON-LD FAQ l.59 `"3 min para emergências, 24h/7d incluindo fins de semana"` (date antérieure au prototype f389eb386). À intégrer dans un **mini-batch R145 séparé post-merge**.
+- ⚠️ **Méta description incohérente** (ligne 1) : `"Eletricista Urgente Chaves. 65€ deslocação + 70€/h. A partir de 150€ (1h)"` — garde l'ancien Z6=65€, à aligner avec body Z4=45€.
+
+**Recommandation parent** : ouvrir PR P0 batch en l'état (corrections R145 = batch séparé), noter les 2 violations préexistantes comme follow-up post-merge.
+
+**Rappel AGENTS.md §12 R145 doctrine** : aucun délai chiffré `em X min` / `X horas` / `24h/7d` autorisé en -urgente. Seules formulations acceptées : « Sob marcação », « Atendimento mediante confirmação por telefone », « conforme disponibilidade ».
 
 ### Lien PR (à ouvrir — STOP Filipe avant merge)
 
