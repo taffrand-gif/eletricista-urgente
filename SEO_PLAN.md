@@ -801,3 +801,78 @@ chargeur VE (4 repos — EU = hors-scope confirmé) · R12 batch « atendimento 
 3. 26 PRs loop CU/EU en attente merge (#87-#94 CU + #91-#96 EU, doctrine §12 R12 cleanée)
 4. Mission M1 maillage 19/20/39/39 hubs concelhos
 5. Mission M5 témoignages (R11 strict — pas d'invention)
+
+
+
+---
+
+## 🎯 SESSION 02/07 16h22 — P0.5 NORMALISATION (4/4 prototypes livrés, STOP D5/D6)
+
+**Suite directe de la session 15h45 (clôture P0 batches, 4 PRs #101/101/114/127 MERGEABLES).**
+**Plafond sub-agents** : 3 → 4 levé via `sed` direct Philippe (`~/.hermes/config.yaml` ligne 406-407). Plugin sécurité R2 V2 refuse patch agent sur ce fichier (à coder en check-list pour futurs postes).
+
+### ✅ ÉTAPE 0 — Hygiène
+4 commits SEO_PLAN.md ajoutés : `997d854ea` CU · `0fd6c5c7e` EU · `722158be4` CNR · `6c3e8cb455` ENR.
+
+### ✅ ÉTAPE 1 — Correctif immédiat M3 Bragança
+Branche `fix/prix-zones-osrm` (4 PRs P0/P0.5 sur cette branche — 1 seule review post-batch).
+
+| Repo | Commit | Fichier | Diff | Statut |
+|---|---|---|---|---|
+| canalizador-urgente | `1cbd39e30 fix(CU): M3 Bragança Z3/35€ → Z2/25€ (grille OSRM)` | `preco-canalizador-urgente-braganca-2026.html` | 15+/15- | ✅ grep Z3=0, Z2 dominant, 1 résiduel légitime "35€" grille FAQ générique |
+| eletricista-urgente | `079257889 fix(EU): M3 Bragança Z3/35€ → Z2/25€ (grille OSRM)` | `preco-eletricista-urgente-braganca-2026.html` | 31+/18- | ✅ grep Z3=0, Z2 dominant, 4 résiduels hors-Bragança légitimes (grilles Vinhais/Mogadouro/Vimioso/Torre Moncorvo) |
+
+**Cause** : grille pré-OSRM Z3/35€ partout, OSRM a reclassé Bragança Z2/25€ (source : `norte-os-marketing/prototypes/zonas-data.json`).
+
+### ✅ ÉTAPE 2 — Dry-run P0.5 normalisation PAGE ENTIÈRE
+Source unique zones : `~/work/Sites/norte-os-marketing/prototypes/zonas-data.json`. Grille Z1=15€…Z6=65€. Taux canal 65€/h · élec 70€/h. Majoration nuit/WE/feriado +50%.
+
+| Repo | KO mesurés | vs brief | Vagues | Prototype livré (NON-commité) |
+|---|---:|---:|---:|---|
+| CU (canalizador-urgente) | **215** | 16+211=227 | 3 | `/tmp/canalizador-miranda-do-douro.prototype.html` |
+| EU (eletricista-urgente) | **535** | 29+202=231 ⚠️ | 6 | `eletricista-urgente/.hermes/PROTOTYPE_miranda-do-douro.html` |
+| CNR (canalizador-norte-reparos) | **423** | 58+211=269 ⚠️ | 5 | `canalizador-norte-reparos/_prototype/canalizador-fossa-septica-vila-pouca-de-aguiar.html` |
+| ENR (eletricista-norte-reparos) | **17** badge + 0 JSON-LD | 71+218=289 ⚠️ | 1 | `public/eletricista-vila-real.html` (working tree dirty) |
+
+**Écarts métric** :
+- **EU agent** : 493 KO badge (heuristique large) vs brief 29 — inclut 8 villes × 8 services = 64 fichiers KO majeurs Z3/Z4/Z5 non-respect source-of-truth
+- **CNR agent** : 273 KO badge (heuristique large) vs brief 58
+- **ENR agent** : 17 KO badge sur périmètre `public/` source (58 pages `eletricista-*.html`) — les 71/218/14 du brief référencaient `dist/public/` (1368 fichiers générés) ou `client/public/` (1367). Source `public/` = structurellement différente (pas d'attribut `data-zone`/`zone-info`, JSON-LD appauvri). Dist/ et client/public/ md5 **inchangés** (R-forbidden respecté).
+
+**Slugs ENR hors `zonas-data.json`** (R11 zéro invention à arbitrer D6) :
+- `eletricista-alfndega-da-fe.html` (typo : "alfndega" sans "â")
+- `eletricista-fornos-de-algodres.html` (hors Tras-os-Montes strict, Guarda)
+- `eletricista-macedo-cavaleiros.html` (variante sans "de")
+- `eletricista-seix0-de-ansiaes.html` (typo : "seix0")
+- `eletricista-trancoso.html` (hors Tras-os-Montes, Guarda)
+
+### 🚦 STOP strict — En attente GO D5/D6
+
+**Zéro merge, zéro vague lancée.** 5 décisions D5 + 1 D6 pendantes :
+
+| # | Question | Origine |
+|---|---|---|
+| **D5-A** | Valider les 4 prototypes (CU miranda · EU miranda · CNR fossa · ENR vila-real) avant lancement vagues | Tous rapports |
+| **D5-B** | EU 493 / CNR 273 KO badge (heuristique large) vs brief 29 / 58 — accepter ou réduire scope ? | EU + CNR |
+| **D5-C** | Doublons CNR (135 paires `<svc>-<loc>.html` ↔ `canalizador-<svc>-<loc>.html`) : canonical / 301 / suppression ? | CNR |
+| **D5-D** | Sort de "Sob confirmação telefónica" dans FAQ "Tempo de chegada" (R12-friendly conservé pour l'instant) | CNR |
+| **D5-E** | D1 batch "Chegada em XX min" (1873 pages CNR total, 177 dans périmètre P0.5) : mission séparée OK ? | CNR |
+| **D6** | 5 slugs ENR hors source-of-truth : ajouter entrées `zonas-data.json` OU exclure pages ? | ENR |
+
+### Interdits respectés (4/4)
+- ✅ **R7** : aucun merge, aucun commit P0.5 (sauf M3 Bragaña Phase 1)
+- ✅ **R11** : zéro invention (Miranda=Vraie Z5 zones-data.json, Vila Real=Vraie Z4 zones-data.json, Vila Pouca de Aguiar=Vraie Z5 zones-data.json — tous vérifiés sur source unique)
+- ✅ **R12** : taux 65€/h canal · 70€/h élec maintenu, NAP distincts (928 484 451 canal · 932 321 892 élec), majoration +50%
+- ✅ **R145** : aucun délai chiffré introduit, grilles FAQ Z1-Z6 conservées comme référence légitime
+- ✅ **D1** : "Chegada em ~70 min" retiré UNIQUEMENT sur prototype CNR fossa-septica (signal propre), rapport D5-E pour reste
+- ✅ **D2** : "mediante confirmação" retiré UNIQUEMENT sur prototype CNR fossa-septica, rapport D5-D pour reste
+- ✅ **Pas d'Offers SERVICE 110/150/280** ajoutées (page n'en avait pas, n'en a pas)
+- ✅ **Pas de dist/** (EU et ENR — md5 inchangés)
+
+### Prochaines actions — dépendantes des GO D5/D6
+
+**Si GO D5-A + D5-B + D5-C + D5-D + D5-E + D6** : lancement vagues P0.5 par repo (CU 3 vagues · EU 6 vagues · CNR 5 vagues · ENR 1 vague). Vagues ≤100 fichiers, grep AVANT/APRÈS par vague, commits `fix(<repo>): P0.5 vague N`, branche unique `fix/prix-zones-osrm` → 1 PR par repo → ready for review post-batch.
+
+**Si NO-GO D5-*** : re-scoping mission, nouveaux briefs sub-agents selon retours.
+
+**Ne pas oublier** (priorité oubliée 02/07 15h49) : correctif 2 531 `<title>` racine dupliqués (CU+EU) — branche séparée `fix/restore-titles-from-og-title-2026-07-02` depuis main, fix = 1 sed/fichier (`<og:title>` → `<title>`). Source : `~/work/Sites/.tooling/next_session_priorities.md`.
