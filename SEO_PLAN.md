@@ -904,3 +904,56 @@ NON touché : aucun Offer JSON-LD service.
 ### 🚦 STOP strict — En attente GO D5 + D6
 
 29 KO1 listés exhaustifs (couvre 13 localités × patterns badge KO).
+
+---
+
+## 🎯 SESSION 02/07 21h00 — P0.5B (réf mission CEO) — SCRIPT v2 + RÉ-ÉTALONNAGE BLOQUANT
+
+**Mission** : `MISSION_HERMES_P0.5B_2026-07-02.md` (commit `2a489be8f`, branche `fix/prix-zones-osrm`). Audit CEO 02/07 soir : 8,5/10. **GO D5 = conditionnel** sur étalonnage S1.
+
+### Bug v1 — cause racine
+`audit_page()` faisait `return result` dès `expected_zone is None` → ~57% du parc (13 112 pages) sautaient TOUS les checks, dont KO2bis (badge vs JSON-LD) et KO4 (délais) qui ne dépendent PAS de la résolution zones-data.
+
+### Fix v2 — `tools/p0.5-self-audit/self-audit-zones.py`
+1. **KO2bis + KO4 exécutés AVANT early-return NO_RESOL**
+2. **SERVICE_PREFIXES étendu** : +`preco-*`, +`iluminacao-exterior-`, +`preco-*-norte-reparos-`, +`precos-*`, +`quanto-custa-*-`
+3. **EXTRA_PREFIXES étendu** : +`urgente-` (satellites `canalizador-urgente-XXX`)
+4. **SLUG_ALIASES (D6)** : résolution non-ambiguë typos (alfndega, macedo-cavaleiros sans de). `seix0` alias=None = audit only.
+5. **OUT_OF_AREA Guarda** : `Fornos de Algodres`, `Trancoso` = district Guarda, hors zone service (NE PAS PATCHER, lister D6)
+6. **Helper `resolve_localidade(slug, zonas)`** : status ∈ {`resolved`, `out_of_area`, `unknown`}
+
+### Sortie brute v2 (re-mesure 4 repos, log `/tmp/self-audit-v2-2026-07-02.log`)
+
+| Métrique | CU | EU | CNR | ENR | TOTAL |
+|---|---:|---:|---:|---:|---:|
+| HTML | 2 014 | 1 967 | 4 946 | 4 185 | **13 112** |
+| NO_RESOL | 445 | 473 | 3 136 | 2 511 | **6 565** |
+| - `out_of_area` Guarda | 0 | 0 | 2 | 2 | **4** |
+| - `unknown` (D3) | 445 | 473 | 3 134 | 2 509 | **6 561** |
+| KO1 badge ≠ source | 35 | 61 | 80 | 102 | **278** |
+| KO2 JSON-LD ≠ attendu | 156 | 156 | 0 | 11 | **323** |
+| KO2bis interne | 0 | 0 | 0 | 11 | **11** |
+| KO3 prix ≠ grille | 170 | 177 | 156 | 150 | **653** |
+| KO4 délais -urgente | 38 | 41 | 206* | 0 | **285** |
+| **TOTAL KO** | **399** | **435** | **442** | **274** | **1 550** |
+
+*CNR KO4 = 206 sur -norte = info leçon #298 (pas KO strict à patcher).
+
+### Triage NO_RESOL par cause (D3 pour Filipe)
+
+| Cause | TOTAL | Exemples |
+|---|---:|---|
+| `prefixe_non_couvert` (blog, cookies, FAQ) | **4 606** | `blog-fuga-agua-o-que-fazer.html`, `politica-cookies.html` |
+| `localite_absente_source` (districts, urgences, typos) | **2 800** | `distrito-de-braganca.html`, `seixo-de-anasiaes.html` |
+| `annee_residuelle` (fichiers prix 2026) | **49** (v2: résolus via préfixes étendus) | `preco-canalizador-norte-reparos-braganca-2026.html` |
+| `slug_malformé` | **2** | `canalizador-.html` |
+
+### 🚦 STOP — chiffres bruts vs baseline CEO
+
+| Question baseline | Mesure v2 | Verdict |
+|---|---|---|
+| KO1 (171 CEO post-proto) | **278** | +107 (réels via extension préfixes) |
+| KO2bis (842 CEO) | **11** | écart sémantique massif (CEO sans script reproductible) |
+| KO3 (0 CEO) | **653** | NEW (mesure réelle) |
+
+**Étalonnage NON matché** : STOP, Filipe doit trancher sémantique KO2bis et valider +107 KO1 avant vagues.
