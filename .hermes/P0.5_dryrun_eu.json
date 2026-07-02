@@ -1,0 +1,5559 @@
+{
+  "summary": {
+    "total_scanned": 1746,
+    "es_excluded": 18,
+    "eu_analyzed": 1728,
+    "with_badge": 1483,
+    "city_resolved_in_source": 755,
+    "aldeias_unresolved": 973,
+    "ko_badge_nosrc": 493,
+    "ko_badge_vs_jsonld": 92,
+    "ko_price_grid": 0,
+    "ko_double_zone_info": 0,
+    "total_unique_ko_files": 535,
+    "vagues": [
+      {
+        "vague": 1,
+        "count": 100,
+        "files": [
+          "eletricista-abambres.html",
+          "eletricista-abreiro.html",
+          "eletricista-adeganha.html",
+          "eletricista-adorigo.html",
+          "eletricista-adoufe.html",
+          "eletricista-afonsim.html",
+          "eletricista-aguieira.html",
+          "eletricista-aguieiras.html",
+          "eletricista-alcarva.html",
+          "eletricista-aldeias.html",
+          "eletricista-algeriz.html",
+          "eletricista-algoso.html",
+          "eletricista-alimonde.html",
+          "eletricista-aliviada.html",
+          "eletricista-almofala.html",
+          "eletricista-alvadia.html",
+          "eletricista-alvaredos.html",
+          "eletricista-alvarelhos.html",
+          "eletricista-alvendre.html",
+          "eletricista-amedo.html",
+          "eletricista-amieiro.html",
+          "eletricista-anelhe.html",
+          "eletricista-angueira.html",
+          "eletricista-antas.html",
+          "eletricista-arcas.html",
+          "eletricista-aricera.html",
+          "eletricista-armoniz.html",
+          "eletricista-arnas.html",
+          "eletricista-arroios.html",
+          "eletricista-atalaia.html",
+          "eletricista-avaria-eletrica-almendra.html",
+          "eletricista-avaria-eletrica-amarante.html",
+          "eletricista-avaria-eletrica-argozelo.html",
+          "eletricista-avaria-eletrica-armamar.html",
+          "eletricista-avaria-eletrica-boticas.html",
+          "eletricista-avaria-eletrica-britiande.html",
+          "eletricista-avaria-eletrica-cambres.html",
+          "eletricista-avaria-eletrica-cedovim.html",
+          "eletricista-avaria-eletrica-cerva.html",
+          "eletricista-avaria-eletrica-chaves.html",
+          "eletricista-avaria-eletrica-cumieira.html",
+          "eletricista-avaria-eletrica-lalim.html",
+          "eletricista-avaria-eletrica-lamego.html",
+          "eletricista-avaria-eletrica-lazarim.html",
+          "eletricista-avaria-eletrica-lixa.html",
+          "eletricista-avaria-eletrica-lordelo.html",
+          "eletricista-avaria-eletrica-marialva.html",
+          "eletricista-avaria-eletrica-mirandela.html",
+          "eletricista-avaria-eletrica-mogadouro.html",
+          "eletricista-avaria-eletrica-montalegre.html",
+          "eletricista-avaria-eletrica-pedras-salgadas.html",
+          "eletricista-avaria-eletrica-penedono.html",
+          "eletricista-avaria-eletrica-resende.html",
+          "eletricista-avaria-eletrica-sabrosa.html",
+          "eletricista-avaria-eletrica-salzedas.html",
+          "eletricista-avaria-eletrica-sernancelhe.html",
+          "eletricista-avaria-eletrica-tarouca.html",
+          "eletricista-avaria-eletrica-valdigem.html",
+          "eletricista-avaria-eletrica-vidago.html",
+          "eletricista-avaria-eletrica-vila-real.html",
+          "eletricista-avaria-eletrica-vilarandelo.html",
+          "eletricista-avaria-eletrica-vimioso.html",
+          "eletricista-avaria-eletrica-vinhais.html",
+          "eletricista-avelanoso.html",
+          "eletricista-aveloso.html",
+          "eletricista-avidagos.html",
+          "eletricista-azinhoso.html",
+          "eletricista-babe.html",
+          "eletricista-baldos.html",
+          "eletricista-baltar.html",
+          "eletricista-barcel.html",
+          "eletricista-barcos.html",
+          "eletricista-barqueiros.html",
+          "eletricista-barreira.html",
+          "eletricista-beira-grande.html",
+          "eletricista-belver.html",
+          "eletricista-benlhevai.html",
+          "eletricista-beselga.html",
+          "eletricista-bigorne.html",
+          "eletricista-bogalhal.html",
+          "eletricista-borbela.html",
+          "eletricista-bragado.html",
+          "eletricista-brunhoso.html",
+          "eletricista-bustelo.html",
+          "eletricista-cabanas.html",
+          "eletricista-cadafaz.html",
+          "eletricista-canadelo.html",
+          "eletricista-canaveses.html",
+          "eletricista-candedo.html",
+          "eletricista-candemil.html",
+          "eletricista-candoso.html",
+          "eletricista-canelas.html",
+          "eletricista-cardanha.html",
+          "eletricista-carragosa.html",
+          "eletricista-carvalhais.html",
+          "eletricista-casario.html",
+          "eletricista-castedo.html",
+          "eletricista-castelo-branco.html",
+          "eletricista-castelo-rodrigo.html",
+          "eletricista-castrelos.html"
+        ]
+      },
+      {
+        "vague": 2,
+        "count": 100,
+        "files": [
+          "eletricista-castro-vicente.html",
+          "eletricista-cavadoude.html",
+          "eletricista-cedainhos.html",
+          "eletricista-celas.html",
+          "eletricista-cepelos.html",
+          "eletricista-cerejais.html",
+          "eletricista-cerejo.html",
+          "eletricista-certificacao-dgeg-chaves.html",
+          "eletricista-certificacao-eletrica-almendra.html",
+          "eletricista-certificacao-eletrica-amarante.html",
+          "eletricista-certificacao-eletrica-argozelo.html",
+          "eletricista-certificacao-eletrica-armamar.html",
+          "eletricista-certificacao-eletrica-boticas.html",
+          "eletricista-certificacao-eletrica-britiande.html",
+          "eletricista-certificacao-eletrica-cambres.html",
+          "eletricista-certificacao-eletrica-cedovim.html",
+          "eletricista-certificacao-eletrica-cerva.html",
+          "eletricista-certificacao-eletrica-chaves.html",
+          "eletricista-certificacao-eletrica-cumieira.html",
+          "eletricista-certificacao-eletrica-lalim.html",
+          "eletricista-certificacao-eletrica-lamego.html",
+          "eletricista-certificacao-eletrica-lazarim.html",
+          "eletricista-certificacao-eletrica-lixa.html",
+          "eletricista-certificacao-eletrica-lordelo.html",
+          "eletricista-certificacao-eletrica-marialva.html",
+          "eletricista-certificacao-eletrica-mirandela.html",
+          "eletricista-certificacao-eletrica-mogadouro.html",
+          "eletricista-certificacao-eletrica-montalegre.html",
+          "eletricista-certificacao-eletrica-pedras-salgadas.html",
+          "eletricista-certificacao-eletrica-penedono.html",
+          "eletricista-certificacao-eletrica-resende.html",
+          "eletricista-certificacao-eletrica-sabrosa.html",
+          "eletricista-certificacao-eletrica-salzedas.html",
+          "eletricista-certificacao-eletrica-sernancelhe.html",
+          "eletricista-certificacao-eletrica-tarouca.html",
+          "eletricista-certificacao-eletrica-valdigem.html",
+          "eletricista-certificacao-eletrica-vidago.html",
+          "eletricista-certificacao-eletrica-vila-real.html",
+          "eletricista-certificacao-eletrica-vilarandelo.html",
+          "eletricista-certificacao-eletrica-vimioso.html",
+          "eletricista-certificacao-eletrica-vinhais.html",
+          "eletricista-cervos.html",
+          "eletricista-chairos.html",
+          "eletricista-chapa.html",
+          "eletricista-chelas.html",
+          "eletricista-chosendo.html",
+          "eletricista-cidadelhe.html",
+          "eletricista-cimbres.html",
+          "eletricista-cinco-vilas.html",
+          "eletricista-codesseiro.html",
+          "eletricista-codessoso.html",
+          "eletricista-cogula.html",
+          "eletricista-constantim.html",
+          "eletricista-contins.html",
+          "eletricista-coriscada.html",
+          "eletricista-cotas.html",
+          "eletricista-covelinhas.html",
+          "eletricista-crasto.html",
+          "eletricista-cunha.html",
+          "eletricista-curalha.html",
+          "eletricista-curopos.html",
+          "eletricista-desejosa.html",
+          "eletricista-donai.html",
+          "eletricista-duas-igrejas.html",
+          "eletricista-eirado.html",
+          "eletricista-eiras-maiores.html",
+          "eletricista-ermelo.html",
+          "eletricista-ermida.html",
+          "eletricista-ermidas.html",
+          "eletricista-ervas-tenras.html",
+          "eletricista-ervededo.html",
+          "eletricista-ervideira.html",
+          "eletricista-escarigo.html",
+          "eletricista-escurquela.html",
+          "eletricista-espinhosa.html",
+          "eletricista-espinhosela.html",
+          "eletricista-feital.html",
+          "eletricista-felgar.html",
+          "eletricista-felgueiras.html",
+          "eletricista-ferradosa.html",
+          "eletricista-ferreirim.html",
+          "eletricista-fiolhoso.html",
+          "eletricista-folgosa.html",
+          "eletricista-folhada.html",
+          "eletricista-folhadela.html",
+          "eletricista-fonte-longa.html",
+          "eletricista-fradizela.html",
+          "eletricista-freches.html",
+          "eletricista-fregim.html",
+          "eletricista-freixeda.html",
+          "eletricista-freixedas.html",
+          "eletricista-freixial.html",
+          "eletricista-freixiel.html",
+          "eletricista-frende.html",
+          "eletricista-fresulfe.html",
+          "eletricista-fuga-corrente-almendra.html",
+          "eletricista-fuga-corrente-amarante.html",
+          "eletricista-fuga-corrente-argozelo.html",
+          "eletricista-fuga-corrente-armamar.html",
+          "eletricista-fuga-corrente-boticas.html"
+        ]
+      },
+      {
+        "vague": 3,
+        "count": 100,
+        "files": [
+          "eletricista-fuga-corrente-britiande.html",
+          "eletricista-fuga-corrente-cambres.html",
+          "eletricista-fuga-corrente-cedovim.html",
+          "eletricista-fuga-corrente-cerva.html",
+          "eletricista-fuga-corrente-chaves.html",
+          "eletricista-fuga-corrente-cumieira.html",
+          "eletricista-fuga-corrente-lalim.html",
+          "eletricista-fuga-corrente-lamego.html",
+          "eletricista-fuga-corrente-lazarim.html",
+          "eletricista-fuga-corrente-lixa.html",
+          "eletricista-fuga-corrente-lordelo.html",
+          "eletricista-fuga-corrente-marialva.html",
+          "eletricista-fuga-corrente-mirandela.html",
+          "eletricista-fuga-corrente-mogadouro.html",
+          "eletricista-fuga-corrente-montalegre.html",
+          "eletricista-fuga-corrente-pedras-salgadas.html",
+          "eletricista-fuga-corrente-penedono.html",
+          "eletricista-fuga-corrente-resende.html",
+          "eletricista-fuga-corrente-sabrosa.html",
+          "eletricista-fuga-corrente-salzedas.html",
+          "eletricista-fuga-corrente-sernancelhe.html",
+          "eletricista-fuga-corrente-tarouca.html",
+          "eletricista-fuga-corrente-valdigem.html",
+          "eletricista-fuga-corrente-vidago.html",
+          "eletricista-fuga-corrente-vila-real.html",
+          "eletricista-fuga-corrente-vilarandelo.html",
+          "eletricista-fuga-corrente-vimioso.html",
+          "eletricista-fuga-corrente-vinhais.html",
+          "eletricista-fuinhas.html",
+          "eletricista-galafura.html",
+          "eletricista-gateira.html",
+          "eletricista-gimonde.html",
+          "eletricista-godim.html",
+          "eletricista-gondesende.html",
+          "eletricista-gosende.html",
+          "eletricista-goujoim.html",
+          "eletricista-gouvinhas.html",
+          "eletricista-gradiz.html",
+          "eletricista-gralhas.html",
+          "eletricista-guide.html",
+          "eletricista-guilheiro.html",
+          "eletricista-horta.html",
+          "eletricista-ifanes.html",
+          "eletricista-iluminacao-exterior-almendra.html",
+          "eletricista-iluminacao-exterior-amarante.html",
+          "eletricista-iluminacao-exterior-argozelo.html",
+          "eletricista-iluminacao-exterior-armamar.html",
+          "eletricista-iluminacao-exterior-boticas.html",
+          "eletricista-iluminacao-exterior-britiande.html",
+          "eletricista-iluminacao-exterior-cambres.html",
+          "eletricista-iluminacao-exterior-cedovim.html",
+          "eletricista-iluminacao-exterior-cerva.html",
+          "eletricista-iluminacao-exterior-chaves.html",
+          "eletricista-iluminacao-exterior-cumieira.html",
+          "eletricista-iluminacao-exterior-lalim.html",
+          "eletricista-iluminacao-exterior-lamego.html",
+          "eletricista-iluminacao-exterior-lazarim.html",
+          "eletricista-iluminacao-exterior-lixa.html",
+          "eletricista-iluminacao-exterior-lordelo.html",
+          "eletricista-iluminacao-exterior-marialva.html",
+          "eletricista-iluminacao-exterior-mirandela.html",
+          "eletricista-iluminacao-exterior-mogadouro.html",
+          "eletricista-iluminacao-exterior-montalegre.html",
+          "eletricista-iluminacao-exterior-pedras-salgadas.html",
+          "eletricista-iluminacao-exterior-penedono.html",
+          "eletricista-iluminacao-exterior-resende.html",
+          "eletricista-iluminacao-exterior-sabrosa.html",
+          "eletricista-iluminacao-exterior-salzedas.html",
+          "eletricista-iluminacao-exterior-sernancelhe.html",
+          "eletricista-iluminacao-exterior-tarouca.html",
+          "eletricista-iluminacao-exterior-valdigem.html",
+          "eletricista-iluminacao-exterior-vidago.html",
+          "eletricista-iluminacao-exterior-vila-real.html",
+          "eletricista-iluminacao-exterior-vilarandelo.html",
+          "eletricista-iluminacao-exterior-vimioso.html",
+          "eletricista-iluminacao-exterior-vinhais.html",
+          "eletricista-iluminacao-led-almendra.html",
+          "eletricista-iluminacao-led-amarante.html",
+          "eletricista-iluminacao-led-argozelo.html",
+          "eletricista-iluminacao-led-armamar.html",
+          "eletricista-iluminacao-led-boticas.html",
+          "eletricista-iluminacao-led-britiande.html",
+          "eletricista-iluminacao-led-cambres.html",
+          "eletricista-iluminacao-led-cedovim.html",
+          "eletricista-iluminacao-led-cerva.html",
+          "eletricista-iluminacao-led-chaves.html",
+          "eletricista-iluminacao-led-cumieira.html",
+          "eletricista-iluminacao-led-lalim.html",
+          "eletricista-iluminacao-led-lamego.html",
+          "eletricista-iluminacao-led-lazarim.html",
+          "eletricista-iluminacao-led-lixa.html",
+          "eletricista-iluminacao-led-lordelo.html",
+          "eletricista-iluminacao-led-marialva.html",
+          "eletricista-iluminacao-led-mirandela.html",
+          "eletricista-iluminacao-led-mogadouro.html",
+          "eletricista-iluminacao-led-montalegre.html",
+          "eletricista-iluminacao-led-pedras-salgadas.html",
+          "eletricista-iluminacao-led-penedono.html",
+          "eletricista-iluminacao-led-resende.html",
+          "eletricista-iluminacao-led-sabrosa.html"
+        ]
+      },
+      {
+        "vague": 4,
+        "count": 100,
+        "files": [
+          "eletricista-iluminacao-led-salzedas.html",
+          "eletricista-iluminacao-led-sernancelhe.html",
+          "eletricista-iluminacao-led-tarouca.html",
+          "eletricista-iluminacao-led-valdigem.html",
+          "eletricista-iluminacao-led-vidago.html",
+          "eletricista-iluminacao-led-vila-real.html",
+          "eletricista-iluminacao-led-vilarandelo.html",
+          "eletricista-iluminacao-led-vimioso.html",
+          "eletricista-iluminacao-led-vinhais.html",
+          "eletricista-jazente.html",
+          "eletricista-junqueira.html",
+          "eletricista-lamalonga.html",
+          "eletricista-larinho.html",
+          "eletricista-lavandeira.html",
+          "eletricista-linhares.html",
+          "eletricista-longa.html",
+          "eletricista-louredo.html",
+          "eletricista-lousa.html",
+          "eletricista-lufrei.html",
+          "eletricista-macedinho.html",
+          "eletricista-maceira.html",
+          "eletricista-magueija.html",
+          "eletricista-mairos.html",
+          "eletricista-malhadas.html",
+          "eletricista-mancelos.html",
+          "eletricista-manigoto.html",
+          "eletricista-matela.html",
+          "eletricista-mateus.html",
+          "eletricista-mazouco.html",
+          "eletricista-meijinhos.html",
+          "eletricista-meirinhos.html",
+          "eletricista-meixedo.html",
+          "eletricista-meixide.html",
+          "eletricista-mezio.html",
+          "eletricista-minhocal.html",
+          "eletricista-monteiras.html",
+          "eletricista-morais.html",
+          "eletricista-moreira.html",
+          "eletricista-mosteiro.html",
+          "eletricista-moura-morta.html",
+          "eletricista-mourilhe.html",
+          "eletricista-nabo.html",
+          "eletricista-nagosa.html",
+          "eletricista-navalho.html",
+          "eletricista-nave-redonda.html",
+          "eletricista-negreda.html",
+          "eletricista-noselos.html",
+          "eletricista-noura.html",
+          "eletricista-nozelos.html",
+          "eletricista-nunes.html",
+          "eletricista-olo.html",
+          "eletricista-oura.html",
+          "eletricista-ourozinho.html",
+          "eletricista-outeiro.html",
+          "eletricista-padornelos.html",
+          "eletricista-padronelo.html",
+          "eletricista-padroso.html",
+          "eletricista-pai-penela.html",
+          "eletricista-palhais.html",
+          "eletricista-palheiros.html",
+          "eletricista-paradela.html",
+          "eletricista-paradinha-nova.html",
+          "eletricista-paradinha-velha.html",
+          "eletricista-parambos.html",
+          "eletricista-pardelhas.html",
+          "eletricista-paus.html",
+          "eletricista-pegarinhos.html",
+          "eletricista-pena-verde.html",
+          "eletricista-pena.html",
+          "eletricista-penajoia.html",
+          "eletricista-penas-roias.html",
+          "eletricista-penhas-juntas.html",
+          "eletricista-pensalvos.html",
+          "eletricista-penude.html",
+          "eletricista-pereira.html",
+          "eletricista-pereiros.html",
+          "eletricista-picote.html",
+          "eletricista-pinela.html",
+          "eletricista-pinheiro-novo.html",
+          "eletricista-pinheiros.html",
+          "eletricista-pinho.html",
+          "eletricista-poiares.html",
+          "eletricista-porrais.html",
+          "eletricista-possacos.html",
+          "eletricista-pretarouca.html",
+          "eletricista-prova.html",
+          "eletricista-provesende.html",
+          "eletricista-pruoba.html",
+          "eletricista-quadro-eletrico-almendra.html",
+          "eletricista-quadro-eletrico-amarante.html",
+          "eletricista-quadro-eletrico-argozelo.html",
+          "eletricista-quadro-eletrico-armamar.html",
+          "eletricista-quadro-eletrico-boticas.html",
+          "eletricista-quadro-eletrico-britiande.html",
+          "eletricista-quadro-eletrico-cambres.html",
+          "eletricista-quadro-eletrico-cedovim.html",
+          "eletricista-quadro-eletrico-cerva.html",
+          "eletricista-quadro-eletrico-chaves.html",
+          "eletricista-quadro-eletrico-cumieira.html",
+          "eletricista-quadro-eletrico-lalim.html"
+        ]
+      },
+      {
+        "vague": 5,
+        "count": 100,
+        "files": [
+          "eletricista-quadro-eletrico-lamego.html",
+          "eletricista-quadro-eletrico-lazarim.html",
+          "eletricista-quadro-eletrico-lixa.html",
+          "eletricista-quadro-eletrico-lordelo.html",
+          "eletricista-quadro-eletrico-marialva.html",
+          "eletricista-quadro-eletrico-mirandela.html",
+          "eletricista-quadro-eletrico-mogadouro.html",
+          "eletricista-quadro-eletrico-montalegre.html",
+          "eletricista-quadro-eletrico-pedras-salgadas.html",
+          "eletricista-quadro-eletrico-penedono.html",
+          "eletricista-quadro-eletrico-resende.html",
+          "eletricista-quadro-eletrico-sabrosa.html",
+          "eletricista-quadro-eletrico-salzedas.html",
+          "eletricista-quadro-eletrico-sernancelhe.html",
+          "eletricista-quadro-eletrico-tarouca.html",
+          "eletricista-quadro-eletrico-valdigem.html",
+          "eletricista-quadro-eletrico-vidago.html",
+          "eletricista-quadro-eletrico-vila-real.html",
+          "eletricista-quadro-eletrico-vilarandelo.html",
+          "eletricista-quadro-eletrico-vimioso.html",
+          "eletricista-quadro-eletrico-vinhais.html",
+          "eletricista-queimadela.html",
+          "eletricista-queiriz.html",
+          "eletricista-quintanilha.html",
+          "eletricista-rabal.html",
+          "eletricista-ranhados.html",
+          "eletricista-rapa.html",
+          "eletricista-ratoeira.html",
+          "eletricista-rebordainhos.html",
+          "eletricista-rebordelo.html",
+          "eletricista-reigada.html",
+          "eletricista-ribalonga.html",
+          "eletricista-rio-frio.html",
+          "eletricista-riodades.html",
+          "eletricista-rocamondo.html",
+          "eletricista-roriz.html",
+          "eletricista-saldonha.html",
+          "eletricista-salgueiro.html",
+          "eletricista-sambade.html",
+          "eletricista-sampaio.html",
+          "eletricista-sanche.html",
+          "eletricista-sande.html",
+          "eletricista-sanfins.html",
+          "eletricista-sanhoane.html",
+          "eletricista-santa-valha.html",
+          "eletricista-santo-isidoro.html",
+          "eletricista-sarraquinhos.html",
+          "eletricista-sarzedinho.html",
+          "eletricista-sarzedo.html",
+          "eletricista-seara-velha.html",
+          "eletricista-sedielos.html",
+          "eletricista-selhariz.html",
+          "eletricista-selores.html",
+          "eletricista-sendas.html",
+          "eletricista-serapicos.html",
+          "eletricista-sezelhe.html",
+          "eletricista-sobral-pichorro.html",
+          "eletricista-sobreda.html",
+          "eletricista-sobreira.html",
+          "eletricista-soeima.html",
+          "eletricista-soeira.html",
+          "eletricista-solveira.html",
+          "eletricista-sorval.html",
+          "eletricista-souro-pires.html",
+          "eletricista-soutelo-mourisco.html",
+          "eletricista-tabuado.html",
+          "eletricista-talhas.html",
+          "eletricista-tamanhos.html",
+          "eletricista-terrenho.html",
+          "eletricista-tomada-interruptor-almendra.html",
+          "eletricista-tomada-interruptor-amarante.html",
+          "eletricista-tomada-interruptor-argozelo.html",
+          "eletricista-tomada-interruptor-armamar.html",
+          "eletricista-tomada-interruptor-boticas.html",
+          "eletricista-tomada-interruptor-britiande.html",
+          "eletricista-tomada-interruptor-cambres.html",
+          "eletricista-tomada-interruptor-cedovim.html",
+          "eletricista-tomada-interruptor-cerva.html",
+          "eletricista-tomada-interruptor-chaves.html",
+          "eletricista-tomada-interruptor-cumieira.html",
+          "eletricista-tomada-interruptor-lalim.html",
+          "eletricista-tomada-interruptor-lamego.html",
+          "eletricista-tomada-interruptor-lazarim.html",
+          "eletricista-tomada-interruptor-lixa.html",
+          "eletricista-tomada-interruptor-lordelo.html",
+          "eletricista-tomada-interruptor-marialva.html",
+          "eletricista-tomada-interruptor-mirandela.html",
+          "eletricista-tomada-interruptor-mogadouro.html",
+          "eletricista-tomada-interruptor-montalegre.html",
+          "eletricista-tomada-interruptor-pedras-salgadas.html",
+          "eletricista-tomada-interruptor-penedono.html",
+          "eletricista-tomada-interruptor-resende.html",
+          "eletricista-tomada-interruptor-sabrosa.html",
+          "eletricista-tomada-interruptor-salzedas.html",
+          "eletricista-tomada-interruptor-sernancelhe.html",
+          "eletricista-tomada-interruptor-tarouca.html",
+          "eletricista-tomada-interruptor-valdigem.html",
+          "eletricista-tomada-interruptor-vidago.html",
+          "eletricista-tomada-interruptor-vila-real.html",
+          "eletricista-tomada-interruptor-vilarandelo.html"
+        ]
+      },
+      {
+        "vague": 6,
+        "count": 35,
+        "files": [
+          "eletricista-tomada-interruptor-vimioso.html",
+          "eletricista-tomada-interruptor-vinhais.html",
+          "eletricista-travancas.html",
+          "eletricista-tresminas.html",
+          "eletricista-tresouras.html",
+          "eletricista-trindade.html",
+          "eletricista-tuizelo.html",
+          "eletricista-ucanha.html",
+          "eletricista-vacalar.html",
+          "eletricista-valadares.html",
+          "eletricista-valdrez.html",
+          "eletricista-valdujo.html",
+          "eletricista-vale-flor.html",
+          "eletricista-vale-pereiro.html",
+          "eletricista-vales.html",
+          "eletricista-valoura.html",
+          "eletricista-valtorno.html",
+          "eletricista-vascoveiro.html",
+          "eletricista-vassal.html",
+          "eletricista-velosa.html",
+          "eletricista-vermiosa.html",
+          "eletricista-viariz.html",
+          "eletricista-vila-boa.html",
+          "eletricista-vila-caiz.html",
+          "eletricista-vila-cova.html",
+          "eletricista-vila-garcia.html",
+          "eletricista-vila-marim.html",
+          "eletricista-vila-verde.html",
+          "eletricista-vilar-douro.html",
+          "eletricista-vilar-seco.html",
+          "eletricista-vilar-torpim.html",
+          "eletricista-vilarouco.html",
+          "eletricista-vilela-seca.html",
+          "eletricista-vinhas.html",
+          "eletricista-zedes.html"
+        ]
+      }
+    ]
+  },
+  "ko_badge_nosrc": [
+    {
+      "file": "eletricista-abambres.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "abambres"
+    },
+    {
+      "file": "eletricista-abreiro.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "abreiro"
+    },
+    {
+      "file": "eletricista-adeganha.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "adeganha"
+    },
+    {
+      "file": "eletricista-adorigo.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "adorigo"
+    },
+    {
+      "file": "eletricista-adoufe.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "adoufe"
+    },
+    {
+      "file": "eletricista-afonsim.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "afonsim"
+    },
+    {
+      "file": "eletricista-aguieira.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "aguieira"
+    },
+    {
+      "file": "eletricista-aguieiras.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "aguieiras"
+    },
+    {
+      "file": "eletricista-alcarva.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "alcarva"
+    },
+    {
+      "file": "eletricista-aldeias.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "aldeias"
+    },
+    {
+      "file": "eletricista-algeriz.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "algeriz"
+    },
+    {
+      "file": "eletricista-algoso.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "algoso"
+    },
+    {
+      "file": "eletricista-alimonde.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "alimonde"
+    },
+    {
+      "file": "eletricista-aliviada.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "aliviada"
+    },
+    {
+      "file": "eletricista-almofala.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "almofala"
+    },
+    {
+      "file": "eletricista-alvadia.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "alvadia"
+    },
+    {
+      "file": "eletricista-alvaredos.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "alvaredos"
+    },
+    {
+      "file": "eletricista-alvarelhos.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "alvarelhos"
+    },
+    {
+      "file": "eletricista-alvendre.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "alvendre"
+    },
+    {
+      "file": "eletricista-amedo.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "amedo"
+    },
+    {
+      "file": "eletricista-amieiro.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "amieiro"
+    },
+    {
+      "file": "eletricista-anelhe.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "anelhe"
+    },
+    {
+      "file": "eletricista-angueira.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "angueira"
+    },
+    {
+      "file": "eletricista-antas.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "antas"
+    },
+    {
+      "file": "eletricista-arcas.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "arcas"
+    },
+    {
+      "file": "eletricista-aricera.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "aricera"
+    },
+    {
+      "file": "eletricista-armoniz.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "armoniz"
+    },
+    {
+      "file": "eletricista-arnas.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "arnas"
+    },
+    {
+      "file": "eletricista-arroios.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "arroios"
+    },
+    {
+      "file": "eletricista-atalaia.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "atalaia"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-almendra.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "almendra"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-amarante.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "amarante"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-argozelo.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "argozelo"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-armamar.html",
+      "badge": "5",
+      "expected": "6",
+      "city": "armamar"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-boticas.html",
+      "badge": "6",
+      "expected": "5",
+      "city": "boticas"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-britiande.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "britiande"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-cambres.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "cambres"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-cedovim.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "cedovim"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-cerva.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "cerva"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-chaves.html",
+      "badge": "6",
+      "expected": "4",
+      "city": "chaves"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-cumieira.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "cumieira"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-lalim.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lalim"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-lamego.html",
+      "badge": "5",
+      "expected": "6",
+      "city": "lamego"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-lazarim.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lazarim"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-lixa.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lixa"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-lordelo.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "lordelo"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-marialva.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "marialva"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-pedras-salgadas.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "pedras-salgadas"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-penedono.html",
+      "badge": "6",
+      "expected": "5",
+      "city": "penedono"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-resende.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "resende"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-sabrosa.html",
+      "badge": "5",
+      "expected": "4",
+      "city": "sabrosa"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-salzedas.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "salzedas"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-tarouca.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "tarouca"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-valdigem.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "valdigem"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-vidago.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "vidago"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-vila-real.html",
+      "badge": "5",
+      "expected": "4",
+      "city": "vila-real"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-vilarandelo.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "vilarandelo"
+    },
+    {
+      "file": "eletricista-avelanoso.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "avelanoso"
+    },
+    {
+      "file": "eletricista-aveloso.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "aveloso"
+    },
+    {
+      "file": "eletricista-avidagos.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "avidagos"
+    },
+    {
+      "file": "eletricista-azinhoso.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "azinhoso"
+    },
+    {
+      "file": "eletricista-babe.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "babe"
+    },
+    {
+      "file": "eletricista-baldos.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "baldos"
+    },
+    {
+      "file": "eletricista-baltar.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "baltar"
+    },
+    {
+      "file": "eletricista-barcel.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "barcel"
+    },
+    {
+      "file": "eletricista-barcos.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "barcos"
+    },
+    {
+      "file": "eletricista-barqueiros.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "barqueiros"
+    },
+    {
+      "file": "eletricista-barreira.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "barreira"
+    },
+    {
+      "file": "eletricista-beira-grande.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "beira-grande"
+    },
+    {
+      "file": "eletricista-belver.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "belver"
+    },
+    {
+      "file": "eletricista-benlhevai.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "benlhevai"
+    },
+    {
+      "file": "eletricista-beselga.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "beselga"
+    },
+    {
+      "file": "eletricista-bigorne.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "bigorne"
+    },
+    {
+      "file": "eletricista-bogalhal.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "bogalhal"
+    },
+    {
+      "file": "eletricista-borbela.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "borbela"
+    },
+    {
+      "file": "eletricista-bragado.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "bragado"
+    },
+    {
+      "file": "eletricista-brunhoso.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "brunhoso"
+    },
+    {
+      "file": "eletricista-bustelo.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "bustelo"
+    },
+    {
+      "file": "eletricista-cabanas.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "cabanas"
+    },
+    {
+      "file": "eletricista-cadafaz.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "cadafaz"
+    },
+    {
+      "file": "eletricista-canadelo.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "canadelo"
+    },
+    {
+      "file": "eletricista-canaveses.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "canaveses"
+    },
+    {
+      "file": "eletricista-candedo.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "candedo"
+    },
+    {
+      "file": "eletricista-candemil.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "candemil"
+    },
+    {
+      "file": "eletricista-candoso.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "candoso"
+    },
+    {
+      "file": "eletricista-canelas.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "canelas"
+    },
+    {
+      "file": "eletricista-cardanha.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "cardanha"
+    },
+    {
+      "file": "eletricista-carragosa.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "carragosa"
+    },
+    {
+      "file": "eletricista-carvalhais.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "carvalhais"
+    },
+    {
+      "file": "eletricista-casario.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "casario"
+    },
+    {
+      "file": "eletricista-castedo.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "castedo"
+    },
+    {
+      "file": "eletricista-castelo-branco.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "castelo-branco"
+    },
+    {
+      "file": "eletricista-castelo-rodrigo.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "castelo-rodrigo"
+    },
+    {
+      "file": "eletricista-castrelos.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "castrelos"
+    },
+    {
+      "file": "eletricista-castro-vicente.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "castro-vicente"
+    },
+    {
+      "file": "eletricista-cavadoude.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "cavadoude"
+    },
+    {
+      "file": "eletricista-cedainhos.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "cedainhos"
+    },
+    {
+      "file": "eletricista-celas.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "celas"
+    },
+    {
+      "file": "eletricista-cepelos.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "cepelos"
+    },
+    {
+      "file": "eletricista-cerejais.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "cerejais"
+    },
+    {
+      "file": "eletricista-cerejo.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "cerejo"
+    },
+    {
+      "file": "eletricista-certificacao-dgeg-chaves.html",
+      "badge": "6",
+      "expected": "4",
+      "city": "chaves"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-almendra.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "almendra"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-amarante.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "amarante"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-argozelo.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "argozelo"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-armamar.html",
+      "badge": "5",
+      "expected": "6",
+      "city": "armamar"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-boticas.html",
+      "badge": "6",
+      "expected": "5",
+      "city": "boticas"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-britiande.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "britiande"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-cambres.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "cambres"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-cedovim.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "cedovim"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-cerva.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "cerva"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-chaves.html",
+      "badge": "6",
+      "expected": "4",
+      "city": "chaves"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-cumieira.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "cumieira"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-lalim.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lalim"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-lamego.html",
+      "badge": "5",
+      "expected": "6",
+      "city": "lamego"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-lazarim.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lazarim"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-lixa.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lixa"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-lordelo.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "lordelo"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-marialva.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "marialva"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-pedras-salgadas.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "pedras-salgadas"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-penedono.html",
+      "badge": "6",
+      "expected": "5",
+      "city": "penedono"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-resende.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "resende"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-sabrosa.html",
+      "badge": "5",
+      "expected": "4",
+      "city": "sabrosa"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-salzedas.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "salzedas"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-tarouca.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "tarouca"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-valdigem.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "valdigem"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-vidago.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "vidago"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-vila-real.html",
+      "badge": "5",
+      "expected": "4",
+      "city": "vila-real"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-vilarandelo.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "vilarandelo"
+    },
+    {
+      "file": "eletricista-cervos.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "cervos"
+    },
+    {
+      "file": "eletricista-chairos.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "chairos"
+    },
+    {
+      "file": "eletricista-chapa.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "chapa"
+    },
+    {
+      "file": "eletricista-chelas.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "chelas"
+    },
+    {
+      "file": "eletricista-chosendo.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "chosendo"
+    },
+    {
+      "file": "eletricista-cidadelhe.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "cidadelhe"
+    },
+    {
+      "file": "eletricista-cimbres.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "cimbres"
+    },
+    {
+      "file": "eletricista-cinco-vilas.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "cinco-vilas"
+    },
+    {
+      "file": "eletricista-codesseiro.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "codesseiro"
+    },
+    {
+      "file": "eletricista-codessoso.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "codessoso"
+    },
+    {
+      "file": "eletricista-cogula.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "cogula"
+    },
+    {
+      "file": "eletricista-constantim.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "constantim"
+    },
+    {
+      "file": "eletricista-contins.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "contins"
+    },
+    {
+      "file": "eletricista-coriscada.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "coriscada"
+    },
+    {
+      "file": "eletricista-cotas.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "cotas"
+    },
+    {
+      "file": "eletricista-covelinhas.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "covelinhas"
+    },
+    {
+      "file": "eletricista-crasto.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "crasto"
+    },
+    {
+      "file": "eletricista-cunha.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "cunha"
+    },
+    {
+      "file": "eletricista-curalha.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "curalha"
+    },
+    {
+      "file": "eletricista-curopos.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "curopos"
+    },
+    {
+      "file": "eletricista-desejosa.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "desejosa"
+    },
+    {
+      "file": "eletricista-donai.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "donai"
+    },
+    {
+      "file": "eletricista-duas-igrejas.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "duas-igrejas"
+    },
+    {
+      "file": "eletricista-eirado.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "eirado"
+    },
+    {
+      "file": "eletricista-eiras-maiores.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "eiras-maiores"
+    },
+    {
+      "file": "eletricista-ermelo.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "ermelo"
+    },
+    {
+      "file": "eletricista-ermida.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "ermida"
+    },
+    {
+      "file": "eletricista-ermidas.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "ermidas"
+    },
+    {
+      "file": "eletricista-ervas-tenras.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "ervas-tenras"
+    },
+    {
+      "file": "eletricista-ervededo.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "ervededo"
+    },
+    {
+      "file": "eletricista-ervideira.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "ervideira"
+    },
+    {
+      "file": "eletricista-escarigo.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "escarigo"
+    },
+    {
+      "file": "eletricista-escurquela.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "escurquela"
+    },
+    {
+      "file": "eletricista-espinhosa.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "espinhosa"
+    },
+    {
+      "file": "eletricista-espinhosela.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "espinhosela"
+    },
+    {
+      "file": "eletricista-feital.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "feital"
+    },
+    {
+      "file": "eletricista-felgar.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "felgar"
+    },
+    {
+      "file": "eletricista-felgueiras.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "felgueiras"
+    },
+    {
+      "file": "eletricista-ferradosa.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "ferradosa"
+    },
+    {
+      "file": "eletricista-ferreirim.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "ferreirim"
+    },
+    {
+      "file": "eletricista-fiolhoso.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "fiolhoso"
+    },
+    {
+      "file": "eletricista-folgosa.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "folgosa"
+    },
+    {
+      "file": "eletricista-folhada.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "folhada"
+    },
+    {
+      "file": "eletricista-folhadela.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "folhadela"
+    },
+    {
+      "file": "eletricista-fonte-longa.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "fonte-longa"
+    },
+    {
+      "file": "eletricista-fradizela.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "fradizela"
+    },
+    {
+      "file": "eletricista-freches.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "freches"
+    },
+    {
+      "file": "eletricista-fregim.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "fregim"
+    },
+    {
+      "file": "eletricista-freixeda.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "freixeda"
+    },
+    {
+      "file": "eletricista-freixedas.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "freixedas"
+    },
+    {
+      "file": "eletricista-freixial.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "freixial"
+    },
+    {
+      "file": "eletricista-freixiel.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "freixiel"
+    },
+    {
+      "file": "eletricista-frende.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "frende"
+    },
+    {
+      "file": "eletricista-fresulfe.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "fresulfe"
+    },
+    {
+      "file": "eletricista-fuga-corrente-almendra.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "almendra"
+    },
+    {
+      "file": "eletricista-fuga-corrente-amarante.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "amarante"
+    },
+    {
+      "file": "eletricista-fuga-corrente-argozelo.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "argozelo"
+    },
+    {
+      "file": "eletricista-fuga-corrente-armamar.html",
+      "badge": "5",
+      "expected": "6",
+      "city": "armamar"
+    },
+    {
+      "file": "eletricista-fuga-corrente-boticas.html",
+      "badge": "6",
+      "expected": "5",
+      "city": "boticas"
+    },
+    {
+      "file": "eletricista-fuga-corrente-britiande.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "britiande"
+    },
+    {
+      "file": "eletricista-fuga-corrente-cambres.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "cambres"
+    },
+    {
+      "file": "eletricista-fuga-corrente-cedovim.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "cedovim"
+    },
+    {
+      "file": "eletricista-fuga-corrente-cerva.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "cerva"
+    },
+    {
+      "file": "eletricista-fuga-corrente-chaves.html",
+      "badge": "6",
+      "expected": "4",
+      "city": "chaves"
+    },
+    {
+      "file": "eletricista-fuga-corrente-cumieira.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "cumieira"
+    },
+    {
+      "file": "eletricista-fuga-corrente-lalim.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lalim"
+    },
+    {
+      "file": "eletricista-fuga-corrente-lamego.html",
+      "badge": "5",
+      "expected": "6",
+      "city": "lamego"
+    },
+    {
+      "file": "eletricista-fuga-corrente-lazarim.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lazarim"
+    },
+    {
+      "file": "eletricista-fuga-corrente-lixa.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lixa"
+    },
+    {
+      "file": "eletricista-fuga-corrente-lordelo.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "lordelo"
+    },
+    {
+      "file": "eletricista-fuga-corrente-marialva.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "marialva"
+    },
+    {
+      "file": "eletricista-fuga-corrente-pedras-salgadas.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "pedras-salgadas"
+    },
+    {
+      "file": "eletricista-fuga-corrente-penedono.html",
+      "badge": "6",
+      "expected": "5",
+      "city": "penedono"
+    },
+    {
+      "file": "eletricista-fuga-corrente-resende.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "resende"
+    },
+    {
+      "file": "eletricista-fuga-corrente-sabrosa.html",
+      "badge": "5",
+      "expected": "4",
+      "city": "sabrosa"
+    },
+    {
+      "file": "eletricista-fuga-corrente-salzedas.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "salzedas"
+    },
+    {
+      "file": "eletricista-fuga-corrente-tarouca.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "tarouca"
+    },
+    {
+      "file": "eletricista-fuga-corrente-valdigem.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "valdigem"
+    },
+    {
+      "file": "eletricista-fuga-corrente-vidago.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "vidago"
+    },
+    {
+      "file": "eletricista-fuga-corrente-vila-real.html",
+      "badge": "5",
+      "expected": "4",
+      "city": "vila-real"
+    },
+    {
+      "file": "eletricista-fuga-corrente-vilarandelo.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "vilarandelo"
+    },
+    {
+      "file": "eletricista-fuinhas.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "fuinhas"
+    },
+    {
+      "file": "eletricista-galafura.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "galafura"
+    },
+    {
+      "file": "eletricista-gateira.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "gateira"
+    },
+    {
+      "file": "eletricista-gimonde.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "gimonde"
+    },
+    {
+      "file": "eletricista-godim.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "godim"
+    },
+    {
+      "file": "eletricista-gondesende.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "gondesende"
+    },
+    {
+      "file": "eletricista-gosende.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "gosende"
+    },
+    {
+      "file": "eletricista-goujoim.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "goujoim"
+    },
+    {
+      "file": "eletricista-gouvinhas.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "gouvinhas"
+    },
+    {
+      "file": "eletricista-gradiz.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "gradiz"
+    },
+    {
+      "file": "eletricista-gralhas.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "gralhas"
+    },
+    {
+      "file": "eletricista-guide.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "guide"
+    },
+    {
+      "file": "eletricista-guilheiro.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "guilheiro"
+    },
+    {
+      "file": "eletricista-horta.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "horta"
+    },
+    {
+      "file": "eletricista-ifanes.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "ifanes"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-almendra.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "almendra"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-amarante.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "amarante"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-argozelo.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "argozelo"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-armamar.html",
+      "badge": "5",
+      "expected": "6",
+      "city": "armamar"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-boticas.html",
+      "badge": "6",
+      "expected": "5",
+      "city": "boticas"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-britiande.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "britiande"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-cambres.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "cambres"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-cedovim.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "cedovim"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-cerva.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "cerva"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-chaves.html",
+      "badge": "6",
+      "expected": "4",
+      "city": "chaves"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-cumieira.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "cumieira"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-lalim.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lalim"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-lamego.html",
+      "badge": "5",
+      "expected": "6",
+      "city": "lamego"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-lazarim.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lazarim"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-lixa.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lixa"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-lordelo.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "lordelo"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-marialva.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "marialva"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-pedras-salgadas.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "pedras-salgadas"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-penedono.html",
+      "badge": "6",
+      "expected": "5",
+      "city": "penedono"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-resende.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "resende"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-sabrosa.html",
+      "badge": "5",
+      "expected": "4",
+      "city": "sabrosa"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-salzedas.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "salzedas"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-tarouca.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "tarouca"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-valdigem.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "valdigem"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-vidago.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "vidago"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-vila-real.html",
+      "badge": "5",
+      "expected": "4",
+      "city": "vila-real"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-vilarandelo.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "vilarandelo"
+    },
+    {
+      "file": "eletricista-iluminacao-led-almendra.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "almendra"
+    },
+    {
+      "file": "eletricista-iluminacao-led-amarante.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "amarante"
+    },
+    {
+      "file": "eletricista-iluminacao-led-argozelo.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "argozelo"
+    },
+    {
+      "file": "eletricista-iluminacao-led-armamar.html",
+      "badge": "5",
+      "expected": "6",
+      "city": "armamar"
+    },
+    {
+      "file": "eletricista-iluminacao-led-boticas.html",
+      "badge": "6",
+      "expected": "5",
+      "city": "boticas"
+    },
+    {
+      "file": "eletricista-iluminacao-led-britiande.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "britiande"
+    },
+    {
+      "file": "eletricista-iluminacao-led-cambres.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "cambres"
+    },
+    {
+      "file": "eletricista-iluminacao-led-cedovim.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "cedovim"
+    },
+    {
+      "file": "eletricista-iluminacao-led-cerva.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "cerva"
+    },
+    {
+      "file": "eletricista-iluminacao-led-chaves.html",
+      "badge": "6",
+      "expected": "4",
+      "city": "chaves"
+    },
+    {
+      "file": "eletricista-iluminacao-led-cumieira.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "cumieira"
+    },
+    {
+      "file": "eletricista-iluminacao-led-lalim.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lalim"
+    },
+    {
+      "file": "eletricista-iluminacao-led-lamego.html",
+      "badge": "5",
+      "expected": "6",
+      "city": "lamego"
+    },
+    {
+      "file": "eletricista-iluminacao-led-lazarim.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lazarim"
+    },
+    {
+      "file": "eletricista-iluminacao-led-lixa.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lixa"
+    },
+    {
+      "file": "eletricista-iluminacao-led-lordelo.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "lordelo"
+    },
+    {
+      "file": "eletricista-iluminacao-led-marialva.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "marialva"
+    },
+    {
+      "file": "eletricista-iluminacao-led-pedras-salgadas.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "pedras-salgadas"
+    },
+    {
+      "file": "eletricista-iluminacao-led-penedono.html",
+      "badge": "6",
+      "expected": "5",
+      "city": "penedono"
+    },
+    {
+      "file": "eletricista-iluminacao-led-resende.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "resende"
+    },
+    {
+      "file": "eletricista-iluminacao-led-sabrosa.html",
+      "badge": "5",
+      "expected": "4",
+      "city": "sabrosa"
+    },
+    {
+      "file": "eletricista-iluminacao-led-salzedas.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "salzedas"
+    },
+    {
+      "file": "eletricista-iluminacao-led-tarouca.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "tarouca"
+    },
+    {
+      "file": "eletricista-iluminacao-led-valdigem.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "valdigem"
+    },
+    {
+      "file": "eletricista-iluminacao-led-vidago.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "vidago"
+    },
+    {
+      "file": "eletricista-iluminacao-led-vila-real.html",
+      "badge": "5",
+      "expected": "4",
+      "city": "vila-real"
+    },
+    {
+      "file": "eletricista-iluminacao-led-vilarandelo.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "vilarandelo"
+    },
+    {
+      "file": "eletricista-jazente.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "jazente"
+    },
+    {
+      "file": "eletricista-junqueira.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "junqueira"
+    },
+    {
+      "file": "eletricista-lamalonga.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "lamalonga"
+    },
+    {
+      "file": "eletricista-larinho.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "larinho"
+    },
+    {
+      "file": "eletricista-lavandeira.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "lavandeira"
+    },
+    {
+      "file": "eletricista-linhares.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "linhares"
+    },
+    {
+      "file": "eletricista-longa.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "longa"
+    },
+    {
+      "file": "eletricista-louredo.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "louredo"
+    },
+    {
+      "file": "eletricista-lousa.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "lousa"
+    },
+    {
+      "file": "eletricista-lufrei.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lufrei"
+    },
+    {
+      "file": "eletricista-macedinho.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "macedinho"
+    },
+    {
+      "file": "eletricista-maceira.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "maceira"
+    },
+    {
+      "file": "eletricista-magueija.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "magueija"
+    },
+    {
+      "file": "eletricista-mairos.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "mairos"
+    },
+    {
+      "file": "eletricista-malhadas.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "malhadas"
+    },
+    {
+      "file": "eletricista-mancelos.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "mancelos"
+    },
+    {
+      "file": "eletricista-manigoto.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "manigoto"
+    },
+    {
+      "file": "eletricista-matela.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "matela"
+    },
+    {
+      "file": "eletricista-mateus.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "mateus"
+    },
+    {
+      "file": "eletricista-mazouco.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "mazouco"
+    },
+    {
+      "file": "eletricista-meijinhos.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "meijinhos"
+    },
+    {
+      "file": "eletricista-meirinhos.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "meirinhos"
+    },
+    {
+      "file": "eletricista-meixedo.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "meixedo"
+    },
+    {
+      "file": "eletricista-meixide.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "meixide"
+    },
+    {
+      "file": "eletricista-mezio.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "mezio"
+    },
+    {
+      "file": "eletricista-minhocal.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "minhocal"
+    },
+    {
+      "file": "eletricista-monteiras.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "monteiras"
+    },
+    {
+      "file": "eletricista-morais.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "morais"
+    },
+    {
+      "file": "eletricista-moreira.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "moreira"
+    },
+    {
+      "file": "eletricista-mosteiro.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "mosteiro"
+    },
+    {
+      "file": "eletricista-moura-morta.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "moura-morta"
+    },
+    {
+      "file": "eletricista-mourilhe.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "mourilhe"
+    },
+    {
+      "file": "eletricista-nabo.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "nabo"
+    },
+    {
+      "file": "eletricista-nagosa.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "nagosa"
+    },
+    {
+      "file": "eletricista-navalho.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "navalho"
+    },
+    {
+      "file": "eletricista-nave-redonda.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "nave-redonda"
+    },
+    {
+      "file": "eletricista-negreda.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "negreda"
+    },
+    {
+      "file": "eletricista-noselos.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "noselos"
+    },
+    {
+      "file": "eletricista-noura.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "noura"
+    },
+    {
+      "file": "eletricista-nozelos.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "nozelos"
+    },
+    {
+      "file": "eletricista-nunes.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "nunes"
+    },
+    {
+      "file": "eletricista-olo.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "olo"
+    },
+    {
+      "file": "eletricista-oura.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "oura"
+    },
+    {
+      "file": "eletricista-ourozinho.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "ourozinho"
+    },
+    {
+      "file": "eletricista-outeiro.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "outeiro"
+    },
+    {
+      "file": "eletricista-padornelos.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "padornelos"
+    },
+    {
+      "file": "eletricista-padronelo.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "padronelo"
+    },
+    {
+      "file": "eletricista-padroso.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "padroso"
+    },
+    {
+      "file": "eletricista-pai-penela.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "pai-penela"
+    },
+    {
+      "file": "eletricista-palhais.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "palhais"
+    },
+    {
+      "file": "eletricista-palheiros.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "palheiros"
+    },
+    {
+      "file": "eletricista-paradela.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "paradela"
+    },
+    {
+      "file": "eletricista-paradinha-nova.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "paradinha-nova"
+    },
+    {
+      "file": "eletricista-paradinha-velha.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "paradinha-velha"
+    },
+    {
+      "file": "eletricista-parambos.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "parambos"
+    },
+    {
+      "file": "eletricista-pardelhas.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "pardelhas"
+    },
+    {
+      "file": "eletricista-paus.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "paus"
+    },
+    {
+      "file": "eletricista-pegarinhos.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "pegarinhos"
+    },
+    {
+      "file": "eletricista-pena-verde.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "pena-verde"
+    },
+    {
+      "file": "eletricista-pena.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "pena"
+    },
+    {
+      "file": "eletricista-penajoia.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "penajoia"
+    },
+    {
+      "file": "eletricista-penas-roias.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "penas-roias"
+    },
+    {
+      "file": "eletricista-penhas-juntas.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "penhas-juntas"
+    },
+    {
+      "file": "eletricista-pensalvos.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "pensalvos"
+    },
+    {
+      "file": "eletricista-penude.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "penude"
+    },
+    {
+      "file": "eletricista-pereira.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "pereira"
+    },
+    {
+      "file": "eletricista-pereiros.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "pereiros"
+    },
+    {
+      "file": "eletricista-picote.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "picote"
+    },
+    {
+      "file": "eletricista-pinela.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "pinela"
+    },
+    {
+      "file": "eletricista-pinheiro-novo.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "pinheiro-novo"
+    },
+    {
+      "file": "eletricista-pinheiros.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "pinheiros"
+    },
+    {
+      "file": "eletricista-pinho.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "pinho"
+    },
+    {
+      "file": "eletricista-poiares.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "poiares"
+    },
+    {
+      "file": "eletricista-porrais.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "porrais"
+    },
+    {
+      "file": "eletricista-possacos.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "possacos"
+    },
+    {
+      "file": "eletricista-pretarouca.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "pretarouca"
+    },
+    {
+      "file": "eletricista-prova.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "prova"
+    },
+    {
+      "file": "eletricista-provesende.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "provesende"
+    },
+    {
+      "file": "eletricista-pruoba.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "pruoba"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-almendra.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "almendra"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-amarante.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "amarante"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-argozelo.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "argozelo"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-armamar.html",
+      "badge": "5",
+      "expected": "6",
+      "city": "armamar"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-boticas.html",
+      "badge": "6",
+      "expected": "5",
+      "city": "boticas"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-britiande.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "britiande"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-cambres.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "cambres"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-cedovim.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "cedovim"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-cerva.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "cerva"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-chaves.html",
+      "badge": "6",
+      "expected": "4",
+      "city": "chaves"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-cumieira.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "cumieira"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-lalim.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lalim"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-lamego.html",
+      "badge": "5",
+      "expected": "6",
+      "city": "lamego"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-lazarim.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lazarim"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-lixa.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lixa"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-lordelo.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "lordelo"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-marialva.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "marialva"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-pedras-salgadas.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "pedras-salgadas"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-penedono.html",
+      "badge": "6",
+      "expected": "5",
+      "city": "penedono"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-resende.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "resende"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-sabrosa.html",
+      "badge": "5",
+      "expected": "4",
+      "city": "sabrosa"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-salzedas.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "salzedas"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-tarouca.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "tarouca"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-valdigem.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "valdigem"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-vidago.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "vidago"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-vila-real.html",
+      "badge": "5",
+      "expected": "4",
+      "city": "vila-real"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-vilarandelo.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "vilarandelo"
+    },
+    {
+      "file": "eletricista-queimadela.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "queimadela"
+    },
+    {
+      "file": "eletricista-queiriz.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "queiriz"
+    },
+    {
+      "file": "eletricista-quintanilha.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "quintanilha"
+    },
+    {
+      "file": "eletricista-rabal.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "rabal"
+    },
+    {
+      "file": "eletricista-ranhados.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "ranhados"
+    },
+    {
+      "file": "eletricista-rapa.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "rapa"
+    },
+    {
+      "file": "eletricista-ratoeira.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "ratoeira"
+    },
+    {
+      "file": "eletricista-rebordainhos.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "rebordainhos"
+    },
+    {
+      "file": "eletricista-rebordelo.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "rebordelo"
+    },
+    {
+      "file": "eletricista-reigada.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "reigada"
+    },
+    {
+      "file": "eletricista-ribalonga.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "ribalonga"
+    },
+    {
+      "file": "eletricista-rio-frio.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "rio-frio"
+    },
+    {
+      "file": "eletricista-riodades.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "riodades"
+    },
+    {
+      "file": "eletricista-rocamondo.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "rocamondo"
+    },
+    {
+      "file": "eletricista-roriz.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "roriz"
+    },
+    {
+      "file": "eletricista-saldonha.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "saldonha"
+    },
+    {
+      "file": "eletricista-salgueiro.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "salgueiro"
+    },
+    {
+      "file": "eletricista-sambade.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "sambade"
+    },
+    {
+      "file": "eletricista-sampaio.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "sampaio"
+    },
+    {
+      "file": "eletricista-sanche.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "sanche"
+    },
+    {
+      "file": "eletricista-sande.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "sande"
+    },
+    {
+      "file": "eletricista-sanfins.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "sanfins"
+    },
+    {
+      "file": "eletricista-sanhoane.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "sanhoane"
+    },
+    {
+      "file": "eletricista-santa-valha.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "santa-valha"
+    },
+    {
+      "file": "eletricista-santo-isidoro.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "santo-isidoro"
+    },
+    {
+      "file": "eletricista-sarraquinhos.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "sarraquinhos"
+    },
+    {
+      "file": "eletricista-sarzedinho.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "sarzedinho"
+    },
+    {
+      "file": "eletricista-sarzedo.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "sarzedo"
+    },
+    {
+      "file": "eletricista-seara-velha.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "seara-velha"
+    },
+    {
+      "file": "eletricista-sedielos.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "sedielos"
+    },
+    {
+      "file": "eletricista-selhariz.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "selhariz"
+    },
+    {
+      "file": "eletricista-selores.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "selores"
+    },
+    {
+      "file": "eletricista-sendas.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "sendas"
+    },
+    {
+      "file": "eletricista-serapicos.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "serapicos"
+    },
+    {
+      "file": "eletricista-sezelhe.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "sezelhe"
+    },
+    {
+      "file": "eletricista-sobral-pichorro.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "sobral-pichorro"
+    },
+    {
+      "file": "eletricista-sobreda.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "sobreda"
+    },
+    {
+      "file": "eletricista-sobreira.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "sobreira"
+    },
+    {
+      "file": "eletricista-soeima.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "soeima"
+    },
+    {
+      "file": "eletricista-soeira.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "soeira"
+    },
+    {
+      "file": "eletricista-solveira.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "solveira"
+    },
+    {
+      "file": "eletricista-sorval.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "sorval"
+    },
+    {
+      "file": "eletricista-souro-pires.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "souro-pires"
+    },
+    {
+      "file": "eletricista-soutelo-mourisco.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "soutelo-mourisco"
+    },
+    {
+      "file": "eletricista-tabuado.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "tabuado"
+    },
+    {
+      "file": "eletricista-talhas.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "talhas"
+    },
+    {
+      "file": "eletricista-tamanhos.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "tamanhos"
+    },
+    {
+      "file": "eletricista-terrenho.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "terrenho"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-almendra.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "almendra"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-amarante.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "amarante"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-argozelo.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "argozelo"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-armamar.html",
+      "badge": "5",
+      "expected": "6",
+      "city": "armamar"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-boticas.html",
+      "badge": "6",
+      "expected": "5",
+      "city": "boticas"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-britiande.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "britiande"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-cambres.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "cambres"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-cedovim.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "cedovim"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-cerva.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "cerva"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-chaves.html",
+      "badge": "6",
+      "expected": "4",
+      "city": "chaves"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-cumieira.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "cumieira"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-lalim.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lalim"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-lamego.html",
+      "badge": "5",
+      "expected": "6",
+      "city": "lamego"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-lazarim.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lazarim"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-lixa.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "lixa"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-lordelo.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "lordelo"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-marialva.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "marialva"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-pedras-salgadas.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "pedras-salgadas"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-penedono.html",
+      "badge": "6",
+      "expected": "5",
+      "city": "penedono"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-resende.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "resende"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-sabrosa.html",
+      "badge": "5",
+      "expected": "4",
+      "city": "sabrosa"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-salzedas.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "salzedas"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-tarouca.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "tarouca"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-valdigem.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "valdigem"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-vidago.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "vidago"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-vila-real.html",
+      "badge": "5",
+      "expected": "4",
+      "city": "vila-real"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-vilarandelo.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "vilarandelo"
+    },
+    {
+      "file": "eletricista-travancas.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "travancas"
+    },
+    {
+      "file": "eletricista-tresminas.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "tresminas"
+    },
+    {
+      "file": "eletricista-tresouras.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "tresouras"
+    },
+    {
+      "file": "eletricista-trindade.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "trindade"
+    },
+    {
+      "file": "eletricista-tuizelo.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "tuizelo"
+    },
+    {
+      "file": "eletricista-ucanha.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "ucanha"
+    },
+    {
+      "file": "eletricista-vacalar.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "vacalar"
+    },
+    {
+      "file": "eletricista-valadares.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "valadares"
+    },
+    {
+      "file": "eletricista-valdrez.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "valdrez"
+    },
+    {
+      "file": "eletricista-valdujo.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "valdujo"
+    },
+    {
+      "file": "eletricista-vale-flor.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "vale-flor"
+    },
+    {
+      "file": "eletricista-vale-pereiro.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "vale-pereiro"
+    },
+    {
+      "file": "eletricista-vales.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "vales"
+    },
+    {
+      "file": "eletricista-valoura.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "valoura"
+    },
+    {
+      "file": "eletricista-valtorno.html",
+      "badge": "2",
+      "expected": "3",
+      "city": "valtorno"
+    },
+    {
+      "file": "eletricista-vascoveiro.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "vascoveiro"
+    },
+    {
+      "file": "eletricista-vassal.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "vassal"
+    },
+    {
+      "file": "eletricista-velosa.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "velosa"
+    },
+    {
+      "file": "eletricista-vermiosa.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "vermiosa"
+    },
+    {
+      "file": "eletricista-viariz.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "viariz"
+    },
+    {
+      "file": "eletricista-vila-boa.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "vila-boa"
+    },
+    {
+      "file": "eletricista-vila-caiz.html",
+      "badge": "4",
+      "expected": "6",
+      "city": "vila-caiz"
+    },
+    {
+      "file": "eletricista-vila-cova.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "vila-cova"
+    },
+    {
+      "file": "eletricista-vila-garcia.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "vila-garcia"
+    },
+    {
+      "file": "eletricista-vila-marim.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "vila-marim"
+    },
+    {
+      "file": "eletricista-vila-verde.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "vila-verde"
+    },
+    {
+      "file": "eletricista-vilar-douro.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "vilar-douro"
+    },
+    {
+      "file": "eletricista-vilar-seco.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "vilar-seco"
+    },
+    {
+      "file": "eletricista-vilar-torpim.html",
+      "badge": "4",
+      "expected": "5",
+      "city": "vilar-torpim"
+    },
+    {
+      "file": "eletricista-vilarouco.html",
+      "badge": "3",
+      "expected": "5",
+      "city": "vilarouco"
+    },
+    {
+      "file": "eletricista-vilela-seca.html",
+      "badge": "3",
+      "expected": "4",
+      "city": "vilela-seca"
+    },
+    {
+      "file": "eletricista-vinhas.html",
+      "badge": "1",
+      "expected": "2",
+      "city": "vinhas"
+    },
+    {
+      "file": "eletricista-zedes.html",
+      "badge": "4",
+      "expected": "3",
+      "city": "zedes"
+    }
+  ],
+  "ko_badge_vs_jsonld": [
+    {
+      "file": "eletricista-avaria-eletrica-armamar.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-boticas.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-chaves.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-lamego.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-mirandela.html",
+      "badge": "2",
+      "jsonld_zones": [
+        "1"
+      ],
+      "body_pricing_zones": [
+        "1"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-mogadouro.html",
+      "badge": "3",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-montalegre.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-penedono.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-sabrosa.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-sernancelhe.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-vila-real.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-vimioso.html",
+      "badge": "3",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-avaria-eletrica-vinhais.html",
+      "badge": "3",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-certificacao-dgeg-chaves.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-armamar.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-boticas.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-chaves.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-lamego.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-mirandela.html",
+      "badge": "2",
+      "jsonld_zones": [
+        "1"
+      ],
+      "body_pricing_zones": [
+        "1"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-mogadouro.html",
+      "badge": "3",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-montalegre.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-penedono.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-sabrosa.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-sernancelhe.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-vila-real.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-vimioso.html",
+      "badge": "3",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-certificacao-eletrica-vinhais.html",
+      "badge": "3",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-fuga-corrente-armamar.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-fuga-corrente-boticas.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-fuga-corrente-chaves.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-fuga-corrente-lamego.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-fuga-corrente-mirandela.html",
+      "badge": "2",
+      "jsonld_zones": [
+        "1"
+      ],
+      "body_pricing_zones": [
+        "1"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-fuga-corrente-mogadouro.html",
+      "badge": "3",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-fuga-corrente-montalegre.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-fuga-corrente-penedono.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-fuga-corrente-sabrosa.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-fuga-corrente-sernancelhe.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-fuga-corrente-vila-real.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-fuga-corrente-vimioso.html",
+      "badge": "3",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-fuga-corrente-vinhais.html",
+      "badge": "3",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-armamar.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-boticas.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-chaves.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-lamego.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-mirandela.html",
+      "badge": "2",
+      "jsonld_zones": [
+        "1"
+      ],
+      "body_pricing_zones": [
+        "1"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-mogadouro.html",
+      "badge": "3",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-montalegre.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-penedono.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-sabrosa.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-sernancelhe.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-vila-real.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-vimioso.html",
+      "badge": "3",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-exterior-vinhais.html",
+      "badge": "3",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-led-armamar.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-led-boticas.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-led-chaves.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-led-lamego.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-led-mirandela.html",
+      "badge": "2",
+      "jsonld_zones": [
+        "1"
+      ],
+      "body_pricing_zones": [
+        "1"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-led-mogadouro.html",
+      "badge": "3",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-led-montalegre.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-led-penedono.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-led-sabrosa.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-led-sernancelhe.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-led-vila-real.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-led-vimioso.html",
+      "badge": "3",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-iluminacao-led-vinhais.html",
+      "badge": "3",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-armamar.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-boticas.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-chaves.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-lamego.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-mirandela.html",
+      "badge": "2",
+      "jsonld_zones": [
+        "1"
+      ],
+      "body_pricing_zones": [
+        "1"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-mogadouro.html",
+      "badge": "3",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-montalegre.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-penedono.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-sabrosa.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-sernancelhe.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-vila-real.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-vimioso.html",
+      "badge": "3",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-quadro-eletrico-vinhais.html",
+      "badge": "3",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-armamar.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-boticas.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-chaves.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-lamego.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-mirandela.html",
+      "badge": "2",
+      "jsonld_zones": [
+        "1"
+      ],
+      "body_pricing_zones": [
+        "1"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-mogadouro.html",
+      "badge": "3",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-montalegre.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-penedono.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-sabrosa.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-sernancelhe.html",
+      "badge": "6",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-vila-real.html",
+      "badge": "5",
+      "jsonld_zones": [
+        "3"
+      ],
+      "body_pricing_zones": [
+        "3"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-vimioso.html",
+      "badge": "3",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    },
+    {
+      "file": "eletricista-tomada-interruptor-vinhais.html",
+      "badge": "3",
+      "jsonld_zones": [
+        "4"
+      ],
+      "body_pricing_zones": [
+        "4"
+      ],
+      "kind": "badge-vs-body"
+    }
+  ],
+  "ko_price_grid": [],
+  "ko_double_zone_info": [],
+  "es_excluded_list": [
+    "eletricista-a-mezquita",
+    "eletricista-avaria-eletrica-xinzo-de-limia",
+    "eletricista-cerezal-de-penahorcada",
+    "eletricista-certificacao-eletrica-xinzo-de-limia",
+    "eletricista-fariza-de-sayago",
+    "eletricista-ferreruela-de-tabara",
+    "eletricista-fuga-corrente-xinzo-de-limia",
+    "eletricista-iluminacao-exterior-xinzo-de-limia",
+    "eletricista-iluminacao-led-xinzo-de-limia",
+    "eletricista-o-rios",
+    "eletricista-perena-de-la-ribera",
+    "eletricista-quadro-eletrico-xinzo-de-limia",
+    "eletricista-requejo-de-sanabria",
+    "eletricista-samir-de-los-canos",
+    "eletricista-san-pedro-de-la-silba",
+    "eletricista-tomada-interruptor-xinzo-de-limia",
+    "eletricista-urgente-xinzo-de-limia",
+    "eletricista-xinzo-de-limia"
+  ],
+  "aldeias_unresolved": [
+    "eletricista-abacas",
+    "eletricista-acoreira",
+    "eletricista-agrochao",
+    "eletricista-agua-reves",
+    "eletricista-aguas-frias",
+    "eletricista-aguas-vivas",
+    "eletricista-albarellos",
+    "eletricista-alcaices",
+    "eletricista-aldeia-vicosa",
+    "eletricista-alfaiao",
+    "eletricista-alfandega-da-fe",
+    "eletricista-alfarela-de-jales",
+    "eletricista-alijo",
+    "eletricista-alturas-do-barroso",
+    "eletricista-alvacoes-do-corgo",
+    "eletricista-alverca-da-beira",
+    "eletricista-andavas",
+    "eletricista-andraes",
+    "eletricista-ansiaes",
+    "eletricista-arcosso",
+    "eletricista-ardaos",
+    "eletricista-argan",
+    "eletricista-arrabalde-de-santo-antonio",
+    "eletricista-arrabalde-do-poco",
+    "eletricista-avaria-eletrica-alfandega-da-fe",
+    "eletricista-avaria-eletrica-alijo",
+    "eletricista-avaria-eletrica-braganca",
+    "eletricista-avaria-eletrica-carrazeda-de-ansiaes",
+    "eletricista-avaria-eletrica-carrazedo-de-montenegro",
+    "eletricista-avaria-eletrica-ervedosa-do-douro",
+    "eletricista-avaria-eletrica-figueira-de-castelo-rodrigo",
+    "eletricista-avaria-eletrica-freixo-de-espada-a-cinta",
+    "eletricista-avaria-eletrica-freixo-de-numao",
+    "eletricista-avaria-eletrica-macedo-de-cavaleiros",
+    "eletricista-avaria-eletrica-marco-de-canaveses",
+    "eletricista-avaria-eletrica-mesao-frio",
+    "eletricista-avaria-eletrica-miranda-do-douro",
+    "eletricista-avaria-eletrica-mondim-da-beira",
+    "eletricista-avaria-eletrica-mondim-de-basto",
+    "eletricista-avaria-eletrica-moucos",
+    "eletricista-avaria-eletrica-murca",
+    "eletricista-avaria-eletrica-peso-da-regua",
+    "eletricista-avaria-eletrica-pinhao",
+    "eletricista-avaria-eletrica-ribeira-de-pena",
+    "eletricista-avaria-eletrica-sanfins-do-douro",
+    "eletricista-avaria-eletrica-santa-marinha-do-zezere",
+    "eletricista-avaria-eletrica-santa-marta-de-penaguiao",
+    "eletricista-avaria-eletrica-santo-estevao",
+    "eletricista-avaria-eletrica-sao-cosmado",
+    "eletricista-avaria-eletrica-sao-joao-da-pesqueira",
+    "eletricista-avaria-eletrica-sao-joao-de-tarouca",
+    "eletricista-avaria-eletrica-sao-martinho-de-anta",
+    "eletricista-avaria-eletrica-sao-martinho-de-mouros",
+    "eletricista-avaria-eletrica-tabuaco",
+    "eletricista-avaria-eletrica-torre-de-dona-chama",
+    "eletricista-avaria-eletrica-torre-de-moncorvo",
+    "eletricista-avaria-eletrica-trevoes",
+    "eletricista-avaria-eletrica-valpacos",
+    "eletricista-avaria-eletrica-vern",
+    "eletricista-avaria-eletrica-vila-franca-das-naves",
+    "eletricista-avaria-eletrica-vila-nova-de-foz-coa",
+    "eletricista-avaria-eletrica-vila-pouca-de-aguiar",
+    "eletricista-avaria-eletrica-vilar-de-macada",
+    "eletricista-avelas-da-ribeira",
+    "eletricista-avelas-de-ambom",
+    "eletricista-avinho",
+    "eletricista-avoes",
+    "eletricista-azevo",
+    "eletricista-bacal",
+    "eletricista-bairro-do-fundo-de-fomento-a-habitacao",
+    "eletricista-bairro-social-de-alvoracaes",
+    "eletricista-baracal",
+    "eletricista-barro",
+    "eletricista-beca",
+    "eletricista-bilho",
+    "eletricista-borba-de-godim",
+    "eletricista-bornes-de-aguiar",
+    "eletricista-bouca-cova",
+    "eletricista-bouca",
+    "eletricista-boucas",
+    "eletricista-boucoaes",
+    "eletricista-braganca",
+    "eletricista-brinco",
+    "eletricista-brito-de-baixo",
+    "eletricista-bruco",
+    "eletricista-cabacos",
+    "eletricista-cacarelhos",
+    "eletricista-cachao",
+    "eletricista-calvao",
+    "eletricista-cambeses-do-rio",
+    "eletricista-campanho",
+    "eletricista-campea",
+    "eletricista-campo-de-viboras",
+    "eletricista-carcao",
+    "eletricista-carcaozinho",
+    "eletricista-carlao",
+    "eletricista-carnicaes",
+    "eletricista-carrazeda-de-ansiaes",
+    "eletricista-carrazedo-de-montenegro",
+    "eletricista-carrazedo-do-alvao",
+    "eletricista-carvalho-de-egas",
+    "eletricista-carvalho-de-rei",
+    "eletricista-carvicais",
+    "eletricista-casa-do-povo-e-sede-da-junta-de-freguesia",
+    "eletricista-casal-de-loivos",
+    "eletricista-casal-do-monte",
+    "eletricista-casas-do-soeiro",
+    "eletricista-castade",
+    "eletricista-castainco",
+    "eletricista-castanheiro-do-norte",
+    "eletricista-castanheiro-do-sul",
+    "eletricista-casteicao",
+    "eletricista-castelaos",
+    "eletricista-castelo-de-balsamao",
+    "eletricista-castrelo-do-val",
+    "eletricista-castro-de-avelas",
+    "eletricista-cedaes",
+    "eletricista-cepoes",
+    "eletricista-certificacao-eletrica-alfandega-da-fe",
+    "eletricista-certificacao-eletrica-alijo",
+    "eletricista-certificacao-eletrica-braganca",
+    "eletricista-certificacao-eletrica-carrazeda-de-ansiaes",
+    "eletricista-certificacao-eletrica-carrazedo-de-montenegro",
+    "eletricista-certificacao-eletrica-ervedosa-do-douro",
+    "eletricista-certificacao-eletrica-figueira-de-castelo-rodrigo",
+    "eletricista-certificacao-eletrica-freixo-de-espada-a-cinta",
+    "eletricista-certificacao-eletrica-freixo-de-numao",
+    "eletricista-certificacao-eletrica-macedo-de-cavaleiros",
+    "eletricista-certificacao-eletrica-marco-de-canaveses",
+    "eletricista-certificacao-eletrica-mesao-frio",
+    "eletricista-certificacao-eletrica-miranda-do-douro",
+    "eletricista-certificacao-eletrica-mondim-da-beira",
+    "eletricista-certificacao-eletrica-mondim-de-basto",
+    "eletricista-certificacao-eletrica-moucos",
+    "eletricista-certificacao-eletrica-murca",
+    "eletricista-certificacao-eletrica-peso-da-regua",
+    "eletricista-certificacao-eletrica-pinhao",
+    "eletricista-certificacao-eletrica-ribeira-de-pena",
+    "eletricista-certificacao-eletrica-sanfins-do-douro",
+    "eletricista-certificacao-eletrica-santa-marinha-do-zezere",
+    "eletricista-certificacao-eletrica-santa-marta-de-penaguiao",
+    "eletricista-certificacao-eletrica-santo-estevao",
+    "eletricista-certificacao-eletrica-sao-cosmado",
+    "eletricista-certificacao-eletrica-sao-joao-da-pesqueira",
+    "eletricista-certificacao-eletrica-sao-joao-de-tarouca",
+    "eletricista-certificacao-eletrica-sao-martinho-de-anta",
+    "eletricista-certificacao-eletrica-sao-martinho-de-mouros",
+    "eletricista-certificacao-eletrica-tabuaco",
+    "eletricista-certificacao-eletrica-torre-de-dona-chama",
+    "eletricista-certificacao-eletrica-torre-de-moncorvo",
+    "eletricista-certificacao-eletrica-trevoes",
+    "eletricista-certificacao-eletrica-valpacos",
+    "eletricista-certificacao-eletrica-vern",
+    "eletricista-certificacao-eletrica-vila-franca-das-naves",
+    "eletricista-certificacao-eletrica-vila-nova-de-foz-coa",
+    "eletricista-certificacao-eletrica-vila-pouca-de-aguiar",
+    "eletricista-certificacao-eletrica-vilar-de-macada",
+    "eletricista-chaos",
+    "eletricista-chas",
+    "eletricista-chavaes",
+    "eletricista-cicuiro",
+    "eletricista-cidoes",
+    "eletricista-cimo-de-vila-da-castanheira",
+    "eletricista-colo-de-pito",
+    "eletricista-corrica",
+    "eletricista-cortico",
+    "eletricista-corticos",
+    "eletricista-cotimos",
+    "eletricista-coucos",
+    "eletricista-covas-do-barroso",
+    "eletricista-covas-do-douro",
+    "eletricista-covelaes",
+    "eletricista-custoias",
+    "eletricista-dalvares",
+    "eletricista-deilao",
+    "eletricista-donoes",
+    "eletricista-ervedosa-do-douro",
+    "eletricista-ervoes",
+    "eletricista-escalhao",
+    "eletricista-espadaedo",
+    "eletricista-faioes",
+    "eletricista-falde",
+    "eletricista-feirao",
+    "eletricista-fermentaos",
+    "eletricista-ferreiros-de-avoes",
+    "eletricista-fervidelas",
+    "eletricista-fiaes-do-rio",
+    "eletricista-fiaes-do-tamega",
+    "eletricista-fiaes",
+    "eletricista-figueira-de-castelo-rodrigo",
+    "eletricista-fonfra",
+    "eletricista-fontao",
+    "eletricista-fonte-da-urze",
+    "eletricista-fornos-de-ledra",
+    "eletricista-fornos-do-pinhal",
+    "eletricista-franca",
+    "eletricista-freixeda-do-torrao",
+    "eletricista-freixo-de-baixo",
+    "eletricista-freixo-de-cima",
+    "eletricista-freixo-de-espada-a-cinta",
+    "eletricista-freixo-de-numao",
+    "eletricista-fridao",
+    "eletricista-frioes",
+    "eletricista-fuga-corrente-alfandega-da-fe",
+    "eletricista-fuga-corrente-alijo",
+    "eletricista-fuga-corrente-braganca",
+    "eletricista-fuga-corrente-carrazeda-de-ansiaes",
+    "eletricista-fuga-corrente-carrazedo-de-montenegro",
+    "eletricista-fuga-corrente-ervedosa-do-douro",
+    "eletricista-fuga-corrente-figueira-de-castelo-rodrigo",
+    "eletricista-fuga-corrente-freixo-de-espada-a-cinta",
+    "eletricista-fuga-corrente-freixo-de-numao",
+    "eletricista-fuga-corrente-macedo-de-cavaleiros",
+    "eletricista-fuga-corrente-marco-de-canaveses",
+    "eletricista-fuga-corrente-mesao-frio",
+    "eletricista-fuga-corrente-miranda-do-douro",
+    "eletricista-fuga-corrente-mondim-da-beira",
+    "eletricista-fuga-corrente-mondim-de-basto",
+    "eletricista-fuga-corrente-moucos",
+    "eletricista-fuga-corrente-murca",
+    "eletricista-fuga-corrente-peso-da-regua",
+    "eletricista-fuga-corrente-pinhao",
+    "eletricista-fuga-corrente-ribeira-de-pena",
+    "eletricista-fuga-corrente-sanfins-do-douro",
+    "eletricista-fuga-corrente-santa-marinha-do-zezere",
+    "eletricista-fuga-corrente-santa-marta-de-penaguiao",
+    "eletricista-fuga-corrente-santo-estevao",
+    "eletricista-fuga-corrente-sao-cosmado",
+    "eletricista-fuga-corrente-sao-joao-da-pesqueira",
+    "eletricista-fuga-corrente-sao-joao-de-tarouca",
+    "eletricista-fuga-corrente-sao-martinho-de-anta",
+    "eletricista-fuga-corrente-sao-martinho-de-mouros",
+    "eletricista-fuga-corrente-tabuaco",
+    "eletricista-fuga-corrente-torre-de-dona-chama",
+    "eletricista-fuga-corrente-torre-de-moncorvo",
+    "eletricista-fuga-corrente-trevoes",
+    "eletricista-fuga-corrente-valpacos",
+    "eletricista-fuga-corrente-vern",
+    "eletricista-fuga-corrente-vila-franca-das-naves",
+    "eletricista-fuga-corrente-vila-nova-de-foz-coa",
+    "eletricista-fuga-corrente-vila-pouca-de-aguiar",
+    "eletricista-fuga-corrente-vilar-de-macada",
+    "eletricista-gallegos-del-ro",
+    "eletricista-gandaricas",
+    "eletricista-gatao",
+    "eletricista-genisio",
+    "eletricista-gestaco",
+    "eletricista-gorgoco",
+    "eletricista-gouvaes-da-serra",
+    "eletricista-gouvaes-do-douro",
+    "eletricista-gouviaes",
+    "eletricista-gradissimo",
+    "eletricista-gralhos",
+    "eletricista-granja-do-tedo",
+    "eletricista-grijo-de-parada",
+    "eletricista-grijo",
+    "eletricista-guiaes",
+    "eletricista-horta-da-vilarica",
+    "eletricista-iluminacao-exterior-alfandega-da-fe",
+    "eletricista-iluminacao-exterior-alijo",
+    "eletricista-iluminacao-exterior-braganca",
+    "eletricista-iluminacao-exterior-carrazeda-de-ansiaes",
+    "eletricista-iluminacao-exterior-carrazedo-de-montenegro",
+    "eletricista-iluminacao-exterior-ervedosa-do-douro",
+    "eletricista-iluminacao-exterior-figueira-de-castelo-rodrigo",
+    "eletricista-iluminacao-exterior-freixo-de-espada-a-cinta",
+    "eletricista-iluminacao-exterior-freixo-de-numao",
+    "eletricista-iluminacao-exterior-macedo-de-cavaleiros",
+    "eletricista-iluminacao-exterior-marco-de-canaveses",
+    "eletricista-iluminacao-exterior-mesao-frio",
+    "eletricista-iluminacao-exterior-miranda-do-douro",
+    "eletricista-iluminacao-exterior-mondim-da-beira",
+    "eletricista-iluminacao-exterior-mondim-de-basto",
+    "eletricista-iluminacao-exterior-moucos",
+    "eletricista-iluminacao-exterior-murca",
+    "eletricista-iluminacao-exterior-peso-da-regua",
+    "eletricista-iluminacao-exterior-pinhao",
+    "eletricista-iluminacao-exterior-ribeira-de-pena",
+    "eletricista-iluminacao-exterior-sanfins-do-douro",
+    "eletricista-iluminacao-exterior-santa-marinha-do-zezere",
+    "eletricista-iluminacao-exterior-santa-marta-de-penaguiao",
+    "eletricista-iluminacao-exterior-santo-estevao",
+    "eletricista-iluminacao-exterior-sao-cosmado",
+    "eletricista-iluminacao-exterior-sao-joao-da-pesqueira",
+    "eletricista-iluminacao-exterior-sao-joao-de-tarouca",
+    "eletricista-iluminacao-exterior-sao-martinho-de-anta",
+    "eletricista-iluminacao-exterior-sao-martinho-de-mouros",
+    "eletricista-iluminacao-exterior-tabuaco",
+    "eletricista-iluminacao-exterior-torre-de-dona-chama",
+    "eletricista-iluminacao-exterior-torre-de-moncorvo",
+    "eletricista-iluminacao-exterior-trevoes",
+    "eletricista-iluminacao-exterior-valpacos",
+    "eletricista-iluminacao-exterior-vern",
+    "eletricista-iluminacao-exterior-vila-franca-das-naves",
+    "eletricista-iluminacao-exterior-vila-nova-de-foz-coa",
+    "eletricista-iluminacao-exterior-vila-pouca-de-aguiar",
+    "eletricista-iluminacao-exterior-vilar-de-macada",
+    "eletricista-iluminacao-led-alfandega-da-fe",
+    "eletricista-iluminacao-led-alijo",
+    "eletricista-iluminacao-led-braganca",
+    "eletricista-iluminacao-led-carrazeda-de-ansiaes",
+    "eletricista-iluminacao-led-carrazedo-de-montenegro",
+    "eletricista-iluminacao-led-ervedosa-do-douro",
+    "eletricista-iluminacao-led-figueira-de-castelo-rodrigo",
+    "eletricista-iluminacao-led-freixo-de-espada-a-cinta",
+    "eletricista-iluminacao-led-freixo-de-numao",
+    "eletricista-iluminacao-led-macedo-de-cavaleiros",
+    "eletricista-iluminacao-led-marco-de-canaveses",
+    "eletricista-iluminacao-led-mesao-frio",
+    "eletricista-iluminacao-led-miranda-do-douro",
+    "eletricista-iluminacao-led-mondim-da-beira",
+    "eletricista-iluminacao-led-mondim-de-basto",
+    "eletricista-iluminacao-led-moucos",
+    "eletricista-iluminacao-led-murca",
+    "eletricista-iluminacao-led-peso-da-regua",
+    "eletricista-iluminacao-led-pinhao",
+    "eletricista-iluminacao-led-ribeira-de-pena",
+    "eletricista-iluminacao-led-sanfins-do-douro",
+    "eletricista-iluminacao-led-santa-marinha-do-zezere",
+    "eletricista-iluminacao-led-santa-marta-de-penaguiao",
+    "eletricista-iluminacao-led-santo-estevao",
+    "eletricista-iluminacao-led-sao-cosmado",
+    "eletricista-iluminacao-led-sao-joao-da-pesqueira",
+    "eletricista-iluminacao-led-sao-joao-de-tarouca",
+    "eletricista-iluminacao-led-sao-martinho-de-anta",
+    "eletricista-iluminacao-led-sao-martinho-de-mouros",
+    "eletricista-iluminacao-led-tabuaco",
+    "eletricista-iluminacao-led-torre-de-dona-chama",
+    "eletricista-iluminacao-led-torre-de-moncorvo",
+    "eletricista-iluminacao-led-trevoes",
+    "eletricista-iluminacao-led-valpacos",
+    "eletricista-iluminacao-led-vern",
+    "eletricista-iluminacao-led-vila-franca-das-naves",
+    "eletricista-iluminacao-led-vila-nova-de-foz-coa",
+    "eletricista-iluminacao-led-vila-pouca-de-aguiar",
+    "eletricista-iluminacao-led-vilar-de-macada",
+    "eletricista-jerusalem-do-romeu",
+    "eletricista-junca",
+    "eletricista-la-pena",
+    "eletricista-la-vidola",
+    "eletricista-lagoaca",
+    "eletricista-lajeosa-do-mondego",
+    "eletricista-lama-de-arcos",
+    "eletricista-lamas-de-cavalo",
+    "eletricista-lamas-de-olo",
+    "eletricista-lamas-de-orelhao",
+    "eletricista-lancao",
+    "eletricista-lebucao",
+    "eletricista-limaos",
+    "eletricista-limoes",
+    "eletricista-lixa-do-alvao",
+    "eletricista-lodoes",
+    "eletricista-loivos-da-ribeira",
+    "eletricista-loivos-do-monte",
+    "eletricista-macal-do-chao",
+    "eletricista-macedo-de-cavaleiros",
+    "eletricista-macedo-do-mato",
+    "eletricista-macedo-do-peso",
+    "eletricista-macores",
+    "eletricista-mahde",
+    "eletricista-marco-de-canaveses",
+    "eletricista-marzagao",
+    "eletricista-mata-de-lobos",
+    "eletricista-medroes",
+    "eletricista-melcoes",
+    "eletricista-mesao-frio",
+    "eletricista-milhao",
+    "eletricista-minas-da-ervedosa",
+    "eletricista-miranda-do-douro",
+    "eletricista-mogo-da-malta",
+    "eletricista-mograo",
+    "eletricista-mondim-da-beira",
+    "eletricista-mondim-de-basto",
+    "eletricista-mondroes",
+    "eletricista-monterrei",
+    "eletricista-moreira-de-rei",
+    "eletricista-moreira-do-castelo",
+    "eletricista-mos-de-celas",
+    "eletricista-mos",
+    "eletricista-moucoes",
+    "eletricista-moucos",
+    "eletricista-mourao",
+    "eletricista-mrias",
+    "eletricista-murca",
+    "eletricista-murcos",
+    "eletricista-nagozelo-do-douro",
+    "eletricista-negroes",
+    "eletricista-nogueira-da-montanha",
+    "eletricista-numao",
+    "eletricista-nuzedo-de-baixo",
+    "eletricista-olas",
+    "eletricista-ombra",
+    "eletricista-ousilhao",
+    "eletricista-outeiro-de-gatos",
+    "eletricista-paco-de-sortes",
+    "eletricista-pacos",
+    "eletricista-padua-freixo",
+    "eletricista-palacoulo",
+    "eletricista-parada-de-cunhos",
+    "eletricista-parada-de-monteiros",
+    "eletricista-parada-do-bispo",
+    "eletricista-parada-do-pinhao",
+    "eletricista-paradanca",
+    "eletricista-paradela-de-guiaes",
+    "eletricista-paradela-de-monforte",
+    "eletricista-paradinha-de-besteiros",
+    "eletricista-paramio",
+    "eletricista-paredes-da-beira",
+    "eletricista-pas",
+    "eletricista-passo",
+    "eletricista-pedralba-de-la-praderia",
+    "eletricista-penela-da-beira",
+    "eletricista-penha-de-aguia",
+    "eletricista-peredo-de-bemposta",
+    "eletricista-peredo-dos-castelhanos",
+    "eletricista-peso-da-regua",
+    "eletricista-pinhal-do-norte",
+    "eletricista-pinhao",
+    "eletricista-poco-do-canto",
+    "eletricista-populo",
+    "eletricista-porto-da-carne",
+    "eletricista-povoa-d-el-rei",
+    "eletricista-povoa-de-agracoes",
+    "eletricista-povoa-de-lila",
+    "eletricista-povoa-de-penela",
+    "eletricista-povoa-do-concelho",
+    "eletricista-presandaes",
+    "eletricista-quadro-eletrico-alfandega-da-fe",
+    "eletricista-quadro-eletrico-alijo",
+    "eletricista-quadro-eletrico-braganca",
+    "eletricista-quadro-eletrico-carrazeda-de-ansiaes",
+    "eletricista-quadro-eletrico-carrazedo-de-montenegro",
+    "eletricista-quadro-eletrico-ervedosa-do-douro",
+    "eletricista-quadro-eletrico-figueira-de-castelo-rodrigo",
+    "eletricista-quadro-eletrico-freixo-de-espada-a-cinta",
+    "eletricista-quadro-eletrico-freixo-de-numao",
+    "eletricista-quadro-eletrico-macedo-de-cavaleiros",
+    "eletricista-quadro-eletrico-marco-de-canaveses",
+    "eletricista-quadro-eletrico-mesao-frio",
+    "eletricista-quadro-eletrico-miranda-do-douro",
+    "eletricista-quadro-eletrico-mondim-da-beira",
+    "eletricista-quadro-eletrico-mondim-de-basto",
+    "eletricista-quadro-eletrico-moucos",
+    "eletricista-quadro-eletrico-murca",
+    "eletricista-quadro-eletrico-peso-da-regua",
+    "eletricista-quadro-eletrico-pinhao",
+    "eletricista-quadro-eletrico-ribeira-de-pena",
+    "eletricista-quadro-eletrico-sanfins-do-douro",
+    "eletricista-quadro-eletrico-santa-marinha-do-zezere",
+    "eletricista-quadro-eletrico-santa-marta-de-penaguiao",
+    "eletricista-quadro-eletrico-santo-estevao",
+    "eletricista-quadro-eletrico-sao-cosmado",
+    "eletricista-quadro-eletrico-sao-joao-da-pesqueira",
+    "eletricista-quadro-eletrico-sao-joao-de-tarouca",
+    "eletricista-quadro-eletrico-sao-martinho-de-anta",
+    "eletricista-quadro-eletrico-sao-martinho-de-mouros",
+    "eletricista-quadro-eletrico-tabuaco",
+    "eletricista-quadro-eletrico-torre-de-dona-chama",
+    "eletricista-quadro-eletrico-torre-de-moncorvo",
+    "eletricista-quadro-eletrico-trevoes",
+    "eletricista-quadro-eletrico-valpacos",
+    "eletricista-quadro-eletrico-vern",
+    "eletricista-quadro-eletrico-vila-franca-das-naves",
+    "eletricista-quadro-eletrico-vila-nova-de-foz-coa",
+    "eletricista-quadro-eletrico-vila-pouca-de-aguiar",
+    "eletricista-quadro-eletrico-vilar-de-macada",
+    "eletricista-quinta-da-roca",
+    "eletricista-quinta-de-montezinho",
+    "eletricista-quinta-de-pero-martins",
+    "eletricista-quinta-de-santa-maria",
+    "eletricista-quinta-de-sao-pedro",
+    "eletricista-quinta-do-cerro",
+    "eletricista-quinta-do-salgueiro",
+    "eletricista-quinta-do-souto",
+    "eletricista-quinta-dos-cavages",
+    "eletricista-quintela-de-lampacas",
+    "eletricista-quiras",
+    "eletricista-rabacal",
+    "eletricista-randn",
+    "eletricista-rebordaos",
+    "eletricista-rego-de-vide",
+    "eletricista-ribeira-de-goujoim",
+    "eletricista-ribeira-de-pena",
+    "eletricista-ribeira-do-freixo",
+    "eletricista-rio-de-galinhas",
+    "eletricista-rio-de-mel",
+    "eletricista-rio-de-onor",
+    "eletricista-riofro-de-aliste",
+    "eletricista-sabroso-de-aguiar",
+    "eletricista-salvador-do-monte",
+    "eletricista-samaioes",
+    "eletricista-samodaes",
+    "eletricista-samoes",
+    "eletricista-sanfins-do-douro",
+    "eletricista-sanjurge",
+    "eletricista-santa-comba-de-rossas",
+    "eletricista-santa-comba-de-vilarica",
+    "eletricista-santa-cruz-do-douro",
+    "eletricista-santa-eugenia",
+    "eletricista-santa-leocadia",
+    "eletricista-santa-maria-de-emeres",
+    "eletricista-santa-marinha-do-zezere",
+    "eletricista-santa-marta-da-montanha",
+    "eletricista-santa-marta-de-penaguiao",
+    "eletricista-santiago-da-ribeira-de-alhariz",
+    "eletricista-santo-adriao",
+    "eletricista-santo-aleixo-de-alem-tamega",
+    "eletricista-santo-andre",
+    "eletricista-santo-antonio-de-monforte",
+    "eletricista-santo-estevao",
+    "eletricista-santulhao",
+    "eletricista-sao-cibrao",
+    "eletricista-sao-cosmado",
+    "eletricista-sao-cristovao-do-douro",
+    "eletricista-sao-joao-da-corveira",
+    "eletricista-sao-joao-da-pesqueira",
+    "eletricista-sao-joao-de-fontoura",
+    "eletricista-sao-joao-de-lobrigos",
+    "eletricista-sao-joao-de-tarouca",
+    "eletricista-sao-jomil",
+    "eletricista-sao-juliao-de-montenegro",
+    "eletricista-sao-juliao-de-palacios",
+    "eletricista-sao-lourenco-de-ribapinhao",
+    "eletricista-sao-mamede-de-ribatua",
+    "eletricista-sao-martinho-das-chas",
+    "eletricista-sao-martinho-de-angueira",
+    "eletricista-sao-martinho-de-anta",
+    "eletricista-sao-martinho-de-mouros",
+    "eletricista-sao-martinho-do-peso",
+    "eletricista-sao-miguel-de-lobrigos",
+    "eletricista-sao-nicolau",
+    "eletricista-sao-pedro-de-agostem",
+    "eletricista-sao-pedro-de-sarracenos",
+    "eletricista-sao-pedro-de-vale-do-conde",
+    "eletricista-sao-pedro-de-veiga-de-lila",
+    "eletricista-sao-pedro-velho",
+    "eletricista-sao-romao-de-aregos",
+    "eletricista-sao-romao",
+    "eletricista-sao-salvador",
+    "eletricista-sao-tome-de-covelas",
+    "eletricista-sao-tome-do-castelo",
+    "eletricista-sao-vicente",
+    "eletricista-sapiaos",
+    "eletricista-sardao",
+    "eletricista-sebadelhe-de-serra",
+    "eletricista-seixo-de-ansiaes",
+    "eletricista-seixo-de-manhoses",
+    "eletricista-sendim-da-ribeira",
+    "eletricista-sendim-da-serra",
+    "eletricista-senhora-da-penha-de-franca",
+    "eletricista-sobral-da-serra",
+    "eletricista-sobreiro-de-baixo",
+    "eletricista-soutelinho-da-raia",
+    "eletricista-soutelo-de-aguiar",
+    "eletricista-soutelo-do-douro",
+    "eletricista-souto-da-velha",
+    "eletricista-sucaes",
+    "eletricista-tabuaco",
+    "eletricista-tavora",
+    "eletricista-tazem",
+    "eletricista-teixeiro",
+    "eletricista-teloes",
+    "eletricista-to",
+    "eletricista-tomada-interruptor-alfandega-da-fe",
+    "eletricista-tomada-interruptor-alijo",
+    "eletricista-tomada-interruptor-braganca",
+    "eletricista-tomada-interruptor-carrazeda-de-ansiaes",
+    "eletricista-tomada-interruptor-carrazedo-de-montenegro",
+    "eletricista-tomada-interruptor-ervedosa-do-douro",
+    "eletricista-tomada-interruptor-figueira-de-castelo-rodrigo",
+    "eletricista-tomada-interruptor-freixo-de-espada-a-cinta",
+    "eletricista-tomada-interruptor-freixo-de-numao",
+    "eletricista-tomada-interruptor-macedo-de-cavaleiros",
+    "eletricista-tomada-interruptor-marco-de-canaveses",
+    "eletricista-tomada-interruptor-mesao-frio",
+    "eletricista-tomada-interruptor-miranda-do-douro",
+    "eletricista-tomada-interruptor-mondim-da-beira",
+    "eletricista-tomada-interruptor-mondim-de-basto",
+    "eletricista-tomada-interruptor-moucos",
+    "eletricista-tomada-interruptor-murca",
+    "eletricista-tomada-interruptor-peso-da-regua",
+    "eletricista-tomada-interruptor-pinhao",
+    "eletricista-tomada-interruptor-ribeira-de-pena",
+    "eletricista-tomada-interruptor-sanfins-do-douro",
+    "eletricista-tomada-interruptor-santa-marinha-do-zezere",
+    "eletricista-tomada-interruptor-santa-marta-de-penaguiao",
+    "eletricista-tomada-interruptor-santo-estevao",
+    "eletricista-tomada-interruptor-sao-cosmado",
+    "eletricista-tomada-interruptor-sao-joao-da-pesqueira",
+    "eletricista-tomada-interruptor-sao-joao-de-tarouca",
+    "eletricista-tomada-interruptor-sao-martinho-de-anta",
+    "eletricista-tomada-interruptor-sao-martinho-de-mouros",
+    "eletricista-tomada-interruptor-tabuaco",
+    "eletricista-tomada-interruptor-torre-de-dona-chama",
+    "eletricista-tomada-interruptor-torre-de-moncorvo",
+    "eletricista-tomada-interruptor-trevoes",
+    "eletricista-tomada-interruptor-valpacos",
+    "eletricista-tomada-interruptor-vern",
+    "eletricista-tomada-interruptor-vila-franca-das-naves",
+    "eletricista-tomada-interruptor-vila-nova-de-foz-coa",
+    "eletricista-tomada-interruptor-vila-pouca-de-aguiar",
+    "eletricista-tomada-interruptor-vilar-de-macada",
+    "eletricista-torre-de-dona-chama",
+    "eletricista-torre-de-moncorvo",
+    "eletricista-torre-do-pinhao",
+    "eletricista-torre-do-terrenho",
+    "eletricista-touca",
+    "eletricista-trevoes",
+    "eletricista-truchas-trueitas",
+    "eletricista-urgente-a-gudiña",
+    "eletricista-urgente-abaças",
+    "eletricista-urgente-agrochão",
+    "eletricista-urgente-alfaião",
+    "eletricista-urgente-alfandega-da-fe",
+    "eletricista-urgente-alfândega-da-fé",
+    "eletricista-urgente-alij",
+    "eletricista-urgente-alijo",
+    "eletricista-urgente-alijó",
+    "eletricista-urgente-almendra",
+    "eletricista-urgente-alvações-do-corgo",
+    "eletricista-urgente-amarante",
+    "eletricista-urgente-andrães",
+    "eletricista-urgente-arcossó",
+    "eletricista-urgente-ardãos",
+    "eletricista-urgente-argozelo",
+    "eletricista-urgente-armamar",
+    "eletricista-urgente-avinhó",
+    "eletricista-urgente-azêvo",
+    "eletricista-urgente-açoreira",
+    "eletricista-urgente-bairro-do-fundo-de-fomento-à-habitação",
+    "eletricista-urgente-baçal",
+    "eletricista-urgente-beça",
+    "eletricista-urgente-bilhó",
+    "eletricista-urgente-bornes",
+    "eletricista-urgente-boticas",
+    "eletricista-urgente-bouça",
+    "eletricista-urgente-bouças",
+    "eletricista-urgente-bouçoães",
+    "eletricista-urgente-braganca",
+    "eletricista-urgente-brinço",
+    "eletricista-urgente-britiande",
+    "eletricista-urgente-bruçó",
+    "eletricista-urgente-cabaços",
+    "eletricista-urgente-cachão",
+    "eletricista-urgente-calvão",
+    "eletricista-urgente-cambres",
+    "eletricista-urgente-campo-de-víboras",
+    "eletricista-urgente-carlão",
+    "eletricista-urgente-carrazeda-de-anciaes",
+    "eletricista-urgente-carrazeda-de-ansiaes",
+    "eletricista-urgente-carrazeda-de-ansiães",
+    "eletricista-urgente-carrazedo-de-montenegro",
+    "eletricista-urgente-carrazedo-do-alvão",
+    "eletricista-urgente-carviçais",
+    "eletricista-urgente-carção",
+    "eletricista-urgente-carçãozinho",
+    "eletricista-urgente-castainço",
+    "eletricista-urgente-castelo-de-balsamão",
+    "eletricista-urgente-castelãos",
+    "eletricista-urgente-castro-de-avelãs",
+    "eletricista-urgente-caçarelhos",
+    "eletricista-urgente-cedovim",
+    "eletricista-urgente-cedães",
+    "eletricista-urgente-cerva",
+    "eletricista-urgente-chacim",
+    "eletricista-urgente-chaves",
+    "eletricista-urgente-chavães",
+    "eletricista-urgente-chãos",
+    "eletricista-urgente-chãs",
+    "eletricista-urgente-cidões",
+    "eletricista-urgente-corriça",
+    "eletricista-urgente-cortiços",
+    "eletricista-urgente-couços",
+    "eletricista-urgente-cumieira",
+    "eletricista-urgente-custóias",
+    "eletricista-urgente-deilão",
+    "eletricista-urgente-ervedosa-do-douro",
+    "eletricista-urgente-ervões",
+    "eletricista-urgente-escalhão",
+    "eletricista-urgente-faiões",
+    "eletricista-urgente-favaios",
+    "eletricista-urgente-faílde",
+    "eletricista-urgente-fermentãos",
+    "eletricista-urgente-ferreruela-de-tábara",
+    "eletricista-urgente-figueira-de-castelo-rodrigo",
+    "eletricista-urgente-fiães-do-tâmega",
+    "eletricista-urgente-fiães",
+    "eletricista-urgente-fontão",
+    "eletricista-urgente-frança",
+    "eletricista-urgente-freixeda-do-torrão",
+    "eletricista-urgente-freixo-de-espada-a-cinta",
+    "eletricista-urgente-freixo-de-espada-à-cinta",
+    "eletricista-urgente-freixo-de-numao",
+    "eletricista-urgente-freixo-de-numão",
+    "eletricista-urgente-friões",
+    "eletricista-urgente-gandariças",
+    "eletricista-urgente-genísio",
+    "eletricista-urgente-gorgoço",
+    "eletricista-urgente-gouvães-da-serra",
+    "eletricista-urgente-gouvães-do-douro",
+    "eletricista-urgente-gradíssimo",
+    "eletricista-urgente-gralhós",
+    "eletricista-urgente-grijó-de-parada",
+    "eletricista-urgente-grijó",
+    "eletricista-urgente-guiães",
+    "eletricista-urgente-horta-da-vilariça",
+    "eletricista-urgente-izeda",
+    "eletricista-urgente-jerusalém-do-romeu",
+    "eletricista-urgente-lagoa",
+    "eletricista-urgente-lagoaça",
+    "eletricista-urgente-lalim",
+    "eletricista-urgente-lamas-de-orelhão",
+    "eletricista-urgente-lamego",
+    "eletricista-urgente-lanção",
+    "eletricista-urgente-lazarim",
+    "eletricista-urgente-lebução",
+    "eletricista-urgente-limãos",
+    "eletricista-urgente-limões",
+    "eletricista-urgente-lixa-do-alvão",
+    "eletricista-urgente-lixa",
+    "eletricista-urgente-lodões",
+    "eletricista-urgente-lordelo",
+    "eletricista-urgente-macedo-de-cavaleiros",
+    "eletricista-urgente-marco-de-canaveses",
+    "eletricista-urgente-marialva",
+    "eletricista-urgente-marzagão",
+    "eletricista-urgente-maçores",
+    "eletricista-urgente-mesao-frio",
+    "eletricista-urgente-milhão",
+    "eletricista-urgente-miranda-do-douro",
+    "eletricista-urgente-mirandela",
+    "eletricista-urgente-mogadouro",
+    "eletricista-urgente-mogrão",
+    "eletricista-urgente-moimenta-da-beira",
+    "eletricista-urgente-mondim-da-beira",
+    "eletricista-urgente-mondim-de-basto",
+    "eletricista-urgente-mondrões",
+    "eletricista-urgente-montalegre",
+    "eletricista-urgente-morais",
+    "eletricista-urgente-moucos",
+    "eletricista-urgente-mourão",
+    "eletricista-urgente-mouçós",
+    "eletricista-urgente-murca",
+    "eletricista-urgente-murça",
+    "eletricista-urgente-murçós",
+    "eletricista-urgente-mós-de-celas",
+    "eletricista-urgente-mós",
+    "eletricista-urgente-múrias",
+    "eletricista-urgente-negrões",
+    "eletricista-urgente-numão",
+    "eletricista-urgente-o-riós",
+    "eletricista-urgente-ousilhão",
+    "eletricista-urgente-palaçoulo",
+    "eletricista-urgente-parada-do-pinhão",
+    "eletricista-urgente-paradela-de-guiães",
+    "eletricista-urgente-parâmio",
+    "eletricista-urgente-paços",
+    "eletricista-urgente-paçô-de-sortes",
+    "eletricista-urgente-pedras-salgadas",
+    "eletricista-urgente-penedono",
+    "eletricista-urgente-penha-de-águia",
+    "eletricista-urgente-peso-da-r-gua",
+    "eletricista-urgente-peso-da-regua",
+    "eletricista-urgente-pinhao",
+    "eletricista-urgente-podence",
+    "eletricista-urgente-poço-do-canto",
+    "eletricista-urgente-presandães",
+    "eletricista-urgente-pádua-freixo",
+    "eletricista-urgente-pías",
+    "eletricista-urgente-pópulo",
+    "eletricista-urgente-póvoa-de-agrações",
+    "eletricista-urgente-póvoa-de-lila",
+    "eletricista-urgente-póvoa-de-penela",
+    "eletricista-urgente-quinta-de-são-pedro",
+    "eletricista-urgente-quintela-de-lampaças",
+    "eletricista-urgente-quintã-de-pero-martins",
+    "eletricista-urgente-quirás",
+    "eletricista-urgente-rebordãos",
+    "eletricista-urgente-resende",
+    "eletricista-urgente-ribeira-de-pena",
+    "eletricista-urgente-sabrosa",
+    "eletricista-urgente-salzedas",
+    "eletricista-urgente-samaiões",
+    "eletricista-urgente-samões",
+    "eletricista-urgente-sanfins-do-douro",
+    "eletricista-urgente-santa-comba-de-vilariça",
+    "eletricista-urgente-santa-eugénia",
+    "eletricista-urgente-santa-leocádia",
+    "eletricista-urgente-santa-maria-de-émeres",
+    "eletricista-urgente-santa-marinha-do-zezere",
+    "eletricista-urgente-santa-marta-de-penaguiao",
+    "eletricista-urgente-santo-adrião",
+    "eletricista-urgente-santo-aleixo-de-além-tâmega",
+    "eletricista-urgente-santo-andré",
+    "eletricista-urgente-santo-antónio-de-monforte",
+    "eletricista-urgente-santo-estevao",
+    "eletricista-urgente-santo-estêvão",
+    "eletricista-urgente-santulhão",
+    "eletricista-urgente-sao-cosmado",
+    "eletricista-urgente-sao-joao-da-pesqueira",
+    "eletricista-urgente-sao-joao-de-tarouca",
+    "eletricista-urgente-sao-martinho-de-anta",
+    "eletricista-urgente-sao-martinho-de-mouros",
+    "eletricista-urgente-sapiãos",
+    "eletricista-urgente-sardão",
+    "eletricista-urgente-seixo-de-ansiães",
+    "eletricista-urgente-sendim",
+    "eletricista-urgente-senhora-da-penha-de-frança",
+    "eletricista-urgente-sernancelhe",
+    "eletricista-urgente-suçães",
+    "eletricista-urgente-são-cibrão",
+    "eletricista-urgente-são-cristóvão-do-douro",
+    "eletricista-urgente-são-jomil",
+    "eletricista-urgente-são-joão-da-corveira",
+    "eletricista-urgente-são-joão-da-pesqueira",
+    "eletricista-urgente-são-julião-de-montenegro",
+    "eletricista-urgente-são-julião-de-palácios",
+    "eletricista-urgente-são-lourenço-de-ribapinhão",
+    "eletricista-urgente-são-mamede-de-ribatua",
+    "eletricista-urgente-são-martinho-de-angueira",
+    "eletricista-urgente-são-martinho-de-anta",
+    "eletricista-urgente-são-martinho-do-peso",
+    "eletricista-urgente-são-miguel-de-lobrigos",
+    "eletricista-urgente-são-pedro-de-agostém",
+    "eletricista-urgente-são-pedro-de-sarracenos",
+    "eletricista-urgente-são-pedro-de-vale-do-conde",
+    "eletricista-urgente-são-pedro-de-veiga-de-lila",
+    "eletricista-urgente-são-pedro-velho",
+    "eletricista-urgente-são-salvador",
+    "eletricista-urgente-são-tomé-do-castelo",
+    "eletricista-urgente-são-vicente",
+    "eletricista-urgente-tabuaco",
+    "eletricista-urgente-tabuaço",
+    "eletricista-urgente-tarouca",
+    "eletricista-urgente-tazém",
+    "eletricista-urgente-telões",
+    "eletricista-urgente-torre-de-dona-chama",
+    "eletricista-urgente-torre-de-moncorvo",
+    "eletricista-urgente-torre-do-pinhão",
+    "eletricista-urgente-touça",
+    "eletricista-urgente-trevoes",
+    "eletricista-urgente-trevões",
+    "eletricista-urgente-távora",
+    "eletricista-urgente-tó",
+    "eletricista-urgente-urrós",
+    "eletricista-urgente-valdigem",
+    "eletricista-urgente-vale-de-prados",
+    "eletricista-urgente-valença-do-douro",
+    "eletricista-urgente-valpacos",
+    "eletricista-urgente-vern",
+    "eletricista-urgente-vidago",
+    "eletricista-urgente-vila-boa-de-ousilhão",
+    "eletricista-urgente-vila-chã-de-braciosa",
+    "eletricista-urgente-vila-flor",
+    "eletricista-urgente-vila-franca-das-naves",
+    "eletricista-urgente-vila-nova-de-foz-coa",
+    "eletricista-urgente-vila-pouca-de-aguiar",
+    "eletricista-urgente-vila-real",
+    "eletricista-urgente-vilar-chão",
+    "eletricista-urgente-vilar-de-macada",
+    "eletricista-urgente-vilar-de-maçada",
+    "eletricista-urgente-vilarandelo",
+    "eletricista-urgente-vilardevós",
+    "eletricista-urgente-vilares-da-vilariça",
+    "eletricista-urgente-vilarinho-de-agrochão",
+    "eletricista-urgente-vilarinho-de-samardã",
+    "eletricista-urgente-vilarinho-de-são-romão",
+    "eletricista-urgente-vilariño-de-conso",
+    "eletricista-urgente-vilela-do-tâmega",
+    "eletricista-urgente-vimioso",
+    "eletricista-urgente-vinhais",
+    "eletricista-urgente-várzea-de-trevões",
+    "eletricista-urgente-água-revés",
+    "eletricista-urgente-águas-frias",
+    "eletricista-urgente-águas-vivas",
+    "eletricista-valbom-da-trindade",
+    "eletricista-valbom-de-figos",
+    "eletricista-vale-da-madre",
+    "eletricista-vale-da-mula",
+    "eletricista-vale-da-porca",
+    "eletricista-vale-da-sancha",
+    "eletricista-vale-das-fontes",
+    "eletricista-vale-de-afonsinho",
+    "eletricista-vale-de-anta",
+    "eletricista-vale-de-asnes",
+    "eletricista-vale-de-azares",
+    "eletricista-vale-de-casas",
+    "eletricista-vale-de-coelha",
+    "eletricista-vale-de-couce",
+    "eletricista-vale-de-figueira",
+    "eletricista-vale-de-frades",
+    "eletricista-vale-de-gouvinhas",
+    "eletricista-vale-de-janeiro",
+    "eletricista-vale-de-juncal",
+    "eletricista-vale-de-lagoa",
+    "eletricista-vale-de-lobo",
+    "eletricista-vale-de-madeira",
+    "eletricista-vale-de-madeiro",
+    "eletricista-vale-de-maior",
+    "eletricista-vale-de-martinho",
+    "eletricista-vale-de-mendiz",
+    "eletricista-vale-de-nogueira",
+    "eletricista-vale-de-nogueiras",
+    "eletricista-vale-de-pareiro",
+    "eletricista-vale-de-porco",
+    "eletricista-vale-de-prados",
+    "eletricista-vale-de-salgueiro",
+    "eletricista-vale-de-telhas",
+    "eletricista-vale-de-vila",
+    "eletricista-vale-do-seixo",
+    "eletricista-valenca-do-douro",
+    "eletricista-valongo-das-meadas",
+    "eletricista-valongo-de-milhais",
+    "eletricista-valongo-dos-azeites",
+    "eletricista-valpacos",
+    "eletricista-varzea-da-ovelha",
+    "eletricista-varzea-da-serra",
+    "eletricista-varzea-de-abrunhais",
+    "eletricista-varzea-de-trevoes",
+    "eletricista-veiga-de-lila",
+    "eletricista-vern",
+    "eletricista-viade-de-baixo",
+    "eletricista-vias",
+    "eletricista-vide-entre-vinhas",
+    "eletricista-vila-boa-de-ousilhao",
+    "eletricista-vila-boa-do-mondego",
+    "eletricista-vila-cha-da-beira",
+    "eletricista-vila-cha-de-braciosa",
+    "eletricista-vila-cha-do-marao",
+    "eletricista-vila-cortes-do-mondego",
+    "eletricista-vila-de-ala",
+    "eletricista-vila-de-rei",
+    "eletricista-vila-franca-das-naves",
+    "eletricista-vila-franca-do-deao",
+    "eletricista-vila-jusa",
+    "eletricista-vila-nova-da-rainha",
+    "eletricista-vila-nova-das-patas",
+    "eletricista-vila-nova-de-foz-coa",
+    "eletricista-vila-nova-de-souto-d-el-rei",
+    "eletricista-vila-pouca-de-aguiar",
+    "eletricista-vila-verde-da-raia",
+    "eletricista-vilar-chao",
+    "eletricista-vilar-de-amargo",
+    "eletricista-vilar-de-ferreiros",
+    "eletricista-vilar-de-ledra",
+    "eletricista-vilar-de-lomba",
+    "eletricista-vilar-de-macada",
+    "eletricista-vilar-de-nantes",
+    "eletricista-vilar-de-ossos",
+    "eletricista-vilar-de-ouro",
+    "eletricista-vilar-de-perdizes",
+    "eletricista-vilar-de-peregrinos",
+    "eletricista-vilar-do-monte",
+    "eletricista-vilar-seco-de-lomba",
+    "eletricista-vilardevos",
+    "eletricista-vilarelho-da-raia",
+    "eletricista-vilares-da-torre",
+    "eletricista-vilares-da-vilarica",
+    "eletricista-vilarinho-da-castanheira",
+    "eletricista-vilarinho-das-azenhas",
+    "eletricista-vilarinho-das-paranheiras",
+    "eletricista-vilarinho-de-agrochao",
+    "eletricista-vilarinho-de-cotas",
+    "eletricista-vilarinho-de-samarda",
+    "eletricista-vilarinho-de-sao-romao",
+    "eletricista-vilarinho-do-monte",
+    "eletricista-vilarinho-dos-freires",
+    "eletricista-vilarinho-dos-galegos",
+    "eletricista-vilarino-de-conso",
+    "eletricista-vilela-do-tamega",
+    "eletricista-vinhos",
+    "eletricista-vreia-de-bornes",
+    "eletricista-vreia-de-jales"
+  ]
+}
