@@ -14,6 +14,56 @@
 
 ---
 
+## 🗺️ ROADMAP MONOPOLE — TODO ce repo (EU, urgence élec) — owner exécution : **Hermes**
+
+> Roadmap phasée maître : `~/work/Sites/MONOPOLE_SEO_2026Q3.md` §ROADMAP PHASÉE. Site urgence = **phase 1b** (après CNR/ENR validés). ⚠️ **JAMAIS merger main sans STOP validation Filipe** (AGENTS.md urgence). Tarif = 70€/h (pas 65).
+
+- [x] **M0** — Purge conformité R11/R12 (marcas/parceiros, programa-fidelidade, case-study, comparacao, R145 délais chiffrés) — FAIT.
+- [ ] **M0 — STOP Filipe** — trancher `mediante confirmação` (CLAUDE.md le liste R145-INTERDIT, encore présent) : purger ou tolérer + MAJ doctrine.
+- [ ] **M1 (phase 1b)** — Maillage COMPLET statique : 39 hubs (33 concelhos + 6 distritos) → localités (page **primaire** only) ; remontant breadcrumb localité→hub ; latéral 6-8 sœurs. Signal unique/hub. Localités RÉELLES only. R15 (≤95 fichiers/commit), grep AVANT/APRÈS, 0 lien 404. **GO Filipe avant merge.**
+- [ ] **M0/M3** — DGEG : `materiais certificados`/`RTIEBT` OK, jamais « nós certificamos »/« Certificada ».
+- [ ] **M3** — 🔴 GROS GAP : site à **0 schema**. AJOUTER `LocalBusiness`/`Electrician` + `areaServed` (SAB, PAS de `streetAddress`) + `FAQPage` (questions urgence réelles) sur homepage + hubs. Puis page prix urgence citable datée (**70€/h**). Détail : master §M3 DESIGN.
+- [ ] **M4** — Combler features (0 actuellement) : `BreadcrumbList` schema + image sitemap (alt géo). Review schema **BLOQUÉ** (0 avis réel → boucle collecte). Détail : master §M4 DESIGN.
+
+---
+
+## 🆕 P0 — Prix/zones OSRM (EU) — dry-run 04/07/2026
+
+> **Mission en cours** (doctrine doc-only, pattern #327) : consigner ici le périmètre P0 avant toute modification code.
+> **Source de vérité** : `~/work/Sites/norte-os-marketing/prototypes/zonas-data.json` (914) + `~/Documents/ObsidianVault/NORTE-OS/Methodologie/GRILLE-ZONES-OFFICIELLE-2026-06-24.md` (fallback concelho).
+> **Barème** : Z1=15€ · Z2=25€ · Z3=35€ · Z4=45€ · Z5=55€ · Z6=65€ (déplacement) · MO **70€/h élec** · majoration +50% MO+dép.
+> **R145** : limité au bloc `<div class="zone-info">` ; R145 hors-bloc et `mediante confirmação` = mission séparée (pending Filipe, R7 : urgence = JAMAIS merger main sans STOP validation).
+> **Doctrine** : normalisation idempotente depuis source, **jamais inventer une zone pour NO_RESOL**.
+> **Artefacts** : `~/work/Sites/_audit/phase0-dryrun/EU_audit.{csv,json}`.
+
+### Counts EU (lecture seule dry-run)
+
+| Couche | Pages | OK | NO-OP | AJUSTER | INCOHERENT | NO_RESOL |
+|---|---:|---:|---:|---:|---:|---:|
+| `eletricista-*.html` racine (villes + service×localité) | 1746 | 431 | 0 | 1120 | 8 | 187 |
+
+### Villes-sèdes (focus critique — fort trafic / haute valeur)
+
+| Ville | Zone OSRM | Badge actuel | Statut |
+|---|---|---|---|
+| **Chaves** | Z4 | Z6 | ❌ AJUSTER + INCOHERENT |
+| **Bragança** | Z2 | Z5/Z3 mix | ❌ AJUSTER + INCOHERENT (badge ≠ prix dans même page) |
+| **Vila Real** | Z4 | Z4/Z5 mix | ❌ AJUSTER + INCOHERENT (incohérence interne à corriger en 1 passe) |
+
+### Plan d'attaque EU
+
+- [ ] Branche `fix/prix-zones-osrm` (EU) + prototype `eletricista-chaves.html` (racine) → STOP diff Filipe → GO batch R15 (**JAMAIS merger main sans GO Filipe** — AGENTS.md urgence §12)
+- [ ] Vague 0 INCOHERENT (187) en premier = badges incohérents dans même page (badge=Z4, prix=55€), patch idempotent depuis grille normalise les 2
+- [ ] Vague 1-N : AJUSTER restant (1120) en vagues ≤95 fichiers/commit
+- [ ] Mission M-NO_RESOL séparée (187 localités) — décision Filipe par catégorie
+
+### Liens artefacts
+
+- Audit complet : `~/work/Sites/_audit/phase0-dryrun/EU_audit.{csv,json}`
+- NO_RESOL consolidés : `~/work/Sites/_audit/phase0-no-resol/EU.txt` (187 lignes)
+
+---
+
 ## 🏆 STRATÉGIE MONOPOLE SERP/GEO → voir `~/work/Sites/MONOPOLE_SEO_2026Q3.md`
 
 > Plan maître cross-sites (établi 30/06/2026). Objectif: occuper **plusieurs surfaces d'un seul résultat** par requête (Local Pack + 2 domaines organic + AI Overview + PAA + image pack + étoiles).
