@@ -598,7 +598,17 @@ def audit_page(path: Path, zonas: dict) -> dict:
     # Note : KO2bis déjà collecté plus haut (badge vs JSON-LD interne)
 
     # KO3 : prix body vs grille
-    body_prix = extract_body_prix_par_zone(content)
+    # P0.6 (fix bug) : on doit SAUTER les scripts JSON-LD ici aussi, comme on le
+    # fait pour KO2ter. Sinon RE_BODY_ZONE_PRIX matche dans les scripts JSON-LD
+    # et fausse les résultats. On retire donc tous les <script>...</script>.
+    import re as _re_ko3
+    body_for_ko3 = _re_ko3.sub(
+        r'<script\b[^>]*>.*?</script>',
+        '',
+        content,
+        flags=_re_ko3.DOTALL | _re_ko3.IGNORECASE,
+    )
+    body_prix = extract_body_prix_par_zone(body_for_ko3)
     for zone_annoncee, prix_annonce in body_prix.items():
         if zone_annoncee == expected_zone:
             # C'est la zone de CETTE page -> prix doit matcher la grille
