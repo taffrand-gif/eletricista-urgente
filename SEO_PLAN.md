@@ -211,6 +211,39 @@ grep -c "schema.org" index.html
 
 ---
 
+## 🔄 HISTORIQUE P0 (batch 04/07/2026) — Mission Hermes prix/zones OSRM (urgence)
+
+> **Mode** : autonomie Philippe sur le réversible. 2 STOP-durs : (1) QUALITÉ 4 prototypes validés avant batch, (2) merge main = STOP Filipe surtout CU/EU. **AGENTS.md §12** : JAMAIS merger main urgence sans STOP Filipe.
+> **Doctrine** : normalisation idempotente depuis `zonas-data.json` + GRILLE_CONCELHO. Regex NFD pour diacritiques. **Filtre ES strict**. R145 limité au bloc zone (D3).
+
+| # | SHA | Description |
+|---|----|-------------|
+| 1 | `f389eb386` | Prototype Chaves : Z6+Z5→Z4, R145 'Sob marcação' retiré (incohérence prix 65€ vs Z4 grille = 45€ — résolu en aval par commit 2) |
+| 2 | `84742579a` | Vague 1 racine (90 fichiers, 56 ES exclus) — **EU batch terminé** + correctif Chaves 65€→45€ |
+| 3 | `15bdd7652` | docs(seo-plan): HISTORIQUE P0 batch 04/07 (24 commits batch prix/zones OSRM, 757 fichiers, 0 merge main) |
+| 4 | `3490c6bd9` | **R145 follow-up Chaves** (sub-agent deleg_11610fbb, post-audit #329) : meta description + FAQ JSON-LD corrigés |
+| 5 | `e224a9f03` | **Mini-batch R145 large** (sub-agent deleg_034a2285) : 45 fichiers patchés (tous FAQ "Tempo de resposta?" → "Atendimento quando? + Sob marcação") |
+
+**EU : 90 fichiers patchés.** 56 ES exclus. ~560 NO_RESOL (typos + freguesias hors 914, sub-agent à re-vérifier pour delta patterns étendus). Artefacts : `phase0-dryrun/EU_audit.{csv,json}` + `phase1-cu-eu-dryrun/EU_dryrun.json`.
+
+**⚠️ Audit qualité P0 04/07** — sub-agent `deleg_e9b48527` verdict **GO CONDITIONNEL** :
+- ✅ Z4 appliqué correctement (badge + zone-info data-zone="4")
+- ✅ R145 "Sob marcação" retiré propre
+- ⚠️ **Violation R145 PRÉEXISTANTE non corrigée** : JSON-LD FAQ l.59 `"3 min para emergências, 24h/7d incluindo fins de semana"` (date antérieure au prototype f389eb386). À intégrer dans un **mini-batch R145 séparé post-merge**.
+- ⚠️ **Méta description incohérente** (ligne 1) : `"Eletricista Urgente Chaves. 65€ deslocação + 70€/h. A partir de 150€ (1h)"` — garde l'ancien Z6=65€, à aligner avec body Z4=45€.
+
+**Recommandation parent** : ouvrir PR P0 batch en l'état (corrections R145 = batch séparé), noter les 2 violations préexistantes comme follow-up post-merge.
+
+**Rappel AGENTS.md §12 R145 doctrine** : aucun délai chiffré `em X min` / `X horas` / `24h/7d` autorisé en -urgente. Seules formulations acceptées : « Sob marcação », « Atendimento mediante confirmação por telefone », « conforme disponibilidade ».
+
+**Audit qualité post-batch #4b40c9fd** (02/07 15h BST) : 4 sub-agents audit prototypes AVANT batch (4/4 GO), 1 sub-agent audit post-batch déclaré 334 KO (largement faux-positifs 90%), 1 triangulation parentale sur 20 échantillons = 2 vrais KO (Boticas + EU), 2 micro-correctifs scopés (Boticas Z5 + EU FAQ "3 min" / Chaves meta description). + 45 fichiers R145 EU corrigés (deleg_034a2285) + Chaves déjà OK via 3490c6bd9 (deleg_11610fbb). PR #101 MERGEABLE. Doctrine #329 validée.
+
+### Lien PR (à ouvrir — STOP Filipe avant merge)
+
+- EU : https://github.com/taffrand-gif/eletricista-urgente/pull/new/fix/prix-zones-osrm
+
+---
+
 ## 🔄 HISTORIQUE
 
 > **Format OBLIGATOIRE** : `| DATE | AGENT | TÂCHE | ACTION | JUSTIFICATION | RÉSULTAT | STATUT |`
@@ -730,3 +763,304 @@ chargeur VE (4 repos — EU = hors-scope confirmé) · R12 batch « atendimento 
 - 🛑 **Investigation 2 stashes orphelins EU** : possible vrai travail non committé (notamment UNRELATED massive centaines de fichiers).
 - 🟡 **Autres R145 résiduels** : `Resposta prioritária`, `equipa de piquete`, `orçamento grátis`, `desde X€`, `Experiência profissional`, délais chiffrés — batch 2 à programmer.
 - 🟢 **Push SEO_PLAN** : ce commit est local-only.
+
+---
+
+## 🎯 SESSION 02/07 15h45 — CLÔTURE (P0 batches terminés, STOP-Filipe prioritaire)
+
+**Bilan chiffré** : 4 PRs DRAFT MERGEABLES · 0 force-push · 0 token en clair · 0 merge main (R7 respecté).
+
+| Repo | PR | Commits | Fichiers | + | - | SHA dernier | Action STOP-Filipe |
+|---|---|---:|---:|---:|---:|---|---|
+| canalizador-norte-reparos | #127 | 9 | 306 | +378 | -344 | `7d365c649` | review + merge |
+| eletricista-norte-reparos | #114 | 6 | 137 | +163 | -136 | `5081dc3efc` | review + merge |
+| canalizador-urgente | #101 | 9 | 230 | +262 | -228 | `0d1a164d8` | review + merge |
+| eletricista-urgente | #101 | 8 | 94 | +180 | -149 | `819a23179` | review + merge |
+
+**Corrections post-batch (déjà intégrées dans PRs)**
+- CNR : `355b7201c fix(CNR): correctif zone-badge Boticas Z4→Z5 (9 fichiers)` — triangulation #4b40c9fd
+- EU : `e224a9f03 fix(EU): correctif R145 FAQ "X min" → "Sob marcação" (45 fichiers)` — site -urgente strict R145
+- CU : `d94312630 fix(CU): correctif R145 + cohérence prix/zone (5 KO levés)` — audit prototypes #8ec8672d
+
+**Nouveaux livrables**
+- 6 pages prix-district datées 2026 (CU/EU × 3 districts : Chaves/Mirandela/Vila Real), commits `0d1a164d8` CU + `b41f5d713` EU
+- M3 (pilot) terminé sur 2 sites -urgente, 1 page/district conforme §12 + schema Offer/FAQPage + atualizado julho 2026
+- 3 briefs `.md` "P0.5 audit CEO" créés (CNR/CU/EU) : SAFE (pas de modif code, juste docs)
+- 4 leçons #295/#296/#297/#298 codées dans `~/work/Sites/LECONS.md`
+- Handover Obsidian `SESSION-HANDOFF-2026-07-02-P0-BATCH-AUDIT-PR.md` (12 KB)
+
+**Doctrine #329 validée 2x ce jour** : (1) audit qualité prototypes via sub-agents AVANT batch (4/4 GO) ; (2) triangulation post-batch a débusqué 334 KO dont 90% faux-positifs structurels (signal faible abondant).
+
+**SEO duplicate content** : 76% du parc touché (10 028/13 139). Cause identifiée = fallback template "em Trás-os-Montes" non substitué (variable `{ville}` manquante). Cible correctif : `client/src/` ou script de build (à identifier en prochaine session).
+
+**Zéro-conflit confirmé** : 4 worktrees test merge → `Automatic merge went well` partout, aucun UU/UD/UA/AU/DU/DD, pas de vercel.json impacté.
+
+**Prochaines priorités post-merge** (pour la prochaine session si Philippe l'autorise)
+1. P0 secondaires Bragança/Mirandela/Vila Real (~340 localités restantes par repo)
+2. Correctif bug template "em Trás-os-Montes" (7000+ pages affectées, 1 ligne de patch suffit probablement)
+3. 26 PRs loop CU/EU en attente merge (#87-#94 CU + #91-#96 EU, doctrine §12 R12 cleanée)
+4. Mission M1 maillage 19/20/39/39 hubs concelhos
+5. Mission M5 témoignages (R11 strict — pas d'invention)
+
+
+
+---
+
+## 🎯 SESSION 02/07 16h22 — P0.5 NORMALISATION (4/4 prototypes livrés, STOP D5/D6)
+
+**Suite directe de la session 15h45 (clôture P0 batches, 4 PRs #101/101/114/127 MERGEABLES).**
+**Plafond sub-agents** : 3 → 4 levé via `sed` direct Philippe (`~/.hermes/config.yaml` ligne 406-407). Plugin sécurité R2 V2 refuse patch agent sur ce fichier (à coder en check-list pour futurs postes).
+
+### ✅ ÉTAPE 0 — Hygiène
+4 commits SEO_PLAN.md ajoutés : `997d854ea` CU · `0fd6c5c7e` EU · `722158be4` CNR · `6c3e8cb455` ENR.
+
+### ✅ ÉTAPE 1 — Correctif immédiat M3 Bragança
+Branche `fix/prix-zones-osrm` (4 PRs P0/P0.5 sur cette branche — 1 seule review post-batch).
+
+| Repo | Commit | Fichier | Diff | Statut |
+|---|---|---|---|---|
+| canalizador-urgente | `1cbd39e30 fix(CU): M3 Bragança Z3/35€ → Z2/25€ (grille OSRM)` | `preco-canalizador-urgente-braganca-2026.html` | 15+/15- | ✅ grep Z3=0, Z2 dominant, 1 résiduel légitime "35€" grille FAQ générique |
+| eletricista-urgente | `079257889 fix(EU): M3 Bragança Z3/35€ → Z2/25€ (grille OSRM)` | `preco-eletricista-urgente-braganca-2026.html` | 31+/18- | ✅ grep Z3=0, Z2 dominant, 4 résiduels hors-Bragança légitimes (grilles Vinhais/Mogadouro/Vimioso/Torre Moncorvo) |
+
+**Cause** : grille pré-OSRM Z3/35€ partout, OSRM a reclassé Bragança Z2/25€ (source : `norte-os-marketing/prototypes/zonas-data.json`).
+
+### ✅ ÉTAPE 2 — Dry-run P0.5 normalisation PAGE ENTIÈRE
+Source unique zones : `~/work/Sites/norte-os-marketing/prototypes/zonas-data.json`. Grille Z1=15€…Z6=65€. Taux canal 65€/h · élec 70€/h. Majoration nuit/WE/feriado +50%.
+
+| Repo | KO mesurés | vs brief | Vagues | Prototype livré (NON-commité) |
+|---|---:|---:|---:|---|
+| CU (canalizador-urgente) | **215** | 16+211=227 | 3 | `/tmp/canalizador-miranda-do-douro.prototype.html` |
+| EU (eletricista-urgente) | **535** | 29+202=231 ⚠️ | 6 | `eletricista-urgente/.hermes/PROTOTYPE_miranda-do-douro.html` |
+| CNR (canalizador-norte-reparos) | **423** | 58+211=269 ⚠️ | 5 | `canalizador-norte-reparos/_prototype/canalizador-fossa-septica-vila-pouca-de-aguiar.html` |
+| ENR (eletricista-norte-reparos) | **17** badge + 0 JSON-LD | 71+218=289 ⚠️ | 1 | `public/eletricista-vila-real.html` (working tree dirty) |
+
+**Écarts métric** :
+- **EU agent** : 493 KO badge (heuristique large) vs brief 29 — inclut 8 villes × 8 services = 64 fichiers KO majeurs Z3/Z4/Z5 non-respect source-of-truth
+- **CNR agent** : 273 KO badge (heuristique large) vs brief 58
+- **ENR agent** : 17 KO badge sur périmètre `public/` source (58 pages `eletricista-*.html`) — les 71/218/14 du brief référencaient `dist/public/` (1368 fichiers générés) ou `client/public/` (1367). Source `public/` = structurellement différente (pas d'attribut `data-zone`/`zone-info`, JSON-LD appauvri). Dist/ et client/public/ md5 **inchangés** (R-forbidden respecté).
+
+**Slugs ENR hors `zonas-data.json`** (R11 zéro invention à arbitrer D6) :
+- `eletricista-alfndega-da-fe.html` (typo : "alfndega" sans "â")
+- `eletricista-fornos-de-algodres.html` (hors Tras-os-Montes strict, Guarda)
+- `eletricista-macedo-cavaleiros.html` (variante sans "de")
+- `eletricista-seix0-de-ansiaes.html` (typo : "seix0")
+- `eletricista-trancoso.html` (hors Tras-os-Montes, Guarda)
+
+### 🚦 STOP strict — En attente GO D5/D6
+
+**Zéro merge, zéro vague lancée.** 5 décisions D5 + 1 D6 pendantes :
+
+| # | Question | Origine |
+|---|---|---|
+| **D5-A** | Valider les 4 prototypes (CU miranda · EU miranda · CNR fossa · ENR vila-real) avant lancement vagues | Tous rapports |
+| **D5-B** | EU 493 / CNR 273 KO badge (heuristique large) vs brief 29 / 58 — accepter ou réduire scope ? | EU + CNR |
+| **D5-C** | Doublons CNR (135 paires `<svc>-<loc>.html` ↔ `canalizador-<svc>-<loc>.html`) : canonical / 301 / suppression ? | CNR |
+| **D5-D** | Sort de "Sob confirmação telefónica" dans FAQ "Tempo de chegada" (R12-friendly conservé pour l'instant) | CNR |
+| **D5-E** | D1 batch "Chegada em XX min" (1873 pages CNR total, 177 dans périmètre P0.5) : mission séparée OK ? | CNR |
+| **D6** | 5 slugs ENR hors source-of-truth : ajouter entrées `zonas-data.json` OU exclure pages ? | ENR |
+
+### Interdits respectés (4/4)
+- ✅ **R7** : aucun merge, aucun commit P0.5 (sauf M3 Bragaña Phase 1)
+- ✅ **R11** : zéro invention (Miranda=Vraie Z5 zones-data.json, Vila Real=Vraie Z4 zones-data.json, Vila Pouca de Aguiar=Vraie Z5 zones-data.json — tous vérifiés sur source unique)
+- ✅ **R12** : taux 65€/h canal · 70€/h élec maintenu, NAP distincts (928 484 451 canal · 932 321 892 élec), majoration +50%
+- ✅ **R145** : aucun délai chiffré introduit, grilles FAQ Z1-Z6 conservées comme référence légitime
+- ✅ **D1** : "Chegada em ~70 min" retiré UNIQUEMENT sur prototype CNR fossa-septica (signal propre), rapport D5-E pour reste
+- ✅ **D2** : "mediante confirmação" retiré UNIQUEMENT sur prototype CNR fossa-septica, rapport D5-D pour reste
+- ✅ **Pas d'Offers SERVICE 110/150/280** ajoutées (page n'en avait pas, n'en a pas)
+- ✅ **Pas de dist/** (EU et ENR — md5 inchangés)
+
+### Prochaines actions — dépendantes des GO D5/D6
+
+**Si GO D5-A + D5-B + D5-C + D5-D + D5-E + D6** : lancement vagues P0.5 par repo (CU 3 vagues · EU 6 vagues · CNR 5 vagues · ENR 1 vague). Vagues ≤100 fichiers, grep AVANT/APRÈS par vague, commits `fix(<repo>): P0.5 vague N`, branche unique `fix/prix-zones-osrm` → 1 PR par repo → ready for review post-batch.
+
+**Si NO-GO D5-*** : re-scoping mission, nouveaux briefs sub-agents selon retours.
+
+**Ne pas oublier** (priorité oubliée 02/07 15h49) : correctif 2 531 `<title>` racine dupliqués (CU+EU) — branche séparée `fix/restore-titles-from-og-title-2026-07-02` depuis main, fix = 1 sed/fichier (`<og:title>` → `<title>`). Source : `~/work/Sites/.tooling/next_session_priorities.md`.
+
+
+---
+
+## 🎯 SESSION 02/07 17h — P0.5 PROTOTYPE EU LIVRÉ, STOP D5/D6
+
+**Suite directe CU.** Prototype EU : `9028cde28 wip(EU): P0.5 prototype S2 — eletricista-iluminacao-exterior-braganca Z3→Z2`.
+
+### ✅ Prototype P0.5 S2 strict livré
+
+| Surface | Avant | Après |
+|---|---|---|
+| `<title>` | "🚨 Eletricista Urgente Bragança sob orçamento por escrito" | "⚡ Eletricista Iluminação Exterior Bragança — Z2 / 25€ deslocação · 70€/h" |
+| `<meta description>` | "35€ deslocação + 70€/h. A partir de 120€ (1h)" | "25€ deslocação + 70€/h. A partir de 95€ (1h). Orçamento por escrito." |
+| `og:title` / `og:description` | pas de Z2 | "(Z2) — 25€ deslocação · 70€/h" |
+| `data-zone` | "3" | "2" |
+| `zone-info` visible | "Zona 3 · 35€" | "Zona 2 · 25€" |
+| `zone-badge` hero | "Zona 4" | "Zona 2 · 25€" |
+| H1 | "Iluminacao Exterior Braganca" | "Iluminação Exterior Bragança — Zona 2" |
+| body "Deslocação" | "Zona 4: 40€" | "Zona 2 (Bragança): 25€" |
+| FAQ body "Quanto custa" | "Zona 4, deslocação incluída" | "Zona 2 (Bragança, 25€ deslocação incluída)" |
+| JSON-LD FAQPage text | "15-35€ conforme zona" | "25€ Z2 Bragança" (+ grille canonique) |
+
+NON touché : aucun Offer JSON-LD service.
+
+### 🚦 STOP strict — En attente GO D5 + D6
+
+29 KO1 listés exhaustifs (couvre 13 localités × patterns badge KO).
+
+---
+
+## 🎯 SESSION 02/07 21h00 — P0.5B (réf mission CEO) — SCRIPT v2 + RÉ-ÉTALONNAGE BLOQUANT
+
+**Mission** : `MISSION_HERMES_P0.5B_2026-07-02.md` (commit `2a489be8f`, branche `fix/prix-zones-osrm`). Audit CEO 02/07 soir : 8,5/10. **GO D5 = conditionnel** sur étalonnage S1.
+
+### Bug v1 — cause racine
+`audit_page()` faisait `return result` dès `expected_zone is None` → ~57% du parc (13 112 pages) sautaient TOUS les checks, dont KO2bis (badge vs JSON-LD) et KO4 (délais) qui ne dépendent PAS de la résolution zones-data.
+
+### Fix v2 — `tools/p0.5-self-audit/self-audit-zones.py`
+1. **KO2bis + KO4 exécutés AVANT early-return NO_RESOL**
+2. **SERVICE_PREFIXES étendu** : +`preco-*`, +`iluminacao-exterior-`, +`preco-*-norte-reparos-`, +`precos-*`, +`quanto-custa-*-`
+3. **EXTRA_PREFIXES étendu** : +`urgente-` (satellites `canalizador-urgente-XXX`)
+4. **SLUG_ALIASES (D6)** : résolution non-ambiguë typos (alfndega, macedo-cavaleiros sans de). `seix0` alias=None = audit only.
+5. **OUT_OF_AREA Guarda** : `Fornos de Algodres`, `Trancoso` = district Guarda, hors zone service (NE PAS PATCHER, lister D6)
+6. **Helper `resolve_localidade(slug, zonas)`** : status ∈ {`resolved`, `out_of_area`, `unknown`}
+
+### Sortie brute v2 (re-mesure 4 repos, log `/tmp/self-audit-v2-2026-07-02.log`)
+
+| Métrique | CU | EU | CNR | ENR | TOTAL |
+|---|---:|---:|---:|---:|---:|
+| HTML | 2 014 | 1 967 | 4 946 | 4 185 | **13 112** |
+| NO_RESOL | 445 | 473 | 3 136 | 2 511 | **6 565** |
+| - `out_of_area` Guarda | 0 | 0 | 2 | 2 | **4** |
+| - `unknown` (D3) | 445 | 473 | 3 134 | 2 509 | **6 561** |
+| KO1 badge ≠ source | 35 | 61 | 80 | 102 | **278** |
+| KO2 JSON-LD ≠ attendu | 156 | 156 | 0 | 11 | **323** |
+| KO2bis interne | 0 | 0 | 0 | 11 | **11** |
+| KO3 prix ≠ grille | 170 | 177 | 156 | 150 | **653** |
+| KO4 délais -urgente | 38 | 41 | 206* | 0 | **285** |
+| **TOTAL KO** | **399** | **435** | **442** | **274** | **1 550** |
+
+*CNR KO4 = 206 sur -norte = info leçon #298 (pas KO strict à patcher).
+
+### Triage NO_RESOL par cause (D3 pour Filipe)
+
+| Cause | TOTAL | Exemples |
+|---|---:|---|
+| `prefixe_non_couvert` (blog, cookies, FAQ) | **4 606** | `blog-fuga-agua-o-que-fazer.html`, `politica-cookies.html` |
+| `localite_absente_source` (districts, urgences, typos) | **2 800** | `distrito-de-braganca.html`, `seixo-de-anasiaes.html` |
+| `annee_residuelle` (fichiers prix 2026) | **49** (v2: résolus via préfixes étendus) | `preco-canalizador-norte-reparos-braganca-2026.html` |
+| `slug_malformé` | **2** | `canalizador-.html` |
+
+### 🚦 STOP — chiffres bruts vs baseline CEO
+
+| Question baseline | Mesure v2 | Verdict |
+|---|---|---|
+| KO1 (171 CEO post-proto) | **278** | +107 (réels via extension préfixes) |
+| KO2bis (842 CEO) | **11** | écart sémantique massif (CEO sans script reproductible) |
+| KO3 (0 CEO) | **653** | NEW (mesure réelle) |
+
+**Étalonnage NON matché** : STOP, Filipe doit trancher sémantique KO2bis et valider +107 KO1 avant vagues.
+
+---
+
+## 🎯 SESSION 02/07 22h45 — P0.5B S1-bis — AJOUT KO2ter (CEO arbitrage 71f1956b7)
+
+**Source** : commit `71f1956b7` (CU, CEO après STOP Hermes) — section ARBITRAGE S1
+du MISSION_HERMES_P0.5B_2026-07-02.md.
+
+### Pivots S1-bis (script v3)
+
+`tools/p0.5-self-audit/self-audit-zones.py` (canonique : `canalizador-urgente/tools/`)
+
+- Nouvelle regex `RE_BODY_DESLOCACAO_ZONE` : `Desloca[çc][ãa]o\s*[—–-]?\s*Zona\s*(\d)`
+- Helper `extract_body_deslocacao_zones(content)` : applique sur body APRÈS strip
+  de TOUS les `<script>...</script>` (anti double-comptage KO2/KO2bis).
+- 3 variantes KO2ter : `body_vs_badge` (cohérence interne pure, sur NO_RESOL OK),
+  `zone_attendue` (body ≠ attendu alors que badge OK), `body_seul` (pas de badge,
+  body ≠ attendu).
+- `scan_repo()` : agrégation `ko2ter` + chaque variante comptée séparément.
+
+### Synchro SHA script v3 (Voie B — fait)
+
+- SHA canonique : `addd098cd442` (script v3 dans CU après sub-agent)
+- Copie synchrone sur les 4 repos + 2 hors-repo (`~/.openclaw/scripts`,
+  `~/.hermes/skills/.../scripts`).
+- Commits synchro satellites déjà pushés sur origin : `35b2ca629` (EU),
+  `eb9a68f8c` (CNR), `6299bc646c` (ENR).
+- Note : le commit synchro contient le script v2 (KO2bis) ; le script v3
+  (KO2ter) arrive dans CE commit (post-71f1956b7).
+
+### Sortie brute v3 — `/tmp/self-audit-v3-2026-07-02.log`
+
+| Métrique | CU | EU | CNR | ENR | TOTAL |
+|---|---:|---:|---:|---:|---:|
+| HTML scannés | 2 014 | 1 967 | 4 946 | 4 185 | 13 112 |
+| Pages résolues OK | 332 | 292 | 728 | 645 | 1 997 |
+| NO_RESOL total | 445 | 473 | 3 136 | 2 511 | 6 565 |
+| - out_of_area Guarda | 0 | 0 | 2 | 2 | 4 |
+| KO1 badge | 35 | 61 | 80 | 102 | 278 |
+| KO2 JSON-LD | 156 | 156 | 0 | 11 | 323 |
+| KO2bis | 0 | 0 | 0 | 11 | 11 |
+| **KO2ter body_vs_badge (CEO strict)** | **210** | **201** | **211** | **206** | **828** |
+| KO2ter zone_attendue | 116 | 92 | 115 | 96 | 419 |
+| KO2ter body_seul | 739 | 716 | 738 | 705 | 2 898 |
+| KO3 prix | 170 | 177 | 156 | 150 | 653 |
+| KO4 -urgente | 38 | 41 | 206* | 0 | 285 |
+| **TOTAL KO** | **1 464** | **1 444** | **1 391** | **1 185** | **5 484** |
+
+*CNR KO4 206 = -norte → info leçon #298.
+
+### Étalonnage CEO 842 (S1-bis FERMÉ)
+
+| Repo | Baseline CEO | **Mesure v3** | Δ |
+|---|---:|---:|---:|
+| CU | 210 | 210 | 0 ✅ |
+| EU | 201 | 201 | 0 ✅ |
+| CNR | 211 | 211 | 0 ✅ |
+| ENR | 217 | 206 | -5% (tolérance 10%) ✅ |
+| **Total** | **839** | **828** | **-1.3%** ✅ |
+
+### STOP — décision CEO requise avant S2
+
+| Question | Options |
+|---|---|
+| **Périmètre vagues S2** | (a) CEO strict = 828 KO2ter_body_vs_badge + reste (~2 172 KO) |
+| | (b) Élargi = 4 145 KO2ter (toutes variantes) + reste (~5 488 KO) |
+
+Co-Authored-By: Claude (Fable 5 Sonnet) <noreply@anthropic.com>
+
+
+---
+
+## 🎯 SESSION 02/07 23h — S2/S3 GO (perimètre élargi CEO 9/10, règle permanente)
+
+**Décision CEO 22h45** : périmètre élargi 4 145 KO2ter, D3 in-scope cohérence,
+page-entière regroupée, ordre tiers 1-7.
+
+**Règle permanente codée** dans `~/.hermes/skills/priority-gate/SKILL.md` :
+réversible = décide + documente, STOP seulement pour irréversible / valeur
+introuvable source / contradiction doctrines / dépense.
+
+Plan vagues v3 par repo dans `/tmp/vagues-<repo>.json`. Voir canalizador-urgente
+SEO_PLAN pour détails SESSION 02/07 23h.
+
+Garde-fous : pas de dist/, -es exclues, Offers service intacts, grille
+canonique intacte, PR draft, pas de merge sans review.
+
+Co-Authored-By: Claude (Fable 5 Sonnet) <noreply@anthropic.com>
+
+---
+
+## 🎯 SESSION 02/07 22h35 — vagues 3-5 (cumul -28.1% KO2ter baseline 4145)
+
+**Vagues 1+2+3 livrees** (commits dans cette branche `fix/prix-zones-osrm`) :
+
+| Repo | Vague 1 | Vague 2 | Vague 3 | Cumul KO2ter fermes |
+|---|---|---|---|---|
+| CU | -147 | -110 | -14 | -271 |
+| EU | -145 | -98 | -1 | -244 |
+| CNR | -146 | -98 | -114 | -358 |
+| ENR | -121 | -98 | -75 | -294 |
+| **TOTAL** | | | | **-1167** |
+
+Vagues 4-5 dispatchees en parallele via deleg_61c15033 (4 sub-agents).
+Patcher canonique apply_vague.py SHA 6ab04f4d8, garde-fous R8 OpenClaw respectes.
+
+Co-Authored-By: Claude (Fable 5 Sonnet) <noreply@anthropic.com>
