@@ -211,6 +211,24 @@ grep -c "schema.org" index.html
 
 ---
 
+## 🔄 HISTORIQUE P0 (batch 04/07/2026) — Mission Hermes prix/zones OSRM (urgence)
+
+> **Mode** : autonomie Philippe sur le réversible. 2 STOP-durs : (1) QUALITÉ 4 prototypes validés avant batch, (2) merge main = STOP Filipe surtout CU/EU. **AGENTS.md §12** : JAMAIS merger main urgence sans STOP Filipe.
+> **Doctrine** : normalisation idempotente depuis `zonas-data.json` + GRILLE_CONCELHO. Regex NFD pour diacritiques. **Filtre ES strict**. R145 limité au bloc zone (D3).
+
+| # | SHA | Description |
+|---|----|-------------|
+| 1 | `f389eb386` | Prototype Chaves : Z6+Z5→Z4, R145 'Sob marcação' retiré, prix 65€ maintenu (forfait urgence tout compris, doctrine Transparence Radicale) |
+| 2 | `84742579a` | Vague 1 racine (90 fichiers, 56 ES exclus) — **EU batch terminé** |
+
+**EU : 90 fichiers patchés.** 56 ES exclus. ~560 NO_RESOL (typos + freguesias hors 914, sub-agent à re-vérifier pour delta patterns étendus). Artefacts : `phase0-dryrun/EU_audit.{csv,json}` + `phase1-cu-eu-dryrun/EU_dryrun.json`.
+
+### Lien PR (à ouvrir — STOP Filipe avant merge)
+
+- EU : https://github.com/taffrand-gif/eletricista-urgente/pull/new/fix/prix-zones-osrm
+
+---
+
 ## 🔄 HISTORIQUE
 
 > **Format OBLIGATOIRE** : `| DATE | AGENT | TÂCHE | ACTION | JUSTIFICATION | RÉSULTAT | STATUT |`
