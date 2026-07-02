@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+from __future__ import annotations
 r"""
 self-audit-zones.py — Audit mecanique des pages localite vs source-of-truth.
 

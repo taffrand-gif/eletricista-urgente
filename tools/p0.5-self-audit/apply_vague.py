@@ -89,8 +89,26 @@ RE_BODY_DESLOCACAO = re.compile(
     r"Desloca[çc][ãa]o[\s ]*Zona[\s ]*(\d)[\s ]*:?(?:[^<]|<[^>]*>){0,80}?(\d{1,3})\s*€",
     re.IGNORECASE,
 )
+# P0.5C-tier1bis : variante SANS prix requis. Couvre le cas div.price-item
+# où le format est "Deslocação Zona 3<br>já incluída no preço" (prix ailleurs
+# ou omis) et le cas FAQ "Para Zona 3, a deslocação é de 30€" où la zone est
+# en clair sans "Deslocação" juste avant. On patche la zone seule, le prix
+# étant traité séparément par RE_BODY_ZONE_PRIX (KO3).
+RE_BODY_DESLOCACAO_ZONE_ONLY = re.compile(
+    r"Desloca[çc][ãa]o[\s ]*Zona[\s ]*(\d)\b",
+    re.IGNORECASE,
+)
+# P0.5C-tier1bis : remplace "Zona N" en clair (mention orphe line hors contexte
+# "Deslocação") quand N != target. Ex: "Para Zona 3, ..." dans une FAQ, ou
+# "em Zona 5" dans un sub-tagline. ATTENTION : on ne touche PAS la grille
+# canonique Z1=15€..Z6=65€ (protegee par RE_GRILLE_CANON_INFO) ni les
+# balises data-zone (KO1, traité a part).
+RE_BODY_ZONE_BARE = re.compile(
+    r"\bZona\s+(\d)\b",
+    re.IGNORECASE,
+)
 RE_BODY_ZONE_PRIX = re.compile(
-    r"(\bZona\s+(\d)\b[^\.<>\n]{0,80}?)(\d{1,3})\s*€",
+    r"(\bZona\s+(\d)\b[^.<>\n]{0,80}?)(\d{1,3})\s*€",
     re.IGNORECASE,
 )
 RE_DELAIS = re.compile(
@@ -160,17 +178,88 @@ def patch_one_page(content: str, expected_zone: int, slug: str, is_urgente: bool
     patches = []
     new = content
 
-    # KO2ter body : remplacer toute mention "Deslocação Zona X" par target
-    # Mais on ne touche PAS la grille canonique informative ("Z1=15€..Z6=65€")
-    body_no_grille = RE_GRILLE_CANON_INFO.sub("__GRILLE_PROTECTED__", new)
+    # Protection grille canonique informative ("Z1=15€..Z6=65€") : on ne la
+    # touche JAMAIS, c'est une référence. On la substitue temporairement par
+    # un placeholder réversible.
+    GRILLE_PLACEHOLDER = "__GRILLE_PROTECTED__"
+    body_no_grille = RE_GRILLE_CANON_INFO.sub(GRILLE_PLACEHOLDER, new)
+
+    # KO2ter body (P0.5C-tier1bis) :
+    # 1) Pattern avec prix "Deslocação Zona X: P€" → remplacer X par target
+    #    ET si le prix ne matche pas la grille de target, le corriger.
     new_body, n_body = RE_BODY_DESLOCACAO.subn(
-        lambda m: f"Deslocação Zona {target}: {GRILLE[target]}€"
-        if int(m.group(1)) != target else m.group(0),
+        lambda m: (f"Deslocação Zona {target}: {GRILLE[target]}€"
+                   if int(m.group(1)) != target
+                   else f"Deslocação Zona {target}: {GRILLE[target]}€"
+                   if int(m.group(2)) != GRILLE[target]
+                   else m.group(0)),
         body_no_grille,
     )
     if n_body > 0:
-        new = new_body.replace("__GRILLE_PROTECTED__", RE_GRILLE_CANON_INFO.pattern)
-        patches.append(f"body_Z{target}_propagate ({n_body} occurrences)")
+        patches.append(f"body_Z{target}_with_price ({n_body} occurrences)")
+
+    # 2) Pattern "Deslocação Zona N" SANS prix immédiat (cas div.price-item,
+    #    FAQ "Para Zona N, ...", sous-titres). Patche N si != target.
+    new_body, n_body2 = RE_BODY_DESLOCACAO_ZONE_ONLY.subn(
+        lambda m: f"Deslocação Zona {target}"
+        if int(m.group(1)) != target else m.group(0),
+        new_body,
+    )
+    if n_body2 > 0:
+        patches.append(f"body_Z{target}_no_price ({n_body2} occurrences)")
+
+    # 3) Pattern "Zona N" bare (mentions orphelines type "em Zona 5"). Patche
+    #    N si != target. ATTENTION : peut re-matcher ce qu'on vient d'écrire
+    #    ci-dessus ("Deslocação Zona 5") — mais comme on cible target, il est
+    #    déjà == target, donc no-op. Sûr.
+    #    EXCEPTION : on NE touche PAS data-zone="N" (KO1 séparé) ni la grille
+    #    (déjà protégée par placeholder).
+    new_body, n_body3 = RE_BODY_ZONE_BARE.subn(
+        lambda m: f"Zona {target}"
+        if int(m.group(1)) != target else m.group(0),
+        new_body,
+    )
+    if n_body3 > 0:
+        patches.append(f"body_bare_Z{target} ({n_body3} occurrences)")
+
+    # 4) Prix associé à une zone : si "Zona N: P€" et P != GRILLE[N], corriger P.
+    #    On patche UNIQUEMENT les prix qui suivent immédiatement une zone
+    #    (= cohérence interne). Les autres prix du body ne sont pas touchés.
+    def fix_zone_prix(m):
+        zone_n = int(m.group(2))
+        prix = int(m.group(3))
+        if prix != GRILLE[zone_n]:
+            return m.group(1) + f"{GRILLE[zone_n]}€"
+        return m.group(0)
+    new_body, n_body4 = RE_BODY_ZONE_PRIX.subn(fix_zone_prix, new_body)
+    if n_body4 > 0:
+        patches.append(f"body_prix_align ({n_body4} occurrences)")
+
+    # KO1_badge_zone : si data-zone="X" et X != target, patcher data-zone="<target>"
+    # (P0.5C-tier1bis : on aligne le badge sur la source-of-truth, sinon KO2ter
+    # ne peut pas être fermé — le badge resterait faux et le body aligné.)
+    new, n_badge = RE_BADGE_ATTR.subn(
+        lambda m: f'data-zone="{target}"' if int(m.group(1)) != target else m.group(0),
+        new,
+    )
+    if n_badge > 0:
+        patches.append(f"badge_align_Z{target} ({n_badge} occurrences)")
+
+    # Restaurer la grille canonique
+    # On doit d'abord restaurer le placeholder dans new_body, puis re-appliquer
+    # le badge patch (Step 5) sur la version finale. Sinon le else `new=new_body`
+    # écrase le badge patché (P0.5C-tier1bis bugfix).
+    new_body = new_body.replace(GRILLE_PLACEHOLDER, RE_GRILLE_CANON_INFO.pattern)
+    # Si le placeholder était dans new (avant Step 5), on restore aussi new
+    # Sinon on garde new (= badge patché appliqué au-dessus du placeholder restauré)
+    if GRILLE_PLACEHOLDER in new:
+        new = new.replace(GRILLE_PLACEHOLDER, RE_GRILLE_CANON_INFO.pattern)
+    # À ce stade : new a le badge patché + body patches + grille restaurée.
+    # new_body a les body patches + grille restaurée mais SANS le badge patch.
+    # On préfère new (qui contient tout). Si pour une raison X new == content,
+    # on fallback sur new_body (au moins les body patches sont appliqués).
+    if new == content:
+        new = new_body
 
     # KO2_jsonld_zone : remplacer dans les blocs JSON-LD uniquement
     def fix_jsonld(m):
