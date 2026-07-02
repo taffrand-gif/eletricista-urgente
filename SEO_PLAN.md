@@ -221,6 +221,8 @@ grep -c "schema.org" index.html
 | 1 | `f389eb386` | Prototype Chaves : Z6+Z5→Z4, R145 'Sob marcação' retiré (incohérence prix 65€ vs Z4 grille = 45€ — résolu en aval par commit 2) |
 | 2 | `84742579a` | Vague 1 racine (90 fichiers, 56 ES exclus) — **EU batch terminé** + correctif Chaves 65€→45€ |
 | 3 | `15bdd7652` | docs(seo-plan): HISTORIQUE P0 batch 04/07 (24 commits batch prix/zones OSRM, 757 fichiers, 0 merge main) |
+| 4 | `3490c6bd9` | **R145 follow-up Chaves** (sub-agent deleg_11610fbb, post-audit #329) : meta description + FAQ JSON-LD corrigés |
+| 5 | `e224a9f03` | **Mini-batch R145 large** (sub-agent deleg_034a2285) : 45 fichiers patchés (tous FAQ "Tempo de resposta?" → "Atendimento quando? + Sob marcação") |
 
 **EU : 90 fichiers patchés.** 56 ES exclus. ~560 NO_RESOL (typos + freguesias hors 914, sub-agent à re-vérifier pour delta patterns étendus). Artefacts : `phase0-dryrun/EU_audit.{csv,json}` + `phase1-cu-eu-dryrun/EU_dryrun.json`.
 
@@ -233,6 +235,8 @@ grep -c "schema.org" index.html
 **Recommandation parent** : ouvrir PR P0 batch en l'état (corrections R145 = batch séparé), noter les 2 violations préexistantes comme follow-up post-merge.
 
 **Rappel AGENTS.md §12 R145 doctrine** : aucun délai chiffré `em X min` / `X horas` / `24h/7d` autorisé en -urgente. Seules formulations acceptées : « Sob marcação », « Atendimento mediante confirmação por telefone », « conforme disponibilidade ».
+
+**Audit qualité post-batch #4b40c9fd** (02/07 15h BST) : 4 sub-agents audit prototypes AVANT batch (4/4 GO), 1 sub-agent audit post-batch déclaré 334 KO (largement faux-positifs 90%), 1 triangulation parentale sur 20 échantillons = 2 vrais KO (Boticas + EU), 2 micro-correctifs scopés (Boticas Z5 + EU FAQ "3 min" / Chaves meta description). + 45 fichiers R145 EU corrigés (deleg_034a2285) + Chaves déjà OK via 3490c6bd9 (deleg_11610fbb). PR #101 MERGEABLE. Doctrine #329 validée.
 
 ### Lien PR (à ouvrir — STOP Filipe avant merge)
 
