@@ -1025,3 +1025,23 @@ du MISSION_HERMES_P0.5B_2026-07-02.md.
 | | (b) Élargi = 4 145 KO2ter (toutes variantes) + reste (~5 488 KO) |
 
 Co-Authored-By: Claude (Fable 5 Sonnet) <noreply@anthropic.com>
+
+
+---
+
+## 🎯 SESSION 02/07 23h — S2/S3 GO (perimètre élargi CEO 9/10, règle permanente)
+
+**Décision CEO 22h45** : périmètre élargi 4 145 KO2ter, D3 in-scope cohérence,
+page-entière regroupée, ordre tiers 1-7.
+
+**Règle permanente codée** dans `~/.hermes/skills/priority-gate/SKILL.md` :
+réversible = décide + documente, STOP seulement pour irréversible / valeur
+introuvable source / contradiction doctrines / dépense.
+
+Plan vagues v3 par repo dans `/tmp/vagues-<repo>.json`. Voir canalizador-urgente
+SEO_PLAN pour détails SESSION 02/07 23h.
+
+Garde-fous : pas de dist/, -es exclues, Offers service intacts, grille
+canonique intacte, PR draft, pas de merge sans review.
+
+Co-Authored-By: Claude (Fable 5 Sonnet) <noreply@anthropic.com>
