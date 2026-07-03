@@ -1174,5 +1174,5 @@ Co-Authored-By: Claude (Fable 5 Sonnet) <noreply@anthropic.com>
 - `u4_patcher_o1_aldeias_inlinks.py` (CU + EU, --dry-run / --apply / --repo)
 - `u4_m1_scout_urgency.py` (mesure baseline + post-vague)
 
-### Attente
-**GO nominatif Philippe** par PR : « GO merge PR #102 CU » / « GO merge PR #102 EU ». CI Vercel en cours (à valider). Squash-merge après feu vert.
+### Statut
+✅ **PRs SQUASH-MERGED** sur main (13h03 BST)
