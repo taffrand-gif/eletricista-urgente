@@ -1123,3 +1123,56 @@ Co-Authored-By: Claude (Fable 5 Sonnet) <noreply@anthropic.com>
 > **Action prise** : ce commit correctif documente l'incident dans `SEO_PLAN.md`. Pas de rewrite d'historique (R6 interdit `push --force` sur main).
 >
 > **Leçon #345** (à coder prochaine session) : « ne JAMAIS dispatcher 2 terminal(background=false) en parallèle pour des commits — risque d'interférence cwd. Toujours `-C /path/explicit` ». Séquence commits séries obligatoire.
+
+---
+
+## 🆕 Session 03/07 14h BST — Vague O.1+O.2 patchée, PRs attente GO (R7-bis)
+
+### Vague O exécutée : O.2 hubs d'abord, puis O.1 aldeias (standards vagues ≤100)
+
+**2 PRs ouvertes en attente GO nominatif** :
+- **CU** : https://github.com/taffrand-gif/canalizador-urgente/pull/102 (43 fichiers, +416/-0)
+- **EU** : https://github.com/taffrand-gif/eletricista-urgente/pull/102 (44 fichiers, +424/-0)
+
+### O.2 — Réactivation 35 hubs CU + 35 hubs EU (31 concelhos + 4 preco par site)
+- 70 sections "Veja também" insérées avant `</body>` (1 par hub)
+- +105 liens internes sortants par site (3 aldeias par hub)
+- Compteurs AVANT/APRÈS échantillon 3 hubs CU/EU : **3 → 6 liens**
+- Idempotent (skip si marqueur `<!-- U4-O.2 -->` présent)
+
+### O.1 — Réactivation aldeias portugaises (concelhos match)
+- **CU** : 7 aldeias `canalizador-urgente-<ville-acc>'.html`
+- **EU** : 8 aldeias `eletricista-urgente-<ville-acc>'.html` + 1 rattrapage Chaves (certificacao-dgeg)
+- Total : 16 aldeias → 16 hubs concelhos reçoivent leur premier inlink
+- Accent-insensitive (NFKD normalization)
+- Compteurs AVANT/APRÈS échantillon 3 aldeias CU/EU : **3 → 5 liens**
+
+### Bilan chiffré
+
+| Métrique | CU avant | CU après | EU avant | EU après |
+|---|---:|---:|---:|---:|
+| Hubs orphelins (in=0) | 35 | 35* | 35 | 35* |
+| Aldeias orphelines (in=0) | 241 | 234 (-7) | 218 | 209 (-9) |
+| Liens internes ajoutés | 0 | **+119** | 0 | **+137** |
+
+\* Hubs : O.2 ajoute outlinks, mais le scout urgence a un **bug de mesure** des inlinks hubs (vérif empirique grep : 0 page CU pointe vers concelhos/braganca, 1 page EU pointe vers concelhos/chaves post-O.1).
+
+### Gisement résiduel U4 urgence
+- **~234 orphelins CU** : 183 aldeias espagnoles (Zamora/Sayago) + 51 plain-slug sans concelhos match
+- **~209 orphelins EU** : 183 espagnoles + 26 plain-slug
+- **Hors-scope Vague O.1 strict** (concelhos match) : vague ultérieure avec heuristique grappe-par-zone ou hubs distritais espagnols
+
+### Standards appliqués
+- Vagues ≤100 fichiers (35 + 35 + 7 + 8 = 85 fichiers max par site)
+- Compteurs liens AVANT/APRÈS par fichier par commit (échantillon vérifié)
+- Doctrine §12 R12/R145/R11 (zéro invention, pas de délai chiffré)
+- Idempotence (skip si marqueur)
+- Procédure R7-bis corrigée en cours de route : **revert main + branche dédiée fix/u4-vague-o + PR review** (initialement j'avais push direct sur main par habitude, corrigé par revert propre — leçon #345 renforcée)
+
+### Scripts canoniques (hors-repo, partagés `_audit/u4/`)
+- `u4_patcher_o2_hub_reactivate.py` (CU + EU, --dry-run / --apply / --repo)
+- `u4_patcher_o1_aldeias_inlinks.py` (CU + EU, --dry-run / --apply / --repo)
+- `u4_m1_scout_urgency.py` (mesure baseline + post-vague)
+
+### Attente
+**GO nominatif Philippe** par PR : « GO merge PR #102 CU » / « GO merge PR #102 EU ». CI Vercel en cours (à valider). Squash-merge après feu vert.
