@@ -2047,6 +2047,896 @@
       "source": "/programa-fidelidade",
       "destination": "/",
       "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-murça",
+      "destination": "/eletricista-urgente-murca",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-castro-de-avelãs",
+      "destination": "/eletricista-urgente-castro-de-avelas",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-parada-do-pinhão",
+      "destination": "/eletricista-urgente-parada-do-pinhao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-são-martinho-de-anta",
+      "destination": "/eletricista-urgente-sao-martinho-de-anta",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-são-julião-de-montenegro",
+      "destination": "/eletricista-urgente-sao-juliao-de-montenegro",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-mogrão",
+      "destination": "/eletricista-urgente-mograo",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-arcossó",
+      "destination": "/eletricista-urgente-arcosso",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-paços",
+      "destination": "/eletricista-urgente-pacos",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-genísio",
+      "destination": "/eletricista-urgente-genisio",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-santo-estêvão",
+      "destination": "/eletricista-urgente-santo-estevao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-vilar-de-maçada",
+      "destination": "/eletricista-urgente-vilar-de-macada",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-samaiões",
+      "destination": "/eletricista-urgente-samaioes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-seixo-de-ansiães",
+      "destination": "/eletricista-urgente-seixo-de-ansiaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-vilarinho-de-são-romão",
+      "destination": "/eletricista-urgente-vilarinho-de-sao-romao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-chãs",
+      "destination": "/eletricista-urgente-chas",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-gorgoço",
+      "destination": "/eletricista-urgente-gorgoco",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-pópulo",
+      "destination": "/eletricista-urgente-populo",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-ervões",
+      "destination": "/eletricista-urgente-ervoes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-tazém",
+      "destination": "/eletricista-urgente-tazem",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-urrós",
+      "destination": "/eletricista-urgente-urros",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-avinhó",
+      "destination": "/eletricista-urgente-avinho",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-mondrões",
+      "destination": "/eletricista-urgente-mondroes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-telões",
+      "destination": "/eletricista-urgente-teloes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-sapiãos",
+      "destination": "/eletricista-urgente-sapiaos",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-lodões",
+      "destination": "/eletricista-urgente-lodoes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-vilar-chão",
+      "destination": "/eletricista-urgente-vilar-chao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-pádua-freixo",
+      "destination": "/eletricista-urgente-padua-freixo",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-alfaião",
+      "destination": "/eletricista-urgente-alfaiao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-touça",
+      "destination": "/eletricista-urgente-touca",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-campo-de-víboras",
+      "destination": "/eletricista-urgente-campo-de-viboras",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-santo-andré",
+      "destination": "/eletricista-urgente-santo-andre",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-palaçoulo",
+      "destination": "/eletricista-urgente-palacoulo",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-são-pedro-de-agostém",
+      "destination": "/eletricista-urgente-sao-pedro-de-agostem",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-horta-da-vilariça",
+      "destination": "/eletricista-urgente-horta-da-vilarica",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-a-gudiña",
+      "destination": "/eletricista-urgente-a-gudina",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-bairro-do-fundo-de-fomento-à-habitação",
+      "destination": "/eletricista-urgente-bairro-do-fundo-de-fomento-a-habitacao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-abaças",
+      "destination": "/eletricista-urgente-abacas",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-freixo-de-numão",
+      "destination": "/eletricista-urgente-freixo-de-numao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-bouçoães",
+      "destination": "/eletricista-urgente-boucoaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-parâmio",
+      "destination": "/eletricista-urgente-paramio",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-castelo-de-balsamão",
+      "destination": "/eletricista-urgente-castelo-de-balsamao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-mourão",
+      "destination": "/eletricista-urgente-mourao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-vila-chã-de-braciosa",
+      "destination": "/eletricista-urgente-vila-cha-de-braciosa",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-negrões",
+      "destination": "/eletricista-urgente-negroes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-numão",
+      "destination": "/eletricista-urgente-numao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-água-revés",
+      "destination": "/eletricista-urgente-agua-reves",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-freixo-de-espada-à-cinta",
+      "destination": "/eletricista-urgente-freixo-de-espada-a-cinta",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-deilão",
+      "destination": "/eletricista-urgente-deilao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-murçós",
+      "destination": "/eletricista-urgente-murcos",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-cachão",
+      "destination": "/eletricista-urgente-cachao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-o-riós",
+      "destination": "/eletricista-urgente-o-rios",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-valença-do-douro",
+      "destination": "/eletricista-urgente-valenca-do-douro",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-presandães",
+      "destination": "/eletricista-urgente-presandaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-gandariças",
+      "destination": "/eletricista-urgente-gandaricas",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-carção",
+      "destination": "/eletricista-urgente-carcao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-vilarinho-de-agrochão",
+      "destination": "/eletricista-urgente-vilarinho-de-agrochao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-são-tomé-do-castelo",
+      "destination": "/eletricista-urgente-sao-tome-do-castelo",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-suçães",
+      "destination": "/eletricista-urgente-sucaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-são-salvador",
+      "destination": "/eletricista-urgente-sao-salvador",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-carçãozinho",
+      "destination": "/eletricista-urgente-carcaozinho",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-cidões",
+      "destination": "/eletricista-urgente-cidoes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-jerusalém-do-romeu",
+      "destination": "/eletricista-urgente-jerusalem-do-romeu",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-maçores",
+      "destination": "/eletricista-urgente-macores",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-carviçais",
+      "destination": "/eletricista-urgente-carvicais",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-ferreruela-de-tábara",
+      "destination": "/eletricista-urgente-ferreruela-de-tabara",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-vilares-da-vilariça",
+      "destination": "/eletricista-urgente-vilares-da-vilarica",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-brinço",
+      "destination": "/eletricista-urgente-brinco",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-são-pedro-de-veiga-de-lila",
+      "destination": "/eletricista-urgente-sao-pedro-de-veiga-de-lila",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-alijó",
+      "destination": "/eletricista-urgente-alijo",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-póvoa-de-lila",
+      "destination": "/eletricista-urgente-povoa-de-lila",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-águas-vivas",
+      "destination": "/eletricista-urgente-aguas-vivas",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-caçarelhos",
+      "destination": "/eletricista-urgente-cacarelhos",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-quintã-de-pero-martins",
+      "destination": "/eletricista-urgente-quinta-de-pero-martins",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-lebução",
+      "destination": "/eletricista-urgente-lebucao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-lixa-do-alvão",
+      "destination": "/eletricista-urgente-lixa-do-alvao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-carlão",
+      "destination": "/eletricista-urgente-carlao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-póvoa-de-penela",
+      "destination": "/eletricista-urgente-povoa-de-penela",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-custóias",
+      "destination": "/eletricista-urgente-custoias",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-grijó-de-parada",
+      "destination": "/eletricista-urgente-grijo-de-parada",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-távora",
+      "destination": "/eletricista-urgente-tavora",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-grijó",
+      "destination": "/eletricista-urgente-grijo",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-são-vicente",
+      "destination": "/eletricista-urgente-sao-vicente",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-múrias",
+      "destination": "/eletricista-urgente-murias",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-bruçó",
+      "destination": "/eletricista-urgente-bruco",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-frança",
+      "destination": "/eletricista-urgente-franca",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-cedães",
+      "destination": "/eletricista-urgente-cedaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-santo-aleixo-de-além-tâmega",
+      "destination": "/eletricista-urgente-santo-aleixo-de-alem-tamega",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-fermentãos",
+      "destination": "/eletricista-urgente-fermentaos",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-senhora-da-penha-de-frança",
+      "destination": "/eletricista-urgente-senhora-da-penha-de-franca",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-guiães",
+      "destination": "/eletricista-urgente-guiaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-escalhão",
+      "destination": "/eletricista-urgente-escalhao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-são-cristóvão-do-douro",
+      "destination": "/eletricista-urgente-sao-cristovao-do-douro",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-são-mamede-de-ribatua",
+      "destination": "/eletricista-urgente-sao-mamede-de-ribatua",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-milhão",
+      "destination": "/eletricista-urgente-milhao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-ardãos",
+      "destination": "/eletricista-urgente-ardaos",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-andrães",
+      "destination": "/eletricista-urgente-andraes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-alvações-do-corgo",
+      "destination": "/eletricista-urgente-alvacoes-do-corgo",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-santo-antónio-de-monforte",
+      "destination": "/eletricista-urgente-santo-antonio-de-monforte",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-gouvães-da-serra",
+      "destination": "/eletricista-urgente-gouvaes-da-serra",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-açoreira",
+      "destination": "/eletricista-urgente-acoreira",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-carrazeda-de-ansiães",
+      "destination": "/eletricista-urgente-carrazeda-de-ansiaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-sardão",
+      "destination": "/eletricista-urgente-sardao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-quintela-de-lampaças",
+      "destination": "/eletricista-urgente-quintela-de-lampacas",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-torre-do-pinhão",
+      "destination": "/eletricista-urgente-torre-do-pinhao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-são-pedro-de-vale-do-conde",
+      "destination": "/eletricista-urgente-sao-pedro-de-vale-do-conde",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-limões",
+      "destination": "/eletricista-urgente-limoes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-freixeda-do-torrão",
+      "destination": "/eletricista-urgente-freixeda-do-torrao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-carrazedo-do-alvão",
+      "destination": "/eletricista-urgente-carrazedo-do-alvao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-vilarinho-de-samardã",
+      "destination": "/eletricista-urgente-vilarinho-de-samarda",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-são-pedro-de-sarracenos",
+      "destination": "/eletricista-urgente-sao-pedro-de-sarracenos",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-vilardevós",
+      "destination": "/eletricista-urgente-vilardevos",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-são-pedro-velho",
+      "destination": "/eletricista-urgente-sao-pedro-velho",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-gouvães-do-douro",
+      "destination": "/eletricista-urgente-gouvaes-do-douro",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-couços",
+      "destination": "/eletricista-urgente-coucos",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-trevões",
+      "destination": "/eletricista-urgente-trevoes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-alfândega-da-fé",
+      "destination": "/eletricista-urgente-alfandega-da-fe",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-lanção",
+      "destination": "/eletricista-urgente-lancao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-são-jomil",
+      "destination": "/eletricista-urgente-sao-jomil",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-beça",
+      "destination": "/eletricista-urgente-beca",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-santa-maria-de-émeres",
+      "destination": "/eletricista-urgente-santa-maria-de-emeres",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-são-joão-da-corveira",
+      "destination": "/eletricista-urgente-sao-joao-da-corveira",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-mouçós",
+      "destination": "/eletricista-urgente-moucos",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-são-martinho-de-angueira",
+      "destination": "/eletricista-urgente-sao-martinho-de-angueira",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-poço-do-canto",
+      "destination": "/eletricista-urgente-poco-do-canto",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-chavães",
+      "destination": "/eletricista-urgente-chavaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-bilhó",
+      "destination": "/eletricista-urgente-bilho",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-ousilhão",
+      "destination": "/eletricista-urgente-ousilhao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-santa-eugénia",
+      "destination": "/eletricista-urgente-santa-eugenia",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-quirás",
+      "destination": "/eletricista-urgente-quiras",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-pías",
+      "destination": "/eletricista-urgente-pias",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-fiães",
+      "destination": "/eletricista-urgente-fiaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-cabaços",
+      "destination": "/eletricista-urgente-cabacos",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-santa-comba-de-vilariça",
+      "destination": "/eletricista-urgente-santa-comba-de-vilarica",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-baçal",
+      "destination": "/eletricista-urgente-bacal",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-santa-leocádia",
+      "destination": "/eletricista-urgente-santa-leocadia",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-penha-de-águia",
+      "destination": "/eletricista-urgente-penha-de-aguia",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-paçô-de-sortes",
+      "destination": "/eletricista-urgente-paco-de-sortes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-são-lourenço-de-ribapinhão",
+      "destination": "/eletricista-urgente-sao-lourenco-de-ribapinhao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-lagoaça",
+      "destination": "/eletricista-urgente-lagoaca",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-azêvo",
+      "destination": "/eletricista-urgente-azevo",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-friões",
+      "destination": "/eletricista-urgente-frioes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-fontão",
+      "destination": "/eletricista-urgente-fontao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-marzagão",
+      "destination": "/eletricista-urgente-marzagao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-corriça",
+      "destination": "/eletricista-urgente-corrica",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-agrochão",
+      "destination": "/eletricista-urgente-agrochao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-vilela-do-tâmega",
+      "destination": "/eletricista-urgente-vilela-do-tamega",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-gralhós",
+      "destination": "/eletricista-urgente-gralhos",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-são-julião-de-palácios",
+      "destination": "/eletricista-urgente-sao-juliao-de-palacios",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-águas-frias",
+      "destination": "/eletricista-urgente-aguas-frias",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-faílde",
+      "destination": "/eletricista-urgente-failde",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-lamas-de-orelhão",
+      "destination": "/eletricista-urgente-lamas-de-orelhao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-são-miguel-de-lobrigos",
+      "destination": "/eletricista-urgente-sao-miguel-de-lobrigos",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-póvoa-de-agrações",
+      "destination": "/eletricista-urgente-povoa-de-agracoes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-quinta-de-são-pedro",
+      "destination": "/eletricista-urgente-quinta-de-sao-pedro",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-rebordãos",
+      "destination": "/eletricista-urgente-rebordaos",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-são-martinho-do-peso",
+      "destination": "/eletricista-urgente-sao-martinho-do-peso",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-tabuaço",
+      "destination": "/eletricista-urgente-tabuaco",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-são-cibrão",
+      "destination": "/eletricista-urgente-sao-cibrao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-castainço",
+      "destination": "/eletricista-urgente-castainco",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-vilariño-de-conso",
+      "destination": "/eletricista-urgente-vilarino-de-conso",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-bouças",
+      "destination": "/eletricista-urgente-boucas",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-paradela-de-guiães",
+      "destination": "/eletricista-urgente-paradela-de-guiaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-bouça",
+      "destination": "/eletricista-urgente-bouca",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-faiões",
+      "destination": "/eletricista-urgente-faioes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-santo-adrião",
+      "destination": "/eletricista-urgente-santo-adriao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-santulhão",
+      "destination": "/eletricista-urgente-santulhao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-fiães-do-tâmega",
+      "destination": "/eletricista-urgente-fiaes-do-tamega",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-cortiços",
+      "destination": "/eletricista-urgente-corticos",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-calvão",
+      "destination": "/eletricista-urgente-calvao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-castelãos",
+      "destination": "/eletricista-urgente-castelaos",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-limãos",
+      "destination": "/eletricista-urgente-limaos",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-são-joão-da-pesqueira",
+      "destination": "/eletricista-urgente-sao-joao-da-pesqueira",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-samões",
+      "destination": "/eletricista-urgente-samoes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-vila-boa-de-ousilhão",
+      "destination": "/eletricista-urgente-vila-boa-de-ousilhao",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-várzea-de-trevões",
+      "destination": "/eletricista-urgente-varzea-de-trevoes",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-gradíssimo",
+      "destination": "/eletricista-urgente-gradissimo",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-chãos",
+      "destination": "/eletricista-urgente-chaos",
+      "statusCode": 301
+    },
+    {
+      "source": "/eletricista-urgente-pinhão",
+      "destination": "/eletricista-urgente-pinhao",
+      "statusCode": 301
     }
   ]
 }
