@@ -1111,3 +1111,15 @@ Co-Authored-By: Claude (Fable 5 Sonnet) <noreply@anthropic.com>
 - **Vague O.2** : réactiver hubs EU + CU (à inventorier côté EU).
 - **Vague O.1** : patcher `u4_patcher_orphan_inlinks.py` idempotent.
 - Standards : vagues ≤100, compteur liens AVANT/APRÈS par commit, PRs attente GO nominatif.
+
+---
+
+## 🆕 Correctif 03/07 13h15 BST — méta-note sur le commit `1f2db6297`
+
+> Le commit `1f2db6297` pushé sur main EU à 13:14 BST contient le **bon contenu** sur ce repo (mesures EU, 253 orphelins, 28 doublons) mais son **message de commit** mentionne à tort « CU/EU baseline (276 orphelins CU...) ».
+>
+> **Cause** : pendant l'écriture en série des 4 commits `docs(seo-plan)`, deux `terminal()` ont été dispatch en parallèle. Le cwd du sandbox partagé a fait que le 1er commit a été pushé dans le mauvais cwd (terminal session précédente EU). Le contenu, lui, avait été écrit correctement en mémoire avant exécution.
+>
+> **Action prise** : ce commit correctif documente l'incident dans `SEO_PLAN.md`. Pas de rewrite d'historique (R6 interdit `push --force` sur main).
+>
+> **Leçon #345** (à coder prochaine session) : « ne JAMAIS dispatcher 2 terminal(background=false) en parallèle pour des commits — risque d'interférence cwd. Toujours `-C /path/explicit` ». Séquence commits séries obligatoire.
