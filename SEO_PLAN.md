@@ -1064,3 +1064,50 @@ Vagues 4-5 dispatchees en parallele via deleg_61c15033 (4 sub-agents).
 Patcher canonique apply_vague.py SHA 6ab04f4d8, garde-fous R8 OpenClaw respectes.
 
 Co-Authored-By: Claude (Fable 5 Sonnet) <noreply@anthropic.com>
+
+
+---
+
+## 🆕 CLOSE 03/07 13h00 BST — U4 urgency baseline posée
+
+### U4 urgence EU — baseline scout `u4_m1_scout_urgency.py` 12h45 BST (read-only, 1s)
+
+**Mesures chiffrées** :
+
+| Métrique | EU |
+|---|---:|
+| Pages root (toutes .html à la racine repo) | 1968 |
+| Orphelines (0 lien entrant interne) | 253 (12.9%) |
+| …dont slugs accentués (ç, ã, é…) | 180 |
+| Doublons accentué↔plain | 28 paires |
+| Pages <3 liens sortants | 64 |
+
+**Triangulation vs sonde CEO** : alignement parfait sur `180` slugs accentués orphelins.
+
+**Artefacts produits** (`_audit/u4/`) :
+- `U4_M1_urgency_eletricista-urgente_baseline.csv` (271 KB)
+- `U4_M1_urgency_eletricista-urgente_baseline.json` (824 KB)
+- `U4_M1_urgency_eletricista-urgente_orphans.csv` (29 KB)
+- `U4_M1_urgency_eletricista-urgente_D7_accent_dups.csv` (2.9 KB) — 28 paires
+
+### Gisement U4 EU caractérisé
+
+1. **180 orphelins accent** → Vague O.1 « Veja também ».
+2. **40 plain préfixe `urgente-<ville-accent>`** → même traitement.
+3. **33 `blog/*` orphelins** → liens contextuels.
+4. **Hubs morts EU** : à confirmer via scout ciblé (équivalent CU : concelhos/<ville>.html + preco-eletricista-urgente-<ville>-2026.html). Triangulation à faire en Vague O.2.
+5. **`_archive/`** EXCLURE.
+6. **28 paires doublons accent** = **D7 STOP**.
+
+### Décisions CEO cumulées
+
+- **D3** (6561 NO_RESOL fallback concelho) : U4+ ✓
+- **D4** (avis client réel) : BLOQUÉ
+- **D6** (Trancoso + Fornos) : préservés intacts
+- **D7** (28 doublons accent, CSV prêt) : **À TRANCHER — 301 = STOP**
+
+### Prochain front (Vague O)
+
+- **Vague O.2** : réactiver hubs EU + CU (à inventorier côté EU).
+- **Vague O.1** : patcher `u4_patcher_orphan_inlinks.py` idempotent.
+- Standards : vagues ≤100, compteur liens AVANT/APRÈS par commit, PRs attente GO nominatif.
