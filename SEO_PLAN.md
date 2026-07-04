@@ -1179,3 +1179,11 @@ Co-Authored-By: Claude (Fable 5 Sonnet) <noreply@anthropic.com>
 
 ### Statut
 ✅ **PRs SQUASH-MERGED** sur main (13h03 BST)
+
+## 04/07 nuit — CEO/Claude (sommeil Hermes) : M8/M10/M11 + deploys + GSC
+
+- **Deploy prod débloqué via API gitSource** (leçon #353) — 4 sites verts : robots 2 lignes, sitemap-plain complet, sitemap.xml 0 accents.
+- **PR M11 #107 (draft, GO Filipe)** : sources redirects percent-encodées (les sources unicode ne matchaient jamais au runtime, leçon #352) + redirects manquants des URLs accentuées M6.
+
+- GSC : sitemap.xml + sitemap-plain soumis et vérifiés (lastSubmitted 04/07 01:07-01:17).
+- Reste : M7 canonicals .html→extensionless (scope mesuré : CU 150 / EU 2084 / CNR 1628 / ENR 1603 fichiers) = vagues Hermes.
