@@ -1190,3 +1190,9 @@ Co-Authored-By: Claude (Fable 5 Sonnet) <noreply@anthropic.com>
 
 ### 04/07 ~02h30 — MERGÉ + DÉPLOYÉ + DoD VÉRIFIÉ (GO Filipe explicite)
 M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → extensionless, 555 shadowées par cleanUrls sur les 4 repos) : mergés, déployés (webhook), vérifiés curl — 301 accentué→plain OK, chaînes .html atterrissent 200 en 2 hops, ex-soft-200 servent leur vrai contenu, sitemaps intacts, clés IndexNow live racine. Reste : IndexNow submit CNR/ENR en 403 SiteVerificationNotCompleted (clés trop fraîches) → retry dans quelques heures. M7 canonicals = vagues Hermes.
+
+### 04/07 ~05h — Baseline GSC + purge fossiles ancien domaine (CEO, GO Filipe)
+- **Baseline GSC 28j archivée** `~/work/Sites/_audit/baseline-gsc/` — vérité crue : trafic actuel = blog éducatif only, zéro requête commerciale locale dans le top (CU 1 clic et impressions HORS ZONE). Mesure d'impact des fixes de nuit contre ces CSV à J+7/J+30.
+- **Fossiles pré-migration purgés** (leçon #361) : ENR sitemap servi était 8 URLs norte-reparos.com → vrai sitemap 3860 locs extensionless (PR #128) · CNR 6 sitemaps fossiles 1263 URLs ancien domaine + security.txt (PR #141) · 98 HTML cross-link « Precisa de canalizador? » → domaine mort réparés (ENR #128, EU #109). GUARD-4-SITES : 0 violation résiduelle servie.
+- P0.1 : 2 pages sitemap purgées (PR ENR #127 mergée) ; vague 36 CLAIM + 71 AMBIGU = mission Hermes prête.
+- Tout mergé, deploy au premier tick launchd post-quota (gitSource-first).
