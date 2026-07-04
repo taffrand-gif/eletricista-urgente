@@ -131,13 +131,12 @@ function calculate() {
  const travel = (travelPrices[zone] || 15) * hourMultiplier;
  const hourBase = (currentService === 'canal') ? 65 : 70;
  const hourPrice = hourBase * hourMultiplier * hours;
- const total = serviceBase + travel + hourPrice;
+ const total = travel + hourPrice;
  // Show result
  const result = document.getElementById('result');
  result.classList.add('show');
  document.getElementById('price').textContent = `€${Math.round(total)}`;
  document.getElementById('breakdown').innerHTML = `
- Serviço base: €${serviceBase}<br>
  Deslocação (Zona ${zone}): €${travel}<br>
  ${hours}h × €${Math.round(hourBase * hourMultiplier)}/h: €${Math.round(hourPrice)}
  `;
