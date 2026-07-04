@@ -50,17 +50,17 @@ footer{text-align:center;color:#fff;margin-top:1rem;font-size:.85rem;opacity:.9}
  </tbody>
  </table>
  <p style="margin-top: 1rem; font-size: .9rem; color: #666;">
- ℹ️ Os preços acima são <strong>preços de deslocação</strong>. Acrescenta a mão-de-obra (canalização 70€/h, eletricidade 70€/h).
+ ℹ️ Os preços acima são <strong>preços de deslocação</strong>. Acrescenta a mão-de-obra (canalização 65€/h, eletricidade 70€/h).
  Para orçamento exato, <a href="https://wa.me/351932321892">contacte-nos</a>.
  </p>
 </div>
-<p class="subtitle">Estimativa após contacto para serviço de canalizador ou eletricista. Sem compromisso. Preços incluem IVA e deslocação na zona indicada.</p><div class="tabs"><div class="tab active" onclick="setService('canal')">💧 Canalizador</div><div class="tab" onclick="setService('elec')">⚡ Eletricista</div></div><div class="form-group"><label>Tipo de serviço</label><select id="service" onchange="calculate()"><option value="">Escolha o serviço...</option></select></div><div class="form-group"><label>Zona (distância de Trás-os-Montes)</label><select id="zone" onchange="calculate()"><option value="1">Zona 1 (0-30 km) - €20 deslocação</option><option value="2">Zona 2 (31-50 km) - €25 deslocação</option><option value="3">Zona 3 (51-90 km) - €30 deslocação</option><option value="4">Zona 4 (91-130 km) - €40 deslocação</option></select></div><div class="form-group"><label>Urgência</label><select id="urgency" onchange="calculate()"><option value="normal">Normal (dias úteis 8h-18h) - preço base</option><option value="noite">Noite (18h-8h) - +50%</option><option value="sabado">Sábado - hora a sob orçamento</option><option value="domingo">Domingo / Feriado - 70€/h</option></select></div><div class="form-group"><label>Duração estimada (horas)</label><select id="hours" onchange="calculate()"><option value="1">1 hora (mínimo)</option><option value="2" selected>2 horas (típico)</option><option value="3">3 horas</option><option value="4">4 horas (meio dia)</option><option value="8">8 horas (dia completo)</option></select></div><div id="result" class="result"><div class="label">Estimativa total (IVA incluído)</div><div class="price" id="price">€0</div><div id="breakdown" style="font-size:.85rem;margin-bottom:1.5rem;opacity:.95"></div><a href="tel:+351932484451" class="cta" id="phone-canal">📞 Ligar 932 321 892</a><a href="tel:+351932321892" class="cta" id="phone-elec hidden">📞 Ligar 932 321 892</a><a href="https://wa.me/351932321892" class="cta" id="wa-canal">💬 WhatsApp</a><a href="https://wa.me/351932321892" class="cta" id="wa-elec hidden">💬 WhatsApp</a></div><div class="urgency-info"><strong>⚠️ Aviso:</strong> Esta é uma estimativa. O preço final é sempre comunicado por telefone antes da deslocação. Preços podem variar conforme complexidade do trabalho.
+<p class="subtitle">Estimativa após contacto para serviço de canalizador ou eletricista. Sem compromisso. Preços incluem IVA e deslocação na zona indicada.</p><div class="tabs"><div class="tab active" onclick="setService('canal')">💧 Canalizador</div><div class="tab" onclick="setService('elec')">⚡ Eletricista</div></div><div class="form-group"><label>Tipo de serviço</label><select id="service" onchange="calculate()"><option value="">Escolha o serviço...</option></select></div><div class="form-group"><label>Zona (distância de Trás-os-Montes)</label><select id="zone" onchange="calculate()"><option value="1">Zona 1 (Macedo de Cavaleiros e arredores) - 15€ deslocação</option><option value="2">Zona 2 (Mirandela, Vila Flor, Alfândega da Fé) - 25€ deslocação</option><option value="3">Zona 3 (Bragança, Vinhais, Vimioso, Mogadouro) - 35€ deslocação</option><option value="4">Zona 4 (Miranda do Douro, Murça, Valpaços) - 45€ deslocação</option><option value="5">Zona 5 (Vila Real, Alijó, Lamego) - 55€ deslocação</option><option value="6">Zona 6 (Chaves, Boticas, Montalegre) - 65€ deslocação</option></select></div><div class="form-group"><label>Urgência</label><select id="urgency" onchange="calculate()"><option value="normal">Normal (dias úteis 8h-18h) - preço base</option><option value="noite">Noite (18h-8h) - +50%</option><option value="sabado">Sábado - +50%</option><option value="domingo">Domingo / Feriado - +50%</option></select></div><div class="form-group"><label>Duração estimada (horas)</label><select id="hours" onchange="calculate()"><option value="1">1 hora (mínimo)</option><option value="2" selected>2 horas (típico)</option><option value="3">3 horas</option><option value="4">4 horas (meio dia)</option><option value="8">8 horas (dia completo)</option></select></div><div id="result" class="result"><div class="label">Estimativa total (IVA incluído)</div><div class="price" id="price">€0</div><div id="breakdown" style="font-size:.85rem;margin-bottom:1.5rem;opacity:.95"></div><a href="tel:+351928484451" class="cta" id="phone-canal">📞 Ligar 928 484 451</a><a href="tel:+351932321892" class="cta hidden" id="phone-elec">📞 Ligar 932 321 892</a><a href="https://wa.me/351928484451" class="cta" id="wa-canal">💬 WhatsApp</a><a href="https://wa.me/351932321892" class="cta hidden" id="wa-elec">💬 WhatsApp</a></div><div class="urgency-info"><strong>⚠️ Aviso:</strong> Esta é uma estimativa. O preço final é sempre comunicado por telefone antes da deslocação. Preços podem variar conforme complexidade do trabalho.
 </div></div><footer role="contentinfo">© 2024 Norte Reparos — Serviços profissionais 24h/7d</footer><script>
 const SERVICES = {
  canal: {
  icon: '💧',
  base_price: 110, // min service price
- hour_price: {1: 80, 2: 80, 3: 80, 4: 80, 5: 80},
+ hour_price: {1: 65, 2: 65, 3: 65, 4: 65, 5: 65},
  items: [
  {value: '', label: 'Escolha o serviço...'},
  {value: 'desentupimento', label: 'Desentupimento (sanita, ralo, esgoto)', base: 110},
@@ -72,14 +72,14 @@ const SERVICES = {
  {value: 'torneira', label: 'Torneira (reparação/substituição)', base: 80},
  {value: 'pressao', label: 'Diagnóstico pressão de água', base: 90}
  ],
- phone: '+351932484451',
+ phone: '+351932321892',
  phone_display: '+351 932 321 892',
  wa: 'https://wa.me/351932321892'
  },
  elec: {
  icon: '⚡',
  base_price: 90,
- hour_price: {1: 80, 2: 80, 3: 80, 4: 80, 5: 80},
+ hour_price: {1: 70, 2: 70, 3: 70, 4: 70, 5: 70},
  items: [
  {value: '', label: 'Escolha o serviço...'},
  {value: 'avaria', label: 'Avaria elétrica (curto-circuito, disjuntor)', base: 110},
@@ -126,14 +126,10 @@ function calculate() {
  const urgency = document.getElementById('urgency').value;
  const hours = parseInt(document.getElementById('hours').value);
  // Travel
- const travelPrices = {1: 20, 2: 25, 3: 30, 4: 40};
- const travel = travelPrices[zone] || 25;
- // Hour price with urgency multiplier
- const hourBase = 80;
- let hourMultiplier = 1;
- if (urgency === 'noite') hourMultiplier = 1.5;
- else if (urgency === 'sabado') hourMultiplier = 1;
- else if (urgency === 'domingo') hourMultiplier = 1.2;
+ const travelPrices = {1: 15, 2: 25, 3: 35, 4: 45, 5: 55, 6: 65};
+ let hourMultiplier = (urgency === 'normal') ? 1 : 1.5;
+ const travel = (travelPrices[zone] || 15) * hourMultiplier;
+ const hourBase = (currentService === 'canal') ? 65 : 70;
  const hourPrice = hourBase * hourMultiplier * hours;
  const total = serviceBase + travel + hourPrice;
  // Show result
