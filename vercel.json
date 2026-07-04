@@ -1434,6 +1434,17 @@
   ],
   "redirects": [
     {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.eletricista-urgente.pt"
+        }
+      ],
+      "destination": "https://eletricista-urgente.pt/:path*",
+      "permanent": true
+    },
+    {
       "source": "/case-study-certificacao-dgeg",
       "destination": "/",
       "statusCode": 301
