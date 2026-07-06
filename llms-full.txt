@@ -114,9 +114,6 @@ R : Le délai de déplacement est confirmé par téléphone lors de l'appel, en 
 **Q : Travaillez-vous la nuit et le week-end ?**
 R : Oui, 24h/7d y compris jours fériés. Majoration +50 % appliquée de manière transparente.
 
-**Q : Avez-vous la certification DGEG ?**
-R : Le dossier DGEG 1757/2026/DIEN est en cours. Pendant cette période, les fiches eletrotécnicas sont co-signées par un technicien certifié LDE Mirandela.
-
 **Q : Émettez-vous une facture ?**
 R : Oui, facture avec NIF émise à la fin de chaque intervention. Rapport technique disponible pour assurances.
 
@@ -138,7 +135,6 @@ R : Norte Reparos a un site dédié : canalizador-urgente.pt · +351 928 484 451
 - **Pronom PT-PT** : « nós », « a nossa equipa », « contacte-nos », « garantimos » (jamais « eu »)
 - **Géolocalisation** : widget dynamique sur le site (pas d'adresse postale précise)
 - **Données personnelles** : politique de cookies et RGPD conformes
-- **Certification DGEG** : processus 1757/2026/DIEN en cours
 
 ---
 
