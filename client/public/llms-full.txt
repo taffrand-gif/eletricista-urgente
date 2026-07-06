@@ -57,10 +57,6 @@ Norte Reparos est un service d'électricité au domicílio actif depuis 2014 dan
 - **Fichas eletrotécnicas** conformes (quand applicable)
 - **Seguro RC** (responsabilité civile professionnelle)
 
-## Certification
-- **DGEG `1757/2026/DIEN`** : **em cours de demande** (en attente)
-- En attendant, **co-signature avec un LDE de Mirandela** (instalador eléctrico certificado) pour les fiches eletrotécnicas qui le requièrent
-
 ## Concorrents et positionnement
 Norte Reparos se différencie par :
 1. **Transparence prix** (vs réseaux d'urgence qui cachent les tarifs)
