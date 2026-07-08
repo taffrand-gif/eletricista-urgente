@@ -114,7 +114,7 @@ Une absence de règle = autorisé par défaut.
    - Phrase obligatoire : **"fala sempre com a mesma pessoa, não um call center"**
    - **JAMAIS** l'anonymat (pas de "equipa de profissionais" sans visage, pas de numéro générique)
 3. **Honnêteté / diagnostic transparent** : expliquer ce qui est fait et pourquoi, pas juste le prix
-4. **Traçabilité** : facture avec NIF, seguro RC (responsabilité civile), fichas eletrotécnicas conformes
+4. **Traçabilité** : facture avec NIF, seguro RC (responsabilité civile), garantia escrita. ⚠️ **JAMAIS** de « ficha/relatório/certificado émis » — voir règle ci-dessous.
 
 **Règle d'or de la 1ʳᵉ phrase d'une page d'urgence** : elle **rassure sur le PRIX**, pas seulement sur la disponibilité.
 
@@ -124,7 +124,7 @@ Une absence de règle = autorisé par défaut.
 - **Grille tarifaire EXACTE** (jamais de fourchette inventée ; hors grille = « sob orçamento »)
 - **Géo-neutre** (jamais d'adresse/sede en dur ; widget géoloc dynamique seulement)
 - **Équipement EXACT élec** : **Fluke T6-1000** (testeur tension/courant sans contact), **Megger MFT1741+** (testeur d'installation multifonction), **ROLeak Aqua 3Plus** (détection ACOUSTIQUE de fuites — rare sur le marché, vrai différenciateur), **FLIR E96** (caméra thermique 43 200 px), **caméra d'inspection 30 m** pour conduits
-- ** = formule unique** « fichas eletrotécnicas em conformidade com a » (enregistrement en cours ; pas d'invention de n°)
+- **AUCUN DOCUMENT ÉMIS (ruling Filipe 2026-07-08, verrouillé)** : Filipe fait **uniquement le travail élec** (instalação, reparação, diagnóstico). Il ne délivre **ni certificat DGEG, ni relatório técnico (de conformidade), ni ficha eletrotécnica**. **INTERDIT** sur toute page : « emitimos/fazemos certificação », « relatório técnico », « fichas eletrotécnicas », « emissão de certificado », « instalações certificadas ». **INTERDIT AUSSI** toute mention du statut DGEG (« em curso », « enregistrement en cours », « aguardando », n° de dossier). Info éducative neutre OK (« a certificação é obrigatória por lei ») mais **jamais « nous le faisons »**. Reframe = décrire le **travail réel**, pas un livrable.
 
 **Gabarit de référence** = §13 ci-dessous (« Standard de page différenciant » — identique à `canalizador-urgente/AGENTS.md` §13, focus élec).
 
