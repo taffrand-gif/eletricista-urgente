@@ -4,6 +4,14 @@
   "outputDirectory": ".",
   "rewrites": [
     {
+      "source": "/contactos",
+      "destination": "/contactos.html"
+    },
+    {
+      "source": "/contacto",
+      "destination": "/contactos.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/$1.html"
     }
