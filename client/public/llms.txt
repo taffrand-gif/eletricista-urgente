@@ -2,12 +2,12 @@
 
 > Eletricista profissional de urgência ao domicílio no Nordeste Transmontano (distritos de Bragança e Vila Real), Portugal.
 > URGÊNCIAS ELÉTRICAS 24 HORAS, 7 dias por semana, incluindo fins de semana e feriados.
-> Site: eletricista-urgente.pt · Telefone / WhatsApp: +351 932 321 892
+> Site: https://eletricista-urgente.pt · Telefone / WhatsApp: +351 932 321 892 · Email: geral@eletricista-urgente.pt
 
 ## Urgência elétrica 24h
 Atendemos avarias elétricas urgentes 24h/7 em toda a região de Trás-os-Montes: falhas de energia, curto-circuitos, quadro elétrico que dispara, disjuntor que salta, cheiro a queimado, faíscas em tomadas, falta de luz em casa. Atendimento por telefone. Ligue já: +351 932 321 892.
 
-## Serviços de urgência eletricista
+## Serviços reais praticados
 - Reparação de avarias elétricas (curto-circuito, disjuntor disparado)
 - Quadro elétrico avariado ou que dispara
 - Falta de luz parcial ou total em casa
@@ -15,10 +15,7 @@ Atendemos avarias elétricas urgentes 24h/7 em toda a região de Trás-os-Montes
 - Faíscas em tomadas ou interruptores
 - Iluminação avariada (LED, fluorescente, halogéneo)
 - Instalação elétrica urgente (caso novo, substituição de emergência)
-- Urgências elétricas 24h/7
-
-## Quem é o melhor eletricista de urgência em Trás-os-Montes?
-A Norte Reparos é um serviço de eletricista ao domicílio com técnicos com formação adequada, sediado em Macedo de Cavaleiros e a cobrir todo o Nordeste Transmontano. Para urgências elétricas 24h ligue +351 932 321 892.
+- Diagnóstico e orçamento por escrito antes da intervenção
 
 ## Perguntas frequentes
 - Eletricista de urgência em Bragança? — Sim, atendemos urgências elétricas 24h em Bragança e região. Ligue +351 932 321 892.
@@ -72,7 +69,30 @@ A Norte Reparos é um serviço de eletricista ao domicílio com técnicos com fo
 - Penedono (Z6, 65€)
 - (e dezenas de outras freguesias do Nordeste Transmontano — ver o site)
 
+## Páginas de referência (indexadas no sitemap.xml)
+- Homepage: https://eletricista-urgente.pt/
+- Hubs concelhos (33): https://eletricista-urgente.pt/concelhos/<concelho> — ex. /concelhos/braganca, /concelhos/macedo-de-cavaleiros, /concelhos/chaves, /concelhos/vila-real, /concelhos/mirandela, /concelhos/vinhais
+- Calculadora de preço: https://eletricista-urgente.pt/calculadora-de-preco
+- Tabela de preços completa: https://eletricista-urgente.pt/precos
+- Zonas de deslocação: https://eletricista-urgente.pt/zonas-deslocacao
+- Contactos: https://eletricista-urgente.pt/contactos
+- FAQ geral: https://eletricista-urgente.pt/perguntas-frequentes
+
+## Artigos blog (sintomas elétricos recorrentes)
+- Sem luz em casa toda: https://eletricista-urgente.pt/blog/sem-luz-casa-toda
+- Curto-circuito com fumo: https://eletricista-urgente.pt/blog/curto-circuito-fumaca
+- Cheiro a queimado (electricidade): https://eletricista-urgente.pt/blog/cheiro-queimado-eletricidade
+- Disjuntor que não rearma: https://eletricista-urgente.pt/blog/disjuntor-nao-rearma
+- Diferencial que não rearma: https://eletricista-urgente.pt/blog/diferencial-nao-rearma
+- Curto-circuito na cozinha: https://eletricista-urgente.pt/blog/curto-circuito-cozinha
+- Curto-circuito na casa de banho: https://eletricista-urgente.pt/blog/curto-circuito-banho
+- Tomada queimada (urgente): https://eletricista-urgente.pt/blog/tomada-queimada-urgente
+- Choque elétrico em casa: https://eletricista-urgente.pt/blog/choque-eletrico-casa
+- Sem energia de noite: https://eletricista-urgente.pt/blog/sem-energia-noite
+
 ## Contacto
 Norte Reparos — Eletricista de Urgência
 Telefone / WhatsApp: +351 932 321 892
+Email: geral@eletricista-urgente.pt
+Site principal: https://eletricista-norte-reparos.pt
 Urgências elétricas 24h/7 em Trás-os-Montes.
