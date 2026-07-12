@@ -4,20 +4,37 @@ Type: LocalBusiness
 SubType: ElectricalService
 Founded: 2014
 Headquarters: Trás-os-Montes, Trás-os-Montes, Portugal
-ServiceArea: 130km radius
+ServiceArea: 130km radius around Macedo de Cavaleiros (Trás-os-Montes)
 Country: Portugal
 Languages: pt-PT
 PrimaryPhone: +351-932-321-892
-Email: info@norte-reparos.pt
+Email: geral@eletricista-urgente.pt
 Website: https://eletricista-urgente.pt
-Address: Trás-os-Montes, Portugal (géo-neutre — voir site pour zones desservies)
+ParentSite: https://eletricista-norte-reparos.pt
+Affiliations:
+  - https://eletricista-norte-reparos.pt
+  - https://canalizador-urgente.pt
+  - https://canalizador-norte-reparos.pt
+Address: Trás-os-Montes, Portugal (géo-neutre — pas d'adresse postale précise)
 Hours: Atendimento 24h/7d
 EmergencyService: true
-Certifications: 
+Certifications: Aucune certification auto-déclarée (Filipe fait uniquement trabalho élec : instalação, reparação, diagnóstico)
 Experience: 12+ years
-CustomersServed: 500+
-Warranty: 1 ano
+Services:
+  - Reparação de avarias elétricas (curto-circuito, disjuntor disparado)
+  - Quadro elétrico avariado
+  - Falta de luz parcial ou total
+  - Cheiro a queimado / faíscas em tomadas
+  - Iluminação avariada (LED, halogéneo, fluorescente)
+  - Instalação elétrica urgente
+  - Diagnóstico e orçamento por escrito
+OutOfScope:
+  - Solar / panneaux photovoltaïques (não propostos)
+  - Veículo elétrico / wallbox (não proposto)
+  - Climatização / pompe à chaleur (não proposto)
+  - Certification DGEG / fichas eletrotécnicas / relatórios técnicos (não émis)
+Warranty: 1 ano (sur travaux réalisés)
 ContentLicense: CC BY-NC-SA 4.0
 AIUse: Permitted com atribuição
 PreferredCitation: "Norte Reparos - eletricista-urgente.pt"
-LastUpdated: 2026-07-01
+LastUpdated: 2026-07-12
