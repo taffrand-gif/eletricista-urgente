@@ -1,0 +1,497 @@
+/* ============================================================
+   NORTE REPAROS — PREMIUM DESIGN TOKENS
+   Eletricista Urgente (Élec URGENCE · Trás-os-Montes)
+   Pilote 2026-07-13 — Doctrine §12 Transparence Radicale + R11 ZÉRO INVENTION
+   ============================================================
+
+   Identité divergeante vs CU (canalizador-urgente) :
+   - Base indigo / noir  : #1A1A3A  (filiation ENR install)
+   - Accent hazard rouge : #FF2D1F  (alarme · urgence · CTA + bandeau seulement)
+   - Accent hazard jaune : #FACC15  (éclair glow · pictogrammes · >=18px sur body)
+
+   GARDER STRUCTURE HEADER / FOOTER / LOGO / NAP PUBLIC tel:+351****1892
+   Click-to-call sticky proéminent (mobile-first · trafic rural).
+   R145 : JAMAIS délai chiffré → "orçamento prévio por telefone" uniquement.
+   R11 : JAMAIS photo / avis inventé.
+   Contraste AA : rouge/jaune vif = FAIL sur body text → CTA/bandeau/icônes >= 18px.
+   ============================================================ */
+
+:root {
+  /* === ELEC URGENCE TOKENS (filiation ENR indigo, accents hazard) === */
+  --elec-ink:        #0A0A1A;   /* fond très sombre (header/footer/hero) */
+  --elec-primary:    #1A1A3A;   /* indigo Norte-OS élec (base) */
+  --elec-primary-2:  #2A2A5A;   /* indigo clair (hover/secondary surface) */
+  --elec-hazard:     #FF2D1F;   /* rouge alarme — CTA + bandeau hazard */
+  --elec-hazard-dk:  #C71F12;   /* rouge foncé (hover) */
+  --elec-volt:       #FACC15;   /* jaune éclair glow — accent signature */
+  --elec-volt-dk:    #CA8A04;   /* jaune doré (hover secondaire) */
+  --elec-surface:    #FFFFFF;   /* cartes */
+  --elec-surface-2:  #F8FAFC;   /* sections alt */
+  --elec-bg-soft:    #1E1E3F;   /* cartes en section sombre */
+  --elec-border:     rgba(255, 255, 255, 0.12);
+  --elec-border-dk:  rgba(0, 0, 0, 0.08);
+  --elec-muted:      #6B7280;   /* texte atténué */
+  --elec-text:       #0F172A;   /* body text (toujours foncé sur clair) */
+  --elec-text-inv:   #F8FAFC;   /* body text inversé (sur fond sombre) */
+
+  /* WhatsApp inchangé (universel) */
+  --whatsapp:        #25D366;
+  --whatsapp-dk:     #1EBE5B;
+
+  /* === SPACING (8px base) === */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 48px;
+  --space-7: 64px;
+  --space-8: 96px;
+
+  /* === TYPOGRAPHY === */
+  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --text-xs:   12px;
+  --text-sm:   14px;
+  --text-base: 16px;
+  --text-lg:   18px;
+  --text-xl:   24px;
+  --text-2xl:  32px;
+  --text-3xl:  48px;
+  --leading-tight:  1.1;
+  --leading-normal: 1.65;
+  --tracking-tight: -0.02em;
+
+  /* === RADIUS === */
+  --radius-sm: 6px;
+  --radius:    10px;
+  --radius-lg: 14px;
+
+  /* === SHADOWS === */
+  --shadow-sm: 0 2px 6px rgba(10, 10, 26, 0.08);
+  --shadow:    0 4px 16px rgba(10, 10, 26, 0.10);
+  --shadow-lg: 0 12px 32px rgba(10, 10, 26, 0.18);
+
+  /* === GLOW signature (éclair — JAMAIS sur body, uniquement accents/icônes/CTA) === */
+  --glow-volt:   0 0 18px rgba(250, 204, 21, 0.55);
+  --glow-hazard: 0 0 22px rgba(255, 45, 31, 0.45);
+}
+
+/* ============================================================
+   RESET
+   ============================================================ */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font);
+  line-height: var(--leading-normal);
+  color: var(--elec-text);          /* body text TOUJOURS foncé (AA pass) */
+  background: var(--elec-surface);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================================================
+   HEADER STICKY (mobile-first · click-to-call proéminent)
+   ============================================================ */
+header.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--elec-ink);
+  color: #fff;
+  border-bottom: 3px solid var(--elec-volt);
+  padding: 14px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.brand {
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: #fff;
+  text-decoration: none;
+}
+.brand span { color: var(--elec-volt); }
+.header-cta {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.header-cta a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+  min-height: 44px;       /* cible tactile mobile ≥ 44px */
+}
+.btn-call {
+  background: var(--elec-hazard);
+  color: #fff;
+  box-shadow: var(--glow-hazard);
+}
+.btn-call:hover { background: var(--elec-hazard-dk); box-shadow: 0 0 28px rgba(255, 45, 31, 0.65); }
+.btn-whatsapp { background: var(--whatsapp); color: #fff; }
+.btn-whatsapp:hover { background: var(--whatsapp-dk); }
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero {
+  background: linear-gradient(135deg, var(--elec-ink) 0%, var(--elec-primary) 100%);
+  color: #fff;
+  padding: 60px 20px 50px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+/* Effet signature : éclair glow discret (JAUNE volt) — purement décoratif, hors body */
+.hero::before {
+  content: "⚡";
+  position: absolute;
+  top: 18px;
+  right: 26px;
+  font-size: 4.5rem;
+  color: var(--elec-volt);
+  opacity: 0.18;
+  filter: drop-shadow(var(--glow-volt));
+  pointer-events: none;
+}
+.hero h1 {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  margin-bottom: 18px;
+  font-weight: 800;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.25;
+  color: #fff;
+}
+.hero h1 strong { color: var(--elec-volt); }
+.hero .sub {
+  font-size: 1.15rem;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 720px;
+  margin: 0 auto 28px;
+}
+.hero .cta-row {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.hero .cta-row a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 24px;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  min-height: 48px;
+}
+.btn-primary { background: var(--elec-hazard); color: #fff; box-shadow: var(--glow-hazard); }
+.btn-primary:hover { background: var(--elec-hazard-dk); }
+.btn-secondary {
+  background: transparent;
+  color: #fff;
+  border: 2px solid var(--elec-volt);
+}
+.btn-secondary:hover { background: var(--elec-volt); color: var(--elec-ink); }
+
+/* ============================================================
+   BANDEAU HAZARD URGENCE (signature EU · Doctrine §12 §1)
+   HAUT de page · AVANT le tarifário · rappelle "orçamento prévio por telefone"
+   ============================================================ */
+section.bandeau-hazard {
+  background: linear-gradient(90deg, var(--elec-hazard) 0%, #E63946 100%);
+  color: #fff;
+  padding: 14px 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1rem;
+  border-top: 3px solid var(--elec-volt);
+  border-bottom: 3px solid var(--elec-volt);
+}
+.bandeau-hazard .glyph {
+  color: var(--elec-volt);
+  font-size: 1.4rem;
+  margin-right: 8px;
+  filter: drop-shadow(var(--glow-volt));
+  vertical-align: -2px;
+}
+.bandeau-hazard strong { color: var(--elec-volt); }
+.bandeau-hazard a {
+  color: #fff;
+  text-decoration: underline;
+  margin-left: 6px;
+}
+
+/* ============================================================
+   BANDEAU GRILLE TARIFAIRE (HAUTE VISIBILITÉ · Doctrine §12 §1)
+   ============================================================ */
+section.tarif {
+  background: #FFFBEB;
+  border-top: 4px solid var(--elec-volt);
+  border-bottom: 4px solid var(--elec-volt);
+  padding: 50px 20px;
+}
+.tarif-inner { max-width: 1100px; margin: 0 auto; }
+.tarif h2 {
+  font-size: 1.9rem;
+  color: var(--elec-text);
+  text-align: center;
+  margin-bottom: 10px;
+}
+.tarif .lead {
+  text-align: center;
+  color: var(--elec-muted);
+  margin-bottom: 30px;
+  font-size: 1.05rem;
+}
+.prix-base { text-align: center; margin-bottom: 30px; }
+.prix-base .montant {
+  font-size: clamp(3rem, 7vw, 4.5rem);
+  font-weight: 900;
+  color: var(--elec-hazard);
+  line-height: 1;
+  filter: drop-shadow(var(--glow-hazard));
+}
+.prix-base .label {
+  font-size: 1.05rem;
+  color: var(--elec-text);
+  margin-top: 6px;
+  font-weight: 600;
+}
+.zones-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  margin-bottom: 22px;
+}
+.zones-table th,
+.zones-table td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #F1F5F9;
+}
+.zones-table th {
+  background: var(--elec-ink);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+.zones-table td.zone-nom { font-weight: 600; color: var(--elec-text); }
+.zones-table td.zone-prix { color: var(--elec-hazard); font-weight: 700; text-align: right; }
+.zones-table tr:last-child td { border-bottom: none; }
+.majoration {
+  background: #FEF3C7;
+  border-left: 4px solid var(--elec-volt-dk);
+  padding: 14px 18px;
+  border-radius: var(--radius-sm);
+  margin-bottom: 22px;
+  color: #78350F;
+}
+.garantie-prix {
+  background: var(--elec-primary);
+  color: #fff;
+  padding: 18px 24px;
+  border-radius: var(--radius);
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.4;
+  border: 2px solid var(--elec-volt);
+}
+
+/* ============================================================
+   SECTIONS STANDARD
+   ============================================================ */
+section.section { padding: 60px 20px; }
+section.section.alt   { background: var(--elec-surface-2); }
+section.section.dark  {
+  background: linear-gradient(135deg, var(--elec-ink) 0%, var(--elec-primary) 100%);
+  color: #fff;
+}
+.container { max-width: 1100px; margin: 0 auto; }
+.section h2 {
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
+  margin-bottom: 14px;
+  color: var(--elec-text);
+  text-align: center;
+}
+section.section.dark h2 { color: #fff; }
+.section .intro {
+  text-align: center;
+  color: var(--elec-muted);
+  max-width: 760px;
+  margin: 0 auto 32px;
+  font-size: 1.05rem;
+}
+section.section.dark .intro { color: rgba(255, 255, 255, 0.82); }
+
+/* Artisan local */
+.artisan-card {
+  background: #fff;
+  border-left: 5px solid var(--elec-volt);
+  padding: 28px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  max-width: 820px;
+  margin: 0 auto;
+}
+.artisan-card p { margin-bottom: 14px; color: #1F2937; }
+.artisan-card p:last-child { margin-bottom: 0; }
+.artisan-card .sloggan {
+  font-weight: 800;
+  color: var(--elec-hazard);
+  font-size: 1.15rem;
+  margin-bottom: 14px;
+  display: block;
+}
+
+/* Equipamento */
+.equip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 18px;
+}
+.equip-item {
+  background: #fff;
+  border: 1px solid #E5E7EB;
+  border-radius: var(--radius);
+  padding: 22px;
+}
+.equip-item h3 {
+  color: var(--elec-primary);
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+.equip-item p { color: var(--elec-muted); font-size: 0.97rem; }
+
+/* Zonas */
+.zonas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+.zona-item {
+  background: #fff;
+  border: 1px solid #E5E7EB;
+  border-left: 4px solid var(--elec-volt);
+  padding: 16px;
+  border-radius: var(--radius-sm);
+}
+.zona-item .city { font-weight: 700; color: var(--elec-text); }
+.zona-item .zone-tag {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 0.85rem;
+  color: var(--elec-hazard);
+  font-weight: 700;
+}
+
+/* FAQ */
+.faq-list { max-width: 820px; margin: 0 auto; }
+.faq-item {
+  background: #fff;
+  border: 1px solid #E5E7EB;
+  border-radius: var(--radius);
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+.faq-item summary {
+  cursor: pointer;
+  padding: 18px 22px;
+  font-weight: 700;
+  color: var(--elec-text);
+  list-style: none;
+  position: relative;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after {
+  content: '+';
+  position: absolute;
+  right: 22px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--elec-hazard);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.faq-item[open] summary::after { content: '−'; }
+.faq-item .faq-body { padding: 0 22px 20px; color: #374151; }
+
+/* CTA final */
+.cta-final { text-align: center; padding: 50px 20px; }
+.cta-final h2 { color: #fff; }
+.cta-final p { color: rgba(255, 255, 255, 0.82); max-width: 620px; margin: 0 auto 24px; }
+.cta-final .cta-row { justify-content: center; }
+
+/* Footer */
+footer {
+  background: #07070F;
+  color: #9CA3AF;
+  padding: 28px 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  border-top: 3px solid var(--elec-primary);
+}
+footer a { color: var(--elec-volt); text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+
+/* ============================================================
+   CLICK-TO-CALL STICKY (mobile-first · Doctrines §13 §5)
+   ============================================================ */
+.sticky-call {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 60;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 20px;
+  background: var(--elec-hazard);
+  color: #fff;
+  border-radius: 999px;
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: var(--shadow-lg), var(--glow-hazard);
+  font-size: 1rem;
+  min-height: 48px;
+  transition: transform 0.15s ease;
+}
+.sticky-call:hover  { transform: translateY(-2px); }
+.sticky-call:active { transform: translateY(0); }
+.sticky-call .glyph {
+  color: var(--elec-volt);
+  filter: drop-shadow(var(--glow-volt));
+  font-size: 1.2rem;
+}
+@media (min-width: 720px) {
+  /* Desktop : header déjà proéminent, sticky redondant → on masque */
+  .sticky-call { display: none; }
+}
+
+/* ============================================================
+   MOBILE
+   ============================================================ */
+@media (max-width: 720px) {
+  header.site-header { padding: 10px 14px; }
+  .hero { padding: 40px 16px 36px; }
+  .hero::before { font-size: 3rem; top: 12px; right: 16px; }
+  section.tarif { padding: 36px 14px; }
+  .zones-table th, .zones-table td { padding: 10px 12px; font-size: 0.92rem; }
+  .zones-table td.zone-prix { text-align: right; }
+}
