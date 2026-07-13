@@ -16,12 +16,12 @@ priority: "HIGH DEMAND"
 ## ⚠️ AVISO DE SEGURANÇA CRÍTICO
 
 **Quadro elétrico defeituoso é causa principal de:**
-- Incêndios elétricos (40% dos casos)
+- Incêndios elétricos ()
 - Eletrocussão fatal
 - Danos em aparelhos (€500-5.000)
 - Falta de proteção contra choques
 
-**SINAIS DE EMERGÊNCIA - Desligue disjuntor geral + Ligue 932 321 892:**
+**SINAIS DE EMERGÊNCIA - Desligue disjuntor geral + Ligue Contacto por telefone ou WhatsApp:**
 - Cheiro a queimado no quadro
 - Fumo saindo do quadro
 - Quadro quente ao toque
@@ -69,7 +69,7 @@ O quadro elétrico distribui eletricidade pela casa e protege contra sobrecargas
 
 ## 8 Problemas Comuns no Quadro Elétrico
 
-### 1. Quadro Antigo Sem Diferencial (45% dos casos)
+### 1. Quadro Antigo Sem Diferencial ()
 
 **Problema grave em Trás-os-Montes:**
 - 55% das casas têm quadros pré-2006
@@ -94,7 +94,7 @@ O quadro elétrico distribui eletricidade pela casa e protege contra sobrecargas
 
 **Urgência:** ALTA - obrigatório por lei
 
-### 2. Disjuntores Que Não Desarmam (20% dos casos)
+### 2. Disjuntores Que Não Desarmam ()
 
 **Problema extremamente perigoso:**
 
@@ -120,7 +120,7 @@ O quadro elétrico distribui eletricidade pela casa e protege contra sobrecargas
 
 **⚠️ EMERGÊNCIA:** Se suspeita que disjuntor não funciona, desligue geral e chame eletricista urgente: **932 321 892**
 
-### 3. Quadro Subdimensionado (15% dos casos)
+### 3. Quadro Subdimensionado ()
 
 **Instalação não parranjada para consumo atual:**
 
@@ -155,7 +155,7 @@ TOTAL: 11-15 circuitos
 
 **Solução:** Upgrade do quadro €600-1.500
 
-### 4. Ligações Soltas ou Queimadas (10% dos casos)
+### 4. Ligações Soltas ou Queimadas ()
 
 **Problema que piora com tempo:**
 
@@ -182,7 +182,7 @@ TOTAL: 11-15 circuitos
 
 **Prevenção:** Inspeção anual
 
-### 5. Humidade no Quadro (5% dos casos)
+### 5. Humidade no Quadro ()
 
 **Problema em casas com infiltrações:**
 
@@ -211,7 +211,7 @@ TOTAL: 11-15 circuitos
 - Substituir componentes oxidados €150-400
 - Quadro estanque IP65 €100-200 extra
 
-### 6. Disjuntor Diferencial Que Desarma Constantemente (3% dos casos)
+### 6. Disjuntor Diferencial Que Desarma Constantemente ()
 
 **Problema frustrante mas importante:**
 
@@ -237,7 +237,7 @@ TOTAL: 11-15 circuitos
 
 **IMPORTANTE:** Diferencial que desarma está a PROTEGER você! Não desative!
 
-### 7. Quadro Sobreaquecido (1,5% dos casos)
+### 7. Quadro Sobreaquecido ()
 
 **Sinal de problema grave:**
 
@@ -265,7 +265,7 @@ TOTAL: 11-15 circuitos
 
 **⚠️ EMERGÊNCIA:** Quadro muito quente = desligue geral + ligue 932 321 892
 
-### 8. Ausência de Etiquetas/Identificação (0,5% dos casos)
+### 8. Ausência de Etiquetas/Identificação ()
 
 **Problema de segurança e praticidade:**
 
@@ -341,9 +341,7 @@ TOTAL: 11-15 circuitos
 **2. Disjuntores Magnetotérmicos**
 - Proteção contra sobrecarga e curto
 - Curva C (uso doméstico)
-- Marcas: Schneider, Legrand, ABB, Siemens
-
-**3. Protetor de Sobretensão (DPS)**
+- Marcas: **3. Protetor de Sobretensão (DPS)**
 - Proteção contra raios
 - Recomendado em zonas rurais
 - €80-150
@@ -395,7 +393,6 @@ TOTAL: 11-15 circuitos
 | Quadro básico (6-8 circuitos) | €400-700 | €700-1.200 |
 | Quadro médio (10-12 circuitos) | €600-1.000 | €1.000-1.600 |
 | Quadro completo (14-18 circuitos) | €800-1.500 | €1.400-2.500 |
-| Fichas eletrotécnicas assinadas por técnico Profissional | €150-300 | €250-450 |
 
 **Dica:** Substituição preventiva €600 vs emergência €1.500+
 
@@ -454,13 +451,13 @@ R: SIM! Sem diferencial = risco eletrocussão. Fusíveis = proteção inadequada
 
 ** - eletricista com experiência em Trás-os-Montes**
 
-📞 **Ligue Agora: 932 321 892**
+📞 **Contacto: 321 892**
 - ✅ Atendimento 24h/7d (emergências elétricas)
 - ✅ eletricista com experiência chega Atendimento prioritário
 - ✅ Inspeção completa do quadro €80-150
 - ✅ Substituição quadro completo €600-1.500
-- ✅ Fichas eletrotécnicas assinadas por técnico Profissional incluída
-- ✅ Garantia 12 meses em todos os serviços
+
+- ✅ garantia por escrito em todos os serviços
 
 💬 **WhatsApp:** [Emergência elétrica](https://wa.me/351932321892?text=Olá,%20tenho%20problema%20no%20quadro%20elétrico!)
 

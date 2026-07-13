@@ -21,7 +21,7 @@ priority: "CRITICAL"
 - Destruir aparelhos (€500-5.000)
 - Queimar instalação completa (€3.000-15.000)
 
-**SINAIS DE EMERGÊNCIA - Ligue 112 + 932 321 892:**
+**SINAIS DE EMERGÊNCIA - Ligue 112 + Contacto por telefone ou WhatsApp:**
 - Cheiro a queimado forte
 - Fumo saindo de tomada/quadro
 - Faíscas visíveis
@@ -33,7 +33,7 @@ priority: "CRITICAL"
 1. **Desligue disjuntor geral**
 2. **Saia de casa se houver fumo/chamas**
 3. **Ligue 112 (bombeiros)**
-4. **Ligue eletricista urgente: 932 321 892**
+4. **Ligue eletricista urgente: Contacto por telefone ou WhatsApp**
 5. **NÃO tente apagar com água** (use extintor CO₂)
 
 ## O Que É Curto-Circuito?
@@ -62,7 +62,7 @@ Curto-circuito acontece quando corrente elétrica toma "atalho" não previsto, e
 
 ## 10 Causas Principais de Curto-Circuito
 
-### 1. Instalação Elétrica Antiga (35% dos casos)
+### 1. Instalação Elétrica Antiga ()
 
 **Problema em Trás-os-Montes:**
 - 60% das casas têm 30+ anos
@@ -81,7 +81,7 @@ Curto-circuito acontece quando corrente elétrica toma "atalho" não previsto, e
 **Solução:** Rewiring completo €2.000-8.000
 **Urgência:** ALTA - risco de incêndio diário
 
-### 2. Sobrecarga de Circuito (25% dos casos)
+### 2. Sobrecarga de Circuito ()
 
 **Causa mais comum em casas modernas:**
 
@@ -113,7 +113,7 @@ TOTAL: 6.000W → SOBRECARGA 63%!
 - Adicionar circuitos dedicados €150-400/cada
 - Upgrade quadro elétrico €400-1.200
 
-### 3. Fios Danificados ou Roídos (15% dos casos)
+### 3. Fios Danificados ou Roídos ()
 
 **Problema grave em zonas rurais:**
 
@@ -143,7 +143,7 @@ TOTAL: 6.000W → SOBRECARGA 63%!
 - Proteção mecânica de fios
 - Inspeção anual
 
-### 4. Aparelhos Defeituosos (10% dos casos)
+### 4. Aparelhos Defeituosos ()
 
 **Eletrodomésticos avariados causam curtos:**
 
@@ -172,7 +172,7 @@ TOTAL: 6.000W → SOBRECARGA 63%!
 - Não usar aparelhos com cabo danificado
 - Descartar aparelhos com 10+ anos
 
-### 5. Água em Contacto com Eletricidade (8% dos casos)
+### 5. Água em Contacto com Eletricidade ()
 
 **Combinação mortal:**
 
@@ -204,7 +204,7 @@ TOTAL: 6.000W → SOBRECARGA 63%!
 - Tomadas longe de água
 - Disjuntor diferencial 30mA
 
-### 6. Ligações Mal Feitas (5% dos casos)
+### 6. Ligações Mal Feitas ()
 
 **Erro em obras/DIY:**
 
@@ -234,7 +234,7 @@ TOTAL: 6.000W → SOBRECARGA 63%!
 - Não fazer DIY sem conhecimento
 - Usar conectores adequados (Wago, não fita)
 
-### 7. Tomadas e Interruptores Defeituosos (1,5% dos casos)
+### 7. Tomadas e Interruptores Defeituosos ()
 
 **Desgaste natural:**
 
@@ -255,11 +255,10 @@ TOTAL: 6.000W → SOBRECARGA 63%!
 **Solução:** Substituir tomada/interruptor €40-80
 
 **Prevenção:**
-- Usar marcas de qualidade (Legrand, Schneider)
-- Substituir a cada 15-20 anos
+- Usar marcas de qualidade (- Substituir a cada 15-20 anos
 - Não forçar fichas
 
-### 8. Raios e Sobretensões (0,8% dos casos)
+### 8. Raios e Sobretensões ()
 
 **Problema em Trás-os-Montes (trovoadas frequentes):**
 
@@ -285,7 +284,7 @@ TOTAL: 6.000W → SOBRECARGA 63%!
 - Protetor de sobretensão no quadro
 - Para-raios em casas expostas
 
-### 9. Extensões e Fichas Múltiplas (0,5% dos casos)
+### 9. Extensões e Fichas Múltiplas ()
 
 **Uso inadequado:**
 
@@ -317,7 +316,7 @@ TOTAL: 2.600W → SOBRECARGA 13%!
 - Não sobrecarregar
 - Adicionar tomadas fixas €40-80/cada
 
-### 10. Quadro Elétrico Defeituoso (0,2% dos casos)
+### 10. Quadro Elétrico Defeituoso ()
 
 **Problema grave:**
 
@@ -436,7 +435,7 @@ TOTAL: 2.600W → SOBRECARGA 13%!
  - Não volte até bombeiros autorizarem
 4. **Se não houver chamas:**
  - Ventile casa
- - Ligue eletricista urgente: 932 321 892
+ - Ligue eletricista urgente: Contacto por telefone ou WhatsApp
  - NÃO religue eletricidade
 
 ### Se Vir Faíscas:
@@ -446,7 +445,7 @@ TOTAL: 2.600W → SOBRECARGA 13%!
 1. **Desligue disjuntor geral imediatamente**
 2. **Não toque em nada metálico**
 3. **Saia da zona**
-4. **Ligue eletricista urgente: 932 321 892**
+4. **Ligue eletricista urgente: Contacto por telefone ou WhatsApp**
 5. **Se houver fogo:**
  - Use extintor CO₂ (NUNCA água!)
  - Ligue 112
@@ -518,12 +517,11 @@ R: Diagnóstico €60-120, arranjo €100-500. Urgente 24h: +50-100%. : **932 32
 
 ** - eletricista com experiência em Trás-os-Montes**
 
-📞 **Ligue Agora: 932 321 892**
+📞 **Contacto: 321 892**
 - ✅ Atendimento 24h/7d (emergências elétricas)
 - ✅ eletricista com experiência chega Atendimento prioritário
 - ✅ Diagnóstico de curto-circuito com equipamento profissional
 - ✅ Inspeção elétrica completa €150-400
-- ✅ Fichas eletrotécnicas assinadas por técnico Profissional incluída
 
 💬 **WhatsApp:** [Emergência elétrica](https://wa.me/351932321892?text=URGENTE:%20Tenho%20problema%20elétrico%20grave!)
 

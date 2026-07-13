@@ -4,14 +4,14 @@ slug: "quadro-eletrico-antigo-modernizar"
 category: "Modernização Elétrica"
 date: "2026-03-04"
 author: ""
-excerpt: "Quadro elétrico com mais de 20 anos é perigoso! Descubra os 8 sinais de que precisa modernizar, benefícios (segurança +90%, disjuntor diferencial), custos em Trás-os-Montes (€300-800)."
-keywords: ["quadro elétrico antigo", "modernizar quadro elétrico", "substituir quadro elétrico", "disjuntor diferencial", "eletricista Trás-os-Montes", "Fichas eletrotécnicas assinadas por técnico Profissional", "upgrade elétrico"]
+excerpt: "Quadro elétrico com  é perigoso! Descubra os 8 sinais de que precisa modernizar, benefícios (segurança +90%, disjuntor diferencial), custos em Trás-os-Montes (€300-800)."
+
 priority: "HIGH DEMAND"
 ---
 
 # Quadro Elétrico Antigo? Quando e Como Modernizar
 
-**Quadro elétrico com fusíveis de cerâmica? Disjuntores que desarmam constantemente? Casa com mais de 20 anos sem upgrade elétrico?** Estes são sinais de que o seu quadro elétrico está **obsoleto e potencialmente perigoso**.
+**Quadro elétrico com fusíveis de cerâmica? Disjuntores que desarmam constantemente? Casa com  sem upgrade elétrico?** Estes são sinais de que o seu quadro elétrico está **obsoleto e potencialmente perigoso**.
 
 Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigos são comuns - mas representam **risco de incêndio, choque elétrico e não protegem aparelhos modernos**. A boa notícia? Modernizar é mais acessível do que pensa.
 
@@ -21,7 +21,6 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 - ✅ Benefícios da modernização (segurança +90%)
 - ✅ O que inclui um upgrade completo
 - ✅ Custos em Trás-os-Montes (€300-800)
-- ✅ Fichas eletrotécnicas assinadas por técnico Profissional obrigatória
 
 **📞 eletricista com experiência 24h:** [932 321 892](tel:+351932321892) 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20modernizar%20o%20quadro%20elétrico!)
@@ -70,7 +69,7 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 
 ---
 
-### 4. Quadro com Mais de 20 Anos
+### 4. Quadro com 
 
 **Sinal:** Casa construída antes de 2005 sem upgrade
 
@@ -123,8 +122,6 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 
 ---
 
-### 8. Não Tem Fichas eletrotécnicas assinadas por técnico Profissional
-
 **Sinal:** Não tem certificado elétrico válido
 
 **Problema:**
@@ -174,7 +171,7 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 - Protege contra choque elétrico
 - Protege aparelhos (TV, PC, etc.)
 - Não desarma sem motivo
-- Fichas eletrotécnicas assinadas por técnico Profissional válida
+
 - Valoriza imóvel 5-10%
 
 ---
@@ -209,15 +206,14 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 **5. Certificação:**
 - Inspeção completa
 - Termo de Responsabilidade
-- Fichas eletrotécnicas assinadas por técnico Profissional
+
 - Registo na 
 
 ---
 
 ## 💰 Custos em Trás-os-Montes (2026)
 
-### Modernização Completa
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Casa | Circuitos | Custo | Tempo | Inclui |
 |------|-----------|-------|-------|--------|
 | T1-T2 | 5-6 | €300-500 | 1 dia | Quadro + certificação |
@@ -235,11 +231,10 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 | Disjuntor magnetotérmico 16A | €8-15 cada |
 | Proteção sobretensão | €50-100 |
 | Elétrodo de terra | €30-60 |
-| Fichas eletrotécnicas assinadas por técnico Profissional | €150-250 |
+
 | Mão de obra | €200-400 |
 
-### Upgrades Opcionais
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Upgrade | Custo | Benefício |
 |---------|-------|-----------|
 | Proteção sobretensão | €50-100 | Protege TV, PC, eletrodomésticos |
@@ -281,7 +276,6 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 
 ### 3. Valorização do Imóvel
 
-**Fichas eletrotécnicas assinadas por técnico Profissional:**
 - Obrigatória para venda/arrendamento
 - Valoriza imóvel 5-10%
 - Facilita venda (comprador exige)
@@ -354,7 +348,7 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 
 **Documentos recebidos:**
 - Termo de Responsabilidade
-- Fichas eletrotécnicas assinadas por técnico Profissional
+
 - Esquema elétrico
 - Manual de instruções
 
@@ -365,8 +359,6 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 ### 1. Quanto tempo demora a modernização?
 
 **Resposta:** 1 dia (T1-T2) a 3 dias (T4-T5). Casa fica sem luz 4-8h durante trabalhos. Planeie (trabalhar fora, ir a casa de familiares).
-
-### 2. Preciso mesmo de Fichas eletrotécnicas assinadas por técnico Profissional?
 
 **Resposta:** **SIM!** Obrigatória para venda/arrendamento. Sem certificação: multa €500-3.740 + seguro não cobre sinistros + comprador pode desistir.
 
@@ -414,12 +406,12 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 **** - eletricista com experiência em Trás-os-Montes 
 ✅ Inspeção gratuita 
 ✅ Modernização completa de quadros 
-✅ Fichas eletrotécnicas assinadas por técnico Profissional incluída 
+
 ✅ Orçamento sem compromisso 
 ✅ Garantia de 2 anos 
 ✅ Trabalhos em 1-3 dias 
 
-**📞 Ligue Agora:** [932 321 892](tel:+351932321892) 
+**📞 Ligue Agora:** [Contacto por telefone ou WhatsApp](tel:+351932321892) 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20modernizar%20o%20quadro%20elétrico!) 
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
@@ -431,4 +423,4 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 
 ---
 
-*Artigo escrito por eletricistas com experiência com 15+ anos de experiência em Trás-os-Montes. Atualizado em Março 2026.*
+*Artigo escrito por eletricistas com experiência com  em Trás-os-Montes. Atualizado em Março 2026.*

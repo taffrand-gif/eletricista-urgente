@@ -13,12 +13,11 @@ priority: "CRITICAL"
 
 **O disjuntor desarma constantemente e fica sem luz?** Este é um problema crítico que indica sobrecarga, curto-circuito ou falha elétrica. Neste guia completo, vou mostrar-lhe **as 7 causas principais** de disjuntores que desarmam e **como resolver cada uma com segurança**.
 
-> ⚠️ **PERIGO: Risco de incêndio!** Se disjuntor desarma repetidamente, NÃO force. Ligue já: **[932 321 892](tel:+351932321892)** — eletricista com experiência em Bragança Atendimento prioritário, Atendimento 24h/7d.
+> ⚠️ **PERIGO: Risco de incêndio!** Se disjuntor desarma repetidamente, NÃO force. Ligue já: **[Contacto por telefone ou WhatsApp](tel:+351932321892)** — eletricista com experiência em Bragança Atendimento prioritário, Atendimento 24h/7d.
 
 ## 🔍 O Que É um Disjuntor e Como Funciona?
 
-### Tipos de Disjuntores
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Disjuntor Magnetotérmico (Proteção contra sobrecarga e curto-circuito)**
 
 **Como funciona:**
@@ -49,7 +48,7 @@ Desliga toda a instalação. Geralmente 40-63A.
 
 ## 🔧 7 Causas Principais: Disjuntor Desarma
 
-### Causa 1: Sobrecarga no Circuito (40% dos casos)
+### Causa 1: Sobrecarga no Circuito ()
 
 **Como identificar:**
 - Disjuntor desarma quando liga vários aparelhos ao mesmo tempo
@@ -87,7 +86,7 @@ Está a pedir mais corrente do que o circuito suporta. Exemplo: circuito 16A (3.
 
 Para aparelhos potentes (forno, por ex.), criar circuito dedicado.
 
-### Causa 2: Curto-Circuito (25% dos casos)
+### Causa 2: Curto-Circuito ()
 
 **Como identificar:**
 - Disjuntor desarma INSTANTANEAMENTE ao ligar
@@ -115,12 +114,12 @@ Fase e neutro tocam-se diretamente (sem resistência), criando corrente enorme (
 4. Repare ou substitua
 
 **Se problema é na instalação:**
-- **NÃO tente resolver sozinho!**
+- **NÃO tente resolver sem a nossa equipa!**
 - Chame eletricista urgente: **[932 321 892](tel:+351932321892)**
 - Pode ser: cabo partido, tomada danificada, ligação solta, água infiltrada
 - Custo arranjo: €60-300
 
-### Causa 3: Fuga de Corrente (Diferencial Desarma) (20% dos casos)
+### Causa 3: Fuga de Corrente (Diferencial Desarma) ()
 
 **Como identificar:**
 - Disjuntor DIFERENCIAL desarma (não o magnetotérmico)
@@ -162,7 +161,7 @@ Corrente está a "fugir" para terra através de: isolamento danificado, aparelho
 - Tomada com infiltração de água
 - Requer eletricista: €80-250
 
-### Causa 4: Disjuntor Defeituoso ou Velho (8% dos casos)
+### Causa 4: Disjuntor Defeituoso ou Velho ()
 
 **Como identificar:**
 - Disjuntor desarma sem razão aparente
@@ -189,7 +188,7 @@ Disjuntores têm vida útil de 15-25 anos. Componentes internos desgastam-se e f
 
 **Requer eletricista com experiência** (trabalho no quadro elétrico).
 
-### Causa 5: Ligação Solta ou Oxidada (4% dos casos)
+### Causa 5: Ligação Solta ou Oxidada ()
 
 **Como identificar:**
 - Disjuntor desarma intermitentemente
@@ -204,7 +203,7 @@ Parafuso do disjuntor solto ou terminal oxidado cria resistência. Aquece, expan
 
 **Solução: Reapertar ou limpar ligações (€60-150)**
 
-**NÃO faça sozinho!** Trabalho no quadro elétrico é perigoso.
+**NÃO faça sem a nossa equipa!** Trabalho no quadro elétrico é perigoso.
 
 **Eletricista vai:**
 1. Desligar disjuntor geral
@@ -213,7 +212,7 @@ Parafuso do disjuntor solto ou terminal oxidado cria resistência. Aquece, expan
 4. Limpar oxidação
 5. Verificar temperatura após religar
 
-### Causa 6: Problema no Neutro (2% dos casos - GRAVE)
+### Causa 6: Problema no Neutro ( - GRAVE)
 
 **Como identificar:**
 - Disjuntor diferencial desarma constantemente
@@ -231,14 +230,14 @@ Neutro solto, partido ou com mau contacto. Corrente não retorna corretamente, d
 **EMERGÊNCIA - Chame eletricista imediatamente:**
 - Não use eletricidade
 - Desligue disjuntor geral
-- Ligue: **[932 321 892](tel:+351932321892)**
+- Ligue: **[Contacto por telefone ou WhatsApp](tel:+351932321892)**
 
 **Pode ser:**
 - Neutro solto no quadro
 - Neutro partido em caixa de derivação
 - Problema no contador (contactar EDP)
 
-### Causa 7: Trovoada ou Sobretensão (1% dos casos)
+### Causa 7: Trovoada ou Sobretensão ()
 
 **Como identificar:**
 - Disjuntor desarma durante trovoada
@@ -271,14 +270,13 @@ Instalar protetor de sobretensão no quadro (obrigatório desde 2006 em instala�
 | Identificar aparelho avariado | Grátis | Fácil | Baixo |
 | Substituir aparelho | €30-500 | Fácil | Baixo |
 
-**NÃO faça sozinho:**
+**NÃO faça sem a nossa equipa:**
 - Trabalhos no quadro elétrico
 - Arranjo de curto-circuitos
 - Substituição de cabos
 - Qualquer trabalho com corrente ligada
 
-### Soluções Profissionais
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Preço em Trás-os-Montes |
 |---------|-------------------------|
 | Diagnóstico completo | €40-80 |
@@ -348,8 +346,7 @@ Instalar protetor de sobretensão no quadro (obrigatório desde 2006 em instala�
 
 ## 🛡️ Prevenção
 
-### Evitar Sobrecargas
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Regras simples:**
 1. Não ligue vários aparelhos potentes ao mesmo tempo
 2. Use extensões com proteção (não correntes simples)
@@ -366,8 +363,7 @@ Instalar protetor de sobretensão no quadro (obrigatório desde 2006 em instala�
 - Chaleira: 2.000-3.000W
 - Ferro engomar: 1.500-2.500W
 
-### Manutenção Preventiva
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Anual:**
 - Verificar quadro elétrico (sinais de aquecimento, oxidação)
 - Testar botão TEST dos diferenciais
@@ -383,8 +379,7 @@ Instalar protetor de sobretensão no quadro (obrigatório desde 2006 em instala�
 - Substituir disjuntores (fim de vida útil)
 - Atualizar quadro se muito antigo
 
-### Proteção Adicional
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Protetor de sobretensão (€80-200):**
 - Obrigatório em instalações novas (desde 2006)
 - Protege contra raios e sobretensões da rede
@@ -453,7 +448,7 @@ Disjuntor que desarma constantemente é **sinal de problema elétrico** que prec
 
 ** — eletricista com experiência em Bragança**
 
-📞 **Ligue agora: [932 321 892](tel:+351932321892)** 
+📞 **Ligue agora: [Contacto por telefone ou WhatsApp](tel:+351932321892)** 
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20o%20meu%20disjuntor%20desarma%20constantemente.%20Preciso%20de%20ajuda%20urgente!)**
 
 ✅ Atendimento 24h/7d (urgências elétricas) 
@@ -461,7 +456,7 @@ Disjuntor que desarma constantemente é **sinal de problema elétrico** que prec
 ✅ Arranjo imediata 
 ✅ Equipamento de deteção profissional 
 ✅ Garantia 1 ano no serviço 
-✅ Fichas eletrotécnicas assinadas por técnico Profissional se necessário 
+
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não arrisque incêndio ou eletrocussão!** Disjuntor que desarma é aviso de problema grave. Contacte-nos já para intervenção urgente.

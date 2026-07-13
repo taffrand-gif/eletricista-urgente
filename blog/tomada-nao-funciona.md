@@ -42,7 +42,7 @@ Antes de começar, faça este teste rápido:
 
 ## 🔧 8 Causas Principais e Soluções
 
-### Causa 1: Disjuntor Desarmado (35% dos casos)
+### Causa 1: Disjuntor Desarmado ()
 
 **Como identificar:**
 - Várias tomadas não funcionam ao mesmo tempo
@@ -82,7 +82,7 @@ Sobrecarga (aparelhos a consumir mais que a capacidade do circuito) ou curto-cir
 - Problema resolvido
 - Evite sobrecarregar o circuito
 
-### Causa 2: Aparelho Avariado (20% dos casos)
+### Causa 2: Aparelho Avariado ()
 
 **Como identificar:**
 - Só não funciona com um aparelho específico
@@ -103,7 +103,7 @@ O aparelho está avariado, não a tomada.
 
 **Não é problema da tomada!**
 
-### Causa 3: Tomada Queimada ou Danificada (15% dos casos)
+### Causa 3: Tomada Queimada ou Danificada ()
 
 **Como identificar:**
 - Tomada com sinais de queimadura (preta, derretida)
@@ -164,7 +164,7 @@ Sobrecarga, curto-circuito, ligação solta, ou aparelho com defeito criou arco 
 
 **Tempo:** 30-45 minutos (primeira vez)
 
-### Causa 4: Ligação Solta ou Oxidada (12% dos casos)
+### Causa 4: Ligação Solta ou Oxidada ()
 
 **Como identificar:**
 - Tomada funciona intermitentemente
@@ -195,7 +195,7 @@ Parafusos dos terminais soltaram-se com o tempo, ou terminais oxidaram (humidade
 
 **Se não se sentir confortável, chame eletricista (€40-80).**
 
-### Causa 5: Cabo Partido ou Danificado (10% dos casos)
+### Causa 5: Cabo Partido ou Danificado ()
 
 **Como identificar:**
 - Tomada não funciona
@@ -222,7 +222,7 @@ Cabo foi cortado acidentalmente (furar parede, pregar quadro), roído por roedor
 
 **Requer eletricista com experiência.**
 
-### Causa 6: Tomada Mal Instalada (5% dos casos)
+### Causa 6: Tomada Mal Instalada ()
 
 **Como identificar:**
 - Tomada nova nunca funcionou
@@ -246,7 +246,7 @@ Fios ligados incorretamente (fase e neutro trocados, terra não ligada), ou liga
 
 **Se não tem certeza, chame eletricista (€40-100).**
 
-### Causa 7: Problema no Circuito (2% dos casos)
+### Causa 7: Problema no Circuito ()
 
 **Como identificar:**
 - Várias tomadas não funcionam
@@ -264,9 +264,9 @@ Cabo partido na caixa de derivação, ligação solta no quadro, ou problema na 
 - Detetor de cabos
 - Experiência em diagnóstico
 
-**Não tente resolver sozinho** (complexo e perigoso).
+**Não tente resolver sem a nossa equipa** (complexo e perigoso).
 
-### Causa 8: Tomada com Proteção Infantil Bloqueada (1% dos casos)
+### Causa 8: Tomada com Proteção Infantil Bloqueada ()
 
 **Como identificar:**
 - Tomada com proteção infantil (obturadores)
@@ -299,8 +299,7 @@ Mecanismo de proteção infantil está bloqueado ou rígido.
 
 **SEMPRE desligue o disjuntor antes de trabalhar!**
 
-### Soluções Profissionais
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Preço em Trás-os-Montes |
 |---------|-------------------------|
 | Diagnóstico | €40-80 |
@@ -354,8 +353,7 @@ Mecanismo de proteção infantil está bloqueado ou rígido.
 
 ## 🛡️ Prevenção e Segurança
 
-### Evitar Sobrecargas
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Não ligue ao mesmo tempo:**
 - Aquecedor + chaleira
 - Forno + micro-ondas
@@ -366,8 +364,7 @@ Mecanismo de proteção infantil está bloqueado ou rígido.
 - Tomada 16A = 3.680W máximo
 - Não exceda 80% = 2.900W recomendado
 
-### Usar Tomadas Corretamente
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Boas práticas:**
 ✅ Puxe pela ficha (não pelo cabo) 
 ✅ Não force fichas que não encaixam 
@@ -381,8 +378,7 @@ Mecanismo de proteção infantil está bloqueado ou rígido.
 ❌ Usar tomadas molhadas 
 ❌ Deixar fichas soltas (faíscas)
 
-### Manutenção Preventiva
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Anual:**
 - Verifique todas as tomadas (sinais de aquecimento, oxidação)
 - Aperte parafusos se necessário
@@ -399,8 +395,7 @@ Mecanismo de proteção infantil está bloqueado ou rígido.
 - Atualizar para tomadas com terra (se não tiver)
 - Considerar tomadas USB integradas
 
-### Sinais de Perigo
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Chame eletricista IMEDIATAMENTE se:**
 🚨 Cheiro a queimado 
 🚨 Fumo na tomada 
@@ -468,7 +463,7 @@ Na maioria dos casos, tomada que não funciona tem **causa identificável e solu
 
 ** — eletricista com experiência em Bragança**
 
-📞 **Ligue agora: [932 321 892](tel:+351932321892)** 
+📞 **Ligue agora: [Contacto por telefone ou WhatsApp](tel:+351932321892)** 
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20uma%20tomada%20que%20não%20funciona.%20Pode%20ajudar%3F)**
 
 ✅ Diagnóstico rápido Atendimento prioritário 
@@ -476,7 +471,7 @@ Na maioria dos casos, tomada que não funciona tem **causa identificável e solu
 ✅ Materiais de qualidade em stock 
 ✅ Garantia 1 ano no serviço 
 ✅ Preços transparentes 
-✅ Técnico em sua casa em 30-45 minutos 
+✅  
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não fique sem tomadas funcionais!** Contacte-nos já para arranjo rápida e segura.

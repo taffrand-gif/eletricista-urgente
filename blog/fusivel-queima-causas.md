@@ -86,7 +86,7 @@ priority: "HIGH DEMAND"
 
 ## 10 Causas de Fusível Que Queima
 
-### 1. Sobrecarga no Circuito (45% dos casos)
+### 1. Sobrecarga no Circuito ()
 
 **Causa mais comum:**
 
@@ -131,7 +131,7 @@ Fusível queima para proteger fios
 
 **⚠️ NUNCA use fusível maior - fios queimam = incêndio!**
 
-### 2. Curto-Circuito (30% dos casos)
+### 2. Curto-Circuito ()
 
 **Problema grave:**
 
@@ -167,7 +167,7 @@ Fase e neutro tocam-se diretamente, corrente dispara, fusível queima instantane
 - Curto na instalação → Eletricista urgente €100-500
 - **PERIGO:** Risco de incêndio
 
-### 3. Fusível Errado (10% dos casos)
+### 3. Fusível Errado ()
 
 **Fusível subdimensionado:**
 
@@ -193,7 +193,7 @@ Fase e neutro tocam-se diretamente, corrente dispara, fusível queima instantane
 
 **Custo:** €1-3 (fusível correto)
 
-### 4. Fusível de Má Qualidade (5% dos casos)
+### 4. Fusível de Má Qualidade ()
 
 **Fusível barato queima facilmente:**
 
@@ -204,10 +204,9 @@ Fase e neutro tocam-se diretamente, corrente dispara, fusível queima instantane
 
 **Solução:**
 - Use fusíveis de qualidade
-- Marcas: Legrand, Schneider, Siemens
-- **Custo:** €1-3 (vale a pena)
+- Marcas: - **Custo:** €1-3 (vale a pena)
 
-### 5. Contactos Sujos ou Oxidados (4% dos casos)
+### 5. Contactos Sujos ou Oxidados ()
 
 **Mau contacto no porta-fusíveis:**
 
@@ -230,7 +229,7 @@ Fase e neutro tocam-se diretamente, corrente dispara, fusível queima instantane
 **Tempo:** 15 minutos
 **Custo:** €0-20
 
-### 6. Instalação Antiga Deteriorada (3% dos casos)
+### 6. Instalação Antiga Deteriorada ()
 
 **Fios antigos com problemas:**
 
@@ -244,7 +243,7 @@ Fase e neutro tocam-se diretamente, corrente dispara, fusível queima instantane
 
 **Urgência:** ALTA - risco de incêndio
 
-### 7. Aparelho Defeituoso (2% dos casos)
+### 7. Aparelho Defeituoso ()
 
 **Eletrodoméstico avariado:**
 
@@ -261,7 +260,7 @@ Fase e neutro tocam-se diretamente, corrente dispara, fusível queima instantane
 
 **Solução:** Descartar aparelho
 
-### 8. Humidade no Quadro (1,5% dos casos)
+### 8. Humidade no Quadro ()
 
 **Água causa curtos:**
 
@@ -277,7 +276,7 @@ Fase e neutro tocam-se diretamente, corrente dispara, fusível queima instantane
 - Quadro estanque IP65
 - **Custo:** €100-300
 
-### 9. Temperatura Ambiente Alta (0,8% dos casos)
+### 9. Temperatura Ambiente Alta ()
 
 **Fusível sobreaquece:**
 
@@ -291,7 +290,7 @@ Fase e neutro tocam-se diretamente, corrente dispara, fusível queima instantane
 - Quadro em local mais fresco
 - Upgrade para disjuntores
 
-### 10. Picos de Tensão (0,2% dos casos)
+### 10. Picos de Tensão ()
 
 **Sobretensão na rede:**
 
@@ -384,7 +383,6 @@ Fase e neutro tocam-se diretamente, corrente dispara, fusível queima instantane
 - Disjuntores magnetotérmicos
 - Disjuntor diferencial 30mA (obrigatório)
 - Quadro moderno
-- Fichas eletrotécnicas assinadas por técnico Profissional
 
 **ROI:** Paga-se em 2-3 anos (economia + segurança)
 
@@ -499,13 +497,13 @@ R: Diagnóstico €60-120, upgrade quadro €400-1.200. : **932 321 892**
 
 ** - eletricista com experiência em Trás-os-Montes**
 
-📞 **Ligue Agora: 932 321 892**
+📞 **Contacto: 321 892**
 - ✅ Diagnóstico problema elétrico €60-120
 - ✅ Upgrade fusíveis → disjuntores €400-1.200
 - ✅ Arranjar curto-circuito €100-500
 - ✅ Quadro elétrico moderno completo
-- ✅ Fichas eletrotécnicas assinadas por técnico Profissional incluída
-- ✅ Garantia 12 meses
+
+- ✅ garantia por escrito
 
 💬 **WhatsApp:** [Emergência elétrica](https://wa.me/351932321892?text=URGENTE:%20Fusível%20queima%20constantemente!)
 

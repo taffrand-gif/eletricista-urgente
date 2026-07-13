@@ -13,17 +13,16 @@ priority: "HIGH DEMAND"
 
 **Quer instalar uma campainha nova ou substituir a antiga?** Seja por avaria, modernização, ou simplesmente porque não tem campainha, instalar este dispositivo essencial é mais simples do que parece. Pode escolher entre **campainha com fios** (mais fiável, requer instalação elétrica) ou **sem fios** (instalação em minutos, funciona com pilhas).
 
-Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação passo a passo, custos, vantagens/desvantagens, e quando chamar um eletricista com experiência. Com mais de 15 anos de experiência em instalações elétricas na região de Bragança, já instalámos centenas de campainhas.
+Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação passo a passo, custos, vantagens/desvantagens, e quando chamar um eletricista com experiência. Com mais de  em instalações elétricas na região de Bragança, já instalámos centenas de campainhas.
 
-**📞 Quer instalar campainha? Ligue já: [932 321 892](tel:+351932321892)** 
+**📞 Quer instalar campainha? Ligue já: [Contacto por telefone ou WhatsApp](tel:+351932321892)** 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20uma%20campainha.%20Podem%20ajudar%3F)**
 
 ---
 
 ## Campainha Com Fios vs Sem Fios
 
-### Comparação Rápida
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Característica | Com Fios | Sem Fios |
 |----------------|----------|----------|
 | **Instalação** | Complexa (elétrica) | Muito fácil (cola/parafuso) |
@@ -71,8 +70,7 @@ Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação
 
 ## PARTE 1: Campainha Sem Fios
 
-### Componentes
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Botão (Emissor)**
 - Instalado na porta
 - Alimentação: 1-2 pilhas AA ou bateria
@@ -85,8 +83,7 @@ Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação
 - Volume ajustável
 - Múltiplos toques disponíveis
 
-### Escolher Campainha Sem Fios
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Alcance:**
 - Apartamento: 50-100m suficiente
 - Moradia: 100-200m
@@ -114,8 +111,7 @@ Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação
 - Friedland (€30-100)
 - Ring (vídeo, €80-200)
 
-### Instalar Campainha Sem Fios
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Tempo:** 5-15 minutos 
 **Dificuldade:** Muito fácil 
 **Ferramentas:** Chave de fendas, fita dupla face ou parafusos
@@ -189,8 +185,7 @@ Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação
 
 ## PARTE 2: Campainha Com Fios
 
-### Componentes
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Botão**
 - Instalado na porta
 - Ligado ao transformador por 2 fios
@@ -211,8 +206,7 @@ Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação
 - Secção: 0.5-1mm²
 - Comprimento: conforme necessário
 
-### Escolher Campainha Com Fios
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Tensão:**
 - 8V: Campainhas simples
 - 12V: Mais comum
@@ -230,8 +224,7 @@ Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação
 - Cabo (por metro): €0.50-1.50
 - **Total:** €30-150
 
-### Instalar Campainha Com Fios
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **⚠️ AVISO:** Trabalho elétrico. Se não se sentir confortável, chame eletricista.
 
 **Tempo:** 1-3 horas 
@@ -345,8 +338,7 @@ Transformador (saída 8-24V)
 
 ## Custos em Trás-os-Montes
 
-### Campainha Sem Fios
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Item | Preço |
 |------|-------|
 | Campainha básica | €15-30 |
@@ -356,8 +348,7 @@ Transformador (saída 8-24V)
 | **TOTAL DIY:** | **€18-208** |
 | **Instalação profissional:** | +€40-80 |
 
-### Campainha Com Fios
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Item | Preço |
 |------|-------|
 | Botão | €5-20 |
@@ -372,8 +363,7 @@ Transformador (saída 8-24V)
 
 ## Manutenção
 
-### Campainha Sem Fios
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Anual:**
 - Limpe botão (pano húmido)
 - Verifique pilhas
@@ -383,8 +373,7 @@ Transformador (saída 8-24V)
 - Botão: 1-2 anos
 - Recetor (se pilhas): 6-12 meses
 
-### Campainha Com Fios
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Anual:**
 - Limpe botão
 - Verifique aperto de ligações
@@ -396,8 +385,7 @@ Transformador (saída 8-24V)
 
 ## Problemas Comuns
 
-### Sem Fios
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Não toca:**
 - Pilhas gastas (80%)
 - Fora de alcance (15%)
@@ -410,8 +398,7 @@ Transformador (saída 8-24V)
 
 **Solução:** Reposicione recetor, use modelo de maior alcance
 
-### Com Fios
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Não toca:**
 - Ligação solta (40%)
 - Transformador defeituoso (30%)
@@ -434,7 +421,7 @@ Sem fios: instalação rápida, ideal para arrendamento. Com fios: mais fiável,
 **2. Quanto custa instalar campainha?** 
 Sem fios DIY: €18-208. Com fios DIY: €38-168. Profissional: +€40-200.
 
-**3. Posso instalar campainha sozinho?** 
+**3. Posso instalar campainha sem a nossa equipa?** 
 Sem fios: sim, muito fácil (5-15 min). Com fios: requer conhecimento elétrico (1-3h).
 
 **4. Campainha sem fios funciona bem?** 
@@ -449,7 +436,7 @@ Sim, em modelos sem fios (compre recetores adicionais). Com fios: possível mas 
 **7. Campainha com vídeo vale a pena?** 
 Sim, para segurança. Vê quem está à porta (smartphone). Preço: €80-200.
 
-**8. Quanto tempo demora instalação profissional?** 
+**8. Quanto tempo leva a instalação por um profissional?**
 Sem fios: 30 min. Com fios: 1-3 horas (depende de passar cabos).
 
 ---
@@ -470,7 +457,7 @@ Instalar uma campainha é **simples e acessível**, especialmente modelos sem fi
 
 ### Quer Instalar Campainha Profissionalmente?
 
-**📞 Ligue para orçamento: [932 321 892](tel:+351932321892)**
+**📞 Ligue para orçamento: [Contacto por telefone ou WhatsApp](tel:+351932321892)**
 
 **Serviços :**
 - Instalação de campainha (com/sem fios)
@@ -486,7 +473,7 @@ Instalar uma campainha é **simples e acessível**, especialmente modelos sem fi
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20uma%20campainha.%20Podem%20ajudar%3F)**
 
 **✅ Garantias :**
-- eletricistas com experiência com 15+ anos de experiência
+- eletricistas com experiência com 
 - Instalação rápida (30 min a 3 horas)
 - Materiais de qualidade
 - Teste completo

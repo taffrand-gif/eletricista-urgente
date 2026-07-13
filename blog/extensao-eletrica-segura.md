@@ -77,7 +77,7 @@ Em Trás-os-Montes, onde muitas casas têm poucas tomadas (construções antigas
 **Extensões certificadas têm:**
 - ✅ Marca CE (obrigatório na UE)
 - ✅ Especificações claras (10A, 2.300W, 230V)
-- ✅ Marca conhecida (Legrand, Schneider, Brennenstuhl)
+- ✅ Marca conhecida (Brennenstuhl)
 - ✅ Cabo grosso (mínimo 1,5mm²)
 - ✅ Proteção contra sobrecarga (fusível ou disjuntor)
 
@@ -236,18 +236,16 @@ Em Trás-os-Montes, onde muitas casas têm poucas tomadas (construções antigas
 
 ## 🔌 Como Escolher Extensão Certificada
 
-### Características Essenciais
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Especificações mínimas:**
 - **Potência:** 2.300W (10A)
 - **Cabo:** 1,5mm² mínimo (melhor: 2,5mm²)
 - **Comprimento:** O mais curto possível
 - **Certificação:** CE obrigatório
 - **Proteção:** Fusível ou disjuntor integrado
-- **Marca:** Legrand, Schneider, Brennenstuhl, Orno
+- **Marca:** Brennenstuhl, Orno
 
-### Tipos de Extensões
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Extensão Simples (1 tomada)**
 - Uso: Aparelho único longe de tomada
 - Custo: €8-15
@@ -273,11 +271,10 @@ Em Trás-os-Montes, onde muitas casas têm poucas tomadas (construções antigas
 - Custo: €15-30
 - Melhor para: Poupar energia (desligar standby)
 
-### Marcas Recomendadas
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Qualidade Premium (€20-50):**
-- Legrand (França)
-- Schneider Electric (França)
+- França)
+- França)
 - Brennenstuhl (Alemanha)
 
 **Qualidade Boa (€10-25):**
@@ -355,8 +352,7 @@ Em Trás-os-Montes, onde muitas casas têm poucas tomadas (construções antigas
 | Com proteção sobretensão | Premium | €25-45 | 8-10 anos |
 | IP44 exterior | Premium | €30-60 | 10+ anos |
 
-### Instalações Profissionais
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Custo | Tempo | Garantia |
 |---------|-------|-------|----------|
 | Instalar 1 tomada adicional | €40-70 | 30-45 min | 2 anos |
@@ -408,11 +404,11 @@ Em Trás-os-Montes, onde muitas casas têm poucas tomadas (construções antigas
 **** - eletricista com experiência em Trás-os-Montes 
 ✅ Instalação de tomadas adicionais 
 ✅ Upgrade de quadro elétrico 
-✅ Fichas eletrotécnicas assinadas por técnico Profissional 
+
 ✅ Orçamento grátis sem compromisso 
 ✅ Garantia de 2 anos 
 
-**📞 Ligue Agora:** [932 321 892](tel:+351932321892) 
+**📞 Ligue Agora:** [Contacto por telefone ou WhatsApp](tel:+351932321892) 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20instalar%20tomadas%20adicionais!) 
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
@@ -424,4 +420,4 @@ Em Trás-os-Montes, onde muitas casas têm poucas tomadas (construções antigas
 
 ---
 
-*Artigo escrito por eletricistas com experiência com 15+ anos de experiência em Trás-os-Montes. Atualizado em Março 2026.*
+*Artigo escrito por eletricistas com experiência com  em Trás-os-Montes. Atualizado em Março 2026.*

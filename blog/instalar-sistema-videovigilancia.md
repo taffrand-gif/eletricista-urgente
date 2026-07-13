@@ -30,7 +30,7 @@ Neste guia completo, vou explicar:
 - ✅ Requisitos legais em Portugal (RGPD, CNPD)
 - ✅ Melhores marcas e modelos 2026
 
-**📞 Quer um orçamento personalizado? Ligue já: [932 321 892](tel:+351932321892)** — eletricista com experiência em Bragança, Mirandela, Trás-os-Montes.
+**📞 Quer um orçamento personalizado? Ligue já: [Contacto por telefone ou WhatsApp](tel:+351932321892)** — eletricista com experiência em Bragança, Mirandela, Trás-os-Montes.
 
 ---
 
@@ -166,7 +166,7 @@ Neste guia completo, vou explicar:
 | **Híbrido** | Misto | Média | ✅ Sim | €750-1,550 | ⚠️ Só se já tem sistema |
 | **Autónomas WiFi** | 1080p-2K | Muito fácil | ✅ Sim | €400-1,000 | ⚠️ Uso pontual |
 
-**💡 Recomendação:** Para 80% dos casos, **sistema IP com 4-8 câmaras** é a melhor escolha.
+**💡 Recomendação:** Para , **sistema IP com 4-8 câmaras** é a melhor escolha.
 
 ---
 
@@ -325,7 +325,7 @@ Neste guia completo, vou explicar:
 | **4 câmaras WiFi com bateria** | €400-1,000 (€100-250/cada) |
 | **Bateria extra (opcional)** | €80-200 |
 | **Suportes de montagem** | €20-40 |
-| **Instalação DIY** | €0 (faz sozinho) |
+| **Instalação DIY** | €0 (faz sem a nossa equipa) |
 | **Cloud (opcional)** | €12-40/mês (€3-10/câmara) |
 | **TOTAL** | **€500-1,240** |
 
@@ -597,7 +597,7 @@ Neste guia completo, vou explicar:
 ✅ Suporte técnico 
 ✅ Garantia 2 anos 
 
-**📞 Ligue já: [932 321 892](tel:+351932321892)**
+**📞 Ligue já: [Contacto por telefone ou WhatsApp](tel:+351932321892)**
 
 **💬 WhatsApp:** [Clique para orçamento grátis](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20um%20sistema%20de%20videovigilância%20em%20casa.%20Podem%20fazer%20uma%20avaliação%3F)
 
@@ -620,7 +620,7 @@ Um sistema de videovigilância:
 
 **👉 Quer proteger a sua casa?**
 
-**Ligue JÁ: [932 321 892](tel:+351932321892)**
+**Ligue JÁ: [Contacto por telefone ou WhatsApp](tel:+351932321892)**
 
 **eletricista com experiência • Avaliação grátis • Instalação profissional • Garantia 2 anos**
 

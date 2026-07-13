@@ -7,7 +7,7 @@ category: "Segurança"
 excerpt: "Guia urgência elétrica: como agir nos primeiros minutos, cortar corrente com segurança, documentar problema e preparar intervenção."
 image: "/images-optimized/blog/blog-seguranca-urgencia.webp"
 metaTitle: "Urgência Elétrica: O Que Fazer Antes | Guia"
-metaDescription: "Urgência elétrica: desligue quadro, não toque água, documente problema. 8 erros fatais evitar. Resposta rápida garantida-90min. Ligue 932 321 892!"
+metaDescription: "Urgência elétrica: desligue quadro, não toque água, documente problema. 8 erros fatais evitar. . Ligue Contacto por telefone ou WhatsApp!"
 keywords: ["urgência elétrica o que fazer", "como cortar corrente casa", "emergência elétrica", "cheiro queimado eletricidade"]
 schema:
  type: "HowTo"
@@ -76,7 +76,7 @@ Urgência elétrica requer ação imediata mas SEGURA. Este guia explica o que f
 - **Quadro:** "Desliguei quadro" ou "Não consegui desligar"
 
 **Recebe:**
-- Tempo estimado chegada (15-90 min)
+- Tempo estimado )
 - Instruções específicas
 - SMS confirmação
 
@@ -311,7 +311,7 @@ Esquecer avisar.
 
 ## Preparar Intervenção Eletricista
 
-### Antes Eletricista Chegar (15-30 min)
+### Antes Eletricista )
 
 **1. Libertar Acesso Quadro**
 - Afastar móveis
@@ -320,7 +320,7 @@ Esquecer avisar.
 
 **2. Preparar Documentação**
 - Fatura eletricidade (potência contratada)
-- Fichas eletrotécnicas assinadas por técnico Profissional (se tiver)
+
 - Garantias aparelhos (se problema aparelho)
 
 **3. Anotar Informação**
@@ -373,8 +373,7 @@ Se sem luz, eletricista precisa ver.
 
 ## Situações Específicas
 
-### Cheiro a Queimado
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Fazer IMEDIATAMENTE:**
 1. Desligar quadro geral
 2. Abrir janelas (ventilar)
@@ -387,8 +386,7 @@ Se sem luz, eletricista precisa ver.
 - Ignorar
 - Dormir (pode piorar noite)
 
-### Sem Corrente
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Verificar PRIMEIRO:**
 1. Vizinhos têm corrente? (problema rede vs casa)
 2. Disjuntor geral está ligado?
@@ -402,8 +400,7 @@ Se sem luz, eletricista precisa ver.
 - Problema sua instalação
 - Ligar eletricista
 
-### Choque Elétrico
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Se alguém levou choque:**
 
 **1. NÃO tocar pessoa** (pode levar choque também)
@@ -421,8 +418,7 @@ Se sem luz, eletricista precisa ver.
 - Identificar causa
 - Corrigir problema
 
-### Faíscas
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Fazer:**
 1. Desligar quadro IMEDIATAMENTE
 2. Afastar materiais inflamáveis
@@ -450,7 +446,7 @@ Se sem luz, eletricista precisa ver.
 **Ligar mesmo assim.** Serviço 24h disponível. Urgências não esperam.
 
 ### 5. Quanto custa urgência?
-**Dias úteis:** 70€/h + deslocação. **Noite/domingo:** 100-150€/h + deslocação. Orçamento antes começar.
+**Dias úteis:** 70€/h + deslocação. **Noite/domingo:** 100-sob orçamento + deslocação. Orçamento antes começar.
 
 ### 6. Posso sair de casa enquanto espero?
 **Não recomendado.** Eletricista precisa acesso. Se sair, deixar chaves vizinho e avisar.
@@ -492,19 +488,18 @@ Se sem luz, eletricista precisa ver.
 
 ## Urgência Elétrica AGORA?
 
-**Ligue IMEDIATAMENTE: 932 321 892**
+**Ligue IMEDIATAMENTE: Contacto por telefone ou WhatsApp**
 
 ✅ Atendimento <3 toques
-✅ Resposta rápida garantida-90 minutos
+✅ 
 ✅ Atendimento 24h/7d/7 dias
 ✅ Equipamento completo
 ✅ Orçamento antes arranjar
-✅ Garantia 12 meses
+✅ garantia por escrito
 
 **WhatsApp:** [Urgência AGORA](https://wa.me/351932321892?text=URGÊNCIA ELÉTRICA! Preciso ajuda imediata)
 
 ---
 
-*Última atualização: 8 Março 2026*
 *Guia segurança elétrica Portugal*
 *Em caso perigo vida: 112 (Bombeiros)*

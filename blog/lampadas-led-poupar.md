@@ -14,8 +14,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 
 ## 💡 Por Que LED Poupa
 
-### Comparação Tecnologias
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Incandescente** (antiga):
 - 60W para 800 lúmens
 - Vida útil: 1,000h (1 ano)
@@ -40,8 +39,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 - Eficiência: 90%
 - **Melhor opção**
 
-### Poupança Energia
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1 lâmpada 800 lúmens, 3h/dia**:
 
 **Incandescente 60W**:
@@ -69,8 +67,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 
 ## 🔍 Tipos Lâmpadas LED
 
-### Por Casquilho
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **E27** (rosca grande):
 - Mais comum
 - Candeeiros, teto
@@ -101,8 +98,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 - Halogéneo linear
 - €8-20
 
-### Por Forma
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Bulbo** (A60):
 - Forma tradicional
 - Uso geral
@@ -142,8 +138,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 
 **Regra**: LED consome 85% menos
 
-### Por Temperatura Cor
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **2700K** (branco quente):
 - Amarelado
 - Acolhedor
@@ -169,8 +164,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 
 ## 💰 Custos Lâmpadas LED
 
-### Por Tipo
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Básicas** (marca branca):
 - E27 9W: €2-4
 - E14 6W: €2-3
@@ -189,16 +183,14 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 - Controlo app
 - Vida útil: 25,000h
 
-### Casa Completa
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **20 lâmpadas básicas**: €40-80
 **20 lâmpadas médias**: €100-160
 **20 lâmpadas premium**: €300-1,000
 
 **Recomendação**: Médias (melhor custo/benefício)
 
-### Poupança Anual
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Casa 20 lâmpadas**:
 - Incandescentes: €280/ano
 - LED básicas: €40/ano
@@ -211,8 +203,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 
 ## 🏠 Lâmpadas por Divisão
 
-### Sala Estar
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Recomendação**:
 - 2700-3000K (acolhedor)
 - 800-1,000 lúmens/lâmpada
@@ -221,8 +212,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 
 **Custo**: €15-40
 
-### Cozinha
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Recomendação**:
 - 3000-4000K (neutro)
 - 1,000-1,500 lúmens (bancada)
@@ -231,8 +221,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 
 **Custo**: €20-60
 
-### Quartos
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Recomendação**:
 - 2700K (relaxante)
 - 600-800 lúmens
@@ -241,8 +230,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 
 **Custo**: €10-25
 
-### Casa Banho
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Recomendação**:
 - 4000K (neutro)
 - 1,000 lúmens (espelho)
@@ -252,8 +240,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 
 **Custo**: €15-40
 
-### Escritório
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Recomendação**:
 - 4000K (produtivo)
 - 1,000-1,500 lúmens
@@ -262,8 +249,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 
 **Custo**: €15-40
 
-### Exterior
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Recomendação**:
 - 4000-6000K (branco frio)
 - 1,500-3,000 lúmens
@@ -354,8 +340,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 
 ## 🔧 Instalação LED
 
-### Substituição Simples
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Passos**:
 1. Desligar interruptor
 2. Deixar arrefecer (se quente)
@@ -366,8 +351,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 **Tempo**: 1 minuto/lâmpada
 **DIY**: Fácil
 
-### Substituir Fluorescentes por LED
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Tubos LED**:
 1. Desligar quadro
 2. Remover tubo fluorescente
@@ -383,8 +367,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 **Custo**: €8-20/tubo
 **Chamar eletricista**: Recomendado (segurança)
 
-### Focos Embutidos
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **GU10/MR16**:
 - Desligar
 - Rodar e puxar
@@ -402,8 +385,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 
 ## ⚠️ Problemas Comuns LED
 
-### Cintilação
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Causas**:
 - LED não regulável em dimmer
 - Dimmer incompatível
@@ -414,8 +396,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 - Substituir dimmer
 - Verificar instalação elétrica
 
-### Não Liga
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Causas**:
 - Casquilho errado
 - LED avariada (raro)
@@ -426,8 +407,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 - Testar outra lâmpada
 - Eletricista
 
-### Queima Rápido
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Causas**:
 - Qualidade baixa
 - Sobretensão
@@ -438,8 +418,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 - Proteção sobretensão
 - Luminária ventilada
 
-### Cor Diferente
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Causa**:
 - Temperaturas cor diferentes
 
@@ -476,8 +455,7 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 **LED**: €400 (€100 inicial + €300 energia)
 **Poupança**: €2,440
 
-### Benefícios Adicionais
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Menos calor**:
 - LED não aquece
 - Reduz AC verão
@@ -495,14 +473,12 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 
 ## 📞 Quando Chamar Eletricista
 
-### DIY Possível
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 ✅ Substituir lâmpadas simples
 ✅ E27, E14, GU10
 ✅ Mesma tecnologia (LED por LED)
 
-### Chamar Eletricista
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 ✅ Substituir fluorescentes por LED
 ✅ Instalar dimmer LED
 ✅ Focos embutidos difíceis
@@ -511,46 +487,40 @@ keywords: ["lâmpadas LED", "poupar energia", "iluminação LED", "eletricista",
 ✅ Iluminação exterior IP65
 ✅ Projeto iluminação completo
 
-### Serviços
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Substituição completa casa**: €100-200 (mão obra)
 **Instalar dimmer**: €30-60/unidade
 **Projeto iluminação**: €200-500
 
 ## ✅ Por Que Escolher 
 
-### Consultoria Iluminação
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Análise necessidades
 - Recomendação lâmpadas
 - Cálculo poupança
 - Projeto iluminação
 - Orçamento detalhado
 
-### Fornecimento LED
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Marcas fiáveis (Philips, Osram)
 - Preços competitivos
 - Garantia 2-5 anos
 - Stock permanente
 
-### Instalação Profissional
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Substituição completa casa
 - Dimmers LED
 - Sensores movimento
 - Iluminação exterior
 - Garantia serviço
 
-### Manutenção
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Substituir LED avariadas
 - Verificar instalação
 - Otimizar consumo
 - Contratos disponíveis
 
-### Conhecimento Local
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Experiência Trás-os-Montes
 - Casas antigas especialidade
 - Soluções adaptadas
@@ -566,11 +536,11 @@ Atendemos **86 cidades** em Trás-os-Montes:
 
 ## 💬 Contacte-nos
 
-### Consultoria LED Grátis
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 📞 **+351 932 321 892**
 💬 **[WhatsApp](https://wa.me/351932321892?text=Lâmpadas%20LED%20poupar)**
 
-**Resposta rápida garantida. Recomendação personalizada + orçamento.**
+** garantida. Recomendação personalizada + orçamento.**
 
 ---
 

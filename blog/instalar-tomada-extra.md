@@ -33,7 +33,6 @@ priority: "HIGH DEMAND"
 2. **TESTE ausência de corrente** (multímetro)
 3. **Use ferramentas isoladas**
 4. **Trabalhe com mãos e chão secos**
-5. **Peça Fichas eletrotécnicas assinadas por técnico Profissional depois**
 
 ## Por Que Precisa de Mais Tomadas?
 
@@ -160,7 +159,7 @@ priority: "HIGH DEMAND"
 
 **Desvantagens:**
 - Mais caro (€150-400)
-- Mais demorado (3-6 horas)
+- Mais )
 - Precisa espaço no quadro
 
 **Quando usar:**
@@ -297,7 +296,7 @@ priority: "HIGH DEMAND"
 - Zona 2 (60cm): IP44 obrigatório
 
 **6. Certificação:**
-- Instalação nova requer Fichas eletrotécnicas assinadas por técnico Profissional
+
 - Apenas eletricista com experiência pode emitir
 - Obrigatório para seguro e venda
 
@@ -318,7 +317,6 @@ priority: "HIGH DEMAND"
 | 4-6 tomadas (circuito novo) | €50-100 | €150-300 | €200-400 |
 | Calha técnica (2m + 4 tomadas) | €60-120 | €80-150 | €140-270 |
 | Tomada IP44 casa de banho | €15-30 | €50-100 | €65-130 |
-| Fichas eletrotécnicas assinadas por técnico Profissional | - | €80-150 | €80-150 |
 
 **Fatores que aumentam custo:**
 - Parede de betão (+30%)
@@ -453,7 +451,6 @@ R: Máximo 8 tomadas por circuito 16A. Se precisar mais, adicione circuito novo 
 **P: Quanto custa adicionar tomada?**
 R: 1 tomada €50-100, 2-3 tomadas €100-190, circuito novo (4-6 tomadas) €200-400. Inclui material + instalação + certificação.
 
-**P: Preciso Fichas eletrotécnicas assinadas por técnico Profissional?**
 R: SIM, para instalação nova. Obrigatório por lei. Apenas eletricista com experiência emite. Custo €80-150 (geralmente incluído).
 
 **P: Quanto custa eletricista em Bragança?**
@@ -467,11 +464,11 @@ R: Instalar 1 tomada €50-100, 2-3 tomadas €100-190. Urgente 24h: +50%. : **9
 
 ** - eletricista com experiência em Trás-os-Montes**
 
-📞 **Ligue Agora: 932 321 892**
+📞 **Contacto: 321 892**
 - ✅ Instalação de tomadas €50-100/unidade
 - ✅ Circuito novo dedicado €200-400
-- ✅ Fichas eletrotécnicas assinadas por técnico Profissional incluída
-- ✅ Garantia 12 meses
+
+- ✅ garantia por escrito
 - ✅ Trabalho limpo e profissional
 - ✅ Atendimento 24h/7d (urgências)
 

@@ -20,9 +20,17 @@ const { auditConformity } = require('./render-blog-md.js');
 
 const BLOG_DIR = path.join(__dirname, '..', 'blog');
 const DRY_RUN = process.argv.includes('--dry-run');
+const SKIP_RENDER = process.argv.includes('--skip-render');
 
-// 7 .md to JETER (hors-scope : plomberie/clima/regadio)
+// .md à JETER
+//  - hors-scope : plomberie/clima/regadio (3 canalizador + 1 casa-passiva + 2 ventilacao + 1 sistema-rega)
+//  - service INTERDIT par AGENTS.md §12 : Filipe ne délivre PAS de certification DGEG/relatório/ficha
+//    eletrotécnica. Pages certification → promesa "Certificado em 3-5 dias úteis" = faux service vendu.
+//  - PAGES LOCAL POLLUÉES (LEÇON #362) : eletricista-{braganca,macedo,mirandela}-*.md — pré-doctrine,
+//    R12+R145 massivement violés (prix inventés, délais chiffrés, promesses), gabarit §13 absent,
+//    1ère page contient même caractères CJK. Réécriture totale = re-scopage = JETER.
 const TO_DELETE = new Set([
+  // hors-scope plomberie/clima/regadio
   'canalizador-braganca-guia-completo.md',
   'canalizador-macedo-cavaleiros-sede-operacional.md',
   'canalizador-mirandela-solucoes-locais.md',
@@ -30,6 +38,13 @@ const TO_DELETE = new Set([
   'ventilacao-mecanica-vmc.md',
   'ventilacao-natural-casa.md',
   'sistema-rega-automatico.md',
+  // service interdit (certification DGEG — Filipe ne certifie pas, ruling 2026-07-08)
+  'certificacao-eletrica-obrigatoria-quando-como.md',
+  'preco-certificacao-certiel-2026.md',
+  // pages local pré-doctrine irrécupérables (LEÇON #362 refus fichiers pollués)
+  'eletricista-braganca-guia-completo.md',
+  'eletricista-macedo-cavaleiros-sede-operacional.md',
+  'eletricista-mirandela-iluminacao-certificacao.md',
 ]);
 
 // === Règles de nettoyage (idempotentes) ===
@@ -84,15 +99,24 @@ function stripStatsNonSourcees(md) {
 
 // 4. Suppression des références à documentation émise
 function stripDocsEmis(md) {
-  const patterns = [
+  // a) Séquences avec verbe avant ("emitimos fichas...", "fazemos certificação...")
+  const withVerb = [
     /\b(?:emit(?:imos?|imos?|ir|ido|e)|fazemos|emit[êe]mos|fizer(?:am|emos))\s+[^.\n]{0,80}(?:certifica[çc][ãa]o|ficha(?:s)? eletrot[ée]cnic(?:a|as)|relat[óo]rio(?:s)? t[ée]cnic(?:o|os)|certificado)\b[^.\n]*/gi,
-    /\bfichas?\s+eletrot[ée]cnic(?:a|as)\b/gi,
-    /\brelat[óo]rio(?:s)?\s+t[ée]cnic(?:o|os)?\b/gi,
-    /\binstala[çc][õo]es?\s+certificadas\b/gi,
-    /\bcertifica[çc][ãa]o\s+completa\b/gi,
-    /\bcertificado\s+em\s+\d{4}\b/gi,
   ];
-  for (const re of patterns) md = md.replace(re, '');
+  for (const re of withVerb) md = md.replace(re, '');
+  // b) Mentions nues (sans verbe) — phrases checkbox "✅ Fichas eletrotécnicas assinadas..."
+  //    On supprime la LIGNE ENTIÈRE si elle contient une mention interdite.
+  md = md.split('\n').map((line) => {
+    const lower = line.toLowerCase();
+    if (/\bficha(?:s)?\s+eletrot[ée]cnic(?:a|as)\b/.test(lower)) return '';
+    if (/\brelat[óo]rio(?:s)?\s+t[ée]cnic(?:o|os)?\b/.test(lower)) return '';
+    if (/\binstala[çc][õo]es?\s+certificadas\b/.test(lower)) return '';
+    if (/\bcertifica[çc][ãa]o\s+completa\b/.test(lower)) return '';
+    if (/\bcertificado\s+em\s+\d/.test(lower)) return '';
+    if (/\bcertifica[çc][ãa]o\s+inclu[íi]da\b/.test(lower)) return '';
+    if (/\bcom\s+certifica[çc][ãa]o\b/.test(lower)) return '';
+    return line;
+  }).filter((line, idx, arr) => !(line === '' && arr[idx - 1] === '')).join('\n');
   return md;
 }
 
@@ -307,12 +331,14 @@ for (const f of allMd) {
   if (afterFindings.length === 0) {
     if (!DRY_RUN) {
       fs.writeFileSync(fp, cleaned, 'utf8');
-      // Re-render .html
-      const { execSync } = require('child_process');
-      try {
-        execSync(`node scripts/render-blog-md.js --source blog/${base} --out-dir blog`, { stdio: 'pipe', cwd: path.join(__dirname, '..') });
-      } catch (e) {
-        console.error(`[RENDER-FAIL] ${base}: ${e.message}`);
+      if (!SKIP_RENDER) {
+        // Re-render .html
+        const { execSync } = require('child_process');
+        try {
+          execSync(`node scripts/render-blog-md.js --source blog/${base} --out-dir blog`, { stdio: 'pipe', cwd: path.join(__dirname, '..') });
+        } catch (e) {
+          console.error(`[RENDER-FAIL] ${base}: ${e.message}`);
+        }
       }
     }
     if (DRY_RUN) {

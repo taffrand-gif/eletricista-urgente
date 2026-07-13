@@ -7,7 +7,7 @@ category: "Guias"
 excerpt: "Guia completo para escolher eletricista em Bragança. 10 critérios essenciais, perguntas a fazer, red flags e checklist de verificação."
 image: "/images-optimized/blog/blog-escolher-eletricista.webp"
 metaTitle: "Melhores Eletricistas Bragança 2026 | Guia"
-metaDescription: "Como escolher eletricista em Bragança: Fichas eletrotécnicas assinadas por técnico Profissional, experiência, preços justos. Checklist 12 pontos. Red flags evitar. Ligue 932 321 892!"
+
 keywords: ["melhores eletricistas bragança", "como escolher eletricista", "eletricista com experiência bragança", "eletricista confiável"]
 ---
 
@@ -17,14 +17,12 @@ Precisa de eletricista em Bragança mas não sabe como escolher? Este guia compl
 
 ## 10 Critérios Essenciais
 
-### 1. Fichas eletrotécnicas assinadas por técnico Profissional (OBRIGATÓRIO)
-
 **O que é:**
 Certificação oficial que permite emitir certificados elétricos.
 
 **Porquê importante:**
 - Sem certificação = trabalho ilegal
-- Fichas eletrotécnicas assinadas por técnico Profissional inválido se não for certificado
+
 - Seguro não cobre se não for certificado
 - Multa até 3740€ por trabalho ilegal
 
@@ -81,7 +79,7 @@ Pedir apólice seguro (nome, validade, valor)
 ❌ Custos "extras" não mencionados
 
 **Preços mercado Bragança 2026:**
-- Mão obra dias úteis: 60-80€/h
+- Mão obra dias úteis: 60-sob orçamento
 - Deslocação: 15-35€ (conforme zona)
 - Material: ao custo + 10-20%
 
@@ -174,26 +172,23 @@ Pedir apólice seguro (nome, validade, valor)
 
 ## 12 Perguntas Fazer Antes Contratar
 
-### Sobre Certificação
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 
-**1. Tem Fichas eletrotécnicas assinadas por técnico Profissional válida?**
 Resposta esperada: "Sim, número XXXX, pode verificar em certificação.pt"
 
-**2. Emite Fichas eletrotécnicas assinadas por técnico Profissional?**
+**2. 
 Resposta esperada: "Sim, incluído no preço" ou "Sim, custo adicional X€"
 
-### Sobre Experiência
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **3. Há quantos anos trabalha como eletricista?**
 Ideal: 10+ anos
 
 **4. Tem experiência com [meu problema específico]?**
 Exemplo: "Já instalou quadros trifásicos?"
 
-### Sobre Preços
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **5. Qual o preço por hora?**
-Mercado: 60-80€/h dias úteis
+Mercado: 60-sob orçamento dias úteis
 
 **6. Cobra deslocação? Quanto?**
 Mercado: 15-35€ conforme zona
@@ -204,16 +199,14 @@ Preferível: Discriminado no orçamento
 **8. Orçamento é vinculativo ou pode mudar?**
 Ideal: "Vinculativo, só muda se aprovar extras"
 
-### Sobre Garantia
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **9. Dá garantia? Quanto tempo?**
 Mínimo: 12 meses
 
 **10. Garantia cobre o quê exatamente?**
 Ideal: Material + mão obra
 
-### Sobre Processo
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **11. Quanto tempo demora o trabalho?**
 Avaliar realismo estimativa
 
@@ -302,9 +295,8 @@ Saber se pode deixar chaves
 
 ## Checklist Verificação (12 Pontos)
 
-### Antes de Contratar
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 
-- [ ] Verificou Fichas eletrotécnicas assinadas por técnico Profissional online
 - [ ] Pediu e recebeu orçamento escrito
 - [ ] Comparou 2-3 orçamentos diferentes
 - [ ] Verificou reviews online (Google, Facebook)
@@ -314,17 +306,15 @@ Saber se pode deixar chaves
 - [ ] Acordou prazo execução
 - [ ] Definiu forma pagamento (não 100% adiantado)
 
-### Durante Trabalho
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - [ ] Eletricista chegou hora marcada
 - [ ] Usa equipamento profissional
 - [ ] Explica o que está a fazer
 - [ ] Respeita casa (proteções, limpeza)
 
-### Após Trabalho
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - [ ] Recebeu fatura detalhada
-- [ ] Recebeu Fichas eletrotécnicas assinadas por técnico Profissional (se aplicável)
+
 - [ ] Recebeu garantia por escrito
 - [ ] Trabalho testado e funcional
 - [ ] Área limpa
@@ -341,8 +331,7 @@ Saber se pode deixar chaves
 | **Premium** | 80-100€ | ⭐⭐⭐⭐⭐ | ✅ Excelente |
 | **Muito caro** | >100€ | ⭐⭐⭐ | ⚠️ Verificar porquê |
 
-### Deslocação
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Zona | Distância | Preço Justo | Preço Abusivo |
 |------|-----------|-------------|---------------|
 | Bragança centro | 0-5km | 15€ | >30€ |
@@ -356,7 +345,7 @@ Saber se pode deixar chaves
 **Mínimo 3 orçamentos** para comparar preços e abordagens. Mais que 5 é perda tempo.
 
 ### 2. Eletricista mais caro é sempre melhor?
-**Não necessariamente.** Preço justo é 60-80€/h. Acima disso, verificar o que justifica (experiência, especialização, urgência).
+**Não necessariamente.** Preço justo é 60-sob orçamento. Acima disso, verificar o que justifica (experiência, especialização, urgência).
 
 ### 3. Posso negociar preço?
 **Sim, mas com cuidado.** Negociar 5-10% é aceitável. Mais que isso pode comprometer qualidade.
@@ -375,7 +364,6 @@ Saber se pode deixar chaves
 
 ## Porque Escolher ?
 
-### ✅ Fichas eletrotécnicas assinadas por técnico Profissional Válida
 Número certificação verificável em certificação.pt
 
 ### ✅ 15+ Anos Experiência
@@ -407,17 +395,16 @@ Explicamos tudo em português simples
 
 ## Artigos Relacionados
 
-- [Fichas eletrotécnicas assinadas por técnico Profissional: Preços e Processo](https://eletricista-urgente.pt/blog/preco-certificacao-certificação-2026)
 - [Eletricista vs Bricolagem: Quando Vale a Pena](https://eletricista-urgente.pt/blog/eletricista-vs-bricolagem-quando-vale-pena)
 - [Quanto Custa Eletricista Domingo](https://eletricista-urgente.pt/blog/quanto-custa-eletricista-domingo-2026)
 - [Eletricista Atendimento 24h/7d: Guia Completo](https://eletricista-urgente.pt/blog/eletricista-24-horas-guia-completo)
 
 ## Precisa de Eletricista Confiável?
 
-**Ligue agora: 932 321 892**
+**Contacto: 321 892**
 
 ✅ Orçamento gratuito sem compromisso
-✅ Fichas eletrotécnicas assinadas por técnico Profissional verificável
+
 ✅ 15+ anos experiência
 ✅ Garantia 5 anos
 ✅ Preços transparentes
@@ -427,5 +414,4 @@ Explicamos tudo em português simples
 
 ---
 
-*Última atualização: 8 Março 2026*
 *Guia válido para Bragança e Trás-os-Montes*

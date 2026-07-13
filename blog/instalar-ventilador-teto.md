@@ -94,8 +94,7 @@ priority: "SEASONAL"
 
 ## 📏 Escolher o Tamanho Certo
 
-### Tabela de Dimensões
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Área do Quarto | Diâmetro Ventilador | Potência Motor |
 |----------------|---------------------|----------------|
 | Até 10m² | 90-107cm (36-42") | 50-60W |
@@ -104,8 +103,7 @@ priority: "SEASONAL"
 | 20-30m² | 132-152cm (52-60") | 80-100W |
 | > 30m² | 2 ventiladores | - |
 
-### Altura do Teto
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Teto padrão (2,4-2,7m):**
 - Haste curta 15-30cm
 - Pás a 2,3m do chão (mínimo 2,1m)
@@ -122,8 +120,7 @@ priority: "SEASONAL"
 
 ## 🛠️ Materiais e Ferramentas Necessárias
 
-### Materiais
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Ventilador:**
 - Ventilador de teto (€40-300)
 - Inclui normalmente: motor, pás, haste, suporte, parafusos
@@ -140,8 +137,7 @@ priority: "SEASONAL"
 
 **Custo total materiais:** €50-330
 
-### Ferramentas
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Essenciais:**
 - Berbequim com broca betão Ø8mm
 - Chave de fendas isolada
@@ -326,8 +322,7 @@ priority: "SEASONAL"
 ❌ Demora mais tempo 
 ❌ Sem garantia profissional
 
-### Opção Profissional
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Serviço completo por eletricista com experiência:**
 
 | Serviço | Preço em Trás-os-Montes |
@@ -397,8 +392,7 @@ priority: "SEASONAL"
 
 ## 🛡️ Manutenção do Ventilador
 
-### Limpeza Regular
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Mensal (verão):**
 - Desligue o ventilador
 - Limpe as pás com pano húmido
@@ -433,8 +427,7 @@ priority: "SEASONAL"
 - Seque bem após limpeza
 - Evite em zonas muito húmidas
 
-### Quando Substituir
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Sinais de que precisa de novo ventilador:**
 - Vibração excessiva (mesmo após balanceamento)
 - Barulho estranho do motor
@@ -494,7 +487,7 @@ Instalar ventilador de teto é **relativamente simples** mas requer **atenção 
 
 ** — eletricista com experiência em Bragança**
 
-📞 **Ligue agora: [932 321 892](tel:+351932321892)** 
+📞 **Ligue agora: [Contacto por telefone ou WhatsApp](tel:+351932321892)** 
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20instalar%20um%20ventilador%20de%20teto.%20Pode%20ajudar%3F)**
 
 ✅ Fixação segura e reforçada 
@@ -502,7 +495,7 @@ Instalar ventilador de teto é **relativamente simples** mas requer **atenção 
 ✅ Balanceamento profissional 
 ✅ Garantia 2 anos no serviço 
 ✅ Fornecemos ventiladores de qualidade 
-✅ Técnico em sua casa em 30-45 minutos 
+✅  
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não arrisque a sua segurança!** Fixação inadequada pode causar acidentes graves. Contacte-nos já para instalação profissional.

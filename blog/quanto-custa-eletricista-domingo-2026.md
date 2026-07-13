@@ -7,13 +7,13 @@ category: "Preços"
 excerpt: "Descubra os preços reais para chamar um eletricista ao domingo em 2026. Tabela completa de preços, comparações e quando vale a pena."
 image: "/images-optimized/blog/blog-urgencia-domingo.webp"
 metaTitle: "Quanto Custa Eletricista Domingo 2026 | Preços Reais"
-metaDescription: "Eletricista domingo: 100€/h + deslocação. Sábado 90€/h. Dias úteis 70€/h. Preços 2026. Orçamento grátis. Ligue 932 321 892!"
+metaDescription: "Eletricista domingo: sob orçamento + deslocação. Sábado sob orçamento. Dias úteis 70€/h. Preços 2026. Orçamento grátis. Ligue Contacto por telefone ou WhatsApp!"
 keywords: ["quanto custa eletricista domingo", "preço eletricista fim de semana", "eletricista domingo urgente", "eletricista sábado preço"]
 faqSchema:
  - question: "Quanto custa eletricista ao domingo?"
- answer: "95-100€/hora em horário normal (8h-20h) e 140-150€/hora em horário noturno (20h-8h). Mais deslocação 30-60€ conforme distância."
+ answer: "95-sob orçamento em horário normal (8h-20h) e 140-sob orçamento em horário noturno (20h-8h). Mais deslocação 30-60€ conforme distância."
  - question: "Eletricista domingo é mais caro que dias úteis?"
- answer: "Sim, cerca de 40% mais caro. Dias úteis: 70€/h, Domingo: 95-100€/h. Diferença justificada por disponibilidade Atendimento 24h/7d."
+ answer: "Sim, cerca de 40% mais caro. Dias úteis: 70€/h, Domingo: 95-sob orçamento. Diferença justificada por disponibilidade Atendimento 24h/7d."
  - question: "Vale a pena chamar eletricista ao domingo?"
  answer: "Sim para urgências reais: sem corrente, cheiro queimado, faíscas, disjuntor não liga. Não urgente pode esperar segunda-feira e poupar 25-30%."
 ---
@@ -26,7 +26,7 @@ Precisa de um eletricista ao domingo e quer saber quanto vai custar? Este guia c
 
 Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 
-**Disponibilidade fora do horário normal:** Técnicos disponíveis Atendimento 24h/7d têm custos operacionais mais elevados (turnos, equipas de prevenção).
+**Disponibilidade fora do horário normal:** /7d têm custos operacionais mais elevados (turnos, equipas de prevenção).
 
 **Interrupção do descanso semanal:** Trabalhar ao domingo significa abdicar do tempo com família, o que justifica uma compensação justa.
 
@@ -36,16 +36,14 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 
 ## Tabela de Preços Completa 2026
 
-### Mão de Obra por Hora
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Dia | Horário Normal (8h-20h) | Horário Noturno (20h-8h) |
 |-----|-------------------------|--------------------------|
-| **Dias Úteis (Seg-Sex)** | 70€/h | 105€/h (+50%) |
-| **Sábado** | 90€/h | 135€/h (+50%) |
-| **Domingo/Feriado** | 100€/h | 150€/h (+50%) |
+| **Dias Úteis (Seg-Sex)** | 70€/h | sob orçamento (+50%) |
+| **Sábado** | sob orçamento | sob orçamento (+50%) |
+| **Domingo/Feriado** | sob orçamento | sob orçamento (+50%) |
 
-### Deslocação por Zona
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Zona | Localidades | Preço | Tempo |
 |------|-------------|-------|-------|
 | Zona 1 | Bragança centro, Gimonde, Rabal | 15€ | 10-15 min |
@@ -57,7 +55,7 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 
 *Nota: Deslocação cobrada apenas uma vez por intervenção, independentemente da duração.*
 
-## Exemplos Reais de Preços
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 
 ### Exemplo 1: Disjuntor que Salta (Domingo 14h, Bragança)
 
@@ -163,7 +161,7 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 ✅ Diagnóstico profissional com equipamento
 ✅ Tempo de trabalho efetivo
 ✅ Conhecimento técnico com experiência
-✅ Garantia 12 meses no arranjo
+✅ garantia por escrito no arranjo
 ✅ Limpeza após intervenção
 
 ### Deslocação Inclui:
@@ -174,8 +172,7 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 
 ### Material:
 ✅ Preço ao custo (sem margem excessiva)
-✅ Marcas certificadas (Legrand, Schneider)
-✅ Garantia fabricante incluída
+✅ Marcas certificadas (✅ Garantia fabricante incluída
 
 ## Perguntas Frequentes (FAQ)
 
@@ -192,7 +189,7 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 **15-90 minutos** conforme localização. Bragança e arredores: 15-40 min. Zonas mais afastadas: até 90 min.
 
 ### 5. Trabalham feriados?
-**Sim, 365 dias/ano.** Feriados têm o mesmo preço que domingos (100€/h horário normal, 150€/h noturno).
+**Sim, 365 dias/ano.** Feriados têm o mesmo preço que domingos (sob orçamento horário normal, sob orçamento noturno).
 
 ### 6. Dão garantia nos arranjos ao domingo?
 **Sim, 12 meses.** Mesma garantia que dias úteis. Se problema voltar, arranjamos gratuitamente. Conheça [como escolher o melhor eletricista](https://eletricista-urgente.pt/blog/melhores-eletricistas-braganca-2026).
@@ -201,12 +198,12 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 **Sim.** Pode ligar sábado à noite ou domingo de manhã cedo para agendar hora específica.
 
 ### 8. Preços incluem IVA?
-**Não.** Preços apresentados são sem IVA. Com IVA (23%): dias úteis 86€/h, sábado 111€/h, domingo 123€/h.
+**Não.** Preços apresentados são . (23%): dias úteis sob orçamento, sábado sob orçamento, domingo sob orçamento.
 
 ## Artigos Relacionados
 
 - [Eletricista Atendimento 24h/7d: Guia Completo](https://eletricista-urgente.pt/blog/eletricista-24-horas-guia-completo)
-- [Fichas eletrotécnicas assinadas por técnico Profissional: Preços 2026](https://eletricista-urgente.pt/blog/preco-certificacao-certificação-2026)
+
 - [Urgência Elétrica: O Que Fazer](https://eletricista-urgente.pt/blog/urgencia-eletrica-o-que-fazer-antes)
 - [Eletricista vs Bricolagem: Quando Vale a Pena](https://eletricista-urgente.pt/blog/eletricista-vs-bricolagem-quando-vale-pena)
 
@@ -247,7 +244,7 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 ### Enquanto Espera:
 
 1. **Mantenha quadro desligado** (se problema grave)
-2. **Não tente arranjar sozinho** (risco choque)
+2. **Não tente arranjar sem a nossa equipa** (risco choque)
 3. **Mantenha crianças/animais afastados**
 4. **Prepare lanterna** (se ficar sem luz)
 
@@ -261,18 +258,16 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 
 ## Precisa de Eletricista ao Domingo?
 
-**Ligue agora: 932 321 892**
+**Contacto: 321 892**
 
 ✅ Atendimento imediato Atendimento 24h/7d
 ✅ Orçamento gratuito por telefone
-✅ Resposta rápida garantida-90 minutos
+✅ 
 ✅ Preços transparentes sem surpresas
-✅ Garantia 12 meses
+✅ garantia por escrito
 
 **WhatsApp:** [Clique para enviar mensagem](https://wa.me/351932321892?text=Olá, preciso de eletricista urgente ao domingo)
 
 ---
 
-*Última atualização: 8 Março 2026*
-*Preços válidos para região de Trás-os-Montes*
-*Valores sem IVA (acrescer 23%)*
+*Valores *

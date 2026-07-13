@@ -7,7 +7,7 @@ category: "Instalações"
 excerpt: "Guia completo sobre instalação de tomadas exteriores. Preços, tipos (IP44/IP65), normas, materiais e processo de instalação."
 image: "/images-optimized/blog/blog-tomada-exterior.webp"
 metaTitle: "Tomada Exterior: Preço Instalação 2026 | Guia"
-metaDescription: "Instalar tomada exterior: 138-182€ (IP44), 158-210€ (IP65). Normas RTIEBT. Material certificado. Garantia 5 anos. Ligue 932 321 892!"
+metaDescription: "Instalar tomada exterior: 138-182€ (IP44), 158-210€ (IP65). Normas RTIEBT. Material certificado. Garantia 5 anos. Ligue Contacto por telefone ou WhatsApp!"
 keywords: ["quanto custa tomada exterior", "instalar tomada jardim", "tomada ip65 preço", "tomada exterior estanque"]
 ---
 
@@ -91,8 +91,7 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 
 ## Normas e Segurança (RTIEBT)
 
-### Regras Obrigatórias
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Altura Mínima**
 - Tomadas exteriores: mínimo 40cm do chão
 - Junto à piscina: mínimo 2m da água
@@ -118,8 +117,7 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 - Resistência <100 Ohms
 - Testada com megger
 
-### Distâncias Segurança
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Elemento | Distância Mínima |
 |----------|------------------|
 | **Piscina** | 2m da água |
@@ -130,33 +128,31 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 
 ## Materiais Recomendados
 
-### Marcas Premium
-
-**Legrand Plexo (Recomendado)**
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
+**Plexo (Recomendado)**
 - IP55/IP65
 - Garantia 10 anos
 - Preço: 35-55€
 - Qualidade superior
 
-**Schneider Electric Mureva**
+**Mureva**
 - IP55
 - Resistente UV
 - Preço: 30-45€
 - Boa relação qualidade/preço
 
-**Hager Berker W.1**
+**Berker W.1**
 - IP55
 - Design moderno
 - Preço: 40-60€
 - Estética premium
 
-**Siemens Delta (Básico)**
+**Delta (Básico)**
 - IP44
 - Preço: 20-30€
 - Apenas alpendres cobertos
 
-### Cabo Exterior
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **XV 3G2.5mm² (Enterrado)**
 - Isolamento duplo
 - Resistente humidade
@@ -295,8 +291,7 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 
 ## Manutenção e Durabilidade
 
-### Manutenção Anual
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Verificar (5 min):**
 - Tampa fecha bem
 - Vedante não está rachado
@@ -309,8 +304,7 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 - Verificar contactos
 - Religar e testar
 
-### Vida Útil
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Componente | Vida Útil | Substituir Quando |
 |------------|-----------|-------------------|
 | **Tomada IP65** | 15-20 anos | Tampa não veda |
@@ -320,14 +314,14 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 
 ## Usos Comuns Tomada Exterior
 
-### Jardim e Quintal
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 ✅ Corta-relvas elétrico
 ✅ Aparador sebes
 ✅ Aspirador folhas
 ✅ Iluminação decorativa
 ✅ Bomba água
 
-### Garagem e Alpendre
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 ✅ Ferramentas elétricas
 ✅ Wallbox (não instalamos — contacte empresa especializada)
 ✅ Aspirador
@@ -341,7 +335,7 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 ✅ Aquecedor
 ✅ Aspirador
 
-### Terraço e Varanda
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 ✅ Iluminação
 ✅ Aquecedores exterior
 ✅ Grelhador elétrico
@@ -356,7 +350,6 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 ### 2. Quanto tempo dura a instalação?
 **2-4 horas** conforme distância. Instalação simples (5m): 2h. Instalação longa (30m enterrado): 4h.
 
-### 3. Preciso de Fichas eletrotécnicas assinadas por técnico Profissional?
 **Não obrigatório** para adicionar 1 tomada. Mas se fizer remodelação >50% instalação, sim.
 
 ### 4. Posso usar extensão em vez de instalar tomada?
@@ -374,17 +367,16 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 ## Artigos Relacionados
 
 - [Quanto Custa Quadro Elétrico 2026](https://eletricista-urgente.pt/blog/quanto-custa-quadro-fusiveis-2026)
-- [Fichas eletrotécnicas assinadas por técnico Profissional: Preços e Processo](https://eletricista-urgente.pt/blog/preco-certificacao-certificação-2026)
+
 - [Eletricista vs Bricolagem: Quando Vale a Pena](https://eletricista-urgente.pt/blog/eletricista-vs-bricolagem-quando-vale-pena)
 - [Melhores Eletricistas Bragança](https://eletricista-urgente.pt/blog/melhores-eletricistas-braganca-2026)
 
 ## Precisa de Tomada Exterior?
 
-**Ligue agora: 932 321 892**
+**Contacto: 321 892**
 
 ✅ Orçamento gratuito por telefone
-✅ Material certificado (Legrand, Schneider)
-✅ Instalação conforme normas RTIEBT
+✅ Material certificado (✅ Instalação conforme normas RTIEBT
 ✅ Garantia 5 anos
 ✅ IP65 estanque recomendado
 
@@ -392,6 +384,4 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 
 ---
 
-*Última atualização: 8 Março 2026*
-*Preços válidos Trás-os-Montes*
-*Valores sem IVA (acrescer 23%)*
+*Valores *

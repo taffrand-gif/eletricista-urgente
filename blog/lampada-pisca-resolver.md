@@ -31,7 +31,7 @@ priority: "HIGH DEMAND"
 
 ## 8 Causas Principais de Lâmpada Que Pisca
 
-### 1. Lâmpada Mal Aparafusada (35% dos casos)
+### 1. Lâmpada Mal Aparafusada ()
 **Causa mais comum e mais fácil de resolver:**
 
 **Como identificar:**
@@ -55,7 +55,7 @@ priority: "HIGH DEMAND"
 
 **Dica:** Se lâmpada continua a soltar, pode haver problema no casquilho
 
-### 2. Lâmpada Defeituosa ou Incompatível (25% dos casos)
+### 2. Lâmpada Defeituosa ou Incompatível ()
 **Especialmente comum com lâmpadas LED baratas:**
 
 **Sinais de lâmpada defeituosa:**
@@ -77,7 +77,7 @@ priority: "HIGH DEMAND"
 **Custo:** Lâmpada LED qualidade €5-15
 **Tempo:** 2 minutos
 
-### 3. Problema no Casquilho (15% dos casos)
+### 3. Problema no Casquilho ()
 **Contactos gastos ou sujos:**
 
 **Como identificar:**
@@ -102,7 +102,7 @@ priority: "HIGH DEMAND"
 
 **Custo:** €0 (limpeza) ou €40-80 (substituição)
 
-### 4. Dimmer Incompatível ou Avariado (10% dos casos)
+### 4. Dimmer Incompatível ou Avariado ()
 **Problema crescente com lâmpadas LED:**
 
 **Sinais de problema no dimmer:**
@@ -119,12 +119,12 @@ priority: "HIGH DEMAND"
 
 **Solução:**
 - Substitua por dimmer específico para LED
-- Marcas recomendadas: Legrand, Schneider, Jung
+- Marcas recomendadas: Jung
 - Verifique carga mínima e máxima
 
 **Custo:** Dimmer LED €25-60 + instalação €40-80
 
-### 5. Flutuação de Tensão na Rede (8% dos casos)
+### 5. Flutuação de Tensão na Rede ()
 **Problema na rede elétrica pública:**
 
 **Como identificar:**
@@ -146,7 +146,7 @@ priority: "HIGH DEMAND"
 
 **Custo:** €0 (EDP resolve) ou €150-400 (estabilizador)
 
-### 6. Fiação Solta ou Defeituosa (5% dos casos)
+### 6. Fiação Solta ou Defeituosa ()
 **Problema grave que requer eletricista:**
 
 **Sinais de alerta:**
@@ -165,7 +165,7 @@ priority: "HIGH DEMAND"
 
 **Solução:** eletricista com experiência urgente €80-200
 
-### 7. Sobrecarga no Circuito (1,5% dos casos)
+### 7. Sobrecarga no Circuito ()
 **Demasiados aparelhos no mesmo circuito:**
 
 **Como identificar:**
@@ -187,7 +187,7 @@ priority: "HIGH DEMAND"
 
 **Custo:** Novo circuito €150-400
 
-### 8. Problema no Quadro Elétrico (0,5% dos casos)
+### 8. Problema no Quadro Elétrico ()
 **Situação grave que requer profissional:**
 
 **Sinais de problema no quadro:**
@@ -306,7 +306,7 @@ priority: "HIGH DEMAND"
 **1. Várias luzes piscam simultaneamente**
 - Problema no circuito ou quadro
 - Risco de incêndio
-- **Urgência:** Ligue 932 321 892
+- **Urgência:** Ligue Contacto por telefone ou WhatsApp
 
 **2. Cheiro a queimado**
 - Fiação ou componente queimando
@@ -435,11 +435,11 @@ R: SIM, mas verifique: potência máxima, se tem dimmer (use LED regulável), es
 
 ** - eletricista com experiência em Trás-os-Montes**
 
-📞 **Ligue Agora: 932 321 892**
+📞 **Contacto: 321 892**
 - ✅ Atendimento 24h/7d (urgências elétricas)
 - ✅ eletricista com experiência chega Atendimento prioritário
 - ✅ Diagnóstico grátis (se contratar serviço)
-- ✅ Garantia 12 meses em todos os serviços
+- ✅ garantia por escrito em todos os serviços
 - ✅ Certificação elétrica incluída
 
 💬 **WhatsApp:** [Clique para falar connosco](https://wa.me/351932321892?text=Olá,%20tenho%20uma%20lâmpada%20que%20pisca%20e%20preciso%20de%20ajuda)

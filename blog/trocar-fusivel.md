@@ -15,23 +15,21 @@ priority: "HIGH DEMAND"
 
 Neste guia completo, vamos explicar **como identificar um fusível queimado**, os diferentes tipos de fusíveis, como trocar com segurança, as causas principais (sobrecarga 60%, curto-circuito 30%), e quando é hora de atualizar para disjuntores modernos.
 
-**📞 Fusível queima constantemente? Ligue já: [932 321 892](tel:+351932321892)** 
+**📞 Fusível queima constantemente? Ligue já: [Contacto por telefone ou WhatsApp](tel:+351932321892)** 
 **💬 WhatsApp urgente: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20o%20fusível%20queimou%20e%20preciso%20de%20ajuda.)**
 
 ---
 
 ## O Que É Um Fusível e Como Funciona?
 
-### Função do Fusível
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 Um fusível é um **dispositivo de proteção** que:
 - Protege cabos elétricos contra sobreaquecimento
 - Interrompe corrente quando ultrapassa limite seguro
 - Previne incêndios causados por sobrecarga ou curto-circuito
 - **Sacrifica-se** (queima) para proteger a instalação
 
-### Como Funciona
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Componente principal:** Fio metálico fino (liga de chumbo-estanho)
 
 **Processo:**
@@ -146,8 +144,7 @@ Um fusível é um **dispositivo de proteção** que:
 - Trabalhar com eletricidade ligada pode causar **choque elétrico fatal**
 - Se não se sentir confortável, chame eletricista com experiência
 
-### Materiais Necessários
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Fusível novo (amperagem correta)
 - Lanterna (se ficar sem luz)
 - Multímetro (opcional, para teste)
@@ -218,7 +215,7 @@ Um fusível é um **dispositivo de proteção** que:
 
 ## Por Que Fusíveis Queimam? As 5 Causas Principais
 
-### 1. Sobrecarga (60% dos Casos)
+### 1. Sobrecarga ()
 
 **O que é:** Demasiados aparelhos ligados no mesmo circuito
 
@@ -232,7 +229,7 @@ Um fusível é um **dispositivo de proteção** que:
 - Não ligue múltiplos aparelhos potentes simultaneamente
 - Considere criar circuito dedicado (€150-400)
 
-### 2. Curto-Circuito (30% dos Casos)
+### 2. Curto-Circuito ()
 
 **O que é:** Contacto direto entre fase e neutro
 
@@ -251,7 +248,7 @@ Um fusível é um **dispositivo de proteção** que:
 - Não substitua fusível até resolver problema
 - Chame eletricista (€80-300)
 
-### 3. Fusível Subdimensionado (5% dos Casos)
+### 3. Fusível Subdimensionado ()
 
 **O que é:** Fusível com amperagem inferior à necessária
 
@@ -265,7 +262,7 @@ Um fusível é um **dispositivo de proteção** que:
 - Substitua por fusível adequado
 - Consulte eletricista se incerto
 
-### 4. Fusível de Má Qualidade (3% dos Casos)
+### 4. Fusível de Má Qualidade ()
 
 **O que é:** Fusível defeituoso ou falsificado
 
@@ -277,9 +274,7 @@ Um fusível é um **dispositivo de proteção** que:
 **Solução:**
 - Compre fusíveis de marcas reconhecidas
 - Evite fusíveis muito baratos
-- Marcas recomendadas: Legrand, Schneider, Siemens
-
-### 5. Fusível Velho (2% dos Casos)
+- Marcas recomendadas: ### 5. Fusível Velho ()
 
 **O que é:** Fusível deteriorado pelo tempo
 
@@ -296,8 +291,7 @@ Um fusível é um **dispositivo de proteção** que:
 
 ## Fusível vs Disjuntor: Qual é Melhor?
 
-### Comparação
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Característica | Fusível | Disjuntor |
 |----------------|---------|-----------|
 | **Custo inicial** | €1.50-5 | €8-25 |
@@ -362,8 +356,7 @@ Um fusível é um **dispositivo de proteção** que:
 
 ## Onde Comprar Fusíveis em Trás-os-Montes
 
-### Lojas Físicas
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Bragança:**
 - Lojas de material elétrico
 - Ferragens
@@ -373,8 +366,7 @@ Um fusível é um **dispositivo de proteção** que:
 - Mirandela, Trás-os-Montes, Miranda do Douro
 - Ferragens locais
 
-### Online
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Amazon.pt
 - Worten
 - Lojas especializadas
@@ -385,9 +377,9 @@ Um fusível é um **dispositivo de proteção** que:
 - Pack 10 unidades: €12-30
 
 **Marcas recomendadas:**
-- Legrand (€2.50-4)
-- Schneider (€2-3.50)
-- Siemens (€2.50-4)
+- €2.50-4)
+- €2-3.50)
+- €2.50-4)
 - Evite: Marcas desconhecidas muito baratas
 
 ---
@@ -409,7 +401,7 @@ DIY: €1.50-5 (fusível). Profissional: €40-80 (chamada + fusível).
 **5. Fusível ou disjuntor: qual é melhor?** 
 Disjuntor é mais moderno, conveniente e seguro. Fusível é mais barato inicialmente mas requer substituição.
 
-**6. Posso trocar fusível sozinho?** 
+**6. Posso trocar fusível sem a nossa equipa?** 
 Sim, se desligar eletricidade primeiro e usar amperagem correta. Se não se sentir confortável, chame eletricista.
 
 **7. Quanto custa atualizar de fusíveis para disjuntores?** 
@@ -430,13 +422,12 @@ Trocar um fusível é uma tarefa **simples mas que requer atenção absoluta à 
 
 ### Fusível Queima Constantemente?
 
-**📞 Ligue para diagnóstico: [932 321 892](tel:+351932321892)**
+**📞 Ligue para diagnóstico: [Contacto por telefone ou WhatsApp](tel:+351932321892)**
 
 **Serviços :**
 - Diagnóstico de problemas elétricos
 - Atualização de fusíveis para disjuntores
 - Substituição de quadro elétrico completo
-- Fichas eletrotécnicas assinadas por técnico Profissional
 
 **Cobertura:**
 - Bragança e arredores (30 minutos)
@@ -446,7 +437,7 @@ Trocar um fusível é uma tarefa **simples mas que requer atenção absoluta à 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20o%20fusível%20queima%20constantemente.%20Preciso%20de%20diagnóstico.)**
 
 **✅ Garantias :**
-- eletricistas com experiência com 15+ anos de experiência
+- eletricistas com experiência com 
 - Diagnóstico preciso com equipamento profissional
 - Soluções definitivas (não temporárias)
 - Orçamento transparente antes de iniciar

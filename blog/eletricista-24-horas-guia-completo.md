@@ -7,7 +7,7 @@ category: "Urgências"
 excerpt: "Guia completo sobre serviço de eletricista Atendimento 24h/7d em Trás-os-Montes. Tempos de resposta, preços, quando chamar e o que fazer."
 image: "/images-optimized/blog/blog-24h-service.webp"
 metaTitle: "Eletricista 24h Trás-os-Montes | Urgências"
-metaDescription: "Eletricista 24h em Trás-os-Montes. Bragança 15-40min, Mirandela 35-70min. Preços: 70-150€/h. Urgências reais. Ligue 932 321 892!"
+metaDescription: "Eletricista 24h em Trás-os-Montes. Bragança 15-40min, Mirandela 35-70min. Preços: 70-sob orçamento. Urgências reais. Ligue Contacto por telefone ou WhatsApp!"
 keywords: ["eletricista Atendimento 24h/7d", "urgência elétrica noite", "eletricista urgente trás-os-montes", "eletricista domingo noite"]
 schema:
  type: "HowTo"
@@ -18,10 +18,10 @@ schema:
  currency: "EUR"
  value: "70-150"
 faqSchema:
- - question: "Quanto tempo demora eletricista 24h a chegar?"
+ - question: "Quanto tempo  a chegar?"
  answer: "15-40 minutos em Bragança, 30-70 minutos em Mirandela, até 90 minutos em zonas mais afastadas de Trás-os-Montes."
  - question: "Quanto custa eletricista Atendimento 24h/7d?"
- answer: "Dias úteis: 70€/h, Sábados: 85€/h, Domingos/feriados: 95€/h, Noite (20h-8h): 140€/h. Mais deslocação 30-60€."
+ answer: "Dias úteis: 70€/h, Sábados: sob orçamento, Domingos/feriados: sob orçamento, Noite (20h-8h): sob orçamento. Mais deslocação 30-60€."
  - question: "Eletricista 24h trabalha feriados?"
  answer: "Sim, 365 dias por ano incluindo Natal, Ano Novo e todos os feriados. Preços iguais a domingos."
 ---
@@ -36,7 +36,7 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 
 ✅ **Atendimento telefónico Atendimento 24h/7d** - Alguém atende sempre, não máquina
 ✅ **Técnico disponível imediatamente** - Não "ligo-lhe amanhã"
-✅ **Chegada em minutos** - Não horas ou dias
+✅ **** - Não horas ou dias
 ✅ **Equipamento completo** - Viatura equipada para resolver no local
 ✅ **Todos os dias** - Incluindo domingos, feriados, Natal, Ano Novo
 
@@ -124,7 +124,7 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 | Zona 4 (50-70km) | 45€ | 67,50€ (+50%) |
 | Zona 5 (70-90km) | 55€ | 82,50€ (+50%) |
 
-### Exemplos Reais
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 
 **Exemplo 1: Sem corrente (Terça 22h, Bragança)**
 - Deslocação Zona 1 noturna: 22,50€
@@ -157,11 +157,11 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 
 **O que fazer:**
 1. Desligue quadro geral IMEDIATAMENTE
-2. Ligue 932 321 892
+2. Ligue Contacto por telefone ou WhatsApp
 3. Evacue casa se fumo intenso
 4. NÃO ligue água (risco choque)
 
-**Tempo resposta:** 15-40 min (prioridade máxima)
+**Tempo  (prioridade máxima)
 
 ### 2. Choque Elétrico ⚡
 
@@ -175,10 +175,10 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 **O que fazer:**
 1. NÃO toque no aparelho/local
 2. Desligue quadro geral
-3. Ligue 932 321 892 urgente
+3. Ligue Contacto por telefone ou WhatsApp urgente
 4. Mantenha crianças afastadas
 
-**Tempo resposta:** 15-40 min (prioridade máxima)
+**Tempo  (prioridade máxima)
 
 ### 3. Sem Corrente (Inverno/Idosos/Crianças) ❄️
 
@@ -196,7 +196,7 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 3. Agasalhar enquanto espera
 4. Preparar velas/lanternas
 
-**Tempo resposta:** 20-50 min
+**Tempo 
 
 ### 4. Curto-Circuito com Faíscas ⚡
 
@@ -210,11 +210,11 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 
 **O que fazer:**
 1. Desligue quadro geral
-2. Ligue 932 321 892
+2. Ligue Contacto por telefone ou WhatsApp
 3. NÃO tente religar
 4. Afaste materiais inflamáveis
 
-**Tempo resposta:** 15-45 min
+**Tempo 
 
 ### 5. Água + Eletricidade 💧
 
@@ -228,10 +228,10 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 **O que fazer:**
 1. NÃO entre em água se houver corrente
 2. Desligue quadro (se seguro)
-3. Ligue 932 321 892 urgente
+3. Ligue Contacto por telefone ou WhatsApp urgente
 4. Corte água se possível
 
-**Tempo resposta:** 15-40 min (prioridade máxima)
+**Tempo  (prioridade máxima)
 
 ## Situações Que PODEM Esperar
 
@@ -288,7 +288,7 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 
 **Damos preço aproximado:**
 - Deslocação: 15-65€ (conforme zona)
-- Mão obra estimada: 70-150€/h
+- Mão obra estimada: 70-sob orçamento
 - Material estimado: 20-50€
 - **Total estimado: 100-300€**
 
@@ -333,7 +333,7 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 
 **Recebe:**
 - Fatura detalhada
-- Garantia 12 meses
+- garantia por escrito
 - Conselhos prevenção
 - Contacto follow-up
 
@@ -341,7 +341,7 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 
 ## Equipamento Viatura 24h
 
-### Ferramentas Diagnóstico
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 ✅ Multímetro digital profissional
 ✅ Testador isolamento (Megger)
 ✅ Detetor cabos enterrados
@@ -349,7 +349,7 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 ✅ Testador diferencial
 ✅ Câmara térmica (detetar sobreaquecimento)
 
-### Material Comum
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 ✅ Disjuntores (6A-63A)
 ✅ Diferenciais 30mA
 ✅ Tomadas e interruptores
@@ -358,24 +358,24 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 ✅ Fita isoladora profissional
 ✅ Conectores Wago
 
-### Equipamento Segurança
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 ✅ Luvas isolantes 1000V
 ✅ Capacete
 ✅ Lanterna potente
 ✅ Extintor
 ✅ Kit primeiros socorros
 
-**Resultado:** 90% problemas resolvidos no local, sem voltar
+**Resultado:**  no local, sem voltar
 
-## Testemunhos Clientes
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 
-### Maria S., Bragança
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 "Domingo 23h, casa sem corrente, 2 crianças pequenas e frio. Liguei, chegaram Atendimento prioritário, resolveram Atendimento prioritário. Preço justo (165€). Recomendo!"
 
-### João P., Mirandela
-"Cheiro a queimado às 3h da manhã. Atenderam logo, chegaram em 1h (vêm de Bragança). Encontraram cabo derretido, substituíram. Salvaram-me de incêndio. Obrigado!"
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
+"Cheiro a queimado às 3h da manhã. Atenderam logo,  (vêm de Bragança). Encontraram cabo derretido, substituíram. Salvaram-me de incêndio. Obrigado!"
 
-### Ana R., Vinhais
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 "Sábado à noite, disjuntor a saltar constantemente. Vieram, diagnosticaram curto-circuito, arranjaram. 180€ total. Profissionais e rápidos."
 
 ## Perguntas Frequentes
@@ -405,24 +405,23 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 
 - [Quanto Custa Eletricista Domingo 2026](https://eletricista-urgente.pt/blog/quanto-custa-eletricista-domingo-2026)
 - [Urgência Elétrica: O Que Fazer Antes](https://eletricista-urgente.pt/blog/urgencia-eletrica-o-que-fazer-antes)
-- [Fichas eletrotécnicas assinadas por técnico Profissional: Preços e Processo](https://eletricista-urgente.pt/blog/preco-certificacao-certificação-2026)
+
 - [Melhores Eletricistas Bragança](https://eletricista-urgente.pt/blog/melhores-eletricistas-braganca-2026)
 
 ## Precisa de Eletricista Urgente?
 
-**Ligue AGORA: 932 321 892**
+**Contacto: 321 892**
 
 ✅ Atendimento prioritário
-✅ Resposta mediante confirmação por telefone
+✅ Resposta  por telefone
 ✅ Equipamento completo na viatura
 ✅ Preços transparentes
-✅ Garantia 12 meses
+✅ garantia por escrito
 ✅ Atendimento 24h/7d/7 dias
 
 **WhatsApp:** [Urgência elétrica](https://wa.me/351932321892?text=Urgência elétrica! Preciso ajuda)
 
 ---
 
-*Última atualização: 8 Março 2026*
 *Serviço 24h real em Trás-os-Montes*
-*Preços sem IVA (acrescer 23%)*
+*Preços *

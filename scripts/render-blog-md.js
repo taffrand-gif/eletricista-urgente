@@ -269,11 +269,13 @@ function extractFaq(markdown) {
   const entries = [];
   for (let i = start + 1; i < lines.length && entries.length < 16; i += 1) {
     if (/^##\s+/.test(lines[i])) break;
-    const q = lines[i].match(/^###\s+(?:\d+[.)]\s*)?(.+?\??)$/) || lines[i].match(/^\*\*(?:P:|\d+[.)])?\s*(.+?\?)\*\*$/);
+    const q = lines[i].match(/^###\s+(?:\d+[.)]\s*)?(.+?\??)$/)
+      || lines[i].match(/^\*\*(?:P:|\d+[.)])?\s*(.+?\?)\*\*\s*$/)
+      || lines[i].match(/^\*\*\d+\.\s+(.+?\?)\*\*\s*$/);
     if (!q) continue;
     const answer = [];
     for (i += 1; i < lines.length; i += 1) {
-      if (/^#{2,3}\s+/.test(lines[i]) || /^\*\*(?:P:|\d+[.)])?\s*.+?\?\*\*$/.test(lines[i])) { i -= 1; break; }
+      if (/^#{2,3}\s+/.test(lines[i]) || /^\*\*(?:P:|\d+[.)])?\s*.+?\?\*\*\s*$/.test(lines[i]) || /^\*\*\d+\.\s+.+?\?\*\*\s*$/.test(lines[i])) { i -= 1; break; }
       if (lines[i].trim()) answer.push(lines[i].trim());
     }
     const text = stripMarkdown(answer.join(' ')).replace(/^Resposta:\s*/i, '');
@@ -497,4 +499,4 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { auditConformity, markdownToHtml, parseFrontmatter, renderPage };
+module.exports = { auditConformity, markdownToHtml, parseFrontmatter, renderPage, extractFaq };
