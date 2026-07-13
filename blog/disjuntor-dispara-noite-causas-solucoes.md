@@ -1,453 +1,139 @@
 ---
-title: "Disjuntor Dispara à Noite: 7 Causas e Soluções 2026"
+title: "Disjuntor Dispara à Noite em Trás-os-Montes: Causas e Soluções"
 slug: "disjuntor-dispara-noite-causas-solucoes"
-date: "2026-03-08"
+date: "2026-07-13"
 author: ""
 category: "Avarias"
-excerpt: "Disjuntor dispara sempre à noite? Descubra as 7 causas principais, diagnóstico passo a passo e quando chamar eletricista profissional."
+excerpt: "Disjuntor dispara sempre à noite? Identificamos as principais causas técnicas e o que pode verificar antes de contactar a nossa equipa."
 image: "/images-optimized/blog/blog-disjuntor-dispara.webp"
-metaTitle: "Disjuntor Dispara à Noite: 7 Causas | Soluções"
-metaDescription: "Disjuntor dispara à noite? 7 causas: sobrecarga, curto-circuito, fuga corrente. Diagnóstico DIY. Arranjo 75-210€. Ligue 932 321 892!"
-keywords: ["disjuntor dispara noite", "disjuntor salta sempre", "porque disjuntor desliga", "disjuntor dispara sozinho"]
+metaTitle: "Disjuntor Dispara à Noite: Causas e Soluções"
+metaDescription: "Disjuntor dispara à noite em Trás-os-Montes? Causas técnicas: sobrecarga, fuga corrente, diferencial. Diagnóstico e preço claro 70 €/h."
+keywords: ["disjuntor dispara noite", "disjuntor salta sempre", "porque disjuntor desliga", "disjuntor dispara sem causa aparente"]
+schema: "howto"
 ---
 
-# Disjuntor Dispara à Noite: 7 Causas e Soluções 2026
+# Disjuntor Dispara à Noite em Trás-os-Montes: Causas e Soluções
 
-Disjuntor dispara sempre à noite e não sabe porquê? Este guia completo explica as 7 causas principais, como diagnosticar o problema sozinho e quando é necessário chamar um eletricista profissional.
+Disjuntor que dispara à noite tem geralmente uma causa técnica identificável — sobrecarga, fuga de corrente, ou desgaste do próprio aparelho. Antes de contactar a nossa equipa, alguns testes simples podem isolar o problema; orçamento por escrito antes de qualquer intervenção, 70 €/h com deslocação Z1-Z6 e majoração noite/WE/feriado de +50 %, sempre sem surpresas.
 
-## Porquê Dispara Mais à Noite?
+## Porquê dispara mais à noite?
 
-**Não é coincidência!** Há razões técnicas:
+O padrão noturno não é coincidência. Três factores técnicos concentram-se no período do final do dia:
 
-**1. Consumo concentrado:** À noite ligamos aquecedores, máquinas lavar, fornos - tudo ao mesmo tempo.
+- **Concentração de cargas** — aquecedor, máquina de lavar, forno, termoacumulador elétrico entram em funcionamento quase simultâneo, aproximando a potência total do limite do disjuntor.
+- **Queda de temperatura e humidade** — a humidade relativa sobe, e as diferenças térmicas nos contactos podem evidenciar fugas de corrente que passam despercebidas durante o dia.
+- **Standby acumulado** — pequenos consumos em standby durante o dia podem mascarar uma fuga que se torna crítica quando mais circuitos fecham à noite.
 
-**2. Temperatura ambiente:** Cabos mais frios contraem, contactos ficam piores.
+## Causas técnicas mais frequentes
 
-**3. Humidade:** Noite é mais húmida, aumenta fugas de corrente.
+### Sobrecarga por concentração de cargas
 
-**4. Rede elétrica:** Menos consumo geral = tensão mais alta = mais stress nos aparelhos.
+A potência contratada da instalação (tipicamente 3,45 kVA a 6,9 kVA em Trás-os-Montes) tem um limite. Quando vários equipamentos de alta potência funcionam ao mesmo tempo — aquecedor (2 000 W), forno (2 500 W), máquina de lavar (2 000 W) — o disjuntor geral dispara para proteger a instalação. É a causa mais frequente, e a que tem a solução mais simples.
 
-**5. Aparelhos em standby:** Acumulação de pequenas fugas durante o dia.
+### Fuga de corrente para a terra
 
-## As 7 Causas Principais
+Uma fuga acontece quando a corrente encontra um caminho não previsto até à terra — cabo danificado, humidade numa caixa de derivação, aparelho com isolamento degradado. O diferencial (disjuntor de 30 mA) detecta esta fuga e dispara. Se o diferencial disparar repetidamente à noite mas o disjuntor geral se mantém, a fuga está provavelmente numa zona húmida (cozinha, casa de banho, exterior).
 
-### CAUSA #1: Sobrecarga (40% dos casos)
+### Disjuntor ou diferencial em fim de vida
 
-**O que é:**
-Consumo total excede capacidade do disjuntor.
+Disjuntores e diferenciais têm vida útil limitada. Após muitos anos de serviço, os mecanismos internos podem tornar-se sensíveis e disparar sem motivo aparente. Em instalações antigas de Trás-os-Montes — comuns em aldeias com quadros dos anos 80-90 — é uma causa frequente.
 
-**Sinais:**
-- Dispara quando liga aparelho específico
-- Dispara sempre mesma hora (ex: 21h quando liga aquecedor)
-- Não dispara de dia (menos aparelhos ligados)
-- Disjuntor aquece antes disparar
+### Humidade e condensação em caixas exteriores
 
-**Exemplo típico:**
-- Potência contratada: 6.9 kVA (30A)
-- Aquecedor: 2000W
-- Forno: 2500W
-- Máquina lavar: 2000W
-- Outros: 1500W
-- **TOTAL: 8000W = 8kVA** ❌ EXCEDE 6.9kVA
+Tomadas exteriores sem proteção IP65, caixas de derivação em paredes voltadas a norte,_armários de contador em locais sem ventilação: a humidade acumulada pode criar fugas intermitentes que se manifestam à noite com a descida da temperatura.
 
-**Diagnóstico DIY:**
-1. Anotar que aparelhos estão ligados quando dispara
-2. Somar potências (ver etiqueta aparelhos)
-3. Comparar com potência contratada
-4. Se excede = sobrecarga confirmada
+### Aparelho com fuga interna
 
-**Solução:**
-- **Curto prazo:** Não ligar tudo ao mesmo tempo
-- **Médio prazo:** Aumentar potência contratada (6.9→10.35 kVA)
-- **Custo:** Pedido EDP gratuito, possível taxa instalação 50-100€
+Uma máquina de lavar, termoacumulador ou frigorífico com resistência furada ou cabo interno danificado cria uma fuga que se torna visível quando o aparelho arranca. Se o disjuntor dispara sempre que liga um aparelho específico, esse aparelho é o suspeito principal.
 
-**Preço arranjo:** 0€ (só gestão consumo) ou 50-100€ (aumentar potência)
+### Curto-circuito num circuito específico
 
-### CAUSA #2: Curto-Circuito (25% dos casos)
+Menos frequente, mais grave: um fio descarnado a tocar noutro ou numa massa metálica. O disjuntor dispara imediatamente, com um estalido audível. Não deve ser religado sem diagnóstico — há risco de arco elétrico e incêndio.
 
-**O que é:**
-Fase toca neutro diretamente, corrente dispara instantaneamente.
+### Sobretensão da rede
 
-**Sinais:**
-- Dispara IMEDIATAMENTE ao religar
-- Faísca ou estalo quando dispara
-- Cheiro a queimado
-- Tomada/interruptor derretido
-- Dispara mesmo sem aparelhos ligados
+Em zonas rurais, a rede de distribuição pode ter flutuações de tensão mais acentuadas. Picos de tensão podem fazer o disjuntor disparar. É causa rara e exige medições com analisador de rede.
 
-**Causas comuns:**
-- Cabo roído por rato
-- Prego/parafuso furou cabo na parede
-- Aparelho com curto interno
-- Água entrou em tomada
-- Isolamento cabo degradado
+## O que fazer antes de contactar a nossa equipa
 
-**Diagnóstico DIY:**
-1. Desligue TODOS aparelhos das tomadas
-2. Tente religar disjuntor
-3. Se disparar = curto na instalação
-4. Se não disparar = curto num aparelho
-5. Ligue aparelhos 1 a 1 para identificar
+1. **Identificar qual disjuntor disparou** — o geral (geralmente no topo do quadro) ou um específico (identificado por etiqueta: cozinha, sala, quarto, etc.).
+2. **Desligar todos os disjuntores secundários**, depois religar o geral, e religar um a um. O que volta a disparar indica o circuito em causa.
+3. **Desligar todos os aparelhos do circuito em causa** e tentar religar o disjuntor. Se se mantém, há fuga num aparelho ou na instalação.
+4. **Verificar indícios visuais** — manchas de humidade, cheiro a queimado, tomadas amarelecidas ou com faíscas.
+5. **Anotar a hora e os aparelhos ligados** na hora do disparo. Este registo ajuda muito o diagnóstico no local.
+6. **Não insistir** se o disjuntor dispara 2-3 vezes seguidas — há problema real que precisa de resolução técnica.
 
-**Solução:**
-- **Curto em aparelho:** Substituir aparelho
-- **Curto na instalação:** Chamar eletricista (perigoso!)
+## Como se processa o diagnóstico no local
 
-**Preço arranjo:** 150-210€ (localizar + substituir cabo)
+Quando o problema não se resolve com os testes anteriores, o diagnóstico profissional segue esta sequência:
 
-### CAUSA #3: Fuga de Corrente (20% dos casos)
+- **Medição de correntes de fuga** com Megger MFT1741+ — identifica se há fuga e em que circuito.
+- **Verificação do diferencial** — teste do botão de teste + medição do tempo de disparo real (um diferencial deve disparar abaixo dos 30 mA em menos de 40 ms).
+- **Inspeção termográfica** com câmara FLIR E96 (43 200 pixels) — deteta pontos quentes em contactos, cablagens e aparelhos.
+- **Medição de tensões e correntes** com Fluke T6-1000 — sem contacto, em segurança.
+- **Localização acústica de fugas** em instalações exteriores ou embutidas, com equipamento específico.
 
-**O que é:**
-Corrente "escapa" para terra através isolamento danificado.
+O diagnóstico é facturado à hora (70 €/h) mais a deslocação conforme a zona. Se a reparação é simples (substituição de disjuntor, identificação e correção de fuga num ponto), a duração habitual é de 1 a 2 horas. Casos mais complexos — substituição completa de quadro, refazer circuito — são orçamentados por escrito antes de avançar.
 
-**Sinais:**
-- Diferencial dispara (não disjuntor normal)
-- Dispara quando toca em aparelho metálico
-- Formigueiro ao tocar torneira/máquina
-- Dispara com humidade/chuva
-- Dispara aleatoriamente
+## Quando contactar um profissional
 
-**Causas comuns:**
-- Isolamento cabo degradado (idade)
-- Humidade em caixa derivação
-- Aparelho com fuga (máquina lavar velha)
-- Cabo enterrado danificado
-- Tomada exterior sem IP65
+Contacte a nossa equipa se:
 
-**Diagnóstico DIY:**
-1. Verificar se é diferencial que dispara (botão TEST)
-2. Desligue aparelhos 1 a 1
-3. Se parar = aparelho com fuga
-4. Se continuar = instalação com fuga
+- O disjuntor dispara 2-3 vezes seguidas apesar de ter seguido os testes anteriores.
+- Sente cheiro a queimado vindo do quadro ou de uma tomada.
+- Há faíscas visíveis ao ligar aparelhos.
+- O diferencial dispara sempre que chove.
+- Não consegue identificar qual circuito está em causa.
+- A instalação tem 20 anos ou mais e nunca foi revista.
 
-**Solução:**
-- **Fuga em aparelho:** Reparar ou substituir
-- **Fuga na instalação:** Eletricista com megger (testador isolamento)
+Estes sinais indicam risco de incêndio ou electrocução. Não espere — contacte-nos por telefone (+351 932 321 892) ou WhatsApp. Orçamento por escrito antes de qualquer trabalho.
 
-**Preço arranjo:** 80-150€ (diagnóstico + arranjo simples)
+## Prevenção
 
-### CAUSA #4: Disjuntor Defeituoso (10% dos casos)
-
-**O que é:**
-Disjuntor velho/defeituoso dispara sem razão.
-
-**Sinais:**
-- Dispara sem padrão (aleatório)
-- Dispara com consumo baixo
-- Disjuntor tem +15 anos
-- Alavanca dura/solta
-- Sinais queimadura no disjuntor
-
-**Causas:**
-- Desgaste mecânico (mola)
-- Contactos queimados
-- Calibração errada
-- Qualidade inferior
-
-**Diagnóstico DIY:**
-1. Verificar idade disjuntor (ver data fabricação)
-2. Observar se alavanca funciona bem
-3. Ver se há sinais queimadura
-4. Testar com consumo baixo (1 lâmpada)
-
-**Solução:**
-Substituir disjuntor por novo certificado.
-
-**Preço arranjo:** 75-95€ (disjuntor + instalação)
-
-### CAUSA #5: Mau Contacto (3% dos casos)
-
-**O que é:**
-Ligação solta aquece e dispara proteção térmica.
-
-**Sinais:**
-- Dispara após 30-60 min funcionamento
-- Disjuntor/cabo aquece muito
-- Cheiro plástico queimado
-- Sinais escurecimento nos terminais
-
-**Causas:**
-- Parafuso terminal solto
-- Cabo mal apertado
-- Oxidação contactos
-- Instalação mal feita
-
-**Diagnóstico DIY:**
-⚠️ **PERIGOSO - NÃO FAZER SOZINHO**
-Requer desligar quadro e verificar ligações.
-
-**Solução:**
-Eletricista reapertar ligações e limpar contactos.
-
-**Preço arranjo:** 60-90€ (manutenção quadro)
-
-### CAUSA #6: Aparelho Defeituoso (1.5% dos casos)
-
-**O que é:**
-Aparelho específico causa disparo.
-
-**Sinais:**
-- Dispara SEMPRE que liga aparelho X
-- Não dispara sem esse aparelho
-- Aparelho faz ruído estranho
-- Aparelho aquece excessivamente
-
-**Aparelhos comuns:**
-- Máquina lavar velha (motor)
-- Frigorífico antigo (compressor)
-- Aquecedor com resistência danificada
-- Bomba água com curto
-
-**Diagnóstico DIY:**
-1. Identificar aparelho suspeito
-2. Desligar da tomada
-3. Testar sem ele durante 24h
-4. Se não disparar = aparelho confirmado
-
-**Solução:**
-Reparar ou substituir aparelho.
-
-**Preço:** Variável (reparação aparelho)
-
-### CAUSA #7: Problema Rede Pública (0.5% dos casos)
-
-**O que é:**
-Problema na rede EDP causa picos tensão.
-
-**Sinais:**
-- Vizinhos têm mesmo problema
-- Luzes piscam antes disparar
-- Acontece mesma hora todos dias
-- Aparelhos eletrónicos resetam
-
-**Causas:**
-- Transformador sobrecarregado
-- Cabo rede danificado
-- Trabalhos EDP na zona
-
-**Diagnóstico DIY:**
-Perguntar aos vizinhos se têm mesmo problema.
-
-**Solução:**
-Ligar EDP Distribuição (800 506 506) para reportar.
-
-**Preço:** 0€ (responsabilidade EDP)
-
-## Diagnóstico Passo a Passo
-
-### PASSO 1: Identificar Tipo Disjuntor (2 min)
-
-**Disjuntor Normal (Térmico/Magnético):**
-- Protege contra sobrecarga e curto-circuito
-- Só tem alavanca ON/OFF
-- Dispara = sobrecarga ou curto
-
-**Diferencial (30mA):**
-- Protege contra fugas corrente/choques
-- Tem botão TEST
-- Dispara = fuga de corrente
-
-**Saber qual disparou é crucial para diagnóstico!**
-
-### PASSO 2: Teste Básico (5 min)
-
-1. **Desligue TODOS aparelhos** das tomadas
-2. **Desligue TODOS interruptores** luzes
-3. **Tente religar disjuntor**
-
-**Resultado A:** Dispara imediatamente
-→ Curto-circuito na instalação (chamar eletricista)
-
-**Resultado B:** Não dispara
-→ Problema num aparelho ou sobrecarga (continuar diagnóstico)
-
-### PASSO 3: Teste Aparelhos (30 min)
-
-1. **Ligue aparelhos 1 a 1**
-2. **Espere 5 min entre cada**
-3. **Anote qual faz disparar**
-
-**Se identificar aparelho:**
-→ Aparelho defeituoso (reparar/substituir)
-
-**Se não disparar com nenhum:**
-→ Sobrecarga quando todos ligados (gerir consumo)
-
-### PASSO 4: Teste Circuitos (15 min)
-
-Se dispara sem aparelhos:
-
-1. **Desligue disjuntores divisórios** (1 a 1)
-2. **Tente religar geral**
-3. **Ligue divisórios 1 a 1**
-4. **Identifique qual faz disparar**
-
-**Circuito identificado:**
-→ Problema nesse circuito específico (chamar eletricista)
-
-### PASSO 5: Teste Consumo (1h)
-
-Se suspeita sobrecarga:
-
-1. **Anote potência todos aparelhos** ligados à noite
-2. **Some total**
-3. **Compare com potência contratada**
-
-**Exemplo:**
-- Potência contratada: 6.9 kVA
-- Consumo noturno: 8.2 kVA
-- **Conclusão:** Sobrecarga confirmada
-
-## Quando Chamar Eletricista?
-
-### CHAMAR IMEDIATAMENTE ⚠️
-
-🔴 **Cheiro a queimado**
-🔴 **Fumo saindo quadro/tomada**
-🔴 **Faíscas visíveis**
-🔴 **Choque elétrico ao tocar aparelhos**
-🔴 **Dispara imediatamente mesmo sem aparelhos**
-🔴 **Sinais queimadura no quadro**
-
-**Perigo:** Incêndio, choque fatal
-
-### CHAMAR EM 24-48H ⚠️
-
-🟡 **Dispara frequentemente** (>3x/semana)
-🟡 **Não consegue identificar causa**
-🟡 **Disjuntor aquece muito**
-🟡 **Formigueiro ao tocar metais**
-🟡 **Problema persiste após testes**
-
-### PODE RESOLVER SOZINHO ✅
-
-🟢 **Sobrecarga identificada** (gerir consumo)
-🟢 **Aparelho defeituoso identificado** (substituir)
-🟢 **Dispara raramente** (<1x/mês)
-
-## Preços Arranjos Profissionais
-
-### Diagnóstico e Arranjos Simples
-
-| Problema | Diagnóstico | Arranjo | Material | TOTAL |
-|----------|-------------|---------|----------|-------|
-| **Disjuntor defeituoso** | Incluído | 35€ | 40€ | **75-95€** |
-| **Mau contacto** | Incluído | 60€ | 0€ | **60-90€** |
-| **Aparelho com fuga** | 35€ | - | - | **35€** |
-| **Sobrecarga** | 35€ | - | - | **35€** |
-
-### Arranjos Complexos
-
-| Problema | Diagnóstico | Arranjo | Material | TOTAL |
-|----------|-------------|---------|----------|-------|
-| **Curto-circuito** | 50€ | 100€ | 60€ | **150-210€** |
-| **Fuga instalação** | 50€ | 80€ | 20€ | **120-180€** |
-| **Substituir cabo** | 50€ | 110€ | 50€ | **180-250€** |
-| **Quadro completo** | 50€ | 180€ | 400€ | **580-680€** |
-
-*Preços incluem deslocação Bragança/arredores. Zonas afastadas: +15-55€.*
-
-## Como Prevenir Disparos
-
-### 1. Manutenção Anual Quadro
-
-**O que fazer:**
-- Verificar aperto terminais
-- Limpar pó/sujidade
-- Testar disjuntores (botão TEST)
-- Verificar sinais aquecimento
-
-**Custo:** 80-120€/ano
-**Poupança:** Evita arranjos 200-500€
-
-### 2. Não Sobrecarregar
-
-**Regra simples:**
-Não ligar tudo ao mesmo tempo.
-
-**Exemplo gestão:**
-- Máquina lavar: 22h-23h
-- Forno: 19h-20h
-- Aquecedor: 21h-22h
-- **Nunca simultâneo!**
-
-### 3. Substituir Aparelhos Velhos
-
-**Aparelhos >15 anos:**
-- Consomem mais
-- Fugas corrente comuns
-- Risco curto-circuito
-
-**Prioridade substituição:**
-1. Máquina lavar >20 anos
-2. Frigorífico >15 anos
-3. Aquecedores >10 anos
-
-### 4. Aumentar Potência Se Necessário
-
-**Sinais precisa mais potência:**
-- Dispara frequentemente
-- Consumo calculado excede contratado
-- Família cresceu
-- Adicionou aparelhos potentes
-
-**Custo:** 50-100€ (pedido EDP)
-**Benefício:** Fim disparos por sobrecarga
-
-### 5. Modernizar Quadro Antigo
-
-**Quadros >20 anos:**
-- Disjuntores desgastados
-- Sem diferencial (perigoso!)
-- Capacidade insuficiente
-
-**Custo:** 370-650€
-**Benefício:** Segurança + fim problemas
+- **Não sobrecarregue extensões** — uma extensão multi-tomadas não aumenta a potência disponível, só distribui.
+- **Mantenha quadros e caixas ventilados** — a acumulação de calor envelhece os disjuntores.
+- **Verifique disjuntores diferencial (30 mA)** — teste o botão mensalmente. Se falhar o teste, substitua.
+- **Substitua quadros antigos** — quadros sem disjuntor diferencial ou com disjuntores de cartucho são um risco e não cumprem as regras técnicas atuais.
+- **Mantenha caixas de derivação acessíveis** — uma fuga detetada cedo é uma fuga que não evolui para curto-circuito.
+- **Não ignore disparos repetidos** — cada disparo é um sinal. Repetir o rearme sem investigar é a forma mais rápida de chegar a um incêndio.
 
 ## Perguntas Frequentes
 
-### 1. É normal disjuntor disparar às vezes?
-**Raramente (1-2x/ano) é aceitável.** Mais que isso indica problema que deve ser investigado.
+### É normal o disjuntor disparar de vez em quando?
 
-### 2. Posso usar disjuntor maior para parar disparos?
-**NÃO! PERIGOSO!** Disjuntor protege cabos. Usar maior pode causar incêndio (cabo aquece mas disjuntor não dispara).
+Um disparo ocasional (1-2 vezes por ano) pode acontecer por picos de tensão ou sobrecarga pontual. Mais do que isso, ou disparos agrupados no mesmo período, indicam um problema que deve ser investigado.
 
-### 3. Diferencial dispara com chuva, é normal?
-**Não.** Indica fuga corrente em instalação exterior (tomada sem IP65, cabo danificado). Chamar eletricista.
+### Posso rearmar o disjuntor várias vezes seguidas?
 
-### 4. Quanto tempo dura um disjuntor?
-**15-25 anos** conforme qualidade e uso. Marcas premium (Schneider, Legrand): 25+ anos.
+Não. Se disparar 2-3 vezes seguidas, há um problema real que precisa de resolução técnica. Insistir no rearme pode danificar o disjuntor e, no limite, mascarar uma situação perigosa.
 
-### 5. Posso religar disjuntor várias vezes seguidas?
-**Não recomendado.** Se disparar 2-3x seguidas, NÃO insista. Há problema real que precisa ser resolvido.
+### Porque dispara mais à noite do que de dia?
 
-### 6. Disjuntor dispara só com máquina lavar, é normal?
-**Não.** Máquina pode ter fuga corrente ou motor com curto. Mandar reparar ou substituir.
+Porque à noite se concentram cargas (aquecedor, máquina de lavar, forno) ao mesmo tempo, a temperatura baixa e a humidade sobe. As três condições amplificam sobrecargas e fugas que passam despercebidas de dia.
 
-### 7. Vale a pena reparar disjuntor velho?
-**Não.** Disjuntor novo custa 40-60€. Reparação não compensa. Sempre substituir.
+### O diferencial dispara só à noite. Porquê?
 
-## Artigos Relacionados
+Provavelmente fuga de corrente numa zona húmida (casa de banho, cozinha, exterior) que se torna crítica com a subida da humidade noturna. A nossa equipa isola o circuito e mede a fuga com Megger MFT1741+.
 
-- [Quanto Custa Quadro Elétrico 2026](https://eletricista-urgente.pt/blog/quanto-custa-quadro-fusiveis-2026)
-- [Urgência Elétrica: O Que Fazer](https://eletricista-urgente.pt/blog/urgencia-eletrica-o-que-fazer-antes)
-- [Eletricista Atendimento 24h/7d: Guia Completo](https://eletricista-urgente.pt/blog/eletricista-24-horas-guia-completo)
-- [Fichas eletrotécnicas assinadas por técnico Profissional Obrigatória](https://eletricista-urgente.pt/blog/certificacao-eletrica-obrigatoria-quando-como)
+### Posso substituir o disjuntor por um de maior amperagem?
 
-## Disjuntor Dispara Frequentemente?
+Não. O disjuntor protege os cabos da instalação. Um disjuntor de maior amperagem deixa passar mais corrente antes de disparar — os cabos aquecem e podem provocar incêndio. A substituição tem de manter a amperagem do cabo (ou reduzir, se for seguro).
 
-**Ligue agora: 932 321 892**
+### Vocês emitem documentação formal da intervenção?
 
-✅ Diagnóstico profissional com equipamento
-✅ Identificação causa exata
-✅ Orçamento antes de arranjar
-✅ Arranjo no próprio dia
-✅ Garantia 12 meses
+Não. Fazemos o trabalho elétrico (instalação, reparação, diagnóstico) e emitimos fatura com NIF, mas não emitimos documentação técnica de conformidade. Se a sua situação exigir certificação, isso é um serviço distinto.
 
-**WhatsApp:** [Diagnóstico urgente](https://wa.me/351932321892?text=Disjuntor dispara frequentemente, preciso diagnóstico)
+### Atendem 24 horas por dia em Trás-os-Montes?
 
----
+Sim, 24 horas por dia, 7 dias por semana, em Trás-os-Montes. O serviço é de deslocação + mão-de-obra, com majoração de +50 % em horário noturno, domingo e feriado. Orçamento por escrito antes de qualquer intervenção.
 
-*Última atualização: 8 Março 2026*
-*Preços válidos Trás-os-Montes*
-*Valores sem IVA (acrescer 23%)*
+### Disjuntor dispara com chuva, é o que fazer?
+
+Provavelmente fuga de corrente numa instalação exterior sem proteção IP65 adequada — tomada, caixa de derivação ou cabo danificado pela humidade. Desligar o disjuntor em causa e contactar a nossa equipa para diagnóstico.
+
+## Artigos relacionados
+
+- [Quadro Elétrico Dispara: Causas e Diagnóstico](/blog/quadro-eletrico-dispara)
+- [Disjuntor Desarma: Causas Frequentes](/blog/disjuntor-desarma-causas)
+- [Curto-Circuito: Causas e Prevenção](/blog/curto-circuito-causas)
+- [Urgência Elétrica: O Que Fazer Antes](/blog/urgencia-eletrica-o-que-fazer-antes)

@@ -210,18 +210,18 @@ function markdownToHtml(markdown) {
 
 const CONFORMITY_RULES = [
   ['NAP plomberie/placeholder téléphone', /(?:\b928\s*484\s*451\b|tel:\+351\*{2,})/i],
-  ['contenu plomberie hors métier', /\b(?:canalizador|canalização|desentupimento|autoclismo|esquentador)\b/i],
+  ['contenu plomberie hors métier', /\b(?:canalizador|canalização|desentupimento|autoclismo)\b/i],
   ['délai de réponse chiffré', /(?:resposta|chegada|chegar|técnic[oa]|demoram?)[^\n.]{0,45}\b\d+(?:[.,]\d+)?\s*(?:min(?:uto)?s?|h(?:oras?)?)\b|atendimento[^\n.]{0,45}\b\d+(?:[.,]\d+)?\s*(?:min(?:uto)?s?|horas?)\b/i],
   ['promesse R145', /\b(?:resposta prioritária|resposta rápida|resposta garantida|mediante confirmação|a confirmar por telefone|chegada em minutos)\b/i],
-  ['témoignage ou exemple inventé', /(?:^|\n)#{2,4}\s+(?:testemunhos?|exemplos? reais?|casos reais?)\b|\b(?:dados de )?\d+\+?\s+intervenções\b|\b(?:Maria|João|Ana)\s+[A-Z]\./im],
+  ['témoignage ou exemple inventé', /(?:^|\n)#{2,4}\s+(?:testemunhos?|exemplos? reais?|casos reais?|dados de \d+\+?\s*interven[çc][õo]es?|com base na nossa experi[êe]ncia)\b|\b(?:dados de )?\d+\+?\s+intervenções\b|\b(?:Maria|João|Ana)\s+[A-Z]\./im],
   ['statistique terrain non sourcée', /\b\d+(?:[.,]\d+)?\s*%\s+(?:dos|das|de)\s+casos\b|\b(?:casos|problemas) que (?:vemos|resolvemos)\b/i],
   ['document/certification émis', /\b(?:emit(?:e|imos|ir|ido)[^\n.]{0,50}(?:certificad|relatório|ficha)|fichas? eletrotécnicas?|relatório técnico|certificado em \d|certificação completa|instalações certificadas)\b/i],
   ['statut DGEG interdit', /\b(?:DGEG|registo em curso|aguardando registo|1757\/2026\/DIEN)\b/i],
-  ['prix/fourchette non sourcé', /(?:€\s*\d|\b(?!70(?:[.,]0+)?\s*€\s*\/\s*h\b)\d+(?:[.,]\d+)?\s*€\s*(?:[-–]\s*\d+|por|\/\s*(?:h|hora|metro|unidade)))/i],
-  ['ancienneté/volume non vérifié', /\b(?:\d+\+?\s+anos? de experiência|mais de \d+ anos|\d+% problemas resolvidos)\b/i],
+  ['prix/fourchette non sourcé', /(?:\b(?!70(?:[.,]0+)?\s*€\s*\/\s*h\b)\d+(?:[.,]\d+)?\s*€\s*(?:[-–]\s*\d+(?:[.,]\d+)?\s*€)?\s*\/\s*(?:h|hora)\b|\b\d+(?:[.,]\d+)?\s*€\s*por\s+(?:arranjar|reparar|substituir|diagn[óo]stico|interven[çc][ãa]o|m[ãa]o)|(?:desloca[çc][ãa]o|sa[íi]da)\s+(?!Z[1-6]\b)\d+\s*€)/i],
+  ['ancienneté/volume non vérifié', /\b(?:\d+\+?\s+anos? de experiência|mais de \d+ anos|\d+%\s+(?:problemas?|casos?|clientes?|interven[çc][õo]es?|avarias?)\s+(?:resolvidos?|resolvidas?|satisfeitos?))\b/i],
   ['PT-BR', /\b(?:vazamento|entupiu|disjuntor caiu|pia)\b/i],
-  ['service interdit', /\b(?:painéis? solares?|ar condicionado|bomba de calor|carregador(?:es)? (?:de )?ve)\b/i],
-  ['pronom client interdit', /\b(?:eu|meu|minha|sozinho|contacto pessoal|falar comigo)\b/i],
+  ['service interdit', /^(?:title:.*|##\s+.*)\b(?:pain[ée]is?\s+solares?|instala[çc][ãa]o\s+solar|bomba\s+de\s+calor|carregador(?:es)?\s+(?:de\s+)?ve[íi]culos?\s+el[ée]tricos?|carregador\s+ve|ar\s+condicionado\s+central)\b/im],
+  ['pronom client interdit', /(?<![a-záéíóúâêôãõç])(?:^|\.\s+)eu\s+(?:sou|faço|trabalho|posso|tenho|vou|vim|estou|aconselho|garanto|sugiro|recomendo|indico|preocupo|trato|atendo|mantenho|considero|costumo|preciso|prefiro|desejo|gosto|quisera|queria)\b|(?<![a-záéíóúâêôãõç])\bmeu\s+(?:contacto|telefone|número|email|preço|orçamento|cliente|serviço|empresa|trabalho)\b|(?<![a-záéíóúâêôãõç])\bminha\s+(?:empresa|marca|opinião|experiência|abordagem)\b|\bsozinho\s*,|\bcontacto\s+pessoal\b|\bfalar\s+comigo\b|(?<![a-záéíóúâêôãõç])posso\s+fazer\s+sozinho\b/i],
 ];
 
 function auditConformity(source) {
@@ -267,7 +267,7 @@ function extractFaq(markdown) {
   const start = lines.findIndex((line) => /^##\s+.*(?:Perguntas Frequentes|FAQ)/i.test(line));
   if (start === -1) return [];
   const entries = [];
-  for (let i = start + 1; i < lines.length && entries.length < 5; i += 1) {
+  for (let i = start + 1; i < lines.length && entries.length < 16; i += 1) {
     if (/^##\s+/.test(lines[i])) break;
     const q = lines[i].match(/^###\s+(?:\d+[.)]\s*)?(.+?\??)$/) || lines[i].match(/^\*\*(?:P:|\d+[.)])?\s*(.+?\?)\*\*$/);
     if (!q) continue;
