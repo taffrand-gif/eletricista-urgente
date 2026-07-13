@@ -13,9 +13,9 @@ priority: "HIGH DEMAND"
 
 **A sua lâmpada não para de piscar ou tremulicar?** Este problema irritante não é apenas desconfortável para os olhos — pode indicar **problemas elétricos graves** que requerem atenção imediata. Uma lâmpada que pisca pode ser um sinal de mau contacto, sobrecarga, ou até problemas na instalação elétrica que podem causar incêndio.
 
-Neste guia completo, vamos explicar as **7 causas principais** que fazem uma lâmpada piscar, como identificar cada uma, e as soluções definitivas. Com mais de 15 anos de experiência em instalações elétricas na região de Bragança, já resolvemos milhares de casos de iluminação problemática.
+Neste guia completo, vamos explicar as **7 causas principais** que fazem uma lâmpada piscar, como identificar cada uma, e as soluções definitivas. Com mais de  em instalações elétricas na região de Bragança, já resolvemos milhares de casos de iluminação problemática.
 
-**📞 Lâmpada pisca constantemente? Ligue já: [932 321 892](tel:+351932321892)** 
+**📞 Lâmpada pisca constantemente? Ligue já: [Contacto por telefone ou WhatsApp](tel:+351932321892)** 
 **💬 WhatsApp urgente: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20a%20minha%20lâmpada%20não%20para%20de%20piscar.%20Podem%20ajudar%3F)**
 
 ---
@@ -72,9 +72,7 @@ Antes de diagnosticar, é importante distinguir os diferentes tipos de piscar:
 
 ## As 7 Causas Principais (Com Percentagens Reais)
 
-Com base na nossa experiência de 800+ intervenções em Trás-os-Montes:
-
-### 1. Lâmpada Defeituosa ou Incompatível (40% dos Casos)
+### 1. Lâmpada Defeituosa ou Incompatível ()
 
 **O que acontece:**
 - Lâmpada LED de baixa qualidade
@@ -109,7 +107,7 @@ Com base na nossa experiência de 800+ intervenções em Trás-os-Montes:
 - Ledvance (boa)
 - Evite: Marcas muito baratas (duram 6-12 meses)
 
-### 2. Mau Contacto na Rosca (25% dos Casos)
+### 2. Mau Contacto na Rosca ()
 
 **O que acontece:**
 - Lâmpada mal aparafusada
@@ -149,7 +147,7 @@ Com base na nossa experiência de 800+ intervenções em Trás-os-Montes:
 5. Verifique contacto central (deve estar centrado)
 6. Recoloque lâmpada e aperte bem
 
-### 3. Interruptor Defeituoso (15% dos Casos)
+### 3. Interruptor Defeituoso ()
 
 **O que acontece:**
 - Contactos internos gastos
@@ -177,7 +175,7 @@ Com base na nossa experiência de 800+ intervenções em Trás-os-Montes:
 
 **⚠️ ATENÇÃO:** Trabalhos elétricos devem ser feitos com eletricidade desligada. Se não se sentir confortável, chame eletricista.
 
-### 4. Ligação Solta ou Cabo Danificado (10% dos Casos)
+### 4. Ligação Solta ou Cabo Danificado ()
 
 **O que acontece:**
 - Cabo mal ligado no casquilho
@@ -210,7 +208,7 @@ Com base na nossa experiência de 800+ intervenções em Trás-os-Montes:
 
 **⚠️ PERIGO:** Ligação solta pode causar faísca e incêndio. Não ignore!
 
-### 5. Variação de Tensão na Rede (5% dos Casos)
+### 5. Variação de Tensão na Rede ()
 
 **O que acontece:**
 - Tensão da rede varia (210-240V em vez de 230V estável)
@@ -240,7 +238,7 @@ Com base na nossa experiência de 800+ intervenções em Trás-os-Montes:
 - **Estabilizador de tensão:** €150-400 (proteção temporária)
 - **Dificuldade:** Profissional (EDP)
 
-### 6. Sobrecarga no Circuito (3% dos Casos)
+### 6. Sobrecarga no Circuito ()
 
 **O que acontece:**
 - Demasiados aparelhos ligados no mesmo circuito
@@ -266,7 +264,7 @@ Com base na nossa experiência de 800+ intervenções em Trás-os-Montes:
 - **Redistribuir cargas:** €0 (ligar aparelhos em circuitos diferentes)
 - **Dificuldade:** Profissional recomendado
 
-### 7. Dimmer Incompatível ou Defeituoso (2% dos Casos)
+### 7. Dimmer Incompatível ou Defeituoso ()
 
 **O que acontece:**
 - Dimmer antigo incompatível com LED
@@ -291,8 +289,8 @@ Com base na nossa experiência de 800+ intervenções em Trás-os-Montes:
 - **Dificuldade:** Média
 
 **Dimmers recomendados para LED:**
-- Legrand Valena Next (€35-50)
-- Schneider Unica (€30-45)
+- Valena Next (€35-50)
+- Unica (€30-45)
 - Jung (€40-60)
 
 ---
@@ -347,8 +345,7 @@ Se nenhum teste anterior identificou o problema:
 
 ## Soluções e Custos
 
-### Soluções DIY
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Solução | Custo | Tempo | Dificuldade |
 |---------|-------|-------|-------------|
 | Substituir lâmpada | €5-20 | 2 min | Muito fácil |
@@ -356,8 +353,7 @@ Se nenhum teste anterior identificou o problema:
 | Apertar lâmpada | €0 | 1 min | Muito fácil |
 | Substituir interruptor | €3-15 | 20-30 min | Média |
 
-### Soluções Profissionais
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Preço Total |
 |---------|-------------|
 | Diagnóstico completo | €60-100 |
@@ -441,7 +437,7 @@ Possivelmente. Teste em outro casquilho. Se continuar → defeituosa (troque em 
 
 ## Conclusão: Resolva o Problema Hoje
 
-Uma lâmpada que pisca não é apenas irritante — pode indicar **problemas elétricos graves** que requerem atenção. Enquanto 40% dos casos resolvem-se simplesmente substituindo a lâmpada (€5-20), os restantes 60% podem indicar mau contacto, interruptor defeituoso, ou problemas na instalação que podem causar incêndio se ignorados.
+Uma lâmpada que pisca não é apenas irritante — pode indicar **problemas elétricos graves** que requerem atenção. Enquanto  resolvem-se simplesmente substituindo a lâmpada (€5-20), os restantes 60% podem indicar mau contacto, interruptor defeituoso, ou problemas na instalação que podem causar incêndio se ignorados.
 
 **Estratégia recomendada:**
 1. **Teste primeiro:** Substitua lâmpada (€5-20)
@@ -452,7 +448,7 @@ Uma lâmpada que pisca não é apenas irritante — pode indicar **problemas el�
 
 ### Lâmpada Pisca e Não Consegue Resolver?
 
-**📞 Ligue JÁ: [932 321 892](tel:+351932321892)**
+**📞 Ligue JÁ: [Contacto por telefone ou WhatsApp](tel:+351932321892)**
 
 **Serviço rápido em:**
 - Bragança e arredores (30 minutos)
@@ -462,11 +458,10 @@ Uma lâmpada que pisca não é apenas irritante — pode indicar **problemas el�
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20a%20minha%20lâmpada%20não%20para%20de%20piscar.%20Podem%20ajudar%3F)**
 
 **✅ Garantias :**
-- eletricistas com experiência com 15+ anos de experiência
+- eletricistas com experiência com 
 - Diagnóstico preciso com equipamento profissional
 - Arranjo rápida (30-90 minutos)
-- Materiais de qualidade (Philips, Legrand, Schneider)
-- Garantia de 2 anos no trabalho
+- Materiais de qualidade (Philips, - Garantia de 2 anos no trabalho
 - Disponível Atendimento 24h/7d para urgências
 
 **Não ignore o problema. Lâmpada que pisca pode indicar perigo de incêndio.**

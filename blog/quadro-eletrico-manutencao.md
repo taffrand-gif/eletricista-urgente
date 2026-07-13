@@ -17,8 +17,7 @@ priority: "HIGH DEMAND"
 
 ## 🔍 O Que É o Quadro Elétrico?
 
-### Função do Quadro
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Quadro elétrico = Centro de controlo e proteção**
 
 **Funções principais:**
@@ -27,8 +26,7 @@ priority: "HIGH DEMAND"
 3. **Proteger** pessoas contra choques elétricos
 4. **Permitir** desligar circuitos individualmente
 
-### Componentes Principais
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Disjuntor Geral**
 - Desliga toda a casa
 - Geralmente 40-63A
@@ -189,8 +187,7 @@ priority: "HIGH DEMAND"
 
 ## 🔄 Quando Substituir o Quadro Elétrico?
 
-### Sinais de Que Precisa Substituir
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Idade (> 25-30 anos)**
 - Tecnologia antiga
 - Componentes desgastados
@@ -221,8 +218,7 @@ priority: "HIGH DEMAND"
 - Inspeção reprovou
 - Venda/arrendamento de imóvel
 
-### Tipos de Quadros Modernos
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Quadro Básico (€150-300)**
 - 1 diferencial 30mA
 - 4-6 disjuntores magnetotérmicos
@@ -245,8 +241,7 @@ priority: "HIGH DEMAND"
 - Contador de energia
 - Domótica integrada
 
-### Processo de Substituição
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Avaliação (€80-150)**
 - Eletricista avalia instalação
 - Dimensiona novo quadro
@@ -260,7 +255,7 @@ priority: "HIGH DEMAND"
 - Testar tudo
 
 **3. Certificação (€80-150)**
-- Fichas eletrotécnicas assinadas por técnico Profissional
+
 - Obrigatório para quadros novos
 - Válido para inspeções
 
@@ -268,8 +263,7 @@ priority: "HIGH DEMAND"
 
 ## 💰 Custos de Manutenção e Arranjo
 
-### Manutenção Preventiva
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Preço em Trás-os-Montes |
 |---------|-------------------------|
 | Inspeção visual (DIY) | Grátis |
@@ -278,8 +272,7 @@ priority: "HIGH DEMAND"
 | Inspeção profissional anual | €80-150 |
 | Termografia (detetar pontos quentes) | €100-200 |
 
-### Arranjos
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Preço |
 |---------|-------|
 | Substituir disjuntor magnetotérmico | €40-80 |
@@ -288,22 +281,20 @@ priority: "HIGH DEMAND"
 | Adicionar circuito novo | €80-200 |
 | Arranjar oxidação/humidade | €80-200 |
 
-### Substituição Completa
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Trabalho | Preço |
 |----------|-------|
 | Quadro básico (4-6 circuitos) | €500-900 |
 | Quadro médio (8-12 circuitos) | €800-1.500 |
 | Quadro completo (12-20 circuitos) | €1.200-2.500 |
-| Com Fichas eletrotécnicas assinadas por técnico Profissional | Incluído |
+
 | Urgência 24h | +€100-200 |
 
 > 💡 **Precisa de inspeção ou substituição?** eletricista com experiência: **[932 321 892](tel:+351932321892)** — Orçamento grátis, trabalho garantido.
 
 ## 🛡️ Segurança do Quadro Elétrico
 
-### Regras de Segurança
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **NUNCA:**
 ❌ Toque em partes metálicas com corrente ligada 
 ❌ Trabalhe no quadro sem desligar disjuntor geral 
@@ -320,8 +311,7 @@ priority: "HIGH DEMAND"
 ✅ Identifique circuitos claramente 
 ✅ Chame profissional se não tem certeza
 
-### Localização do Quadro
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Ideal:**
 - Local seco (não cave húmida)
 - Ventilado
@@ -337,8 +327,7 @@ priority: "HIGH DEMAND"
 - Exterior sem proteção
 - Locais de difícil acesso
 
-### Proteção de Crianças
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Se tem crianças:**
 - Mantenha quadro sempre fechado
 - Use cadeado se necessário
@@ -347,22 +336,22 @@ priority: "HIGH DEMAND"
 
 ## 📋 Checklist de Manutenção
 
-### Mensal
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - [ ] Inspeção visual (sinais de aquecimento, humidade, danos)
 - [ ] Teste botão TEST do diferencial
 - [ ] Verificar que quadro está limpo
 
-### Trimestral
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - [ ] Teste todos os disjuntores (ligar/desligar)
 - [ ] Verificar identificação dos circuitos
 - [ ] Limpar poeira acumulada
 
-### Semestral
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - [ ] Limpeza profunda (com disjuntor geral desligado)
 - [ ] Verificar aperto de parafusos visíveis (se seguro)
 - [ ] Atualizar etiquetas se necessário
 
-### Anual
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - [ ] Inspeção profissional por eletricista
 - [ ] Termografia (se disponível)
 - [ ] Verificar conformidade com normas
@@ -375,7 +364,7 @@ priority: "HIGH DEMAND"
 
 ## ❓ Perguntas Frequentes
 
-**1. Posso mexer no quadro elétrico sozinho?**
+**1. Posso mexer no quadro elétrico sem a nossa equipa?**
 Inspeção visual e teste do diferencial: sim. Trabalhos internos (substituir disjuntores, apertar ligações): só se tiver conhecimentos e desligar disjuntor geral. Recomendo profissional para segurança.
 
 **2. Quanto tempo dura um quadro elétrico?**
@@ -390,7 +379,6 @@ Depende. Se há espaço e capacidade: sim (€80-200 por circuito). Se quadro es
 **5. Quadro faz zumbido, é normal?**
 Não. Zumbido indica: ligação solta, disjuntor avariado, ou sobrecarga. Chame eletricista para verificar. Pode ser perigoso.
 
-**6. Preciso de Fichas eletrotécnicas assinadas por técnico Profissional?**
 Para quadro novo ou alterações significativas: sim, obrigatório. Para manutenção simples: não. Para venda/arrendamento: sim (inspeção periódica).
 
 **7. Quadro pode ficar no exterior?**
@@ -438,14 +426,14 @@ O quadro elétrico é **essencial para segurança** da sua casa:
 
 ** — eletricista com experiência em Bragança**
 
-📞 **Ligue agora: [932 321 892](tel:+351932321892)** 
+📞 **Ligue agora: [Contacto por telefone ou WhatsApp](tel:+351932321892)** 
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20inspeção%2Fmanutenção%20do%20quadro%20elétrico.%20Pode%20ajudar%3F)**
 
 ✅ Inspeção completa do quadro 
 ✅ Manutenção preventiva 
 ✅ Substituição de disjuntores 
 ✅ Instalação de quadros novos 
-✅ Fichas eletrotécnicas assinadas por técnico Profissional incluído 
+
 ✅ Garantia 2 anos no serviço 
 ✅ Orçamento grátis sem compromisso 
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região

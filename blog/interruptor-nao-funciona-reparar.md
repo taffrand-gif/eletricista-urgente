@@ -13,12 +13,12 @@ priority: "HIGH DEMAND"
 
 **Carregou no interruptor e a luz não acendeu?** Este é um dos problemas elétricos mais comuns em casa, mas pode ter várias causas - desde uma simples lâmpada queimada até problemas graves na instalação elétrica.
 
-Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-40 anos) e interruptores desgastados, este problema é frequente. A boa notícia? **70% dos casos têm solução simples** que pode identificar sozinho.
+Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-40 anos) e interruptores desgastados, este problema é frequente. A boa notícia? ** têm solução simples** que pode identificar sem a nossa equipa.
 
 **Neste guia completo**, vamos explicar:
 - ✅ As 7 causas principais de interruptor que não funciona
 - ✅ Diagnóstico passo a passo (5 minutos)
-- ✅ O que pode resolver sozinho vs quando chamar eletricista
+- ✅ O que pode resolver sem a nossa equipa vs quando chamar eletricista
 - ✅ Custos de arranjo em Trás-os-Montes
 - ✅ Como prevenir o problema
 - ✅ Quando é emergência elétrica
@@ -30,7 +30,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ## 💡 7 Causas Principais de Interruptor Que Não Funciona
 
-### 1. Lâmpada Queimada (35% dos casos)
+### 1. Lâmpada Queimada ()
 
 **Sintomas:**
 - Interruptor não liga a luz
@@ -54,7 +54,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ---
 
-### 2. Interruptor Defeituoso (30% dos casos)
+### 2. Interruptor Defeituoso ()
 
 **Sintomas:**
 - Interruptor não faz "clique" ao carregar
@@ -67,7 +67,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **Solução:** **CHAMAR ELETRICISTA** - substituir interruptor
 
-**⚠️ PERIGO:** Interruptor defeituoso pode causar curto-circuito e incêndio. Não tente arranjar sozinho.
+**⚠️ PERIGO:** Interruptor defeituoso pode causar curto-circuito e incêndio. Não tente arranjar sem a nossa equipa.
 
 **Custo:** €40-70 (substituir interruptor) 
 **Tempo:** 30 minutos 
@@ -75,7 +75,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ---
 
-### 3. Disjuntor Desarmado (20% dos casos)
+### 3. Disjuntor Desarmado ()
 
 **Sintomas:**
 - Várias luzes não funcionam (não apenas uma)
@@ -98,7 +98,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ---
 
-### 4. Lâmpada Mal Apertada (8% dos casos)
+### 4. Lâmpada Mal Apertada ()
 
 **Sintomas:**
 - Luz não acende ou pisca
@@ -118,7 +118,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ---
 
-### 5. Problema no Casquilho (4% dos casos)
+### 5. Problema no Casquilho ()
 
 **Sintomas:**
 - Lâmpada nova não funciona
@@ -135,7 +135,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ---
 
-### 6. Fio Partido ou Solto (2% dos casos)
+### 6. Fio Partido ou Solto ()
 
 **Sintomas:**
 - Interruptor nunca funcionou (instalação recente)
@@ -152,7 +152,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ---
 
-### 7. Problema no Quadro Elétrico (1% dos casos)
+### 7. Problema no Quadro Elétrico ()
 
 **Sintomas:**
 - Várias luzes/tomadas não funcionam
@@ -189,7 +189,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 3. Substitua por lâmpada nova que sabe que funciona
 4. Teste
 
-✅ **Funcionou:** Era lâmpada queimada (35% dos casos) - RESOLVIDO! 
+✅ **Funcionou:** Era lâmpada queimada () - RESOLVIDO! 
 ❌ **Não funcionou:** Próximo passo
 
 ---
@@ -239,8 +239,7 @@ O problema é:
 
 ## 💰 Custos de Arranjo em Trás-os-Montes (2026)
 
-### Soluções DIY
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Problema | Solução | Custo | Tempo |
 |----------|---------|-------|-------|
 | Lâmpada queimada | Substituir | €3-12 | 5 min |
@@ -249,8 +248,7 @@ O problema é:
 
 **Total DIY:** €0-12
 
-### Arranjos Profissionais
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Custo | Tempo | Garantia |
 |---------|-------|-------|----------|
 | Substituir interruptor simples | €40-70 | 30 min | 2 anos |
@@ -261,11 +259,10 @@ O problema é:
 | Arranjo no quadro | €100-300 | 1-3h | 2 anos |
 | Emergência 24h | +50% | Imediato | 30 dias |
 
-### Upgrades Recomendados
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Upgrade | Custo | Benefício |
 |---------|-------|-----------|
-| Interruptor moderno (Legrand/Schneider) | €50-80 | Durabilidade 20+ anos |
+| Interruptor moderno (/| €50-80 | Durabilidade 20+ anos |
 | Interruptor com LED indicador | €60-90 | Encontrar no escuro |
 | Interruptor táctil | €80-120 | Design moderno |
 | Substituir todos interruptores (T3) | €300-500 | Uniformidade + segurança |
@@ -275,7 +272,7 @@ O problema é:
 ## 🛡️ Prevenção: 6 Dicas Essenciais
 
 ### 1. Substitua Interruptores Antigos
-- **Mais de 15 anos:** substituir preventivamente
+- **:** substituir preventivamente
 - Amarelados, rachados ou soltos: substituir URGENTE
 - Quentes ao toque: substituir IMEDIATAMENTE
 
@@ -301,7 +298,7 @@ O problema é:
 
 ### 6. Inspeção Elétrica Regular
 - Casa com 20+ anos: inspeção a cada 5 anos
-- Fichas eletrotécnicas assinadas por técnico Profissional atualizada
+
 - Identifica problemas antes de falharem
 
 ---
@@ -309,8 +306,6 @@ O problema é:
 ## ❓ Perguntas Frequentes (FAQ)
 
 ### 1. Posso substituir o interruptor eu mesmo?
-
-**Resposta:** **Legalmente NÃO** em Portugal. Trabalhos elétricos devem ser feitos por eletricista com experiência com emissão de Fichas eletrotécnicas assinadas por técnico Profissional. Além disso, é **perigoso** sem conhecimentos - risco de choque elétrico fatal.
 
 ### 2. Quanto tempo dura um interruptor?
 
@@ -326,7 +321,7 @@ O problema é:
 
 ### 5. Posso usar interruptor de qualquer marca?
 
-**Resposta:** Prefira marcas certificadas (Legrand, Schneider, Siemens, Efapel). Interruptores baratos sem certificação podem ser perigosos e duram pouco. Diferença de preço: €10-20, mas vale a segurança.
+**Resposta:** Prefira marcas certificadas (Efapel). Interruptores baratos sem certificação podem ser perigosos e duram pouco. Diferença de preço: €10-20, mas vale a segurança.
 
 ### 6. Quanto custa chamar eletricista para interruptor?
 
@@ -344,9 +339,9 @@ O problema é:
 
 ## 🎯 Conclusão: Diagnóstico Simples Poupa Dinheiro
 
-**70% dos casos** de "interruptor não funciona" são lâmpada queimada (€3-12) ou disjuntor desarmado (€0). Vale a pena fazer diagnóstico simples antes de chamar eletricista.
+**** de "interruptor não funciona" são lâmpada queimada (€3-12) ou disjuntor desarmado (€0). Vale a pena fazer diagnóstico simples antes de chamar eletricista.
 
-**Mas se o problema for o interruptor:** Não tente arranjar sozinho. Risco de choque elétrico não compensa economia de €40-70.
+**Mas se o problema for o interruptor:** Não tente arranjar sem a nossa equipa. Risco de choque elétrico não compensa economia de €40-70.
 
 **Sinais de EMERGÊNCIA (chamar 24h):**
 - Interruptor quente
@@ -359,12 +354,12 @@ O problema é:
 **** - eletricista com experiência em Trás-os-Montes 
 ✅ Diagnóstico grátis por telefone 
 ✅ Emergências 24h/7 dias 
-✅ Fichas eletrotécnicas assinadas por técnico Profissional 
+
 ✅ Orçamento sem compromisso 
 ✅ Garantia de 2 anos 
-✅ Atendimento mediante confirmação por telefone
+✅ Atendimento  por telefone
 
-**📞 Ligue Agora:** [932 321 892](tel:+351932321892) 
+**📞 Ligue Agora:** [Contacto por telefone ou WhatsApp](tel:+351932321892) 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20um%20interruptor%20que%20não%20funciona%20e%20preciso%20de%20ajuda!) 
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
@@ -376,4 +371,4 @@ O problema é:
 
 ---
 
-*Artigo escrito por eletricistas com experiência com 15+ anos de experiência em Trás-os-Montes. Atualizado em Março 2026.*
+*Artigo escrito por eletricistas com experiência com  em Trás-os-Montes. Atualizado em Março 2026.*

@@ -7,7 +7,7 @@ category: "Modernização"
 excerpt: "Guia completo sobre substituição de quadro elétrico com fusíveis. Preços 2026, processo, subvenções e ROI segurança."
 image: "/images-optimized/blog/blog-quadro-antigo.webp"
 metaTitle: "Mudar Quadro Fusíveis: Preço 2026 | Guia"
-metaDescription: "Mudar quadro fusíveis: Monofásico 370€, Trifásico 800-1200€. Obrigatório para venda. Subvenções até 85%. Ligue 932 321 892!"
+metaDescription: "Mudar quadro fusíveis: Monofásico 370€, Trifásico 800-1200€. Obrigatório para venda. Subvenções até 85%. Ligue Contacto por telefone ou WhatsApp!"
 keywords: ["mudar quadro fusíveis", "modernizar quadro elétrico", "preço quadro elétrico novo", "substituir fusíveis disjuntores"]
 ---
 
@@ -23,7 +23,7 @@ Quadro elétrico com fusíveis é perigoso, ilegal e desvaloriza o imóvel. Este
 Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétricas).
 
 **Consequências:**
-- ❌ Não pode vender imóvel (Fichas eletrotécnicas assinadas por técnico Profissional recusada)
+
 - ❌ Contrato arrendamento inválido
 - ❌ Seguro pode recusar cobrir danos elétricos
 - ❌ Multa até 3740€ se fiscalizado
@@ -76,8 +76,7 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 ### O Que Está Incluído
 
 **Material:**
-✅ Quadro certificado (Schneider/Legrand)
-✅ Disjuntor geral
+✅ Quadro certificado (/✅ Disjuntor geral
 ✅ Disjuntores divisórios (todos circuitos)
 ✅ Diferencial 30mA (obrigatório)
 ✅ Proteção sobretensões (recomendado)
@@ -89,7 +88,7 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 ✅ Instalação quadro novo
 ✅ Ligação todos circuitos
 ✅ Testes elétricos completos
-✅ Fichas eletrotécnicas assinadas por técnico Profissional
+
 ✅ Limpeza área trabalho
 
 **Garantia:**
@@ -136,7 +135,7 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 
 ## Processo de Substituição (Passo a Passo)
 
-### PASSO 1: Visita Técnica (30 min)
+### PASSO 1: Visita )
 
 **Eletricista verifica:**
 - Tipo quadro atual (monofásico/trifásico)
@@ -156,8 +155,7 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 ### PASSO 2: Compra Material (1-2 dias)
 
 **Material certificado:**
-- Quadro Schneider Resi9 ou Legrand
-- Disjuntores curva C (6A-32A)
+- Quadro Resi9 ou - Disjuntores curva C (6A-32A)
 - Diferencial 30mA tipo A
 - Proteção sobretensões tipo 2
 - Barramentos e acessórios
@@ -222,7 +220,7 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 **Envio:**
 - Eletricista envia documentação
 - valida
-- Emite certificado
+- 
 - Envia por email + correio
 
 **Prazo:** 2-3 dias úteis
@@ -230,7 +228,7 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 ### PASSO 6: Entrega (Dia 5)
 
 **Recebe:**
-- Fichas eletrotécnicas assinadas por técnico Profissional original
+
 - Termo Responsabilidade
 - Garantia 5 anos
 - Manual quadro
@@ -242,7 +240,7 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 
 **Quem pode:**
 - Proprietários imóveis >15 anos
-- Rendimento <60.000€/ano
+- Rendimento <sob orçamento
 - Imóvel residência permanente
 
 **Apoio:**
@@ -251,7 +249,7 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 
 **Inclui:**
 - Modernização quadro elétrico
-- Fichas eletrotécnicas assinadas por técnico Profissional
+
 - Iluminação LED
 - Isolamento térmico
 
@@ -272,7 +270,7 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 ### IRS - Dedução Obras
 
 **Dedução:** 15% despesas remodelação
-**Máximo:** 500€/ano
+**Máximo:** sob orçamento
 **Inclui:** Modernização elétrica
 
 **Exemplo:**
@@ -290,8 +288,7 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 
 ## ROI Segurança: Vale a Pena?
 
-### Custos Evitados
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Incêndio elétrico:**
 - Danos médios: 15.000-50.000€
 - Risco quadro fusíveis: 5x superior
@@ -312,8 +309,7 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 - Modernização: 480€
 - **Poupança: 3260€**
 
-### Retorno Investimento
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Investimento:** 480€ (quadro standard)
 
 **Retorno imediato:**
@@ -325,22 +321,20 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 **Retorno médio prazo:**
 - Evitar incêndio (probabilidade 2%): 300-1000€
 - Evitar multa (probabilidade 5%): 187€
-- Poupança fusíveis (10€/ano × 20 anos): 200€
+- Poupança fusíveis (sob orçamento × 20 anos): 200€
 
 **Conclusão:** Investimento recuperado imediatamente pela valorização imóvel.
 
 ## Quando É Obrigatório Mudar?
 
-### OBRIGATÓRIO IMEDIATAMENTE
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 🔴 **Venda imóvel** - Sem certificação não vende
 🔴 **Arrendamento** - Contrato inválido
 🔴 **Fiscalização** - Multa até 3740€
 🔴 **Seguro exige** - Algumas seguradoras
 🔴 **Sinais perigo** - Cheiro queimado, faíscas
 
-### RECOMENDADO URGENTE
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 🟡 **Quadro >30 anos**
 🟡 **Fusíveis queimam frequentemente**
 🟡 **Choques elétricos**
@@ -381,18 +375,17 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 ## Artigos Relacionados
 
 - [Disjuntor Dispara: Causas e Soluções](https://eletricista-urgente.pt/blog/disjuntor-dispara-noite-causas-solucoes)
-- [Fichas eletrotécnicas assinadas por técnico Profissional: Preços 2026](https://eletricista-urgente.pt/blog/preco-certificacao-certificação-2026)
+
 - [Urgência Elétrica: O Que Fazer](https://eletricista-urgente.pt/blog/urgencia-eletrica-o-que-fazer-antes)
 - [Eletricista vs Bricolagem](https://eletricista-urgente.pt/blog/eletricista-vs-bricolagem-quando-vale-pena)
 
 ## Precisa Modernizar Quadro Elétrico?
 
-**Ligue agora: 932 321 892**
+**Contacto: 321 892**
 
 ✅ Orçamento gratuito sem compromisso
-✅ Quadros certificados (Schneider, Legrand)
-✅ Instalação em 2-4 horas
-✅ Fichas eletrotécnicas assinadas por técnico Profissional incluída
+✅ Quadros certificados (✅ Instalação em 2-4 horas
+
 ✅ Garantia 5 anos
 ✅ Subvenções até 85%
 
@@ -400,6 +393,4 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 
 ---
 
-*Última atualização: 8 Março 2026*
-*Preços válidos Trás-os-Montes*
-*Valores sem IVA (acrescer 23%)*
+*Valores *

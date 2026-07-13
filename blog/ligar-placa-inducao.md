@@ -5,7 +5,7 @@ category: "Instalações Elétricas"
 date: "2026-03-04"
 author: ""
 excerpt: "Quer instalar placa de indução? Descubra potência necessária (3,7-7,4kW), instalação elétrica (trifásico vs monofásico), custos em Trás-os-Montes (€300-800) e certificação obrigatória."
-keywords: ["ligar placa indução", "instalar placa indução", "placa indução trifásico", "instalação elétrica placa", "eletricista Trás-os-Montes", "potência placa indução", "Fichas eletrotécnicas assinadas por técnico Profissional"]
+
 priority: "HIGH DEMAND"
 ---
 
@@ -20,7 +20,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 - ✅ Monofásico vs trifásico (quando precisa)
 - ✅ Instalação elétrica passo a passo
 - ✅ Custos completos em Trás-os-Montes
-- ✅ Fichas eletrotécnicas assinadas por técnico Profissional obrigatória
+
 - ✅ Erros comuns a evitar
 
 **⚠️ AVISO:** Instalação elétrica deve ser feita por eletricista com experiência. Este guia é informativo.
@@ -32,8 +32,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 ## ⚡ Potência: Quanto Consome Placa de Indução?
 
-### Potências Típicas
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Tipo Placa | Zonas | Potência Total | Potência Máxima Simultânea |
 |------------|-------|----------------|----------------------------|
 | Compacta | 2 zonas | 3,0-3,7 kW | 3,0-3,7 kW |
@@ -124,8 +123,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 ## 🔧 Instalação Elétrica Necessária
 
-### Requisitos Mínimos
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Para placa 3,7 kW (16A monofásico):**
 - ✅ Circuito dedicado 20A
 - ✅ Disjuntor magnetotérmico 20A curva C
@@ -261,7 +259,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 **Certificação:**
 - Termo de Responsabilidade
-- Fichas eletrotécnicas assinadas por técnico Profissional
+
 - Registo na 
 
 **Custo certificação:** €150-250 (incluído em instalação profissional)
@@ -293,8 +291,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 ---
 
-### Custo Total Típico
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Cenário 1: Placa 6 kW, quadro OK, cabo à vista**
 - Instalação: €300-600
 - **Total: €300-600**
@@ -340,7 +337,6 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 ### 4. Não Certificar ❌
 
-**Erro:** Instalar sem Fichas eletrotécnicas assinadas por técnico Profissional 
 **Problema:** Ilegal, multa €500-3.740, seguro não cobre 
 **Solução:** SEMPRE certificar (obrigatório)
 
@@ -348,7 +344,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 ### 5. DIY Sem Conhecimentos ❌
 
-**Erro:** Instalar sozinho sem experiência 
+**Erro:** Instalar sem a nossa equipa sem experiência 
 **Problema:** Risco de choque fatal, incêndio 
 **Solução:** Chamar eletricista com experiência
 
@@ -356,8 +352,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 ## 💡 Potência Contratada: Preciso Aumentar?
 
-### Cálculo Simples
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Potência necessária = Placa + Outros aparelhos simultâneos**
 
 **Exemplo:**
@@ -371,8 +366,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 ---
 
-### Potências Contratadas Standard
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Potência | Corrente | Suficiente Para |
 |----------|----------|-----------------|
 | 3,45 kVA | 15A | Placa 3,7 kW (sem outros aparelhos) |
@@ -387,8 +381,6 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 ## ❓ Perguntas Frequentes (FAQ)
 
 ### 1. Posso instalar placa de indução eu mesmo?
-
-**Resposta:** **Legalmente NÃO** em Portugal - instalações elétricas requerem eletricista com experiência + Fichas eletrotécnicas assinadas por técnico Profissional. Além disso, é **perigoso** (alta corrente, risco de choque fatal).
 
 ### 2. Preciso de trifásico para placa de indução?
 
@@ -406,13 +398,11 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 **Resposta:** (1) Potência contratada insuficiente, (2) Disjuntor subdimensionado, (3) Outros aparelhos ligados simultaneamente. Solução: aumentar potência ou desligar outros aparelhos.
 
-### 6. Preciso de Fichas eletrotécnicas assinadas por técnico Profissional?
-
 **Resposta:** **SIM, obrigatório!** Instalação sem certificação é ilegal (multa €500-3.740) e seguro não cobre sinistros. eletricista com experiência emite automaticamente.
 
 ### 7. Quanto tempo demora instalação?
 
-**Resposta:** 2-6 horas (instalação simples) ou 1-2 dias (upgrade quadro + cabo embutido). Upgrade trifásico: 2-3 dias.
+** (instalação simples) ou 1-2 dias (upgrade quadro + cabo embutido). Upgrade trifásico: 2-3 dias.
 
 ### 8. Placa indução consome muita eletricidade?
 
@@ -437,12 +427,12 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 **** - eletricista com experiência em Trás-os-Montes 
 ✅ Especialistas em placas de indução 
 ✅ Avaliação gratuita (potência necessária) 
-✅ Instalação completa + Fichas eletrotécnicas assinadas por técnico Profissional 
+
 ✅ Upgrade de quadro elétrico 
 ✅ Orçamento sem compromisso 
 ✅ Garantia de 2 anos 
 
-**📞 Ligue Agora:** [932 321 892](tel:+351932321892) 
+**📞 Ligue Agora:** [Contacto por telefone ou WhatsApp](tel:+351932321892) 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20instalar%20placa%20de%20indução!) 
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
@@ -454,4 +444,4 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 ---
 
-*Artigo escrito por eletricistas com experiência com 15+ anos de experiência em Trás-os-Montes. Atualizado em Março 2026.*
+*Artigo escrito por eletricistas com experiência com  em Trás-os-Montes. Atualizado em Março 2026.*

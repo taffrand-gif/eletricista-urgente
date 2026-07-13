@@ -64,7 +64,7 @@ Disjuntor é interruptor automático que protege circuito elétrico contra sobre
 
 ## 12 Causas de Disjuntor Que Desarma
 
-### 1. Sobrecarga no Circuito (40% dos casos)
+### 1. Sobrecarga no Circuito ()
 
 **Causa mais comum:**
 
@@ -111,7 +111,7 @@ Disjuntor desarma para proteger fios
 
 **⚠️ NUNCA substitua disjuntor por maior - fios queimam!**
 
-### 2. Curto-Circuito (25% dos casos)
+### 2. Curto-Circuito ()
 
 **Problema grave:**
 
@@ -147,7 +147,7 @@ Fase e neutro tocam-se diretamente, corrente dispara (100-1.000A), disjuntor des
 - Curto na instalação → Eletricista urgente €100-500
 - **PERIGO:** Risco de incêndio
 
-### 3. Disjuntor Diferencial Desarma (15% dos casos)
+### 3. Disjuntor Diferencial Desarma ()
 
 **Proteção contra eletrocussão:**
 
@@ -187,7 +187,7 @@ Detecta fuga de corrente >30mA (alguém pode estar levando choque ou há fuga pa
 
 **IMPORTANTE:** Diferencial que desarma está a SALVAR vidas! Não desative!
 
-### 4. Disjuntor Defeituoso (8% dos casos)
+### 4. Disjuntor Defeituoso ()
 
 **Próprio disjuntor com problema:**
 
@@ -212,14 +212,9 @@ Detecta fuga de corrente >30mA (alguém pode estar levando choque ou há fuga pa
 **Solução:** Substituir disjuntor €40-80
 
 **Marcas recomendadas:**
-- Schneider Electric
-- Legrand
-- ABB
-- Siemens
+- - - - **Evite:** Marcas desconhecidas muito baratas
 
-**Evite:** Marcas desconhecidas muito baratas
-
-### 5. Instalação Antiga Deteriorada (5% dos casos)
+### 5. Instalação Antiga Deteriorada ()
 
 **Problema em casas 30+ anos:**
 
@@ -240,7 +235,7 @@ Detecta fuga de corrente >30mA (alguém pode estar levando choque ou há fuga pa
 
 **Urgência:** ALTA - risco de incêndio diário
 
-### 6. Aparelho Defeituoso (3% dos casos)
+### 6. Aparelho Defeituoso ()
 
 **Eletrodoméstico avariado:**
 
@@ -262,7 +257,7 @@ Detecta fuga de corrente >30mA (alguém pode estar levando choque ou há fuga pa
 - NÃO tentar arranjar (risco)
 - Substituir por certificado (CE)
 
-### 7. Extensões Sobrecarregadas (2% dos casos)
+### 7. Extensões Sobrecarregadas ()
 
 **Uso inadequado:**
 
@@ -287,7 +282,7 @@ TOTAL: 2.600W → SOBRECARGA!
 - Não sobrecarregar
 - Adicionar tomadas fixas €50-100/cada
 
-### 8. Picos de Tensão (1,5% dos casos)
+### 8. Picos de Tensão ()
 
 **Sobretensão na rede:**
 
@@ -306,7 +301,7 @@ TOTAL: 2.600W → SOBRECARGA!
 - Protetor de sobretensão (DPS) €80-150
 - Para-raios (casas isoladas) €500-2.000
 
-### 9. Temperatura Ambiente Alta (1% dos casos)
+### 9. Temperatura Ambiente Alta ()
 
 **Disjuntor sobreaquece:**
 
@@ -326,7 +321,7 @@ TOTAL: 2.600W → SOBRECARGA!
 - Quadro em local mais fresco
 - Upgrade para disjuntores qualidade superior
 
-### 10. Ligações Soltas (0,8% dos casos)
+### 10. Ligações Soltas ()
 
 **Mau contacto:**
 
@@ -345,7 +340,7 @@ TOTAL: 2.600W → SOBRECARGA!
 
 **Prevenção:** Inspeção anual
 
-### 11. Neutro Partido (0,5% dos casos)
+### 11. Neutro Partido ()
 
 **Problema grave:**
 
@@ -365,7 +360,7 @@ TOTAL: 2.600W → SOBRECARGA!
 
 **PERIGO:** Pode queimar todos os aparelhos!
 
-### 12. Harmónicas (0,2% dos casos)
+### 12. Harmónicas ()
 
 **Problema técnico raro:**
 
@@ -521,13 +516,12 @@ R: SIM! 20+ anos = desgaste, pode não proteger adequadamente. Substitua por seg
 
 ** - eletricista com experiência em Trás-os-Montes**
 
-📞 **Ligue Agora: 932 321 892**
+📞 **Contacto: 321 892**
 - ✅ Atendimento 24h/7d (emergências elétricas)
 - ✅ Diagnóstico completo €60-120
 - ✅ Substituir disjuntor €40-80
 - ✅ Adicionar circuito €150-400
-- ✅ Garantia 12 meses
-- ✅ Fichas eletrotécnicas assinadas por técnico Profissional incluída
+- ✅ garantia por escrito
 
 💬 **WhatsApp:** [Emergência elétrica](https://wa.me/351932321892?text=Olá,%20o%20disjuntor%20desarma%20constantemente!)
 

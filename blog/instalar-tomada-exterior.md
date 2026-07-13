@@ -32,8 +32,7 @@ O código IP indica a proteção contra sólidos e líquidos:
 - **IP66:** Proteção contra jatos potentes de água
 - **IP67:** Proteção contra imersão temporária (até 1 metro)
 
-### Onde Usar Cada Grau
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Local | IP Mínimo | IP Recomendado |
 |-------|-----------|----------------|
 | Terraço coberto | IP44 | IP54 |
@@ -57,10 +56,9 @@ O código IP indica a proteção contra sólidos e líquidos:
  - Mínimo 120cm do solo (zonas húmidas/jardim)
  - Mínimo 2,5m de piscinas (zona 2)
 
-### Certificação Obrigatória
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Instalações novas ou alterações significativas:**
-- Fichas eletrotécnicas assinadas por técnico Profissional obrigatório
+
 - Emitido por eletricista com experiência
 - Custo: €80-150 (incluído no serviço profissional)
 - Válido para inspeção ou venda de imóvel
@@ -73,8 +71,7 @@ O código IP indica a proteção contra sólidos e líquidos:
 
 ## 🛠️ Materiais Necessários
 
-### Lista Completa de Materiais
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Tomada e caixa:**
 - Tomada exterior IP65 com tampa (€15-35)
 - Caixa de derivação estanque IP65 (€8-15)
@@ -120,8 +117,7 @@ O código IP indica a proteção contra sólidos e líquidos:
 - Acessível mas não em zona de passagem
 - Longe de torneiras ou fontes de água
 
-### Instalação Passo a Passo
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Passo 1: Instalar a caixa de derivação (15-20 min)**
 
 1. Marque a posição da caixa na parede
@@ -214,8 +210,7 @@ O código IP indica a proteção contra sólidos e líquidos:
 
 **Tempo necessário:** 3-5 horas (com experiência)
 
-### Opção Profissional
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Instalação completa por eletricista com experiência:**
 
 | Serviço | Preço em Trás-os-Montes |
@@ -223,14 +218,14 @@ O código IP indica a proteção contra sólidos e líquidos:
 | Tomada exterior simples (até 5m cabo) | €120-200 |
 | Tomada com cabo enterrado (até 10m) | €180-300 |
 | Instalação de 2-3 tomadas | €250-450 |
-| Com Fichas eletrotécnicas assinadas por técnico Profissional | +€80-150 |
+
 | Urgência 24h | +€50-80 |
 
 **Incluído no serviço profissional:**
 ✅ Materiais de qualidade 
 ✅ Instalação conforme normas 
 ✅ Testes de segurança 
-✅ Fichas eletrotécnicas assinadas por técnico Profissional (se necessário) 
+
 ✅ Garantia 2 anos 
 
 **Tempo de instalação:** 1-2 horas
@@ -239,31 +234,31 @@ O código IP indica a proteção contra sólidos e líquidos:
 
 ## ⚠️ Erros Comuns a Evitar
 
-### 1. Usar Tomada Interior no Exterior (30% dos casos)
+### 1. Usar Tomada Interior no Exterior ()
 
 **Erro:** Instalar tomada comum (IP20) em zona exterior. 
 **Consequência:** Água entra, curto-circuito, risco de incêndio. 
 **Solução:** Use sempre tomada IP65 mínimo (IP44 em zonas cobertas).
 
-### 2. Cabo Inadequado (25% dos casos)
+### 2. Cabo Inadequado ()
 
 **Erro:** Usar cabo H05VV-F (interior) no exterior. 
 **Consequência:** Isolamento degrada com UV e humidade, risco de choque. 
 **Solução:** Use cabo H07RN-F (borracha) próprio para exterior.
 
-### 3. Sem Proteção Diferencial (20% dos casos)
+### 3. Sem Proteção Diferencial ()
 
 **Erro:** Ligar direto sem disjuntor diferencial 30mA. 
 **Consequência:** Risco de eletrocussão fatal em caso de fuga. 
 **Solução:** Disjuntor diferencial 30mA é OBRIGATÓRIO no exterior.
 
-### 4. Cabo Enterrado Sem Tubo (15% dos casos)
+### 4. Cabo Enterrado Sem Tubo ()
 
 **Erro:** Enterrar cabo diretamente na terra. 
 **Consequência:** Roedores, ferramentas de jardim, humidade danificam cabo. 
 **Solução:** Sempre usar tubo VD rígido Ø25mm a 60-80cm de profundidade.
 
-### 5. Altura Inadequada (15% dos casos)
+### 5. Altura Inadequada ()
 
 **Erro:** Instalar tomada muito baixa (< 60cm). 
 **Consequência:** Salpicos de água, lama, risco de inundação. 
@@ -271,8 +266,7 @@ O código IP indica a proteção contra sólidos e líquidos:
 
 ## 🛡️ Manutenção e Cuidados
 
-### Manutenção Anual
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Inspeção visual (a cada 6 meses):**
 - Verifique se a tampa fecha bem
 - Procure sinais de humidade ou ferrugem
@@ -307,8 +301,7 @@ O código IP indica a proteção contra sólidos e líquidos:
 
 ## ❓ Perguntas Frequentes
 
-**1. Posso instalar tomada exterior sozinho?**
-Tecnicamente sim, se tiver conhecimentos de eletricidade. MAS: (1) é obrigatório Fichas eletrotécnicas assinadas por técnico Profissional para instalações novas, (2) risco de eletrocussão é alto, (3) seguro de casa pode não cobrir acidentes em instalações não certificadas. Recomendo profissional.
+**1. Posso instalar tomada exterior sem a nossa equipa?**
 
 **2. Qual a diferença entre IP44 e IP65?**
 IP44 protege contra salpicos de água (chuva leve, alpendre coberto). IP65 protege contra jatos de água de todas as direções (chuva forte, lavagem com mangueira). Para exterior exposto, use sempre IP65.
@@ -319,7 +312,6 @@ Sim, MAS a extensão também deve ser IP44 mínimo (própria para exterior). Ext
 **4. Quantas tomadas posso instalar no mesmo circuito?**
 Depende da potência. Circuito 16A (cabo 2,5mm²) suporta até 3.680W (16A × 230V). Recomendo máximo 4-5 tomadas por circuito exterior, considerando uso simultâneo de aparelhos.
 
-**5. Preciso de Fichas eletrotécnicas assinadas por técnico Profissional para uma tomada?**
 Depende. Se for instalação nova (novo circuito) ou alteração do quadro: SIM, obrigatório. Se for substituir tomada existente por outra igual: NÃO. Para venda/arrendamento: SIM, sempre.
 
 **6. A tomada exterior consome mais eletricidade?**
@@ -339,7 +331,6 @@ A instalação de tomada no exterior requer **cuidados especiais de segurança**
 ✅ **Cabo H07RN-F** próprio para exterior 
 ✅ **Disjuntor diferencial 30mA** obrigatório 
 ✅ **Altura mínima 60cm** (120cm em jardim) 
-✅ **Fichas eletrotécnicas assinadas por técnico Profissional** para instalações novas
 
 **DIY:** Possível se tiver experiência, mas sem certificado (€130-300) 
 **Profissional:** Recomendado, com certificado e garantia (€120-300)
@@ -348,14 +339,14 @@ A instalação de tomada no exterior requer **cuidados especiais de segurança**
 
 ** — eletricista com experiência em Bragança**
 
-📞 **Ligue agora: [932 321 892](tel:+351932321892)** 
+📞 **Ligue agora: [Contacto por telefone ou WhatsApp](tel:+351932321892)** 
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20instalar%20uma%20tomada%20exterior.%20Pode%20ajudar%3F)**
 
 ✅ Instalação conforme normas RTIEBT 
-✅ Fichas eletrotécnicas assinadas por técnico Profissional incluído 
+
 ✅ Materiais de qualidade (IP65) 
 ✅ Garantia 2 anos no serviço 
-✅ Técnico em sua casa em 30-45 minutos 
+✅  
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não arrisque a sua segurança!** Trabalhos elétricos mal feitos podem causar incêndios ou eletrocussão. Contacte-nos já para orçamento grátis.
@@ -365,6 +356,6 @@ A instalação de tomada no exterior requer **cuidados especiais de segurança**
 **Artigos relacionados:**
 - [Protetor de Sobretensão: O Que É e Por Que Precisa](/blog/protecao-sobretensao)
 - [Como Ligar Exaustor: Guia Completo](/blog/ligar-exaustor)
-- [Certificação Elétrica: Guia Completo](/blog/certificacao-eletrica-certificação-guia)
+- [página removida — serviço não prestado]
 - [Quadro Elétrico: Guia Completo de Manutenção](/blog/quadro-eletrico-manutencao)
 - [Eletricista em Bragança 24h](/eletricista-braganca)

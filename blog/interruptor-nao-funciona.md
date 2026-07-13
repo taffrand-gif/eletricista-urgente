@@ -43,7 +43,7 @@ priority: "HIGH DEMAND"
 
 ## 🔧 7 Causas Principais e Soluções
 
-### Causa 1: Lâmpada Queimada (40% dos casos)
+### Causa 1: Lâmpada Queimada ()
 
 **Como identificar:**
 - Interruptor liga mas luz não acende
@@ -64,7 +64,7 @@ priority: "HIGH DEMAND"
 
 **Não é problema do interruptor!**
 
-### Causa 2: Interruptor Avariado (25% dos casos)
+### Causa 2: Interruptor Avariado ()
 
 **Como identificar:**
 - Interruptor não faz "click" ao ligar
@@ -127,7 +127,7 @@ Contactos internos oxidam, partem-se ou desgastam-se com o tempo e uso frequente
 **Custo profissional:** €40-80 
 **Tempo:** 20-30 minutos
 
-### Causa 3: Ligação Solta ou Oxidada (15% dos casos)
+### Causa 3: Ligação Solta ou Oxidada ()
 
 **Como identificar:**
 - Interruptor funciona intermitentemente
@@ -161,7 +161,7 @@ Parafusos dos terminais soltaram-se com vibração/tempo, ou terminais oxidaram 
 **Custo profissional:** €40-60 
 **Tempo:** 15-20 minutos
 
-### Causa 4: Cabo Partido ou Desligado (10% dos casos)
+### Causa 4: Cabo Partido ou Desligado ()
 
 **Como identificar:**
 - Interruptor não funciona
@@ -189,7 +189,7 @@ Cabo foi cortado acidentalmente (furar, pregar), roído por roedores, ou desligo
 
 **Requer eletricista com experiência.**
 
-### Causa 5: Disjuntor Desarmado (5% dos casos)
+### Causa 5: Disjuntor Desarmado ()
 
 **Como identificar:**
 - Vários interruptores não funcionam
@@ -202,7 +202,7 @@ Cabo foi cortado acidentalmente (furar, pregar), roído por roedores, ou desligo
 
 **Se desarmar repetidamente:** Problema grave (curto-circuito, sobrecarga). Chame eletricista.
 
-### Causa 6: Interruptor Errado para Aplicação (3% dos casos)
+### Causa 6: Interruptor Errado para Aplicação ()
 
 **Como identificar:**
 - Interruptor para lâmpadas LED pisca ou não funciona
@@ -238,7 +238,7 @@ Interruptor com luz piloto deixa passar corrente residual que faz LEDs piscar.
 
 **Ver artigo completo:** [Lâmpada LED Pisca: 7 Causas](/blog/lampada-led-pisca)
 
-### Causa 7: Interruptor de Escada Mal Configurado (2% dos casos)
+### Causa 7: Interruptor de Escada Mal Configurado ()
 
 **Como identificar:**
 - Interruptor de escada (2 interruptores para mesma luz)
@@ -260,8 +260,7 @@ Interruptores de escada (comutadores) precisam ligação específica. Se mal lig
 
 ## 💰 Custos de Arranjo
 
-### Soluções DIY
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Solução | Custo | Dificuldade | Tempo |
 |---------|-------|-------------|-------|
 | Substituir lâmpada | €2-15 | Muito fácil | 2 min |
@@ -271,8 +270,7 @@ Interruptores de escada (comutadores) precisam ligação específica. Se mal lig
 
 **SEMPRE desligue disjuntor antes de trabalhar!**
 
-### Soluções Profissionais
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Preço em Trás-os-Montes |
 |---------|-------------------------|
 | Diagnóstico | €40-60 |
@@ -287,8 +285,7 @@ Interruptores de escada (comutadores) precisam ligação específica. Se mal lig
 
 ## 🛡️ Segurança ao Trabalhar com Interruptores
 
-### Regras de Ouro
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **SEMPRE:**
 ✅ Desligue o disjuntor antes de trabalhar 
 ✅ Teste ausência de tensão com multímetro 
@@ -303,8 +300,7 @@ Interruptores de escada (comutadores) precisam ligação específica. Se mal lig
 ❌ Trabalhe em pé molhado 
 ❌ Force ligações
 
-### Quando Chamar Eletricista
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Chame profissional se:**
 - Não tem experiência com eletricidade
 - Não consegue identificar o problema
@@ -317,8 +313,7 @@ Interruptores de escada (comutadores) precisam ligação específica. Se mal lig
 
 ## 🔄 Tipos de Interruptores: Qual Escolher?
 
-### Por Função
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Interruptor Simples (€3-10)**
 - Liga/desliga uma luz
 - Um ponto de comando
@@ -339,8 +334,7 @@ Interruptores de escada (comutadores) precisam ligação específica. Se mal lig
 - Economiza espaço
 - Comum em quartos
 
-### Por Tecnologia
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Mecânico (€3-15)**
 - Tradicional
 - Mais barato
@@ -361,11 +355,10 @@ Interruptores de escada (comutadores) precisam ligação específica. Se mal lig
 - Automação
 - Requer configuração
 
-### Por Design
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Séries comuns em Portugal:**
-- **Legrand Valena:** €8-25
-- **Schneider Unica:** €10-30
+- **Valena:** €8-25
+- **Unica:** €10-30
 - **Simon:** €6-20
 - **Efapel:** €5-18
 
@@ -373,7 +366,7 @@ Interruptores de escada (comutadores) precisam ligação específica. Se mal lig
 
 ## ❓ Perguntas Frequentes
 
-**1. Posso substituir interruptor sozinho?**
+**1. Posso substituir interruptor sem a nossa equipa?**
 Tecnicamente sim, se desligar disjuntor e tiver cuidado. MAS: (1) risco de eletrocussão se não desligar, (2) pode ligar mal e causar curto. Se não tem experiência, recomendo eletricista.
 
 **2. Interruptor aquece, é normal?**
@@ -428,7 +421,7 @@ Na maioria dos casos, interruptor que não funciona tem **causa identificável e
 
 ** — eletricista com experiência em Bragança**
 
-📞 **Ligue agora: [932 321 892](tel:+351932321892)** 
+📞 **Ligue agora: [Contacto por telefone ou WhatsApp](tel:+351932321892)** 
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20um%20interruptor%20que%20não%20funciona.%20Pode%20ajudar%3F)**
 
 ✅ Diagnóstico rápido Atendimento prioritário 
@@ -436,7 +429,7 @@ Na maioria dos casos, interruptor que não funciona tem **causa identificável e
 ✅ Materiais de qualidade em stock 
 ✅ Garantia 1 ano no serviço 
 ✅ Preços transparentes 
-✅ Técnico em sua casa em 30-45 minutos 
+✅  
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não fique sem luz!** Contacte-nos já para arranjo rápida e segura.

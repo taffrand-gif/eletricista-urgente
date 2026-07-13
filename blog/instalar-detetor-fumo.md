@@ -32,14 +32,13 @@ Neste guia completo, vou mostrar-lhe:
 
 **⚠️ IMPORTANTE:** Detetor de fumo **NÃO é opcional** — é questão de vida ou morte. Invista €15-40 e proteja a sua família.
 
-**📞 Precisa de ajuda profissional? Ligue já: [932 321 892](tel:+351932321892)** — eletricista com experiência em Bragança, Mirandela, Trás-os-Montes.
+**📞 Precisa de ajuda profissional? Ligue já: [Contacto por telefone ou WhatsApp](tel:+351932321892)** — eletricista com experiência em Bragança, Mirandela, Trás-os-Montes.
 
 ---
 
 ## 🔥 Por Que Precisa de Detetor de Fumo? (Estatísticas Assustadoras)
 
-### Factos Sobre Incêndios Domésticos em Portugal
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Números:**
 - **15,000+ incêndios domésticos/ano** em Portugal
 - **60-80 mortes/ano** (maioria à noite)
@@ -56,8 +55,7 @@ Neste guia completo, vou mostrar-lhe:
 
 ---
 
-### Como Detetor de Fumo Salva Vidas
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Tempo de reação:**
 - **Sem detetor:** Acorda quando fumo já é denso (2-5 minutos para sair)
 - **Com detetor:** Alerta nos primeiros 30-60 segundos (5-10 minutos para sair)
@@ -81,7 +79,7 @@ Neste guia completo, vou mostrar-lhe:
 - **Mais rápido** a detetar chamas vivas (papel, madeira)
 
 **Vantagens:**
-- ✅ **Resposta rápida** a incêndios com chamas
+- ✅ **** a incêndios com chamas
 - ✅ **Mais barato** (€10-25)
 - ✅ Ideal para salas, corredores
 
@@ -256,8 +254,7 @@ Neste guia completo, vou mostrar-lhe:
 
 ## 🛠️ Como Instalar Detetor de Fumo (Passo a Passo — 15 Minutos)
 
-### Ferramentas Necessárias
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Essenciais:**
 - ✅ Berbequim (se fixar no teto)
 - ✅ Broca de 6mm
@@ -390,8 +387,7 @@ Neste guia completo, vou mostrar-lhe:
 
 ## ⚖️ Requisitos Legais em Portugal (2026)
 
-### Habitações
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Obrigatório:**
 - ❌ **NÃO é obrigatório** em casas particulares (ainda)
 - ✅ **Altamente recomendado** por bombeiros e seguradoras
@@ -400,8 +396,7 @@ Neste guia completo, vou mostrar-lhe:
 
 ---
 
-### Condomínios e Edifícios
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Obrigatório:**
 - ✅ Zonas comuns (corredores, escadas, garagens)
 - ✅ Sistema de alarme central (edifícios >4 pisos)
@@ -420,8 +415,7 @@ Neste guia completo, vou mostrar-lhe:
 
 ---
 
-### Seguros
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Impacto:**
 - Algumas seguradoras **reduzem prémio** (5-10%) se tiver detetores
 - Em caso de incêndio, **pode afetar indemnização** se não tiver detetores (negligência)
@@ -564,7 +558,7 @@ Neste guia completo, vou mostrar-lhe:
 ✅ Consultoria de segurança 
 ✅ Orçamento grátis sem compromisso 
 
-**📞 Ligue já: [932 321 892](tel:+351932321892)**
+**📞 Ligue já: [Contacto por telefone ou WhatsApp](tel:+351932321892)**
 
 **💬 WhatsApp:** [Clique para falar connosco](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20detetores%20de%20fumo%20em%20casa.)
 
@@ -592,7 +586,7 @@ Um detetor de fumo é o **investimento mais importante** que pode fazer para pro
 
 **Precisa de ajuda profissional?**
 
-**Ligue JÁ: [932 321 892](tel:+351932321892)**
+**Ligue JÁ: [Contacto por telefone ou WhatsApp](tel:+351932321892)**
 
 **eletricista com experiência • Instalação profissional • Consultoria de segurança • Orçamento grátis**
 

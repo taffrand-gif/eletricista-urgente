@@ -216,8 +216,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 
 ---
 
-### Cabo de Extensão
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Características:**
 - Flexível
 - Uso temporário
@@ -271,8 +270,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 
 ## 💰 Custos em Trás-os-Montes (2026)
 
-### Substituição de Cabos de Aparelhos
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Aparelho | Custo Cabo | Instalação | Total |
 |----------|------------|------------|-------|
 | Candeeiro | €5-15 | DIY | €5-15 |
@@ -445,11 +443,11 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 ✅ Emergências 24h/7 dias 
 ✅ Substituição de cabos danificados 
 ✅ Inspeção de instalações elétricas 
-✅ Fichas eletrotécnicas assinadas por técnico Profissional 
+
 ✅ Orçamento grátis sem compromisso 
 ✅ Atendimento em menos de 2h (urgências) 
 
-**📞 Ligue Agora:** [932 321 892](tel:+351932321892) 
+**📞 Ligue Agora:** [Contacto por telefone ou WhatsApp](tel:+351932321892) 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20um%20cabo%20elétrico%20danificado%20e%20preciso%20de%20ajuda!) 
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
@@ -461,4 +459,4 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 
 ---
 
-*Artigo escrito por eletricistas com experiência com 15+ anos de experiência em Trás-os-Montes. Atualizado em Março 2026.*
+*Artigo escrito por eletricistas com experiência com  em Trás-os-Montes. Atualizado em Março 2026.*

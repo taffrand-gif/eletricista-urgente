@@ -254,8 +254,7 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 
 ---
 
-### Regras de Instalação
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Localização:**
 - ✅ Teto (melhor) ou parede alta (30 cm do teto)
 - ✅ Centro da divisão (fumo sobe e espalha)
@@ -336,8 +335,7 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 
 ---
 
-### Instalação Profissional
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Custo | Tempo |
 |---------|-------|-------|
 | Instalar 1 detetor (pilhas) | €30-50 | 20 min |
@@ -371,8 +369,7 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 
 ## 🔋 Manutenção e Testes
 
-### Manutenção Mensal
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Teste do alarme (5 minutos):**
 1. Pressione botão TEST
 2. Alarme deve soar (alto!)
@@ -383,8 +380,7 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 
 ---
 
-### Manutenção Semestral
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Limpeza (10 minutos por detetor):**
 1. Remover detetor da base
 2. Aspirar pó (suavemente)
@@ -396,10 +392,9 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 
 ---
 
-### Substituição de Pilhas
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Quando:**
-- Alarme "pia" periodicamente (aviso pilha fraca)
+- Alarme do lavatório" periodicamente (aviso pilha fraca)
 - Teste não funciona
 - 1x/ano preventivamente
 
@@ -412,8 +407,7 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 
 ---
 
-### Substituição do Detetor
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Vida útil:**
 - Detetor fumo/calor: 10 anos
 - Detetor CO: 5-7 anos
@@ -436,7 +430,7 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 
 ### 3. Posso instalar eu mesmo?
 
-**Resposta:** **SIM** detetores a pilhas (muito fácil, 15 min). **NÃO** detetores elétricos 220V (requer eletricista). DIY poupa €100-300 em instalação.
+**). **NÃO** detetores elétricos 220V (requer eletricista). DIY poupa €100-300 em instalação.
 
 ### 4. Onde NÃO instalar detetor de fumo?
 
@@ -446,7 +440,7 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 
 **Resposta:** **SIM, essencial** se tem esquentador a gás, caldeira, lareira ou salamandra. CO é "assassino silencioso" - invisível, inodoro, mortal. Detetor custa €30-80, vida não tem preço.
 
-### 6. Alarme pia sozinho. O que fazer?
+### 6. Alarme do lavatório sem a nossa equipa. O que fazer?
 
 **Resposta:** "Pio" periódico = pilha fraca (substituir). Alarme completo sem fumo = pó acumulado (limpar) ou detetor expirado (substituir após 10 anos).
 
@@ -486,7 +480,7 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 ✅ Orçamento grátis sem compromisso 
 ✅ Garantia de 2 anos 
 
-**📞 Ligue Agora:** [932 321 892](tel:+351932321892) 
+**📞 Ligue Agora:** [Contacto por telefone ou WhatsApp](tel:+351932321892) 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20alarmes%20de%20incêndio!) 
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
@@ -498,4 +492,4 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 
 ---
 
-*Artigo escrito por eletricistas com experiência com 15+ anos de experiência em Trás-os-Montes. Atualizado em Março 2026.*
+*Artigo escrito por eletricistas com experiência com  em Trás-os-Montes. Atualizado em Março 2026.*

@@ -7,13 +7,13 @@ category: "Segurança"
 excerpt: "Guia completo sobre quando pode fazer DIY elétrico e quando DEVE chamar eletricista. Riscos legais, segurança e economias reais."
 image: "/images-optimized/blog/blog-diy-vs-pro.webp"
 metaTitle: "Eletricista vs DIY: Quando Chamar Pro | Guia"
-metaDescription: "DIY elétrico: trocar lâmpada ok, quadro NÃO. Riscos: choque fatal, incêndio, multa 3740€, seguro não cobre. Ligue 932 321 892!"
+metaDescription: "DIY elétrico: trocar lâmpada ok, quadro NÃO. Riscos: choque fatal, incêndio, multa 3740€, seguro não cobre. Ligue Contacto por telefone ou WhatsApp!"
 keywords: ["eletricista ou bricolagem", "posso fazer instalação elétrica", "diy eletricidade perigos", "quando chamar eletricista"]
 ---
 
 # Eletricista vs Bricolagem: Quando Chamar Profissional
 
-Pode fazer trabalhos elétricos sozinho ou deve chamar eletricista? Este guia completo explica o que é seguro fazer DIY, o que é PERIGOSO, riscos legais e quando economias aparentes saem mais caras.
+Pode fazer trabalhos elétricos sem a nossa equipa ou deve chamar eletricista? Este guia completo explica o que é seguro fazer DIY, o que é PERIGOSO, riscos legais e quando economias aparentes saem mais caras.
 
 ## Trabalhos DIY OK (Pode Fazer Sozinho)
 
@@ -148,8 +148,6 @@ Pode fazer trabalhos elétricos sozinho ou deve chamar eletricista? Este guia co
 
 **Custo profissional:** 138-210€
 
-### ❌ Fichas eletrotécnicas assinadas por técnico Profissional
-
 **Porquê IMPOSSÍVEL:**
 - Só eletricistas com experiência podem emitir
 - Precisa equipamento profissional (megger)
@@ -214,7 +212,6 @@ Incêndio causado por instalação DIY mal feita.
 ### 2. Venda Imóvel Bloqueada
 
 **Situação:**
-Quer vender casa. Precisa Fichas eletrotécnicas assinadas por técnico Profissional.
 
 **eletricista com experiência:**
 "Instalação não está conforme. Precisa refazer."
@@ -311,10 +308,8 @@ Arrenda casa sem certificação elétrica.
 **Se tivesse chamado profissional:** 480€
 **DIFERENÇA: 149.520€**
 
-### Exemplo 3: Fichas eletrotécnicas assinadas por técnico Profissional
-
 **DIY impossível:**
-Não pode emitir certificado.
+Não pode .
 
 **Tentativa:**
 Pede a "amigo" sem certificação.
@@ -366,7 +361,7 @@ Instala tomada, não funciona, não sabe porquê.
 Tenta arranjar problema 8 horas, não consegue.
 
 **Custo:**
-- 8h × 15€/h (valor tempo): 120€
+- 8h × sob orçamento (valor tempo): 120€
 - Profissional arranjar: 150€
 - **TOTAL: 270€**
 
@@ -391,7 +386,6 @@ Choque elétrico, hospital 2 dias.
 **Sim, MAS** só se souber identificar fios (fase, neutro, terra) e ligar corretamente. Se dúvida = chamar profissional.
 
 ### 2. É legal fazer trabalhos elétricos em minha casa?
-**Pequenos trabalhos sim** (lâmpadas, fichas). **Instalações novas não** - precisa Fichas eletrotécnicas assinadas por técnico Profissional.
 
 ### 3. Seguro cobre se fizer DIY?
 **Geralmente NÃO.** Cláusula típica exige profissional com experiência para instalações.
@@ -404,7 +398,7 @@ Choque elétrico, hospital 2 dias.
 - Certificação legal
 
 ### 5. Vale a pena curso eletricidade para DIY?
-**Não.** Curso profissional: 2-3 anos + estágio. Para poupar 100-200€/ano em trabalhos simples, não compensa.
+**Não.** Curso profissional: 2-3 anos + estágio. Para poupar 100-sob orçamento em trabalhos simples, não compensa.
 
 ### 6. E se erro for pequeno?
 **"Pequeno erro" em eletricidade pode:**
@@ -427,7 +421,7 @@ Choque elétrico, hospital 2 dias.
 ✅ Mexer no quadro elétrico
 ✅ Instalar tomadas/interruptores novos
 ✅ Trabalhos exterior (jardim, garagem)
-✅ Fichas eletrotécnicas assinadas por técnico Profissional
+
 ✅ Aumentar potência
 ✅ Arranjar curto-circuitos
 ✅ Instalar aquecimento/AC
@@ -452,15 +446,14 @@ Custo profissional (50-200€) é SEMPRE menor que:
 ## Artigos Relacionados
 
 - [Melhores Eletricistas Bragança: Como Escolher](https://eletricista-urgente.pt/blog/melhores-eletricistas-braganca-2026)
-- [Fichas eletrotécnicas assinadas por técnico Profissional Obrigatória](https://eletricista-urgente.pt/blog/certificacao-eletrica-obrigatoria-quando-como)
+
 - [Urgência Elétrica: O Que Fazer](https://eletricista-urgente.pt/blog/urgencia-eletrica-o-que-fazer-antes)
 - [Quanto Custa Quadro Elétrico](https://eletricista-urgente.pt/blog/quanto-custa-quadro-fusiveis-2026)
 
 ## Precisa de Eletricista Profissional?
 
-**Ligue agora: 932 321 892**
+**Contacto: 321 892**
 
-✅ Fichas eletrotécnicas assinadas por técnico Profissional válida
 ✅ Seguro RC 100.000€
 ✅ 15+ anos experiência
 ✅ Preços transparentes
@@ -471,5 +464,4 @@ Custo profissional (50-200€) é SEMPRE menor que:
 
 ---
 
-*Última atualização: 8 Março 2026*
 *Guia segurança elétrica Portugal*

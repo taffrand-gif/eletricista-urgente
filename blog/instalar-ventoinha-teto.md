@@ -15,15 +15,14 @@ priority: "SEASONAL"
 
 Neste guia completo, vamos explicar **como escolher a ventoinha adequada**, instalação segura passo a passo, custos reais, normas elétricas obrigatórias, e quando chamar um eletricista com experiência.
 
-**📞 Quer instalar ventoinha de teto? Ligue já: [932 321 892](tel:+351932321892)** 
+**📞 Quer instalar ventoinha de teto? Ligue já: [Contacto por telefone ou WhatsApp](tel:+351932321892)** 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20uma%20ventoinha%20de%20teto.%20Podem%20ajudar%3F)**
 
 ---
 
 ## Por Que Instalar Ventoinha de Teto?
 
-### Vantagens
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Eficiência Energética**
 - Consumo: 15-75W (vs 1.000-2.500W de equipamento de climatização)
 - Custo operação: €0.01-0.05/hora (vs €0.20-0.50/hora AC)
@@ -48,8 +47,7 @@ Neste guia completo, vamos explicar **como escolher a ventoinha adequada**, inst
 - Iluminação integrada (opcional)
 - Valoriza imóvel
 
-### Desvantagens
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Não baixa temperatura real (apenas sensação)
 - Requer teto estruturalmente adequado
 - Instalação mais complexa que lâmpada
@@ -152,8 +150,7 @@ Neste guia completo, vamos explicar **como escolher a ventoinha adequada**, inst
 
 **⚠️ AVISO IMPORTANTE:** Trabalhos elétricos devem ser realizados por eletricista com experiência. Instalação incorreta pode causar choque elétrico fatal, queda da ventoinha, ou incêndio.
 
-### Materiais Necessários
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Ventoinha e acessórios:**
 - Ventoinha de teto: €40-300
 - Vara de extensão (se necessário): incluída ou €15-40
@@ -321,8 +318,7 @@ Neste guia completo, vamos explicar **como escolher a ventoinha adequada**, inst
 | Buchas e parafusos | €5-10 |
 | **TOTAL (média):** | **€90-220** |
 
-### Instalação Profissional
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Preço |
 |---------|-------|
 | Instalação simples (substituir luminária) | €80-150 |
@@ -371,8 +367,7 @@ Neste guia completo, vamos explicar **como escolher a ventoinha adequada**, inst
 3. Teste e ajuste posição
 4. Fixe peso permanentemente
 
-### Verificação Anual
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Aperto de parafusos (pás, suporte)
 - Estado dos cabos
 - Ruído anormal
@@ -401,8 +396,7 @@ Neste guia completo, vamos explicar **como escolher a ventoinha adequada**, inst
 
 **Poupança:** 10-15% no aquecimento
 
-### Dicas de Eficiência
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Use apenas quando divisão ocupada
 - Combine com janelas abertas (noite)
 - Desligue quando sair (não refresca objetos)
@@ -412,7 +406,7 @@ Neste guia completo, vamos explicar **como escolher a ventoinha adequada**, inst
 
 ## Perguntas Frequentes (FAQ)
 
-**1. Posso instalar ventoinha sozinho?** 
+**1. Posso instalar ventoinha sem a nossa equipa?** 
 Tecnicamente sim, mas não recomendado. Requer conhecimento elétrico e estrutural. Instalação incorreta pode causar queda ou choque elétrico.
 
 **2. Quanto consome uma ventoinha de teto?** 
@@ -430,7 +424,7 @@ Sim, mas precisa fixar em viga ou instalar reforço estrutural. Não fixe direta
 **6. Ventoinha faz barulho. É normal?** 
 Não. Ventoinha moderna deve ser silenciosa (20-40 dB). Barulho indica pás desalinhadas, parafusos soltos, ou motor defeituoso.
 
-**7. Quanto tempo demora instalação?** 
+**7. Quanto tempo leva a instalação?**
 DIY: 2-4 horas. Profissional: 1-2 horas (simples) ou 3-5 horas (complexa).
 
 **8. Preciso de certificação?** 
@@ -451,7 +445,7 @@ Instalar uma ventoinha de teto é um **investimento inteligente** que proporcion
 
 ### Quer Instalar Ventoinha de Teto?
 
-**📞 Ligue para orçamento gratuito: [932 321 892](tel:+351932321892)**
+**📞 Ligue para orçamento gratuito: [Contacto por telefone ou WhatsApp](tel:+351932321892)**
 
 **Serviços :**
 - Consultoria (escolha modelo adequado)
@@ -467,7 +461,7 @@ Instalar uma ventoinha de teto é um **investimento inteligente** que proporcion
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20uma%20ventoinha%20de%20teto.%20Podem%20ajudar%3F)**
 
 **✅ Garantias :**
-- eletricistas com experiência com 15+ anos de experiência
+- eletricistas com experiência com 
 - Verificação estrutural do teto
 - Instalação conforme normas de segurança
 - Teste completo de funcionamento

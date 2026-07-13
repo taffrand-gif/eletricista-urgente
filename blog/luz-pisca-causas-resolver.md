@@ -30,7 +30,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ## 💡 8 Causas Principais de Luzes a Piscar
 
-### 1. Lâmpada Mal Apertada ou Solta (40% dos casos)
+### 1. Lâmpada Mal Apertada ou Solta ()
 
 **Sintomas:**
 - Luz pisca numa única lâmpada
@@ -51,7 +51,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ---
 
-### 2. Lâmpada Defeituosa ou Incompatível (20% dos casos)
+### 2. Lâmpada Defeituosa ou Incompatível ()
 
 **Sintomas:**
 - Lâmpada LED pisca mesmo bem apertada
@@ -76,7 +76,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ---
 
-### 3. Contacto Defeituoso no Interruptor (25% dos casos)
+### 3. Contacto Defeituoso no Interruptor ()
 
 **Sintomas:**
 - Luz pisca ao ligar/desligar interruptor
@@ -88,7 +88,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **Solução:** **CHAMAR ELETRICISTA**
 
-**⚠️ PERIGO:** Interruptor defeituoso pode causar curto-circuito e incêndio. Não tente arranjar sozinho.
+**⚠️ PERIGO:** Interruptor defeituoso pode causar curto-circuito e incêndio. Não tente arranjar sem a nossa equipa.
 
 **Custo:** €40-70 (substituir interruptor) 
 **Tempo:** 30 minutos 
@@ -96,7 +96,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ---
 
-### 4. Sobrecarga no Circuito (15% dos casos)
+### 4. Sobrecarga no Circuito ()
 
 **Sintomas:**
 - Várias luzes piscam ao mesmo tempo
@@ -119,7 +119,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ---
 
-### 5. Mau Contacto na Ficha/Casquilho (8% dos casos)
+### 5. Mau Contacto na Ficha/Casquilho ()
 
 **Sintomas:**
 - Candeeiro de mesa/pé pisca
@@ -143,7 +143,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ---
 
-### 6. Flutuação de Tensão na Rede (5% dos casos)
+### 6. Flutuação de Tensão na Rede ()
 
 **Sintomas:**
 - Todas as luzes da casa piscam simultaneamente
@@ -161,7 +161,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ---
 
-### 7. Ligação Defeituosa no Quadro Elétrico (4% dos casos)
+### 7. Ligação Defeituosa no Quadro Elétrico ()
 
 **Sintomas:**
 - Luzes de uma divisão/andar piscam
@@ -179,12 +179,12 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ---
 
-### 8. Problemas na Instalação Elétrica (3% dos casos)
+### 8. Problemas na Instalação Elétrica ()
 
 **Sintomas:**
 - Luzes piscam em várias divisões
 - Problema persistente e recorrente
-- Casa com mais de 30 anos
+- Casa com 
 
 **Causa:** 
 - Fios oxidados ou deteriorados
@@ -195,7 +195,6 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 **Custo:** €200-500 (inspeção + arranjos) 
 **Tempo:** 4-8 horas 
-**Benefício:** Fichas eletrotécnicas assinadas por técnico Profissional + segurança
 
 ---
 
@@ -253,7 +252,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ### Passo 3: Decisão (2 minutos)
 
-**✅ Pode resolver sozinho SE:**
+**✅ Pode resolver sem a nossa equipa SE:**
 - Lâmpada solta ou defeituosa
 - Candeeiro com fio partido (se tem experiência)
 - Sobrecarga (redistribuir aparelhos)
@@ -264,7 +263,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 - Problema persiste após trocar lâmpada
 - Cheiro a queimado
 - Disjuntor desarma
-- Casa com mais de 20 anos sem inspeção
+- Casa com  sem inspeção
 
 **🚨 EMERGÊNCIA (desligar disjuntor + chamar 24h) SE:**
 - Cheiro intenso a queimado
@@ -276,16 +275,14 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ## 💰 Custos de Arranjo em Trás-os-Montes (2026)
 
-### Arranjos Simples
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Problema | Solução | Custo | Tempo |
 |----------|---------|-------|-------|
 | Lâmpada solta | Apertar | €0 | 2 min |
 | Lâmpada defeituosa | Substituir | €3-12 | 5 min |
 | Ficha danificada | Substituir | €3-10 | 15 min |
 
-### Arranjos Profissionais
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Custo | Tempo | Garantia |
 |---------|-------|-------|----------|
 | Substituir interruptor | €40-70 | 30 min | 2 anos |
@@ -294,13 +291,11 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 | Instalar circuito novo | €150-300 | 2-4h | 2 anos |
 | Inspeção elétrica completa | €200-350 | 4-6h | Certificado |
 
-### Upgrades Recomendados
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Upgrade | Custo | Benefício |
 |---------|-------|-----------|
 | Substituir todos interruptores (T3) | €300-500 | Segurança + estética |
 | Instalar disjuntor diferencial | €150-200 | Proteção choque |
-| Fichas eletrotécnicas assinadas por técnico Profissional | €200-350 | Obrigatório venda |
 
 ---
 
@@ -316,7 +311,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 - Verifique periodicamente (vibração solta)
 
 ### 3. Substitua Interruptores Antigos
-- Mais de 15 anos: substituir preventivamente
+- : substituir preventivamente
 - Amarelados ou rachados: substituir URGENTE
 - Quentes ao toque: substituir IMEDIATAMENTE
 
@@ -328,7 +323,6 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 ### 5. Inspeção Elétrica Regular
 - Casa com 20+ anos: inspeção a cada 5 anos
 - Após obras: inspeção obrigatória
-- Fichas eletrotécnicas assinadas por técnico Profissional atualizada
 
 ### 6. Proteja de Humidade
 - Interruptores em WC/cozinha: IP44 mínimo
@@ -359,8 +353,6 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ### 4. Posso substituir o interruptor eu mesmo?
 
-**Resposta:** **Legalmente NÃO** em Portugal. Trabalhos elétricos devem ser feitos por eletricista com experiência com emissão de Fichas eletrotécnicas assinadas por técnico Profissional. Além disso, é perigoso sem conhecimentos.
-
 ### 5. Quanto tempo demora a arranjar luz que pisca?
 
 **Resposta:** Depende da causa. Lâmpada: 5 minutos. Interruptor: 30 minutos. Problema no quadro: 1-2 horas. Inspeção completa: 4-6 horas.
@@ -382,12 +374,12 @@ Luz a piscar pode ser desde um problema simples (lâmpada solta - €0) até gra
 **** - eletricista com experiência em Trás-os-Montes 
 ✅ Diagnóstico grátis por telefone 
 ✅ Emergências 24h/7 dias 
-✅ Fichas eletrotécnicas assinadas por técnico Profissional 
+
 ✅ Orçamento sem compromisso 
 ✅ Garantia de 2 anos 
-✅ Atendimento mediante confirmação por telefone
+✅ Atendimento  por telefone
 
-**📞 Ligue Agora:** [932 321 892](tel:+351932321892) 
+**📞 Ligue Agora:** [Contacto por telefone ou WhatsApp](tel:+351932321892) 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20tenho%20luzes%20a%20piscar%20e%20preciso%20de%20ajuda!) 
 **🌐 Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)
 
@@ -399,4 +391,4 @@ Luz a piscar pode ser desde um problema simples (lâmpada solta - €0) até gra
 
 ---
 
-*Artigo escrito por eletricistas com experiência com 15+ anos de experiência em Trás-os-Montes. Atualizado em Março 2026.*
+*Artigo escrito por eletricistas com experiência com  em Trás-os-Montes. Atualizado em Março 2026.*

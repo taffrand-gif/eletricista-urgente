@@ -74,7 +74,7 @@ priority: "HIGH DEMAND"
 
 ## 🔧 6 Causas Principais: Campainha Não Funciona
 
-### Causa 1: Pilhas Gastas (Sem Fios) - 45% dos casos
+### Causa 1: Pilhas Gastas (Sem Fios) - 
 
 **Como identificar:**
 - Campainha sem fios não toca
@@ -114,7 +114,7 @@ Pilhas do botão transmissor ou da campainha recetora esgotaram-se.
 
 **Prevenção:** Substitua pilhas anualmente (preventivo).
 
-### Causa 2: Botão de Pressão Avariado (Com Fios) - 25% dos casos
+### Causa 2: Botão de Pressão Avariado (Com Fios) - 
 
 **Como identificar:**
 - Campainha com fios não toca
@@ -157,7 +157,7 @@ Contactos internos do botão oxidaram, partiram-se, ou sujaram-se. Humidade e in
 
 **Dica:** Escolha botão com proteção IP44 mínimo (resistente à água).
 
-### Causa 3: Transformador Avariado (Com Fios) - 15% dos casos
+### Causa 3: Transformador Avariado (Com Fios) - 
 
 **Como identificar:**
 - Campainha com fios não toca
@@ -210,7 +210,7 @@ Transformador queimou-se (sobrecarga, curto-circuito, fim de vida útil). Vida �
 
 **Recomendo profissional** (trabalho com 230V).
 
-### Causa 4: Cabo Partido ou Desligado - 8% dos casos
+### Causa 4: Cabo Partido ou Desligado - 
 
 **Como identificar:**
 - Campainha com fios não toca
@@ -256,7 +256,7 @@ Cabo foi cortado acidentalmente, roído por roedores, ou desligou-se numa caixa 
 
 **Recomendo profissional** para cabos em parede.
 
-### Causa 5: Campainha/Buzzer Avariado - 5% dos casos
+### Causa 5: Campainha/Buzzer Avariado - 
 
 **Como identificar:**
 - Botão funciona (testado)
@@ -291,7 +291,7 @@ Buzzer interno queimou-se ou mecanismo partiu-se. Vida útil: 10-20 anos.
 **Custo profissional:** €50-100 
 **Tempo:** 20 minutos
 
-### Causa 6: Interferências (Sem Fios) - 2% dos casos
+### Causa 6: Interferências (Sem Fios) - 
 
 **Como identificar:**
 - Campainha sem fios funciona intermitentemente
@@ -333,8 +333,7 @@ Interferências de rádio frequência (RF) de outros dispositivos, paredes gross
 | Substituir transformador | €10-30 | Difícil | 30 min |
 | Arranjar cabo acessível | €5-20 | Moderada | 30 min |
 
-### Soluções Profissionais
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Preço em Trás-os-Montes |
 |---------|-------------------------|
 | Diagnóstico | €40-60 |
@@ -350,8 +349,7 @@ Interferências de rádio frequência (RF) de outros dispositivos, paredes gross
 
 ## 🔍 Diagnóstico Passo a Passo
 
-### Campainha COM FIOS
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Passo 1: Teste o botão**
 1. Remova o botão da parede
 2. Junte os dois fios diretamente
@@ -374,8 +372,7 @@ Interferências de rádio frequência (RF) de outros dispositivos, paredes gross
 2. **Se tocar:** Problema era nos cabos
 3. **Se não tocar:** Campainha avariada → Substituir
 
-### Campainha SEM FIOS
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Passo 1: Teste as pilhas**
 1. Substitua pilhas do botão
 2. Substitua pilhas da campainha (se a pilhas)
@@ -397,8 +394,7 @@ Interferências de rádio frequência (RF) de outros dispositivos, paredes gross
 
 ## 🛡️ Manutenção e Prevenção
 
-### Campainha COM FIOS
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Anual:**
 - Limpe o botão (poeira, teias de aranha)
 - Verifique que botão está bem fixo
@@ -414,8 +410,7 @@ Interferências de rádio frequência (RF) de outros dispositivos, paredes gross
 - Substitua transformador preventivamente
 - Substitua campainha se muito antiga
 
-### Campainha SEM FIOS
-
+## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Anual:**
 - Substitua pilhas (preventivo)
 - Limpe botão e campainha
@@ -440,7 +435,7 @@ Interferências de rádio frequência (RF) de outros dispositivos, paredes gross
 
 ## ❓ Perguntas Frequentes
 
-**1. Campainha toca sozinha, porquê?**
+**1. Campainha toca sem a nossa equipa, porquê?**
 Causas: (1) botão com curto-circuito (humidade, oxidação), (2) interferências (sem fios), (3) cabo com contacto intermitente. Solução: substituir botão ou verificar cabos.
 
 **2. Campainha toca fraco, o que fazer?**
@@ -473,7 +468,7 @@ Na maioria dos casos, campainha que não funciona tem **solução fácil e barat
 2. **Botão avariado** - 25% → Substituir (€5-25)
 3. **Transformador avariado** (com fios) - 15% → Substituir (€15-60)
 
-**70% dos casos resolvem-se com menos de €25!**
+** resolvem-se com menos de €25!**
 
 **Diagnóstico:**
 - Sem fios: Teste pilhas → Teste alcance → Emparelhar
@@ -492,7 +487,7 @@ Na maioria dos casos, campainha que não funciona tem **solução fácil e barat
 
 ** — eletricista com experiência em Bragança**
 
-📞 **Ligue agora: [932 321 892](tel:+351932321892)** 
+📞 **Ligue agora: [Contacto por telefone ou WhatsApp](tel:+351932321892)** 
 💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20a%20minha%20campainha%20não%20funciona.%20Pode%20ajudar%3F)**
 
 ✅ Diagnóstico rápido Atendimento prioritário 
@@ -500,7 +495,7 @@ Na maioria dos casos, campainha que não funciona tem **solução fácil e barat
 ✅ Materiais em stock 
 ✅ Garantia 1 ano no serviço 
 ✅ Preços transparentes 
-✅ Técnico em sua casa em 30-45 minutos 
+✅  
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não fique sem campainha funcional!** Contacte-nos já para arranjo rápida e garantida.
