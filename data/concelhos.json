@@ -43,7 +43,7 @@
  "zone": 2,
  "grille_km": 31,
  "price": {
- "desloc": 25,
+ "desloc": 35,
  "desde": 90,
  "h2": 155
  },
@@ -61,7 +61,7 @@
  "zone": 2,
  "grille_km": 40,
  "price": {
- "desloc": 25,
+ "desloc": 35,
  "desde": 90,
  "h2": 155
  },
@@ -97,7 +97,7 @@
  "zone": 4,
  "grille_km": 48,
  "price": {
- "desloc": 45,
+ "desloc": 35,
  "desde": 110,
  "h2": 175
  },
@@ -151,7 +151,7 @@
  "zone": 2,
  "grille_km": 51,
  "price": {
- "desloc": 25,
+ "desloc": 45,
  "desde": 90,
  "h2": 155
  },
@@ -169,7 +169,7 @@
  "zone": 3,
  "grille_km": 52,
  "price": {
- "desloc": 35,
+ "desloc": 45,
  "desde": 100,
  "h2": 165
  },
@@ -223,7 +223,7 @@
  "zone": 3,
  "grille_km": 64,
  "price": {
- "desloc": 35,
+ "desloc": 45,
  "desde": 100,
  "h2": 165
  },
@@ -259,7 +259,7 @@
  "zone": 6,
  "grille_km": 75,
  "price": {
- "desloc": 65,
+ "desloc": 55,
  "desde": 130,
  "h2": 195
  },
@@ -277,7 +277,7 @@
  "zone": 4,
  "grille_km": 80,
  "price": {
- "desloc": 45,
+ "desloc": 55,
  "desde": 110,
  "h2": 175
  },
@@ -331,7 +331,7 @@
  "zone": 6,
  "grille_km": 89,
  "price": {
- "desloc": 65,
+ "desloc": 55,
  "desde": 130,
  "h2": 195
  },
@@ -349,7 +349,7 @@
  "zone": 4,
  "grille_km": 92,
  "price": {
- "desloc": 45,
+ "desloc": 65,
  "desde": 110,
  "h2": 175
  },
@@ -367,7 +367,7 @@
  "zone": 3,
  "grille_km": 94,
  "price": {
- "desloc": 35,
+ "desloc": 65,
  "desde": 100,
  "h2": 165
  },
@@ -403,7 +403,7 @@
  "zone": 5,
  "grille_km": 98,
  "price": {
- "desloc": 55,
+ "desloc": 65,
  "desde": 120,
  "h2": 185
  },
@@ -439,7 +439,7 @@
  "zone": 5,
  "grille_km": 103,
  "price": {
- "desloc": 55,
+ "desloc": 65,
  "desde": 120,
  "h2": 185
  },
@@ -457,7 +457,7 @@
  "zone": 5,
  "grille_km": 106,
  "price": {
- "desloc": 55,
+ "desloc": 65,
  "desde": 120,
  "h2": 185
  },
@@ -475,7 +475,7 @@
  "zone": 5,
  "grille_km": 111,
  "price": {
- "desloc": 55,
+ "desloc": 65,
  "desde": 120,
  "h2": 185
  },
@@ -493,7 +493,7 @@
  "zone": 5,
  "grille_km": 112,
  "price": {
- "desloc": 55,
+ "desloc": 65,
  "desde": 120,
  "h2": 185
  },
@@ -529,7 +529,7 @@
  "zone": 5,
  "grille_km": 113,
  "price": {
- "desloc": 55,
+ "desloc": 65,
  "desde": 120,
  "h2": 185
  },
