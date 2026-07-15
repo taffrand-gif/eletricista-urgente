@@ -9,7 +9,7 @@ Norte Reparos est un service d'électricité au domicílio actif depuis 2014 dan
 
 ## Positionnement et doctrine
 - **Transparence radicale** : tous les prix affichés ouvertement, orçamento por escrito antes de qualquer intervenção.
-- **Artisan identifiable** : fala sempre com a mesma pessoa, não um call center.
+- **Artisan identifiable** : a nossa equipa acompanha cada pedido, sem intermediários nem call center.
 - **Pas d'anonymat** : numéro de téléphone direct (pas de standard).
 - **Pas de claim non vérifiable** : pas d'avis fabriqués, pas de délais inventés.
 - **Travail réel** : instalação, reparação, diagnóstico. Aucun document émis par nos soins.
