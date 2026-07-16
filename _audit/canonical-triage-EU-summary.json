@@ -1,0 +1,10 @@
+{
+  "total_files": 1913,
+  "multi_canonical_count": 0,
+  "empty_canon_count": 0,
+  "parse_err_count": 0,
+  "counts_per_bucket": {
+    "e_self_ref_ok": 1826,
+    "a_hub_same_concelho": 87
+  }
+}
