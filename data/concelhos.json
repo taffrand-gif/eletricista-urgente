@@ -40,7 +40,7 @@
  "name": "Alfândega da Fé",
  "slug": "alfandega-da-fe",
  "district": "Bragança",
- "zone": 2,
+ "zone": 3,
  "grille_km": 31,
  "price": {
  "desloc": 35,
@@ -58,7 +58,7 @@
  "name": "Vila Flor",
  "slug": "vila-flor",
  "district": "Bragança",
- "zone": 2,
+ "zone": 3,
  "grille_km": 40,
  "price": {
  "desloc": 35,
@@ -94,7 +94,7 @@
  "name": "Valpaços",
  "slug": "valpacos",
  "district": "Vila Real",
- "zone": 4,
+ "zone": 3,
  "grille_km": 48,
  "price": {
  "desloc": 35,
@@ -148,7 +148,7 @@
  "name": "Carrazeda de Ansiães",
  "slug": "carrazeda-de-ansiaes",
  "district": "Bragança",
- "zone": 2,
+ "zone": 4,
  "grille_km": 51,
  "price": {
  "desloc": 45,
@@ -166,7 +166,7 @@
  "name": "Torre de Moncorvo",
  "slug": "torre-de-moncorvo",
  "district": "Bragança",
- "zone": 3,
+ "zone": 4,
  "grille_km": 52,
  "price": {
  "desloc": 45,
@@ -220,7 +220,7 @@
  "name": "Vimioso",
  "slug": "vimioso",
  "district": "Bragança",
- "zone": 3,
+ "zone": 4,
  "grille_km": 64,
  "price": {
  "desloc": 45,
@@ -256,7 +256,7 @@
  "name": "Chaves",
  "slug": "chaves",
  "district": "Vila Real",
- "zone": 6,
+ "zone": 5,
  "grille_km": 75,
  "price": {
  "desloc": 55,
@@ -274,7 +274,7 @@
  "name": "São João da Pesqueira",
  "slug": "sao-joao-da-pesqueira",
  "district": "Viseu",
- "zone": 4,
+ "zone": 5,
  "grille_km": 80,
  "price": {
  "desloc": 55,
@@ -328,7 +328,7 @@
  "name": "Vila Pouca de Aguiar",
  "slug": "vila-pouca-de-aguiar",
  "district": "Vila Real",
- "zone": 6,
+ "zone": 5,
  "grille_km": 89,
  "price": {
  "desloc": 55,
@@ -346,7 +346,7 @@
  "name": "Miranda do Douro",
  "slug": "miranda-do-douro",
  "district": "Bragança",
- "zone": 4,
+ "zone": 6,
  "grille_km": 92,
  "price": {
  "desloc": 65,
@@ -364,7 +364,7 @@
  "name": "Freixo de Espada à Cinta",
  "slug": "freixo-de-espada-a-cinta",
  "district": "Bragança",
- "zone": 3,
+ "zone": 6,
  "grille_km": 94,
  "price": {
  "desloc": 65,
@@ -400,7 +400,7 @@
  "name": "Peso da Régua",
  "slug": "peso-da-regua",
  "district": "Vila Real",
- "zone": 5,
+ "zone": 6,
  "grille_km": 98,
  "price": {
  "desloc": 65,
@@ -436,7 +436,7 @@
  "name": "Santa Marta de Penaguião",
  "slug": "santa-marta-de-penaguiao",
  "district": "Vila Real",
- "zone": 5,
+ "zone": 6,
  "grille_km": 103,
  "price": {
  "desloc": 65,
@@ -454,7 +454,7 @@
  "name": "Tabuaço",
  "slug": "tabuaco",
  "district": "Viseu",
- "zone": 5,
+ "zone": 6,
  "grille_km": 106,
  "price": {
  "desloc": 65,
@@ -472,7 +472,7 @@
  "name": "Lamego",
  "slug": "lamego",
  "district": "Viseu",
- "zone": 5,
+ "zone": 6,
  "grille_km": 111,
  "price": {
  "desloc": 65,
@@ -490,7 +490,7 @@
  "name": "Armamar",
  "slug": "armamar",
  "district": "Viseu",
- "zone": 5,
+ "zone": 6,
  "grille_km": 112,
  "price": {
  "desloc": 65,
@@ -526,7 +526,7 @@
  "name": "Mesão Frio",
  "slug": "mesao-frio",
  "district": "Vila Real",
- "zone": 5,
+ "zone": 6,
  "grille_km": 113,
  "price": {
  "desloc": 65,
@@ -598,10 +598,10 @@
  "name": "Moimenta da Beira",
  "slug": "moimenta-da-beira",
  "district": "Viseu",
- "zone": 6,
+ "zone": null,
  "grille_km": null,
  "price": {
- "desloc": 65,
+ "desloc": null,
  "desde": 130,
  "h2": 195
  },
