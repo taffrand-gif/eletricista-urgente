@@ -48,15 +48,14 @@ Allow: /
 User-agent: AhrefsBot
 Allow: /
 
-# Sitemap
-Sitemap: https://eletricista-urgente.pt/sitemap.xml
-
 # Default
 User-agent: *
 Allow: /
 # Disallow /public/ (backup miroir des memes fichiers servis en racine, eviter duplicate content crawl)
 # Mission P0 indexation 2026-07-16 : 122 doublons 200 sur /public/ pour EU
 Disallow: /public/
-Sitemap: https://eletricista-urgente.pt/sitemap-plain.xml
+
+# Sitemap (core only, root-tiered — sitemap-villages.xml present but not declared here)
+Sitemap: https://eletricista-urgente.pt/sitemap.xml
 
 # Redeploy trigger 2026-07-03 16:06:26
