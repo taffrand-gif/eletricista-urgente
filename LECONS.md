@@ -77,6 +77,44 @@
 
 ---
 
+## Leçon #P1D-2026-07-17-02 — Post-merge hotfix : R12 doctrine + subdirectory catch-all quirk Vercel
+
+**Contexte** : mission HOTFIX post-merge `fix/postmerge-eu` sur 2 bugs critiques découverts après batch #153 (200 villages) + #154 (piliers curto-circuito/falha-energia).
+
+**BUG 1 (R12 doctrine 24h/7d)** : les 2 piliers racine (curto-circuito, falha-energia) mergés via #154 affichaient encore `24h · 70€/h` / `24h/7d incluindo domingos e feriados` sans la formule doctrine R12. Cause : copier-coller rapide du pattern jackpot #154 sans grep de conformité final. 333 autres pages -urgente- ont déjà le bon pattern (`Atendimento 24h/7 dias, mediante confirmação por telefone`).
+
+**Takeaway BUG 1** : après tout batch de pages piliers, **TOUJOURS** passer le grep de conformité final AVANT de demander la review :
+1. `grep -nE '24h/7d incluindo|Urgente 24h|24h ·|24h, 70|24h em Tr|24 horas'` — doit retourner 0 hit hors questions FAQ utilisateur
+2. JSON-LD `openingHoursSpecification` doit être **GARDÉ** (00:00-23:59 = alignement avec 333 autres pages -urgente- qui le font toutes, vérifié par grep)
+3. Le pattern canonique à appliquer = `Sim. Atendimento 24h/7 dias, mediante confirmação por telefone.` (variante n°1 la plus fréquente dans les pages -urgente- existantes)
+4. **Cibles à patcher** = title + og:title + twitter:title + H1 + FAQ corps + FAQ JSON-LD + footer CTA. **Garder** l intitulé de question utilisateur "24 horas e feriados" (c est la question, pas un claim business)
+
+**Action canon** : après batch piliers, exécuter le bloc grep DoD AVANT push. Si > 0 hits résiduels → patch ciblé par replace_all=false sur chaque chaîne (jamais global sur la page).
+
+**BUG 2 (404 villages/)** : 200 fichiers `villages/<slug>.html` mergés via #153, tous en 404 sur live. Cause IDENTIFIÉE après diagnostic différentiel :
+- `.vercelignore` n'exclut PAS villages/ (vérifié : 6 patterns standards)
+- `vercel.json` rewrite catch-all `/(.*) -> /$1.html` EST présent
+- Deploy bien à jour (last-modified = commit batch #153)
+- Pourtant `/villages/<X>` → 404 alors que `/concelhos/<X>` (33 fichiers) et `/blog/<X>` (116 fichiers) → 200 OK
+- Cause = quirk Vercel sur subdirectory catch-all quand le dossier existe physiquement + volume important
+
+**Takeaway BUG 2** : quand un subdirectory catch-all échoue pour un sous-dossier spécifique mais marche pour d'autres, le fix **scalable** est d'ajouter un rewrite explicite PRIORITAIRE avant le catch-all :
+```json
+{
+  "source": "/villages/(.*)",
+  "destination": "/villages/$1.html"
+}
+```
+placé AVANT le `/(.*)` dans la liste `rewrites`. Vercel applique les rewrites dans l'ordre, donc le plus spécifique gagne. Le catch-all continue de servir les autres dossiers (concelhos, blog, public, raiz).
+
+**Action canon** : pour tout futur ajout de sous-dossier de > 100 fichiers HTML, **TOUJOURS** ajouter un rewrite explicite dédié AVANT le catch-all. C'est un pattern à appliquer systématiquement dans tous les sites Norte-OS (canalizador-urgente, eletricista-urgente, canalizador-norte-reparos, eletricista-norte-reparos).
+
+**Diagnostic différentiel = la clé** : ne JAMAIS conclure à un bug de deploy ou de synchronisation avant d'avoir testé plusieurs sous-dossiers (blog/, concelhos/, villages/) avec le même path. La différence de comportement entre concelhos/ (OK) et villages/ (KO) a permis d'écarter deploy/ignore/cache et de cibler le vrai problème = config.
+
+**Source** : PR #156 `fix/postmerge-eu` depuis origin/main, commit `d8de18377`, 2026-07-17. Branch + push + PR draft créés. **STOP validation Philippe avant merge** (R7 AGENTS.md).
+
+---
+
 ## Cross-références
 
 - Variante A non exécutée : voir `RAPPORT-P0BIS-P1-2026-07-16.md` § Étape 2 + 3 options présentées à Philippe
