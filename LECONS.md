@@ -53,6 +53,30 @@
 
 ---
 
+## Leçon #P1D-2026-07-17-01 — Enrichir piliers money-kw: synonymes + FAQ PAA + HowTo, JAMAIS pages synonymes
+
+**Contexte** : mission MONOPOLE EXEC (ruling `~/work/Sites/MONOPOLE-MONEY-KW-2026-07-17.md`) sur curto-circuito (1600/4,4€) + falha-energia (880/5,3€) + variantes long-tail (falha de luz, falha de eletricidade, circuito em curto, falha de energia hoje 12100). Décision ruling : **enrichir les 2 piliers racine** (pas de pages synonymes, anti-cannibalisation) avec sections H2 synonymes + FAQ PAA + HowTo JSON-LD.
+
+**Takeaway** : la maxime "1 page par mot-clé" est morte pour le monopole money-kw. Le bon move = enrichir le pilier existant avec :
+1. **Sections H2 synonymes** intégrées naturellement au discours (pas de stuffing keyword) — *« Falha de luz, falha de eletricidade — são a mesma coisa? »* + variantes contextuelles (corte de luz, apagão).
+2. **FAQ PAA réelles** dans le JSON-LD FAQPage (4 nouvelles Q style "O que é...", "O que provoca...", "Como sei se é...", "É perigoso?").
+3. **HowTo schema JSON-LD** pour les procédures 3 passos (capte featured snippet + AI Overview) — 3 HowToStep positionnés avec totalTime=PT1M.
+4. **title + meta description** enrichis avec les variantes ET l'intent AIO-citable ("Hoje — E Geral ou Só na Sua Casa?").
+
+**Action canon** :
+1. TOUJOURS grep `circuito em curto|falha de luz|falha de eletricidade` AVANT patch pour confirmer que la variante n'est pas déjà présente
+2. Title = `kw_principal / variante_synonyme — bénéfice_quantifié · 70€/h` (pattern validé jackpot curto-circuito)
+3. H2 synonymes = section dédiée mais **organique** (intro qui reconnaît les 3 termes, puis nuances, puis termes apparentés) — JAMAIS bullet-list stuffing
+4. JSON-LD fusion : `json.dumps(separators=(',', ':'))` + replace_in_place (jamais `json.dump` reformaté qui casserait la minification)
+5. DoD = 11+ témoins grep à passer systématiquement : claims_interdits (min/minutos), je/nous interdit, certification DGEG, canon URL clean, NAP 932, prix 70€/h, équipement réel, JSON-LD valide, HTML structure, H1 unique, cross-link CC↔FE
+6. Mesure différenciation : Jaccard body entre piliers doit BAISSER post-patch (0.529 → 0.501 sur mission = bon)
+
+**Anti-pattern détecté** : `git add -A` sur une branche fraîche snapshot = pollue l'index avec .worktrees/, DESIGN.md, _indexing/, fichiers parasites non-trackés du snapshot initial. **Toujours** faire `git reset HEAD -- . && git add <only_modified_targets>` pour ne stager QUE les fichiers de la mission.
+
+**Source** : PR #154 /~/work/Sites/eletricista-urgente (`feat/monopole-piliers-eu` depuis origin/main), commit `6519d9285`, 2026-07-17.
+
+---
+
 ## Cross-références
 
 - Variante A non exécutée : voir `RAPPORT-P0BIS-P1-2026-07-16.md` § Étape 2 + 3 options présentées à Philippe
