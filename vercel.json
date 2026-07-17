@@ -12,6 +12,10 @@
       "destination": "/contactos.html"
     },
     {
+      "source": "/villages/(.*)",
+      "destination": "/villages/$1.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/$1.html"
     }
