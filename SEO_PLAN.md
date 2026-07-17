@@ -288,11 +288,46 @@ grep -c "schema.org" index.html
 | 2026-06-30 | Hermes (carte blanche Philippe) | sitemap M3 | Ajout `preco-eletricista-urgente-braganca-2026.html` au sitemap (priority 0.95, monthly) | Indexation Google cohérente | commit `3adc41a8d`, push origin main ✅
 | 2026-07-01 | Hermes (mode loop, R7-bis) | **chore(faux) PURGE services NON FOURNIS — PR #76** | Branche `chore/purge-faux-services` → PR #76 → merge squash `7a057b52d` --delete-branch. **Commit amont `5534503aa`** : (1) **10 fichiers supprimés** = `solar-paineis.html`, `solar-bateria.html`, `ve-casa.html`, `ve-empresa.html`, `clima-residencial.html`, `clima-empresarial.html`, `bomba-calor.html`, `auditoria-energetica.html`, `eficiencia-energetica.html`, `iluminacao-led-empresarial.html` + 14 articles blog MD hors-périmètre. (2) **19 fichiers patchés** = `index.html`, `servicos.html`, `tarifarios.html`, `faq.html`, `sobre.html`, `contatos.html`, `avaliacoes-clientes.html`, `testemunhos.html`, `sitemap.xml`, `robots.txt`, partials/headers/footers — toutes mentions solaire/VE/clima/pomba de calor purgées. (3) **⭐ Faux témoignage supprimé** : `bomba de calor 120€/mês` (jamais fait, fabrication pure cliente+tarif+service, Doctrine §11 critique). (4) `sitemap.xml` régénéré (-2044 lignes parasites). Branche + distante supprimées. R11 ZÉRO INVENTION + R12 Transparence Radicale §11-13 + R7-bis loop blanc-seing session. | Conformité Doctrine Transparence Radicale — services NON fournis par Filipe purgés (solaire, VE, climatização, bomba calor) ; suppression du faux témoignage Doctrine §11 (jamais de maintenance mensualisé facturé). Pas de build (statique pur). GH auth OK. `git branch -d` skip (--delete-branch déjà fait). SEO_PLAN dirty=1, sera commité juste après. | 25 fichiers, +59/-6320 lignes. SHA final main = `7a057b52d`. PR #76 https://github.com/taffrand-gif/eletricista-urgente/pull/76 MERGED ✅ |
 
-<<<<<<< HEAD
-**Dernière MAJ** : 2026-07-02 — **Session mode loop R7-bis 3 vagues : 6 PRs loop OUVERTES (EU), ~370 fichiers R12 INTERDIT cleanés**. Vague 1 (reprise) : 4 SEO_PLAN pushes + 2 PRs localité phares EU. Vague 2 (deleg_680d8a5a) : mass-sed 267 EU (PR #93, 1525/-1525). Vague 2bis (deleg_fd2db8c6) : PR #94 mine 102 fichiers EU. Vague 3 (deleg_11640782 + parent) : PR #95 EU hubs 33 + PR #96 EU blog 6. **Sites prod HTTP 200**. 0 hit R12 dans safe zones après merge. Body pédagogique blogs préservé. Gisement restant : CNR/ENR build regen (~66k hits), SEO duplicate content (178 EU).
-=======
-**Dernière MAJ** : 2026-07-02 21h45 BST — **✅ SESSION 03/07 CLOSE : 6 PRs loop EU R12 cleanup + PR #97 SEO_PLAN sync TOUTES MERGÉES (squash, --delete-branch)**. Loop vagues 1+2+2bis+3 = 6 PRs : #91 (Bragança phare), #92 (Chaves+Vila Real+Mirandela phare), #93 (mass 267 locality) fermée car redondance, #94 (mass 102 public/blog), #95 (hubs 33 concelhos/distritos), #96 (blog 6). ~370 fichiers R12 INTERDIT cleanés. Doctrine §12 R12/R145/R11 appliquée 100%. Sites prod HTTP 200. Leçons #307-#311. **Gisement restant** : CNR/ENR build regen (~66k hits), SEO duplicate content (178 EU title/desc identiques). **Prochain chat** : reprendre sur gisement CNR/ENR.
->>>>>>> a44220be1 (docs(seo-plan): close final 03/07 (18 PRs mergées + bilan))
+---
+
+## 📊 ÉTAT POST-FOURNÉE 2026-07-17 — eletricista-urgente.pt (élec)
+
+**Vérifié par git/curl le 2026-07-17 20h30 BST (pas un claim, pas un souvenir) — SHA main = `490d3863a` (PR #157 MERGÉE 17/07 17h54 UTC).**
+
+### Piliers money live (HTTP 200, curl vérifié)
+- Homepage `/` + 5 piliers service (curto-circuito, falha-energia, precos, calculadora-de-preco, zonas-deslocacao, contactos, sobre)
+- 33 hubs concelhos + 6 distritos + curto-circuito + falha-energia + precos + contactos + sobre = 45 entrées money-directes
+- EU = 5 piliers canoniques vs 7 CU (gap guides élec à combler via DGEG + Monopole pilier #154)
+
+### Sitemap tiering (curl prod 17/07 20h30)
+- `sitemap.xml` (core) = **45 URLs** (homepage + 33 concelhos + 6 distritos + 2 piliers élec curto-circuito/falha-energia + 4 pages institutionnelles)
+- `sitemap-villages.xml` (long-tail) = **1944 URLs** (NAP-minimal villages, non déclaré dans robots.txt)
+- `robots.txt` expose sitemap.xml + disallow `/public/` (miroir duplicate content, 122 fichiers 200 sur /public/ identifiés 16/07)
+
+### Villages 200/200 NAP-minimal live (hors sitemap core)
+- 200 villages générés (PR #153 feat(p1c) 2026-07-17, Variante B stricte) — GATE 5/6 + 1 PARTIAL (`eletricista-tabuaco` sur-revue post-merge #156 fix R12 doctrine 24h + 404 villages/)
+- 100% HTTP 200, canonical self-ref (`<link rel="canonical" href="https://eletricista-urgente.pt/{slug}">`), NAP 932 321 892 × 3 minimum/page vérifié sur échantillon (A-Mezquita, Burga, Constantim)
+- Sitemap-villages.xml = 1944 entrées mais 200 villages P1C = scalabilité 10× à venir (vagues 2-10 par concelho)
+
+### Indexabilité core 45/45
+- 45 URLs sitemap.xml core toutes HTTP 200, canonical self-ref vérifié (échantillon `/contactos` corrigé PR #157, `/concelhos/*` OK)
+- 0 PR ouverte, dernier merge = PR #157 (contactos canonical self-ref Bug #1 audit 17/07)
+
+### Guides miroirs sites principaux (HTTP 200)
+- 2 pages guides EU live : `como-poupar-eletricidade`, `comparacao`
+- ⚠️ GAP vs CU (13 guides CU) : à combler via miroirs ENR (`eletricista-norte-reparos.pt`) — R11 cohérence cross-site
+
+### Queue IndexNow J1 (état réel)
+- ❌ Pas de fichier `indexnow-key.txt` ni `indexnow-urls.txt` à la racine EU (vs CU qui a les deux)
+- ⚠️ À créer J1 (= 2026-07-18) après GO merge PR SEO_PLAN : (a) générer `indexnow-key.txt` 32 chars, (b) soumettre sitemap.xml + sitemap-villages.xml vers `api.indexnow.org/indexnow`
+- Pas de cron configuré EU IndexNow (à harmoniser avec CU)
+
+### Mesures planifiées
+- **2026-07-23 (J+6)** : resoumission GSC des 45 core + échantillon 200 villages P1C, vérification couverture index
+- **2026-07-30 (J+13)** : audit SERP sur 5 mots-clés piliers (« eletricista urgente bragança », « curto-circuito urgente », « falha energia tras-os-montes », « eletricista 24h vila real », « preço eletricista mirandela »), comparaison avant/après P1C
+- **J+30 (≈ 2026-08-16)** : mesure indexation réelle des 200 villages P1C, conversion trafic GSC, ROI keywords long-tail villages + gap guides ENR
+
+**Dernière MAJ** : 2026-07-17 20h30 BST — **📊 ÉTAT POST-FOURNÉE — VILLAGES 200/200 NAP-MINIMAL LIVE + INDEXABILITÉ 45/45 CORE + GATING R3 GELÉ**. (cf. section dédiée ci-dessus). Pour l'historique antérieur : voir bloc précédent « SESSION 03/07 CLOSE » ligne suivante.
 **Prochaine action** : (1) **Décision Philippe** sur les 4 branches courantes CU/ENR/CNR (dry-rebase `-X theirs` SAFE vérifié). (2) SEO_PLAN.md dirty → commit/éditer/checkout (R6 strict = pas touché par ce loop). (3) P0 inchangés : CF 301 (token manquant), Vague 2 SEO (GO requis), 990 mots-clés (P1). (4) **A4-TER dette** : 76 Atendimento prioritário + 1 défaut alij.html + claims §11 (~80 fichiers, 15 min subagent unique) — safe-drop ou PR dédiée, Philippe décide.
 
 - **2026-06-29** — Appended Norte Reparos identity block + 'nous/je' pronoun rule to CLAUDE.md (docs commit, push origin main)
