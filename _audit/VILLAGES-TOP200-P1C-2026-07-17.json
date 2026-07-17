@@ -1,0 +1,1602 @@
+[
+  {
+    "concelho_slug": "mesao-frio",
+    "village_name": "São Nicolau",
+    "village_km": 0.5,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 1
+  },
+  {
+    "concelho_slug": "lamego",
+    "village_name": "Bairro Social de Alvoraçães",
+    "village_km": 0.6,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 2
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Bairro do Fundo de Fomento à Habitação",
+    "village_km": 1.1,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 3
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Madalena",
+    "village_km": 1.1,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 4
+  },
+  {
+    "concelho_slug": "mesao-frio",
+    "village_name": "Vila Jusã",
+    "village_km": 1.2,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 5
+  },
+  {
+    "concelho_slug": "lamego",
+    "village_name": "Vila Nova de Souto d'El-Rei",
+    "village_km": 1.7,
+    "zone": 6,
+    "zone_status": "casefold-AMBIGUOUS-do-not-resolve",
+    "rank": 6
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Vila Nova das Patas",
+    "village_km": 2.2,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 7
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Vale de Madeiro",
+    "village_km": 2.2,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 8
+  },
+  {
+    "concelho_slug": "montalegre",
+    "village_name": "Donões",
+    "village_km": 2.2,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 9
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Cocanha",
+    "village_km": 2.2,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 10
+  },
+  {
+    "concelho_slug": "lamego",
+    "village_name": "Ferreiros de Avões",
+    "village_km": 2.4,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 11
+  },
+  {
+    "concelho_slug": "mogadouro",
+    "village_name": "Vale da Madre",
+    "village_km": 2.5,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 12
+  },
+  {
+    "concelho_slug": "lamego",
+    "village_name": "Avões",
+    "village_km": 2.6,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 13
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Vale de Anta",
+    "village_km": 2.6,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 14
+  },
+  {
+    "concelho_slug": "mesao-frio",
+    "village_name": "Tresouras",
+    "village_km": 2.6,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 15
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Freixedinha",
+    "village_km": 2.8,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 16
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Seixal",
+    "village_km": 2.8,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 17
+  },
+  {
+    "concelho_slug": "tabuaco",
+    "village_name": "Barcos",
+    "village_km": 2.8,
+    "zone": 5,
+    "zone_status": "exact",
+    "rank": 18
+  },
+  {
+    "concelho_slug": "mesao-frio",
+    "village_name": "Barrô",
+    "village_km": 2.9,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 19
+  },
+  {
+    "concelho_slug": "mesao-frio",
+    "village_name": "Barqueiros",
+    "village_km": 2.9,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 20
+  },
+  {
+    "concelho_slug": "mesao-frio",
+    "village_name": "Teixeiró",
+    "village_km": 2.9,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 21
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Carvalhais",
+    "village_km": 3.0,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 22
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Eiras",
+    "village_km": 3.1,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 23
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Possacos",
+    "village_km": 3.2,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 24
+  },
+  {
+    "concelho_slug": "tabuaco",
+    "village_name": "Desejosa",
+    "village_km": 3.2,
+    "zone": 5,
+    "zone_status": "exact",
+    "rank": 25
+  },
+  {
+    "concelho_slug": "lamego",
+    "village_name": "Cepões",
+    "village_km": 3.3,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 26
+  },
+  {
+    "concelho_slug": "lamego",
+    "village_name": "Cambres",
+    "village_km": 3.4,
+    "zone": 5,
+    "zone_status": "exact",
+    "rank": 27
+  },
+  {
+    "concelho_slug": "tabuaco",
+    "village_name": "Távora",
+    "village_km": 3.4,
+    "zone": 5,
+    "zone_status": "exact",
+    "rank": 28
+  },
+  {
+    "concelho_slug": "tabuaco",
+    "village_name": "Chavães",
+    "village_km": 3.4,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 29
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Chelas",
+    "village_km": 3.5,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 30
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Sanfins",
+    "village_km": 3.5,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 31
+  },
+  {
+    "concelho_slug": "mesao-frio",
+    "village_name": "Penajoia",
+    "village_km": 3.5,
+    "zone": 5,
+    "zone_status": "exact",
+    "rank": 32
+  },
+  {
+    "concelho_slug": "mesao-frio",
+    "village_name": "Loivos da Ribeira",
+    "village_km": 3.5,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 33
+  },
+  {
+    "concelho_slug": "mesao-frio",
+    "village_name": "Gestaçô",
+    "village_km": 3.5,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 34
+  },
+  {
+    "concelho_slug": "braganca",
+    "village_name": "Samil",
+    "village_km": 3.5,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 35
+  },
+  {
+    "concelho_slug": "murca",
+    "village_name": "Noura",
+    "village_km": 3.5,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 36
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Bronceda",
+    "village_km": 3.6,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 37
+  },
+  {
+    "concelho_slug": "lamego",
+    "village_name": "Sande",
+    "village_km": 3.6,
+    "zone": 5,
+    "zone_status": "exact",
+    "rank": 38
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Outeiro Seco",
+    "village_km": 3.6,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 39
+  },
+  {
+    "concelho_slug": "lamego",
+    "village_name": "Penude",
+    "village_km": 3.9,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 40
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Vilar de Nantes",
+    "village_km": 3.9,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 41
+  },
+  {
+    "concelho_slug": "montalegre",
+    "village_name": "Padroso",
+    "village_km": 4.0,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 42
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Vassal",
+    "village_km": 4.0,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 43
+  },
+  {
+    "concelho_slug": "braganca",
+    "village_name": "Castro de Avelãs",
+    "village_km": 4.0,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 44
+  },
+  {
+    "concelho_slug": "lamego",
+    "village_name": "Várzea de Abrunhais",
+    "village_km": 4.1,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 45
+  },
+  {
+    "concelho_slug": "murca",
+    "village_name": "Fiolhoso",
+    "village_km": 4.1,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 46
+  },
+  {
+    "concelho_slug": "lamego",
+    "village_name": "Britiande",
+    "village_km": 4.2,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 47
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Faiões",
+    "village_km": 4.2,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 48
+  },
+  {
+    "concelho_slug": "murca",
+    "village_name": "Valongo de Milhais",
+    "village_km": 4.2,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 49
+  },
+  {
+    "concelho_slug": "tabuaco",
+    "village_name": "Pinheiros",
+    "village_km": 4.3,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 50
+  },
+  {
+    "concelho_slug": "montalegre",
+    "village_name": "Cambeses do Rio",
+    "village_km": 4.4,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 51
+  },
+  {
+    "concelho_slug": "montalegre",
+    "village_name": "Mourilhe",
+    "village_km": 4.4,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 52
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Samaiões",
+    "village_km": 4.4,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 53
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Vale de Casas",
+    "village_km": 4.6,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 54
+  },
+  {
+    "concelho_slug": "tabuaco",
+    "village_name": "Valença do Douro",
+    "village_km": 4.6,
+    "zone": 5,
+    "zone_status": "exact",
+    "rank": 55
+  },
+  {
+    "concelho_slug": "tabuaco",
+    "village_name": "Adorigo",
+    "village_km": 4.6,
+    "zone": 5,
+    "zone_status": "exact",
+    "rank": 56
+  },
+  {
+    "concelho_slug": "mogadouro",
+    "village_name": "Brunhoso",
+    "village_km": 4.6,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 57
+  },
+  {
+    "concelho_slug": "murca",
+    "village_name": "Palheiros",
+    "village_km": 4.6,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 58
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Eixes",
+    "village_km": 4.7,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 59
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Eivados",
+    "village_km": 4.8,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 60
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Santo Estêvão",
+    "village_km": 4.8,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 61
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Sanjurge",
+    "village_km": 4.8,
+    "zone": 4,
+    "zone_status": "casefold",
+    "rank": 62
+  },
+  {
+    "concelho_slug": "braganca",
+    "village_name": "São Pedro de Sarracenos",
+    "village_km": 4.8,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 63
+  },
+  {
+    "concelho_slug": "mesao-frio",
+    "village_name": "Frende",
+    "village_km": 4.9,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 64
+  },
+  {
+    "concelho_slug": "braganca",
+    "village_name": "Donai",
+    "village_km": 4.9,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 65
+  },
+  {
+    "concelho_slug": "mogadouro",
+    "village_name": "Vila de Rei",
+    "village_km": 4.9,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 66
+  },
+  {
+    "concelho_slug": "braganca",
+    "village_name": "Gimonde",
+    "village_km": 5.0,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 67
+  },
+  {
+    "concelho_slug": "sernancelhe",
+    "village_name": "Ferreirim",
+    "village_km": 5.0,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 68
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Vilar de Ledra",
+    "village_km": 5.1,
+    "zone": 1,
+    "zone_status": "exact",
+    "rank": 69
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Contins",
+    "village_km": 5.1,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 70
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Crasto",
+    "village_km": 5.1,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 71
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Cela",
+    "village_km": 5.1,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 72
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Curalha",
+    "village_km": 5.1,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 73
+  },
+  {
+    "concelho_slug": "tabuaco",
+    "village_name": "Castanheiro do Sul",
+    "village_km": 5.1,
+    "zone": 5,
+    "zone_status": "exact",
+    "rank": 74
+  },
+  {
+    "concelho_slug": "braganca",
+    "village_name": "Meixedo",
+    "village_km": 5.1,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 75
+  },
+  {
+    "concelho_slug": "mogadouro",
+    "village_name": "Vale de Porco",
+    "village_km": 5.1,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 76
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "São Salvador",
+    "village_km": 5.2,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 77
+  },
+  {
+    "concelho_slug": "mesao-frio",
+    "village_name": "Sedielos",
+    "village_km": 5.2,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 78
+  },
+  {
+    "concelho_slug": "mogadouro",
+    "village_name": "Azinhoso",
+    "village_km": 5.2,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 79
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Vale de Pareiro",
+    "village_km": 5.3,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 80
+  },
+  {
+    "concelho_slug": "montalegre",
+    "village_name": "Padornelos",
+    "village_km": 5.3,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 81
+  },
+  {
+    "concelho_slug": "braganca",
+    "village_name": "Gostei",
+    "village_km": 5.3,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 82
+  },
+  {
+    "concelho_slug": "sernancelhe",
+    "village_name": "Gradiz",
+    "village_km": 5.3,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 83
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Bustelo",
+    "village_km": 5.4,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 84
+  },
+  {
+    "concelho_slug": "vila-nova-de-foz-coa",
+    "village_name": "Muxagata",
+    "village_km": 5.5,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 85
+  },
+  {
+    "concelho_slug": "mesao-frio",
+    "village_name": "Santa Marinha do Zêzere",
+    "village_km": 5.6,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 86
+  },
+  {
+    "concelho_slug": "tabuaco",
+    "village_name": "Sarzedinho",
+    "village_km": 5.6,
+    "zone": 5,
+    "zone_status": "exact",
+    "rank": 87
+  },
+  {
+    "concelho_slug": "tabuaco",
+    "village_name": "Ribeira de Goujoim",
+    "village_km": 5.6,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 88
+  },
+  {
+    "concelho_slug": "braganca",
+    "village_name": "Alfaião",
+    "village_km": 5.6,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 89
+  },
+  {
+    "concelho_slug": "murca",
+    "village_name": "Pópulo",
+    "village_km": 5.6,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 90
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Vale de Juncal",
+    "village_km": 5.7,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 91
+  },
+  {
+    "concelho_slug": "lamego",
+    "village_name": "Melcões",
+    "village_km": 5.7,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 92
+  },
+  {
+    "concelho_slug": "murca",
+    "village_name": "Pegarinhos",
+    "village_km": 5.8,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 93
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Cedães",
+    "village_km": 6.0,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 94
+  },
+  {
+    "concelho_slug": "mogadouro",
+    "village_name": "Remondes",
+    "village_km": 6.0,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 95
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Rio Torto",
+    "village_km": 6.1,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 96
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "São Pedro de Agostém",
+    "village_km": 6.1,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 97
+  },
+  {
+    "concelho_slug": "braganca",
+    "village_name": "Nogueira",
+    "village_km": 6.1,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 98
+  },
+  {
+    "concelho_slug": "braganca",
+    "village_name": "Baçal",
+    "village_km": 6.1,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 99
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Vale de Lobo",
+    "village_km": 6.2,
+    "zone": 1,
+    "zone_status": "exact",
+    "rank": 100
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Miradezes",
+    "village_km": 6.3,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 101
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Marmelos",
+    "village_km": 6.4,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 102
+  },
+  {
+    "concelho_slug": "lamego",
+    "village_name": "Meijinhos",
+    "village_km": 6.4,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 103
+  },
+  {
+    "concelho_slug": "vila-nova-de-foz-coa",
+    "village_name": "Peredo dos Castelhanos",
+    "village_km": 6.4,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 104
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Vilarandelo",
+    "village_km": 6.4,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 105
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Água Revés",
+    "village_km": 6.4,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 106
+  },
+  {
+    "concelho_slug": "mesao-frio",
+    "village_name": "Viariz",
+    "village_km": 6.4,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 107
+  },
+  {
+    "concelho_slug": "mogadouro",
+    "village_name": "Soutelo",
+    "village_km": 6.4,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 108
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Vale de Salgueiro",
+    "village_km": 6.5,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 109
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Algeriz",
+    "village_km": 6.5,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 110
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Fornos do Pinhal",
+    "village_km": 6.5,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 111
+  },
+  {
+    "concelho_slug": "mesao-frio",
+    "village_name": "São Martinho de Mouros",
+    "village_km": 6.5,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 112
+  },
+  {
+    "concelho_slug": "mesao-frio",
+    "village_name": "São João de Fontoura",
+    "village_km": 6.5,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 113
+  },
+  {
+    "concelho_slug": "sernancelhe",
+    "village_name": "Arnas",
+    "village_km": 6.5,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 114
+  },
+  {
+    "concelho_slug": "lamego",
+    "village_name": "Lalim",
+    "village_km": 6.6,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 115
+  },
+  {
+    "concelho_slug": "sernancelhe",
+    "village_name": "Mouções",
+    "village_km": 6.6,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 116
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Ervões",
+    "village_km": 6.7,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 117
+  },
+  {
+    "concelho_slug": "sernancelhe",
+    "village_name": "Guilheiro",
+    "village_km": 6.7,
+    "zone": 5,
+    "zone_status": "exact",
+    "rank": 118
+  },
+  {
+    "concelho_slug": "lamego",
+    "village_name": "Gouviães",
+    "village_km": 6.8,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 119
+  },
+  {
+    "concelho_slug": "vila-nova-de-foz-coa",
+    "village_name": "Freixo de Numão",
+    "village_km": 6.8,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 120
+  },
+  {
+    "concelho_slug": "tabuaco",
+    "village_name": "Longa",
+    "village_km": 6.8,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 121
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Suçães",
+    "village_km": 6.9,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 122
+  },
+  {
+    "concelho_slug": "montalegre",
+    "village_name": "Sezelhe",
+    "village_km": 6.9,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 123
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Vila Verde da Raia",
+    "village_km": 6.9,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 124
+  },
+  {
+    "concelho_slug": "tabuaco",
+    "village_name": "Granja do Tedo",
+    "village_km": 6.9,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 125
+  },
+  {
+    "concelho_slug": "murca",
+    "village_name": "Ribalonga",
+    "village_km": 6.9,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 126
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Valbom de Figos",
+    "village_km": 7.0,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 127
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Vale de Telhas",
+    "village_km": 7.0,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 128
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "São Julião de Montenegro",
+    "village_km": 7.0,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 129
+  },
+  {
+    "concelho_slug": "braganca",
+    "village_name": "Rabal",
+    "village_km": 7.0,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 130
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Vila Verde",
+    "village_km": 7.1,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 131
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Pousadas",
+    "village_km": 7.3,
+    "zone": 1,
+    "zone_status": "exact",
+    "rank": 132
+  },
+  {
+    "concelho_slug": "braganca",
+    "village_name": "Carragosa",
+    "village_km": 7.4,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 133
+  },
+  {
+    "concelho_slug": "mogadouro",
+    "village_name": "Penas Roias",
+    "village_km": 7.4,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 134
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Abambres",
+    "village_km": 7.5,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 135
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Passos",
+    "village_km": 7.6,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 136
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "São Pedro de Vale do Conde",
+    "village_km": 7.6,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 137
+  },
+  {
+    "concelho_slug": "murca",
+    "village_name": "Santa Eugénia",
+    "village_km": 7.6,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 138
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Santiago da Ribeira de Alhariz",
+    "village_km": 7.7,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 139
+  },
+  {
+    "concelho_slug": "tabuaco",
+    "village_name": "Espinhosa",
+    "village_km": 7.8,
+    "zone": 5,
+    "zone_status": "exact",
+    "rank": 140
+  },
+  {
+    "concelho_slug": "mogadouro",
+    "village_name": "Salgueiro",
+    "village_km": 7.8,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 141
+  },
+  {
+    "concelho_slug": "montalegre",
+    "village_name": "Gralhas",
+    "village_km": 7.9,
+    "zone": 5,
+    "zone_status": "exact",
+    "rank": 142
+  },
+  {
+    "concelho_slug": "lamego",
+    "village_name": "Lazarim",
+    "village_km": 7.9,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 143
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Seara Velha",
+    "village_km": 7.9,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 144
+  },
+  {
+    "concelho_slug": "mesao-frio",
+    "village_name": "Valadares",
+    "village_km": 7.9,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 145
+  },
+  {
+    "concelho_slug": "braganca",
+    "village_name": "Sarzeda",
+    "village_km": 7.9,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 146
+  },
+  {
+    "concelho_slug": "sernancelhe",
+    "village_name": "Cunha",
+    "village_km": 7.9,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 147
+  },
+  {
+    "concelho_slug": "lamego",
+    "village_name": "Dálvares",
+    "village_km": 8.0,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 148
+  },
+  {
+    "concelho_slug": "mesao-frio",
+    "village_name": "Loivos do Monte",
+    "village_km": 8.0,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 149
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Valongo das Meadas",
+    "village_km": 8.1,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 150
+  },
+  {
+    "concelho_slug": "lamego",
+    "village_name": "Ucanha",
+    "village_km": 8.1,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 151
+  },
+  {
+    "concelho_slug": "lamego",
+    "village_name": "Magueija",
+    "village_km": 8.1,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 152
+  },
+  {
+    "concelho_slug": "lamego",
+    "village_name": "Paus",
+    "village_km": 8.1,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 153
+  },
+  {
+    "concelho_slug": "mogadouro",
+    "village_name": "Castelo Branco",
+    "village_km": 8.1,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 154
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Vila Verdinho",
+    "village_km": 8.2,
+    "zone": 1,
+    "zone_status": "exact",
+    "rank": 155
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Lilela",
+    "village_km": 8.2,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 156
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Fonte da Urze",
+    "village_km": 8.2,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 157
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Calvão",
+    "village_km": 8.2,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 158
+  },
+  {
+    "concelho_slug": "tabuaco",
+    "village_name": "Covas do Douro",
+    "village_km": 8.2,
+    "zone": 5,
+    "zone_status": "exact",
+    "rank": 159
+  },
+  {
+    "concelho_slug": "mogadouro",
+    "village_name": "Vila de Ala",
+    "village_km": 8.3,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 160
+  },
+  {
+    "concelho_slug": "tabuaco",
+    "village_name": "Pinhão",
+    "village_km": 8.4,
+    "zone": 5,
+    "zone_status": "exact",
+    "rank": 161
+  },
+  {
+    "concelho_slug": "braganca",
+    "village_name": "Casa Nova",
+    "village_km": 8.5,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 162
+  },
+  {
+    "concelho_slug": "murca",
+    "village_name": "Carva",
+    "village_km": 8.5,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 163
+  },
+  {
+    "concelho_slug": "vila-nova-de-foz-coa",
+    "village_name": "Touça",
+    "village_km": 8.6,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 164
+  },
+  {
+    "concelho_slug": "mesao-frio",
+    "village_name": "São Tomé de Covelas",
+    "village_km": 8.6,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 165
+  },
+  {
+    "concelho_slug": "murca",
+    "village_name": "Jou",
+    "village_km": 8.6,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 166
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Paradela",
+    "village_km": 8.7,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 167
+  },
+  {
+    "concelho_slug": "mirandela",
+    "village_name": "Mascarenhas",
+    "village_km": 8.7,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 168
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Vilela do Tâmega",
+    "village_km": 8.8,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 169
+  },
+  {
+    "concelho_slug": "mesao-frio",
+    "village_name": "Resende",
+    "village_km": 8.8,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 170
+  },
+  {
+    "concelho_slug": "sernancelhe",
+    "village_name": "Sebadelhe de Serra",
+    "village_km": 8.8,
+    "zone": 5,
+    "zone_status": "exact",
+    "rank": 171
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Cabanelas",
+    "village_km": 8.9,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 172
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Ervededo",
+    "village_km": 8.9,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 173
+  },
+  {
+    "concelho_slug": "vila-nova-de-foz-coa",
+    "village_name": "Castelo Melhor",
+    "village_km": 9.0,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 174
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Santa Maria de Émeres",
+    "village_km": 9.0,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 175
+  },
+  {
+    "concelho_slug": "tabuaco",
+    "village_name": "Nagosa",
+    "village_km": 9.0,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 176
+  },
+  {
+    "concelho_slug": "montalegre",
+    "village_name": "Negrões",
+    "village_km": 9.1,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 177
+  },
+  {
+    "concelho_slug": "montalegre",
+    "village_name": "Viade de Baixo",
+    "village_km": 9.1,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 178
+  },
+  {
+    "concelho_slug": "montalegre",
+    "village_name": "Covelães",
+    "village_km": 9.1,
+    "zone": 6,
+    "zone_status": "exact",
+    "rank": 179
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Santa Valha",
+    "village_km": 9.1,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 180
+  },
+  {
+    "concelho_slug": "braganca",
+    "village_name": "Rebordãos",
+    "village_km": 9.1,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 181
+  },
+  {
+    "concelho_slug": "mogadouro",
+    "village_name": "Sampaio",
+    "village_km": 9.1,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 182
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Gorgoço",
+    "village_km": 9.3,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 183
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Nogueira da Montanha",
+    "village_km": 9.3,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 184
+  },
+  {
+    "concelho_slug": "braganca",
+    "village_name": "Faílde",
+    "village_km": 9.3,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 185
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Vale de Gouvinhas",
+    "village_km": 9.4,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 186
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Bouça",
+    "village_km": 9.4,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 187
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Veiga de Lila",
+    "village_km": 9.4,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 188
+  },
+  {
+    "concelho_slug": "tabuaco",
+    "village_name": "Gouvinhas",
+    "village_km": 9.4,
+    "zone": 5,
+    "zone_status": "exact",
+    "rank": 189
+  },
+  {
+    "concelho_slug": "mogadouro",
+    "village_name": "Quinta do Souto",
+    "village_km": 9.4,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 190
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Vale Bom Pitez",
+    "village_km": 9.5,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 191
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Vilela Seca",
+    "village_km": 9.5,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 192
+  },
+  {
+    "concelho_slug": "tabuaco",
+    "village_name": "Paredes da Beira",
+    "village_km": 9.6,
+    "zone": 5,
+    "zone_status": "exact",
+    "rank": 193
+  },
+  {
+    "concelho_slug": "murca",
+    "village_name": "Tresminas",
+    "village_km": 9.6,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 194
+  },
+  {
+    "concelho_slug": "valpacos",
+    "village_name": "Friões",
+    "village_km": 9.7,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 195
+  },
+  {
+    "concelho_slug": "chaves",
+    "village_name": "Santo António de Monforte",
+    "village_km": 9.7,
+    "zone": 4,
+    "zone_status": "exact",
+    "rank": 196
+  },
+  {
+    "concelho_slug": "vila-nova-de-foz-coa",
+    "village_name": "Urros",
+    "village_km": 9.8,
+    "zone": 4,
+    "zone_status": "casefold-AMBIGUOUS-do-not-resolve",
+    "rank": 197
+  },
+  {
+    "concelho_slug": "braganca",
+    "village_name": "Gondesende",
+    "village_km": 9.8,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 198
+  },
+  {
+    "concelho_slug": "braganca",
+    "village_name": "Espinhosela",
+    "village_km": 9.8,
+    "zone": 3,
+    "zone_status": "exact",
+    "rank": 199
+  },
+  {
+    "concelho_slug": "murca",
+    "village_name": "Franco",
+    "village_km": 9.8,
+    "zone": 2,
+    "zone_status": "exact",
+    "rank": 200
+  }
+]
