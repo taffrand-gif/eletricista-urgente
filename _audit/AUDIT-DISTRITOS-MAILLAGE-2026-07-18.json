@@ -1,0 +1,115 @@
+{
+  "ran_at": "2026-07-18T17:02:27.008530Z",
+  "mode": "apply",
+  "by_distrito": {
+    "braganca": {
+      "li_count": 14,
+      "li_names_before": [
+        "Trás-os-Montes",
+        "Bragança",
+        "Mirandela",
+        "Mogadouro",
+        "Vinhais",
+        "Vimioso",
+        "Miranda do Douro",
+        "Alfândega da Fé",
+        "Torre de Moncorvo",
+        "Freixo de Espada à Cinta",
+        "Carrazeda de Ansiães",
+        "Vila Flor",
+        "Valpaços",
+        "Murça"
+      ],
+      "warns": [],
+      "block_chars": 298,
+      "new_block_chars": 790,
+      "modified": true
+    },
+    "douro": {
+      "li_count": 9,
+      "li_names_before": [
+        "Peso da Régua",
+        "Lamego",
+        "Vila Real",
+        "Sabrosa",
+        "Alijó",
+        "Tabuaço",
+        "Armamar",
+        "Santa Marta de Penaguião",
+        "Mesão Frio"
+      ],
+      "warns": [],
+      "block_chars": 173,
+      "new_block_chars": 495,
+      "modified": true
+    },
+    "guarda": {
+      "li_count": 2,
+      "li_names_before": [
+        "Vila Nova de Foz Côa",
+        "São João da Pesqueira (zona norte"
+      ],
+      "warns": [],
+      "block_chars": 75,
+      "new_block_chars": 168,
+      "modified": true
+    },
+    "tras-os-montes": {
+      "li_count": 1,
+      "li_names_before": [
+        "Todos os concelhos dos distritos de Bragança e Vila Real (zona transmontana"
+      ],
+      "warns": [],
+      "block_chars": 88,
+      "new_block_chars": 88,
+      "modified": false
+    },
+    "vila-real": {
+      "li_count": 15,
+      "li_names_before": [
+        "Vila Real",
+        "Chaves",
+        "Alijó",
+        "Sabrosa",
+        "Murça",
+        "Valpaços",
+        "Ribeira de Pena",
+        "Montalegre",
+        "Boticas",
+        "Vila Pouca de Aguiar",
+        "Mondim de Basto",
+        "Peso da Régua",
+        "Lamego",
+        "Santa Marta de Penaguião",
+        "Mesão Frio"
+      ],
+      "warns": [],
+      "block_chars": 299,
+      "new_block_chars": 849,
+      "modified": true
+    },
+    "viseu": {
+      "li_count": 8,
+      "li_names_before": [
+        "Lamego",
+        "Armamar",
+        "Tabuaço",
+        "Sernancelhe",
+        "Penedono",
+        "Moimenta da Beira",
+        "S. João da Pesqueira",
+        "VN Foz Côa (norte"
+      ],
+      "warns": [],
+      "block_chars": 169,
+      "new_block_chars": 474,
+      "modified": true
+    }
+  },
+  "summary": {
+    "distritos_processed": 6,
+    "total_li_before": 49,
+    "total_li_after": 48,
+    "total_warns": 0
+  }
+}
