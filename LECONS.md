@@ -277,3 +277,33 @@ gh pr create --draft --base main --head feat/hubs-answer-first \
 **Leçons connexes** :
 - CU #413 (V5 minimal = Jaccard neutre, structure Hn préservée) → reproduit tel quel ici. Vocabulaire 100% réutilisé.
 - #EU-25-LEGACY-PATCH + #EU-DIAG-PREP-PUSH (méthode push + PR DRAFT natives `--draft`) → appliquée ici pour la mécanique push/PR.
+
+
+## 2026-07-18 — INTERDIT copier le tel d'un fichier voisin · utiliser la constante site
+
+**Contexte** : PR #169 (eletricista-urgente, branche feat/hubs-answer-first, worktree /tmp/eu-hubs-fix).
+Sur les 33 pages concelhos/, le bloc answer-first ajoutait `tel:+351****1892` au lieu de la constante
+du site. Régression : le générateur Python a réutilisé un fragment HTML existant sans fixer le tel.
+
+**Gate qui aurait dû attraper** : après push de PR #169, `git diff origin/main..HEAD -- concelhos/ |
+grep -c '^+.*tel:+351\*'` = 33 (au lieu de 0). Gate manuel post-push qui n'existait pas dans le
+workflow original.
+
+**Takeaway actionnable** (directive CEO 2026-07-18, remplace toute note antérieure
+type L139 "LITTÉRAL canonique" — le CEO impose la constante E.164 explicite, pas le littéral masqué) :
+- Pour eletricista-urgente → constante `tel:+351932321892` (numéro 932321892).
+- Pour canalizador-urgente → constante `tel:+351928484451` (numéro 928484451).
+- Pour canalizador-norte-reparos.pt → idem 928484451.
+- Pour eletricista-norte-reparos.pt → idem 932321892.
+- **JAMAIS** copier un `tel:` depuis un fichier voisin (autre concelho, autre site, ancien patch).
+  Le `****1892` est un placeholder historique qui survit dans plusieurs fichiers.
+- **TOUJOURS** écrire la constante explicite en clair dans le template Python/script de génération,
+  avec commentaire `# site: eletricista-urgente` au-dessus.
+- **GATE obligatoire** après tout batch `concelhos/*.html` ou page hub :
+  `git diff origin/main..HEAD -- <path> | grep -c '^+.*tel:+351\*'` doit retourner 0.
+  Si > 0 → STOP, fixer AVANT merge.
+
+**Correctif appliqué** : patch ciblé sur la ligne `data-p1="answer-first"` uniquement (la PR #166
+avait corrigé ailleurs). 33/33 fichiers OK, gate 0, commit + push sur feat/hubs-answer-first.
+
+**Référence** : PR #169 (eletricista-urgente), symétrique au fix canalizador-urgente #CU-181.
