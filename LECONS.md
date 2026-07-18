@@ -460,3 +460,30 @@ git diff <base>..HEAD | python3 -c "import sys, re; print(len(re.findall(rb'tel:
 **Takeaway 3 — Push --force-with-lease = best practice** : le push a retourné "Everything up-to-date" car le remote était déjà sur le même SHA après le rebase (autre agent/process a peut-être déjà push). Aucun push divergent détecté. HEAD local `3cb533886` == HEAD remote `3cb533886`.
 
 **Source** : mission rebase-train EU 2026-07-19 étape 1, PR #170, worktree `/tmp/tr-170`, base `origin/main@97683f518`, nouvelle tip `3cb533886`.
+## Leçon #hubs-villages-maillage-2026-07-19 — Filename prefix = source-of-truth pour l'appartenance village
+
+**Contexte** : mission « maillage hubs→villages » symétrique de CU. Découverte : **sur 33 concelhos/*.html, seuls 12 ont des villages/<concelho>-*.html publiés**. Les 21 autres n'ont aucun fichier village (≠ villages publiés ailleurs). Décision : ne lister QUE les villages existants sur disque (pas de fabrication, pas d'inclusion SOT — `data/localidades.json` a 670+ localités mais seulement 200 fichiers villages/).
+
+**Takeaway** :
+1. La convention de nommage `villages/<concelho>-<village>.html` rend l'appartenance **déterministe** (longest-prefix-match). Aucun besoin de SOT externe pour le mapping.
+2. Le SOT `data/localidades.json` reste utile uniquement pour les **noms canoniques** (accents, espaces corrects : Castro de Avelãs, São Pedro de Sarracenos). Fallback : extraire le nom du `<title>` de la page village elle-même (« Eletricista Urgente <Name> (<Concelho>) »).
+3. Pour 200 villages, 145 noms viennent du SOT, 55 du `<title>`, 0 fallback titre-case from slug — preuve que la double source couvre tout.
+4. **Décision de scope** : 12 hubs modifiés (ceux qui ont ≥1 village), 21 hubs non touchés (zéro village = zéro lien à ajouter). PR draft.
+
+**Gates passés** :
+- count liens ajoutés = 200 = count villages sur disque
+- 0 lien orphelin (chaque lien pointe vers un fichier existant)
+- 0 village manqué (chaque fichier villages/ a ≥1 lien entrant)
+- tel masqué `tel:+351****1892` : 0 violation
+- claims interdits (garantimos, X anos experiência, etc.) : 0
+- HTML structure valide (parser Python)
+
+**Action canon** (future mission maillage hubs→X) :
+1. Lister fichiers X/ sur disque → c'est la SOT pour le mapping
+2. Group par longest-prefix-match pour l'appartenance (slug du parent = préfixe)
+3. Insertion après la dernière section naturelle du hub (entre « Bairros servidos » et FAQ)
+4. Ancres = nom canonique (SOT > title > slug humanisé)
+5. Toujours scanner le diff pour confirmer qu'on n'a touché QUE les hubs ciblés
+6. Valider HTML structure avec `html.parser` avant commit
+
+**Source** : worktree `/tmp/eu-hub-villages`, branche `feat/hubs-villages-maillage`, scripts `_audit/inject_aldeias.py` + `_audit/gates.py`, 2026-07-19.
