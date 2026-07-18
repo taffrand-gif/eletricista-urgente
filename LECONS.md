@@ -115,6 +115,29 @@ placé AVANT le `/(.*)` dans la liste `rewrites`. Vercel applique les rewrites d
 
 ---
 
+## Leçon #EU-CURATION-2026-07-19-01 — Cross-pôle plomberie résiduelle dans sitemap EU
+
+**Contexte** : mission curation v2 de `sitemap-villages.xml` et `public/sitemap.xml` EU. Commit initial c48fcb046 (2026-07-18) avait retiré 7 URLs polluées dont 3 plomberie 404, MAIS inspection v2 (2026-07-19) a détecté **4 URLs plomberie cross-pôle encore présentes** (canalizacao hébergée sur site eletricista) :
+- `/guia-canalizacao` (villages + public/sitemap)
+- `/glossario-canalizacao` (public/sitemap)
+- `/top-10-razoes-contratar-canalizador` (public/sitemap)
+
+**Takeaway** : un sitemap "curé" peut encore contenir de la pollution cross-pôle si on se concentre sur la **catégorie 404/pollution manifeste** sans balayer **toutes les URLs hors-pilier métier**. La curation doit être **exhaustive par catégorie** : grep `canalizacao|canalizador` dans les deux sitemaps, pas seulement retirer les morts.
+
+**Action canon** :
+1. Audit sitemap = **double balayage** : (a) pollution manifeste (404, design-preview), (b) hors-pôle métier (cross-pôle = `canalizacao` sur site `eletricista`, `eletricidade` sur site `canalizador`)
+2. Ne PAS présumer qu'une curation antérieure a tout capturé — toujours re-grepper avec le mot-clé métier de l'AUTRE pôle
+3. Pages LIVE : la curation sitemap est **orthogonale** à la décision de garder/supprimer les pages elles-mêmes. Toujours documenter "pages left live, decision séparée" dans le message de commit
+
+**Source** : PR #172 (worktree /tmp/eu-sitemap-cur), commit 4c0371737.
+
+**Comptes** :
+- sitemap-villages.xml : 1937 → 1936 (−1, 0 plomberie)
+- public/sitemap.xml : 1987 → 1984 (−3, 0 plomberie)
+- 0 village légitime retiré (V_STD=1733, V_URG=253 stables)
+
+---
+
 ## Cross-références
 
 - Variante A non exécutée : voir `RAPPORT-P0BIS-P1-2026-07-16.md` § Étape 2 + 3 options présentées à Philippe
