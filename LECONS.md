@@ -354,3 +354,41 @@ git diff <base>..HEAD | python3 -c "import sys, re; print(len(re.findall(rb'tel:
 **Source** : mission batch 2026-07-19 (5 branches EU), skill `norte-os-doctrine` §R-TEL, ref `devops/delegate-massive-sed-task/references/nap-bytes-patterns.md` (leçon #142 inverse #169).
 
 **Statut** : 92 parasites patchés sur 5 branches, en attente de push.
+## Leçon #DIST-MAIL-2026-07-18-01 — Mapping canonique par breadcrumb, pas par inventaire
+
+**Contexte** : mission maillage distritos↔concelhos (OpenClaw gap #2, PR #170, branche `fix/distritos-maillage`). 6 distritos + 33 concelhos à mailler. Le brief dit "déduis-le des pages elles-mêmes ou de data/ (vérifie, n'invente pas)".
+
+**Approche tentée d'abord (rejetée)** : extraire la liste `<ul class="concelhos-grid">` de chaque page distrito → utiliser comme source. **KO immédiat** : la liste Braganca contient "Trás-os-Montes" (qui n'est pas un concelho, c'est une région), Guarda a un item "(zona norte" tronqué, Viseu a "VN Foz Côa (norte" cassé. Le contenu mort des distritos n'est PAS fiable comme mapping.
+
+**Source canonique qui marche** : la **breadcrumb** des pages concelhos elles-mêmes. Chaque page concelho pointe vers son district via `<a href="/distritos/<slug>.html">`. 33 concelhos → 33 breadcrumbs → 1 mapping propre et vérifiable. Le footer-link "Distrito de X — toutes as localidades" corrobore toujours le même mapping (double-check).
+
+**Takeaway** : pour tout mapping hub-and-spoke futur (n'importe quel site Norte-OS), **ne JAMAIS** inférer le mapping depuis les pages hub (souvent du contenu templaté mort). Toujours dériver depuis les pages spoke (qui pointent vers leur hub). C'est la méthodologie qui donne un mapping propre, vérifiable, et qui ne nécessite aucune invention.
+
+**Action canon** :
+1. Pour mapping hub→spoke, crawler les breadcrumbs/footer-links des pages spoke (1 source canonique = breadcrumb, 1 cross-check = footer-link)
+2. Rejeter toute liste "templatée" extraite du hub comme source de mapping
+3. Si une page hub liste des spokes qui n'existent pas dans le repo (= orphan listings), les remplacer par un placeholder "mediante confirmação" plutôt que de patcher les spokes pour matcher le hub (anti-pattern = inventer)
+
+**Découverte annexe** : bug `bragana.html` (sans le second 'c') dans 12 concelhos de Bragança — 24 occurrences (breadcrumb + footer-link chacun). Causait 24 liens 404 silencieux. Corrigé en passant (découverte lors de l'audit pré-patch).
+
+**Découverte structurelle** : 3 distritos (Douro, Trás-os-Montes, Guarda=1) n'ont aucun/1 concelho dédié dans le repo. C'est un état de fait, pas un bug du patch — à traiter en mission dédiée (créer les concelhos manquants OU déprécier les distritos orphelins). Documenté dans la PR #170 §Découverte.
+
+**Source** : PR #170, branche `fix/distritos-maillage`, commit `88e6717b1`, 2026-07-18. Mapping sauvegardé `/tmp/mapping_canonical.json`.
+
+---
+
+## Leçon #DIST-MAIL-2026-07-18-02 — Bug typo slug distrito (`bragana` vs `braganca`) = 24× 404 silencieux
+
+**Contexte** : pendant l'audit pré-patch du mapping concelhos→district, j'ai trouvé que 12 des 33 pages concelhos pointaient vers `/distritos/bragana.html` (sans second 'c') qui **n'existe pas** sur disque (le fichier réel est `braganca.html`). Chaque concelho avait l'erreur en double (breadcrumb + footer-link) = **24 occurrences de liens cassés**, présents depuis un certain temps (probablement batch générateur antérieur avec typo).
+
+**Takeaway** : les typos de slug dans les liens internes sont invisibles tant qu'on n'audite pas chaque `<a href>` par rapport au filesystem réel. Google a pu crawler ces 404 à répétition sans déclencher d'alerte visible (404 isolés dans la masse = bruit de fond). Mais chaque crawl gaspillé = budget crawl réduit sur les vrais pages.
+
+**Action canon** :
+1. Pour tout audit SEO/maillage : `grep -oE 'href="[^"]+"' public/**/*.html | sort -u` puis vérifier chaque cible interne contre `ls` réel
+2. **Tout lien interne doit être testé comme requête HTTP réelle** (au moins par script), pas juste considéré valide parce qu'il "ressemble à" un fichier
+3. Vérifier en priorité les slugs à typo-prone : consonnes doublées (bragana/braganca), accents manquants (sao/são), pluriels irréguliers
+4. Pour les sites générés en batch, faire un audit post-batch systématique : 100% des liens internes doivent résoudre 200
+
+**Correctif appliqué** : remplacement `bragana.html` → `braganca.html` dans 12 fichiers concelhos (24 occurrences). Vérifié post-patch : 0 occurrence `bragana.html` restante.
+
+**Source** : PR #170, commit `88e6717b1`, 2026-07-18. Détecté via grep `'/distritos/([a-z-]+)\.html'` + cross-check `os.path.exists`.
