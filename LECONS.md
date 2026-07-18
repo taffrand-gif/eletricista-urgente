@@ -121,3 +121,38 @@ placé AVANT le `/(.*)` dans la liste `rewrites`. Vercel applique les rewrites d
 - Sitemap tiering PR #149 : commit `10e3bd109`
 - Spec source : `~/work/Sites/_audit/SPEC-DIFFERENCIATION-P1-2026-07-16.md`
 - Skill transversal : `local-business-seo-compliance` (R0 + ref `r0-canonical-selfref.md`)
+
+---
+
+## Leçon #geo-fresh-2026-07-18-01 — Article+datePublished GEO freshness pour piliers money
+
+**Contexte** : audit GEO OpenClaw gap #4 a révélé que les `guias` CNR/ENR ont JSON-LD `Article` avec `datePublished`/`dateModified`/BreadcrumbList et sont les mieux cités par Perplexity/AIO, alors que les 5 piliers money CU/EU (`desentupir-canos`, `entupimento`, `desentupimento-esgoto`, `curto-circuito`, `falha-energia`) n'ont AUCUN de ces signaux. Risque : Perplexity/AIO classent les piliers comme "fraîcheur inconnue" et préfèrent les pages guides CNR/ENR même sur les requêtes money.
+
+**Takeaway** : pour chaque pilier money Norte-OS (les pages qui portent les requêtes transactionnelles), ajouter DEUX blocs JSON-LD head-only : (1) `@type:Article` avec `headline=h1 nettoyé` + `author` + `publisher` (tous deux Organization Norte Reparos avec sameAs sur les 4 sites) + `datePublished=git log --format=%cs --reverse` (1er commit) + `dateModified=git log --format=%cs` (dernier commit) + `inLanguage=pt-PT` + `url/mainEntityOfPage` = canonique, (2) `@type:BreadcrumbList` `Início` → nom du pilier (sauf si déjà présent dans le @graph existant). **Dates JAMAIS inventées — toujours extraites de git log réel**.
+
+**Action canon** :
+1. **TOUJOURS** vérifier l'état existant avec `grep -c '"@type":"BreadcrumbList"' <fichier>` et `grep -c '"@type":"Article"' <fichier>` AVANT d'ajouter : EU avait déjà BreadcrumbList dans son @graph existant (n'en ajouter qu'un seul), CU n'avait rien (en ajouter deux).
+2. **TOUJOURS** ancrer l'insertion sur un point unique (`</script>\n\n<style>` ou `</script>\n <style>` selon le repo) plutôt que de patcher dans une longue ligne JSON fragile.
+3. **TOUJOURS** valider chaque bloc ajouté avec `json.loads()` + assert sur `datePublished`/`dateModified` qui doivent égaler `git log --format=%cs` réel.
+4. **TOUJOURS** vérifier `git diff --shortstat` = insertions uniquement (0 deletion), et chaque `+line` ne contient que du JSON-LD/commentaire GEO freshness (pas de modification du body visible).
+5. Pattern `author` Organization Norte Reparos canonique : `{"@type":"Organization","name":"Norte Reparos","url":"https://canalizador-norte-reparos.pt","sameAs":["https://eletricista-norte-reparos.pt","https://canalizador-urgente.pt","https://eletricista-urgente.pt"]}`. Pattern `publisher` ajoute `logo` pointant vers `https://canalizador-norte-reparos.pt/logo.png`.
+6. **Headline = h1 nettoyé des emojis décoratifs** (🔧 🚿 🚰 ⚡ retirés), suffix marketing retiré — pas le `<title>` complet qui inclut `| Norte Reparos · 70€/h`.
+7. Si `LECONS.md` n'existe pas dans le repo (cas CU), **en créer un** au format standard `## Leçon #<mission>-<date>-NN — <titre>` (Contexte / Takeaway / Action canon / Source) pour préserver l'apprentissage symétrique entre les 2 sites urgence.
+
+**Source** : mission OpenClaw gap #4 « GEO fraîcheur » 2026-07-18, branches `feat/geo-freshness` depuis `HEAD` (et non `origin/main` qui était en retard de 4-5 PRs fusionnées — origine de la Leçon #geo-fresh-2026-07-18-02 sur ce point). 5 fichiers modifiés : `desentupir-canos.html`, `entupimento.html`, `desentupimento-esgoto.html` (CU, +9 lignes = +3 par fichier) ; `curto-circuito.html`, `falha-energia.html` (EU, +6 lignes = +3 par fichier). PR DRAFT créées, **STOP validation Philippe avant merge** (R7 AGENTS.md).
+
+---
+
+## Leçon #geo-fresh-2026-07-18-02 — Branche depuis `HEAD`, pas `origin/main` quand main est en retard
+
+**Contexte** : brief mission indiquait `git worktree add /tmp/cu-geo-fresh -b feat/geo-freshness origin/main` et `origin/main` pour EU. Vérification : `origin/main` de CU était 4 commits en retard (`3847d26bf` vs HEAD `b548617b5` = branche `feat/md-top5`), `origin/main` de EU était 5 commits en retard (`e7ff76475` vs HEAD `bc1e08ade` = branche `fix/eu-diag-prep-2026-07-18`). Si j'avais suivi le brief à la lettre, **les piliers money n'auraient même pas été présents dans la branche** : CU piliers money = commits #160 (2 piliers), #163 (1 pilier) mergés sur `feat/md-top5` ; EU piliers money = #151, #154 mergés antérieurement mais bien présents dans `origin/main` EU. Pour CU en particulier, `origin/main` = trop en retard pour servir de base à cette mission.
+
+**Takeaway** : avant de suivre un brief qui dit "branche depuis `origin/main`", **TOUJOURS** faire un diagnostic différentiel en 3 commandes : (1) `git log --oneline -1 origin/main`, (2) `git log --oneline -1 HEAD` (ou branche courante), (3) `git merge-base HEAD origin/main` puis `git log --oneline origin/main..HEAD` pour voir les commits en retard. Si les fichiers à patcher sont **présents dans HEAD mais pas dans origin/main** → le brief est probablement écrit depuis un état stale et il faut brancher depuis HEAD.
+
+**Action canon** :
+1. Le brief « branche depuis origin/main » n'est **qu'une suggestion**, pas un dogme. Le seul impératif = que les fichiers cibles existent dans le base de branche.
+2. **TOUJOURS vérifier** : `git log --oneline origin/main..HEAD | wc -l` → si > 0, regarder si les commits en retard touchent les fichiers cibles avec `git log --oneline origin/main..HEAD -- <fichier>`.
+3. Documenter explicitement le delta « origin/main - N commits en retard » dans le rapport de mission pour traçabilité.
+4. Ne **JAMAIS** rebase --onto ou cherry-pick pour "rattraper" les piliers absents : si la mission dit "ajouter X à Y", le bon réflexe est de trouver le bon base, pas de merger du retard dans la branche.
+
+**Source** : mission OpenClaw gap #4 « GEO fraîcheur » 2026-07-18 — décision documentée de brancher depuis HEAD au lieu d'origin/main après vérification `git log --format=%cs --reverse -- <fichier>` sur chacun des 5 piliers (tous présents dans HEAD, certains absents d'origin/main CU).
