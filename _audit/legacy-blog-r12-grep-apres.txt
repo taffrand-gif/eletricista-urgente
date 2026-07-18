@@ -1,0 +1,40 @@
+=== GREP APRÈS — Témoin R8 final ===
+Date: Sat Jul 18 10:25:33 BST 2026
+Branche: fix/legacy-blog-r12
+Commit: 3581bee2ed38c9ab0d0ed47538d86c99507965df
+
+=== 1. F4: mediante confirmação par téléphone ===
+  FILE: blog/eletricista-urgente-braganca-24h-premium.html — count=3
+
+=== 2. F5: Resposta rápida 24h/7d (FAQ JSON-LD) ===
+       0
+
+=== 3. F6: Resposta a confirmar (body p) ===
+       1
+
+=== 4. F7: Atendimento prioritário (claim délai) ===
+       0
+
+=== 5. F8: Sob marcação, mediante confirmação (titre/h1) ===
+       0
+
+=== 6. Resposta após confirmação (meta) ===
+       0
+
+=== 7. Resposta imediata (claim délai) ===
+       1
+
+=== 8. Reparação Mediante Confirmação (titre) ===
+       0
+
+=== 9. Resposta Mediante Confirmação (H1) ===
+       1
+
+=== 10. Phrases cassées (Chegamos Atendimento / Chegamos em Rápida / Chegada Resposta) ===
+       1
+
+=== 11. Substituição Urgente 30 Min (titre claim délai) ===
+       0
+
+=== 12. Témoignages inventés (R11) — patterns dangereux ===
+       0

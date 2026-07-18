@@ -1,0 +1,31 @@
+=== GREP AVANT — Témoin R8 ===
+Date: Sat Jul 18 10:20:28 BST 2026
+Branche: fix/legacy-blog-r12
+Commit: 3581bee2ed38c9ab0d0ed47538d86c99507965df
+
+=== 1. F4: mediante confirmação par telefone ===
+  FILE: blog/avaria-eletrica-domingo.html — count=4
+  FILE: blog/candeeiro-caiu-curto.html — count=4
+  FILE: blog/disjuntor-dispara-noite-causas-solucoes.html — count=2
+  FILE: blog/eletricista-urgente-braganca-24h-premium.html — count=3
+
+=== 2. F5: Resposta rápida 24h/7d (FAQ JSON-LD) ===
+      23
+
+=== 3. F6: Resposta a confirmar (body p) ===
+      24
+
+=== 4. F7: Atendimento prioritário (claim délai) ===
+      12
+
+=== 5. F8: Sob marcação, mediante confirmação (titre/h1) ===
+       2
+
+=== 6. Resposta após confirmação (meta) ===
+       3
+
+=== 7. Resposta imediata (claim délai) ===
+       1
+
+=== 8. Chegada Rápida / Chegamos Atendimento / Chegamos em Rápida (phrases cassées) ===
+       1
