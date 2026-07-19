@@ -63,7 +63,7 @@ for c, vs in sorted(new_links_per_hub.items()):
 # Gate 2 — tel masqué 0
 print()
 print(f'=== GATE 2: tel masqué ===')
-# tel masqué = href="tel:+351****NNNN"
+# tel masqué = href="tel:+351····NNNN"
 masked_pattern = re.compile(r'tel:\+351\*{4}\d{4}')
 unmasked_pattern = re.compile(r'tel:\+351\s*\d{3}\s*\d{3}\s*\d{3}')  # full E.164 visible
 masked_count = 0
@@ -72,7 +72,7 @@ for f in (ROOT / 'concelhos').glob('*.html'):
     content = f.read_text(encoding='utf-8', errors='ignore')
     masked_count += len(masked_pattern.findall(content))
     unmasked_count += len(unmasked_pattern.findall(content))
-print(f'tel:+351****NNNN (masked) : {masked_count} (attendu ≥ 1 par hub)')
+print(f'tel:+351····NNNN (masked) : {masked_count} (attendu ≥ 1 par hub)')
 print(f'tel:+351 932 321 892 (unmasked, interdit) : {unmasked_count}')
 
 # Gate 3 — claims 0

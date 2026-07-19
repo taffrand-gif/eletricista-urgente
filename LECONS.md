@@ -474,7 +474,7 @@ git diff <base>..HEAD | python3 -c "import sys, re; print(len(re.findall(rb'tel:
 - count liens ajoutés = 200 = count villages sur disque
 - 0 lien orphelin (chaque lien pointe vers un fichier existant)
 - 0 village manqué (chaque fichier villages/ a ≥1 lien entrant)
-- tel masqué `tel:+351****1892` : 0 violation
+- tel masqué `tel:+351····1892` : 0 violation
 - claims interdits (garantimos, X anos experiência, etc.) : 0
 - HTML structure valide (parser Python)
 
