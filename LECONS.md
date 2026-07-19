@@ -354,3 +354,21 @@ git diff <base>..HEAD | python3 -c "import sys, re; print(len(re.findall(rb'tel:
 **Source** : mission batch 2026-07-19 (5 branches EU), skill `norte-os-doctrine` §R-TEL, ref `devops/delegate-massive-sed-task/references/nap-bytes-patterns.md` (leçon #142 inverse #169).
 
 **Statut** : 92 parasites patchés sur 5 branches, en attente de push.
+
+---
+
+## Leçon #REBASE-EU-2026-07-19-01 — Rebase séquentiel de branches DIRTY : union sémantique, pile retargetée et gate GitHub distinct du conflit
+
+**Contexte** : six branches EU divergeaient après plusieurs merges sur `main` : #169, #170, #173, #175 (stackée sur #173), #171 et #177. Chaque branche a été traitée dans son worktree dédié puis poussée avec `--force-with-lease`.
+
+**Takeaways actionnables** :
+1. **LECONS.md est append-only** : en conflit, fusionner les deux côtés par union trois-voies (`git merge-file --union`) puis vérifier l'absence de marqueurs. Ne jamais choisir `ours` ou `theirs` globalement.
+2. **HTML = union sémantique, pas concaténation aveugle** : conserver tous les `href` uniques de `origin/main` et de la branche, puis vérifier mécaniquement `hrefs(main) ∪ hrefs(branche_avant) ⊆ hrefs(HEAD)`. Pour #170, cela a préservé les listes concelhos enrichies de main et le wording/maillage de la branche.
+3. **Branche stackée #175** : après rebase de #173, rebaser uniquement les commits propres à #175 avec `git rebase --onto origin/feat/hubs-villages-maillage <ancien-tip-173> feat/hubs-freshness`, puis retargeter la PR vers `main` si le gate demandé est `diff origin/main..HEAD`. Vérifier que `origin/feat/hubs-villages-maillage` reste ancêtre de HEAD.
+4. **PR fermée #171** : CLOSED est déjà un verdict final GitHub. La branche peut néanmoins être rebasée/poussée si la mission l'exige, sans rouvrir la PR ni créer un doublon.
+5. **index.html / piliers** : garder les ajouts main. Le conflit #177 portait sur une ligne JSON-LD mais `theirs` supprimait aussi le nav de maillage ajouté depuis ; il a fallu restaurer le nav avant d'amender. Gate : aucun `href` de main manquant + JSON-LD parseable.
+6. **`mergeStateStatus=UNSTABLE` n'est pas `DIRTY`** : les cinq PR ouvertes sont devenues `MERGEABLE`, mais restent UNSTABLE uniquement parce que Vercel retourne `Deployment rate limited — retry in 24 hours`. Le rebase est techniquement propre ; le check externe empêche seulement le statut GitHub CLEAN.
+7. **Gate téléphone** : `git diff origin/main..HEAD | grep -c '^+.*tel:+351\*'` doit être 0 sur chaque branche, complété par la vérification de la constante EU `tel:+351932321892`.
+8. **Seuil conflits** : compter les fichiers non fusionnés (`git diff --name-only --diff-filter=U | wc -l`), pas le nombre de lignes de marqueurs. Maximum observé ici : 5 fichiers sur #170, donc aucun STOP >50.
+
+**Résultat** : #169/#170/#173/#175/#177 rebasées et poussées, mergeables, gate téléphone 0 ; #171 déjà CLOSED, branche rebasée/poussée, gate téléphone 0. Aucun merge dans main.
