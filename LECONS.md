@@ -556,3 +556,132 @@ git diff <base>..HEAD | python3 -c "import sys, re; print(len(re.findall(rb'tel:
 **Takeaway 2 — Même pattern parasites SEO_PLAN.md** que PR #170 (3 occurrences bytes-level `tel:+351\x2a\x2a\x2a\x2a`). Cohérent : ce fichier est partagé entre branches sans avoir été déparasité. À traiter en mission dédiée cleanup SEO_PLAN.md si demandé.
 
 **Source** : mission rebase-train EU 2026-07-19 étape 2, PR #173, worktree `/tmp/tr-173`, base `origin/main@97683f518`, tip `61d6d738a`.
+
+
+---
+
+## Leçon #eu-hubs-fresh-2026-07-19-01 — hubs freshness EU : 33 concelhos/*.html Article + BreadcrumbList
+
+**Contexte** : symétrie exacte de la mission CU hubs freshness (#eu-hubs-fresh-2026-07-19). Gap #4 consultation OpenClaw GEO : les 33 concelhos/*.html d'eletricista-urgente.pt n'avaient ni `Article` ni `datePublished`/`dateModified` ni `BreadcrumbList` JSON-LD, alors que les piliers money (`curto-circuito.html`, `falha-energia.html`, feat/geo-freshness) venaient d'être enrichis sur le même pattern. Risque : Perplexity/AIO classent les hubs concelhos comme "fraîcheur inconnue" et les sous-classent sous les piliers. Patch : ajouter DEUX blocs JSON-LD head-only par concelhos = (1) `@type:Article` avec `headline=nom du concelho` + `author`/`publisher` Organization Norte Reparos (4 sites sameAs) + `datePublished=git log --format=%cs --follow --reverse` (1er commit) + `dateModified=git log --format=%cs --follow` (dernier commit) + `inLanguage=pt-PT` + `url`/`mainEntityOfPage` canonique, (2) `@type:BreadcrumbList` `Início` → Distrito (Bragança / Guarda / Vila Real / Viseu, dérivée de `_audit/zonas-distances-concelhos.json`) → Concelho.
+
+**Takeaway** : (1) **le mapping distrito vient de la source-of-truth `_audit/zonas-distances-concelhos.json` (CAOP)** — JAMAIS de mémoire, les districts Vila Real/Viseu/Guarda/Bragança couvrent les 33 concelhos d'eletricista-urgente.pt et chacun a une page `/distritos/<slug>` dédiée. (2) **le filtre sandbox `https://schema.org` mute l'URL vers `https://***` à l'affichage (read_file, terminal cat, git diff)** — c'est UNIQUEMENT cosmétique, le contenu brut sur disque (`xxd`/`raw bytes`) conserve `https://schema.org` et `json.loads()` parse correctement. Pour vérifier que `schema.org` est bien sur disque : `cat <file> | xxd | grep "73 63 68 65 6d 61"` (chercher les bytes ASCII de `schema`) ou `raw.count(b'schema.org')`. (3) **L'anchor d'insertion est `</script>\n <style>` (avec espace avant `<style>`)** dans les concelhos EU, contrairement à `</script>\n\n<style>` qu'on trouve dans curto-circuito.html — bien vérifier la convention locale avant de patcher.
+
+**Action canon** :
+1. **AVANT** de toucher quoi que ce soit : `grep -c '"@type":"Article"' concelhos/*.html` et `grep -c '"@type":"BreadcrumbList"' concelhos/*.html` pour confirmer le gap (0/0 sur les 33 dans cette mission).
+2. **TOUJOURS** ancrer sur `</script>\n <style>` (regex `</script>\n <style>`) avec `re.subn(..., count=1)` pour garantir une correspondance unique.
+3. **TOUJOURS** générer les dates via `git log --format=%cs --follow --reverse -- <file>` (pub) et `git log --format=%cs --follow -- <file>` (mod), JAMAIS `datetime.now()` ni de date inventée.
+4. **TOUJOURS** écrire via `open(path, 'w', encoding='utf-8')` en Python avec `json.dumps(d, separators=(',', ':'), ensure_ascii=False)` puis vérifier sur disque avec `raw = open(path,'rb').read()` + `raw.count(b'schema.org')` ≥ 1.
+5. **Pattern auteur/publisher Organization Norte Reparos canonique** : `{"@type":"Organization","name":"Norte Reparos","url":"https://canalizador-norte-reparos.pt","sameAs":["https://eletricista-norte-reparos.pt","https://canalizador-urgente.pt","https://eletricista-urgente.pt"]}` — author et publisher distincts, publisher ajoute `logo:{"@type":"ImageObject","url":"https://canalizador-norte-reparos.pt/logo.png"}`.
+6. **Gates obligatoires après patch** : (a) `json.loads` OK sur CHAQUE nouveau bloc Article ET BreadcrumbList (33/33), (b) `git diff --shortstat` = `33 files changed, 132 insertions(+), 0 deletion` (132 = 4 lignes par fichier × 33 : blank + comment + Article + BreadcrumbList), (c) `git diff --unified=0` chaque `+line` ne contient QUE du JSON-LD/comment/blank (zéro modification body/H1/canonical/title/meta description).
+7. **Distrito par concelhos** (mapping figé pour cette mission, dérivé du source-of-truth CAOP) :
+   - alfandega-da-fe → Bragança
+   - alijó → Vila Real
+   - armamar → Viseu
+   - boticas → Vila Real
+   - braganca → Bragança
+   - carrazeda-de-ansiaes → Bragança
+   - chaves → Vila Real
+   - freixo-de-espada-a-cinta → Bragança
+   - lamego → Viseu
+   - macedo-de-cavaleiros → Bragança
+   - mesao-frio → Vila Real
+   - miranda-do-douro → Bragança
+   - mirandela → Bragança
+   - mogadouro → Bragança
+   - mondim-de-basto → Vila Real
+   - montalegre → Vila Real
+   - murca → Vila Real
+   - penedono → Viseu
+   - peso-da-regua → Vila Real
+   - ribeira-de-pena → Vila Real
+   - sabrosa → Vila Real
+   - santa-marta-de-penaguiao → Vila Real
+   - sao-joao-da-pesqueira → Viseu
+   - sernancelhe → Viseu
+   - tabuaco → Viseu
+   - torre-de-moncorvo → Bragança
+   - valpacos → Vila Real
+   - vila-flor → Bragança
+   - vila-nova-de-foz-coa → Guarda
+   - vila-pouca-de-aguiar → Vila Real
+   - vila-real → Vila Real
+   - vimioso → Bragança
+   - vinhais → Bragança
+8. **Headline = h1 nettoyé des emojis décoratifs** : pour les concelhos c'est `f"Eletricista Urgente em {concelho} — Trás-os-Montes 24h"` (PAS le `<title>` qui contient `🚨 Eletricista Urgente {concelho} {prix}€ | Norte Reparos 24h`).
+9. **Ordre de pile concelhos EU** : feat/hubs-freshness se branche depuis `origin/feat/hubs-villages-maillage` (12 hubs → 200 villages, maillage hubs→villages, parallèle CU #188), au merge elle passe APRÈS. PR DRAFT créée, **STOP validation Philippe avant merge** (R7 AGENTS.md).
+
+**Source** : mission OpenClaw gap #4 « hubs freshness EU » 2026-07-19, symétrique CU. 33 fichiers modifiés, 132 insertions, 0 deletion. PR DRAFT feat/hubs-freshness (base = origin/feat/hubs-villages-maillage). Gates passés : json.loads 33/33, dates==git 5/5, insertions only, tel masqué 0, schema.org sur disque 33/33, every +line = JSON-LD/comment/blank.
+---
+
+## Leçon #R-TEL-2026-07-19-01 — Le repair #169 n'a pas tenu : confusion visuelle terminal `*` ↔ `9` (leçon #142 inverse #169)
+
+**Contexte** : mission batch 5 branches EU (#176 +3, #175 +3, #173 +3, #170 +2, #169 +6) — gates rapportent `^+.*tel:+351\*` non-zéro. Tentative de repair #169 d'hier (commit `a73688fe0` « tel masqué → E.164 dans bloc answer-first (33 concelhos) ») déclarée PASS techniquement mais en réalité 92 parasites HTML encore présents dans origin/main vs HEAD.
+
+**Cause racine** : la commande de vérification naïve
+```bash
+git diff origin/main..HEAD | grep -cE '^\+.*tel:\+351\*'
+```
+matche **autant** le parasite `tel:+351\x2a\x2a\x2a\x2a1892` (4 astérisques ASCII) que le bon numéro `tel:+351\x39\x39\x33\x32\x33\x32\x31\x38\x39\x32` (`932321892`) parce que le **print terminal rend les deux identiques** (les caractères ASCII `*` (0x2A) et `9` (0x39) se ressemblent dans une police monospace standard). Leçon #142 inverse #169 documentée dans `devops/delegate-massive-sed-task/references/nap-bytes-patterns.md`.
+
+**Diagnostic correct (bytes-level)** :
+```python
+import re
+re.findall(rb'tel:\+351\x2a{2,}\d+', content)
+# → matche UNIQUEMENT les astérisques ASCII (0x2A), pas les chiffres 9
+```
+
+**Diagnostic pour cette mission** :
+| Branche | Parasites origin/main | Après fix bytes-level |
+|---|---|---|
+| feat/sobre-eeat (#176) | 2 | 0 |
+| feat/hubs-freshness (#175) | 33 | 0 |
+| feat/hubs-villages-maillage (#173) | 12 | 0 |
+| fix/distritos-maillage (#170) | 12 | 0 |
+| feat/hubs-answer-first (#169) | 33 | 0 |
+| **TOTAL** | **92** | **0** |
+
+**Takeaway 1 — Le print terminal n'est pas une preuve** : un sub-agent qui vérifie son fix avec `grep` ou `cat` dans le terminal peut conclure « 0 parasite » alors que le parasite est encore là, parce que `*` et `9` sont visuellement interchangeables. **Toujours utiliser un pattern bytes-level** avec `\x2a` explicite, jamais le pattern visuelle.
+
+**Takeaway 2 — Le repair d'hier a en réalité échoué silencieusement** : les 5 PRs merged antérieurement avec un repair déclaré PASS avaient en fait 92 parasites HTML non corrigés. La chaîne `* * * *` dans le terminal a masqué l'absence de fix. **Tout repair futur doit être confirmé par re-scan bytes-level sur le diff `origin/<base>..HEAD`** — pas seulement par grep terminal.
+
+**Takeaway 3 — Le diff git est la source de vérité** : `git show <sha>:<file> | xxd | grep tel` donne la vérité bytes-level. Si les octets sont `\x2a\x2a\x2a\x2a` après le commit, c'est un parasite, peu importe ce que dit `grep 'tel:+351\*'` dans le terminal.
+
+**Takeaway 4 — Le gate doctrine (#423) doit être réécrit** : le regex naïf `^\+.*tel:\+351\*` matche aussi les bons numéros `932321892` à cause de la confusion `*`/`9`. Le gate bytes-level correct est :
+```bash
+git diff <base>..HEAD | grep -cE '^\+[^\n]*tel:\+351\\*\\*'
+# OU en Python :
+git diff <base>..HEAD | python3 -c "import sys, re; print(len(re.findall(rb'tel:\+351\\x2a{2,}\\d+', sys.stdin.buffer.read())))"
+```
+
+**Takeaway 5 — Anti-pattern sub-agent** : un sub-agent qui rapporte « fix appliqué sur 33 fichiers, gate PASS 0 hits » sans avoir vérifié bytes-level est un signal d'alarme. Toujours exiger dans le brief : « vérifie ton fix avec `python3 -c "import re; print(len(re.findall(rb'tel:\\+351\\x2a{2,}\\d+', open(f).read())))"` ».
+
+**Source** : mission batch 2026-07-19 (5 branches EU), skill `norte-os-doctrine` §R-TEL, ref `devops/delegate-massive-sed-task/references/nap-bytes-patterns.md` (leçon #142 inverse #169).
+
+**Statut** : 92 parasites patchés sur 5 branches, en attente de push.
+---
+
+## Leçon #REBASE-2026-07-19-EU-175 — Rebase `feat/hubs-freshness` (#175) sur origin/main = CLEAN (déjà rebasée)
+
+**Contexte** : mission rebase-train eletricista-urgente, étape 3. Branche `feat/hubs-freshness` (PR #175) vérifiée sur `origin/main@97683f518`.
+
+**État pré-rebase** : HEAD = `ca85814a1`, merge-base avec main = `97683f518` (== main). La branche était **déjà rebasée** sur le main actuel (même pattern que PR #173).
+
+**Gates post-rebase** :
+- GATE bytes-level parasites : **0 hits** ✅
+- GATE grep naïf : **0** (info) ✅
+- concelhos/ = 33 fichiers ✅
+- tel canonique `+351932321892` dans 33/33 concelhos ✅
+- 0 parasite `tel:+351****` dans concelhos ✅
+- JSON-LD `Article` : 33/33 concelhos ✅ (scope PR : ajout Article + BreadcrumbList)
+- JSON-LD `BreadcrumbList` : 33/33 concelhos ✅
+- 3 parasites bytes-level dans SEO_PLAN.md (même fichier que PR #170 et #173, hors scope HTML)
+- PR #175 MERGEABLE sur GitHub ✅
+- Push --force-with-lease : "Everything up-to-date" (HEAD local == remote)
+
+**Takeaway 1 — Pattern cohérent sur les 3 PRs EU train** : les 3 branches (#170, #173, #175) étaient déjà rebasées sur `origin/main@97683f518` au moment de cette mission. Soit un process antérieur les avait déjà préparées, soit elles ont été créées directement sur la bonne base. Pas de rebase interactif nécessaire dans cette mission — juste vérification gates + force-push idempotent.
+
+**Takeaway 2 — SEO_PLAN.md = angle mort partagé** : 3 parasites bytes-level identiques dans les 3 worktrees (lignes 511, 512, 1239). Toutes les missions EU train touchent ce fichier sans le déparasiter. À traiter en mission dédiée cleanup SEO_PLAN.md si Philippe le demande — pas le rôle d'une mission rebase-train.
+
+**Takeaway 3 — Tel constant 932321892 = 100% présent** : sur les 3 worktrees, 33/33 concelhos ont le tel canonique, 0 parasite. Le repair #169 d'hier (commit `a73688fe0`) avait été déclaré PASS techniquement mais contenait 92 parasites ; le re-repair d'aujourd'hui (commits `618116a50`, `17e0e2826`, `ca85814a1`) a bel et bien neutralisé tous les parasites HTML. La leçon #R-TEL-2026-07-19-01 (gate bytes-level) est validée par les 3 PRs.
+
+**Source** : mission rebase-train EU 2026-07-19 étape 3, PR #175, worktree `/tmp/tr-175`, base `origin/main@97683f518`, tip `ca85814a1`.
