@@ -658,3 +658,30 @@ git diff <base>..HEAD | python3 -c "import sys, re; print(len(re.findall(rb'tel:
 **Source** : mission batch 2026-07-19 (5 branches EU), skill `norte-os-doctrine` §R-TEL, ref `devops/delegate-massive-sed-task/references/nap-bytes-patterns.md` (leçon #142 inverse #169).
 
 **Statut** : 92 parasites patchés sur 5 branches, en attente de push.
+---
+
+## Leçon #REBASE-2026-07-19-EU-175 — Rebase `feat/hubs-freshness` (#175) sur origin/main = CLEAN (déjà rebasée)
+
+**Contexte** : mission rebase-train eletricista-urgente, étape 3. Branche `feat/hubs-freshness` (PR #175) vérifiée sur `origin/main@97683f518`.
+
+**État pré-rebase** : HEAD = `ca85814a1`, merge-base avec main = `97683f518` (== main). La branche était **déjà rebasée** sur le main actuel (même pattern que PR #173).
+
+**Gates post-rebase** :
+- GATE bytes-level parasites : **0 hits** ✅
+- GATE grep naïf : **0** (info) ✅
+- concelhos/ = 33 fichiers ✅
+- tel canonique `+351932321892` dans 33/33 concelhos ✅
+- 0 parasite `tel:+351****` dans concelhos ✅
+- JSON-LD `Article` : 33/33 concelhos ✅ (scope PR : ajout Article + BreadcrumbList)
+- JSON-LD `BreadcrumbList` : 33/33 concelhos ✅
+- 3 parasites bytes-level dans SEO_PLAN.md (même fichier que PR #170 et #173, hors scope HTML)
+- PR #175 MERGEABLE sur GitHub ✅
+- Push --force-with-lease : "Everything up-to-date" (HEAD local == remote)
+
+**Takeaway 1 — Pattern cohérent sur les 3 PRs EU train** : les 3 branches (#170, #173, #175) étaient déjà rebasées sur `origin/main@97683f518` au moment de cette mission. Soit un process antérieur les avait déjà préparées, soit elles ont été créées directement sur la bonne base. Pas de rebase interactif nécessaire dans cette mission — juste vérification gates + force-push idempotent.
+
+**Takeaway 2 — SEO_PLAN.md = angle mort partagé** : 3 parasites bytes-level identiques dans les 3 worktrees (lignes 511, 512, 1239). Toutes les missions EU train touchent ce fichier sans le déparasiter. À traiter en mission dédiée cleanup SEO_PLAN.md si Philippe le demande — pas le rôle d'une mission rebase-train.
+
+**Takeaway 3 — Tel constant 932321892 = 100% présent** : sur les 3 worktrees, 33/33 concelhos ont le tel canonique, 0 parasite. Le repair #169 d'hier (commit `a73688fe0`) avait été déclaré PASS techniquement mais contenait 92 parasites ; le re-repair d'aujourd'hui (commits `618116a50`, `17e0e2826`, `ca85814a1`) a bel et bien neutralisé tous les parasites HTML. La leçon #R-TEL-2026-07-19-01 (gate bytes-level) est validée par les 3 PRs.
+
+**Source** : mission rebase-train EU 2026-07-19 étape 3, PR #175, worktree `/tmp/tr-175`, base `origin/main@97683f518`, tip `ca85814a1`.
