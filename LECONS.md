@@ -144,3 +144,50 @@ placé AVANT le `/(.*)` dans la liste `rewrites`. Vercel applique les rewrites d
 - Sitemap tiering PR #149 : commit `10e3bd109`
 - Spec source : `~/work/Sites/_audit/SPEC-DIFFERENCIATION-P1-2026-07-16.md`
 - Skill transversal : `local-business-seo-compliance` (R0 + ref `r0-canonical-selfref.md`)
+---
+
+## Leçon #R-TEL-2026-07-19-01 — Le repair #169 n'a pas tenu : confusion visuelle terminal `*` ↔ `9` (leçon #142 inverse #169)
+
+**Contexte** : mission batch 5 branches EU (#176 +3, #175 +3, #173 +3, #170 +2, #169 +6) — gates rapportent `^+.*tel:+351\*` non-zéro. Tentative de repair #169 d'hier (commit `a73688fe0` « tel masqué → E.164 dans bloc answer-first (33 concelhos) ») déclarée PASS techniquement mais en réalité 92 parasites HTML encore présents dans origin/main vs HEAD.
+
+**Cause racine** : la commande de vérification naïve
+```bash
+git diff origin/main..HEAD | grep -cE '^\+.*tel:\+351\*'
+```
+matche **autant** le parasite `tel:+351\x2a\x2a\x2a\x2a1892` (4 astérisques ASCII) que le bon numéro `tel:+351\x39\x39\x33\x32\x33\x32\x31\x38\x39\x32` (`932321892`) parce que le **print terminal rend les deux identiques** (les caractères ASCII `*` (0x2A) et `9` (0x39) se ressemblent dans une police monospace standard). Leçon #142 inverse #169 documentée dans `devops/delegate-massive-sed-task/references/nap-bytes-patterns.md`.
+
+**Diagnostic correct (bytes-level)** :
+```python
+import re
+re.findall(rb'tel:\+351\x2a{2,}\d+', content)
+# → matche UNIQUEMENT les astérisques ASCII (0x2A), pas les chiffres 9
+```
+
+**Diagnostic pour cette mission** :
+| Branche | Parasites origin/main | Après fix bytes-level |
+|---|---|---|
+| feat/sobre-eeat (#176) | 2 | 0 |
+| feat/hubs-freshness (#175) | 33 | 0 |
+| feat/hubs-villages-maillage (#173) | 12 | 0 |
+| fix/distritos-maillage (#170) | 12 | 0 |
+| feat/hubs-answer-first (#169) | 33 | 0 |
+| **TOTAL** | **92** | **0** |
+
+**Takeaway 1 — Le print terminal n'est pas une preuve** : un sub-agent qui vérifie son fix avec `grep` ou `cat` dans le terminal peut conclure « 0 parasite » alors que le parasite est encore là, parce que `*` et `9` sont visuellement interchangeables. **Toujours utiliser un pattern bytes-level** avec `\x2a` explicite, jamais le pattern visuelle.
+
+**Takeaway 2 — Le repair d'hier a en réalité échoué silencieusement** : les 5 PRs merged antérieurement avec un repair déclaré PASS avaient en fait 92 parasites HTML non corrigés. La chaîne `* * * *` dans le terminal a masqué l'absence de fix. **Tout repair futur doit être confirmé par re-scan bytes-level sur le diff `origin/<base>..HEAD`** — pas seulement par grep terminal.
+
+**Takeaway 3 — Le diff git est la source de vérité** : `git show <sha>:<file> | xxd | grep tel` donne la vérité bytes-level. Si les octets sont `\x2a\x2a\x2a\x2a` après le commit, c'est un parasite, peu importe ce que dit `grep 'tel:+351\*'` dans le terminal.
+
+**Takeaway 4 — Le gate doctrine (#423) doit être réécrit** : le regex naïf `^\+.*tel:\+351\*` matche aussi les bons numéros `932321892` à cause de la confusion `*`/`9`. Le gate bytes-level correct est :
+```bash
+git diff <base>..HEAD | grep -cE '^\+[^\n]*tel:\+351\\*\\*'
+# OU en Python :
+git diff <base>..HEAD | python3 -c "import sys, re; print(len(re.findall(rb'tel:\+351\\x2a{2,}\\d+', sys.stdin.buffer.read())))"
+```
+
+**Takeaway 5 — Anti-pattern sub-agent** : un sub-agent qui rapporte « fix appliqué sur 33 fichiers, gate PASS 0 hits » sans avoir vérifié bytes-level est un signal d'alarme. Toujours exiger dans le brief : « vérifie ton fix avec `python3 -c "import re; print(len(re.findall(rb'tel:\\+351\\x2a{2,}\\d+', open(f).read())))"` ».
+
+**Source** : mission batch 2026-07-19 (5 branches EU), skill `norte-os-doctrine` §R-TEL, ref `devops/delegate-massive-sed-task/references/nap-bytes-patterns.md` (leçon #142 inverse #169).
+
+**Statut** : 92 parasites patchés sur 5 branches, en attente de push.
