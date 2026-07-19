@@ -534,3 +534,25 @@ git diff <base>..HEAD | python3 -c "import sys, re; print(len(re.findall(rb'tel:
 **Source** : mission batch 2026-07-19 (5 branches EU), skill `norte-os-doctrine` §R-TEL, ref `devops/delegate-massive-sed-task/references/nap-bytes-patterns.md` (leçon #142 inverse #169).
 
 **Statut** : 92 parasites patchés sur 5 branches, en attente de push.
+---
+
+## Leçon #REBASE-2026-07-19-EU-173 — Rebase `feat/hubs-villages-maillage` (#173) sur origin/main = CLEAN (déjà rebasée)
+
+**Contexte** : mission rebase-train eletricista-urgente, étape 2. Branche `feat/hubs-villages-maillage` (PR #173) vérifiée sur `origin/main@97683f518`.
+
+**État pré-rebase** : HEAD = `61d6d738a`, merge-base avec main = `97683f518` (== main). La branche était **déjà rebasée** sur le main actuel par un process antérieur (cf. "up to date" du rebase, ancêtre commun == main).
+
+**Gates post-rebase** :
+- GATE bytes-level parasites : **0 hits** ✅
+- GATE grep naïf : **0** (info, piège visuel) ✅
+- concelhos/ = 33 fichiers présents, tel canonique `+351932321892` dans 33/33 ✅
+- 0 fichier concelhos avec parasite `tel:+351****` ✅
+- 3 parasites bytes-level persistent dans SEO_PLAN.md (lignes 511, 512, 1239) — fichier de doc, hors scope HTML
+- PR #173 MERGEABLE sur GitHub ✅
+- Push --force-with-lease : "Everything up-to-date" (HEAD local == remote)
+
+**Takeaway 1 — Rebase idempotent** : quand la branche est déjà rebasée sur main, `git rebase origin/main` retourne "Current branch is up to date" sans erreur. Pas besoin de force-push (HEAD local == remote). Cela permet de chaîner plusieurs rebases sans risque.
+
+**Takeaway 2 — Même pattern parasites SEO_PLAN.md** que PR #170 (3 occurrences bytes-level `tel:+351\x2a\x2a\x2a\x2a`). Cohérent : ce fichier est partagé entre branches sans avoir été déparasité. À traiter en mission dédiée cleanup SEO_PLAN.md si demandé.
+
+**Source** : mission rebase-train EU 2026-07-19 étape 2, PR #173, worktree `/tmp/tr-173`, base `origin/main@97683f518`, tip `61d6d738a`.
