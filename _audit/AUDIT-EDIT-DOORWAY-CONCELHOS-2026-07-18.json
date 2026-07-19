@@ -1,0 +1,746 @@
+{
+  "ran_at": "2026-07-18T17:05:49.676265Z",
+  "scope": "33 concelhos EU (sitemap-core)",
+  "diagnostic_ref": "_audit/EU-INDEXATION-DIAGNOSTIC-2026-07-18.md §3 Action #5",
+  "stats": {
+    "DOORWAY_H1": 0,
+    "DOORWAY_TITLE_STRICT": 0,
+    "TITLE_AVEC_PRIX": 33,
+    "DOORWAY_PILL": 33,
+    "NEUTRE": 0
+  },
+  "pct_neutral": 0.0,
+  "pct_pill": 100.0,
+  "verdict": "DOORWAY_H1=0/33 — DOORWAY_TITLE_STRICT(Prix+ETA simultanés)=0/33 — TITLE_AVEC_PRIX(candidat patch recommandé)=33/33 — DOORWAY_PILL(pill zone+ETA sous H1)=33/33 (100.0%) — NEUTRE=0/33",
+  "reading": "0/33 H1 doorway, 0/33 title doorway strict (Prix+ETA), 33/33 ont le pill 'Zone N · Deslocação X€ · Resposta em ~N min' juste sous H1 (above-the-fold). Tous les 33/33 titres contiennent un Prix. Le geste éditorial recommandé par le diagnostic = (a) retirer Prix des 80ers chars du title, (b) déplacer le pill 'Zone N' sous le 1er H2 body.",
+  "per_concelho": [
+    {
+      "slug": "alfandega-da-fe",
+      "title": "🚨 Eletricista Urgente Alfândega da Fé 35€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Alfândega da Fé 35€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Alfândega da Fé 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 2</span> &nbsp; Deslocação 35€ incluída · Resposta em ~31 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "alijo",
+      "title": "🚨 Eletricista Urgente Alijó 55€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Alijó 55€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Alijó 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 5</span> &nbsp; Deslocação 55€ incluída · Resposta em ~54 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "armamar",
+      "title": "🚨 Eletricista Urgente Armamar 65€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Armamar 65€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Armamar 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 5</span> &nbsp; Deslocação 65€ incluída · Resposta em ~82 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "boticas",
+      "title": "🚨 Eletricista Urgente Boticas 65€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Boticas 65€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Boticas 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 6</span> &nbsp; Deslocação 65€ incluída · Resposta em ~89 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "braganca",
+      "title": "🚨 Eletricista Urgente Bragança 35€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Bragança 35€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Bragança 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 3</span> &nbsp; Deslocação 35€ incluída · Resposta em ~34 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "carrazeda-de-ansiaes",
+      "title": "🚨 Eletricista Urgente Carrazeda de Ansiães 45€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Carrazeda de Ansiães 45€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Carrazeda de Ansiães 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 2</span> &nbsp; Deslocação 45€ incluída · Resposta em ~49 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "chaves",
+      "title": "🚨 Eletricista Urgente Chaves 55€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Chaves 55€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Chaves 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 6</span> &nbsp; Deslocação 55€ incluída · Resposta em ~70 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "freixo-de-espada-a-cinta",
+      "title": "🚨 Eletricista Urgente Freixo de Espada à Cinta 65€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Freixo de Espada à Cinta 65€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Freixo de Espada à Cinta 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 3</span> &nbsp; Deslocação 65€ incluída · Resposta em ~86 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "lamego",
+      "title": "🚨 Eletricista Urgente Lamego 65€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Lamego 65€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Lamego 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 5</span> &nbsp; Deslocação 65€ incluída · Resposta em ~78 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "macedo-de-cavaleiros",
+      "title": "🚨 Eletricista Urgente Macedo de Cavaleiros 15€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Macedo de Cavaleiros 15€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Macedo de Cavaleiros 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 1</span> &nbsp; Deslocação 15€ incluída · Resposta em ~5 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "mesao-frio",
+      "title": "🚨 Eletricista Urgente Mesão Frio 65€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Mesão Frio 65€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Mesão Frio 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 5</span> &nbsp; Deslocação 65€ incluída · Resposta em ~83 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "miranda-do-douro",
+      "title": "🚨 Eletricista Urgente Miranda do Douro 65€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Miranda do Douro 65€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Miranda do Douro 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 4</span> &nbsp; Deslocação 65€ incluída · Resposta em ~84 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "mirandela",
+      "title": "🚨 Eletricista Urgente Mirandela 25€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Mirandela 25€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Mirandela 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 2</span> &nbsp; Deslocação 25€ incluída · Resposta em ~23 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "mogadouro",
+      "title": "🚨 Eletricista Urgente Mogadouro 35€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Mogadouro 35€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Mogadouro 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 3</span> &nbsp; Deslocação 35€ incluída · Resposta em ~46 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "mondim-de-basto",
+      "title": "🚨 Eletricista Urgente Mondim de Basto 65€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Mondim de Basto 65€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Mondim de Basto 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 6</span> &nbsp; Deslocação 65€ incluída · Resposta em ~103 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "montalegre",
+      "title": "🚨 Eletricista Urgente Montalegre 65€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Montalegre 65€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Montalegre 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 6</span> &nbsp; Deslocação 65€ incluída · Resposta em ~111 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "murca",
+      "title": "🚨 Eletricista Urgente Murça 45€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Murça 45€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Murça 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 4</span> &nbsp; Deslocação 45€ incluída · Resposta em ~39 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "penedono",
+      "title": "🚨 Eletricista Urgente Penedono 65€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Penedono 65€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Penedono 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 6</span> &nbsp; Deslocação 65€ incluída · Resposta em ~93 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "peso-da-regua",
+      "title": "🚨 Eletricista Urgente Peso da Régua 65€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Peso da Régua 65€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Peso da Régua 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 5</span> &nbsp; Deslocação 65€ incluída · Resposta em ~69 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "ribeira-de-pena",
+      "title": "🚨 Eletricista Urgente Ribeira de Pena 65€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Ribeira de Pena 65€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Ribeira de Pena 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 6</span> &nbsp; Deslocação 65€ incluída · Resposta em ~89 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "sabrosa",
+      "title": "🚨 Eletricista Urgente Sabrosa 55€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Sabrosa 55€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Sabrosa 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 5</span> &nbsp; Deslocação 55€ incluída · Resposta em ~61 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "santa-marta-de-penaguiao",
+      "title": "🚨 Eletricista Urgente Santa Marta de Penaguião 65€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Santa Marta de Penaguião 65€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Santa Marta de Penaguião 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 5</span> &nbsp; Deslocação 65€ incluída · Resposta em ~75 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "sao-joao-da-pesqueira",
+      "title": "🚨 Eletricista Urgente São João da Pesqueira 55€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente São João da Pesqueira 55€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de São João da Pesqueira 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 4</span> &nbsp; Deslocação 55€ incluída · Resposta em ~79 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "sernancelhe",
+      "title": "🚨 Eletricista Urgente Sernancelhe 65€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Sernancelhe 65€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Sernancelhe 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 6</span> &nbsp; Deslocação 65€ incluída · Resposta em ~109 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "tabuaco",
+      "title": "🚨 Eletricista Urgente Tabuaço 65€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Tabuaço 65€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Tabuaço 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 5</span> &nbsp; Deslocação 65€ incluída · Resposta em ~87 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "torre-de-moncorvo",
+      "title": "🚨 Eletricista Urgente Torre de Moncorvo 45€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Torre de Moncorvo 45€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Torre de Moncorvo 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 3</span> &nbsp; Deslocação 45€ incluída · Resposta em ~50 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "valpacos",
+      "title": "🚨 Eletricista Urgente Valpaços 35€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Valpaços 35€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Valpaços 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 4</span> &nbsp; Deslocação 35€ incluída · Resposta em ~35 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "vila-flor",
+      "title": "🚨 Eletricista Urgente Vila Flor 35€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Vila Flor 35€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Vila Flor 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 2</span> &nbsp; Deslocação 35€ incluída · Resposta em ~30 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "vila-nova-de-foz-coa",
+      "title": "🚨 Eletricista Urgente Vila Nova de Foz Côa 45€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Vila Nova de Foz Côa 45€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Vila Nova de Foz Côa 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 4</span> &nbsp; Deslocação 45€ incluída · Resposta em ~61 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "vila-pouca-de-aguiar",
+      "title": "🚨 Eletricista Urgente Vila Pouca de Aguiar 55€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Vila Pouca de Aguiar 55€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Vila Pouca de Aguiar 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 6</span> &nbsp; Deslocação 55€ incluída · Resposta em ~70 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "vila-real",
+      "title": "🚨 Eletricista Urgente Vila Real 55€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Vila Real 55€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Vila Real 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 5</span> &nbsp; Deslocação 55€ incluída · Resposta em ~62 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "vimioso",
+      "title": "🚨 Eletricista Urgente Vimioso 45€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Vimioso 45€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Vimioso 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 3</span> &nbsp; Deslocação 45€ incluída · Resposta em ~58 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    },
+    {
+      "slug": "vinhais",
+      "title": "🚨 Eletricista Urgente Vinhais 35€ | Norte Reparos 24h",
+      "title_first_chars": "🚨 Eletricista Urgente Vinhais 35€ | Norte Reparos 24h",
+      "title_contains_price": true,
+      "title_contains_eta": false,
+      "h1": "⚡ Eletricista Urgente no Concelho de Vinhais 24h",
+      "h1_contains_eta": false,
+      "h1_contains_zone": false,
+      "after_h1_excerpt": "<p style=\"font-size:.95rem;color:#555;margin:.4rem 0 1.4rem\"><span class=\"zone-pill\">Zona 3</span> &nbsp; Deslocação 35€ incluída · Resposta em ~55 min · Orçamento por escrito</p>",
+      "pill_contains_zone": true,
+      "pill_contains_eta": true,
+      "doorway_title_strict": false,
+      "title_avec_prix": true,
+      "categories": [
+        "TITLE_AVEC_PRIX",
+        "DOORWAY_PILL"
+      ],
+      "recos": [
+        "Pill (zone-pill) : conserver pour l'UX (utilité interne), mais le déplacer APRES le premier H2 de contenu (ex. après 'Sobre o serviço'). Sortir le bloc 'Zona N · Deslocação X€ · Resposta em ~N min' du top above-the-fold."
+      ]
+    }
+  ],
+  "next_action": "PR draftée conditionnelle : pour les 33 concelhos, retirer Prix des 80ers chars du title + déplacer pill 'Zone N · Deslocação X€ · Resposta em ~N min' sous le 1er H2 body. À merger UNIQUEMENT si Action #3 (J+5) confirme cause (a) éditoriale, c'est-à-dire ΔINDEXED ≤ +1 ET ΔUNKNOWN ≥ 0. Sinon la cause (d) « déployé trop récent » se résout toute seule et la PR est inutile.",
+  "doctrine_note": "PRIX RESTENT dans le body, la FAQ, le JSON-LD, la meta description. On ne retire que la signature H1/title/above-the-fold. Aucune valeur inventée : toutes les regex détectent le pattern existant, on propose uniquement des retraits."
+}

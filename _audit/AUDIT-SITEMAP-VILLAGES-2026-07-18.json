@@ -1,0 +1,67 @@
+{
+  "sitemap": "sitemap-villages.xml",
+  "total_urls": 1944,
+  "by_category": {
+    "POLLUTION": 4,
+    "V_STD": 1480,
+    "V_URGENTE": 433,
+    "INSTITUC": 27
+  },
+  "by_category_pct": {
+    "POLLUTION": 0.21,
+    "V_STD": 76.13,
+    "V_URGENTE": 22.27,
+    "INSTITUC": 1.39
+  },
+  "pollution_urls": [
+    "https://eletricista-urgente.pt/calculadora-de-preco",
+    "https://eletricista-urgente.pt/como-poupar-eletricidade",
+    "https://eletricista-urgente.pt/comparacao",
+    "https://eletricista-urgente.pt/design-preview-eu"
+  ],
+  "instituc_sample": [
+    "https://eletricista-urgente.pt/equipa",
+    "https://eletricista-urgente.pt/garantia",
+    "https://eletricista-urgente.pt/glossario-canalizacao",
+    "https://eletricista-urgente.pt/glossario-eletricidade",
+    "https://eletricista-urgente.pt/guia-canalizacao",
+    "https://eletricista-urgente.pt/guia-eletricidade",
+    "https://eletricista-urgente.pt/imprensa",
+    "https://eletricista-urgente.pt/indice-a-z",
+    "https://eletricista-urgente.pt/mapa-do-site",
+    "https://eletricista-urgente.pt/metodologia",
+    "https://eletricista-urgente.pt/perguntas-frequentes",
+    "https://eletricista-urgente.pt/politica-cookies",
+    "https://eletricista-urgente.pt/politica-privacidade",
+    "https://eletricista-urgente.pt/preco-eletricista-urgente-braganca-2026",
+    "https://eletricista-urgente.pt/preco-eletricista-urgente-chaves-2026",
+    "https://eletricista-urgente.pt/preco-eletricista-urgente-mirandela-2026",
+    "https://eletricista-urgente.pt/preco-eletricista-urgente-vila-real-2026",
+    "https://eletricista-urgente.pt/recursos-gratuitos",
+    "https://eletricista-urgente.pt/sinais-alerta-casa-antiga",
+    "https://eletricista-urgente.pt/termos-condicoes"
+  ],
+  "v_urgente_count": 433,
+  "v_urgente_sample": [
+    "https://eletricista-urgente.pt/eletricista-urgente-a-gudina",
+    "https://eletricista-urgente.pt/eletricista-urgente-a-gudiña",
+    "https://eletricista-urgente.pt/eletricista-urgente-abacas",
+    "https://eletricista-urgente.pt/eletricista-urgente-abaças",
+    "https://eletricista-urgente.pt/eletricista-urgente-acoreira",
+    "https://eletricista-urgente.pt/eletricista-urgente-agrochao",
+    "https://eletricista-urgente.pt/eletricista-urgente-agrochão",
+    "https://eletricista-urgente.pt/eletricista-urgente-agua-reves",
+    "https://eletricista-urgente.pt/eletricista-urgente-aguas-frias",
+    "https://eletricista-urgente.pt/eletricista-urgente-aguas-vivas"
+  ],
+  "verdict": {
+    "ready_to_declare": false,
+    "blocking_issues": [
+      "4 URLs POLLUTION à supprimer avant déclaration",
+      "27 URLs institutionnelles hors-périmètre (à déplacer vers sitemap.xml ou exclure)"
+    ],
+    "v_urgente_observation": "433 URLs préfixées /eletricista-urgente-<slug>/ — vérifier si elles ont du contenu réel ou sont des stubs. Si stubs : exclure. Si contenu : OK mais clarifier dans sitemap."
+  },
+  "next_action": "Nettoyer les URLs POLLUTION + INSTITUC du sitemap-villages.xml, puis PR draftée déclarant Sitemap: https://eletricista-urgente.pt/sitemap-villages.xml dans robots.txt.",
+  "ran_at": "2026-07-18T16:55:38.360955Z"
+}
