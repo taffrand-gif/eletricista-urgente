@@ -556,3 +556,58 @@ git diff <base>..HEAD | python3 -c "import sys, re; print(len(re.findall(rb'tel:
 **Takeaway 2 — Même pattern parasites SEO_PLAN.md** que PR #170 (3 occurrences bytes-level `tel:+351\x2a\x2a\x2a\x2a`). Cohérent : ce fichier est partagé entre branches sans avoir été déparasité. À traiter en mission dédiée cleanup SEO_PLAN.md si demandé.
 
 **Source** : mission rebase-train EU 2026-07-19 étape 2, PR #173, worktree `/tmp/tr-173`, base `origin/main@97683f518`, tip `61d6d738a`.
+
+
+---
+
+## Leçon #eu-hubs-fresh-2026-07-19-01 — hubs freshness EU : 33 concelhos/*.html Article + BreadcrumbList
+
+**Contexte** : symétrie exacte de la mission CU hubs freshness (#eu-hubs-fresh-2026-07-19). Gap #4 consultation OpenClaw GEO : les 33 concelhos/*.html d'eletricista-urgente.pt n'avaient ni `Article` ni `datePublished`/`dateModified` ni `BreadcrumbList` JSON-LD, alors que les piliers money (`curto-circuito.html`, `falha-energia.html`, feat/geo-freshness) venaient d'être enrichis sur le même pattern. Risque : Perplexity/AIO classent les hubs concelhos comme "fraîcheur inconnue" et les sous-classent sous les piliers. Patch : ajouter DEUX blocs JSON-LD head-only par concelhos = (1) `@type:Article` avec `headline=nom du concelho` + `author`/`publisher` Organization Norte Reparos (4 sites sameAs) + `datePublished=git log --format=%cs --follow --reverse` (1er commit) + `dateModified=git log --format=%cs --follow` (dernier commit) + `inLanguage=pt-PT` + `url`/`mainEntityOfPage` canonique, (2) `@type:BreadcrumbList` `Início` → Distrito (Bragança / Guarda / Vila Real / Viseu, dérivée de `_audit/zonas-distances-concelhos.json`) → Concelho.
+
+**Takeaway** : (1) **le mapping distrito vient de la source-of-truth `_audit/zonas-distances-concelhos.json` (CAOP)** — JAMAIS de mémoire, les districts Vila Real/Viseu/Guarda/Bragança couvrent les 33 concelhos d'eletricista-urgente.pt et chacun a une page `/distritos/<slug>` dédiée. (2) **le filtre sandbox `https://schema.org` mute l'URL vers `https://***` à l'affichage (read_file, terminal cat, git diff)** — c'est UNIQUEMENT cosmétique, le contenu brut sur disque (`xxd`/`raw bytes`) conserve `https://schema.org` et `json.loads()` parse correctement. Pour vérifier que `schema.org` est bien sur disque : `cat <file> | xxd | grep "73 63 68 65 6d 61"` (chercher les bytes ASCII de `schema`) ou `raw.count(b'schema.org')`. (3) **L'anchor d'insertion est `</script>\n <style>` (avec espace avant `<style>`)** dans les concelhos EU, contrairement à `</script>\n\n<style>` qu'on trouve dans curto-circuito.html — bien vérifier la convention locale avant de patcher.
+
+**Action canon** :
+1. **AVANT** de toucher quoi que ce soit : `grep -c '"@type":"Article"' concelhos/*.html` et `grep -c '"@type":"BreadcrumbList"' concelhos/*.html` pour confirmer le gap (0/0 sur les 33 dans cette mission).
+2. **TOUJOURS** ancrer sur `</script>\n <style>` (regex `</script>\n <style>`) avec `re.subn(..., count=1)` pour garantir une correspondance unique.
+3. **TOUJOURS** générer les dates via `git log --format=%cs --follow --reverse -- <file>` (pub) et `git log --format=%cs --follow -- <file>` (mod), JAMAIS `datetime.now()` ni de date inventée.
+4. **TOUJOURS** écrire via `open(path, 'w', encoding='utf-8')` en Python avec `json.dumps(d, separators=(',', ':'), ensure_ascii=False)` puis vérifier sur disque avec `raw = open(path,'rb').read()` + `raw.count(b'schema.org')` ≥ 1.
+5. **Pattern auteur/publisher Organization Norte Reparos canonique** : `{"@type":"Organization","name":"Norte Reparos","url":"https://canalizador-norte-reparos.pt","sameAs":["https://eletricista-norte-reparos.pt","https://canalizador-urgente.pt","https://eletricista-urgente.pt"]}` — author et publisher distincts, publisher ajoute `logo:{"@type":"ImageObject","url":"https://canalizador-norte-reparos.pt/logo.png"}`.
+6. **Gates obligatoires après patch** : (a) `json.loads` OK sur CHAQUE nouveau bloc Article ET BreadcrumbList (33/33), (b) `git diff --shortstat` = `33 files changed, 132 insertions(+), 0 deletion` (132 = 4 lignes par fichier × 33 : blank + comment + Article + BreadcrumbList), (c) `git diff --unified=0` chaque `+line` ne contient QUE du JSON-LD/comment/blank (zéro modification body/H1/canonical/title/meta description).
+7. **Distrito par concelhos** (mapping figé pour cette mission, dérivé du source-of-truth CAOP) :
+   - alfandega-da-fe → Bragança
+   - alijó → Vila Real
+   - armamar → Viseu
+   - boticas → Vila Real
+   - braganca → Bragança
+   - carrazeda-de-ansiaes → Bragança
+   - chaves → Vila Real
+   - freixo-de-espada-a-cinta → Bragança
+   - lamego → Viseu
+   - macedo-de-cavaleiros → Bragança
+   - mesao-frio → Vila Real
+   - miranda-do-douro → Bragança
+   - mirandela → Bragança
+   - mogadouro → Bragança
+   - mondim-de-basto → Vila Real
+   - montalegre → Vila Real
+   - murca → Vila Real
+   - penedono → Viseu
+   - peso-da-regua → Vila Real
+   - ribeira-de-pena → Vila Real
+   - sabrosa → Vila Real
+   - santa-marta-de-penaguiao → Vila Real
+   - sao-joao-da-pesqueira → Viseu
+   - sernancelhe → Viseu
+   - tabuaco → Viseu
+   - torre-de-moncorvo → Bragança
+   - valpacos → Vila Real
+   - vila-flor → Bragança
+   - vila-nova-de-foz-coa → Guarda
+   - vila-pouca-de-aguiar → Vila Real
+   - vila-real → Vila Real
+   - vimioso → Bragança
+   - vinhais → Bragança
+8. **Headline = h1 nettoyé des emojis décoratifs** : pour les concelhos c'est `f"Eletricista Urgente em {concelho} — Trás-os-Montes 24h"` (PAS le `<title>` qui contient `🚨 Eletricista Urgente {concelho} {prix}€ | Norte Reparos 24h`).
+9. **Ordre de pile concelhos EU** : feat/hubs-freshness se branche depuis `origin/feat/hubs-villages-maillage` (12 hubs → 200 villages, maillage hubs→villages, parallèle CU #188), au merge elle passe APRÈS. PR DRAFT créée, **STOP validation Philippe avant merge** (R7 AGENTS.md).
+
+**Source** : mission OpenClaw gap #4 « hubs freshness EU » 2026-07-19, symétrique CU. 33 fichiers modifiés, 132 insertions, 0 deletion. PR DRAFT feat/hubs-freshness (base = origin/feat/hubs-villages-maillage). Gates passés : json.loads 33/33, dates==git 5/5, insertions only, tel masqué 0, schema.org sur disque 33/33, every +line = JSON-LD/comment/blank.
