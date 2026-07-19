@@ -81,28 +81,28 @@ TRANS_TEMPLATES = [
  <h2>⚡ Transparência tarifária — Eletricista {name}</h2>
  <p>Tarifa horária <strong>70 €/h</strong> (mão de obra). Para {name}, a zona aplicável é <strong>Z{zone}</strong> ({rkm} km por estrada desde Macedo de Cavaleiros) e a deslocação é <strong>{desloc}€</strong>. Majoração +50% noite (20h-8h), domingo e feriado.</p>
  <p style="font-size:1.05em"><strong>Orçamento por escrito antes de qualquer intervenção, sem surpresas.</strong></p>
- <p>📞 <a href="tel:+351****1892"><strong>932 321 892</strong></a> · <a href="https://wa.me/351932321892?text=Ol%C3%A1%2C%20preciso%20de%20eletricista%20urgente%20em%20{nameslug}">WhatsApp {name}</a> · Falamos consigo directamente — Filipe, Trás-os-Montes</p>
+ <p>📞 <a href="tel:+351932321892"><strong>932 321 892</strong></a> · <a href="https://wa.me/351932321892?text=Ol%C3%A1%2C%20preciso%20de%20eletricista%20urgente%20em%20{nameslug}">WhatsApp {name}</a> · Falamos consigo directamente — Filipe, Trás-os-Montes</p>
 </div>''',
     # Variante 1 — focus district + context géographique
     '''<div class="transp">
  <h2>⚡ Tarifa aplicada — Eletricista {name}</h2>
  <p>Concelho de <strong>{name}</strong> (distrito de {district}, {region}): 70 €/h de mão de obra + deslocação Z{zone} = <strong>{desloc}€</strong>. A majoração +50% em horário nocturno, fim de semana ou feriado é sempre anunciada antes da deslocação.</p>
  <p style="font-size:1.05em"><strong>Orçamento por escrito, sem surpresas.</strong></p>
- <p>Contacto directo: <a href="tel:+351****1892"><strong>932 321 892</strong></a> · <a href="https://wa.me/351932321892?text=Ol%C3%A1%2C%20preciso%20de%20eletricista%20urgente%20em%20{nameslug}">WhatsApp</a></p>
+ <p>Contacto directo: <a href="tel:+351932321892"><strong>932 321 892</strong></a> · <a href="https://wa.me/351932321892?text=Ol%C3%A1%2C%20preciso%20de%20eletricista%20urgente%20em%20{nameslug}">WhatsApp</a></p>
 </div>''',
     # Variante 2 — focus chiffres bruts (setor técnico)
     '''<div class="transp">
  <h2>📋 Tabela tarifária aplicada — {name}</h2>
  <p>Mão de obra: <strong>70 € por hora</strong>. Zona tarifária para {name} ({rkm} km desde Macedo de Cavaleiros): <strong>Z{zone}</strong>. Deslocação: <strong>{desloc}€</strong>. Majoração +50% aplicável à mão de obra e à deslocação em horário nocturno, domingo ou feriado. IVA isento.</p>
  <p style="font-size:1.05em"><strong>Orçamento por escrito antes de qualquer trabalho.</strong></p>
- <p>Liga <a href="tel:+351****1892"><strong>932 321 892</strong></a> · <a href="https://wa.me/351932321892?text=Ol%C3%A1%2C%20preciso%20de%20eletricista%20urgente%20em%20{nameslug}">WhatsApp {name}</a></p>
+ <p>Liga <a href="tel:+351932321892"><strong>932 321 892</strong></a> · <a href="https://wa.me/351932321892?text=Ol%C3%A1%2C%20preciso%20de%20eletricista%20urgente%20em%20{nameslug}">WhatsApp {name}</a></p>
 </div>''',
     # Variante 3 (NO_ROUTE) — variante pour Moimenta da Beira
     '''<div class="transp">
  <h2>⚡ Transparência tarifária — {name}</h2>
  <p>Mão de obra <strong>70 €/h</strong>, majoração +50% noite/WE/feriado. A zona tarifária de {name} ainda não está publicada (route_km TomTom indisponível): confirmamos a distância exacta e a deslocação por telefone antes da deslocação, sem surpresas.</p>
  <p style="font-size:1.05em"><strong>Orçamento por escrito antes de qualquer trabalho.</strong></p>
- <p>📞 <a href="tel:+351****1892"><strong>932 321 892</strong></a> · <a href="https://wa.me/351932321892?text=Ol%C3%A1%2C%20preciso%20de%20eletricista%20urgente%20em%20{nameslug}">WhatsApp {name}</a></p>
+ <p>📞 <a href="tel:+351932321892"><strong>932 321 892</strong></a> · <a href="https://wa.me/351932321892?text=Ol%C3%A1%2C%20preciso%20de%20eletricista%20urgente%20em%20{nameslug}">WhatsApp {name}</a></p>
 </div>''',
 ]  # fin TRANS_TEMPLATES
 
