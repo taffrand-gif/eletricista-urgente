@@ -206,7 +206,7 @@ git diff <base>..HEAD | python3 -c "import sys, re; print(len(re.findall(rb'tel:
   - G5 : 0 href tel: hors littéral canonique EU
 
 **Adaptations vs CU** (différences structurelles EU ≠ CU documentées ici pour reproduction) :
-1. **Téléphone EU = `+351 932 321 892` (PAS `+351 ****4451` CU)** — pattern canonique href = `tel:+351****1892` (LITTÉRAL EU ; cf. PRICING.md §NAP). Conséquence : le gate « `git grep 'tel:+351\*' = 0` » formulé comme CU est inapplicable en EU ; il faut reformuler en « **0 href tel: hors littéral canonique `+351****1892`** ».
+1. **Téléphone EU = `+351 932 321 892` (PAS `+351 ****4451` CU)** — pattern canonique href = `tel:+351····1892` (LITTÉRAL EU ; cf. PRICING.md §NAP). Conséquence : le gate « `git grep 'tel:+351\*' = 0` » formulé comme CU est inapplicable en EU ; il faut reformuler en « **0 href tel: hors littéral canonique `+351****1892`** ».
 2. **Structure post-H1 EU ≠ CU** : EU a un pill `<p style="font-size:.95rem...zone-pill...>Zona N</p>` **sur 33/33 pages** entre `</h1>` et `<div class="urgence-box">`. CU n'a pas ce pill. Donc insertion = **APRÈS le pill**, pas directement après H1.
 3. **Source multi-zones EU** : 13/33 pages ont la `Tabela de deslocação — referência oficial` (canonique, Z + km officiels) ; 33/33 ont `.transp` (« zona aplicável é ZN ») ; 33/33 ont info-box (« Zona tarifária: Zona N »). Stratégie d'extraction = priorité décroissante **Tabela > transp > info-box**.
 4. **Couleurs** : palette EU = orangé `#FF6B35` + fond `#fff5e0` (vs CU = bleu `#2193b0` + fond `#f0f9ff`).
@@ -219,7 +219,7 @@ git diff <base>..HEAD | python3 -c "import sys, re; print(len(re.findall(rb'tel:
 <p data-p1="answer-first" style="...">
   <strong>Em X (Distrito)</strong>, a deslocação é <strong>XX€</strong> —
   YY km de Macedo de Cavaleiros (ZN). Tarifa horária 70 €, orçamento por
-  escrito antes de qualquer trabalho. Contacto: <strong><a href="tel:+351****1892">+351 932 321 892</a></strong>.
+  escrito antes de qualquer trabalho. Contacto: <strong><a href="tel:+351····1892">+351 932 321 892</a></strong>.
 </p>
 ```
 
@@ -230,14 +230,14 @@ git diff <base>..HEAD | python3 -c "import sys, re; print(len(re.findall(rb'tel:
 - G2 : 0/33 ✅
 - G3 : 33/33 ✅ (bloc prix = title prix : alfandega 35=35, chaves 55=55, freixo 65=65, etc.)
 - G4 : 1 H1 + 7 H2 par fichier ✅
-- G5 : 0 href tel: hors littéral ✅ (66 occurrences, **toutes** `tel:+351****1892`, 33 fichiers × 2 = bloc + existant pré-canonique)
+- G5 : 0 href tel: hors littéral ✅ (66 occurrences, **toutes** `tel:+351····1892`, 33 fichiers × 2 = bloc + existant pré-canonique)
 
-**Doctrine verrouillée respectée** : R12 (70 €/h ELEC + orçamento por escrito), R145 (0 délai chiffré, 0 « mediante confirmação », 0 « resposta prioritária »), R11 (0 « garantimos » / « garantia »), ruling Filipe 2026-07-08 (0 « certificação » / « certificado » / « ficha »), NAP EU littéral canonique (tel:+351****1892).
+**Doctrine verrouillée respectée** : R12 (70 €/h ELEC + orçamento por escrito), R145 (0 délai chiffré, 0 « mediante confirmação », 0 « resposta prioritária »), R11 (0 « garantimos » / « garantia »), ruling Filipe 2026-07-08 (0 « certificação » / « certificado » / « ficha »), NAP EU littéral canonique (tel:+351····1892).
 
 **Coût évité** :
 - Variante A (réécriture du paragraphe descriptif existant) → aurait nécessité toucher le copy existant → risque de casser la formulation doctrinée existante. Rejeté.
 - Variante B (ajout d'un H2 « Resposta direta ») → aurait été détecté comme H2 supplémentaire → brise structure Hn (rapport note 7 H2 stricts, gate G4). Rejeté.
-- Variante C (convertir `tel:+351****1892` → `tel:+351****1892`) → déjà canonique, no-op. Évité (gain 0).
+- Variante C (convertir `tel:+351····1892` → `tel:+351····1892`) → déjà canonique, no-op. Évité (gain 0).
 - Variante D (aligner info-box Zona sur Tabela dans la même mission) → hors scope answer-first, à fixer par mission dédiée « EU-info-box-zone-recalibrate ». Reporté à décision CEO.
 
 **Reproduction** :
@@ -282,7 +282,7 @@ gh pr create --draft --base main --head feat/hubs-answer-first \
 ## 2026-07-18 — INTERDIT copier le tel d'un fichier voisin · utiliser la constante site
 
 **Contexte** : PR #169 (eletricista-urgente, branche feat/hubs-answer-first, worktree /tmp/eu-hubs-fix).
-Sur les 33 pages concelhos/, le bloc answer-first ajoutait `tel:+351****1892` au lieu de la constante
+Sur les 33 pages concelhos/, le bloc answer-first ajoutait `tel:+351····1892` au lieu de la constante
 du site. Régression : le générateur Python a réutilisé un fragment HTML existant sans fixer le tel.
 
 **Gate qui aurait dû attraper** : après push de PR #169, `git diff origin/main..HEAD -- concelhos/ |
