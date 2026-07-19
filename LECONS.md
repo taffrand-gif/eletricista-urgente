@@ -439,3 +439,24 @@ git diff <base>..HEAD | python3 -c "import sys, re; print(len(re.findall(rb'tel:
 **Source** : mission batch 2026-07-19 (5 branches EU), skill `norte-os-doctrine` §R-TEL, ref `devops/delegate-massive-sed-task/references/nap-bytes-patterns.md` (leçon #142 inverse #169).
 
 **Statut** : 92 parasites patchés sur 5 branches, en attente de push.
+---
+
+## Leçon #REBASE-2026-07-19-EU-170 — Rebase `fix/distritos-maillage` (#170) sur origin/main = CLEAN
+
+**Contexte** : mission rebase-train eletricista-urgente, étape 1. Branche `fix/distritos-maillage` (PR #170) rebasée sur `origin/main` à `97683f518`. Avant rebase : 2 behind, 4 ahead. Après rebase : 0 behind, 4 ahead, force-pushed avec `--force-with-lease`.
+
+**Gates post-rebase** :
+- GATE bytes-level parasites : `python3 -c "import re; print(len(re.findall(rb'tel:\\+351\\x2a{2,}\\d+', diff)))"` = **0 hits** ✅
+- GATE grep naïf : `grep -cE '^\+.*tel:\+351\*' diff` = 0 (info, piège visuel) ✅
+- concelhos/ = 33 fichiers présents ✅
+- tel constant `+351932321892` présent dans 33/33 concelhos ✅
+- 0 fichier concelhos/distritos avec un href `tel:` masqué ✅
+- PR #170 MERGEABLE sur GitHub ✅
+
+**Takeaway 1 — Le rebase auto-merge LECONS.md peut parfois passer sans conflit** si le commit HEAD a déjà la même leçon. La leçon #R-TEL-2026-07-19-01 est présente 3× dans le fichier final (lignes 149, 312, 397) — c'est un doublon de fait, pas un conflit. Déduplication hors-scope de cette mission.
+
+**Takeaway 2 — 3 parasites bytes-level persistent dans SEO_PLAN.md** (lignes 511, 512, 1239) — fichier de doc/plan, pas une page HTML live. Pré-existait dans la branche (`fade19563` "docs(seo-plan): update after indexnow-urls-refresh") avant ce rebase. Gate HTML = 0. À traiter en mission dédiée SEO_PLAN.md cleanup si Philippe le demande.
+
+**Takeaway 3 — Push --force-with-lease = best practice** : le push a retourné "Everything up-to-date" car le remote était déjà sur le même SHA après le rebase (autre agent/process a peut-être déjà push). Aucun push divergent détecté. HEAD local `3cb533886` == HEAD remote `3cb533886`.
+
+**Source** : mission rebase-train EU 2026-07-19 étape 1, PR #170, worktree `/tmp/tr-170`, base `origin/main@97683f518`, nouvelle tip `3cb533886`.
