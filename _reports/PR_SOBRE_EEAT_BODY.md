@@ -85,7 +85,7 @@ Chaque claim est sourcé de `AGENTS.md EU` (vérifié par grep avant écriture) 
   aucun délai chiffré.
 - **§12 pronom** — 100 % pluriel (« a nossa equipa », « connosco »).
 - **R-TEL** — tel E.164 canonique, **0 astérisque**, body display `+351 932 321 892`,
-  `wa.me/351932321892`. La forme masquée parasite `tel:+351****1892` reste
+  `wa.me/351932321892`. La forme masquée parasite `tel:+351····1892` reste
   héritée sur **2 pages pré-existantes** (`curto-circuito.html`, `falha-energia.html`,
   concelhos/*, preco-*-2026.html) — **hors scope** de cette mission E-E-A-T ;
   le démasquage de masse est une mission R-TEL séparée à programmer.
@@ -99,7 +99,7 @@ Chaque claim est sourcé de `AGENTS.md EU` (vérifié par grep avant écriture) 
 ## Anti-pattern évité (leçon #423)
 
 Le `write_file` sandbox mute les URLs `https://schema.org` en `https://***@type`
-et les `tel:+351XXXXXXXX` en `tel:+351****XXXX` (cf. memory §« JSON/YAML
+et les `tel:+351XXXXXXXX` en `tel:+351····XXXX` (cf. memory §« JSON/YAML
 chirurgical »). Vérification bytes-level via Python `raw.read()` + `re.findall`
 post-write. Tous les `tel:` et `@context` du diff sont en forme canonique.
 
@@ -119,7 +119,7 @@ fatura NIF, RC, 4 sites sameAs, FAQ honnête DGEG).
 
 ## Hors scope
 
-- Démasquage de masse des `tel:+351****1892` hérités (mission R-TEL séparée).
+- Démasquage de masse des `tel:+351····1892` hérités (mission R-TEL séparée).
 - Cohérence `sobre.html` ↔ `sobre.html.es` (n'existe pas).
 - Cohérence llms.txt EU (peut être régénéré dans une mission GEO séparée).
 - Schema `WebSite + SearchAction` sur la page (n'était pas demandé).
