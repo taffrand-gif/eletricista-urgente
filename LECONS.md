@@ -613,6 +613,22 @@ git diff <base>..HEAD | python3 -c "import sys, re; print(len(re.findall(rb'tel:
 **Source** : mission OpenClaw gap #4 « hubs freshness EU » 2026-07-19, symétrique CU. 33 fichiers modifiés, 132 insertions, 0 deletion. PR DRAFT feat/hubs-freshness (base = origin/feat/hubs-villages-maillage). Gates passés : json.loads 33/33, dates==git 5/5, insertions only, tel masqué 0, schema.org sur disque 33/33, every +line = JSON-LD/comment/blank.
 ---
 
+## Leçon #INDEXNOW-EU-2026-07-20-01 — Le fichier de vérification canonique est `<key>.txt`
+
+**Contexte** : la clé EU existait déjà dans `indexnow-key.txt` et dans `indexnow-<key>.txt`. Le fichier préfixé répondait HTTP 200, mais l’URL racine canonique `/<key>.txt` répondait 404. Les soumissions de 10 hubs concelhos à `api.indexnow.org` et Bing retournaient HTTP 403 `UserForbiddedToAccessSite`; Yandex acceptait le même lot en HTTP 202.
+
+**Takeaway** : la présence d’une clé dans le repo ne prouve pas sa validité pour IndexNow. Avant toute soumission, vérifier le chemin public exact `https://<host>/<key>.txt` et son corps byte-à-byte. Un fichier `indexnow-<key>.txt` peut être servi sans satisfaire la validation attendue par le endpoint central.
+
+**Action canon** :
+1. La clé de vérification est un fichier racine nommé exactement `<key>.txt`, corps = clé, une ligne.
+2. Préflight obligatoire : GET `/<key>.txt` → HTTP 200 et corps exact avant POST.
+3. Une réponse 403 n’est pas un succès partiel : ne pas réessayer en boucle; corriger la publication de clé, déployer, re-vérifier, puis soumettre une seule fois.
+4. Consigner séparément les codes des endpoints : central/Bing peuvent refuser alors que Yandex renvoie 202.
+
+**Source** : Kanban `t_3de1c8f8`, diagnostic prod du 2026-07-20. Correctif : `b9ca6de7944da3053a9868c7b9eb92eb.txt` en PR draft, zéro merge.
+
+---
+
 ## Leçon #R-TEL-2026-07-19-01 — Le repair #169 n'a pas tenu : confusion visuelle terminal `*` ↔ `9` (leçon #142 inverse #169)
 
 **Contexte** : mission batch 5 branches EU (#176 +3, #175 +3, #173 +3, #170 +2, #169 +6) — gates rapportent `^+.*tel:+351\*` non-zéro. Tentative de repair #169 d'hier (commit `a73688fe0` « tel masqué → E.164 dans bloc answer-first (33 concelhos) ») déclarée PASS techniquement mais en réalité 92 parasites HTML encore présents dans origin/main vs HEAD.
