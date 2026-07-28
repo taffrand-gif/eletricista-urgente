@@ -117,6 +117,13 @@ SERVICE_PREFIXES = (
     "quanto-custa-eletricista-",
     # P0.5B : services électricista EU
     "iluminacao-exterior-",
+    # EU P0.5 eu-zona-intrapage (t_8aa39ee3, 28/07/2026) : EU-specific prefixes
+    # that were missing and caused ~5,628 NO_RESOL to balloon. These reveal
+    # the 210 KO claimed by brief (28 KO1 + 182 KO2ter).
+    "iluminacao-led-",          # 'eletricista-iluminacao-led-alijo.html' → Alijó
+    "tomada-interruptor-",      # 'eletricista-tomada-interruptor-trevoes.html' → Trevões
+    "certificacao-eletrica-",   # 'eletricista-certificacao-eletrica-alijo.html' → Alijó
+    "fuga-corrente-",           # 'eletricista-fuga-corrente-alijo.html' → Alijó
     # Services historiques (v1 OK)
     "fuga-agua-",
     "desentupimento-",

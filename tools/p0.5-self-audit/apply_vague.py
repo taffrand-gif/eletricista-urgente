@@ -137,6 +137,8 @@ def slug_to_localidade(slug: str) -> str:
         "preco-canalizador-norte-reparos-", "preco-eletricista-norte-reparos-",
         "quanto-custa-canalizador-", "quanto-custa-eletricista-",
         "iluminacao-exterior-",
+        "iluminacao-led-", "tomada-interruptor-",
+        "certificacao-eletrica-", "fuga-corrente-",
         "fuga-agua-", "desentupimento-", "fossa-septica-", "canalizacao-nova-",
         "curto-circuito-", "quadro-eletrico-", "instalacao-eletrica-", "avaria-eletrica-",
     )
@@ -246,20 +248,27 @@ def patch_one_page(content: str, expected_zone: int, slug: str, is_urgente: bool
         patches.append(f"badge_align_Z{target} ({n_badge} occurrences)")
 
     # Restaurer la grille canonique
-    # On doit d'abord restaurer le placeholder dans new_body, puis re-appliquer
-    # le badge patch (Step 5) sur la version finale. Sinon le else `new=new_body`
-    # écrase le badge patché (P0.5C-tier1bis bugfix).
+    # P0.5C-tier1bis bugfix : on doit fusionner body+badge dans `new`.
+    # Le flow était : body patches dans `new_body` (separé), badge patch dans
+    # `new` (avec body d'origine). Fallback `new = new_body` perdait le badge.
+    # CORRECTION : remplacer le body d'origine dans `new` par `new_body`
+    # (avec grille restaurée), PUIS appliquer le badge patch sur la fusion.
     new_body = new_body.replace(GRILLE_PLACEHOLDER, RE_GRILLE_CANON_INFO.pattern)
-    # Si le placeholder était dans new (avant Step 5), on restore aussi new
-    # Sinon on garde new (= badge patché appliqué au-dessus du placeholder restauré)
+    # 1) Re-appliquer le badge patch SUR new_body (pour avoir body+badge)
+    new_body, _ = RE_BADGE_ATTR.subn(
+        lambda m: f'data-zone="{target}"' if int(m.group(1)) != target else m.group(0),
+        new_body,
+    )
+    # 2) Replacer dans `new` le bloc body (placeholder->grille canonique) par
+    #    new_body. Comme la grille canonique est identique entre les deux,
+    #    on peut remplacer `new` (après son badge patch) directement par
+    #    new_body (qui contient body+badge patchés + grille restaurée).
+    #    ASTUCE : le badge patch dans `new` est resté sur l'ANCIEN body.
+    #    En ecrasant `new` par new_body on garde body patché + badge patché.
     if GRILLE_PLACEHOLDER in new:
         new = new.replace(GRILLE_PLACEHOLDER, RE_GRILLE_CANON_INFO.pattern)
-    # À ce stade : new a le badge patché + body patches + grille restaurée.
-    # new_body a les body patches + grille restaurée mais SANS le badge patch.
-    # On préfère new (qui contient tout). Si pour une raison X new == content,
-    # on fallback sur new_body (au moins les body patches sont appliqués).
-    if new == content:
-        new = new_body
+    # Replacer `new` par new_body (body patches + badge patch + grille)
+    new = new_body
 
     # KO2_jsonld_zone : remplacer dans les blocs JSON-LD uniquement
     def fix_jsonld(m):
