@@ -124,7 +124,15 @@ Une absence de règle = autorisé par défaut.
 - **Grille tarifaire EXACTE** (jamais de fourchette inventée ; hors grille = « sob orçamento »)
 - **Géo-neutre** (jamais d'adresse/sede en dur ; widget géoloc dynamique seulement)
 - **Équipement EXACT élec** : **Fluke T6-1000** (testeur tension/courant sans contact), **Megger MFT1741+** (testeur d'installation multifonction), **ROLeak Aqua 3Plus** (détection ACOUSTIQUE de fuites — rare sur le marché, vrai différenciateur), **FLIR E96** (caméra thermique 43 200 px), **caméra d'inspection 30 m** pour conduits
-- **AUCUN DOCUMENT ÉMIS (ruling Filipe 2026-07-08, verrouillé)** : Filipe fait **uniquement le travail élec** (instalação, reparação, diagnóstico). Il ne délivre **ni certificat DGEG, ni relatório técnico (de conformidade), ni ficha eletrotécnica**. **INTERDIT** sur toute page : « emitimos/fazemos certificação », « relatório técnico », « fichas eletrotécnicas », « emissão de certificado », « instalações certificadas ». **INTERDIT AUSSI** toute mention du statut DGEG (« em curso », « enregistrement en cours », « aguardando », n° de dossier). Info éducative neutre OK (« a certificação é obrigatória por lei ») mais **jamais « nous le faisons »**. Reframe = décrire le **travail réel**, pas un livrable.
+- **Certification DGEG OBTENUE 2026-07-23 (despacho recebido 24-07-2026, source-of-truth `~/work/Sites/DGEG-CERT-SOURCE-OF-TRUTH.md`)** : **Filipe Bragança é Técnico Responsável de Instalações Elétricas de Serviço Particular (TRIESP) inscrito na DGEG com o número 90062**, domínio **Execução em Baixa Tensão**, instalações até **41,4 kVA**. Emitimos **Ficha Eletrotécnica** e **Termo de Responsabilidade** (Lei n.º 14/2015, de 16 de fevereiro). Seguro de responsabilidade civil válido (mín. 50.000 €).
+  - **INTERDIT** de surclamer le statut : JAMAIS « definitivo », « permanente », « número atribuído definitivamente » (l'inscription est à *título provisório*, art. 34 Lei 14/2015). Vrai dit « inscrito » ou « registado ».
+  - **INTERDIT** de surclamer le scope : JAMAIS « acima de 41,4 kVA », « média tensão », « alta tensão », « posto de transformação », « industrial pesado ». Strictement « Baixa Tensão até 41,4 kVA ».
+  - **JAMAIS « CERTIEL »** : c'est DGEG. Pas CERTIEL, pas un autre organisme.
+  - **INTERDIT** d'inventer un autre identifiant ou de mélanger les chiffres (pas `1757/2026/DIEN`, pas `LDE Mirandela` — c'est de l'histoire ancienne).
+  - **Nouveau service débloqué par la cert** : instalação de carregadores VE (wallbox) dans le scope Baixa Tensão até 41,4 kVA. Émet Ficha + Termo. Avant la cert, ce service était HORS périmètre.
+  - **HORS périmètre** (toujours) : climatisation, pompe à chaleur, plancher chauffant, solaire, baterias, postes de transformation, média tensão. Refuser ou réorienter.
+  - **Wording public canonique (verbatim)** : *« Técnico Responsável de Instalações Elétricas inscrito na DGEG — TRIESP n.º 90062 (domínio Execução em Baixa Tensão, instalações até 41,4 kVA). Emitimos Ficha Eletrotécnica e Termo de Responsabilidade. Seguro de responsabilidade civil válido. (Lei n.º 14/2015) »*.
+  - **Prix service certifié** : serviço com Ficha/Termo = a partir de 350 €, orçamento escrito antes. Distinct de 70 €/h main d'œuvre urgence.
 
 **Gabarit de référence** = §13 ci-dessous (« Standard de page différenciant » — identique à `canalizador-urgente/AGENTS.md` §13, focus élec).
 
@@ -238,7 +246,7 @@ Moule de toutes les pages service/urgence électricité — focus risque électr
 - **Sites actifs** : canalizador-norte-reparos.pt (928 484 451) · canalizador-urgente.pt (928 484 451) · eletricista-norte-reparos.pt (932 321 892) · eletricista-urgente.pt (932 321 892)
 - **Zone** : Trás-os-Montes, ~34 concelhos, rayon ~130 km autour de Macedo de Cavaleiros
 - **Stack transversale** : React + Vite · GitHub (org `taffrand-gif`) · Vercel · Cloudflare DNS · n8n · Obsidian (vault `NORTE-OS`) · GA4 · Google Search Console · Google Ads · Meta Ads · TomTom · WhatsApp · ElevenLabs + Twilio (agent vocal, conçu, pas encore construit)
-- **Certification élec** : DGEG `1757/2026/DIEN` en attente · co-signature LDE Mirandela en attendant
+- **Certification élec** : TRIESP n.º 90062 inscrito na DGEG (Execução em Baixa Tensão, até 41,4 kVA) — cert obtida despacho 2026-07-23. Emitimos Ficha Eletrotécnica e Termo de Responsabilidade (Lei n.º 14/2015). JAMAIS surclamer « definitivo » ou au-delà de 41,4 kVA. JAMAIS « CERTIEL ». Source-of-truth : `~/work/Sites/DGEG-CERT-SOURCE-OF-TRUTH.md`.
 - **Langue** : interne FR informel · tout contenu client **PT-PT uniquement** (jamais PT-BR)
 
 **Règle pronom — rédaction client uniquement (verrouillée 30/06/2026)** :

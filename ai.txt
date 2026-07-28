@@ -36,7 +36,7 @@ Equipment:
 QuotePolicy: Orçamento por escrito antes de qualquer intervenção, sem surpresas
 Billing: Fatura com NIF emitida no final de cada trabalho
 Insurance: Responsabilidade civil profissional coberta
-Certifications: DGEG 1757/2026/DIEN em curso · co-assinatura LDE Mirandela
+Certifications: TRIESP n.º 90062 inscrito na DGEG — Execução em Baixa Tensão, instalações até 41,4 kVA. Emitimos Ficha Eletrotécnica e Termo de Responsabilidade (Lei n.º 14/2015). Seguro de responsabilidade civil válido (mín. 50.000 €).
 Language: PT-PT (Portugal)
 Pronoun: "nós" / "nossa equipa" (nunca "eu")
 ResponseChannel: Telefone + WhatsApp — fala sempre com a mesma pessoa, não um call center

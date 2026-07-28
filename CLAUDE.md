@@ -68,7 +68,7 @@
 - **Sites actifs** : `canalizador-norte-reparos.pt` (928 484 451) · `canalizador-urgente.pt` (928 484 451) · `eletricista-norte-reparos.pt` (932 321 892) · `eletricista-urgente.pt` (932 321 892)
 - **Zone** : Trás-os-Montes, ~34 concelhos, rayon ~130 km autour de Macedo de Cavaleiros
 - **Stack transversale** : React + Vite · GitHub (org `taffrand-gif`) · Vercel · Cloudflare DNS · n8n · Obsidian (vault `NORTE-OS`) · GA4 · Google Search Console · Google Ads · Meta Ads · TomTom · WhatsApp · ElevenLabs + Twilio (agent vocal, conçu, pas encore construit)
-- **Certification élec** : DGEG `1757/2026/DIEN` en attente · co-signature LDE Mirandela en attendant
+- **Certification élec** : TRIESP n.º 90062 inscrito na DGEG (Execução em Baixa Tensão, até 41,4 kVA) — cert obtida despacho 2026-07-23. Emitimos Ficha Eletrotécnica e Termo de Responsabilidade (Lei n.º 14/2015). JAMAIS surclamer « definitivo » ou au-delà de 41,4 kVA. JAMAIS « CERTIEL ». Source-of-truth : `~/work/Sites/DGEG-CERT-SOURCE-OF-TRUTH.md`.
 - **Langue** : interne FR informel · tout contenu client **PT-PT uniquement** (jamais PT-BR)
 - **Positionnement site** : parler « a nossa equipa / os nossos técnicos / contacte-nous / garantimos ». **JAMAIS « je suis seul / entreprise individuelle / contacto pessoal »** sur les pages visibles client — règle absolue, verrouillée par Philippe 30/06/2026
 - **Pronom** : **« nous » toujours, « je » jamais** côté rédaction client. Interdits : *« je suis », « je fais », « mon entreprise », « sozinho »*. À utiliser : *« nous sommes », « notre équipe », « nous faisons », « a nossa equipa », « fazemos »*. Vérifié à chaque livraison.

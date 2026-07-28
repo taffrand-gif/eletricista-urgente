@@ -26,8 +26,25 @@ Patron : **[peur réelle] → [retournement transparence + sécurité]**. R145-s
 - ✅ « Avaria elétrica à noite? Preço combinado antes, segurança em primeiro. »
 - ❌ INTERDIT (R145) : « resolvemos hoje », « chegamos em X min », « resposta prioritária ».
 
-## ⚠️ Certification DGEG
-DGEG **`1757/2026/DIEN` = EN ATTENTE / registo em curso**. **NE JAMAIS** la présenter comme obtenue (R11). Formule autorisée AGENTS.md uniquement (« em conformidade… registo em curso »). Pas de numéro affiché comme validé.
+## Certification DGEG (mise à jour 2026-07-28, cert OBTENUE despacho 2026-07-23)
+**`TRIESP n.º 90062` = OBTENUE** (despacho DGEG 2026-07-23, reçu 24-07-2026). Source-of-truth : `~/work/Sites/DGEG-CERT-SOURCE-OF-TRUTH.md`.
+
+- **Filipe Bragança est Técnico Responsável de Instalações Elétricas (TRIESP)** inscrit sous le **numéro 90062** à la DGEG.
+- **Domaine** : Execução em Baixa Tensão — **instalações até 41,4 kVA** (inclusive).
+- **Émet** : Ficha Eletrotécnica e Termo de Responsabilidade (Lei n.º 14/2015).
+- **Seguro RC** válido (mín. 50.000 €).
+
+**Garde-fous** :
+- JAMAIS surclamer « definitivo / permanente / número atribuído definitivamente » (inscrição a título provisório, art. 34 Lei 14/2015).
+- JAMAIS dépasser le scope (Baixa Tensão até 41,4 kVA) — pas de média/haute tensão, pas de solaire, pas de climatisation, pas de plancher chauffant.
+- JAMAIS « CERTIEL » (c'est DGEG, pas CERTIEL).
+- JAMAIS inventer un autre identifiant (pas de `1757/2026/DIEN`, pas de `LDE Mirandela` — c'est l'ancien wording caduque).
+
+**Nouveau service débloqué par la cert** : instalação de carregadores VE (wallbox) — dans le scope Baixa Tensão até 41,4 kVA, émet Ficha + Termo.
+
+**Wording public canonique (à réutiliser tel quel)** : *« Técnico Responsável de Instalações Elétricas inscrito na DGEG — TRIESP n.º 90062 (domínio Execução em Baixa Tensão, instalações até 41,4 kVA). Emitimos Ficha Eletrotécnica e Termo de Responsabilidade. Seguro de responsabilidade civil válido. (Lei n.º 14/2015) »*.
+
+**Prix service certifié** : serviço com Ficha/Termo = a partir de 350 € (orçamento escrito antes). Distinct de 70 €/h urgence.
 
 ## Verbatim peurs marché (concurrents — JAMAIS cités comme avis Norte Reparos, R11)
 « 180€ para SUBSTITUIR UMA TOMADA » · « serviço 24 horas e nao poder estar sem frigorifico » · « Serviço inacabado - 9 meses de espera » · « Mau servico prestado ».
