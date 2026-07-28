@@ -1,9 +1,19 @@
 # Norte Reparos — Eletricista Urgente em Trás-os-Montes
 
-> Eletricista de urgência ao domicílio em Trás-os-Montes, Portugal.
-> Site: https://eletricista-urgente.pt · Telefone / WhatsApp: +351 932 321 892
-> Última atualização: 2026-07-14
-> Source grille prix: ~/work/Sites/PRICING-CANONIQUE.md (Z1=15€ · Z2=25€ · Z3=35€ · Z4=45€ · Z5=55€ · Z6=65€ · 70 €/h élec · +50% nuit/WE/feriado)
+> Serviço de eletricista urgente 24h/7d em Trás-os-Montes, pelo técnico Filipe Bragança, com equipamento profissional (Fluke T6-1000, Megger MFT1741+, FLIR E96, ROLeak Aqua 3Plus, câmara de inspeção 30 m) e materiais Legrand, Schneider Electric, Hager, ABB, Siemens, Philips.
+> Última atualização: 2026-07-28 · Source grille prix: PRICING-CANONIQUE.md (Z1=15€ · Z2=25€ · Z3=35€ · Z4=45€ · Z5=55€ · Z6=65€ · 70 €/h élec · +50% nuit/WE/feriado)
+
+## Serviços
+
+- [Curto-circuito](https://eletricista-urgente.pt/curto-circuito.html)
+- [Falha de energia](https://eletricista-urgente.pt/falha-energia.html)
+- [Quadro / disjuntor a disparar](https://eletricista-urgente.pt/quadro-disjuntor-dispara.html)
+- [Tomada queimada](https://eletricista-urgente.pt/tomada-queimada.html)
+- [Tabela de preços completa](https://eletricista-urgente.pt/precos.html)
+
+## Preços
+
+Grille officielle Nord Reparos: mão de obra **70 €/h** (eletricista) + deslocação **Z1=15€ · Z2=25€ · Z3=35€ · Z4=45€ · Z5=55€ · Z6=65€** (selon distance routière calculée depuis notre base, ~130 km rayon opérationnel). Acréscimo +50% noite (20h-8h), fim de semana e feriados. Orçamento por escrito antes de qualquer intervenção. Voir: [precos.html](https://eletricista-urgente.pt/precos.html)
 
 ## Identidade
 - **Marca:** Norte Reparos (empresa técnica multi-sites)
