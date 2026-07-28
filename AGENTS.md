@@ -114,7 +114,7 @@ Une absence de règle = autorisé par défaut.
    - Phrase obligatoire : **"fala sempre com a mesma pessoa, não um call center"**
    - **JAMAIS** l'anonymat (pas de "equipa de profissionais" sans visage, pas de numéro générique)
 3. **Honnêteté / diagnostic transparent** : expliquer ce qui est fait et pourquoi, pas juste le prix
-4. **Traçabilité** : facture avec NIF, seguro RC (responsabilité civile), garantia escrita. ⚠️ **JAMAIS** de « ficha/relatório/certificado émis » — voir règle ci-dessous.
+4. **Traçabilité** : facture avec NIF, seguro RC (responsabilité civile), garantia escrita. ⚠️ Voir § ci-dessous : Filipe **EST** certifié DGEG TRIESP 90062 et émet **Ficha Eletrotécnica** + **Termo de Responsabilidade**.
 
 **Règle d'or de la 1ʳᵉ phrase d'une page d'urgence** : elle **rassure sur le PRIX**, pas seulement sur la disponibilité.
 
@@ -124,7 +124,10 @@ Une absence de règle = autorisé par défaut.
 - **Grille tarifaire EXACTE** (jamais de fourchette inventée ; hors grille = « sob orçamento »)
 - **Géo-neutre** (jamais d'adresse/sede en dur ; widget géoloc dynamique seulement)
 - **Équipement EXACT élec** : **Fluke T6-1000** (testeur tension/courant sans contact), **Megger MFT1741+** (testeur d'installation multifonction), **ROLeak Aqua 3Plus** (détection ACOUSTIQUE de fuites — rare sur le marché, vrai différenciateur), **FLIR E96** (caméra thermique 43 200 px), **caméra d'inspection 30 m** pour conduits
-- **AUCUN DOCUMENT ÉMIS (ruling Filipe 2026-07-08, verrouillé)** : Filipe fait **uniquement le travail élec** (instalação, reparação, diagnóstico). Il ne délivre **ni certificat DGEG, ni relatório técnico (de conformidade), ni ficha eletrotécnica**. **INTERDIT** sur toute page : « emitimos/fazemos certificação », « relatório técnico », « fichas eletrotécnicas », « emissão de certificado », « instalações certificadas ». **INTERDIT AUSSI** toute mention du statut DGEG (« em curso », « enregistrement en cours », « aguardando », n° de dossier). Info éducative neutre OK (« a certificação é obrigatória por lei ») mais **jamais « nous le faisons »**. Reframe = décrire le **travail réel**, pas un livrable.
+- **CERTIFICAÇÃO DGEG — TRIESP 90062 (ruling Filipe 2026-07-28, verrouillé)** : Filipe **EST technicien certifié DGEG** et émet **Ficha Eletrotécnica** + **Termo de Responsabilidade**. Wording public canonique (à réutiliser verbatim, source `DGEG-CERT-SOURCE-OF-TRUTH.md`) :
+  > **Técnico Responsável de Instalações Elétricas inscrito na DGEG — TRIESP n.º 90062** (domínio *Execução em Baixa Tensão*, instalações até 41,4 kVA). Emitimos **Ficha Eletrotécnica** e **Termo de Responsabilidade**. Seguro de responsabilidade civil válido. (Lei n.º 14/2015)
+  **Scope STRICT** (jamais surclamer) : ✅ « inscrito na DGEG », « TRIESP n.º 90062 », « Execução em Baixa Tensão », « instalações até 41,4 kVA », « Ficha Eletrotécnica », « Termo de Responsabilidade », « seguro RC ». **INTERDIT** : « definitivo / permanente / título definitivo », « CERTIEL » (c'est DGEG), « instalações certificadas » au sens qualification d'entreprise, tout scope hors Baixa Tensão / 41,4 kVA (MT, AT, produção, RESP, etc.). **Nuance honnêteté R11** : l'inscription est à *título provisório* (action de formation prévue, art. 34 Lei 14/2015) — « inscrito » reste VRAI, « definitivo » est INTERDIT.
+- **CHARGEUR VE — service RÉEL** (ruling 2026-07-28) : l'installation de **carregadores de veículos elétricos (wallbox)** entre dans le scope Baixa Tensão até 41,4 kVA. **AUTORISÉ** sur les 2 sites élec avec mention Ficha + Termo. Mots-clés : « carregador carro elétrico », « wallbox instalação », « posto de carregamento VE », « carregador veículo elétrico casa ». **HORS scope** : climatisation / bomba de calor / solaire / pompe à chaleur / plancher chauffant (sauf GO explicite Filipe).
 
 **Gabarit de référence** = §13 ci-dessous (« Standard de page différenciant » — identique à `canalizador-urgente/AGENTS.md` §13, focus élec).
 
@@ -238,7 +241,7 @@ Moule de toutes les pages service/urgence électricité — focus risque électr
 - **Sites actifs** : canalizador-norte-reparos.pt (928 484 451) · canalizador-urgente.pt (928 484 451) · eletricista-norte-reparos.pt (932 321 892) · eletricista-urgente.pt (932 321 892)
 - **Zone** : Trás-os-Montes, ~34 concelhos, rayon ~130 km autour de Macedo de Cavaleiros
 - **Stack transversale** : React + Vite · GitHub (org `taffrand-gif`) · Vercel · Cloudflare DNS · n8n · Obsidian (vault `NORTE-OS`) · GA4 · Google Search Console · Google Ads · Meta Ads · TomTom · WhatsApp · ElevenLabs + Twilio (agent vocal, conçu, pas encore construit)
-- **Certification élec** : DGEG `1757/2026/DIEN` en attente · co-signature LDE Mirandela en attendant
+- **Certification élec** : TRIESP **n.º 90062** — DGEG, domínio *Execução em Baixa Tensão* até 41,4 kVA (Lei n.º 14/2015) — titulaire Filipe Bragança
 - **Langue** : interne FR informel · tout contenu client **PT-PT uniquement** (jamais PT-BR)
 
 **Règle pronom — rédaction client uniquement (verrouillée 30/06/2026)** :
@@ -248,6 +251,71 @@ Moule de toutes les pages service/urgence électricité — focus risque électr
 - Vérifié à chaque livraison
 
 **Compatibilité** : ce bloc complète la doctrine locale (R1-R11 + §11 ZÉRO INVENTION + §12 Doctrine Transparence Radicale + §13 gabarit + §14 boucle élec) sans la remplacer. En cas de contradiction, la doctrine locale prime.
+
+---
+
+## 16. GATE DGEG — Preuve obligatoire avant merge de tout batch mentionnant DGEG/TRIESP/certificado (verrouillée 2026-07-28 par Philippe)
+
+**Règle non-négociable** : tout batch (script, copier-coller, refonte) qui insère ou modifie un bloc DGEG/TRIESP/Ficha/Termo sur les pages élec **DOIT** passer le gate ci-dessous avant merge vers `main`. **Refus du merge** si une des conditions échoue.
+
+### Test 1 — Présence wording canonique (grep)
+La chaîne exacte suivante DOIT apparaître dans la diff du batch (et sur chaque page touchée) :
+- `TRIESP n.º 90062`
+- `Execução em Baixa Tensão`
+- `até 41,4 kVA`
+- `Ficha Eletrotécnica`
+- `Termo de Responsabilidade`
+- `Lei n.º 14/2015`
+
+**INTERDIT dans le batch** (à grep `-v` et compter = 0 occurrence) :
+- `definitivo` / `permanente` / `título definitivo`
+- `CERTIEL`
+- `instalações certificadas` (au sens qualification d'entreprise)
+
+### Test 2 — JSON-LD credential valide (parse strict)
+Chaque page touchée DOIT contenir un JSON-LD `Person` avec `hasCredential` :
+- `credentialCategory` = `"Registo profissional DGEG — TRIESP"`
+- `identifier` = `"90062"`
+- `recognizedBy.url` = `"https://www.dgeg.gov.pt/"`
+Parse Python : `json.loads(blob)` doit retourner sans exception (après dé-sandbox `https://***@type` → `https://schema.org`).
+
+### Test 3 — Invariants structurels (Δ = 0 cassé)
+- Compteur `<h1>` par page = **inchangé** vs `main` (1 ou 0 toléré selon l'état pré-existant)
+- `tel:+351932321892` (numéro NON masqué) — `tel:+351****1892` interdit
+- Aucune régression grille tarifaire (70 €/h élec)
+
+### Test 4 — Chargeur VE
+Si le batch introduit « chargeur VE / wallbox / carregador » : OK. Si NON (pas de mention VE) : N/A, le test passe par défaut.
+
+### Comment exécuter le gate (skill `norte-os-p0-diagnostics` § DGEG-cert gate)
+
+```bash
+cd <repo>/.worktrees/fix-dgeg-doctrine
+# Test 1
+grep -l "TRIESP n.º 90062" *.html | wc -l   # > 0 attendu (>= nb pages élec)
+grep -rE "(definitivo|permanente|CERTIEL|instalações certificadas)" *.html | grep -v "<!-- " | wc -l   # doit être 0
+# Test 2 (extrait)
+python3 -c '
+import re, json
+from pathlib import Path
+broken=[]
+for f in Path(".").glob("**/*.html"):
+    txt = f.read_text(errors="replace")
+    for m in re.finditer(r"<script type="application/ld\+json">(.*?)</script>", txt, re.DOTALL):
+        b = m.group(1).replace("https://***@type","https://schema.org")
+        try: json.loads(b)
+        except Exception as e: broken.append((f.name, str(e)[:60]))
+print("JSON-LD invalides:", len(broken))
+'
+# Test 3 : H1 inchangé vs main
+git diff origin/main -- '*.html' | grep -E '^[+-]<h1' | wc -l   # devrait être 0 si aucune nouvelle ligne H1
+```
+
+**Sortie interdite** : « Tout vert sauf Test 2 / JSON-LD invalides » → STOP, fixer le JSON avant merge.
+
+### Provenance
+Ce gate est dérivé de la doctrine source-of-truth : `~/work/Sites/DGEG-CERT-SOURCE-OF-TRUTH.md`.
+Tout écart à cette source = STOP validation Philippe.
 
 ---
 
