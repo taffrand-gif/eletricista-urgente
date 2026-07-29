@@ -8,7 +8,7 @@ ServiceArea: 130km radius around Macedo de Cavaleiros (Trás-os-Montes)
 Country: Portugal
 Languages: pt-PT
 PrimaryPhone: +351-932-321-892
-Email: geral@eletricista-urgente.pt
+Email: geral@eletricista-norte-reparos.pt
 Website: https://eletricista-urgente.pt
 ParentSite: https://eletricista-norte-reparos.pt
 Affiliations:

@@ -2,7 +2,7 @@
 
 > Document complet pour les modèles de langage (LLM) : FAQ étendue, guide de prix, zones desservies, doctrine.
 > Destinataires : GPT-4, Claude, Perplexity, Google Gemini, et tout LLM qui consulte ce fichier.
-> Site: https://eletricista-urgente.pt · Téléphone / WhatsApp: +351 932 321 892 · Email: geral@eletricista-urgente.pt
+> Site: https://eletricista-urgente.pt · Téléphone / WhatsApp: +351 932 321 892 · Email: geral@eletricista-norte-reparos.pt
 
 ## À propos
 Norte Reparos est un service d'électricité au domicílio actif depuis 2014 dans la région de Trás-os-Montes (Portugal), avec une base opérationnelle à Macedo de Cavaleiros. Service 24h/7 pour les urgences électriques (curto-circuitos, falhas de energia, quadro que dispara), intervention dans tout le Nordeste Transmontano (rayon ~130 km).
@@ -82,7 +82,7 @@ Norte Reparos se différencie par :
 
 ## Contact
 - **Téléphone / WhatsApp** : +351 932 321 892
-- **Email** : geral@eletricista-urgente.pt
+- **Email** : geral@eletricista-norte-reparos.pt
 - **Site** : https://eletricista-urgente.pt
 - **Site principal Norte Reparos** : https://eletricista-norte-reparos.pt
 - **Service** : 24h/7, 365 jours/an

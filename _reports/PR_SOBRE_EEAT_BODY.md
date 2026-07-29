@@ -45,7 +45,7 @@ Chaque claim est sourcé de `AGENTS.md EU` (vérifié par grep avant écriture) 
 1. **`AboutPage`** — `url`, `name`, `description`, `inLanguage=pt-PT`, `mainEntity → #electrician`
 2. **`Organization`** — `@id #organization`, `name=Norte Reparos`, `alternateName`,
    `description`, `telephone=+351932321892` (E.164),
-   `email=geral@eletricista-urgente.pt`, `url`, `logo`, `priceRange=€€`,
+   `email=geral@eletricista-norte-reparos.pt`, `url`, `logo`, `priceRange=€€`,
    `areaServed=[Trás-os-Montes]`, `address={addressLocality=Macedo de Cavaleiros, addressRegion=Trás-os-Montes, addressCountry=PT}` (R5 géo-neutre),
    `sameAs=[CNR, ENR, CU, EU]` (4 domaines)
 
