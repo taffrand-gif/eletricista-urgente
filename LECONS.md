@@ -6,6 +6,29 @@
 
 ---
 
+## Leçon #EU-INDEX-2026-07-29-01 — Un gros sitemap ne remplace pas un cluster prioritaire cohérent
+
+**Contexte** : mission « résurrection EU » après constat GSC 90 jours de 15 clics, 712 impressions et seulement 40 requêtes visibles. Le site avait pourtant des pages ville `eletricista-urgente-<ville>` riches en `FAQPage` + `Person`, servies en 200 et sans `noindex`.
+
+**Preuve du blocage** :
+1. Le sitemap core ne contenait **aucune** des 9 pages ville prioritaires ; elles étaient noyées dans `sitemap-villages.xml` (1 936 URLs, dont 318 entrées pointaient déjà vers une page portant `noindex` lors du diagnostic local).
+2. Les 9 hubs `concelhos/<ville>` liaient la variante concurrente `/eletricista-<ville>`, jamais la page urgence choisie.
+3. URL Inspection sur les 18 variantes (9 villes × 2 slugs) donnait un état fragmenté : 9 PASS et 9 non-PASS (URL inconnue, crawlée non indexée ou noindex), avec des canoniques parfois croisés.
+4. GSC ne montrait qu'une requête locale qualifiée (`eletricista bragança`, 13 impressions), envoyée vers la homepage et non vers une page ville.
+
+**Takeaway** : `200 + canonical + bon schema` ne suffit pas si Google reçoit plusieurs cibles ville concurrentes et aucun chemin de priorité net. Le correctif minimal n'est pas de générer plus de pages : choisir un corpus ville limité, le placer dans le sitemap core et le relier depuis les hubs géographiques existants. Le schema fort devient utile seulement après découverte et consolidation du signal.
+
+**Action canon** :
+1. Pour chaque cluster prioritaire, choisir **une** URL cible par ville et vérifier : `200`, canonical self-ref, zéro noindex, téléphone cliquable, FAQPage + Person valides.
+2. Ajouter uniquement ces pages choisies au sitemap core ; ne jamais promouvoir tout le corpus templaté.
+3. Faire pointer le hub `concelhos/<ville>` vers la même cible choisie avec une ancre descriptive.
+4. Ajouter un audit exécutable qui verrouille les comptes du core et les invariants page/hub/schema.
+5. Vérifier séparément les URLs legacy/noindex du sitemap long-tail : déclarer un sitemap de masse sans contrôle d'indexabilité diffuse le signal et peut produire des erreurs GSC.
+
+**Source** : diagnostic GSC API + URL Inspection + crawl prod + PR draft `fix/eu-resurrection-indexation-2026-07-29`, 2026-07-29.
+
+---
+
 ## Leçon #P0bis-2026-07-16-01 — Sitemap-EMPTY trahirait GSC
 
 **Contexte** : mission P0bis « Remplacer sitemap.xml complet par sitemap-core : 33 hubs concelhos/ + 6 distritos/ + pages money-kw + piliers ». État disque hérité : 0 page `concelhos/` (malgré la PR #147 qui les prétend générées), 0 `distritos/`, 0 money-kw, 0 village page. Seul `sitemap.xml` les référençait toutes.
