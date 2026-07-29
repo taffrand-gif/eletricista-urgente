@@ -1240,3 +1240,27 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - Correction des 3 liens `tel:+351****4451` de `public/avaliacoes-clientes.html` vers `tel:+351932321892`, cohérents avec le numéro visible et le NAP électricien verrouillé.
 - Leçon : une terminaison masquée ne suffit pas à déterminer le numéro ; utiliser le numéro visible dans le même fichier puis vérifier le NAP du repo. Un remplacement global `4451 → 928` aurait créé une contamination plomberie sur EU. Origine exacte documentée dans `~/work/Sites/LECONS.md` (leçon #a7868915) : héritage de templates déjà masqués, confirmé d'abord sur CU.
 - Branche `fix/nap-phone-e164-4451`, PR draft, zéro merge.
+
+---
+
+### 2026-07-29 — R145 : réponses FAQ vides laissées par la purge délais (PROTOTYPE 1 page, cowork-loop)
+- **Découverte** : une purge R145 antérieure (retrait des délais chiffrés) a laissé **des réponses `acceptedAnswer` cassées ou vides** dans le JSON-LD `FAQPage` de **~955 fichiers** (hors `_archive/`), sur la question « Quanto tempo demoram a chegar? ». 4 variantes recensées :
+
+| Occurrences | Valeur de `text` |
+|---|---|
+| 527 | `" conforme zona"` (réponse vide : commence par une espace, sans sujet ni verbe) |
+| 418 | `" min conforme zona. atendimento após contacto telefónico ao telefone."` (unité « min » orpheline, le nombre a été retiré ; « ao telefone » redondant ; minuscule initiale) |
+| 6 | `" min conforme zona. Atendemos 24h/7 dias, após contacto telefónico ao telefone."` |
+| 4 | `" min conforme zona. Atendimento 24h/7 dias, ligue 932 321 892 ao telefone."` |
+
+- **Impact SEO** : Google reçoit des `FAQPage` dont une réponse est syntaxiquement vide ou incohérente sur ~955 pages → risque de perte d'éligibilité aux rich results FAQ, et signal de qualité dégradé.
+- **Pourquoi la réponse ne peut pas être « réparée »** : la question porte sur un **délai d'arrivée**. R145 interdit tout délai chiffré, et R11 interdit d'inventer. Une formulation type « resposta mediante confirmação por telefone » est explicitement **BANNIE** par R145. **Aucune réponse honnête et conforme n'existe** → la seule issue conforme est de **retirer le couple Q/R** du schéma (le vide honnête est meilleur que le faux, R11).
+- **Action ce run — PROTOTYPE SUR 1 SEULE PAGE**, conformément à AGENTS.md §12 (« n'appliquer AUCUN batch de pages avant validation d'un prototype sur 1 page test et OK explicite de Philippe ; pas de script qui refait 50 pages en série ») :
+  - Fichier : `calculadora-de-preco.html` (money page, variante `" conforme zona"`).
+  - Retrait du couple `{"@type": "Question", "name": "Quanto tempo demoram a chegar?", …}` du bloc `FAQPage`.
+- **Témoins R8 (sur le fichier prototype)** : `demoram a chegar` 1→0 ; `conforme zona` 1→0 ; delta = 130 octets ; `FAQPage` re-parsé après patch → **JSON valide**, 2 questions restantes, toutes deux avec une réponse réelle (« Quanto custa uma urgencia eletrica? » → grille 70 €/h + Z1-Z6 ; « Trabalham Atendimento 24h/7d? » → conforme, R145 autorise « 24h/7 dias »).
+- **Conformité** : R145 ✅, R11 ✅ (retrait, aucune invention), R4 ✅, R6 ✅, R8 ✅, atomique ✅ (1 fichier, 1 commit), AGENTS.md §12 ✅ (prototype, pas de batch).
+- **Statut** : ✅ Fait (prototype) — branche `loop/2026-07-29-eletricista-urgente-faq-stub-prototype`.
+- **🛑 SUITE = DÉCISION PHILIPPE** : valider ce pattern puis autoriser (ou non) le batch sur les ~954 fichiers restants. Le même défaut est à vérifier sur `canalizador-urgente`.
+
+---
