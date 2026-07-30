@@ -1265,3 +1265,14 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **🛑 SUITE = DÉCISION PHILIPPE** : valider ce pattern puis autoriser (ou non) le batch sur les ~954 fichiers restants. Le même défaut est à vérifier sur `canalizador-urgente`.
 
 ---
+
+### 2026-07-30 — AMENDEMENT doctrine : chargeur VE RÉEL sur EU + ENR (cert DGEG TRIESP 90062)
+
+- **Fait** : la certification DGEG **TRIESP 90062** a été obtenue le 24/07/2026 (despacho 23/07/2026, Baixa Tensão até 41,4 kVA). Source vérité : `~/work/Sites/DGEG-CERT-SOURCE-OF-TRUTH.md`.
+- **Conséquence doctrine** : l'installation de **chargeur VE / wallbox** passe du statut FAUX (interdit) au statut **RÉEL** sur les 2 sites élec (EU + ENR), scope Baixa Tensão ≤ 41,4 kVA, avec émission de Ficha Eletrotécnica + Termo de Responsabilidade.
+- **Amendement vs ce SEO_PLAN** :
+  - Les entrées HISTORIQUE qui mentionnent « chargeur VE hors-scope EU » (lignes 277, 692-695, 705) documentent l'état de la doctrine à la date d'écriture (29/06, 03/07, 30/06) et restent factuelles à leur époque — **NE PAS réécrire l'historique** (append-only). La doctrine actuelle prévaut (cf. `AGENTS.md` §12 « DOCUMENTS ÉMIS — mis à jour 30/07/2026 » + `DGEG-CERT-SOURCE-OF-TRUTH.md`).
+  - **Ligne 103-104** « Services interdits PURGÉS : 90 pages (chargeur VE, painel solar, ar condicionado, bomba calor) » : interprétation correcte à l'époque. La catégorie « chargeur VE » est désormais inversée sur EU (installation = **RÉEL**, SAV/panne = pilier EU actuel `carregador-veiculo-eletrico.html`).
+  - **Ligne 670-673** (M9 audit) : « 87 fichiers contiennent termes services FAUX (…carregador de carro elétrico…) ». **Post-cert, ces occurrences doivent être reclassées** : le terme `carregador de carro elétrico` dans le body n'est plus systématiquement « FAUX » sur EU/ENR — distinguer : (a) **installation/avaria wallbox** = RÉEL sur EU/ENR ; (b) **Linha dedicada / Preparação para VE** = reste à purger (Pattern A M2 #78 historique — toujours valide).
+- **Action prise (t_9a231a1d)** : `AGENTS.md` EU §12 ligne 127 + ligne 117 mis à jour. Pas d'autre modification de ce SEO_PLAN dans cette tâche (audit/migration body = mission séparée).
+- **Statut** : ✅ Fait côté AGENTS.md. SEO_PLAN inchangé sur l'historique, doctrine courante mise à jour via AGENTS.md et `DGEG-CERT-SOURCE-OF-TRUTH.md`.
