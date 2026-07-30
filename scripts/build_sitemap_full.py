@@ -15,10 +15,16 @@ L'objectif est de prouver a Google que chaque page racine a une URL dans le site
 peu importe sa taille. Le seuillage par taille etait une heuristique de l'ancien
 script (build_sitemap.py) ; on la supprime pour ce tour.
 
+Patch AUDIT-SITEMAP-TIERS-2026-07-30 (t_85288418) : <lastmod> calcule via
+git log -1 %aI -- <file> (date honnete du dernier commit sur le fichier
+serti) au lieu de TODAY = date.today(). 9/10 sitemaps Norte-OS etaient
+a 0-1.5% honnete.
+
 Usage :
   python3 scripts/build_sitemap_full.py
 """
 import os
+import subprocess
 import sys
 from datetime import date
 
@@ -38,6 +44,23 @@ else:
 TODAY = date.today().isoformat()
 
 
+def git_lastmod(rel_path: str) -> str:
+    """Renvoie la date du dernier commit (YYYY-MM-DD) pour le fichier
+    `rel_path` (relatif a la racine du repo), ou TODAY si git echoue.
+    Patch AUDIT-SITEMAP-TIERS-2026-07-30 §7.1.
+    """
+    try:
+        out = subprocess.run(
+            ["git", "log", "-1", "--format=%aI", "--", rel_path],
+            cwd=ROOT, capture_output=True, text=True, timeout=5,
+        ).stdout.strip()
+        if not out:
+            return TODAY
+        return out[:10]
+    except Exception:
+        return TODAY
+
+
 def list_html_slugs(directory):
     """Liste tous les .html (slug = filename sans .html)."""
     if not os.path.isdir(directory):
@@ -48,12 +71,15 @@ def list_html_slugs(directory):
     )
 
 
-def build_sitemap_xml(urls_with_priority):
-    """Genere le XML sitemap.0.9 formate avec lastmod et priority."""
+def build_sitemap_xml(urls_with_relpath):
+    """`urls_with_relpath` = liste de (url, priority, relPath)."""
     lines = ['<?xml version="1.0" encoding="UTF-8"?>']
     lines.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
-    for url, priority in urls_with_priority:
-        lines.append(f'<url><loc>{url}</loc><lastmod>{TODAY}</lastmod><priority>{priority}</priority></url>')
+    for url, priority, rel_path in urls_with_relpath:
+        lines.append(
+            f'<url><loc>{url}</loc><lastmod>{git_lastmod(rel_path)}</lastmod>'
+            f'<priority>{priority}</priority></url>'
+        )
     lines.append('</urlset>')
     lines.append('')
     return '\n'.join(lines)
@@ -64,44 +90,45 @@ def main():
     root_html = list_html_slugs(ROOT)
 
     # 2) /concelhos/
-    concelhos_html = list_html_slugs(os.path.join(ROOT, "concelhos"))
+    concelhos_dir = os.path.join(ROOT, "concelhos")
+    concelhos_html = list_html_slugs(concelhos_dir)
 
     # 3) /distritos/
-    distritos_html = list_html_slugs(os.path.join(ROOT, "distritos"))
+    distritos_dir = os.path.join(ROOT, "distritos")
+    distritos_html = list_html_slugs(distritos_dir)
 
-    # Construction ordonnee
-    urls = []
+    # Construction ordonnee avec relPath.
+    entries = []
 
     # index.html en priorite 1.0
     if "index" in root_html:
-        urls.append((f"{BASE_URL}/", "1.0"))
+        entries.append((f"{BASE_URL}/", "1.0", "index.html"))
         root_html_no_index = [s for s in root_html if s != "index"]
     else:
         root_html_no_index = root_html
 
     # Autres piliers racine : priorite 0.7
-    # On ne distingue PAS piliers vs money ici : on liste tout
     for slug in sorted(root_html_no_index):
-        urls.append((f"{BASE_URL}/{slug}", "0.7"))
+        entries.append((f"{BASE_URL}/{slug}", "0.7", f"{slug}.html"))
 
     # Concelhos : priorite 0.8
     for slug in concelhos_html:
-        urls.append((f"{BASE_URL}/concelhos/{slug}", "0.8"))
+        entries.append((f"{BASE_URL}/concelhos/{slug}", "0.8", f"concelhos/{slug}.html"))
 
     # Distritos : priorite 0.7
     for slug in distritos_html:
-        urls.append((f"{BASE_URL}/distritos/{slug}", "0.7"))
+        entries.append((f"{BASE_URL}/distritos/{slug}", "0.7", f"distritos/{slug}.html"))
 
     # Stats
-    print(f"=== SITEMAP COMPLET (P0 indexation {TODAY}) ===")
+    print(f"=== SITEMAP COMPLET (P0 indexation) ===")
     print(f"  BASE_URL         : {BASE_URL}")
     print(f"  Pages racine     : {len(root_html)}")
     print(f"  Concelhos/       : {len(concelhos_html)}")
     print(f"  Distritos/       : {len(distritos_html)}")
-    print(f"  TOTAL URLs       : {len(urls)}")
+    print(f"  TOTAL URLs       : {len(entries)}")
 
     # Generation XML
-    xml = build_sitemap_xml(urls)
+    xml = build_sitemap_xml(entries)
 
     # Ecriture : sitemap.xml racine + public/sitemap.xml
     out_paths = [
