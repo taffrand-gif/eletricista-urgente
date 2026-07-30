@@ -114,7 +114,7 @@ Une absence de règle = autorisé par défaut.
    - Phrase obligatoire : **"fala sempre com a mesma pessoa, não um call center"**
    - **JAMAIS** l'anonymat (pas de "equipa de profissionais" sans visage, pas de numéro générique)
 3. **Honnêteté / diagnostic transparent** : expliquer ce qui est fait et pourquoi, pas juste le prix
-4. **Traçabilité** : facture avec NIF, seguro RC (responsabilité civile), garantia escrita. ⚠️ **JAMAIS** de « ficha/relatório/certificado émis » — voir règle ci-dessous.
+4. **Traçabilité** : facture avec NIF, seguro RC (responsabilité civile), garantia escrita, **Ficha Eletrotécnica + Termo de Responsabilidade** émis sous TRIESP DGEG n.º 90062 (Baixa Tensão ≤ 41,4 kVA — Lei 14/2015) — voir règle détaillée ci-dessous.
 
 **Règle d'or de la 1ʳᵉ phrase d'une page d'urgence** : elle **rassure sur le PRIX**, pas seulement sur la disponibilité.
 
@@ -124,7 +124,7 @@ Une absence de règle = autorisé par défaut.
 - **Grille tarifaire EXACTE** (jamais de fourchette inventée ; hors grille = « sob orçamento »)
 - **Géo-neutre** (jamais d'adresse/sede en dur ; widget géoloc dynamique seulement)
 - **Équipement EXACT élec** : **Fluke T6-1000** (testeur tension/courant sans contact), **Megger MFT1741+** (testeur d'installation multifonction), **ROLeak Aqua 3Plus** (détection ACOUSTIQUE de fuites — rare sur le marché, vrai différenciateur), **FLIR E96** (caméra thermique 43 200 px), **caméra d'inspection 30 m** pour conduits
-- **AUCUN DOCUMENT ÉMIS (ruling Filipe 2026-07-08, verrouillé)** : Filipe fait **uniquement le travail élec** (instalação, reparação, diagnóstico). Il ne délivre **ni certificat DGEG, ni relatório técnico (de conformidade), ni ficha eletrotécnica**. **INTERDIT** sur toute page : « emitimos/fazemos certificação », « relatório técnico », « fichas eletrotécnicas », « emissão de certificado », « instalações certificadas ». **INTERDIT AUSSI** toute mention du statut DGEG (« em curso », « enregistrement en cours », « aguardando », n° de dossier). Info éducative neutre OK (« a certificação é obrigatória por lei ») mais **jamais « nous le faisons »**. Reframe = décrire le **travail réel**, pas un livrable.
+- **DOCUMENTS ÉMIS (ruling Filipe, mis à jour 30/07/2026 — DGEG TRIESP 90062 actif)** : Filipe est désormais **Técnico Responsável de Instalações Elétricas de Serviços Particular (TRIESP) inscrito na DGEG sob o n.º 90062**, domaine Execução em Baixa Tensão, instalações até **41,4 kVA**. Il **délivre officiellement** : **Ficha Eletrotécnica** + **Termo de Responsabilidade** (Lei n.º 14/2015, de 16 de fevereiro). Source vérité unique : `~/work/Sites/DGEG-CERT-SOURCE-OF-TRUTH.md`. **AUTORISÉ** sur les 2 sites élec : « emitimos Ficha Eletrotécnica », « emitimos Termo de Responsabilidade », « somos DGEG n.º 90062 », « instalação legalizada », « instalação certificada », « TRIESP 90062 », « seguro RC €50 000 ». **JAMAIS** : « certificação definitiva » (inscription provisoire — Lei 14/2015 art. 34), « CERTIEL » (c'est DGEG, pas CERTIEL), « acima de 41,4 kVA » (hors scope légal individuel), « nr dossier em curso / aguardando » (la cert est **obtenue**, plus en attente), ou tout claim DGEG sur un **site plomberie** (CNR/CU — JAMAIS). Chargeur VE / wallbox = service **RÉEL** sur EU + ENR (scope Baixa Tensão ≤41,4 kVA, avec Ficha + Termo) — **JAMAIS lister comme service FAUX ou interdit** sur les 2 sites élec. Clima / solaire / bomba calor / plancher chauffant restent HORS périmètre (inchangé). Prix Ficha + Termo (service certifié) : à partir de **350 €** — ne JAMAIS appliquer ce prix à un chargeur VE (qui suit le prix marché matériel + 70 €/h + Fundo Ambiental).
 
 **Gabarit de référence** = §13 ci-dessous (« Standard de page différenciant » — identique à `canalizador-urgente/AGENTS.md` §13, focus élec).
 
@@ -238,7 +238,7 @@ Moule de toutes les pages service/urgence électricité — focus risque électr
 - **Sites actifs** : canalizador-norte-reparos.pt (928 484 451) · canalizador-urgente.pt (928 484 451) · eletricista-norte-reparos.pt (932 321 892) · eletricista-urgente.pt (932 321 892)
 - **Zone** : Trás-os-Montes, ~34 concelhos, rayon ~130 km autour de Macedo de Cavaleiros
 - **Stack transversale** : React + Vite · GitHub (org `taffrand-gif`) · Vercel · Cloudflare DNS · n8n · Obsidian (vault `NORTE-OS`) · GA4 · Google Search Console · Google Ads · Meta Ads · TomTom · WhatsApp · ElevenLabs + Twilio (agent vocal, conçu, pas encore construit)
-- **Certification élec** : DGEG `1757/2026/DIEN` en attente · co-signature LDE Mirandela en attendant
+- **Certification élec** : DGEG `TRIESP 90062` **obtenue 24/07/2026** (despacho 23/07/2026) · Execução em Baixa Tensão · instalações até 41,4 kVA · Seguro RC ≥ 50 000 € · Lei n.º 14/2015. Filipe **délivre officiellement** Ficha Eletrotécnica + Termo de Responsabilidade. À partir de **350 €** pour le service certifié (Ficha + Termo). Source vérité : `~/work/Sites/DGEG-CERT-SOURCE-OF-TRUTH.md`.
 - **Langue** : interne FR informel · tout contenu client **PT-PT uniquement** (jamais PT-BR)
 
 **Règle pronom — rédaction client uniquement (verrouillée 30/06/2026)** :
@@ -252,3 +252,12 @@ Moule de toutes les pages service/urgence électricité — focus risque électr
 ---
 
 **Source de vérité unique** : `~/.openclaw/workspace/AGENTS.md` (global) + ce fichier (site-spécifique).
+
+---
+
+## 16. Note 30/07/2026 — Chargeur VE RÉEL + DGEG actif (tâche t_9a231a1d)
+
+- **Chargeur VE / wallbox** = service **RÉEL** sur ce site (EU) — installation dans le scope Baixa Tensão até 41,4 kVA, avec émission de Ficha Eletrotécnica + Termo de Responsabilidade sous TRIESP DGEG n.º 90062. NE JAMAIS lister comme service FAUX ou interdit.
+- **Documents émis** : §12 ligne 127 amendée 30/07/2026 — Filipe délivre officiellement Ficha + Termo (Lei 14/2015). Plus de « AUCUN DOCUMENT ÉMIS ».
+- **Prix** : Ficha + Termo à partir de **350 €** (service certifié uniquement). Chargeur VE = prix marché matériel + 70 €/h + Fundo Ambiental — JAMAIS écrire « carregador a partir de 350 € ».
+- Source vérité unique : `~/work/Sites/DGEG-CERT-SOURCE-OF-TRUTH.md`. **JAMAIS sur les sites plomberie (CNR/CU)** : zéro claim DGEG, zéro mention TRIESP/Ficha/Termo/chargeur VE.
