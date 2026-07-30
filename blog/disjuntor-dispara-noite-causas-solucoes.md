@@ -121,7 +121,7 @@ Não. O disjuntor protege os cabos da instalação. Um disjuntor de maior ampera
 
 ### Vocês emitem documentação formal da intervenção?
 
-Não. Fazemos o trabalho elétrico (instalação, reparação, diagnóstico) e emitimos fatura com NIF, mas não emitimos documentação técnica de conformidade. Se a sua situação exigir certificação, isso é um serviço distinto.
+Sim. Fazemos o trabalho elétrico (instalação, reparação, diagnóstico) e emitimos fatura com NIF. Quando a intervenção o exige, emitimos também Ficha Eletrotécnica e Termo de Responsabilidade, na qualidade de Técnico Responsável de Instalações Elétricas inscrito na DGEG — TRIESP n.º 90062 (domínio Execução em Baixa Tensão, instalações até 41,4 kVA), ao abrigo da Lei n.º 14/2015.
 
 ### Atendem 24 horas por dia em Trás-os-Montes?
 
