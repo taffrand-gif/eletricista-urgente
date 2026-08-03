@@ -1241,3 +1241,16 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - Correction des 3 liens `tel:+351****4451` de `public/avaliacoes-clientes.html` vers `tel:+351932321892`, cohérents avec le numéro visible et le NAP électricien verrouillé.
 - Leçon : une terminaison masquée ne suffit pas à déterminer le numéro ; utiliser le numéro visible dans le même fichier puis vérifier le NAP du repo. Un remplacement global `4451 → 928` aurait créé une contamination plomberie sur EU. Origine exacte documentée dans `~/work/Sites/LECONS.md` (leçon #a7868915) : héritage de templates déjà masqués, confirmé d'abord sur CU.
 - Branche `fix/nap-phone-e164-4451`, PR draft, zéro merge.
+---
+
+### 2026-08-03 — t_c49186be — Recompte doctrine DGEG (chantier vivant post-cert)
+
+- **Contexte** : levée d'ambiguïté DGEG TRIESP 90062 (chargeur VE = RÉEL élec, INTERDIT plomberie). Cartographie site-by-site après certification du 24/07.
+- **Recompte ENR+EU** (`git grep -nIE` strict sur `<remote>/main -- client/public/` côté ENR / `client/` côté EU) :
+  - `\bDGEG\b|\bTRIESP\b|90062` côté ENR : **0** dans `client/public/` (strict sur la triade).
+  - Idem côté EU : **0** dans `client/`.
+  - `wallbox` côté ENR : apparaît en **positif** uniquement (`carregador-veiculo-eletrico.html`, `certificado-dgeg-*.html` ×10, mentions pédagogiques blog) — **aucune** page ne liste wallbox dans une catégorie « non fournis / interdit / hors périmètre » post-amendement 30/07.
+  - Idem côté EU : pas de mention `wallbox` listée comme service NON fourni.
+- **Conclusion ENR+EU** : chantier **DÉJÀ CLÔTURÉ** par la tâche `t_9a231a1d` du 30/07/2026 (PR #95 MARKETING.md squash `e70048ad5` + PR #96 purge solaire/VE squash `80f93641c`, -2307 lignes ; SEO_PLAN §17 ligne 22 amendé en place côté ENR ; branche `wt/t9a231a1d-doctrine-ve-eletricista-urgente` créée côté EU avec AMENDEMENT entrée, non mergée). **NO-OP légitime** : aucun PR draft à ouvrir, doctrine cohérente. Statut append-only historique préservé (les entrées mentionnant « ~297 pages services NON fournis incluant chargeur VE » documentent l'état à leur époque et restent factuelles, cf. ligne 1143 du précédent run).
+- **Statut** : ✅ NO-OP légitime (chantier `t_9a231a1d` fait, vérifié et consigné).
+- **🛑 Trouvaille critique côté CNR+CU** : voir l'entrée correspondante dans `canalizador-norte-reparos/SEO_PLAN.md` §17 historique (date 2026-08-03 t_c49186be recompte) — violation massive non détectée par `AUDIT-FAILLES-2026-08-03.md` (regex trop stricte, rattrapée en recompte).
