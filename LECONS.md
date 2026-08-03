@@ -724,3 +724,27 @@ git diff <base>..HEAD | python3 -c "import sys, re; print(len(re.findall(rb'tel:
 **Takeaway 3 — Tel constant 932321892 = 100% présent** : sur les 3 worktrees, 33/33 concelhos ont le tel canonique, 0 parasite. Le repair #169 d'hier (commit `a73688fe0`) avait été déclaré PASS techniquement mais contenait 92 parasites ; le re-repair d'aujourd'hui (commits `618116a50`, `17e0e2826`, `ca85814a1`) a bel et bien neutralisé tous les parasites HTML. La leçon #R-TEL-2026-07-19-01 (gate bytes-level) est validée par les 3 PRs.
 
 **Source** : mission rebase-train EU 2026-07-19 étape 3, PR #175, worktree `/tmp/tr-175`, base `origin/main@97683f518`, tip `ca85814a1`.
+
+---
+
+## Leçon #EU-CTA-CROSS-2026-08-03-01 — Sur le site d'un métier, le bouton d'appel NE DOIT PAS composer l'autre métier
+
+**Contexte** : mission t_60a880f3 (P0 conversion EU). Sur le site électricité `eletricista-urgente.pt`, les CTA principaux de 4 pages piliers (`contactos.html`, `equipa.html`, `comparacao.html`, `recursos-gratuitos.html`) contenaient un `tel:+351928484451` (plomberie) sous le libellé `📞 Canalizador 928 484 451`. Le clic envoyait un prospect urgence élec vers la ligne plomberie. CPC moyen EU = 12,70 €, soit une perte d'appel directe par CTA.
+
+**Diagnostic (mesures reproductibles)** :
+- `git grep -nE 'tel:\+?351928484451' origin/main -- contactos.html equipa.html comparacao.html recursos-gratuitos.html` = **4 hits** (1 par fichier servi).
+- Contrôle positif `git grep -ohE 'tel:\+?351932321892' …` = **9 hits** (les CTA élec, déjà alignés sur l'électricien).
+- Téléphone dans le JSON-LD `LocalBusiness.telephone` = `+351 932 321 892` (déjà correct).
+- Confirme l'hypothèse « patch partiel historique » : un seul des 2 numéros de la card a été basculé, le second a survécu.
+
+**Takeaway** :
+1. **Le NAP est une constante multi-sites, pas un choix par page** : tout CTA d'un site doit appeler le NAP de ce site. Croiser `+351928484451` (plomberie) sur `eletricista-urgente.pt` est un défaut silencieux qui ne se voit pas au grep unitaire — il faut lister le périmètre attendu (`origin/main -- <fichiers cibles>`) ET faire un contrôle positif avec le NAP correct.
+2. **Le libellé du bouton n'est pas une garantie** : remplacer le `href` sans toucher le texte peut laisser un bouton libellé « Canalisateur 928 484 451 » qui appelle 932. Toujours patcher le couple `href + texte visible` ensemble.
+3. **Un grep `git grep -ohE 'tel:\+?351928484451'` ne suffit pas comme gate final** : sur ce repo, le motif apparaît aussi sur des pages qui ne sont pas des CTA (textes, JSON-LD autres, etc.). La gate DoD doit filtrer par les fichiers servis (4 fichiers) et croiser avec le comptage positif des `932321892`.
+
+**Action canon** :
+1. Pour tout audit NAP croisé, utiliser la séquence : (a) `git grep -ohE 'tel:\+?351928484451' origin/main -- <périmètre> | wc -l` doit valoir 0 sur les fichiers servis, (b) `git grep -ohE 'tel:\+?351932321892' … | wc -l` doit valoir ≥ 1, (c) lire chaque hit pour différencier CTA principal vs mention contextuelle.
+2. Quand un CTA liste DEUX numéros (élec + canal), le libellé doit suivre la cible. Le couple `(href, texte)` est une unité, pas un tuple indépendant.
+3. **Hors scope cette mission** : les autres pages du repo qui mentionnent 928 dans un contexte cross-site légitime (référencement du partenaire plomberie, comparatif) restent à examiner. La règle « CTA principal = NAP du site » ne s'applique pas à une phrase descriptive dans un comparatif.
+
+**Source** : mission kanban `t_60a880f3` (2026-08-03 16h BST), branche `fix/eu-wrong-call-cta` depuis `origin/main@5f715c34e`, 4 fichiers servis patchés, PR draft en attente review/merge Claude.
