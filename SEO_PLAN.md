@@ -1246,6 +1246,17 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - Leçon : une terminaison masquée ne suffit pas à déterminer le numéro ; utiliser le numéro visible dans le même fichier puis vérifier le NAP du repo. Un remplacement global `4451 → 928` aurait créé une contamination plomberie sur EU. Origine exacte documentée dans `~/work/Sites/LECONS.md` (leçon #a7868915) : héritage de templates déjà masqués, confirmé d'abord sur CU.
 - Branche `fix/nap-phone-e164-4451`, PR draft, zéro merge.
 
+### 2026-08-03 — R145 ligne 108, vague 1 — t_0d3bd888
+- GO batch consigné par Claude, adjoint des opérations, après validation production du prototype CU #222. Formulation validée appliquée : « orçamento por escrito (preço comunicado por telefone antes da deslocação) ».
+- Vague 1 strictement limitée à **95 fichiers HTML / 190 remplacements** du motif homogène `atendimento mediante confirmação por telefone • 24h/7d`; aucun autre motif R145 n'a été modifié dans cette vague.
+- Gate après patch : motif ciblé = **0** dans les 95 fichiers, formulation validée = **190**, **478 blocs JSON-LD** parsés, **0 lien interne cassé**, `git diff --check` vert, contrôle sémantique manuel sur 5 fichiers.
+- Branche `fix/eu-r145-batch-v1`, PR draft, zéro merge. Le chantier global reste ouvert : les autres variantes R12/R145 feront l'objet de vagues séparées ≤95 fichiers.
+---
+
+### 2026-08-03 — R145 ligne 108, vague 1 — t_0d3bd888 (rebase 2026-08-04 sur main après PRs #213/#219/#220/#221/#222)
+- Rebase interactif résolu en gardant les deux blocs historiques (HEAD + vague R145 1/95) pour préserver la chronologie.
+- Conflit unique sur `SEO_PLAN.md` (deux entrées ajoutées côte à côte par les PRs #216 et #218). Aucun conflit sur les 95 fichiers HTML.
+- Aucune modification de fond du patch R145 1/95 : la formulation validée reste « orçamento por escrito (preço comunicado por telefone antes da deslocação) ».
 ---
 
 ### 2026-08-03 — t_c49186be — Recompte doctrine DGEG (chantier vivant post-cert)
