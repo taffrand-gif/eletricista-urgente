@@ -1238,6 +1238,34 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 
 
 ### 2026-07-15 — P0 NAP click-to-call E.164 (Hermes t_73779eca)
-- Correction des 3 liens `tel:+351****4451` de `public/avaliacoes-clientes.html` vers `tel:+351932321892`, cohérents avec le numéro visible et le NAP électricien verrouillé.
+- Correction des 3 liens `tel:+351****4451` de `public/avaliacoes-clientes.html` vers `tel:+351****1892`, cohérents avec le numéro visible et le NAP électricien verrouillé.
 - Leçon : une terminaison masquée ne suffit pas à déterminer le numéro ; utiliser le numéro visible dans le même fichier puis vérifier le NAP du repo. Un remplacement global `4451 → 928` aurait créé une contamination plomberie sur EU. Origine exacte documentée dans `~/work/Sites/LECONS.md` (leçon #a7868915) : héritage de templates déjà masqués, confirmé d'abord sur CU.
 - Branche `fix/nap-phone-e164-4451`, PR draft, zéro merge.
+
+### 2026-08-03 — Revalidation `ligne 70` (chantier vivant 🟥/⏸/🔴) — t_4b98dc52
+
+**Lecture stricte du brief** : `ligne 70` pointe vers le bloc « Rôle de ce site = 2e slot organique, Prérequis refonte Transparence Radicale (🔴 ~25k violations héritées) ». Cette ligne n'est pas un chantier en soi : c'est une description stratégique. Le seul 🔴 actif à proximité reste celui de la **section ÉTAT ACTUEL (ligne 108)** « 🔴 R12 délais inventés : ~896 pages « resposta em X min » + ~1884 « resposta prioritária / mediante confirmação » », lui-même **ré-évalué 🛑 BLOQUÉ le 2026-08-03 par un run précédent** (note consignée `Revalidation chantier vivant ligne 108`, présente dans le working tree local avant reset branche par ce run).
+
+**Mesures live ciblées (8 commandes exécutées, sorties collées)** :
+1. `git grep -lI -E "resposta em [0-9]+" origin/main -- "concelhos/*.html"` → **33 fichiers** (33/33 hubs concelhos du repo).
+2. `git grep -lI -E "resposta prioritária|mediante confirmação" origin/main -- "concelhos/*.html"` → **0 fichier**.
+3. Échantillon contenu : `<meta property="og:description" content="Curto-circuito, falha de energia, disjuntor que dispara — resposta em 34 min, deslocação 35€, orçamento por escrito.">` (pattern unique, X ∈ {31, 34, 54, 70, 78, 79, 82, 83, 84, 86, 87, 89, 93, ...}).
+4. `gh pr list --repo taffrand-gif/eletricista-urgente --state open` → 3 PR ouvertes (#215 docs DGEG NO-OP, #214 og:title 70€/h /precos, #213 assurances AT+RC), **aucune sur le périmètre R145 concelhos/**.
+5. `gh pr view 200 --repo taffrand-gif/eletricista-urgente --json state,mergedAt` → MERGED 2026-07-29, « [loop] eletricista-urgente — R145 FAQ vide (PROTOTYPE 1 page, gisement 955) ». PR #200 = prototype FAQPage, ne vaut **pas** GO pour batch « resposta em X min ».
+6. Pattern strict : `og:description` uniquement (pas body, pas H1, pas JSON-LD), `deslocação` et `orçamento por escrito` sont conservés (R12 conformes), seul `— resposta em X min` est à supprimer (R145 BANNIS).
+
+**Verdict (NO-OP légitime doublement confirmé)** :
+- 🛑 **Le précédent run t_* sur le même chantier (ligne 108) a déjà conclu BLOQUÉ** le 2026-08-03. Ses pré-requis n'ont pas changé : (a) **GO Philippe explicite** requis par AGENTS.md §12 R12 (« AUCUN batch de pages avant validation d'un prototype sur 1 page test ») et R7 (« STOP validation Philippe avant tout merge ») ; (b) **prototype 1 page** non livré.
+- 🛑 **Aucun prototype 1 page n'a été mergé depuis** pour ce périmètre précis. PR #200 (FAQ R145) est un prototype d'un **autre** signal (FAQPage `name`/`acceptedAnswer`), pas des `og:description` méta-tags concelhos.
+- 🛑 **3 PR ouvertes actuellement, aucune ne couvre ce scope** (#213/#214/#215 sur DGEG, og:title /precos, assurances) → ouvrir une 4ᵉ PR batch supposerait Philippe tranche la **concurrence d'attention** (« which PR to look at first »).
+- 🛑 **Pattern ≠ scope mesuré par run précédent**. Le run précédent avait recompte large (1535 fichiers incluant `.md` rapport + AGENTS.md + LECONS.md + docs, **doc-normalisé** = bruit). Mon recompte ciblé `concelhos/*.html` isole 33 fichiers prod-servis, mais **ne change pas le verdict** : AGENTS.md §12 s'applique identiquement.
+
+**Action retenue** : **0 PR créée, 0 fichier HTML modifié, 0 commit, 0 push**. Cette note consigne (a) la mesure ciblée 33 fichiers concelhos/ = **sous-ensemble pertinent non encore couvert**, (b) la confirmation du verdict BLOQUÉ hérité, (c) un **point d'attention durable pour Philippe** : un patch strictement suppressif (`— resposta em X min,` → `,` sur `og:description` uniquement) tient en ~5 min script + 1 commande git, est 100% conforme à R11/R12/R145 (aucune invention), et peut être exécuté **sans batch doctrinel** dès qu'un GO « strict suppressif concelhos/ » est prononcé. C'est **le candidat le moins risqué** pour clore ce chantier vivant.
+
+**Leçon / auto-évaluation (8/10)** :
+- **Note** : 8/10 — la mesure ciblée est juste et plus précise que celle du run précédent (1535 vs 33 fichiers), le verdict est identique, et la formulation du « candidat strict suppressif » donne à Philippe une option actionnable plutôt qu'un simple STOP sec.
+- **Ce qui a failli rater** : j'ai failli ouvrir la branche `fix/eu-r145-conselhos-og-description` et préparer le batch Python avant de relire la consigne du run précédent dans le dirty working tree. Sans ce relecturage, j'aurais contrevenu à AGENTS.md §12 (« AUCUN batch avant prototype validé ») et à la leçon « prototype R145 mergé ≠ GO batch » déjà codée par le run précédent.
+- **Leçon réutilisable** : avant d'agir sur un chantier 🟥/🔴/⏸ déjà instruit, **lire la dernière consigne HISTORIQUE du même chantier** (working tree ou origin/main) avant toute mesure ; un même chantier revisité sans relecture de la consigne antérieure consomme 5-10 min en pure re-mesure puis finit en NO-OP. Patch à venir dans `~/.hermes/skills/devops/kanban-worker/SKILL.md` (rappel dans le bloc « Orient »).
+- **Ce que je ferais différemment** : commencer par `git log --all --grep="<mot-clé-chantier>"` et `git log --all -p -- <fichier-cible>` pour identifier les runs antérieurs avant toute commande de mesure.
+
+**Statut** : 🛑 STOP — attente GO Philippe sur option (a) batch strict suppressif concelhos/ sans prototype ou (b) prototype 1 page d'abord. 0 HTML modifié, 0 PR, 0 merge, 0 push.
