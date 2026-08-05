@@ -2027,3 +2027,24 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Diff** : `1 file changed, 1 insertion(+), 1 deletion(-)` — surface minimale sur mega-ligne unique (3 patches successifs via `patch` replace sur la même `<main>`), aucune refonte structurelle, blocs canoniques intacts (Doctrine aside, DGEG TRIESP section, JSON-LD Person/Organization).
 - **Refs** : kanban t_7d911640, commit `e70fe3d0d`, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.19 Z6=65€, precos-zonas.json['Amarante']=6, Annexe A backlinks cross-site, PR #251 (cumul vagues +34+).
 - **R7** : PR #251 draft empilée — **NE PAS merger sans GO nominatif Philippe**.
+
+### 2026-08-05 — `t_c365574f` (PR #251 cumul vagues +34) — eletricista-fuga-corrente-valdigem.html (Valdigem, Z5/55€)
+
+- **Type** : scope-electric-on-plumbing FPP réfuté + R145 purge 5 chaînes + R12 fourchette 110€ purgée + JSON-LD offers.price 110→55 source-of-truth align + priceRange + JSON-LD FAQPage Z5/55€ canonique + FAQ 'Horário atendimento'.
+- **Action** : `eletricista-fuga-corrente-valdigem.html` (+5/-3 sur 1 mega-ligne unique, 6 patches chirurgicaux via `patch` replace sur la même mega-ligne — aucun autre fichier touché).
+- **Fixes appliqués** :
+  1. JSON-LD head `<script type="application/ld+json">` offre : `"price":"110"` → `"price":"55"` (Valdigem = Z5/55€ per `precos-zonas.json`), + `"priceRange":"70€-150€"`.
+  2. JSON-LD FAQPage (3 Q laxistes → 3 Q canoniques alignées pattern `t_4ae35428` vinhais / `t_86c84f06` sao-cosmado) : Q1 'Quanto custa fuga corrente em Valdigem?' → réponse Z5/55€ canonique + phrase orçamento ; Q2 'Horário atendimento?' (R145 purge 'Quanto tempo') ; Q3 'Emitem fatura e garantia?' (R11 purge '2 anos').
+  3. Body hero sub : `atendimento mediante confirmação por telefone • 24h/7d` → `Atendimento por telefone • 24h/7d`.
+  4. Body card prix : `Deslocação Zona 5: 55€ (já incluída no preço` → `Deslocação Zona 5: 55€</strong> (sob orçamento por escrito).` + ligne `Tempo de resposta médio: atendimento mediante confirmação por telefone` absorbée dans la ligne `Horário atendimento`.
+  5. Body FAQ 'tempo de chegada' : `atendimento é mediante confirmação por telefone. Em emergências, prioridade absoluta.` → `chegada conforme disponibilidade, chamada confirmada antes da deslocação. Em emergências críticas (cheiro a queimado, faíscas), atendimento priorizado.`
+  6. Body FAQ 'agendar' : `, com confirmação prévia` (chaîne R145 BANNIS) supprimée.
+  7. Body cta-bottom : `atendimento mediante confirmação por telefone • 24h/7d` → `Atendimento por telefone • 24h/7d`.
+- **Témoins grep post-fix (todos = 0)** :
+  - R145 : `mediante confirmação` 0, `após confirmação` 0, `telefonemente` 0, `prioridade absoluta` 0, `prioridade máxima` 0, `Tempo de resposta médio` 0, `tempo médio` 0, `confirmação prévia` 0.
+  - R12 fourchette : `110€` 0, `120€` 0, `100€` 0.
+  - NAP canal : `928 484` / `928484` 0.
+  - Plumbing FPP : `unique-urg-can` 0, `Canalizador` 0, `cano|esgoto|torneira|esquentador| válvula` 0, `inundação|fuga ativa` 0, `tubo|tubagem|autoclismo` 0.
+- **Doctrine §12 intacte** : 70 €/h ×1, grille Z1-Z6 ×1, +50 % majoration ×1, orçamento por escrito ×5, NAP 932 321 892 ×6, Zona 5 ×5, DGEG TRIESP 90062 ×2, équipement Fluke T6-1000 / Megger MFT1741+ / ROLeak Aqua 3Plus / FLIR E96 / câmara 30 m intact.
+- **Refs** : kanban `t_c365574f`, commit `d45883473`, AGENTS.md §11 + §12 + §13 + §14 + §16, PRICING.md L.17 Z5=55€, `precos-zonas.json['Valdigem']=5`, Annexe A backlinks cross-site.
+- **R7** : PR #251 draft empilée — **NE PAS merger sans GO nominatif Philippe**.
