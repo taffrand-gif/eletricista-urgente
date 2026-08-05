@@ -1302,6 +1302,22 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 
 **Statut** : 🛑 STOP — attente GO Philippe sur option (a) batch strict suppressif concelhos/ sans prototype ou (b) prototype 1 page d'abord. 0 HTML modifié, 0 PR, 0 merge, 0 push.
 
+### 2026-08-05 — Scope plomberie purgé do bloco `<unique-urg-can>` + R145 purge + Z6/65€ source-of-truth align — t_c71eabec (eletricista-urgente-sao-joao-de-tarouca.html)
+
+- **Branche** : `fix/eu-conform-sao-joao-tarouca-scope-r145-z5-t_c71eabec` (forked from `fix/eu-conform-cumieira-scope-r145-z5-clean-t_7ec530ae`, base = main possible après GO Filipe).
+- **PR draft** : https://github.com/taffrand-gif/eletricista-urgente/pull/247 — 1 fichier modifié, 10 insertions(+), 10 suppressions(-).
+- **Commit** : c07f3fac7 — `fix(eu,conform): scope plomberie do bloco unique-urg-can + R145 purge + Z6/65€ source-of-truth align on eletricista-urgente-sao-joao-de-tarouca.html (t_c71eabec)`.
+- **Scope (VRAI positif, distinct du cumul FP des t_7ec530ae / t_8548d01c / t_6ad41a8f précédents)** : la classification pool-keeper `scope-electric-on-plumbing` est ici confirmée — la page contient réellement une `<section class="unique-urg-can">` listant 5 urgences plomberie (Fuga ativa, Inundação, Cano rebentado, Esgoto a transbordar, Válvula de segurança a pingar do esquentador) + consigne « feche a torneira geral de água (normalmente no contador) ». Pattern identique à t_cf0354e7 miranda-do-douro (commit 883037663) — purge du bloc + réorganisation du contenu élec existant, **aucune information inventée**, juste reprise des 5 signaux d'urgence électrique déjà présents dans la page (cheiro a queimado elétrico, faíscas, disjuntor, tomada quente, sem luz casa inteira). Consigne «feche a torneira geral de água» → «desligue o disjuntor geral no quadro».
+- **Trois corrections combinées (1 commit, 1 fichier)** :
+  1. **Scope plomberie purgé** : 5 `<li>` plomberie → 5 `<li>` élec (1:1 swap, 0 contenu créé). Le bloc `unique-urg-can` reste, change seulement de liste.
+  2. **R145 purge** (verrouillé 28/06/2026) : 3 chaînes «mediante confirmação por telefone» + 1 délai chiffré «6 min em Zona 4» + 1 fragment bizarre «Ligue mediante confirmação por telefonemente se» + 1 «vamos em caráter de máxima urgência» + 1 «prioridade máxima» → formulations sans promesse chiffrée. cumieira pattern (t_7ec530ae) : «prioridade absoluta» → «atendimento priorizado». 0 résidu grep.
+  3. **PRICING.md source-of-truth align** : precos-zonas.json «São João de Tarouca» = **Z6/65€**. Corrections : zone-badge Z4 → Z6, price-item «40€» (prix inventé) → «65€», FAQ «Zona 4, deslocação 40€» → «Zona 6, deslocação 65€», FAQ «Zona 4, tempo de chegada» → «Zona 6, chegada conforme disponibilidade». 65€ déjà présent 1× dans la meta description «Z1-Z6 (15€ a 65€)» (grille canonique intacte).
+- **Doctrine R12 (§12 Transparência Radicale) intacte** : 70 €/h intact, Z1-Z6 grille Z6=65€ × 1 card prix + 1 mention grille, +50 % majoration × 1, orçamento por escrito × 2, NAP 932 321 892 × 9 (0 NAP 928), Zona 6 × 3 (uniforme), équipement Fluke T6-1000 / Megger MFT1741+ / ROLeak Aqua 3Plus / FLIR E96 / câmara 30 m × 1 doctrine block (intacts).
+- **R11 ZÉRO INVENTION** : aucun avanie / prix / zone / délai / chantier inventé. La Doctrine §14 (Boucle autonome site EU) est respectée.
+- **Témoin grep** : `Zona 4 = 0`, `mediante = 0`, `40€ = 0`, `6 min = 0`, `prioridade máxima = 0`, `máxima urgência = 0`, `Canalizador de Urgência = 0`, `torneira geral de água = 0`, `Válvula de segurança = 0`, `Cano rebentado = 0`, `Fuga ativa = 0`, `tempo de chegada = 0`, `damos preço = 0`, `telefonemente = 0`, `canalizador` hors JSON-LD = 0 (toutes les occurrences restantes sont dans JSON-LD sameAs — backlinks cross-site conformes Annexe A). 0 résidu.
+- **Refs** : kanban t_c71eabec, AGENTS.md §11 + §12 + §13 + §14, PRICING.md, precos-zonas.json. PR prior immediat : t_cf0354e7 (miranda-do-douro, commit 883037663) — même structure de purge du bloc unique-urg-can.
+- **R7** : PR draft #247 en attente, **NE PAS merger sans GO Filipe explicite**.
+
 ### 2026-08-05 — Scope-electric-on-plumbing faux-positif réfuté — t_b2d3f4c2 (eletricista-avaria-eletrica-salzedas.html)
 
 - **Vérification live (local)** : `wc -c` local = **19 672 octets**. Fichier structurellement identique au précédent faux-positif documenté t_3b5f5884 (lazarim = 19 337 octets) : mêmes 5 items élec sous « O que está incluído no serviço », même bloc DGEG, même NAP 932 321 892.
