@@ -1980,3 +1980,38 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Diff** : `1 file changed, 4 insertions(+), 4 deletions(-)` — surface minimale, aucune refonte structurelle, blocs canoniques intacts (Doctrine aside, DGEG TRIESP section, JSON-LD Person/Organization, FAQ 5 questions canoniques).
 - **Refs** : kanban t_5c41c805, commit `9edfe9350`, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.19 Z6=65€, precos-zonas.json['São João de Tarouca']=6, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul vagues +29).
 - **R7** : PR #251 draft empilée — **NE PAS merger sans GO nominatif Philippe**.
+
+### 2026-08-05 18:35 — t_7d911640 (fuga-corrente-amarante FPP refute + R145 + R12 canonique)
+
+- **scope-electric-on-plumbing FAUX-POSITIF réfuté** : le détecteur `backlog-conformity-scan.py` ligne 13 matche sur `fuga\s+de\s+corrente` (regex trop large) — la page eletricista-fuga-corrente-amarante.html est **100% élec** : titre `<h2>⚡ Fuga de Corrente em Amarante</h2>` + description "diagnóstico e reparação de fugas de corrente que fazem disparar o diferencial" (sujet 100% élec = fuite de courant RCD, pas plomberie). Collision lexicale classique "fuga de corrente" (élec R12) vs "fuga de água" (plomberie). Pattern FP documenté sur plus de 30 vagues (cf. t_a0ce248e vilarandelo / t_5c41c805 tarouca / t_bf795e25 chaves / t_85f4bf0b figueira-castelo-rodrigo / t_b94afd7b alfandega-da-fe / t_0a5ca4c7 cedovim / t_6ad41a8f valdigem / t_8548d01c sanfins-do-douro / t_7ec530ae cumieira / t_79133bc0 moucos / t_49e3db80 mogadouro, etc.). 0 hit BODY plomberie (vérifié awk NR>=39) ; seules les 2 occurrences JSON-LD `sameAs` sont des backlinks cross-site Annexe A conformes (928↔932).
+- **Fix R145 (4 chaînes purgées, R145 zéro violation post-fix)** :
+  - hero sub `<p class="opacity:.9">atendimento mediante confirmação por telefone • 24h/7d</p>` → `Atendimento por telefone • 24h/7d • Orçamento por escrito antes da deslocação` (canonique R12 §1)
+  - price-card tempo `<strong>Tempo de resposta médio:</strong> atendimento mediante confirmação por telefone` → `atendimento por telefone — orçamento por escrito antes da deslocação`
+  - FAQ tempo "Para Zona 6, atendimento é mediante confirmação por telefone. Em emergências, prioridade absoluta." → "Para Zona 6, atendimento é por telefone — orçamento por escrito antes da deslocação. Em emergências, atendimento prioritário." (R145 "mediante confirmação" + "prioridade absoluta" INTERDITS)
+  - cta-bottom `<p class="opacity:.9">atendimento mediante confirmação por telefone • 24h/7d</p>` → `Atendimento por telefone • 24h/7d`
+- **Doctrine §12 (Transparência Radicale) intacte** :
+  - 70 €/h × 1 (doctrine bloc intact)
+  - Z1-Z6 grille × 1 (doctrine bloc, Amarante = Z6 source-of-truth aligné)
+  - +50 % majoration × 1 (price-card intact)
+  - orçamento por escrito × 6 (doctrine + hero + price-card + FAQ tempo + cta-bottom + JSON-LD Q1)
+  - NAP élec 932 321 892 × 8 (header + doctrine + hero + 2 sticky-cta + cta-bottom + JSON-LD ×2), 0 NAP canal 928 (JAMAIS site élec, Annexe A)
+  - Zona 6 source-of-truth × 3 (zone-badge + price-card "Deslocação Zona 6: 65€" + FAQ "Para Zona 6") — page déjà alignée Z6/65€ (pas de migration nécessaire)
+  - 65€ source-of-truth × 1 (price-card)
+  - DGEG TRIESP 90062 × 1 (section dgeg-cert + Person JSON-LD)
+  - Équipement Fluke T6-1000 / Megger MFT1741+ / ROLeak Aqua 3Plus / FLIR E96 / câmara 30 m × 1 doctrine bloc (intacts)
+  - JSON-LD sameAs × 2 = backlinks cross-site Annexe A conformes (canalizador-* légitime, page 100% élec)
+- **R11 ZÉRO INVENTION** : aucun prix/zone/délai/chantier/service inventé. Page déjà alignée source-of-truth (Amarante = Z6/65€ confirmé via `precos-zonas.json`), aucune migration nécessaire. R145 + Doctrine §14 (Boucle autonome site EU) respectées.
+- **Témoins grep post-fix (vérifiés sur fichier local)** :
+  - `mediante confirmação` : 4 → **0** ✓ (R145 purgé partout)
+  - `prioridade absoluta` : 1 → **0** ✓
+  - `Após confirmação` / `após contacto` : 0 ✓ (absent héritage)
+  - `máxima urgência` / `preço comunicado` : 0 ✓ (absent héritage)
+  - `70 €/h` doctrine : 1 ✓ (intact)
+  - NAP `928 484 451` canal : 0 ✓ (JAMAIS site élec)
+  - NAP `932 321 892` élec : 8 ✓ (intact)
+  - `Zona 6` source-of-truth : 3 ✓ (uniforme, pas de migration)
+  - `Canalizador/torneira/esquentador` BODY : 0 ✓ (sujet 100% élec légitime, FPP réfuté)
+  - `unique-urg-can` / `Canalizador de Urgência` : 0 ✓
+- **Diff** : `1 file changed, 1 insertion(+), 1 deletion(-)` — surface minimale sur mega-ligne unique (3 patches successifs via `patch` replace sur la même `<main>`), aucune refonte structurelle, blocs canoniques intacts (Doctrine aside, DGEG TRIESP section, JSON-LD Person/Organization).
+- **Refs** : kanban t_7d911640, commit `e70fe3d0d`, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.19 Z6=65€, precos-zonas.json['Amarante']=6, Annexe A backlinks cross-site, PR #251 (cumul vagues +34+).
+- **R7** : PR #251 draft empilée — **NE PAS merger sans GO nominatif Philippe**.
