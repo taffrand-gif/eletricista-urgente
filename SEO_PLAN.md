@@ -1429,3 +1429,39 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Vérification live Vercel** : `curl -sL https://eletricista-urgente.pt/eletricista-urgente-ribeira-de-pena.html` = 23111 bytes identiques au fichier local avant patch. Pas de drift prod/local. Le fix sera visible après le prochain déploiement Vercel du commit `bd6798348` (auto-deploy sur push branche).
 - **Refs** : kanban t_b023f28a, AGENTS.md §11 + §12 + §13 + §14, PRICING.md L.19 Z6=65€, precos-zonas.json[`Ribeira de Pena`]=6, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul 3 vagues).
 - **R7** : PR #251 draft en attente — **NE PAS merger sans GO nominatif Philippe**.
+
+### 2026-08-05 — Scope-electric-on-plumbing FPP réfuté + R145 purge + Z3/35€ source-of-truth align — t_b94afd7b (eletricista-avaria-eletrica-alfandega-da-fe.html)
+
+- **Branche** : `fix/eu-conform-xinzo-scope-r145-z4-t_b1cb089e` (cumul des vagues t_b1cb089e + t_2b0b5c41 + t_b023f28a + t_b94afd7b). Branche forkenée depuis `origin/main@25d16464c`, forkée depuis `fix/eu-conform-cumieira-scope-r145-z5-clean-t_7ec530ae`.
+- **PR draft** : https://github.com/taffrand-gif/eletricista-urgente/pull/251 (cumul 4 vagues, 16 fichiers). État OPEN, isDraft=true, mergeable=MERGEABLE.
+- **Commit** : `32d16284a` — `fix(eu,conform): scope-electric-on-plumbing FPP réfuté + R145 purge + Z3/35€ source-of-truth align on eletricista-avaria-eletrica-alfandega-da-fe.html (t_b94afd7b)`.
+- **Scope (FPP réfuté — page 100% élec)** : la classification pool-keeper `scope-electric-on-plumbing` est ici **réfutée**. La page est strictement élec : aucun contenu plomberie, aucun `<section class="unique-urg-can">`. L'extrait cité par le détecteur (`Curto-circuito, sobrecarga ou fuga de corrente. Localizamos o problema com multímetro Fluke.`) est légitimement élec — c'est le symptôme «Disjuntor que dispara» de la liste R12 §13 (5 symptômes : Disjuntor dispara, Cheiro a queimado, Sem luz parcial, Tomada avariada, Ruído no quadro). Les 2 occurrences `canalizador` sont **toutes** dans le JSON-LD `sameAs` (Annexe A backlinks cross-domaines conformes, PR #110 P2.2 entité Norte Reparos consolidée). Aucune correction de scope structurel nécessaire. Pattern identique aux FPP réfutés antérieurs : t_79133bc0, t_7ec530ae, t_67300e30, t_bf6a4791, t_6ad41a8f, t_8548d01c, t_44cdcde1, t_22dd3b18, t_869cc997, t_24099f7e, t_3b5f5884, t_4af18a17, t_b2d3f4c2, t_391ee4ba (murça), t_d0b9dd1a (sendim).
+- **Cinq corrections combinées (1 commit, 1 fichier, +3/-3 diff stat, 9 substitutions ciblées sur fichier mono-ligne)** :
+  1. **Pricing-grid Z3 align** (PRICING.md L.17 + precos-zonas.json[`Alfândega da Fé`] = 3) : 4 zones-badges + 2 card prix «Zona 2: 25€» → «Zona 3: 35€ (sob orçamento por escrito)» + 1 FAQ custo «para Zona 2» → «para Zona 3» + 1 JSON-LD FAQPage custo «15-25€ deslocação conforme zona» → «70€/h + 35€ deslocação Zona 3 incluída». Z3 = 35€ est la source-of-truth canonique selon PRICING.md. La fourchette inventée «15-25€» purgée — JAMAIS de fourchette calculée hors grille (R11 ZÉRO INVENTION + PRICING.md §28 «Hors grille = sob orçamento»).
+  2. **R145 purge** (verrouillé 28/06/2026, AGENTS.md §14) : 4 chaînes «mediante confirmação | após confirmação por telefone | prioridade absoluta» purgées :
+     - Hero `<p>...atendimento mediante confirmação por telefone.</p>` → `atendimento por telefone.`
+     - Card «Avaria com cheiro a queimado» `<p>...Diagnóstico após confirmação por telefone + reparação.</p>` → `Diagnóstico e reparação.`
+     - Card prix `<p>Tempo de resposta médio: atendimento mediante confirmação por telefone</p>` → `Atendimento: por telefone, 24h/7 dias — chamada confirmada antes da deslocação`
+     - FAQ tempo `<br>Para Zona 2, atendimento é mediante confirmação por telefone. Em emergências, prioridade absoluta.</p>` → `<br>Para Zona 3, atendimento por telefone, 24h/7 dias. Em emergências, chamamos com prioridade.</p>`
+     - JSON-LD FAQPage `<Answer text=" para emergências, 24h/7d incluindo fins de semana.">` → `<Answer text="Atendimento por telefone, 24h/7 dias. Chamada confirmada antes da deslocação.">`
+     - 0 résidu grep post-fix.
+  3. **Meta description «A partir de 110€» purgée** (R11 ZÉRO INVENTION — fourchette calculée 70€ + 35€ Z3 = 105€ ≈ 110€ inventée) : `<meta name="description" content="Eletricista Urgente Alfândega da Fé. 25€ deslocação + 70€/h. A partir de 110€ (1h).. 24h. Ligue +351 932 321 892.">` → `<meta name="description" content="Eletricista Urgente Alfândega da Fé. 70€/h · Deslocação Zona 3 = 35€ sob orçamento por escrito. Ligue +351 932 321 892.">`. Doctrine PRICING.md §28 : «Hors grille = sob orçamento, JAMAIS une fourchette inventée».
+  4. **FAQ custo source-of-truth align** : `<br>O preço deste serviço começa em sob orçamento por escrito para Zona 2, deslocação incluída.` → `<br>O preço deste serviço começa em sob orçamento por escrito para Zona 3, deslocação incluída.` (Z2 héritage → Z3 source-of-truth).
+  5. **Zone-badge Z3** : `<div class="zone-badge">📍 Zona 2 • Chegada conforme disponibilidade</div>` → `<div class="zone-badge">📍 Zona 3 • Chegada conforme disponibilidade</div>`.
+- **Doctrine R12 (§12 Transparência Radicale) intacte** : 70 €/h × 1 (doctrine bloc), Z1-Z6 grille × 1, +50% majoration × 1, orçamento por escrito × 5, NAP 932 321 892 × 6 (0 NAP 928 — site 100% élec), DGEG TRIESP 90062 × 1 (section dgeg-cert bloc) + Person JSON-LD × 3, équipement Fluke T6-1000 / Megger MFT1741+ / ROLeak Aqua 3Plus / FLIR E96 / câmara 30 m × 1 doctrine block (intacts). Aucune avanie / prix / zone / délai / service inventé — uniquement alignement sur source-of-truth PRICING.md + precos-zonas.json.
+- **Témoins grep post-fix (vérifiés sur fichier local)** :
+  - `Zona [1-6]` (avant : 4× Zona 2) : **6× Zona 3** ✓
+  - `25€` (avant : 2) : **0** ✓
+  - `35€` (avant : 0) : **2** ✓
+  - `A partir de 110€` (avant : 1) : **0** ✓
+  - `mediante confirmação` (avant : 3) : **0** ✓
+  - `prioridade absoluta` (avant : 1) : **0** ✓
+  - `15-25€ deslocação conforme zona` (avant : 1) : **0** ✓ (fourchette inventée purgée)
+  - `Z2` (avant : 4) : **0** ✓ (toutes → Z3)
+  - `70 €/h` : 1 (inchangé)
+  - `932 321 892` : 6 (inchangé — NAP élec)
+  - `+351 928` : 0 (NAP canal JAMAIS site élec)
+  - `canalizador` (JSON-LD `sameAs` Annexe A) : 2 (inchangé — backlinks cross-site conformes PR #110)
+- **Refs** : kanban t_b94afd7b, AGENTS.md §11 + §12 + §13 + §14, PRICING.md L.17 Z3=35€, precos-zonas.json[`Alfândega da Fé`]=3, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul 4 vagues).
+- **R7** : PR #251 draft en attente — **NE PAS merger sans GO nominatif Philippe**.
+
