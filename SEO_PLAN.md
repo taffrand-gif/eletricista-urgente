@@ -1629,3 +1629,49 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Refs** : kanban t_0a9c7492, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.19 Z6=65€, precos-zonas.json[`São Martinho de Mouros`]=6, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul vagues).
 - **R7** : PR #251 draft en attente — **NE PAS merger sans GO nominatif Philippe**.
 
+### 2026-08-05 — Scope-electric-on-plumbing FPP réfuté + R145 purge (3 chaînes) + Z4/45€ source-of-truth align — t_b4071c97 (eletricista-avaria-eletrica-vila-nova-de-foz-coa.html)
+
+- **Branche** : `fix/eu-conform-xinzo-scope-r145-z4-t_b1cb089e` (cumul des vagues t_b1cb089e + t_2b0b5c41 + t_b023f28a + t_b94afd7b + t_12dd5ca5 + t_70a0439b + t_85f4bf0b + t_0a9c7492 + t_b4071c97). PR draft #251 cumul vagues.
+- **Commit** : `338e4d093` — `fix(eu,conform): R145 purge (3 chaînes) + Z4/45€ source-of-truth align + JSON-LD price fix on eletricista-avaria-eletrica-vila-nova-de-foz-coa.html (t_b4071c97)`.
+- **Scope (FAUX POSITIF réfuté)** : la classification pool-keeper `scope-electric-on-plumbing` est **réfutée**. La page eletricista-avaria-eletrica-vila-nova-de-foz-coa.html ne contient **aucune** section HTML `<section class="unique-urg-can">` plomberie — uniquement des sections élec cohérentes : `<section class="unique-elec">` (Porquê Escolher um Eletricista Profissional), `<section class="eeat">` (Sobre a Norte Reparos), et la carte "O que está incluído no serviço" avec 5 signaux 100% élec (Disjuntor dispara / Cheiro a queimado / Sem luz / Tomada avariada / Ruído no quadro elétrico). Couleurs #FF6B35 (orange élec) + #fff5e0 (orange pâle élec), **0** occurrence de `fuga de água` / `Cano rebentado` / `Inundação` / `Esgoto` / `torneira` / `Válvula` / `feche a` / `Canalizador de Urgência`. Signal = faux-positif du détecteur (pattern identique aux commits 74a0c57e6 figueira, 32d16284a alfandega-da-fe, 7afa74214 sendim, c180a5bd7 murça).
+- **Fix R145 (3 chaînes purgées)** :
+  - hero `<p>` «Reparação de avarias elétricas, curto-circuitos, disjuntores a disparar. atendimento mediante confirmação por telefone.» → «Reparação de avarias elétricas, curto-circuitos, disjuntores a disparar.» (R145 «mediante confirmação» BANNIS)
+  - hero trailing `<p style="margin-top:1rem;font-size:.9rem;opacity:.9">atendimento mediante confirmação por telefone • 24h/7d</p>` → «atendimento por telefone • 24h/7d»
+  - card avaria queimado `<p>... Diagnóstico após confirmação por telefone + reparação.</p>` → «Diagnóstico no local + reparação.» (R145 «após confirmação» BANNIS)
+  - price card `<strong>Tempo de resposta médio:</strong> atendimento mediante confirmação por telefone` → «<strong>Atendimento:</strong> por telefone, 24h/7 dias — chamada confirmada antes da deslocação»
+  - FAQ tempo `<strong>Qual o tempo de chegada a Vila Nova de Foz Coa?</strong><br>Para Zona 4, atendimento é mediante confirmação por telefone. Em emergências, prioridade absoluta.` → «Para Zona 4, atendimento por telefone, 24h/7 dias — chamada confirmada antes da deslocação.» (R145 «mediante confirmação» + «prioridade absoluta» INTERDITS, alignement canonical murça t_391ee4ba / commit 860f23793)
+  - cta-bottom `<p style="margin-top:1rem;font-size:.85rem;opacity:.9">atendimento mediante confirmação por telefone • 24h/7d</p>` → «atendimento por telefone • 24h/7d»
+- **Fix PRICING.md source-of-truth align (Vila Nova de Foz Coa = Z4/45€, per precos-zonas.json)** :
+  - price card `<strong>Deslocação Zona 3: 35€ (já incluída no preço)</strong>` → «<strong>Deslocação Zona 4:</strong> 45€ (sob orçamento por escrito)» (R11 ZÉRO INVENTION : Z3/35€ héritage purgé → Z4/45€ source-of-truth, PRICING.md L.16)
+  - JSON-LD offers.price `"110"` (Z6 inventé héritage) → `"45"` (Z4 canonique source-of-truth, alignement pattern figueira 74a0c57e6 + alfandega-da-fe 32d16284a)
+- **Doctrine §12 (Transparência Radicale) intacte** :
+  - 70 €/h × 1 (doctrine bloc haut)
+  - Z1-Z6 grille × 1 (doctrine bloc bas)
+  - +50 % majoration × 1 (doctrine bloc + price card)
+  - orçamento por escrito × N (hero + JSON-LD FAQPage + price card + doctrine bloc)
+  - NAP élec 932 321 892 × 10 (header + tel: + wa.me + doctrine + cta-bottom + footer + JSON-LD)
+  - 0 NAP canal 928 (JAMAIS site élec)
+  - DGEG TRIESP 90062 × 1 (section dgeg-cert + Person JSON-LD)
+  - Équipement Fluke T6-1000 / Megger MFT1741+ / ROLeak Aqua 3Plus / FLIR E96 / câmara 30 m × 1 doctrine bloc (intacts — ROLeak acoustic diff maintenu comme équipement élec scope per AGENTS.md §12)
+  - JSON-LD sameAs × 3 = backlinks cross-site Annexe A conformes (canalizador-* légitime, page 100% élec)
+- **R11 ZÉRO INVENTION** : aucun prix/zone/délai/chantier/service inventé. 35€ héritage purgé → 45€ source-of-truth (Z3 → Z4). 110€ héritage purgé → 45€ source-of-truth (JSON-LD offers.price). R145 + Doctrine §14 (Boucle autonome site EU) respectées.
+- **Témoins grep post-fix (vérifiés sur fichier local)** :
+  - `mediante confirmação` : 5 (hero `<p>` + hero trailing + price card + FAQ tempo + cta-bottom) → **0** ✓
+  - `após confirmação` : 1 (card avaria queimado) → **0** ✓
+  - `prioridade absoluta` : 1 (FAQ tempo) → **0** ✓
+  - `Deslocação Zona 3` : 1 (price card) → **0** ✓ (purgé héritage R11)
+  - `45€` effectif : 0 → **1** ✓ (price card source-of-truth Z4)
+  - `chamada confirmada antes da deslocação` : 0 → **2** ✓ (price card + FAQ)
+  - `atendimento por telefone • 24h/7d` : 0 → **2** ✓ (hero trailing + cta-bottom)
+  - JSON-LD offers.price `"45"` (Z4 canonique) : 1 ✓
+  - JSON-LD offers.price `"110"` (Z6 héritage inventé) : **0** ✓
+  - `70 €/h` : 1 (inchangé)
+  - `932 321 892` : 10 (inchangé — NAP élec)
+  - `+351 928` : 0 (JAMAIS site élec)
+  - `canalizador-norte-reparos.pt` (Annexe A backlinks) : 3 (intact)
+  - `canalizador-urgente.pt` (Annexe A backlinks) : 3 (intact)
+  - `fuga de água` / `Cano rebentado` / `Inundação` / `Esgoto` / `torneira` / `Válvula` / `feche a` : **0** chacun ✓ (scope élec pur)
+  - ROLeak Aqua 3Plus (doctrine élec scope acoustic diff) : 1 (intact)
+- **Refs** : kanban t_b4071c97, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.16 Z4=45€, precos-zonas.json[`Vila Nova de Foz Coa`]=4, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul vagues).
+- **R7** : PR #251 draft en attente — **NE PAS merger sans GO nominatif Philippe**.
+
