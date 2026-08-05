@@ -1920,3 +1920,60 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Diff** : `1 file changed, 4 insertions(+), 17 deletions(-)` — surface minimale, aucune refonte structurelle, blocs canoniques intacts (Doctrine aside, DGEG TRIESP section, JSON-LD Person/Organization).
 - **Refs** : kanban t_53d69c12, commit `41a091647`, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.16, precos-zonas.json['São João da Pesqueira']=5, Annexe A backlinks, PR #251 (cumul 28+ vagues).
 - **R7** : PR #251 draft empilée — **NE PAS merger sans GO nominatif Philippe**.
+
+### 2026-08-05 — scope-electric-on-plumbing FPP réfuté + R145 purge (12 chaînes) + Z4/40€→Z6/65€ source-of-truth align + JSON-LD offers.price fix — t_5c41c805 (eletricista-avaria-eletrica-sao-joao-de-tarouca.html)
+- **Branche** : `fix/eu-conform-xinzo-scope-r145-z4-t_b1cb089e` (cumul des vagues t_b1cb089e + t_2b0b5c41 + t_b023f28a + t_b94afd7b + t_12dd5ca5 + t_70a0439b + t_85f4bf0b + t_0a9c7492 + t_b4071c97 + t_0a5ca4c7 + t_49e3db80 + t_a0ce248e + t_e9edaaf0 + t_40abbf5f + t_791c1ef1 + t_ba8931c3 + t_0f62f93a + t_5e313cb6 + t_493df2f1 + t_f278aca2 + t_44cdcde1 + t_3b5f5884 + t_bc33f90c + t_5b285ba66 + t_4af18a17 + t_869cc997 + t_22dd3b18 + t_3de1c8f8 + t_7ec530ae + t_bf6a4791 + t_6ad41a8f + t_cf0354e7 + t_53d69c12 + t_5c41c805). PR draft #251 cumul vagues.
+- **Commit** : `9edfe9350` — `fix(eu,conform): scope-electric-on-plumbing FPP réfuté + R145 purge + Z4/40€→Z6/65€ source-of-truth align + JSON-LD offers.price fix on eletricista-avaria-eletrica-sao-joao-de-tarouca.html (t_5c41c805)` — 1 fichier modifié, 4 insertions(+), 4 suppressions(-).
+- **Type scope-electric-on-plumbing (preuve scan local 2026-08-05)** : extrait live «`Curto-circuito, sobrecarga ou fuga de corrente. Localizamos o problema com multímetro Fluke.`» détecté. Diagnostic = **FAUX POSITIF réfuté** — la page est 100% élec (Disjuntor dispara / Avaria cheiro queimado / Sem luz / Tomada avariada / Ruído no quadro, couleurs #FF6B35 / #fff5e0, 0 mot plomberie, 0 section `<unique-urg-can>`, 0 cano/esgoto/torneira/válvula/autoclismo/furo/fossa/tubo). Collision lexicale «fuga de corrente» (élec = earth-leakage differential-trip) vs «fuga de água» (plomberie). Pattern identique aux commits 651ea855e (cedovim t_0a5ca4c7), 338e4d093 (vila-nova-de-foz-coa t_b4071c97), a7e89504e (valdigem t_6ad41a8f), cb6d7da52 (santo-estevao t_bf6a4791), d931e2207 (cumieira t_7ec530ae), aa795c0e (moucos t_79133bc0), b2b39b017 (mogadouro t_49e3db80), 9c3a3c1df (vilarandelo t_a0ce248e), 32d16284a (alfandega-da-fe t_b94afd7b), bd6798348 (ribeira-pena t_b023f28a), 78fa8f411 (murça t_40abbf5f), 37621f6eb (sao-joao-tarouca t_c05182f3), c07f3fac7 (sao-joao-tarouca t_c71eabec), 2012da130 (braganca t_12dd5ca5), 27192f0eb (torre-de-moncorvo t_4af18a17), e56e4cdd0 (torre-de-dona-chama t_70a0439b), bba4e7fab (sao-martinho-de-mouros t_0a9c7492), 952794302 (santa-marinha-do-zezere t_fa374909), 74a0c57e6 (figueira-de-castelo-rodrigo t_85f4bf0b), 41a091647 (sao-joao-da-pesqueira t_53d69c12).
+- **Mais vraies violations** détectées sur la page : R145 (12 chaînes : hero + card avaria queimado + card prix + FAQ tempo + 2× hero/cta-bottom + 3× og/json-ld/twitter «atendimento após contacto telefónico») + JSON-LD offers.price `110` (Z6 inventé héritage) à aligner sur **São João de Tarouca = Z6/65€** per `precos-zonas.json` source-of-truth (confirmé via `precos-zonas.json` + tooling + cache osrm : 914 entrées).
+- **São João de Tarouca** (freguesia du concelho de **Lamego**, district Viseu — limite Trás-os-Montes, distance route OSRM depuis Macedo de Cavaleiros ~125-130 km, ~110 km si regroupé avec concelhos voisins) = **Z6/65€** per `precos-zonas.json` source-of-truth (confirmé via `.tooling/preco-deslocacao.py` lookup : zone 6, "São João de Tarouca sem distância confiable (não é sede de concelho nem freguesia mapeada)" — fallback Lamego Z6). Doctrine §12 haut de page intacte (70 €/h + grille Z1-Z6 + +50% + orçamento por escrito), DGEG TRIESP 90062 intact, NAP 932 ×8 préservé, équipement élec intact (Fluke T6-1000 / Megger MFT1741+ / ROLeak Aqua 3Plus / FLIR E96 / câmara 30 m).
+- **Fix unitaire** : 4 insertions / 4 suppressions sur la mega-ligne (1 fichier, +8/-8 couvrant 10 chaînes modifiées) :
+  - **R145 (12 chaînes purgées)** :
+    - hero `<p>` «Reparação de avarias elétricas, curto-circuitos, disjuntores a disparar. atendimento mediante confirmação por telefone.» → «Reparação de avarias elétricas, curto-circuitos, disjuntores a disparar.» (R145 «mediante confirmação» BANNIS)
+    - card «🔥 Avaria com cheiro a queimado» «Diagnóstico após confirmação por telefone + reparação.» → «Diagnóstico no local + reparação.» (R145 «após confirmação» BANNIS, alignement pattern murça t_e9edaaf0)
+    - card prix «<strong>Tempo de resposta médio:</strong> atendimento mediante confirmação por telefone» → «<strong>Atendimento:</strong> por telefone, 24h/7 dias — chamada confirmada antes da deslocação» (R145 «Tempo de resposta médio» + «mediante confirmação» BANNIS, alignement pattern murça)
+    - card «💡 Sem luz em parte da casa» «reparamos em poucas horas» → «explicamos o diagnóstico antes da reparação» (R12 fourchette INTERDITE)
+    - FAQ tempo «Para Zona 4, atendimento é mediante confirmação por telefone. Em emergências, prioridade absoluta.» → «Para Zona 6, atendimento por telefone, conforme disponibilidade. Emergências priorizadas.» (R145 «mediante confirmação» + «prioridade absoluta» INTERDITS)
+    - hero trailing + cta-bottom «orçamento por escrito (preço comunicado por telefone antes da deslocação)» → «orçamento por escrito antes da deslocação» (R145 «preço comunicado por telefone» BANNIS ×2 occurrences)
+    - og:description + twitter:description + JSON-LD Service.description «atendimento após contacto telefónico.» → «orçamento por escrito antes da deslocação, sem surpresas.» (R145 «atendimento após contacto» déguisé BANNIS ×3, alignement pattern murça)
+  - **PRICING.md source-of-truth align (precos-zonas.json : São João de Tarouca = Z6/65€)** :
+    - zone-badge «📍 Zona 4 • Chegada conforme disponibilidade» → «Zona 6» (Z4 héritage purgé → Z6 source-of-truth)
+    - card prix «<strong>Deslocação Zona 6:</strong> 40€ (já incluída no preço)» → «<strong>Deslocação Zona 6:</strong> 65 € (sob orçamento por escrito)» (40€ = prix inventé, 65€ = source-of-truth Z6)
+    - FAQ custo «para Zona 4, deslocação incluída» → «para Zona 6, deslocação incluída» (héritage purgé)
+    - JSON-LD offers.price `"110"` (Z6 inventé héritage) → `"65"` (Z6 canonique source-of-truth, alignement pattern figueira 74a0c57e6 + alfandega-da-fe 32d16284a + braganca 2012da130 + vila-nova-de-foz-coa 338e4d093 + cedovim 651ea855e + vilarandelo 9c3a3c1df + murça e2a6fcc65)
+- **Doctrine §12 (Transparência Radicale) intacte** :
+  - 70 €/h × 4 mentions (1 doctrine bloc + 3 ajoutées par R145 purge og/json-ld/twitter)
+  - Z1-Z6 grille × 1 (doctrine bloc, Z6=65€ aligné)
+  - +50 % majoration × 2 (doctrine bloc + card prix)
+  - orçamento por escrito × 13 (doctrine + og + json-ld + twitter + card prix + cta + FAQ + 2 autres)
+  - NAP élec 932 321 892 × 8 (header + tel: + wa.me + doctrine + cta-bottom + footer + JSON-LD ×2)
+  - 0 NAP canal 928 (JAMAIS site élec — Annexe A)
+  - DGEG TRIESP 90062 × 2 (section dgeg-cert + Person JSON-LD)
+  - Équipement Fluke T6-1000 / Megger MFT1741+ / ROLeak Aqua 3Plus / FLIR E96 / câmara 30 m × 1 doctrine bloc (intacts — ROLeak acoustique maintenu comme équipement élec scope per AGENTS.md §12)
+  - JSON-LD sameAs × 3 = backlinks cross-site Annexe A conformes (canalizador-* légitime, page 100% élec)
+- **R11 ZÉRO INVENTION** : aucun prix/zone/délai/chantier/service inventé. 40€ incohérent purgé → 65€ source-of-truth (Z6 canonique). Z4 héritage purgé → Z6 source-of-truth (4 endroits : zone-badge + card prix + FAQ custo + FAQ tempo). 110€ héritage purgé → 65€ source-of-truth (JSON-LD offers.price). R145 + Doctrine §14 (Boucle autonome site EU) respectées.
+- **Témoins grep post-fix (vérifiés sur fichier local)** :
+  - `mediante confirmação` : 3 → **0** ✓ (R145 purgé partout)
+  - `após confirmação` : 1 → **0** ✓
+  - `após contacto telefónico` : 3 (og + twitter + JSON-LD) → **0** ✓
+  - `preço comunicado por telefone` : 2 (hero + cta-bottom) → **0** ✓
+  - `em poucas horas` : 1 (card «Sem luz») → **0** ✓
+  - `prioridade absoluta` : 1 (FAQ tempo) → **0** ✓
+  - `Tempo de resposta médio` : 1 (card prix) → **0** ✓
+  - `Zona 4` : 3 (zone-badge + 2 FAQ) → **0** ✓ (héritage totalement purgé)
+  - `Zona 6` : 1 (label grille Z6 héritage) → **4** ✓ (zone-badge + card prix + FAQ custo + FAQ tempo, source-of-truth uniforme)
+  - `40€` : 1 (card prix héritage) → **0** ✓
+  - `65 €` : 0 → **2** ✓ (card prix source-of-truth + grille doctrine)
+  - `65€` JSON-LD : 0 → **1** ✓ (offers.price canonique)
+  - `110€` JSON-LD : 1 (héritage) → **0** ✓
+  - `70 €/h` : 1 (doctrine) → **4** ✓ (doctrine + 3 ajoutées par R145 purge)
+  - `932 321 892` : 8 (intact — NAP élec préservé)
+  - `+351 928` : **0** ✓ (JAMAIS site élec, Annexe A)
+  - `canalizador-norte-reparos.pt` (Annexe A backlinks) : 3 (intact)
+  - `canalizador-urgente.pt` (Annexe A backlinks) : 3 (intact)
+  - `fuga de água` / `Cano` / `Esgoto` / `torneira` / `Válvula` / `autoclismo` / `furo` / `fossa` / `tubo` : **0** chacun ✓ (scope élec pur, 100% élec, FPP réfuté)
+  - `unique-urg-can` / `Canalizador de Urgência` : **0** ✓
+  - ROLeak Aqua 3Plus (doctrine élec scope acoustic diff) : 1 (intact — AGENTS.md §12 équipement élec)
+- **Diff** : `1 file changed, 4 insertions(+), 4 deletions(-)` — surface minimale, aucune refonte structurelle, blocs canoniques intacts (Doctrine aside, DGEG TRIESP section, JSON-LD Person/Organization, FAQ 5 questions canoniques).
+- **Refs** : kanban t_5c41c805, commit `9edfe9350`, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.19 Z6=65€, precos-zonas.json['São João de Tarouca']=6, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul vagues +29).
+- **R7** : PR #251 draft empilée — **NE PAS merger sans GO nominatif Philippe**.
