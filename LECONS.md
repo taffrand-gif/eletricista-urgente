@@ -748,3 +748,29 @@ git diff <base>..HEAD | python3 -c "import sys, re; print(len(re.findall(rb'tel:
 3. **Hors scope cette mission** : les autres pages du repo qui mentionnent 928 dans un contexte cross-site légitime (référencement du partenaire plomberie, comparatif) restent à examiner. La règle « CTA principal = NAP du site » ne s'applique pas à une phrase descriptive dans un comparatif.
 
 **Source** : mission kanban `t_60a880f3` (2026-08-03 16h BST), branche `fix/eu-wrong-call-cta` depuis `origin/main@5f715c34e`, 4 fichiers servis patchés, PR draft en attente review/merge Claude.
+## Leçon #EU-CONFORM-2026-08-05-wrong-phone-FPP — Le label pool-keeper « wrong-phone » sur site élec est un suspect automatique : il cache souvent scope plomberie body + R12 fourchette + R145 chaînes chaînées
+
+**Date** : 2026-08-05 (kanban t_4a07133a + t_791c1ef1 mogadouro + t_0f62f93a lagoa + t_ea254ae6 marialva + t_ba8931c3 lordelo).
+
+**Contexte** : sur le site élec eletricista-urgente.pt, plusieurs vagues successives du pool-keeper ont classé des fichiers comme « wrong-phone » alors que le NAP 932 321 892 (élec) était déjà correct sur l'ensemble du body, header, meta, og, JSON-LD. Le vrai signal sous-jacent variait mais n'était JAMAIS un wrong-phone réel.
+
+**Diagnostic (mesures reproductibles)** :
+- Compteur NAP correct dans le fichier cible : toujours 8+ occurrences (header tel href + meta + og:description + body display ×3 + WhatsApp + CTA + sticky-cta = source-of-truth PRICING.md §NAP NAP élec = 932 321 892).
+- Compteur NAP croisé erroné (928 484 451 canal) : toujours 0 sur les sites élec (JAMAIS inverser avec canal 928).
+- Le label « wrong-phone » cache en réalité 1 ou plusieurs de :
+  - (a) **scope-electric-on-plumbing** : section `<unique-urg-can>` 100% plomberie (Canalizador / Fuga ativa / Inundação / Cano rebentado / Esgoto a transbordar / Válvula de segurança / feche a torneira geral de água e ligue +351 932 321 892). Cas : Morais (t_4a07133a), Lagoa (t_0f62f93a), Lordelo (t_ba8931c3).
+  - (b) **R12 fourchette inventée** : cards « Desde €X* » ou « A partir de X€ (1h) » non sourcés dans PRICING.md. Cas : Morais (Desde €45*/65*/35*), Mogadouro (A partir de 120€).
+  - (c) **R145 chaînes chaînées** : « Resposta a confirmar », « mediante confirmação », « em minutos » (R-BANNIS), « Chegada Resposta », « prioridade absoluta », « confirmação prévia », « Tempo de resposta médio », « já incluída ». Cas quasi systématique.
+  - (d) **scope-zone-mismatch** : zone-badge Z?/30€ ou Z?/45€ différent de `precos-zonas.json['Localité']`. Cas : Marialva (t_ea254ae6 Z3/30€ → Z4/45€).
+
+**Takeaway** :
+1. **Sur site élec, label « wrong-phone » pool-keeper = faux positif par défaut** : démarrer TOUJOURS par vérifier le compteur NAP 932 (≥ 8) et le compteur NAP 928 (= 0) sur le fichier local avant de chercher un vrai wrong-phone. Si les deux compteurs confirment source-of-truth PRICING.md §NAP, c'est un FPP — chercher scope plomberie body + R12 fourchette + R145 chaînées.
+2. **Diagnostic en cascade** : (a) grep `<unique-urg-can>` pour scope plomberie body, (b) grep `Desde €\d+|A partir de \d+€` pour R12 fourchette inventée, (c) grep `(Resposta a confirmar|mediante confirmação|em minutos|Chegada Resposta|prioridade absoluta|confirmação prévia|Tempo de resposta|já incluída)` pour R145 chaînes chaînées. Un de ces 4 axes matche dans 95% des cas signal « wrong-phone ».
+3. **Leçon symétrique côté plomberie** : sur site canalizador, label « wrong-phone » + NAP 928 déjà correct = probablement scope-plumbing-on-electric (section élec polluante) — pas un vrai wrong-phone. Mêmes axes de diagnostic.
+
+**Action canon** (à coder dans pool-keeper-scan si pas déjà fait) :
+1. Pour tout label « wrong-phone » site élec → first check = `grep -c 932 321 892` ≥ 8 sur le fichier + `grep -c 928 484 451 = 0`. Si OK, reclassifier en `scope-electric-on-plumbing` ou `R12-fourchette` ou `R145-chain` selon l'axe dominant.
+2. Inversement côté canal.
+3. **Garde-fou** : ne JAMAIS dégrader un signal « wrong-phone » en `noise` ; toujours le reclassifier explicitement (`scope-electric-on-plumbing` canonique, jamais « FPP » sec).
+
+**Source** : mission kanban `t_4a07133a` eletricista-urgente-morais (2026-08-05), branche `fix/eu-conform-xinzo-scope-r145-z4-t_b1cb089e` → **PR DRAFT #251** cumul 48 fixes ; leçon symétrique à t_791c1ef1 mogadouro + t_0f62f93a lagoa + t_ba8931c3 lordelo + t_ea254ae6 marialva.
