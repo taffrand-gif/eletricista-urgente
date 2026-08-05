@@ -1675,3 +1675,51 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Refs** : kanban t_b4071c97, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.16 Z4=45€, precos-zonas.json[`Vila Nova de Foz Coa`]=4, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul vagues).
 - **R7** : PR #251 draft en attente — **NE PAS merger sans GO nominatif Philippe**.
 
+### 2026-08-05 — Scope-electric-on-plumbing FPP réfuté + R145 purge (3 chaînes) + Z4/45€ source-of-truth align + JSON-LD price fix — t_0a5ca4c7 (eletricista-avaria-eletrica-cedovim.html)
+
+- **Branche** : `fix/eu-conform-xinzo-scope-r145-z4-t_b1cb089e` (cumul des vagues t_b1cb089e + t_2b0b5c41 + t_b023f28a + t_b94afd7b + t_12dd5ca5 + t_70a0439b + t_85f4bf0b + t_0a9c7492 + t_b4071c97 + t_0a5ca4c7). PR draft #251 cumul vagues.
+- **Commit** : `651ea855e` — `fix(eu,conform): scope-electric-on-plumbing FPP réfuté + R145 purge (3 chaînes) + Z4/45€ source-of-truth align + JSON-LD price fix on eletricista-avaria-eletrica-cedovim.html (t_0a5ca4c7)`.
+- **Scope (FAUX POSITIF réfuté)** : la classification pool-keeper `scope-electric-on-plumbing` est **réfutée**. La page eletricista-avaria-eletrica-cedovim.html ne contient **aucune** section HTML `<section class="unique-urg-can">` plomberie — uniquement des sections élec cohérentes : `<section class="unique-elec">` (Porquê Escolher um Eletricista Profissional), `<section class="eeat">` (Sobre a Norte Reparos), et la carte «O que está incluído no serviço» avec 5 signaux 100% élec (Disjuntor dispara / Avaria com cheiro a queimado / Sem luz em parte da casa / Tomada avariada / Ruído no quadro elétrico). Couleurs #FF6B35 (orange élec) + #fff5e0 (orange pâle élec), **0** occurrence de `fuga de água` / `Cano rebentado` / `Inundação` / `Esgoto` / `torneira` / `Válvula` / `feche a` / `Canalizador de Urgência`. Le FP a été déclenché par la proximité lexicale «fuga de corrente» (terme technique élec R12) sur la page voisine eletricista-fuga-corrente-cedovim.html (commit a577ecae8 t_44cdcde1 — FPP identique confirmé 04/08/2026). Pattern identique aux commits 74a0c57e6 (figueira FPP réfuté), 32d16284a (alfandega-da-fe FPP), 7afa74214 (sendim FPP), c180a5bd7 (murça FPP réfuté), 338e4d093 (vila-nova-de-foz-coa FPP + Z4/45€ + JSON-LD price).
+- **Fix R145 (3 chaînes purgées — pattern t_44cdcde1 fuga-corrente-cedovim + t_b4071c97 vila-nova-de-foz-coa)** :
+  - hero `<p>` «Reparação de avarias elétricas, curto-circuitos, disjuntores a disparar. atendimento mediante confirmação por telefone.» → «Reparação de avarias elétricas, curto-circuitos, disjuntores a disparar.» (R145 «mediante confirmação» BANNIS)
+  - hero trailing `<p style="margin-top:1rem;font-size:.9rem;opacity:.9">orçamento por escrito (preço comunicado por telefone antes da deslocação)</p>` → «Atendimento por telefone • 24h/7d» (réécriture propre vers formulation canonique R12 §1, pattern murça)
+  - card avaria queimado `<p>... Diagnóstico após confirmação por telefone + reparação.</p>` → «Diagnóstico no local + reparação.» (R145 «após confirmação» BANNIS)
+  - price card `<strong>Tempo de resposta médio:</strong> atendimento mediante confirmação por telefone` → «<strong>Tempo de resposta:</strong> atendimento por telefone, conforme zona e disponibilidade» (R145 «mediante confirmação» + suppression «Tempo de resposta médio» trop chiffré)
+  - FAQ tempo `<strong>Qual o tempo de chegada a Cedovim?</strong><br>Para Zona 3, atendimento é mediante confirmação por telefone. Em emergências, prioridade absoluta.` → «Para Zona 4, atendimento por telefone, conforme disponibilidade. Emergências priorizadas.» (R145 «mediante confirmação» + «prioridade absoluta» INTERDITS, alignement canonical murça t_391ee4ba / commit 860f23793)
+  - cta-bottom `<p style="margin-top:1rem;font-size:.85rem;opacity:.9">orçamento por escrito (preço comunicado por telefone antes da deslocação)</p>` → «Atendimento por telefone • 24h/7d»
+- **Fix PRICING.md source-of-truth align (Cedovim = Z4/45€, per precos-zonas.json)** :
+  - hero zone-badge `<div class="zone-badge">📍 Zona 3 • Chegada conforme disponibilidade</div>` → «<div class="zone-badge">📍 Zona 4 • Chegada conforme disponibilidade</div>» (R11 ZÉRO INVENTION : Z3 héritage purgé → Z4 source-of-truth)
+  - price card `<strong>Deslocação Zona 4: 45€ (já incluída no preço)</strong>` → «<strong>Deslocação Zona 4:</strong> 45€ (sob orçamento por escrito)» (alignement formulation canonique R12 §1 «sem surpresas»)
+  - FAQ «Quanto custa» «para Zona 3, deslocação incluída» → «para Zona 4, deslocação incluída» (héritage purgé)
+  - JSON-LD offers.price `"110"` (Z6 inventé héritage) → `"45"` (Z4 canonique source-of-truth, alignement pattern figueira 74a0c57e6 + alfandega-da-fe 32d16284a + braganca 2012da130 + vila-nova-de-foz-coa 338e4d093)
+- **Doctrine §12 (Transparência Radicale) intacte** :
+  - 70 €/h × 1 (doctrine bloc haut)
+  - Z1-Z6 grille × 1 (doctrine bloc bas)
+  - +50 % majoration × 1 (doctrine bloc + price card)
+  - orçamento por escrito × 5 (hero + JSON-LD FAQPage + price card + doctrine bloc + cta)
+  - NAP élec 932 321 892 × 8 (header + tel: + wa.me + doctrine + cta-bottom + footer + JSON-LD + og:title)
+  - 0 NAP canal 928 (JAMAIS site élec)
+  - DGEG TRIESP 90062 × 1 (section dgeg-cert + Person JSON-LD)
+  - Équipement Fluke T6-1000 / Megger MFT1741+ / ROLeak Aqua 3Plus / FLIR E96 / câmara 30 m × 1 doctrine bloc (intacts — ROLeak acoustic diff maintenu comme équipement élec scope per AGENTS.md §12)
+  - JSON-LD sameAs × 3 = backlinks cross-site Annexe A conformes (canalizador-* légitime, page 100% élec)
+- **R11 ZÉRO INVENTION** : aucun prix/zone/délai/chantier/service inventé. Z3 héritage purgé → Z4 source-of-truth (4 endroits : zone-badge + price-card + 2 FAQ). 110€ héritage purgé → 45€ source-of-truth (JSON-LD offers.price). R145 + Doctrine §14 (Boucle autonome site EU) respectées.
+- **Témoins grep post-fix (vérifiés sur fichier local)** :
+  - `mediante confirmação` : 1 (hero `<p>`) → **0** ✓
+  - `após confirmação` : 1 (card avaria queimado) → **0** ✓
+  - `prioridade absoluta` : 1 (FAQ tempo) → **0** ✓
+  - `Zona 3` : 1 (zone-badge + 2 FAQ cumulés sur la même ligne 49) → **0** ✓ (purgé héritage R11)
+  - `Zona 4` : 1 (price-card héritage déjà OK) → **4** ✓ (zone-badge + price-card + 2 FAQ, source-of-truth)
+  - `45€` effectif : 1 (price-card héritage déjà OK) → **2** ✓ (price-card + JSON-LD price canonique)
+  - `Atendimento por telefone` canonique : 1 → **3** ✓ (hero trailing + price-card + cta-bottom)
+  - JSON-LD offers.price `"45"` (Z4 canonique) : 1 ✓
+  - JSON-LD offers.price `"110"` (Z6 héritage inventé) : **0** ✓
+  - `70 €/h` : 1 (inchangé)
+  - `932 321 892` : 8 (inchangé — NAP élec)
+  - `+351 928` : 0 (JAMAIS site élec)
+  - `canalizador-norte-reparos.pt` (Annexe A backlinks) : 3 (intact)
+  - `canalizador-urgente.pt` (Annexe A backlinks) : 3 (intact)
+  - `fuga de água` / `Cano rebentado` / `Inundação` / `Esgoto` / `torneira` / `Válvula` / `feche a` : **0** chacun ✓ (scope élec pur)
+  - ROLeak Aqua 3Plus (doctrine élec scope acoustic diff) : 1 (intact)
+- **Refs** : kanban t_0a5ca4c7, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.16 Z4=45€, precos-zonas.json[`Cedovim`]=4, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul 22 vagues).
+- **R7** : PR #251 draft en attente — **NE PAS merger sans GO nominatif Philippe**.
+
