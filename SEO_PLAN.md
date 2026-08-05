@@ -1789,3 +1789,39 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Refs** : kanban t_5691f4df, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.16 Z4=45€, precos-zonas.json[`Vilar de Maçada`]=4, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul 23 vagues).
 - **R7** : PR #251 draft empilée — **NE PAS merger sans GO nominatif Philippe**.
 
+### 2026-08-05 — Scope-electric-on-plumbing FPP réfuté + R145 purge + Z3/35€ source-of-truth align — t_a0ce248e (eletricista-fuga-corrente-vilarandelo.html)
+
+- **Branche** : `fix/eu-conform-xinzo-scope-r145-z4-t_b1cb089e` (cumul des vagues précédentes + t_a0ce248e). PR draft #251 cumul vagues.
+- **Type scope-electric-on-plumbing (preuve scan local 2026-08-05)** : extrait live «`Fuga de Corrente Vilarandelo — sob orçamento por escrito | +351 932 321 892`» détecté. Diagnostic = **FAUX POSITIF réfuté** — la page est 100% élec (Diferencial dispara / Localização sem partir / Reparação da fuga / Verificação de segurança / Manutenção preventiva, couleurs #FF6B35 / #fff5e0 élec, 0 mot plomberie, 0 section `<unique-urg-can>`, 0 cano/esgoto/torneira/válvula/autoclismo/furo/fossa/tubo). Pattern identique aux commits 651ea855e (cedovim FPP réfuté t_0a5ca4c7), 338e4d093 (vila-nova-de-foz-coa FPP réfuté t_b4071c97), a7e89504e (valdigem FPP réfuté t_6ad41a8f), cb6d7da52 (santo-estevao FPP réfuté t_bf6a4791), d931e2207 (cumieira FPP réfuté t_7ec530ae), aa795c0e (moucos FPP réfuté t_79133bc0), b2b39b017 (mogadouro FPP réfuté t_49e3db80). Collision lexicale «fuga de corrente» (élec = earth-leakage differential-trip) vs «fuga de água» (plomberie).
+- **Mais vraies violations** détectées sur la page : R145 (4 chaînes : hero trailing, price card «Tempo de resposta médio», FAQ tempo, cta-bottom) + JSON-LD offers.price `110` (Z6 inventé héritage) à aligner sur Vilarandelo = **Z3/35€** per `precos-zonas.json` source-of-truth.
+- **Vilarandelo** (freguesia de **Valpaços**, district Vila Real — Trás-os-Montes, ~50 km route Macedo de Cavaleiros) = **Z3/35€** per `precos-zonas.json` source-of-truth (confirmé via `jq '.Vilarandelo' precos-zonas.json` = `3`). Doctrine §12 haut de page intacte (70 €/h + grille Z1-Z6 + +50% + orçamento por escrito), DGEG TRIESP 90062 intact, NAP 932 ×8 préservé, équipement élec intact (Fluke T6-1000 / Megger MFT1741+ / ROLeak Aqua 3Plus acoustique / FLIR E96 / câmara 30 m).
+- **Fix unitaire** : 5 patches ciblés :
+  - JSON-LD `offers.price` `"110"` → `"35"` (= Z3 deslocação canonique, alignement pattern cedovim/santo-estevao/valdigem/cumieira/vila-nova-de-foz-coa)
+  - Price card `<strong>Deslocação Zona 3: 35€ (já incluída no preço)</strong>` → `<strong>Deslocação Zona 3:</strong> 35€ (sob orçamento por escrito)` (alignement formulation canonique R12 §1 «sem surpresas»)
+  - Price card `<strong>Tempo de resposta médio:</strong> atendimento mediante confirmação por telefone` → `<strong>Atendimento:</strong> por telefone, 24h/7 dias — chamada confirmada antes da deslocação` (R145 «Tempo de resposta médio» + «mediante confirmação» BANNIS)
+  - FAQ tempo `<br>Para Zona 3, atendimento é mediante confirmação por telefone. Em emergências, prioridade absoluta.` → `<br>Para Zona 3, atendimento por telefone, conforme disponibilidade. Emergências priorizadas.` (R145 «mediante confirmação» + «prioridade absoluta» INTERDITS, alignement pattern canonical murça/cedovim/mogadouro)
+  - Hero trailing + cta-bottom `atendimento mediante confirmação por telefone • 24h/7d` → `Atendimento por telefone • 24h/7d` (R145 «mediante confirmação» BANNIS, ×2 occurrences purgées en replace_all)
+- **Doctrine §12 (Transparência Radicale) intacte** : 70 €/h ×1 (Doctrine bloc haut), Z1-Z6 grille ×1 (Doctrine bloc), +50 % majoration ×1 (Doctrine bloc + price card), orçamento por escrito ×3 (Doctrine bloc + JSON-LD FAQPage + price card), NAP élec 932 321 892 ×8 (header + tel: + wa.me + doctrine + cta-bottom + footer + JSON-LD + og:title), 0 NAP canal 928 (JAMAIS site élec — Annexe A), DGEG TRIESP 90062 ×2 (section dgeg-cert + Person JSON-LD), équipement Fluke T6-1000 / Megger MFT1741+ / ROLeak Aqua 3Plus / FLIR E96 / câmara 30 m ×1 (Doctrine bloc intact — ROLeak acoustique maintenu comme équipement élec scope per AGENTS.md §12), JSON-LD sameAs ×3 = backlinks cross-site Annexe A conformes (canalizador-* légitime, page 100% élec).
+- **R11 ZÉRO INVENTION** : aucun prix/zone/délai/chantier/service inventé. 110€ héritage purgé → 35€ source-of-truth (JSON-LD offers.price). Z3 héritage purgé → Z3 source-of-truth confirmé (déjà aligné, pas de changement zone-badge). R145 + Doctrine §14 (Boucle autonome site EU) respectées.
+- **Témoins grep post-fix (vérifiés sur fichier local)** :
+  - `mediante confirmação` : 3 (hero trailing + price card + FAQ tempo) → **0** ✓ (R145 purgé partout)
+  - `após confirmação` : 0 (intact)
+  - `prioridade absoluta` : 1 (FAQ tempo) → **0** ✓
+  - `Tempo de resposta médio` : 1 (price card) → **0** ✓
+  - `Z3` / `Zona 3` : 2 (zone-badge + price-card) → **3** ✓ (zone-badge + price-card + FAQ custo, source-of-truth uniforme)
+  - `35€` effectif : 1 (price-card héritage «já incluída no preço») → **2** ✓ (price-card «sob orçamento por escrito» + JSON-LD price canonique)
+  - `Atendimento por telefone` canonique : 0 → **3** ✓ (hero trailing + price card «Atendimento:» + cta-bottom)
+  - `chamada confirmada antes da deslocação` : 0 → **1** ✓ (price card)
+  - `Emergências priorizadas` : 0 → **1** ✓ (FAQ tempo)
+  - JSON-LD offers.price `"35"` (Z3 canonique) : 1 ✓
+  - JSON-LD offers.price `"110"` (Z6 inventé héritage) : **0** ✓
+  - `70 €/h` : 1 (inchangé — Doctrine §12)
+  - `932 321 892` : 8 (inchangé — NAP élec préservé)
+  - `+351 928` : **0** ✓ (JAMAIS site élec, Annexe A)
+  - `canalizador-norte-reparos.pt` (Annexe A backlinks) : 3 (intact)
+  - `fuga de água` / `Cano` / `Esgoto` / `torneira` / `Válvula` / `autoclismo` / `furo` / `fossa` / `tubo` : **0** chacun ✓ (scope élec pur, 100% élec, FPP réfuté)
+  - `unique-urg-can` / `Canalizador de Urgência` : **0** ✓
+  - ROLeak Aqua 3Plus (doctrine élec scope acoustic diff) : 1 (intact — AGENTS.md §12 équipement élec)
+- **Refs** : kanban t_a0ce248e, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.16 Z3=35€, precos-zonas.json[`Vilarandelo`]=3, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul 26+ vagues).
+- **R7** : PR #251 draft empilée — **NE PAS merger sans GO nominatif Philippe**.
+
