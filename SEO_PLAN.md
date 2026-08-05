@@ -1724,3 +1724,35 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Refs** : kanban t_0a5ca4c7, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.16 Z4=45€, precos-zonas.json[`Cedovim`]=4, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul 22 vagues).
 - **R7** : PR #251 draft en attente — **NE PAS merger sans GO nominatif Philippe**.
 
+### 2026-08-05 — Scope plomberie purgé du bloco `<unique-urg-can>` + Z4/45€ align (héritage déjà conforme) — t_5691f4df (eletricista-urgente-vilar-de-macada.html)
+
+- **Branche** : `fix/eu-conform-xinzo-scope-r145-z4-t_b1cb089e` (cumul des vagues précédentes + t_5691f4df). PR draft #251 cumul vagues.
+- **Commit** : `a0e47d11f` — `fix(eu,conform): scope plomberie purgé du bloco unique-urg-can + Z4/45€ align on eletricista-urgente-vilar-de-macada.html (t_5691f4df)`.
+- **Type wrong-phone (preuve scan local 2026-08-05)** : extrait live `feche a torneira geral de água (normalmente no contador) e ligue 932 321 892` détecté dans le bloco `<section class="unique-urg-can">`. Diagnostic = double violation : (a) **scope plomberie sur site élec** (label «Canalizador de Urgência», items «Fuga ativa», «Inundação», «Cano rebentado», «Esgoto a transbordar», «Válvula de segurança a pingar», «perigo de explosão do esquentador»), (b) consigne «feche a torneira geral de água» = vocabulaire plomberie incompatible avec le périmètre élec (Doctrine §12, Annexe A sites distincts). Téléphone `932 321 892` correct (NAP élec, R12 respecté) — la violation est dans le **contenu** autour, pas dans le numéro.
+- **Faux positif écarté** : le `932 321 892` est bien le NAP élec (Staff-Seekers / Norte Reparos / Filipe Bragança) — `+351 928 484 451` réservé au canal (JAMAIS inverser, Annexe A). Pas de wrong-phone réel ; le type wrong-phone est un wrapper pool-keeper pour la section plomberie.
+- **Vilar de Maçada** (freguesia de **Vila Real**, district Vila Real — Trás-os-Montes, ~30-40 km route Macedo de Cavaleiros) = **Z4/45€** per `precos-zonas.json` source-of-truth. **Héritage déjà conforme** : `zone-badge` ligne 64 affiche déjà «Zona 4 • Chegada conforme disponibilidade», Doctrine §12 haut de page intacte (70 €/h + grille Z1-Z6 + +50% + orçamento por escrito), DGEG TRIESP 90062 intact, NAP 932 ×8 préservé, équipement élec intact (Fluke T6-1000 / Megger MFT1741+ / ROLeak Aqua 3Plus / FLIR E96 / câmara 30 m).
+- **Fix unitaire** : section `<section class="unique-urg-can">` plomberie → version **élec** alignée pattern braganca (commit `2012da130` t_12dd5ca5). 8 insertions / 8 suppressions :
+  - `<h3>🚨 Quando Chamar Canalizador de Urgência</h3>` → `<h3>🚨 Quando Chamar Eletricista de Urgência</h3>`
+  - `<p>Situações que exigem atendimento IMEDIATO</p>` → `<p>Situações elétricas que exigem atendimento IMEDIATO</p>`
+  - Items élec doctrinaux : «Cheiro a queimado elétrico: cabo a aquecer, risco de incêndio iminente», «Faíscas em tomadas ou interruptores: desligue a zona, risco de incêndio», «Disjuntor que não para de disparar: curto-circuito ou sobrecarga perigosa», «Tomada ou interruptor quente: mau contacto, risco de incêndio», «Sem luz em casa inteira (vizinhos têm): possível problema no quadro».
+  - Consigne «feche a torneira geral de água (normalmente no contador) e ligue 932 321 892» → «desligue o disjuntor geral no quadro e ligue 932 321 892». Pattern identique aux commits c57e68b04 (t_b1cb089e xinzo), 883037663 (t_cf0354e7 miranda do douro), 58ca0bd8e (t_bc33f90c vimioso), 2012da130 (t_12dd5ca5 braganca), 27192f0eb (t_4af18a17 torre-de-moncorvo urgencia), e56e4cdd0 (t_70a0439b torre-de-dona-chama), bba4e7fab (t_0a9c7492 sao-martinho-de-mouros).
+- **Doctrine §12 (Transparência Radicale) intacte** : 70 €/h ×2 (Doctrine bloc + meta description), Z1-Z6 grille ×1 (Doctrine bloc), +50 % majoration ×1 (Doctrine bloc), orçamento por escrito ×3 (Doctrine + meta + JSON-LD FAQPage), NAP 932 ×8 (header + doctrine + tel: + wa.me + sticky-cta + cta-bottom + JSON-LD ×2), 0 NAP 928 (JAMAIS site élec), DGEG TRIESP 90062 ×1 (section dgeg-cert + Person JSON-LD), équipement élec scope intact.
+- **R11 ZÉRO INVENTION** : aucun prix/zone/délai/chantier/service inventé. Items élec = formulation canonique Doctrine §13 (symptômes + risques élec standards) déjà appliquée sur braganca/torre-de-dona-chama/sao-martinho-de-mouros. Z4/45€ héritage déjà conforme.
+- **Témoins grep post-fix (vérifiés sur fichier local)** :
+  - `Canalizador` : 1 (JSON-LD sameAs Annexe A backlink cross-site légitime) → **0** ✓ dans le bloc urg-can (1 occurrence annexe A conservée — backlinks cross-site canoniques)
+  - `torneira geral` : 1 → **0** ✓
+  - `feche a torneira` : 1 → **0** ✓
+  - `Fuga ativa` : 1 → **0** ✓
+  - `Cano rebentado` : 1 → **0** ✓
+  - `Esgoto a transbordar` : 1 → **0** ✓
+  - `Válvula de segurança` : 1 → **0** ✓
+  - `explosão do esquentador` : 1 → **0** ✓
+  - `Eletricista de Urgência` (label) : 0 → **1** ✓
+  - `disjuntor geral no quadro` (consigne élec) : 0 → **1** ✓
+  - `932 321 892` : 8 (inchangé — NAP élec préservé)
+  - `Z4` : 1 (zone-badge héritage déjà conforme) ✓
+  - `45€` : 1 (Doctrine bloc Z4 héritage déjà conforme) ✓
+  - `70 €/h` : 1 (Doctrine bloc intact) ✓
+- **Refs** : kanban t_5691f4df, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.16 Z4=45€, precos-zonas.json[`Vilar de Maçada`]=4, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul 23 vagues).
+- **R7** : PR #251 draft empilée — **NE PAS merger sans GO nominatif Philippe**.
+
