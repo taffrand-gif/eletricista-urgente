@@ -1332,3 +1332,26 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **R11 ZÉRO INVENTION respectée** : aucune avanie/prix/zone/délai/chantier inventé.
 - **Refs** : kanban t_bf6a4791, AGENTS.md §11 + §12 + §13 + §14, PRICING.md, precos-zonas.json.
 - **Statut** : 🛑 STOP — PR #242 draft ouvert, gated R7 (validation Filipe avant merge).
+
+### 2026-08-05 — Scope-electric-on-plumbing faux-positif réfuté + R145 purge + Z5/55€ source-of-truth align — t_7ec530ae (eletricista-avaria-eletrica-cumieira.html)
+
+- **Branche** : `fix/eu-conform-cumieira-scope-r145-z5-t_7ec530ae` (forked from `fix/eu-conform-miranda-plumb-scope-wrongphone-t_cf0354e7`, base = main possible après GO Filipe).
+- **PR draft** : #244 (https://github.com/taffrand-gif/eletricista-urgente/pull/244) — gated R7, NE PAS merger sans GO Filipe explicite.
+- **Commit** : b19822593 — `fix(eu,conform): scope-electric-on-plumbing fpp réfuté + R145 purge + Z5/55€ source-of-truth align on eletricista-avaria-eletrica-cumieira.html (t_7ec530ae)` — 1 fichier modifié, 2 insertions(+), 2 suppressions(-).
+- **Scope (FP réfuté)** : page 100% élec (curto-circuito, disjuntor, multímetro Fluke T6-1000, ROLeak Aqua 3Plus acoustique, FLIR E96, câmara 30 m, DGEG TRIESP 90062, NAP 932 321 892). 6 occurrences `canalizador` toutes dans JSON-LD sameAs (backlinks cross-site conformes Annexe A). Aucune section `<unique-urg-can>` plomberie. Classification pool-keeper `scope-electric-on-plumbing` = collision lexicale `fuga de corrente` (élec R12) vs `fuga de água` (plomberie) — pattern FP déjà documenté (t_24099f7e, t_44cdcde1, t_3b5f5884, t_22dd3b18, t_869cc997, t_6ad41a8f, t_8548d01c, t_b2d3f4c2, t_bf6a4791).
+- **Fix R145 (verrouillé 28/06/2026)** : 4 chaînes «mediante confirmação | após confirmação por telefone | prioridade absoluta» purgées :
+  - hero `<p>` «atendimento mediante confirmação por telefone.» -> «Atendimento por telefone.»
+  - card «Avaria com cheiro a queimado» «Diagnóstico após confirmação por telefone + reparação.» -> «Diagnóstico após contacto telefónico + reparação.»
+  - card prix «Tempo de resposta médio: atendimento mediante confirmação por telefone» -> «atendimento por telefone»
+  - FAQ «Para Zona 3, atendimento é mediante confirmação por telefone. Em emergências, prioridade absoluta.» -> «Para Zona 5, atendimento é por telefone. Em emergências, atendimento priorizado.»
+  - 0 résidu grep.
+- **Fix PRICING.md source-of-truth align** (precos-zonas.json : Cumieira = Z5/55€) :
+  - zone-badge «📍 Zona 3 • Chegada conforme disponibilidade» -> «Zona 5»
+  - card prix «Deslocação Zona 5: 30€ (já incluída no preço)» -> «Deslocação Zona 5: 55€ (sob orçamento por escrito)» (30€ = prix inventé, 55€ = source-of-truth)
+  - FAQ custo «para Zona 3, deslocação incluída» -> «para Zona 5, deslocação incluída»
+  - FAQ tempo chegada «Para Zona 3, ...» -> «Para Zona 5, ...»
+  - JSON-LD offers price 110 (inventé) -> 55 (= Z5 deslocação canonique)
+- **Doctrine R12 (§12 Transparência Radicale) intacte** : 70 €/h × 1, Z1-Z6 grille × 1, +50% majoration × 2, orçamento por escrito × 11, NAP 932 321 892 × 10 (0 NAP 928), Zona 5 × 4 (uniforme), DGEG TRIESP 90062 × 10 mentions + 1 schema Person/Org, Fluke T6-1000/Megger MFT1741+/ROLeak Aqua 3Plus/FLIR E96/câmara 30 m (intacts).
+- **R11 ZÉRO INVENTION respectée** : aucune avanie/prix/zone/délai/chantier inventé.
+- **Refs** : kanban t_7ec530ae, AGENTS.md §11 + §12 + §13 + §14, PRICING.md, precos-zonas.json.
+- **Statut** : 🛑 STOP — PR #244 draft ouvert, gated R7 (validation Filipe avant merge).
