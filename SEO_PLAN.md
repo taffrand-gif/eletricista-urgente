@@ -1496,3 +1496,55 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
   - `932 321 892` : 10 (inchangé)
 - **Refs** : kanban t_12dd5ca5, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.17 Z3=35€, precos-zonas.json[`Bragança`]=3, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul vagues).
 - **R7** : PR #251 draft en attente — **NE PAS merger sans GO nominatif Philippe**.
+
+### 2026-08-05 — Scope-electric-on-plumbing réel + R145 purge + Z2/25€ source-of-truth align — t_70a0439b (eletricista-urgente-torre-de-dona-chama.html)
+
+- **Branche** : `fix/eu-conform-xinzo-scope-r145-z4-t_b1cb089e` (cumul des vagues t_b1cb089e + t_2b0b5c41 + t_b023f28a + t_b94afd7b + t_12dd5ca5 + t_70a0439b). PR draft #251 cumul vagues.
+- **Commit** : `e56e4cdd0` — `fix(eu,conform): scope-electric-on-plumbing réel + R145 purge + Z2/25€ source-of-truth align on eletricista-urgente-torre-de-dona-chama.html (t_70a0439b)`.
+- **Scope (RÉEL — pas un FP)** : la classification pool-keeper `scope-electric-on-plumbing` est ici **confirmée**. La page eletricista-urgente-torre-de-dona-chama.html contenait une **vraie** section HTML `<section class="unique-urg-can">` listant des urgences **plomberie** (Canalizador de Urgência, Fuga ativa água, Inundação, Cano rebentado, Esgoto a transbordar, Válvula de segurança a pingar, feche a torneira geral de água) sur une page 100% élec. Signal correct — pas un faux-positif cette fois. Cible : 100% élec.
+- **Fix scope-electric-on-plumbing réel (1 commit, 1 fichier, +13/-13 diff stat)** :
+  - Section `<section class="unique-urg-can">` bg `#ffe8e8` (rouge plomberie) → `#fff5e8` (orange élec) ; border-left `#c0392b` (rouge plomberie) → `#FF6B35` (orange élec).
+  - `<h3>` «🚨 Quando Chamar Canalizador de Urgência» → «🚨 Quando Chamar Eletricista de Urgência».
+  - `<p>` «Situações que exigem atendimento IMEDIATO (não espere até amanhã):» → «Situações elétricas que exigem atendimento IMEDIATO (não espere até amanhã):».
+  - 5 `<li>` plomberie (Fuga ativa água, Inundação, Cano rebentado jato, Esgoto a transbordar, Válvula segurança esquentador) → 5 `<li>` élec (Cheiro a queimado elétrico, Faíscas em tomadas ou interruptores, Disjuntor dispara, Tomada ou interruptor quente, Sem luz em casa inteira vizinhos têm) — reprise des signaux déjà présents dans la card urgencia élec de la page, aucune information inventée.
+  - Consigne «feche a torneira geral de água (normalmente no contador)» → «desligue o disjuntor geral no quadro». Pattern identique aux commits c57e68b04 (t_b1cb089e xinzo), 883037663 (t_cf0354e7 miranda do douro), 58ca0bd8e (t_bc33f90c vimioso), db0a96153 (#239 Vimioso+Alijó), 2012da130 (t_12dd5ca5 braganca), 27192f0eb (t_4af18a17 torre-de-moncorvo urgencia).
+- **Fix R145 (7 chaînes purgées)** :
+  - Doctrine `<p>` «Atendemos 24h/7 dias, mediante confirmação por telefone.» → «Atendimento por telefone, 24h/7 dias.»
+  - Hero sub «Atendemos 24h/7 dias, mediante confirmação por telefone •  min em Zona 1 • Sem compromisso» → «Atendimento por telefone, 24h/7 dias • Chegada conforme disponibilidade • Sem compromisso» (R145 «mediante confirmação» + « min» délai chiffré INTERDITS + Zone 1 inventé purgé).
+  - Typo «Ligue mediante confirmação por telefonemente se:» → «Ligue imediatamente se:» (R145 + typo «telefonemente»).
+  - Step «Descreva o problema» «Atendemos 24h/7 dias, mediante confirmação por telefone — damos preço após confirmação por telefone» → «Atendimento por telefone, 24h/7 dias — damos preço ao telefone».
+  - FAQ «Para Zona 1, tempo de chegada conforme <conforme disponibilidade>. prioridade máxima.» → «Para Zona 2, chegada conforme disponibilidade. Em emergências elétricas, atendimento priorizado.» (R145 «prioridade máxima» BANNIS + Zone 1 → Zone 2).
+  - FAQ «vamos em caráter de máxima urgência» → «vamos com prioridade» (R145 «máxima urgência» BANNIS).
+  - CTA-bottom «atendimento mediante confirmação por telefone • 24h/7d» → «atendimento por telefone • 24h/7d».
+- **Fix PRICING.md source-of-truth align (Torre de Dona Chama = Z2/25€, per precos-zonas.json)** :
+  - Hero `<p>` «Próximo da sede — » (vide après tiret) → «Próximo da sede de Trás-os-Montes (Macedo de Cavaleiros) —» (précision géographique légitime, pas d'invention).
+  - Zone-badge «📍 Zona 1 • Chegada conforme disponibilidade» → «📍 Zona 2 • Chegada conforme disponibilidade» (Z1 héritage → Z2 source-of-truth).
+  - Pricing-grid Z2: `<div class="v">20€</div>` → `<div class="v">25€</div>` (20€ héritage inventé → 25€ source-of-truth, label «Deslocação Zona 2» déjà conforme).
+  - FAQ custo «Para Zona 1, a deslocação é de 20€ e está incluída no preço do serviço.» → «Para Zona 2, a deslocação é de 25€ e está incluída no preço do serviço.» (Zone 1 + 20€ → Zone 2 + 25€, uniforme).
+  - JSON-LD FAQPage custo «sob orçamento por escrito (preço comunicado por telefone antes da deslocação)EUR (1h) com deslocacao incluida. Suplemento fora de horas.» → «70 €/h (mão de obra) + 25 € deslocação Zona 2 = 95 € (1h, sob orçamento por escrito antes da deslocação). +50 % noite/domingo/feriado. Orçamento por escrito antes de qualquer intervenção, sem surpresas.» (alignement PRICING.md + doctrine §12 §1 phrase obligatoire).
+  - JSON-LD FAQPage tempo « min conforme zona. atendimento após contacto telefónico ao telefone.» → «Chegada conforme disponibilidade, organizada após contacto telefónico.» (R145 « min» délai chiffré INTERDIT).
+- **Doctrine §12 (Transparência Radicale) intacte** : 70 €/h × 2 (doctrine bloc × 2), Z1-Z6 grille × 2 (doctrine bloc haut + bas), +50% majoration × 2 (doctrine bloc × 2), orçamento por escrito × 3 minimum (doctrine × 2 + JSON-LD custo × 1), NAP élec 932 321 892 × 8 (tel: masquage rédactionnel + texte), 0 NAP canal 928 (JAMAIS site élec), DGEG TRIESP 90062 × 2 (section dgeg-cert + Person JSON-LD), équipement Fluke T6-1000 / Megger MFT1741+ / ROLeak Aqua 3Plus / FLIR E96 / câmara 30 m × 1 doctrine bloc (intacts). JSON-LD sameAs × N = backlinks cross-site Annexe A conformes (canalizador-* légitime, page 100% élec). Aucune avanie / prix / zone / délai / service inventé — uniquement alignement sur source-of-truth PRICING.md + precos-zonas.json. 20€ héritage purgé vers 25€ source-of-truth.
+- **Témoins grep post-fix (vérifiés sur fichier local)** :
+  - `Canalizador de Urgência` (plomberie dans unique-urg-can) : 1 → **0** ✓
+  - `Fuga ativa` / `Inundação` / `Cano rebentado` / `Esgoto a transbordar` / `Válvula de segurança` / `feche a torneira` (6 motifs) : 7 → **0** ✓
+  - `#ffe8e8` (rouge plomberie) : 1 → **0** ✓
+  - `#c0392b` (rouge plomberie) : 1 → **0** ✓
+  - `Eletricista de Urgência` (nouveau h3) : 0 → **1** ✓
+  - `desligue o disjuntor geral` (nouveau conseil urgence) : 0 → **1** ✓
+  - 5 signaux élec (cheiro/faiscas/disjuntor/tomada quente/sem luz) : 0 → **5** ✓
+  - `mediante confirmação` : 5 → **0** ✓
+  - `após confirmação` : 1 → **0** ✓
+  - `telefonemente` : 1 → **0** ✓
+  - `prioridade máxima` : 1 → **0** ✓
+  - `máxima urgência` : 1 → **0** ✓
+  - ` min em Zona` : 1 → **0** ✓
+  - `Zona 1` body : 4 → **0** ✓
+  - `>20€<` : 1 → **0** ✓
+  - `Zona 2` effectif : 0 → **2** (zone-badge + FAQ custo) ✓
+  - `25€` effectif : 0 → **1** (pricing-grid Z2) ✓
+  - `data-zone` (pas de bloc zone-info hero dédié, badge seul porte la zone — inchangé)
+  - NAP 928 : 0 (JAMAIS site élec)
+  - `70 €/h` : 2 (inchangé)
+  - `932 321 892` : 8 (inchangé — NAP élec)
+- **Refs** : kanban t_70a0439b, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.15 Z2=25€, precos-zonas.json[`Torre de Dona Chama`]=2, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul vagues).
+- **R7** : PR #251 draft en attente — **NE PAS merger sans GO nominatif Philippe**.
