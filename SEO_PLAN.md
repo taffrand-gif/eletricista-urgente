@@ -1548,3 +1548,29 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
   - `932 321 892` : 8 (inchangé — NAP élec)
 - **Refs** : kanban t_70a0439b, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.15 Z2=25€, precos-zonas.json[`Torre de Dona Chama`]=2, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul vagues).
 - **R7** : PR #251 draft en attente — **NE PAS merger sans GO nominatif Philippe**.
+
+### 2026-08-05 — R145 'chamamos com prioridade' purgée FAQ tempo — t_85f4bf0b (eletricista-avaria-eletrica-figueira-de-castelo-rodrigo.html)
+
+- **Branche** : `fix/eu-conform-xinzo-scope-r145-z4-t_b1cb089e` (cumul des vagues t_b1cb089e + t_2b0b5c41 + t_b023f28a + t_b94afd7b + t_12dd5ca5 + t_70a0439b + t_85f4bf0b). PR draft #251 cumul vagues.
+- **Commits** :
+  1. `74a0c57e6` — `fix(eu,conform): scope-electric-on-plumbing FPP réfuté + R145 purge + Z5/55€ source-of-truth align on eletricista-avaria-eletrica-figueira-de-castelo-rodrigo.html (t_85f4bf0b)` — 1er jet, purgé hero sub + card avaria queimado + card prix + FAQ custo (zone Z4 héritage → Z5) + JSON-LD offers.price (110 inventé → 55).
+  2. `f6453374c` — `fix(eu,conform): R145 'chamamos com prioridade' purgée FAQ tempo on eletricista-avaria-eletrica-figueira-de-castelo-rodrigo.html (t_85f4bf0b)` — 2nd jet : la chaîne R145 subtile «Em emergências, chamamos com prioridade» avait survécu au 1er jet. Patchée vers formulation canonique murça (t_391ee4ba / commit `860f23793` «R145 subtile chamamos com prioridade purgée FAQ tempo»).
+- **R145 patch 2nd jet (1 chaîne purgée)** :
+  - FAQ tempo «Para Zona 5, atendimento por telefone, 24h/7 dias. Em emergências, chamamos com prioridade.» → «Para Zona 5, atendimento por telefone, 24h/7 dias — chamada confirmada antes da deslocação.» (R145 «chamamos com prioridade» BANNIS + alignement strict murça).
+- **Doctrine §12 (Transparência Radicale) intacte** : 70 €/h × 1 (doctrine bloc), Z1-Z6 grille × 1 + Z5/55€ source-of-truth × 4 (zone-badge + card prix + FAQ custo + JSON-LD offers.price=55), +50% majoration × 1, orçamento por escrito × N, NAP élec 932 321 892 × N (tel: masquage rédactionnel + texte), 0 NAP canal 928 (JAMAIS site élec), équipement Fluke T6-1000 / Megger MFT1741+ / ROLeak Aqua 3Plus / FLIR E96 / câmara 30 m × 1 doctrine bloc (intacts). Aucune avanie / prix / zone / délai / service inventé — uniquement alignement sur source-of-truth PRICING.md + precos-zonas.json. Figueira de Castelo Rodrigo (sede de concelho, district Guarda, hors Trás-os-Montes stricto sensu mais page déjà indexée) classée Z5.
+- **Témoins grep post-fix 2nd jet (vérifiés sur fichier local)** :
+  - `chamamos com prioridade` : 1 → **0** ✓
+  - `chamada confirmada antes da deslocação` : 0 → **1** ✓
+  - `Para Zona 5` : N (inchangé, déjà conforme 1er jet)
+  - `Z5 / 55€` / `Zona 5 / 55€` : N (inchangé, déjà conforme 1er jet)
+  - `Z4 / 45€` / `Para Zona 4` : **0** ✓ (purgé au 1er jet)
+  - `40€` (Z5 inventé héritage) : **0** ✓ (purgé au 1er jet)
+  - `mediante confirmação` : **0** ✓ (purgé au 1er jet)
+  - `diagnóstico após confirmação` : **0** ✓ (purgé au 1er jet)
+  - JSON-LD `price:"55"` (Z5 canonique) : intact
+  - `70 €/h` : 1 (inchangé)
+  - `932 321 892` : N (inchangé — NAP élec)
+  - `+351 928` : 0 (NAP canal JAMAIS site élec)
+  - `canalizador` (JSON-LD `sameAs` Annexe A) : 3 (inchangé — backlinks cross-site conformes PR #110)
+- **Refs** : kanban t_85f4bf0b, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md Z5=55€, precos-zonas.json[`Figueira de Castelo Rodrigo`]=5, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul vagues).
+- **R7** : PR #251 draft en attente — **NE PAS merger sans GO nominatif Philippe**.
