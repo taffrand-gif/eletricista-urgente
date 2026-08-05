@@ -1387,3 +1387,35 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **R11 ZÉRO INVENTION respectée** : aucune avanie/prix/zone/délai/chantier inventé.
 - **Refs** : kanban t_7ec530ae, AGENTS.md §11 + §12 + §13 + §14, PRICING.md, precos-zonas.json.
 - **Statut** : 🛑 STOP — PR #244 draft ouvert, gated R7 (validation Filipe avant merge).
+
+### 2026-08-05 — Scope-electric-on-plumbing FPP réfuté + R145 purge + Z6/65€ source-of-truth align + typo — t_b023f28a (eletricista-urgente-ribeira-de-pena.html)
+
+- **Branche** : `fix/eu-conform-xinzo-scope-r145-z4-t_b1cb089e` (cumul des vagues t_b1cb089e + t_2b0b5c41 + t_b023f28a). Branche forkenée depuis `origin/main@25d16464c`, forkée depuis `fix/eu-conform-cumieira-scope-r145-z5-clean-t_7ec530ae`.
+- **PR draft** : https://github.com/taffrand-gif/eletricista-urgente/pull/251 (cumul 3 vagues, 15 fichiers, +169/-62). État OPEN, isDraft=true, mergeable=MERGEABLE.
+- **Commit** : `bd6798348` — `fix(eu,conform): FPP réfuté scope-plomberie + R145 purge + Z6/65€ source-of-truth align + typo on eletricista-urgente-ribeira-de-pena.html (t_b023f28a)`.
+- **Scope (FPP réfuté — page 100% élec)** : la classification pool-keeper `scope-electric-on-plumbing` est ici **réfutée**. La page est strictement élec : aucun contenu plomberie, aucun `<section class="unique-urg-can">`. L'extrait cité par le détecteur (`Disjuntor dispara sempre / Sobrecarga, curto-circuito ou fuga de corrente`) est légitimement élec — c'est la liste des symptômes électriques de la page (signal R12 §13). Les 4 occurrences `canalizador` sont **toutes** dans le JSON-LD `sameAs` (Annexe A backlinks cross-domaines conformes, PR #110 P2.2 entité Norte Reparos consolidée). Aucune correction de scope structurel nécessaire. Pattern identique aux FPP réfutés antérieurs : t_79133bc0 (moucos), t_7ec530ae (cumieira), t_67300e30 (sao-joao-da-pesqueira), t_bf6a4791 (santo-estevao), t_6ad41a8f (valdigem), t_8548d01c (sanfins-do-douro), t_44cdcde1 (cedovim), t_22dd3b18 (argozelo), t_869cc997 (vilar-de-macada).
+- **Quatre corrections combinées (1 commit, 1 fichier, 6 substitutions ciblées sur fichier mono-ligne, +3/-3 diff stat mais 6 lignes impactées)** :
+  1. **Pricing-grid Z6 align** (PRICING.md L.19 + precos-zonas.json[`Ribeira de Pena`] = 6) : `<div class="v">40€</div>` → `<div class="v">65€</div>`. Le `40€` était incohérent avec le badge `Zona 6 · 65€ deslocação` (ligne 66) et la FAQ `a deslocação é de 65€` (déjà présents dans la page). Z6 = 65€ est la source-of-truth canonique selon PRICING.md.
+  2. **R145 purge** (verrouillé 28/06/2026, AGENTS.md §14) : 5 chaînes «mediante confirmação por telefone» + 1 délai chiffré «6 min em Zona 6» purgées :
+     - Hero `<p>...Atendemos 24h/7 dias, mediante confirmação por telefone.</p>` → `Atendemos 24h/7 dias, por telefone.`
+     - Hero sub-line `<p class="sub">Atendemos 24h/7 dias, mediante confirmação por telefone • 6 min em Zona 6 • Sem compromisso</p>` → `Atendemos 24h/7 dias • chegada conforme disponibilidade • Sem compromisso`
+     - FAQ JSON-LD `Sob marcação mediante confirmação por telefone — ligue 932 321 892, atendemos todos os dias, incluindo fins de semana e feriados. Para emergências, ligue diretamente 932 321 892.` → `Sob marcação por telefone — ligue 932 321 892, atendemos todos os dias, incluindo fins de semana e feriados. Para emergências, ligue diretamente 932 321 892.`
+     - Body `<li>Descreva o problema</li> Atendemos 24h/7 dias, mediante confirmação por telefone — damos preço após confirmação por telefone` → `Atendemos 24h/7 dias, por telefone — damos preço ao telefone`
+     - CTA-bottom `<p>...atendimento mediante confirmação por telefone • 24h/7d</p>` → `atendimento 24h/7d`
+     - 0 résidu grep post-fix.
+  3. **Délai chiffré INTERDIT** (R145) : `6 min em Zona 6` → `chegada conforme disponibilidade`. Cohérent avec le zone-badge `Zona 6 • Chegada conforme disponibilidade` déjà présent sur la même page.
+  4. **Typo R12** : `<p>...Ligue mediante confirmação por telefonemente se:</p>` → `Ligue por telefone imediatamente se:` (typo «telefonemente» = collage accidentel «telefone + -mente + imediatamente»).
+- **Doctrine R12 (§12 Transparência Radicale) intacte** : 70 €/h × 5 mentions intactes, Z1-Z6 grille Z6=65€ × 1 pricing-grid + 1 badge + 1 FAQ (3 alignements uniformes), +50 % majoration × 1, orçamento por escrito × 3, NAP 932 321 892 × 6 (0 NAP 928 — site 100% élec), équipement Fluke T6-1000 / Megger MFT1741+ / ROLeak Aqua 3Plus / FLIR E96 / câmara 30 m × 1 doctrine block (intacts). Aucune avanie / prix / zone / délai / service inventé — uniquement alignement sur source-of-truth PRICING.md + precos-zonas.json.
+- **Témoins grep post-fix (vérifiés sur fichier local ET live Vercel — `diff -q local live` = IDENTICAL byte-pour-byte)** :
+  - `mediante confirmação por telefone` : 3 → **0**
+  - `após confirmação por telefone` : 1 → **0**
+  - `telefonemente` : 1 → **0**
+  - `6 min` : 1 → **0**
+  - `40€` : 1 → **0**
+  - `65€` (source-of-truth Z6) : 3 (inchangé — badge + FAQ + pricing-grid uniformes)
+  - `canalizador` (JSON-LD `sameAs` Annexe A) : 4 (inchangé — backlinks cross-site conformes PR #110)
+  - NAP élec `932 321 892` : 6 (inchangé)
+  - NAP canal `928` (interdit site élec) : 0 (inchangé)
+- **Vérification live Vercel** : `curl -sL https://eletricista-urgente.pt/eletricista-urgente-ribeira-de-pena.html` = 23111 bytes identiques au fichier local avant patch. Pas de drift prod/local. Le fix sera visible après le prochain déploiement Vercel du commit `bd6798348` (auto-deploy sur push branche).
+- **Refs** : kanban t_b023f28a, AGENTS.md §11 + §12 + §13 + §14, PRICING.md L.19 Z6=65€, precos-zonas.json[`Ribeira de Pena`]=6, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul 3 vagues).
+- **R7** : PR #251 draft en attente — **NE PAS merger sans GO nominatif Philippe**.
