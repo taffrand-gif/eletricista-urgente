@@ -1308,3 +1308,12 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Ce que je ferais différemment** : commencer par `git log --all --grep="<mot-clé-chantier>"` et `git log --all -p -- <fichier-cible>` pour identifier les runs antérieurs avant toute commande de mesure.
 
 **Statut** : 🛑 STOP — attente GO Philippe sur option (a) batch strict suppressif concelhos/ sans prototype ou (b) prototype 1 page d'abord. 0 HTML modifié, 0 PR, 0 merge, 0 push.
+
+### 2026-08-05 — R145 + Z2/25€ source-of-truth align — t_748dfbdf
+
+- **Diagnostic** : signal scan `scope-electric-on-plumbing` sur `eletricista-avaria-eletrica-torre-de-dona-chama.html` = **faux-positif** sur la regex « fuga de corrente » (page 100% élec — curto-circuito, disjuntor, multímetro Fluke, Fluke T6-1000, Megger MFT1741+, ROLeak Aqua 3Plus acoustique, FLIR E96, câmara 30 m). Cf. précédents t_df870168 + t_633eb3b7 + t_d1787d8e + t_22dd3b18 + t_1c4ea453 + t_44cdcde1 + t_71c207e4.
+- **MAIS** sweep R145 + source-of-truth align a révélé **2 incohérences réelles** corrigées sur le même commit `cec7a833f` :
+  - **R145** (verrouillée 28/06/2026 par Philippe) : 4 occurrences « atendimento mediante confirmação por telefone » + 1 « prioridade absoluta » + 1 « Tempo de resposta médio » → remplacements neutres alignés sur PR #235 (t_71c207e4) + #238 (t_df870168) : « atendimento por telefone • 24h/7d » / « atendimento por telefone, conforme zona e disponibilidade » / « Emergências priorizadas ».
+  - **Source-of-truth** : `precos-zonas.json` dit **« Torre de Dona Chama »: 2** → Z2 = 25€ (PRICING.md Z2 = 25€). Ancienne page disait Z1 = 15€ (zone-badge + FAQ) → incohérent avec distance routière Macedo → Torre de Dona Chama ≈ 18 km. 3 occurrences Z1 → Z2.
+- **Témoins grep post-patch** : R145 = 0 résidu · Z1 = 1 (grille générique légitime) · Z2 = 5 (zone-badge + bloco + FAQ × 2 + grille) · Doctrine R12 intacte (70 €/h × 1, NAP 932 × 8, DGEG TRIESP 90062 × 4, orçamento × 5) · Scope élec strict = 0 fuite plomberie réelle.
+- **Commit** : `cec7a833f` · **Push** : `fix/eu-conform-pinhao-plumb-scope-t_71c207e4` (cumul avec t_df870168 + t_633eb3b7) · **PR draft #236** (titre mis à jour pour refléter le cumul) · **GO Filipe obligatoire avant merge** (R7).
