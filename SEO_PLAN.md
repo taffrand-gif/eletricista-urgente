@@ -1880,3 +1880,43 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Refs** : kanban t_40abbf5f, commit `78fa8f411`, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.16, precos-zonas.json[Murça]=4, Annexe A backlinks, PR #251 (cumul 28+ vagues).
 - **R7** : PR #251 draft empilée — **NE PAS merger sans GO nominatif Philippe**.
 
+
+### 2026-08-05 — scope-electric-on-plumbing réel (Canalizador bloco supprimido) + R145 purge 5 chaînes + Z4/45€→Z5/55€ source-of-truth + JSON-LD FAQ 'combinada caso a caso' + JSON-LD priceRange/offers Z5 — t_53d69c12 (eletricista-urgente-sao-joao-da-pesqueira.html)
+- **Preuve scanner 2026-08-05 (live)** : type=`scope-electric-on-plumbing`, fichier=`eletricista-urgente-sao-joao-da-pesqueira.html`, extrait=`...Disjuntor dispara sempre</strong><p>Sobrecarga, curto-circuito ou fuga de corrente</p></div><div class="symptom"><div class="ico">🧯</div><strong>Cheiro a queimado</strong><p>Desligue IMEDIATAMENTE o dis...`
+- **VRAI POSITIF confirmé** (vs FPP habituels murça/sendim/cumieira/etc.) : la page contenait une section HTML `<section class="unique-urg-can">` intégralement plomberie (Canalizador / Fuga ativa / Inundação / Cano rebentado / Esgoto a transbordar / Válvula de segurança a pingar / perigo de explosão do esquentador / feche a torneira geral de água). Bloc supprimé (-12 lignes). 0 mot plomberie restant post-fix.
+- **São João da Pesqueira = Z5/55 €** (confirmé source-of-truth `precos-zonas.json['São João da Pesqueira']=5`, PRICING.md L.16 Z5=55 €). Héritage était Z4/45 € (incohérent — migration nécessaire).
+- **Fix source-of-truth Z4→Z5 + 45 €→55 € (5 endroits alignés)** :
+  - hero zone-info `Zona 4 · 45€` → `Zona 5 · 55€`, data-zone="4" → "5"
+  - hero sub `3 min em Zona 4` → `Orçamento por escrito antes da deslocação` (suppression R145 délai chiffré)
+  - card zone-badge `Zona 4` → `Zona 5`
+  - card preço `Deslocação Zona 4 30€ (já incluída no preço)` → `Deslocação Zona 5 55€ (sob orçamento por escrito)` (30€ incohérent purgé)
+  - FAQ tempo `Para Zona 4` → `Para Zona 5`
+  - FAQ deslocação `Para Zona 4 45€` → `Para Zona 5 55€ (sob orçamento por escrito)`
+- **Fix R145 (5 chaînes purgées)** :
+  - doctrine `Atendemos 24h/7 dias, mediante confirmação por telefone` → `Atendemos 24h/7 dias, atendimento por telefone`
+  - hero sub `mediante confirmação por telefone` → `Atendimento 24h/7 dias • Orçamento por escrito antes da deslocação • Sem compromisso`
+  - hero para `Ligue mediante confirmação por telefonemente se` → `Ligue de imediato se` (typo `telefonemente` héritée purgée)
+  - card Como pedimos `mediante confirmação por telefone — damos preço após confirmação por telefone` → `Atendimento por telefone, 24h/7d — orçamento por escrito antes da deslocação`
+  - FAQ tempo `prioridade máxima` → `atendimento prioritário`
+  - FAQ cheiro queimado `em caráter de máxima urgência` → `com caráter de urgência`
+  - cta-bottom `atendimento mediante confirmação por telefone • 24h/7d` → `Atendimento por telefone • 24h/7d`
+- **Fix JSON-LD FAQPage source-of-truth + R145 + R12 (pattern canonique murça 78fa8f411 'combinada caso a caso')** :
+  - Q1 `Quanto custa`: `sob orçamento por escrito (1h) com deslocacao incluida. Suplemento fora de horas.` → `70 €/h (mão de obra) + deslocação Z5 São João da Pesqueira = 55 €, sob orçamento por escrito antes da deslocação. Majoração noite/domingo/feriado +50%.`
+  - Q2 `Quanto tempo`: ` min conforme zona. atendimento após contacto telefónico ao telefone.` → `Tempo de chegada combinado caso a caso conforme zona e disponibilidade. Emergências priorizadas.`
+  - Q3 `24h/7d`: ajout `. Atendimento por telefone.` (cohérent reste de la page)
+- **Fix JSON-LD EmergencyService priceRange + offers.price (canonique AGENTS §13)** :
+  - priceRange `€€` → `70€-150€`
+  - ajout `offers { @type:Offer, price:"55", priceCurrency:"EUR" }` (Z5 source-of-truth)
+- **Doctrine §12 intacte** : 70 €/h × 2 (doctrine bloc + JSON-LD Q1), Z1-Z6 grille × 1 (doctrine bloc), +50 % majoration × 2 (doctrine bloc + JSON-LD Q1), `orçamento por escrito` × 7 (doctrine + JSON-LD Q1 + 2 price-card + FAQ deslocação + FAQ Como pedimos + cta-bottom), NAP élec 932 321 892 × 6 préservé, **0 NAP canal 928 484 451** (JAMAIS site élec — Annexe A respectée).
+- **Zona 5 × 5** (zone-info + zone-badge + FAQ tempo + FAQ deslocação + JSON-LD Q1), **Zona 4 héritage 0** (totalement purgé).
+- **55 € × 3** (zone-info + price-card + JSON-LD Q1), **45 € héritage 0** (totalement purgé).
+- **DGEG TRIESP 90062 × 1** (section dgeg-cert + Person JSON-LD) intact.
+- **Équipement** Fluke T6-1000 / Megger MFT1741+ / ROLeak Aqua 3Plus / FLIR E96 / câmara 30 m × 1 doctrine bloc intact.
+- **JSON-LD sameAs × 3** = backlinks cross-site Annexe A conformes (canalizador-* légitime, page 100% élec).
+- **R-TEL no-op** (5 occurrences `tel:+351****1892` header + doctrine + hero + sticky-cta + cta-bottom, pattern leçon #169 demasquage reporté à un gate R-TEL dédié ultérieur cf. commit `22c94cdf6` mesão-frio).
+- **R11 ZÉRO INVENTION** : aucun prix/zone/délai/chantier/service inventé. Z4/45 € héritage purgé → Z5/55 € source-of-truth (5 endroits). 30 € incohérent purgé → 55 € (price-card).
+- **R145 + Doctrine §14 (Boucle autonome site EU) respectées**.
+- **Témoins grep post-fix** : `Canalizador|torneira|esquentador|Cano` 1→**0** ✓, `mediante confirmação` 5→**0** ✓, `após confirmação` 1→**0** ✓, `prioridade absoluta|máxima` 2→**0** ✓, `máxima urgência` 1→**0** ✓, `30€` price-card 1→**0** ✓, `Zona 4` héritage 5→**0** ✓, `Zona 5` source-of-truth 0→**5** ✓, `45€` héritage 1→**0** ✓, `55€` source-of-truth 0→**3** ✓, `70 €/h` × 2 (intact), `Atendimento por telefone` canonique 1→**2** ✓, JSON-LD `priceRange "70€-150€"` 1 ✓, JSON-LD `offers.price "55"` 1 ✓, NAP 928 canal 0 ✓.
+- **Diff** : `1 file changed, 4 insertions(+), 17 deletions(-)` — surface minimale, aucune refonte structurelle, blocs canoniques intacts (Doctrine aside, DGEG TRIESP section, JSON-LD Person/Organization).
+- **Refs** : kanban t_53d69c12, commit `41a091647`, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.16, precos-zonas.json['São João da Pesqueira']=5, Annexe A backlinks, PR #251 (cumul 28+ vagues).
+- **R7** : PR #251 draft empilée — **NE PAS merger sans GO nominatif Philippe**.
