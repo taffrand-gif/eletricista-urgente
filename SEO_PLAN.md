@@ -1465,3 +1465,34 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Refs** : kanban t_b94afd7b, AGENTS.md §11 + §12 + §13 + §14, PRICING.md L.17 Z3=35€, precos-zonas.json[`Alfândega da Fé`]=3, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul 4 vagues).
 - **R7** : PR #251 draft en attente — **NE PAS merger sans GO nominatif Philippe**.
 
+
+### 2026-08-05 — Scope-electric-on-plumbing réel + R145 no-op + Z3/35€ source-of-truth align — t_12dd5ca5 (eletricista-urgente-braganca.html)
+
+- **Branche** : `fix/eu-conform-xinzo-scope-r145-z4-t_b1cb089e` (cumul des vagues t_b1cb089e + t_2b0b5c41 + t_b023f28a + t_b94afd7b + t_12dd5ca5). PR draft #251 cumul vagues.
+- **Commit** : `2012da130` — `fix(eu,conform): scope-electric-on-plumbing réel + R145 no-op + Z3/35€ source-of-truth align on eletricista-urgente-braganca.html (t_12dd5ca5)`.
+- **Scope (RÉEL — pas un FP)** : la classification pool-keeper `scope-electric-on-plumbing` est ici **confirmée**. La page eletricista-urgente-braganca.html contenait une **vraie** section HTML `<section class="unique-urg-can">` listant des urgences **plomberie** (Canalizador de Urgência, Fuga ativa água, Inundação, Cano rebentado, Esgoto a transbordar, Válvula de segurança a pingar, feche a torneira geral de água) sur une page 100% élec. Signal correct — pas un faux-positif cette fois. Cible : 100% élec.
+- **Fix scope-electric-on-plumbing réel (1 commit, 1 fichier, +9/-9 diff stat)** :
+  - Section `<section class="unique-urg-can">` 100% plomberie → section élec cohérente reprenant les 5 signaux d'urgence électrique déjà présents dans la page (cheiro a queimado elétrico, faíscas em tomadas, disjuntor dispara, tomada quente, sem luz em casa inteira vizinhos têm) — aucune information inventée, juste réorganisation du contenu élec existant.
+  - Consigne «feche a torneira geral de água (normalmente no contador)» → «desligue o disjuntor geral no quadro». Pattern identique aux commits c57e68b04 (t_b1cb089e xinzo), 883037663 (t_cf0354e7 miranda do douro), 58ca0bd8e (t_bc33f90c vimioso), db0a96153 (#239 Vimioso+Alijó).
+- **Fix zone secondaire (héritage → source-of-truth)** : le bloc zone-info hero `<div class="zone-info" data-zone="2">Zona 2 · 25€ deslocação</div>` indiquait Z2/25€ alors que Bragança (sede de distrito, ~50 km Macedo Cavaleiros) = **Z3 / 35€** per `precos-zonas.json` source-of-truth (PRICING.md L.17). Le badge `<div class="zone-badge">` ligne 90 indiquait déjà Z3 / 35€ → incohérence interne. Aligné sur Z3 / 35€ (les 3 mentions «Zona 3» sont désormais uniformes : hero zone-info + zone-badge card + grille Z1-Z6).
+- **Pas de R145 à purger** : aucune chaîne «mediante confirmação» / «prioridade absoluta» / «resposta prioritária» / délai chiffré détectée sur cette page (déjà conforme sur ce front).
+- **Doctrine §12 (Transparência Radicale) intacte** : 70 €/h × 2 (doctrine bloc × 2), Z1-Z6 grille × 2 (doctrine bloc haut + bas), +50% majoration × 2 (doctrine bloc × 2), orçamento por escrito × 3, NAP élec 932 321 892 × 10 (tel:+351****1892 masquage rédactionnel + texte), 0 NAP canal 928 (JAMAIS site élec), DGEG TRIESP 90062 × 2 (section dgeg-cert + Person JSON-LD), équipement Fluke T6-1000 / Megger MFT1741+ / ROLeak Aqua 3Plus / FLIR E96 / câmara 30 m × 1 doctrine bloc (intacts). Aucune avanie / prix / zone / délai / service inventé — uniquement alignement sur source-of-truth PRICING.md + precos-zonas.json.
+- **Témoins grep post-fix (vérifiés sur fichier local)** :
+  - `Canalizador de Urgência` (plomberie dans unique-urg-can) : 1 → **0** ✓
+  - `torneira geral` / `cano rebentado` / `esgoto a transbordar` / `válvula de segurança` : 5 → **0** ✓
+  - `feche a torneira geral de água` : 1 → **0** ✓
+  - `Eletricista de Urgência` (nouveau h3) : 0 → **1** ✓
+  - `desligue o disjuntor geral` (nouveau conseil urgence) : 0 → **1** ✓
+  - 5 signaux élec (cheiro/faiscas/disjuntor/tomada quente/sem luz) : 0 → **5** ✓
+  - `Zona 2` effectif (hero) : 1 → **0** ✓
+  - `Zona 3` effectif : 2 (zone-badge + grille) → **3** (zone-info + zone-badge + grille) ✓
+  - `25€` (Z2 héritage) : 1 → **0** ✓
+  - `35€` (Z3 source-of-truth) : 2 → **3** ✓
+  - `data-zone="2"` : 1 → **0** ✓
+  - `data-zone="3"` : 0 → **1** ✓
+  - `mediante confirmação` : 0 (déjà conforme, pas de fix R145)
+  - NAP 928 : 0 (JAMAIS site élec)
+  - `70 €/h` : 2 (inchangé)
+  - `932 321 892` : 10 (inchangé)
+- **Refs** : kanban t_12dd5ca5, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.17 Z3=35€, precos-zonas.json[`Bragança`]=3, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul vagues).
+- **R7** : PR #251 draft en attente — **NE PAS merger sans GO nominatif Philippe**.
