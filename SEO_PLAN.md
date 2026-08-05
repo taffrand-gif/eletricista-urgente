@@ -1320,7 +1320,6 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 
 **Statut** : 🛑 STOP — attente GO Philippe sur option (a) batch strict suppressif concelhos/ sans prototype ou (b) prototype 1 page d'abord. 0 HTML modifié, 0 PR, 0 merge, 0 push.
 
-<<<<<<< HEAD
 ### 2026-08-05 — Scope-electric-on-plumbing faux-positif réfuté — t_b2d3f4c2 (eletricista-avaria-eletrica-salzedas.html)
 
 - **Vérification live (local)** : `wc -c` local = **19 672 octets**. Fichier structurellement identique au précédent faux-positif documenté t_3b5f5884 (lazarim = 19 337 octets) : mêmes 5 items élec sous « O que está incluído no serviço », même bloc DGEG, même NAP 932 321 892.
@@ -1493,7 +1492,7 @@ Contrôles du prototype : `conforme zona` 1→0 · `Não comunicamos tempo absol
 - Worktree : `/Users/admin/work/Sites/eletricista-urgente/.worktrees/t_a1a5c033`
 
 **Gates R7** : **STOP validation Filipe obligatoire avant merge**. Conformité PRICING.md + AGENTS.md §12 R12 + §14 R145 vérifiée. Aucune invention prix/zone/délai/service. Aucun document DGEG inventé. Aucun batch — fix strictement unitaire.
-=======
+
 ### 2026-08-05 — R145 + Z2/25€ source-of-truth align — t_748dfbdf
 
 - **Diagnostic** : signal scan `scope-electric-on-plumbing` sur `eletricista-avaria-eletrica-torre-de-dona-chama.html` = **faux-positif** sur la regex « fuga de corrente » (page 100% élec — curto-circuito, disjuntor, multímetro Fluke, Fluke T6-1000, Megger MFT1741+, ROLeak Aqua 3Plus acoustique, FLIR E96, câmara 30 m). Cf. précédents t_df870168 + t_633eb3b7 + t_d1787d8e + t_22dd3b18 + t_1c4ea453 + t_44cdcde1 + t_71c207e4.
@@ -1501,4 +1500,16 @@ Contrôles du prototype : `conforme zona` 1→0 · `Não comunicamos tempo absol
   - **R145** (verrouillée 28/06/2026 par Philippe) : 4 occurrences « atendimento mediante confirmação por telefone » + 1 « prioridade absoluta » + 1 « Tempo de resposta médio » → remplacements neutres alignés sur PR #235 (t_71c207e4) + #238 (t_df870168) : « atendimento por telefone • 24h/7d » / « atendimento por telefone, conforme zona e disponibilidade » / « Emergências priorizadas ».
   - **Source-of-truth** : `precos-zonas.json` dit **« Torre de Dona Chama »: 2** → Z2 = 25€ (PRICING.md Z2 = 25€). Ancienne page disait Z1 = 15€ (zone-badge + FAQ) → incohérent avec distance routière Macedo → Torre de Dona Chama ≈ 18 km. 3 occurrences Z1 → Z2.
 - **Témoins grep post-patch** : R145 = 0 résidu · Z1 = 1 (grille générique légitime) · Z2 = 5 (zone-badge + bloco + FAQ × 2 + grille) · Doctrine R12 intacte (70 €/h × 1, NAP 932 × 8, DGEG TRIESP 90062 × 4, orçamento × 5) · Scope élec strict = 0 fuite plomberie réelle.
+<<<<<<< HEAD
 - **Commit** : `cec7a833f` · **Push** : `fix/eu-conform-pinhao-plumb-scope-t_71c207e4` (cumul avec t_df870168 + t_633eb3b7) · **PR draft #236** (titre mis à jour pour refléter le cumul) · **GO Filipe obligatoire avant merge** (R7).
+=======
+- **Commit** : `cec7a833f` · **Push** : `fix/eu-conform-pinhao-plumb-scope-t_71c207e4` (cumul avec t_df870168 + t_633eb3b7) · **PR draft #236** (titre mis à jour pour refléter le cumul) · **GO Filipe obligatoire avant merge** (R7).
+
+### 2026-08-05 — Wrong-phone faux-positif + R145 purge + Z4/45€ source-of-truth align — t_2516c3e5
+
+- **Diagnostic** : signal scan `wrong-phone` sur `eletricista-aguas-vivas.html` = **faux-positif pur**. NAP EU = **+351 932 321 892** (Staff-Seekers élec, Filipe) en 8 occurrences dans la page, 0 occurrence de 928 / 928484451, conforme R-Annexe A. Le scan a probablement matché un faux pattern sur le `30€` du og:title (qui matche `\d{2}€` interprété comme numéro).
+- **MAIS** sweep diligent R145 + source-of-truth align a révélé **7 incohérences réelles** corrigées sur le commit `2745421c1` (cf. précédents t_748dfbdf + t_df870168 + t_633eb3b7 + t_71c207e4 + t_d1787d8e + t_22dd3b18 + t_1c4ea453 + t_44cdcde1) :
+  - **R145** (verrouillée 28/06/2026) : `Atendemos 24h/7 dias, após contacto telefónico` (og:description) + `mediante confirmação por telefone` (hero) + `tempo de resposta conforme disponibilidade` (local-ctx) + `Tempo de resposta médio` (bloco preços) + `Tempo médio: conforme disponibilidade` (FAQ) + `atendimento após contacto telefónico ao telefone` (JSON-LD FAQ) → remplacements neutres alignés sur precedents : `Atendimento por telefone • 24h/7 dias` / `atendimento por telefone, conforme zona e disponibilidade` / `Emergências priorizadas`.
+  - **Source-of-truth** : `precos-zonas.json` dit **« Águas Vivas »: 4** → Z4 = 45€ (PRICING.md Z4 = 45€). Ancienne page disait Z3 = 35€ partout (og:title 30€, twitter 35€, zone-badge, local-ctx, bloco preços, FAQ) → incohérent avec distance routière Macedo → Águas Vivas (lookup obligatoire, jamais deviner — cf. PRICING.md §Déplacement). **10 occurrences parasites purgées** : 30€ (og:title) → 45€ · 35€ (twitter + zone-badge + local-ctx + bloco preços + footer + FAQ) → 45€ · `a partir de 85€` (hero price INVENTÉ) → `a partir de 70€/h + 45€ deslocação`.
+- **Témoins grep post-patch** : R145 = 0 résidu · Zona 3 = 0 · Zona 4 = 4 (local-ctx + zone-badge + bloco + FAQ) · 30€ = 0 · 35€ = 0 · 45€ = 9 (align) · 65€ = 1 (grille Z6 générique intacte) · Doctrine R12 intacte (70 €/h × 3, NAP 932 × 8, orçamento × 3, DGEG TRIESP 90062 × 4) · Wrong-phone = 0 · Scope élec strict = 2 (JSON-LD `sameAs` backlinks cross-site vers CU/CNR, OK R-Annexe A) · Équipement élec exact = 4/4 (Fluke T6-1000, Megger MFT1741+, ROLeak Aqua 3Plus, FLIR E96).
+- **Commit** : `2745421c1` · **Push** : `fix/eu-conform-pinhao-plumb-scope-t_71c207e4` (cumul avec t_71c207e4 + t_633eb3b7 + t_df870168 + t_748dfbdf = 5 commits) · **PR draft #236** (commentaire posté pour signaler le commit additionnel) · **GO Filipe obligatoire avant merge** (R7).
