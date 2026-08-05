@@ -1320,6 +1320,20 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Refs** : kanban t_c71eabec, AGENTS.md §11 + §12 + §13 + §14, PRICING.md, precos-zonas.json. PR prior immediat : t_cf0354e7 (miranda-do-douro, commit 883037663) — même structure de purge du bloc unique-urg-can.
 - **R7** : PR draft #247 en attente, **NE PAS merger sans GO Filipe explicite**.
 
+### 2026-08-05 — Scope plomberie re-appliqué via cherry-pick de t_c71eabec — t_c05182f3 (eletricista-urgente-sao-joao-de-tarouca.html)
+
+- **Branche** : `fix/eu-conform-sao-joao-tarouca-scope-r145-z6-t_c05182f3` (forked from `fix/eu-conform-moucos-scope-r145-z4-clean-t_79133bc0`, branche active du worker t_c05182f3).
+- **PR draft** : https://github.com/taffrand-gif/eletricista-urgente/pull/249 — 1 fichier modifié, 10 insertions(+), 10 suppressions(-).
+- **Commit** : 37621f6eb — `fix(eu,conform): scope plomberie do bloco unique-urg-can + R145 purge + Z6/65€ source-of-truth align on eletricista-urgente-sao-joao-de-tarouca.html (t_c05182f3, cherry-pick of t_c71eabec)`.
+- **Cherry-pick source** : c07f3fac7 (branche `fix/eu-conform-sao-joao-tarouca-scope-r145-z5-t_c71eabec`, jamais mergée — doctrine R6/R7).
+- **Cause racine** : pool-keeper scan du 2026-08-05 a redétecté la violation `wrong-phone / scope-electric-on-plumbing` sur cette page dans la branche active du worker, parce que le commit `c07f3fac7` (t_c71eabec) corrigeait déjà le fichier mais vivait sur une branche dédiée non-mergée. La ré-application du patch canonique (par cherry-pick sur une nouvelle branche t_c05182f3) était nécessaire pour résoudre le flag.
+- **Contenu strictement identique** au commit c07f3fac7 (3 corrections combinées : scope plomberie purgé + R145 purge + Z6/65€ source-of-truth align). Pas de doublon de fond, juste ré-application du fix audité sur la branche de scan.
+- **Doctrine R12 (§12 Transparência Radicale) intacte** : 70 €/h intact, Z1-Z6 grille Z6=65€, NAP 932 321 892 × 9 (0 NAP 928), Zona 6 × 3, équipement Fluke T6-1000 / Megger MFT1741+ / ROLeak Aqua 3Plus / FLIR E96 / câmara 30 m × 1 doctrine block (intacts).
+- **R11 ZÉRO INVENTION** : aucun avanie / prix / zone / délai / chantier inventé. R145 + Doctrine §14 OK.
+- **Témoin grep (post-fix)** : `Canalizador de Urgência = 0` · `Quando Chamar Canalizador = 0` · `feche a torneira geral = 0` · `cano rebentado = 0` · `fuga ativa = 0` · `Esgoto a transbordar = 0` · `Válvula de segurança a pingar = 0` · `mediante confirmação = 0` · `6 min em Zona = 0` · `prioridade máxima = 0` · `máxima urgência = 0` · `telefonemente = 0` · `Zona 4 = 0` · `40€ = 0` · `Para Zona 4 = 0` · `Zona 6 = 1` · `65€ = 2`. 0 résidu.
+- **Refs** : kanban t_c05182f3 (current) → t_c71eabec (source cherry-pick) → c07f3fac7 (commit source). AGENTS.md §11 + §12 + §13 + §14, PRICING.md, precos-zonas.json.
+- **R7** : PR draft #249 en attente, **NE PAS merger sans GO Filipe explicite**. Note : PR #247 (t_c71eabec) reste ouverte en parallèle — à arbitrer par Filipe (probable close en doublon après merge de l'un).
+
 ### 2026-08-05 — Scope-electric-on-plumbing faux-positif réfuté — t_b2d3f4c2 (eletricista-avaria-eletrica-salzedas.html)
 
 - **Vérification live (local)** : `wc -c` local = **19 672 octets**. Fichier structurellement identique au précédent faux-positif documenté t_3b5f5884 (lazarim = 19 337 octets) : mêmes 5 items élec sous « O que está incluído no serviço », même bloc DGEG, même NAP 932 321 892.
