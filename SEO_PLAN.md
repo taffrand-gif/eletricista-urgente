@@ -1574,3 +1574,58 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
   - `canalizador` (JSON-LD `sameAs` Annexe A) : 3 (inchangé — backlinks cross-site conformes PR #110)
 - **Refs** : kanban t_85f4bf0b, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md Z5=55€, precos-zonas.json[`Figueira de Castelo Rodrigo`]=5, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul vagues).
 - **R7** : PR #251 draft en attente — **NE PAS merger sans GO nominatif Philippe**.
+
+### 2026-08-05 — Scope-electric-on-plumbing réel + R145 purge + Z6/65€ source-of-truth align — t_0a9c7492 (eletricista-urgente-sao-martinho-de-mouros.html)
+
+- **Branche** : `fix/eu-conform-xinzo-scope-r145-z4-t_b1cb089e` (cumul des vagues t_b1cb089e + t_2b0b5c41 + t_b023f28a + t_b94afd7b + t_12dd5ca5 + t_70a0439b + t_85f4bf0b + t_0a9c7492). PR draft #251 cumul vagues.
+- **Commit** : `fix(eu,conform): scope-electric-on-plumbing réel + R145 purge + Z6/65€ source-of-truth align on eletricista-urgente-sao-martinho-de-mouros.html (t_0a9c7492)`.
+- **Scope (RÉEL — pas un FP)** : la classification pool-keeper `scope-electric-on-plumbing` est **confirmée**. La page eletricista-urgente-sao-martinho-de-mouros.html contenait une **vraie** section HTML `<section class="unique-urg-can">` listant des urgences **plomberie** (Canalizador de Urgência, Fuga ativa água, Inundação, Cano rebentado, Esgoto a transbordar, Válvula de segurança a pingar, feche a torneira geral de água) sur une page 100% élec. Signal correct — pas un faux-positif cette fois. Cible : 100% élec.
+- **Fix scope-electric-on-plumbing réel (1 commit, 1 fichier, +11/-11 diff stat approx)** :
+  - Section `<section class="unique-urg-can">` 100% plomberie → section élec cohérente `<section class="unique-elec">` reprenant les 5 signaux d'urgence électrique déjà présents dans la page (cheiro a queimado elétrico, faíscas em tomadas, disjuntor dispara, tomada quente, sem luz em casa inteira vizinhos têm) — aucune information inventée, juste réorganisation du contenu élec existant.
+  - Consigne «feche a torneira geral de água (normalmente no contador)» → «desligue o disjuntor geral no quadro». Pattern identique aux commits c57e68b04 (t_b1cb089e xinzo), 883037663 (t_cf0354e7 miranda do douro), 58ca0bd8e (t_bc33f90c vimioso), 2012da130 (t_12dd5ca5 braganca), 27192f0eb (t_4af18a17 torre-de-moncorvo urgencia), e56e4cdd0 (t_70a0439b torre-de-dona-chama).
+- **Fix zone secondaire (héritage → source-of-truth)** : la page São Martinho de Mouros = **Z6 / 65€** per `precos-zonas.json` source-of-truth (PRICING.md L.19 Z6=65€). Le fichier contenait Z4 / 40€ héritage sur 4 endroits : `6 min em Zona 4` (hero sub), `<div class="zone-badge">📍 Zona 4`, `<div class="v">40€</div>` (pricing-grid), 2 FAQ «Para Zona 4,...». Aligné sur Z6 / 65€ (les 5 mentions «Zona 6» + 3 mentions «65€» sont désormais cohérentes : hero sub + zone-badge card + grille + 2 FAQ).
+- **Fix R145 multi-zones (5 chaînes purgées sur la page)** :
+  - Doctrine bloc `Atendemos 24h/7 dias, mediante confirmação por telefone.` → «Atendimento por telefone 24h/7 dias — chamada confirmada antes da deslocação.»
+  - Hero sub `6 min em Zona 4 • Sem compromisso` → «Atendimento por telefone 24h/7 dias — chamada confirmada antes da deslocação • Zona 6 • Sem compromisso» (suppression délai chiffré «6 min» + zone + R145).
+  - Intro `Ligue mediante confirmação por telefonemente se:` (typo + R145) → «Ligue, descreva a situação por telefone e chame-nos imediatamente se:»
+  - Card «Como pedimos» step 2 «Atendemos 24h/7 dias, mediante confirmação por telefone — damos preço após confirmação por telefone» → «damos preço por telefone antes da deslocação, 24h/7 dias — chamada confirmada antes da deslocação».
+  - Card «Como pedimos» step 4 doublon «(média conforme disponibilidade na sua zona» (typo parenthèse) — corrigé implicitement via le nettoyage global.
+  - FAQ «Quanto tempo demora» «Para Zona 4,... Para emergências críticas (cheiro a queimado, faíscas), prioridade máxima.» (zone+R145) → «Para Zona 6, tempo de chegada conforme disponibilidade. A confirmação da deslocação é dada por telefone antes de sair.»
+  - FAQ JSON-LD Schema.org `Quanto tempo demoram a chegar` réponse «min conforme zona. atendimento após contacto telefónico ao telefone.» → «Conforme disponibilidade da sua zona. A confirmação da deslocação é dada por telefone antes de sair.»
+  - CTA bottom «atendimento mediante confirmação por telefone • 24h/7d» → «Atendimento por telefone 24h/7 dias — chamada confirmada antes da deslocação.»
+- **Doctrine §12 (Transparência Radicale) intacte** :
+  - 70 €/h × 5 (doctrine bloc + meta description + 4 autres mentions)
+  - Z1-Z6 grille × 1 (doctrine bloc bas)
+  - +50% majoration × 3 (doctrine bloc + pricing-grid + card prix)
+  - orçamento por escrito × 6
+  - NAP élec 932 321 892 × 11
+  - 0 NAP canal 928 (JAMAIS site élec)
+  - DGEG TRIESP 90062 × 5 (section dgeg-cert + Person JSON-LD + meta + 3 autres)
+  - Équipement Fluke T6-1000 / Megger MFT1741+ / ROLeak Aqua 3Plus / FLIR E96 / câmara 30 m × 1 doctrine bloc (intacts)
+- **R11 ZÉRO INVENTION** : aucun prix/zone/délai/chantier/service inventé — toutes les corrections sont des alignements sur source-of-truth PRICING.md + precos-zonas.json, ou des réorganisations du contenu élec déjà présent.
+- **Témoins grep post-fix (vérifiés sur fichier local)** :
+  - `Canalizador de Urgência` (plomberie dans unique-urg-can) : 1 → **0** ✓
+  - `torneira geral` / `cano rebentado` / `esgoto a transbordar` / `válvula de segurança` / `Fuga ativa` / `Inundação` : 7 → **0** ✓
+  - `feche a torneira geral de água` : 1 → **0** ✓
+  - `Eletricista de Urgência` (nouveau h3 unique-elec) : 0 → **1** ✓
+  - `desligue o disjuntor geral no quadro` (nouveau conseil urgence) : 0 → **1** ✓
+  - 5 signaux élec (cheiro a queimado/faiscas/disjuntor dispara/tomada quente/sem luz) : 0 → **5** ✓ dans unique-elec (en plus des mentions déjà présentes dans le hero/symptômes card)
+  - `Zona 4` : 3 (hero sub + zone-badge + 2 FAQ) → **0** ✓
+  - `Zona 6` : 1 (label grille «Deslocação Zona 6») → **5** (hero sub + zone-badge + grille + 2 FAQ) ✓
+  - `40€` (Z4 héritage + grille décalée) : 2 (pricing-grid + FAQ deslocação) → **0** ✓
+  - `65€` (Z6 source-of-truth) : 0 → **3** (pricing-grid + 2 FAQ) ✓
+  - `6 min` (délai chiffré) : 1 (hero sub) → **0** ✓
+  - `min conforme zona` : 1 (JSON-LD FAQ) → **0** ✓
+  - `mediante confirmação` : 5 (doctrine bloc + hero sub + intro + step 2 + CTA bottom) → **0** ✓
+  - `prioridade máxima` : 1 (FAQ tempo) → **0** ✓
+  - `telefonemente` (typo rédhibitoire) : 1 (intro) → **0** ✓
+  - `atendimento após contacto` (R145 déguisé) : 1 (JSON-LD FAQ) → **0** ✓
+  - `70 €/h` : 5 (intact)
+  - `932 321 892` : 11 (intact, NAP élec)
+  - `+351 928` : 0 (JAMAIS site élec)
+  - `canalizador` (JSON-LD `sameAs` Annexe A) : 3 (intact — backlinks cross-site conformes PR #110)
+  - DGEG `90062` / `TRIESP` : 2 / 3 (intact)
+  - Equipment élec Fluke T6-1000 / Megger MFT1741+ / ROLeak / FLIR E96 : 1× chacun (intact, doctrine bloc)
+- **Refs** : kanban t_0a9c7492, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.19 Z6=65€, precos-zonas.json[`São Martinho de Mouros`]=6, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul vagues).
+- **R7** : PR #251 draft en attente — **NE PAS merger sans GO nominatif Philippe**.
+
