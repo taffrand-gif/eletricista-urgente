@@ -1864,3 +1864,19 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Refs** : kanban t_e9edaaf0, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.16 Z4=45€, precos-zonas.json[`Murça`]=4, Annexe A backlinks cross-site, PR #110 (entité Norte Reparos consolidée P2.2), PR #251 (cumul 27+ vagues).
 - **R7** : PR #251 draft empilée — **NE PAS merger sans GO nominatif Philippe**.
 
+### 2026-08-05 — R145 purge x3 chaînes résiduelles + JSON-LD FAQ « combinada caso a caso » align — t_40abbf5f (eletricista-avaria-eletrica-murca.html)
+- **Preuve scanner 2026-08-05 (live)** : type=`scope-electric-on-plumbing`, fichier=`eletricista-avaria-eletrica-murca.html`, extrait=`...fuga de corrente elétrica. Localizamos a avaria com o Fluke T6-1000 e confirmamos a instalação com o Megger MFT1741+...`
+- **FPP refute (scope élec)** : grep `agua|canal|esgoto|torneira|valvula|fossa|sifao|tubagem` → **0 hit** ; page 100 % élec (Fluke T6-1000 + Megger MFT1741+ + ROLeak + FLIR E96). Le tag « scope-electric-on-plumbing » est un faux positif sémantique sur la mention « fuga de corrente elétrica » (= courant de fuite RCD, sémantiquement élec).
+- **Murça = Z4/45 €** (confirmé source-of-truth `precos-zonas.json[Murça]=4`, PRICING.md L.16 Z4=45 €). Commit antérieur `e2a6fcc65` (t_e9edaaf0) avait aligné Z3→Z4 et FAQ JSON-LD canonique.
+- **R145 purge x3 chaînes résiduelles** (3 chaînes R145 non couvertes par t_e9edaaf0) :
+  - **hero + cta-bottom** : `orçamento por escrito (preço comunicado por telefone antes da deslocação)` → **`orçamento por escrito antes da deslocação`** (×2 occurrences purgées)
+  - **card « 🔥 Avaria com cheiro a queimado »** : `Diagnóstico após confirmação por telefone + reparação` → **`Diagnóstico no local + reparação`** (suppression du délai implicite « após confirmação »)
+  - **FAQ visível + JSON-LD `Tempo de resposta?`** : `A chegada é confirmada por telefone no momento do contacto` → **`A chegada é combinada caso a caso, sem prazo fixo garantido`** (FAQ HTML + JSON-LD FAQPage alignés, double purge)
+- **R145 post-purge** : 10 motifs scannés (`mediante confirmação`, `após confirmação`, `após contacto telefónico`, `atendimento após contacto`, `resposta prioritária`, `prioridade absoluta`, `preço comunicado por telefone`, `tempo médio de resposta`, `confirmada por telefone`, `prazos fixos`) → **0 hit** chacun.
+- **Doctrine §12 intacte** : `70 €/h` (x7), `Z4` (badge + price-card), `45 €` (x8), `+50 %` majoração (x3), `orçamento por escrito` (x13), grille Z1=15 € / Z2=25 € / Z3=35 € / Z4=45 € / Z5=55 € / Z6=65 € (Doctrine bloc intacte), `Atendimento 24h/7d` (OK R145).
+- **NAP élec 932 321 892** : **x8** préservé (header, hero CTA, CTA tel, CTA WhatsApp, sticky CTA, footer, doctrine bloc, JSON-LD ContactPoint) ; **0 NAP canal 928 484 451** (Annexe A respectée).
+- **R11 ZÉRO INVENTION** : aucun prix/zone/délai/service/chantier inventé ; 130 € forfaitaire purgé en `t_e9edaaf0`, aucune réintroduction ici.
+- **Diff** : `1 file changed, 2 insertions(+), 2 deletions(-)` — surface minimale, aucune refonte structurelle, blocs canoniques intacts (Doctrine aside, DGEG TRIESP section, JSON-LD Person/Organization, FAQ 4 questions canoniques).
+- **Refs** : kanban t_40abbf5f, commit `78fa8f411`, AGENTS.md §11 + §12 + §13 + §14 + §15, PRICING.md L.16, precos-zonas.json[Murça]=4, Annexe A backlinks, PR #251 (cumul 28+ vagues).
+- **R7** : PR #251 draft empilée — **NE PAS merger sans GO nominatif Philippe**.
+
