@@ -1301,3 +1301,57 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Ce que je ferais différemment** : commencer par `git log --all --grep="<mot-clé-chantier>"` et `git log --all -p -- <fichier-cible>` pour identifier les runs antérieurs avant toute commande de mesure.
 
 **Statut** : 🛑 STOP — attente GO Philippe sur option (a) batch strict suppressif concelhos/ sans prototype ou (b) prototype 1 page d'abord. 0 HTML modifié, 0 PR, 0 merge, 0 push.
+
+### 2026-08-05 — Scope-electric-on-plumbing faux-positif réfuté — t_b2d3f4c2 (eletricista-avaria-eletrica-salzedas.html)
+
+- **Vérification live (local)** : `wc -c` local = **19 672 octets**. Fichier structurellement identique au précédent faux-positif documenté t_3b5f5884 (lazarim = 19 337 octets) : mêmes 5 items élec sous « O que está incluído no serviço », même bloc DGEG, même NAP 932 321 892.
+- **Diagnostic regex** : le snippet flagué « Curto-circuito, sobrecarga ou fuga de corrente. Localizamos o problema com multímetro Fluke. » est **100 % électrique** (« curto-circuito » + « sobrecarga » + « fuga de **corrente** » + diagnostic « multímetro Fluke »). Le seul autre match « fugas » vient du bloc équipement doctrine §12 « ROLeak Aqua 3Plus (deteção acústica de fugas) » — équipement **élec autorisé** verrouillé §12.
+- **Audit plumbing-only sur visible body** : `torneira`=0 · `fossa`=0 · `esgoto`=0 · `autoclismo`=0 · `chuveiro`=0 · `esquentador`=0 · `piscina`=0 · `entup`=0 · `cano` (en contexte plomberie)=0 · `sumidouro`=0 · `fuga de água`=0 · `lavatório`=0 · `sifão`=0 · `ralo`=0 · `vazamento`=0. Les 6 occurrences `canalizador` sont **toutes dans `sameAs` JSON-LD** (backlinks cross-site conformes Annexe A — canalizador-norte-reparos.pt / canalizador-urgente.pt). Aucun terme plomberie hors contexte cross-site.
+- **15 headings H2/H3** = 100 % élec (Avaria Elétrica / Disjuntor / Cheiro a queimado / Sem luz / Tomada avariada / Ruído no quadro / Porquê Escolher Eletricista / DGEG / Recursos Úteis).
+- **Cause du faux signal** : pool-keeper matche la sous-chaîne « fuga » sans distinguer « fuga de **corrente** » (terme technique élec R12) de « fuga de **água** » (plomberie). **Même classe de FP** que t_24099f7e (calculadora-de-preco), t_44cdcde1 (cedovim), t_3b5f5884 (lazarim) — collision lexicale récurrente. Signalement au pool-keeper à formaliser (cf. leçon watchdog §memory).
+- **Action retenue** : **0 PR créée, 0 fichier HTML modifié, 0 commit `fix:`** — strictement aucune modification HTML (R11/R12/PRICING.md/NAP 932/R145/delay-chiffré tous hors scope de cette tâche typée `scope-electric-on-plumbing`). Tâche consignée + clôturée sans passer par `git checkout -b` ni `git push`.
+- **Gates** : R7 respecté (STOP validation Philippe avant merge = aucun merge créé car aucun fix requis). R11 ZÉRO INVENTION respecté (rien inventé, rien modifié). Doctrine §12 inchangée (70 €/h × 1, Z1-Z6 grille × 1, +50% × 1, orçamento por escrito × 3, NAP 932 × 7 href + × 13 texte = 20 total, NAP 928 = 0).
+- **Statut** : 🛑 STOP — aucun merge requis, aucun HTML modifié. Tâche clôturée en faux-positif, conforme au pattern t_3b5f5884 (lazarim).
+
+### 2026-08-05 — Scope-electric-on-plumbing faux-positif réfuté + R145 purge + Z4/45€ source-of-truth align — t_bf6a4791 (eletricista-avaria-eletrica-santo-estevao.html)
+
+- **Branche** : `fix/eu-conform-santo-estevao-plumb-scope-r145-z4-t_bf6a4791` (forked from `fix/eu-conform-valdigem-plumb-scope-r145-t_6ad41a8f`, base = main possible après GO Filipe).
+- **PR draft** : #242 (https://github.com/taffrand-gif/eletricista-urgente/pull/242) — gated R7, NE PAS merger sans GO Filipe explicite.
+- **Commit** : cb6d7da52 — `fix(eu,conform): scope-electric-on-plumbing fpp réfuté + R145 purge + Z4/45€ source-of-truth align on eletricista-avaria-eletrica-santo-estevao.html (t_bf6a4791)` — 1 fichier modifié, 2 insertions(+), 2 suppressions(-).
+- **Scope (FP réfuté)** : page 100% élec (curto-circuito, disjuntor, multímetro Fluke, ROLeak Aqua 3Plus acoustique, FLIR E96, câmara 30 m, DGEG TRIESP 90062, NAP 932 321 892). 6 occurrences `canalizador` toutes dans JSON-LD sameAs (backlinks cross-site conformes Annexe A). Aucune section `<unique-urg-can>` plomberie. Classification pool-keeper `scope-electric-on-plumbing` = collision lexicale `fuga de corrente` (élec R12) vs `fuga de água` (plomberie) — pattern FP déjà documenté dans t_24099f7e, t_44cdcde1, t_3b5f5884, t_22dd3b18, t_869cc997, t_6ad41a8f (valdigem 12:30 même jour), t_8548d01c (sanfins-do-douro 12:32 même jour), t_b2d3f4c2 (salzedas 12:23 même jour).
+- **Fix R145 (verrouillé 28/06/2026)** : 5 chaînes «mediante confirmação | após confirmação por telefone | prioridade absoluta» purgées :
+  - hero `<p>` «atendimento mediante confirmação por telefone.» -> «Atendimento por telefone.»
+  - card «Avaria com cheiro a queimado» «Diagnóstico após confirmação por telefone + reparação.» -> «Diagnóstico após contacto telefónico + reparação.»
+  - card «Tempo de resposta médio: atendimento mediante confirmação por telefone» -> «atendimento por telefone»
+  - FAQ «Para Zona 4, atendimento é mediante confirmação por telefone. Em emergências, prioridade absoluta.» -> «Para Zona 4, atendimento é por telefone. Em emergências, atendimento priorizado.»
+  - 0 résidu grep.
+- **Fix PRICING.md source-of-truth align** (precos-zonas.json : Santo Estêvão = Z4/45€) :
+  - JSON-LD offers price 110 (inventé) -> 45 (= Z4 deslocação canonique)
+  - card prix «Deslocação Zona 4: 40€ (já incluída no preço)» -> «Deslocação Zona 4: 45€ (sob orçamento por escrito)» (40€ = prix inventé, 45€ = source-of-truth)
+- **Doctrine R12 (§12 Transparência Radicale) intacte** : 70 €/h × 1, Z1-Z6 grille × 1, +50% majoration × 1, orçamento por escrito × 5, NAP 932 321 892 × 8 (0 NAP 928), Zona 4 × 4 (uniforme), DGEG TRIESP 90062 × 1 mention + 1 schema Person/Org, Fluke T6-1000/Megger MFT1741+/ROLeak Aqua 3Plus/FLIR E96/câmara 30 m (intacts).
+- **R11 ZÉRO INVENTION respectée** : aucune avanie/prix/zone/délai/chantier inventé.
+- **Refs** : kanban t_bf6a4791, AGENTS.md §11 + §12 + §13 + §14, PRICING.md, precos-zonas.json.
+- **Statut** : 🛑 STOP — PR #242 draft ouvert, gated R7 (validation Filipe avant merge).
+
+### 2026-08-05 — Scope-electric-on-plumbing faux-positif réfuté + R145 purge + Z5/55€ source-of-truth align — t_7ec530ae (eletricista-avaria-eletrica-cumieira.html)
+
+- **Branche** : `fix/eu-conform-cumieira-scope-r145-z5-t_7ec530ae` (forked from `fix/eu-conform-miranda-plumb-scope-wrongphone-t_cf0354e7`, base = main possible après GO Filipe).
+- **PR draft** : #244 (https://github.com/taffrand-gif/eletricista-urgente/pull/244) — gated R7, NE PAS merger sans GO Filipe explicite.
+- **Commit** : b19822593 — `fix(eu,conform): scope-electric-on-plumbing fpp réfuté + R145 purge + Z5/55€ source-of-truth align on eletricista-avaria-eletrica-cumieira.html (t_7ec530ae)` — 1 fichier modifié, 2 insertions(+), 2 suppressions(-).
+- **Scope (FP réfuté)** : page 100% élec (curto-circuito, disjuntor, multímetro Fluke T6-1000, ROLeak Aqua 3Plus acoustique, FLIR E96, câmara 30 m, DGEG TRIESP 90062, NAP 932 321 892). 6 occurrences `canalizador` toutes dans JSON-LD sameAs (backlinks cross-site conformes Annexe A). Aucune section `<unique-urg-can>` plomberie. Classification pool-keeper `scope-electric-on-plumbing` = collision lexicale `fuga de corrente` (élec R12) vs `fuga de água` (plomberie) — pattern FP déjà documenté (t_24099f7e, t_44cdcde1, t_3b5f5884, t_22dd3b18, t_869cc997, t_6ad41a8f, t_8548d01c, t_b2d3f4c2, t_bf6a4791).
+- **Fix R145 (verrouillé 28/06/2026)** : 4 chaînes «mediante confirmação | após confirmação por telefone | prioridade absoluta» purgées :
+  - hero `<p>` «atendimento mediante confirmação por telefone.» -> «Atendimento por telefone.»
+  - card «Avaria com cheiro a queimado» «Diagnóstico após confirmação por telefone + reparação.» -> «Diagnóstico após contacto telefónico + reparação.»
+  - card prix «Tempo de resposta médio: atendimento mediante confirmação por telefone» -> «atendimento por telefone»
+  - FAQ «Para Zona 3, atendimento é mediante confirmação por telefone. Em emergências, prioridade absoluta.» -> «Para Zona 5, atendimento é por telefone. Em emergências, atendimento priorizado.»
+  - 0 résidu grep.
+- **Fix PRICING.md source-of-truth align** (precos-zonas.json : Cumieira = Z5/55€) :
+  - zone-badge «📍 Zona 3 • Chegada conforme disponibilidade» -> «Zona 5»
+  - card prix «Deslocação Zona 5: 30€ (já incluída no preço)» -> «Deslocação Zona 5: 55€ (sob orçamento por escrito)» (30€ = prix inventé, 55€ = source-of-truth)
+  - FAQ custo «para Zona 3, deslocação incluída» -> «para Zona 5, deslocação incluída»
+  - FAQ tempo chegada «Para Zona 3, ...» -> «Para Zona 5, ...»
+  - JSON-LD offers price 110 (inventé) -> 55 (= Z5 deslocação canonique)
+- **Doctrine R12 (§12 Transparência Radicale) intacte** : 70 €/h × 1, Z1-Z6 grille × 1, +50% majoration × 2, orçamento por escrito × 11, NAP 932 321 892 × 10 (0 NAP 928), Zona 5 × 4 (uniforme), DGEG TRIESP 90062 × 10 mentions + 1 schema Person/Org, Fluke T6-1000/Megger MFT1741+/ROLeak Aqua 3Plus/FLIR E96/câmara 30 m (intacts).
+- **R11 ZÉRO INVENTION respectée** : aucune avanie/prix/zone/délai/chantier inventé.
+- **Refs** : kanban t_7ec530ae, AGENTS.md §11 + §12 + §13 + §14, PRICING.md, precos-zonas.json.
+- **Statut** : 🛑 STOP — PR #244 draft ouvert, gated R7 (validation Filipe avant merge).
