@@ -748,3 +748,24 @@ git diff <base>..HEAD | python3 -c "import sys, re; print(len(re.findall(rb'tel:
 3. **Hors scope cette mission** : les autres pages du repo qui mentionnent 928 dans un contexte cross-site légitime (référencement du partenaire plomberie, comparatif) restent à examiner. La règle « CTA principal = NAP du site » ne s'applique pas à une phrase descriptive dans un comparatif.
 
 **Source** : mission kanban `t_60a880f3` (2026-08-03 16h BST), branche `fix/eu-wrong-call-cta` depuis `origin/main@5f715c34e`, 4 fichiers servis patchés, PR draft en attente review/merge Claude.
+
+## Leçon #pt-br-comparacao-2026-08-04-01 — Contamination pt-br/fr replicated cross-site : audit obligatoire après tout fix CU
+
+**Contexte** : Le défaut « pt-br + français résiduel dans comparacao.html » a été détecté et fixé sur CU (PR #231, commit `0f0ccb427` du 2026-08-04, t_7e465a3e). Le fix CU a été documenté dans la leçon CU. Mais la contamination a été répliquée sur le site EU (eletricista-urgente.pt/comparacao.html) : mêmes 3 sections (Quando NÃO Escolher / Onde Somos Mais Fracos / CTA Pronto a experimentar) avec les mêmes 6 chaînes pt-br/fr non corrigées. Cause racine : le contenu a probablement été copié-collé entre sites lors d'une régénération de page comparaison, sans repasser par la gate pt-PT stricte appliquée à CU. La contamination a survécu pendant au moins 6 jours (04/08 → 10/08) avant détection, ce qui veut dire qu'aucun linter de cohérence linguistique ne tourne en CI sur comparacao.html.
+
+**Preuve LIVE (extrait avant fix EU, 10/08 13h20 BST)** :
+- 4 chaînes pt-br dans § 'Quando NÃO Escolher' : `Você` × 3, `national` × 2, `spécifique`, `parle uniquement`, `tout le pays`, `à l'avenir`
+- 1 chaîne fr dans § 'Onde Somos Mais Fracos' : `Marque grande nationale` (deux erreurs : accord fr + terme fr)
+- 1 claim inventé dans CTA 'Pronto a experimentar' : `Premier service garanti satisfait ou refait gratuitement` (viol R11 doctrine — pas de claim de service garanti)
+
+**Takeaway** : un fix de conformité local (PR #231 sur CU) n'élimine PAS la contamination sur les sites symétriques (ici EU) si la source est partagée ou si les pages sont régénérées en batch. Un fix doctrinal sur 1 site doit déclencher **automatiquement** un audit cross-repo de toutes les pages contenant les mêmes chaînes signature. Sinon, le défaut persiste silencieusement et la doctrine R12 (transparence radicale) n'est respectée que partiellement. Aussi, ne JAMAIS laisser passer un claim de type « service garanti satisfait ou refait » : c'est une violation R11 (zéro invention) ET un risque réputationnel (engagement impossible à tenir dans 100% des cas).
+
+**Action canon** :
+1. **APRÈS tout fix de conformité R/R11/R12 sur 1 site Norte-OS** : grep croisé `search_files` (ripgrep) sur les 4 sites (CNR, ENR, CU, EU) pour les chaînes corrigées, dans les 7 jours qui suivent. Si une chaîne signature est détectée sur un autre site, créer un ticket kanban t_X avec assignee = profil CONFORMITE et parent = t_origine. Documenter la symétrie.
+2. **NE JAMAIS utiliser** les chaînes signature suivantes (corpus INTERDIT) dans aucun contenu Norte-OS, en aucune langue : `Você` (pt-br) ; `national`, `spécifique`, `parle uniquement`, `tout le pays`, `à l'avenir`, `Marque grande`, `Comparez vous-même`, `satisfait ou refait` (fr). Source de vérité : cette leçon + leçon symétrique CU `LECONS.md` (canalizador-urgente) `#pt-br-comparacao-2026-08-04-01`.
+3. **Formule R12 canonique de substitution** (remplacement automatique des claims « satisfait ou refait ») : `"Orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura"` — pas de variante. Cette formule incarne R12 (transparence radicale) sans claim invérifiable.
+4. **Pour EU spécifiquement** : les corrections pt-br/fr de comparacao.html sont appliquées via PR #261 (t_1270e567, fix `fix/eu-conform-comparacao-ptpt-t_1270e567`). PR draft, GO Filipe obligatoire (R7) avant merge.
+5. **TODO post-merge** : grep croisé des 4 sites (CNR, ENR, CU, EU) pour les 11 chaînes signature sur TOUS les fichiers (pas seulement comparacao.html) — risque de contamination sur d'autres pages (mentions légales, FAQ, articles blog) qui auraient été régénérées depuis le même corpus. Si positif : ouvrir un ticket par site.
+6. **TODO monitoring** : ajouter un linter de cohérence linguistique dans la CI (ex : `assert_no_forbidden_strings.sh` qui grep les 11 chaînes et fail le build si match). Référentiel : ce corpus INTERDIT.
+
+**Source** : mission kanban `t_1270e567` (2026-08-10 13h20 BST), branche `fix/eu-conform-comparacao-ptpt-t_1270e567` depuis `origin/main@616c7af5f`, fichier `comparacao.html` (1 ligne body minifiée, 1 insertion / 1 deletion), PR #261 draft en attente review/merge Filipe. Symétrie avec leçon CU `t_7e465a3e` (PR #231).
