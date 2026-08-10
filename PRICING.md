@@ -21,6 +21,14 @@ Zone = **distance ROUTE réelle** (km/temps de conduite via OSRM) depuis Macedo 
 **Mapping localité → zone** = `precos-zonas.json` (960 localités, dans ce repo). Lookup obligatoire, jamais deviner.
 Exemple : `Freixo de Espada à Cinta` = Z5 = 55 €.
 
+## Prestations documentaires (électricité — DGEG)
+- **Emissão de ficha eletrotécnica e termo de responsabilidade : a partir de 250 €**
+  - **Un seul prix plancher couvrant les DEUX documents** (formulation Filipe : « ficha electrotec **et/ou** termos de responsabilidade »). Ne JAMAIS publier deux lignes distinctes : lu comme 250 € chacune, soit 500 € — faux et pénalisant.
+  - Écrire « a partir de » : c'est un plancher, pas un tarif fixe. Aucune fourchette haute ne doit être inventée.
+  - Distinct de la main-d'œuvre (70 €/h) et du déplacement par zone : prestation documentaire, pas une heure de travail.
+  - Adossé à la credencial **DGEG TRIESP n.º 90062** (baixa tensão até 41,4 kVA). Sites **ÉLECTRICITÉ uniquement** — jamais sur les repos plomberie.
+  - Source : Filipe, 2026-08-10 (donnée métier qu'il est seul à détenir, absente de toute source avant cette date).
+
 ## Majoration
 - **+50 %** nuit / week-end / feriado — s'applique à la main-d'œuvre ET au déplacement.
 
