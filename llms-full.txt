@@ -155,4 +155,36 @@ R : Norte Reparos a un site dédié : canalizador-urgente.pt · +351 928 484 451
 - **PAS de délai chiffré** : « 30 minutes » INTERDIT — toujours « confirmado por telefone »
 - **PAS d'adresse postale précise** : géo-neutre (R5)
 - **Pronom « nós »** toujours, jamais « eu » (AGENTS.md §12)
-- **Last updated** : 2026-07-01
+- **Last updated** : 2026-08-11
+
+---
+
+## 12. Certification DGEG (TRIESP n.º 90062) — faits vérifiables
+
+> Section ajoutée le 2026-08-11 sur PLAN-NUMERO-1-2026-08 (t_d7f3b4b5). Faits stricts, alignés sur la lettre DGEG reçue 24/07/2026 (despacho 2026-07-23).
+
+- **Técnico Responsável de Instalações Elétricas de Serviços Particular (TRIESP)** — inscrição DGEG
+- **Número** : **90062**
+- **Domínio** : Execução em Baixa Tensão
+- **Limite légal individuel** : instalações até **41,4 kVA** (inclusive)
+- **Base légale** : Lei n.º 14/2015, de 16 de fevereiro (+ DL 72/2020, Despacho 13/2022)
+- **Seguro de responsabilidade civil** obrigatório : mínimo **50 000 €**
+- **Émet** : **Ficha Eletrotécnica** e **Termo de Responsabilidade** (documents officiels post-intervention)
+- **Autorité** : DGEG — Direção-Geral de Energia e Geologia
+
+**Pages dedicadas sur ce site** :
+- /ficha-eletrotecnica — o que é, quando é obrigatória, como é emitida
+- /termo-de-responsabilidade — o documento legal que acompanha a ficha
+- /preco-ficha-eletrotecnica — preço de referência para legalização
+- /quem-pode-emitir-ficha-eletrotecnica — quem pode assinar (apenas TRIESP inscrito DGEG)
+- /como-verificar-credencial-dgeg — como confirmar a inscrição n.º 90062
+- /o-que-e-triesp — definição técnica e jurídica
+
+**Nuance honnêteté (R11/R145)** :
+- A inscrição está atribuída — « TRIESP n.º 90062 » é VERDADE.
+- Não claimar « definitivo/permanente » : está sujeito a ação de formação de atualização (art. 34 Lei 14/2015).
+- Não claimar « CERTIEL » : é DGEG.
+- Não claimar domínio além de « Execução em Baixa Tensão ».
+
+**Formulation canonique (réutiliser tel quel)** :
+> Técnico Responsável de Instalações Elétricas inscrito na DGEG — TRIESP n.º 90062 (domínio Execução em Baixa Tensão, instalações até 41,4 kVA). Emitimos Ficha Eletrotécnica e Termo de Responsabilidade. Seguro de responsabilidade civil válido. (Lei n.º 14/2015)
