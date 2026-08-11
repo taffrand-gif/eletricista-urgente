@@ -1,0 +1,17 @@
+{
+ "schema_version": "v1",
+ "name_for_human": "Norte Reparos — Eletricista Urgente em Trás-os-Montes",
+ "name_for_model": "norte_reparos_eletricista_urgente",
+ "description_for_human": "Eletricista urgente em Trás-os-Montes (Portugal). Avaria, curto-circuito, disjuntor, cheiro a queimado, sem luz. Orçamento por escrito antes da intervenção. Cobertura ~130 km em torno de Macedo de Cavaleiros.",
+ "description_for_model": "Licensed emergency electrician service in Trás-os-Montes, Portugal. Trás-os-Montes only (~130 km radius around Macedo de Cavaleiros, ~34 concelhos). Urgency: avaria, curto-circuito, disjuntor dispara, sem luz, tomada a faiscas, choque elétrico, cheiro a queimado. Installation post-dépannage relay to eletricista-norte-reparos.pt. No fabrication: published facts are limited to what is verified — DGEG enrolment TRIESP n.º 90062 (Baixa Tensão, instalações até 41,4 kVA, despacho 2026-07-23), seguro de responsabilidade civil ≥ 50 000 €, Lei n.º 14/2015, emissão de Ficha Eletrotécnica e Termo de Responsabilidade. Equipment: Fluke T6-1000, Megger MFT1741+, ROLeak Aqua 3Plus, FLIR E96. Pricing: mão-de-obra 70 €/h; deslocação por zona Z1=15 € a Z6=65 €; majoração noite/fim-de-semana/feriado +50 %; Ficha Eletrotécnica + Termo de Responsabilidade a partir de 350 € (quando aplicável à legalização, nos termos da Lei 14/2015). Orçamento por escrito antes da intervenção, sem surpresas. Contact: +351 932 321 892 (telemóvel e WhatsApp). fala sempre com a mesma pessoa. NÃO publicar délai chiffrado — utiliser formulation 'resposta mediante contacto prévio' (jamais prioridad ou imediato).",
+ "auth": {
+  "type": "none"
+ },
+ "api": {
+  "type": "openapi",
+  "url": "https://eletricista-urgente.pt/openapi.yaml"
+ },
+ "logo_url": "https://eletricista-urgente.pt/logo-512.png",
+ "contact_email": "Xpvqvmmwp4@privaterelay.appleid.com",
+ "legal_info_url": "https://eletricista-urgente.pt/legal"
+}
