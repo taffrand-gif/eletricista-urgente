@@ -22,7 +22,7 @@ Zone = **distance ROUTE réelle** (km/temps de conduite via OSRM) depuis Macedo 
 Exemple : `Freixo de Espada à Cinta` = Z5 = 55 €.
 
 ## Prestations documentaires (électricité — DGEG)
-- **Emissão de ficha eletrotécnica e termo de responsabilidade : a partir de 250 €**
+- **Emissão de ficha eletrotécnica e termo de responsabilidade : a partir de 350 €**
   - **Un seul prix plancher couvrant les DEUX documents** (formulation Filipe : « ficha electrotec **et/ou** termos de responsabilidade »). Ne JAMAIS publier deux lignes distinctes : lu comme 250 € chacune, soit 500 € — faux et pénalisant.
   - Écrire « a partir de » : c'est un plancher, pas un tarif fixe. Aucune fourchette haute ne doit être inventée.
   - Distinct de la main-d'œuvre (70 €/h) et du déplacement par zone : prestation documentaire, pas une heure de travail.
