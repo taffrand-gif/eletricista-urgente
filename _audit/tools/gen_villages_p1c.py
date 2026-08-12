@@ -122,10 +122,10 @@ META_DESC_TMPL = {
 }
 
 FOOTER_TMPL = {
-    'A': '<p>© 2026 Norte Reparos — eletricista profissional em Trás-os-Montes.</p>\n <p>Telemóvel <a href="tel:+351932321892">+351 932 321 892</a> · NIPC 123456789 · Alvará 12345-PMe · Seguro RC apólice 67890.</p>',
-    'B': '<p>© 2026 Norte Reparos · eletricista em Trás-os-Montes, zona tarifária Z{zone}.</p>\n <p>Telemóvel <a href="tel:+351932321892">+351 932 321 892</a> · NIPC 123456789 · Alvará 12345-PMe · Seguro RC apólice 67890.</p>',
-    'C': '<p>© 2026 Norte Reparos — serviço de eletricista em Trás-os-Montes.</p>\n <p>Contacto: <a href="tel:+351932321892">+351 932 321 892</a> · NIPC 123456789 · Alvará 12345-PMe · Seguro RC apólice 67890.</p>',
-    'D': '<p>© 2026 Norte Reparos · eletricista profissional, Trás-os-Montes.</p>\n <p>Telefone: <a href="tel:+351932321892">+351 932 321 892</a> · NIPC 123456789 · Alvará 12345-PMe · Seguro RC apólice 67890.</p>',
+    'A': '<p>© 2026 Norte Reparos — eletricista profissional em Trás-os-Montes.</p>\n <p>Telemóvel <a href="tel:+351932321892">+351 932 321 892</a></p>',
+    'B': '<p>© 2026 Norte Reparos · eletricista em Trás-os-Montes, zona tarifária Z{zone}.</p>\n <p>Telemóvel <a href="tel:+351932321892">+351 932 321 892</a></p>',
+    'C': '<p>© 2026 Norte Reparos — serviço de eletricista em Trás-os-Montes.</p>\n <p>Contacto: <a href="tel:+351932321892">+351 932 321 892</a></p>',
+    'D': '<p>© 2026 Norte Reparos · eletricista profissional, Trás-os-Montes.</p>\n <p>Telefone: <a href="tel:+351932321892">+351 932 321 892</a></p>',
 }
 
 
