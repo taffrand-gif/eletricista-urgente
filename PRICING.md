@@ -32,6 +32,14 @@ Exemple : `Freixo de Espada à Cinta` = Z5 = 55 €.
 ## Majoration
 - **+50 %** nuit / week-end / feriado — s'applique à la main-d'œuvre ET au déplacement.
 
+## Mínimo faturado
+- **Mínimo faturado: deslocação + 1 hora de mão de obra.**
+- **Cada hora começada é devida.**
+- Aplicam-se também à deslocação e à mão de obra.
+- Majoração nuit / week-end / feriado (+50 %) é aplicada sobre estes valores mínimos.
+
+Esta regra é publicada **antes** de qualquer intervenção, em todas as páginas de preço, em conformidade com a doutrina de transparência radical. O cliente sabe exatamente o que vai pagar no mínimo antes de ligar.
+
 ## Règle de communication (doctrine) — V2 2026-08-11
 
 Quatre engagements à publier (Filipe, 11/08) :
