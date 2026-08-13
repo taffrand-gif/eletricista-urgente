@@ -1356,3 +1356,53 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **R11 ZÉRO INVENTION respectée** : aucune avanie/prix/zone/délai/chantier inventé.
 - **Refs** : kanban t_7ec530ae, AGENTS.md §11 + §12 + §13 + §14, PRICING.md, precos-zonas.json.
 - **Statut** : 🛑 STOP — PR #244 draft ouvert, gated R7 (validation Filipe avant merge).
+
+### 2026-08-13 — Blocage n°1 CLOS + ventilation corrigée du gisement FAQ + prototype `garantia.html` (loop Cowork)
+
+#### ✅ BLOCAGE n°1 CLOS — le gisement prix n'existe plus
+Recompte en début de run sur `origin/main` (`_archive/` exclu). La PR **#281** (« recalc derived totals — remove +15€ artefact + publish "Mínimo faturado" »), **mergée le 13/08**, a refermé le gisement des 301 fichiers. Vérification de cohérence sur les **303 occurrences** appariées `deslocação + 70€/h → A partir de` :
+
+| Zone | Deslocação | Total annoncé | Attendu | Écart | Occ. |
+|---|---:|---:|---:|---:|---:|
+| Z1 | 15 € | 85 € | 85 € | **0** ✅ | 10 |
+| Z2 | 25 € | 95 € | 95 € | **0** ✅ | 36 |
+| Z3 | 35 € | 105 € | 105 € | **0** ✅ | 58 |
+| Z4 | 45 € | 115 € | 115 € | **0** ✅ | 42 |
+| Z5 | 55 € | 125 € | 125 € | **0** ✅ | 82 |
+| Z6 | 65 € | 135 € | 135 € | **0** ✅ | 75 |
+
+➡️ **L'écart de +15 € est nul sur les 6 zones. Le blocage n°1 — « le plus grave du repo » — est refermé.** Les prototypes PR #268 et #277 ont servi leur but : le batch a été autorisé et exécuté correctement.
+
+#### 🔴 Le diagnostic « les scripts r12_*.py ont produit les FAQ vides » est RÉFUTÉ pour EU aussi
+Contrôle demandé par le `context.md` du 12/08 (« vérifier que `conforme zona Z` existe bien en production ici », nuance venue de CU) : **`conforme zona Z` = 0 occurrence en production sur EU.**
+➡️ **Même conclusion que sur CU : la chaîne défectueuse des scripts versionnés n'a jamais atteint la production.** Le défaut vient d'une passe absente du repo. **Corriger `scripts/r12_blog_safe_cleanup.py` et `scripts/r12_hubs_cleanup.py` n'est donc PAS un prérequis du batch FAQ** — c'est une hygiène séparée. Le blocage n°2 perd sa condition suspensive technique.
+
+#### 🔴 Le chiffre « 955 FAQ vides » comptait deux gisements DIFFÉRENTS
+Parsing exhaustif de tous les blocs `application/ld+json` du repo (`_archive/` exclu) : **0 bloc non parsable**, **4 219 `acceptedAnswer`** au total.
+
+| Gisement | Fichiers | Nature |
+|---|---:|---|
+| `acceptedAnswer.text` == `" conforme zona"` (14 car.) | **526** | réponse vide — Question `« Quanto tempo demoram a chegar? »`, **une seule et unique valeur, zéro variante** |
+| `"name": "Trabalham Atendimento 24h/7d?"` | **955** | 🆕 **artefact dans le NOM DE LA QUESTION**, jamais documenté |
+
+➡️ **Le « 955 » suivi run après run n'était pas le nombre de FAQ vides.** Les réponses vides sont **526**. Les 955 sont un **second gisement, distinct** : la substitution `24h` → `Atendimento 24h/7d` a été appliquée à une question qui portait **déjà** `24h/7d`, produisant `« Trabalham Atendimento 24h/7d? »` — agrammatical, et affiché en rich snippet.
+➡️ Ceci explique le « 955 → 955 » noté comme suspect le 12/08 : **le compteur suivait le mauvais gisement.**
+
+**La cible (b) est donc parfaitement propre : 526 fichiers, une seule valeur exacte, zéro faux positif, zéro variante à traiter à part.**
+
+#### Prototype — `garantia.html` (1 commit, 1 fichier)
+Page de confiance, **déclarée au sitemap**, **sans jumelle `public/`** — le prototype ne s'enchevêtre pas avec le blocage n°5 (doublon `public/` ↔ racine). Même critère de choix que la PR #277.
+1. **Q « Quanto tempo demoram a chegar? »** → réponse `" conforme zona"` → **retrait du couple Q/R** (question de délai, patron validé par le merge de la **PR #200**).
+2. **Question « Trabalham Atendimento 24h/7d? » → « Trabalham 24h/7d? »** — restauration **verbatim** depuis le jumeau `canalizador-urgente` (`contactos.html`, même Question, non affectée). ⚠️ **La réponse n'est pas touchée** : **R145 autorise explicitement « 24h/7 dias » sur ce repo** (`AGENTS.md` L184). Rien n'est sur-purgé.
+- **Témoins R8 (avant → après)** : ` conforme zona` **1 → 0** · `Quanto tempo demoram a chegar` **1 → 0** · `Trabalham Atendimento 24h/7d` **1 → 0** · `Trabalham 24h/7d` **0 → 1** · `24h` **2 → 2** et `Curto-circuitos` **1 → 1** (contrôles positifs).
+- **Contrôle post-purge** : **4/4 blocs JSON-LD re-parsés valides**, 2 questions, **0 `acceptedAnswer.text` ≤ 20 caractères**.
+- **Conformité** : R4 (retrait + transplant verbatim, zéro invention), R6, R7 (aucun merge), R8, R145, R-WT (worktree), commit atomique.
+- **Statut** : ✅ Fait — PR ouverte, en attente de GO/merge Philippe (R7).
+
+#### 🛑 Décisions requises — chiffres corrigés
+| # | Cible | Fichiers | Traitement | Verrou restant |
+|---|---|---:|---|---|
+| (b1) | `acceptedAnswer.text` == `" conforme zona"` | **526** | retrait du couple Q/R (prototype ci-dessus) | **aucun** — cible unique, 0 variante |
+| (b2) | `"name": "Trabalham Atendimento 24h/7d?"` | **955** | → `"Trabalham 24h/7d?"` (verbatim CU) | **aucun** — substitution déterministe |
+| (c) | `scripts/gen_concelhos.py` | 1 | délai chiffré + claims 24h + « relatório técnico » | **régénère** → à corriger avant toute purge de `concelhos/` |
+- Le blocage n°1 (prix) est **clos**. Le blocage n°2 perd sa condition technique. **Restent (b1), (b2) et (c).**
