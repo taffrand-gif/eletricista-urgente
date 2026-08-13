@@ -58,5 +58,6 @@ Disallow: /public/
 # Sitemap (core only, root-tiered)
 Sitemap: https://eletricista-urgente.pt/sitemap.xml
 Sitemap: https://eletricista-urgente.pt/sitemap-villages.xml
+Sitemap: https://eletricista-urgente.pt/sitemap-extra.xml
 
 # Redeploy trigger 2026-07-03 16:06:26
