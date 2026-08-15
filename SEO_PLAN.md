@@ -1408,3 +1408,26 @@ Page de confiance, **déclarée au sitemap**, **sans jumelle `public/`** — le 
 | (b2) | `"name": "Trabalham Atendimento 24h/7d?"` | **955** | → `"Trabalham 24h/7d?"` (verbatim CU) | **aucun** — substitution déterministe |
 | (c) | `scripts/gen_concelhos.py` | 1 | délai chiffré + claims 24h + « relatório técnico » | **régénère** → à corriger avant toute purge de `concelhos/` |
 - Le blocage n°1 (prix) est **clos**. Le blocage n°2 perd sa condition technique. **Restent (b1), (b2) et (c).**
+
+---
+
+## 🔄 RUN LOOP 2026-08-15 — Ventilation des Questions restantes (tâche n°5 « sans GO »)
+
+| # | Fichier | Statut |
+|---|---|---|
+| 1 | `blog/eletricista-urgente-braganca-24h-premium.html` | ✅ **Fait** — prototype du transplant. |
+
+### 🟢 Le traitement du gisement (b1′) change — la réponse conforme existe déjà
+La Question `Qual é o tempo de chegada?` porte **51 fichiers, 1 seule variante, entièrement conforme** :
+> « Não comunicamos tempo absoluto de chegada. O que se garante é orçamento por escrito antes da deslocação. »
+
+Le repo porte donc **deux réponses à la même intention : 953 cassées et 51 conformes.** Même famille de défaut que la contradiction `Trabalham ao fim de semana?` du 14/08 — mais un cran plus haut : **il ne suffit pas de comparer les variantes d'une Question, il faut comparer les Questions SYNONYMES entre elles.**
+
+Formulation **identique au caractère près sur CU** (29 fichiers) — les 2 repos `*-urgente` convergent déjà dessus.
+
+➡️ **(b1′) devient un transplant verbatim, plus un retrait.** Le retrait (patron PR #200) était le bon traitement tant qu'aucune réponse honnête n'existait. Une existe. Le transplant **conserve 953 entrées FAQPage** et leur valeur SEO, pour la même substitution déterministe. Zéro invention (R4).
+
+### 🟢 Question ouverte tranchée
+`A altitude obriga a medidas especiais?` — 40 variantes / 40 fichiers ici, **45/45 sur CU**. Le `context.md` du 14/08 laissait ouvert « contenu légitimement localisé ou bruit ». **C'est légitime** (altitude + jours de gel réels par commune). **Ne pas purger. Close sur les 2 repos.**
+
+Contrôles du prototype : `conforme zona` 1→0 · `Não comunicamos tempo absoluto` 0→1 · **`24h/7d` 5→5 (contrôle positif)**. **5/5 blocs JSON-LD re-parsés valides**, 0 `acceptedAnswer.text` < 20 caractères.
