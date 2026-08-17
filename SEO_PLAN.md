@@ -1433,3 +1433,49 @@ Formulation **identique au caractère près sur CU** (29 fichiers) — les 2 rep
 `A altitude obriga a medidas especiais?` — 40 variantes / 40 fichiers ici, **45/45 sur CU**. Le `context.md` du 14/08 laissait ouvert « contenu légitimement localisé ou bruit ». **C'est légitime** (altitude + jours de gel réels par commune). **Ne pas purger. Close sur les 2 repos.**
 
 Contrôles du prototype : `conforme zona` 1→0 · `Não comunicamos tempo absoluto` 0→1 · **`24h/7d` 5→5 (contrôle positif)**. **5/5 blocs JSON-LD re-parsés valides**, 0 `acceptedAnswer.text` < 20 caractères.
+
+### 2026-08-06 — t_a1a5c033 — [CONFORMIDADE-URGENT] eu : scope-electric-on-plumbing em eletricista-avaria-eletrica-braganca.html
+
+**Preuve live vérifiée** : `curl -sIL https://eletricista-urgente.pt/eletricista-avaria-eletrica-braganca` → 200 OK, content-length 21340 = fichier local sur disque.
+
+**Signal `scope-electric-on-plumbing` = FAUX-POSITIF réfuté** :
+- Page 100% élec (curto-circuito, disjuntor, cheiro queimado, tomada, quadro, fugas de corrente = terme technique élec).
+- `ROLeak Aqua 3Plus` est **explicitement listé dans AGENTS.md §12 R12 §1** comme équipement réel élec différenciateur (détection acoustique de fugas = courants de fuite, pas plomberie).
+- 4 hits `canaliz` = tous dans JSON-LD `sameAs` cross-site (canalizador-norte-reparos.pt / canalizador-urgente.pt) — autorisé par doctrine.
+- Pattern FPP analogue à t_11373fe8 (mondim-da-beira), t_3f0fd4c2 (almendra), t_85f4bf0b (figueira-castelo-rodrigo), t_70a0439b (torre-dona-chama), t_ee3f0aec (vila-nova-foz-coa), t_e2c1ccde (britiande), t_bc868eec (ribeira-pena).
+
+**Corrections réelles appliquées** (1 fichier, +3/-3 sur 1 commit) :
+
+| Type | Avant | Après |
+|---|---|---|
+| **R145 (1)** | `Diagnóstico após confirmação por telefone + reparação` (cheiro queimado) | `Diagnóstico no local + reparação` |
+| **R145 (2)** | `atendimento mediante confirmação por telefone` (tempo resposta) | `24h/7d — incluindo domingos e feriados. Orçamento por escrito antes da deslocação.` |
+| **R145 (3)** | `Para Zona 4, atendimento é mediante confirmação por telefone. Em emergências, prioridade absoluta.` (FAQ) | `Para Zona 3 (35€ deslocação), 24h/7d — orçamento por escrito antes da deslocação.` |
+| **R145 (4)** | `com confirmação prévia` (agendar) | `mediante orçamento por escrito` |
+| **R145 (5)** | `text:" para emergências, 24h/7d incluindo fins de semana."` (JSON-LD FAQ espace initial + vague) | `text:"24h/7d para emergências, incluindo fins de semana. Orçamento por escrito antes da deslocação."` |
+| **R12 fourchette** | `📍 Zona 4 · Atendimento Norte Reparos` (hero badge) | `📍 Zona 3 · 35€ deslocação · Atendimento Norte Reparos` |
+| **R12 fourchette** | `15-35€ deslocação conforme zona. orçamento por escrito` (JSON-LD FAQ) | `Zona 3 · 35€ deslocação. Orçamento por escrito antes da qualquer intervenção.` |
+
+**Source-of-truth align** : Bragança = Z3/35€ per `precos-zonas.json` (vérifié en début de tâche), grille Z1=15€/Z2=25€/Z3=35€/Z4=45€/Z5=55€/Z6=65€ intacte.
+
+**Témoins grep (post-patch, fichier local)** :
+
+| Témoin | Attendu | Résultat |
+|---|---|---|
+| R145 motifs (10 phrases : `mediante confirmação` / `confirmação prévia` / `prioridade absoluta` / `atendimento após contacto` / `Diagnóstico após confirmação` / `após contacto` / `após confirm` + variantes sans accent) | 0/10 | **0/10 OK** |
+| `Zona N` cohérence (4 occurrences attendues, toutes Z3) | 4× Z3, 0× Z4 | **4× Z3, 0× Z4 OK** |
+| fourchettes inventées (`15-35€`, `15-55€`, `A partir de N€`) | 0 | **0 OK** |
+| Grille Z1-Z6 présence (6 zones) | 6/6 | **6/6 OK** |
+| JSON-LD parsable (`json.loads` sur 2 blocs) | 2 blocs OK | **2 OK** |
+| `canaliz` hors `sameAs` | 0 | **0 OK** (4 hits = sameAs Organization + LocalBusiness uniquement) |
+| Plumber/hidraul hors sameAs | 0 | **0 OK** |
+
+**Diff minimal** : 1 fichier modifié, 3 insertions / 3 suppressions. Aucune régression sur le bloc Transparence tarifaire (intact), NAP tel:+351****1892 (intact), DGEG TRIESP 90062 (intact), schema @graph WebSite/Organization/LocalBusiness/Service/FAQPage (intact), prix 70€/h (intact).
+
+**Livrables** :
+- Branche : `fix/eu-conform-braganca-scope-electric-r145-z3-t_a1a5c033` (trackée sur `origin/main`)
+- Commit code : `b73ed1b9cca2b2f39b7551514fe3ae6fb047b681`
+- PR : **#257 DRAFT** — https://github.com/taffrand-gif/eletricista-urgente/pull/257
+- Worktree : `/Users/admin/work/Sites/eletricista-urgente/.worktrees/t_a1a5c033`
+
+**Gates R7** : **STOP validation Filipe obligatoire avant merge**. Conformité PRICING.md + AGENTS.md §12 R12 + §14 R145 vérifiée. Aucune invention prix/zone/délai/service. Aucun document DGEG inventé. Aucun batch — fix strictement unitaire.
