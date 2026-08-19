@@ -3,156 +3,116 @@
 > Écrit par le loop Cowork après chaque run. NE PAS ÉDITER MANUELLEMENT.
 
 ## Dernier run
-- Date : 2026-08-14
-- Tâche exécutée : **tâche n°4 du `context.md` du 13/08 (« sans GO ») — inventaire par parsing de TOUTES les Questions du `FAQPage`**, puis prototype.
-- Branche : `loop/2026-08-14-eletricista-urgente-inventaire-faq` (depuis `origin/main`, **en worktree**)
-- Commits : 2 (`blog/avaria-eletrica-domingo.html`, + `SEO_PLAN.md`)
-- PR ouverte : https://github.com/taffrand-gif/eletricista-urgente/pull/303
-- Périmètre parsé : **2 396 fichiers HTML · 9 237 blocs `ld+json` · 4 218 `acceptedAnswer`** (`_archive/` exclu). **0 bloc non parsable.**
-- Résultat : ✅ 1 fichier de production. **Et quatre résultats qui changent l'état du repo.**
-## ✅ BLOCAGE n°1 CLOS — le gisement prix n'existe plus
-La PR **#281** (« recalc derived totals — remove +15€ artefact + publish "Mínimo faturado" »), **mergée le 13/08**, a refermé le gisement des 301 fichiers. Vérification de cohérence sur les **303 occurrences** appariées `deslocação + 70€/h → A partir de` :
+- Date : 2026-08-19
+- Tâches prévues : `context.md` du 14/08, **n°5** (« ventiler les Questions **restantes** — ~20 Questions de fréquence 35-52 non ventilées ») et **n°6** (« inventorier la statistique non sourcée `Mais de 60% dos problemas graves…` »).
+- Tâches réellement exécutées : **les deux, plus une violation R145 traitée en priorité (R11/R12).**
+- Branche (depuis `origin/main`, **en worktree**) : `loop/2026-08-19-eu-ventilation`
+- Commits : 3 (`equipa.html` · le batch 43 fichiers · `SEO_PLAN.md`)
+- PR ouverte : **#311** — https://github.com/taffrand-gif/eletricista-urgente/pull/311
+- Résultat : ✅ **44 fichiers de production.** La ventilation a sorti **une promesse d'arrivée en 3 minutes, en production**.
 
-| Zone | Deslocação | Total annoncé | Attendu | Écart | Occ. |
-|---|---:|---:|---:|---:|---:|
-| Z1 | 15 € | 85 € | 85 € | **0** ✅ | 10 |
-| Z2 | 25 € | 95 € | 95 € | **0** ✅ | 36 |
-| Z3 | 35 € | 105 € | 105 € | **0** ✅ | 58 |
-| Z4 | 45 € | 115 € | 115 € | **0** ✅ | 42 |
-| Z5 | 55 € | 125 € | 125 € | **0** ✅ | 82 |
-| Z6 | 65 € | 135 € | 135 € | **0** ✅ | 75 |
-
-➡️ **L'écart de +15 € est nul sur les 6 zones. Le « plus grave du repo » est réglé.** Les prototypes PR #268 et PR #277 ont servi leur but : la ventilation par zone a rendu la décision possible, le batch a été autorisé et exécuté correctement. **Patron à réutiliser sur CU.**
-
-## 🔴 Le diagnostic « les scripts `r12_*.py` ont produit les FAQ vides » est RÉFUTÉ
-Contrôle demandé par le `context.md` du 12/08 (nuance venue de CU) : **`conforme zona Z` = 0 occurrence en production sur EU.**
-➡️ Même conclusion que sur CU : **la chaîne défectueuse des scripts versionnés n'a jamais atteint la production.** Le défaut vient d'une passe absente du repo.
-➡️ **Conséquence : corriger `scripts/r12_blog_safe_cleanup.py` et `scripts/r12_hubs_cleanup.py` n'est PAS un prérequis du batch FAQ.** C'est une hygiène séparée. **Le blocage n°2 perd sa condition suspensive technique.**
-
-## 🔴 Ventilation exhaustive des Questions — 4 résultats
-
-### 1. 🟢 (b2) est CADUC — ne plus demander ce GO
-`"name": "Trabalham Atendimento 24h/7d?"` → **0 occurrence**. Le nom est désormais `Trabalham 24h/7d?` sur **956** fichiers. Les 955 documentés le 13/08 **ont été refermés**. **Retirer (b2) du tableau des décisions.**
-
-### 2. 🔴 (b1) était sous-estimé d'un facteur 1,8 — le prédicat était faux
-Le prédicat suivi était la *valeur de réponse* `" conforme zona"`. Le prédicat correct est **la Question**.
-
-`Quanto tempo demoram a chegar?` — **953 fichiers, 4 variantes** :
-
-| Réponse | Fichiers | Statut |
+### 🔴 `Tempo de resposta?` — 267 fichiers, 5 variantes
+| Variante | Fichiers | Verdict |
 |---|---:|---|
-| `conforme zona` | **525** | seule variante documentée jusqu'ici |
-| `min conforme zona. atendimento após contacto telefónico ao telefone.` | **418** | 🆕 **jamais documentée** |
-| `min conforme zona. Atendemos 24h/7 dias, após contacto telefónico ao telefone.` | 6 | 🆕 |
-| `min conforme zona. Atendimento 24h/7 dias, ligue 932 321 892 ao telefone.` | 4 | 🆕 |
+| `para emergências, 24h/7d incluindo fins de semana.` | **221** | artefact — commence par **`para` en minuscule**, le délai a été mangé |
+| **`3 min para emergências, 24h/7d incluindo fins de semana.`** | **43** | 🔴 **promesse d'arrivée en 3 minutes** — R145. **CORRIGÉ CE RUN** |
+| `24h/7d para emergências, incluindo fins de semana. Orçamento por escrito antes da deslocação.` | **1** | ✅ **conforme — source de vérité** |
+| `24h/7d incluindo fins de semana — chegada conforme disponibilidade operacional.` | 1 | ✅ conforme |
+| `Atendemos 24h/7 dias, após contacto telefónico para emergências, 24h/7d incluindo fins de semana.` | 1 | doublon `X … X` |
 
-La variante à 418 porte la même signature : préfixe **`min` orphelin** (le nombre a été consommé), `atendimento` en minuscule en milieu de phrase, `após contacto telefónico ao telefone` redondant.
-➡️ **Cible réelle : la Question, 953 fichiers, retrait du couple Q/R, motif unique.**
+Les 43 corrigés par **transplant verbatim de la variante conforme de la MÊME Question** (`eletricista-avaria-eletrica-braganca.html`) → zéro invention (R4). `24h/7d` conservé (R145 l'autorise ici).
+**Commit groupé assumé** : motif unique, 1 occurrence par fichier, 43 diffs d'une ligne, témoins connus d'avance.
 
-### 3. 🔴 Un gisement prix jamais inventorié — `Quanto custa uma urgencia eletrica?` (955 fichiers, 6 variantes)
+### `equipa.html` — prix inventé `Desde 135 EUR`
+Sur les **6 variantes** de `Quanto custa uma urgencia eletrica?` (962 fichiers), celle-ci n'existait **qu'à 1 exemplaire**. `PRICING.md` fixe **70 €/h + deslocação Z1-Z6**, jamais 135 €. Transplant verbatim de la variante conforme (`calculadora-de-preco.html`).
 
-| Réponse | Fichiers | Statut |
-|---|---:|---|
-| `sob orçamento por escrito (1h) com deslocacao incluida. Suplemento fora de horas.` | **836** | 🔴 agrammatical, pourcentage perdu |
-| `Mao de obra 70 EUR/hora mais deslocacao por zona (Z1-Z6, de 15 a 65 EUR). Majoracao +50%…` | 96 | ✅ conforme |
-| `…antes da deslocação)EUR (1h)…` | 15 | 🔴 **artefact `)EUR`** |
-| `sob orçamento (1h) com deslocacao incluida. Suplemento fora de horas.` | 6 | 🔴 |
-| `70 €/h + deslocação (Z1: 15€ a Z6: 65€). Mínimo 1h. Acréscimo +50% fora de horas úteis.` | 1 | ✅ **source de vérité** |
-| `Desde 135 EUR (1h) com deslocacao incluida. Suplemento fora de horas.` | 1 | 🔴 prix inventé |
+### Témoins R8 (repo entier, `_archive/` exclu)
+`3 min para emergências` **43→0** · `24h/7d para emergências, incluindo` **1→44** · `24h/7d` **10 195→10 195** (contrôle positif) · `Desde 135 EUR` **1→0** · `70 €/h + deslocação` (equipa) **0→1** · `65€` (equipa) **2→2**.
+Structure : **89/89 blocs JSON-LD** des fichiers touchés valides · **0** `acceptedAnswer.text` < 20 car. · `git diff --numstat` = **44/44** (1 pour 1).
+Périmètre : **aucun chevauchement avec #307 et #308** (vérifié par `comm`). Aucun fichier touché n'a de jumelle `public/` → **blocage n°5 non concerné**.
 
-**Conformes : 97 · Non conformes : 858.**
-🔴 **L'artefact `)EUR` était réputé propre à CU (`por escritoEUR`, 698 fichiers). Il existe aussi ici.**
+### Ventilation — 2 398 fichiers, **9 266 blocs `ld+json`**, **2 JSON invalides**, **774 Questions distinctes**
+Questions restantes ventilées, verdicts :
+- ✅ `Qual é o tempo de chegada?` (51) — « **Não comunicamos tempo absoluto de chegada.** O que se garante é orçamento por escrito antes da deslocação. » **C'est la formulation de référence du repo pour toute question de délai.**
+- ✅ `Há deslocação grátis?` (41, 5 variantes) — « Não há desconto de deslocação », cohérent Z1-Z6.
+- ✅ `A altitude obriga a medidas especiais?` (40 fichiers / **40 variantes**) — **question tranchée : contenu légitimement localisé** (altitude réelle + jours de gel par commune), **pas du bruit**. Confirmé à l'identique sur CU (45/45).
+- ✅ `Trabalham com materiais próprios?` (52) · `Emitem orçamento para seguro?` (51) · `E durante a noite?` (50) · `Qual é a tarifa de mão de obra?` (49) · `Fazem seguro RC?` (46) · `Como é o pagamento?` (45) · `Como é feito o orçamento?` (42) · `Posso pedir só o diagnóstico?` (40) · `Há majorações automáticas?` (35) — **toutes conformes, 1 variante chacune.**
+- ⚠️ `Emitem fatura com NIF?` (48, 3 variantes) · `Atendem 24h/7d?` (43, 3 variantes) · `Atendimento quando?` (46, 2 variantes) — variantes mineures, non contradictoires.
 
-### 4. 🔴 Contradiction de prix EN PRODUCTION — `Trabalham ao fim de semana?`
+### Inventaire des statistiques non sourcées (tâche n°6) — famille R11, **jamais mesurée**
+| Statistique | Fichiers |
+|---|---:|
+| `Mais de 60% dos problemas graves que vemos no terreno…` | **23** |
+| `…35% dos casos) — juntas, borrachas, vedantes` | **23** |
+| `30% dos incêndios domésticos` | 5 |
+| `95% das placas domésticas (até 7,4 kW)` | 2 |
+| `80% dos problemas` · `40% dos incêndios domésticos` | 2 + 2 |
+| `95% dos curtos-circuitos` · `90% dos problemas` · `80% dos falsos alarmes` · `80% das vezes causa piscar` | 1 chacun |
 
-| Réponse | Fichiers | Statut |
-|---|---:|---|
-| `Sim, com majoração de +50% sobre mão de obra e deslocação, sempre discriminada no orçamento.` | **41** | ✅ conforme `PRICING` |
-| `Sim, Atendimento 24h/7d, 7 dias por semana, incluindo feriados. **Sem custo extra de fim de semana.**` | **23** | 🔴 **claim faux** |
+**~60 fichiers.** Aucune n'est sourcée, et **deux se contredisent** (`30%` vs `40% dos incêndios domésticos`).
 
-**Deux réponses opposées à la même Question, sur le même site. Aucune n'avait été inventoriée.** Les 23 sont tous des `blog/*.html`, **aucun n'a de jumelle `public/`** → gisement homogène et sûr.
 ## ✅ Gate merge — aucun gate actif
-Vérifié ce run : aucune mention d'attente dans les 4 `context.md`. Aucun gate réécrit.
+Vérifié ce run sur les 4 `context.md` : **aucune mention d'attente de merge**. Aucun gate réécrit.
 
 🔴 **Rappel de doctrine, à ne jamais réécrire** : R7 interdit de **MERGER**, pas de **PRODUIRE**. Entre le 06/08 et le 09/08, la mention « Attente GO merge (R7) » a été relue chaque nuit comme un ordre d'arrêt → **4 runs sans production**.
 
-🆕 **Corollaire découvert ce run (sur CNR)** : le statut `MERGED` de l'API GitHub **n'est pas une preuve de présence en production** — la PR CNR #300, pourtant `MERGED`, a été annulée par une réécriture de `main`. ➡️ **Contrôle de fin de run : `git merge-base --is-ancestor <mergeCommit> <remote>/main`.** À passer aussi sur EU au prochain run.
-## Prototype livré — `blog/avaria-eletrica-domingo.html`
-Page la plus à enjeu du lot des 23 : **le dimanche est précisément le cas où la majoration s'applique**. Déclarée au `sitemap-extra.xml`. **Sans jumelle `public/`** → décidable sans rouvrir le blocage n°5.
+## 🛑 GISEMENTS CHIFFRÉS — DÉCISIONS REQUISES (prédicat = **Question** + variante)
 
-Corrections, **toutes par transplant verbatim depuis la production de ce repo** (zéro invention, R4) :
-1. `Quanto custa este serviço em 2026?` répondait `varia entre 80€ e 200€` — **fourchette inventée**, explicitement bannie (R12 : « jamais de fourchette inventée ; hors grille = *sob orçamento* ») → grille verbatim, **dans le JSON-LD ET dans le corps**.
-2. `Trabalham ao fim de semana?` → variante majoritaire verbatim (41 fichiers), **JSON-LD ET corps**.
-3. Bloc CTA : retrait de `· Sem custo extra de fim de semana` (même claim faux, **au-dessus de la ligne de flottaison**).
-4. Retrait de la phrase `custa em média entre 80€ e 200€ … reparação de 1.000€ a 5.000€` (économie inventée de bout en bout).
+| # | Cible | Fichiers | Traitement |
+|---|---|---:|---|
+| **(b2′)** | **Q `Tempo de resposta?` → variante `para emergências…` (minuscule)** | **221** | ✅ **MEILLEUR CANDIDAT POUR UN GO** — **exactement le même patch que la PR #311**, dont le rendu est déjà visible sur 43 fichiers |
+| (g) | `Sem custo extra de fim de semana` (contredit la majoration +50 %) | **22** | substitution déterministe — **le plus petit et le plus grave après (b2′)** |
+| (b1′) | Q `Quanto tempo demoram a chegar?` | **960** | retrait du couple Q/R + re-parse du `FAQPage` |
+| (f) | Q `Quanto custa uma urgencia eletrica?` → `sob orçamento por escrito (1h)…` | **842** | substitution par la grille verbatim |
+| **(h)** | **Statistiques non sourcées `N% dos/das` — NOUVEAU** | **~60** | sourcer publiquement ou retirer |
+| (c) | `)EUR` | 15 | corriger `scripts/gen_concelhos.py` **avant** toute purge des pages `concelhos/` |
 
-Témoins R8 : `80€ e 200€` **3→0** · `Sem custo extra` **3→0** · `1.000€ a 5.000€` **1→0** · `preço médio em 2026` **2→0** · grille `70 €/h + deslocação…` **0→2** · `majoração de +50%…` **0→2** · `932 321 892` **2→2** (NAP intact).
-⚠️ `24h/7d` **2→0** : les 2 occurrences étaient **à l'intérieur de la réponse remplacée**. La disponibilité reste affirmée par le « **Sim,** » de la réponse verbatim et par le `(24h)` du CTA. **Rien n'a été purgé au motif de `24h` — R145 l'autorise ici.**
-Contrôle : **2/2 blocs JSON-LD re-parsés valides**, `FAQPage` **3 questions conservées**, **0 `acceptedAnswer.text` < 20 caractères**.
-⚠️ **Non traité, à statuer** : la même page portait `Mais de 60% dos problemas graves que vemos no terreno` — **statistique non sourcée** (famille R11), laissée en place faute de source. Motif à inventorier.
-## 🛑 DÉCISIONS REQUISES — tableau mis à jour au 2026-08-14
-
-| # | Cible (PRÉDICAT explicite) | Fichiers | Traitement | Verrou restant |
-|---|---|---:|---|---|
-| ~~(b2)~~ | ~~`"name" == "Trabalham Atendimento 24h/7d?"`~~ | ~~955~~ **0** | — | ✅ **CADUC — retiré** |
-| **(b1′)** | Question `name == "Quanto tempo demoram a chegar?"` | **953** | retrait du couple Q/R (prototype PR #284) | **aucun** — motif unique, 4 variantes de la même famille |
-| **(f)** 🆕 | Question `name == "Quanto custa uma urgencia eletrica?"`, réponse ∉ {2 variantes conformes} | **858** | substitution par la grille verbatim | **aucun** |
-| **(g)** 🆕 | `Sem custo extra de fim de semana` | **23** | substitution par la variante majoritaire (41 fichiers) | **aucun** — prototype PR #303 |
-| (c) | `scripts/gen_concelhos.py` | 1 | délai chiffré (`faq_time()` L170-174) + claims 24h (L143/L148) + « relatório técnico » (L149) | **régénère à chaque exécution** → corriger **avant** toute purge de `concelhos/` |
-
-⚠️ Rappel appliqué à ces batchs : **exclure explicitement `AGENTS.md`, `SEO_PLAN.md`, `context.md`, `CLAUDE.md`** (leçon CU `fb9dd2415`).
 ## Tâche suivante recommandée
-1. **Si GO (g)** : 23 fichiers, substitution déterministe, prototype déjà en revue (PR #303). **Le plus petit et le plus grave** — une contradiction de prix en production.
-2. **Si GO (b1′)** : 953 fichiers, retrait du couple Q/R. **Puis re-parser le `FAQPage` de chaque fichier** (`acceptedAnswer.text` > 20 car.) — c'est le contrôle manquant qui a créé le gisement.
-3. **Si GO (f)** : 858 fichiers, substitution par la grille verbatim.
-4. **Si GO (c)** : corriger `scripts/gen_concelhos.py` **avant** toute purge des pages `concelhos/`.
-5. **Sans GO** : ventiler les Questions **restantes** — ce run a caractérisé les 4 plus fréquentes (956 · 955 · 953 · 64) ; il reste ~20 Questions de fréquence 35-52 non ventilées, dont `A altitude obriga a medidas especiais?` (**40 variantes pour 40 fichiers** — à vérifier : soit du contenu légitimement localisé, soit du bruit).
-6. **Sans GO** : inventorier la statistique non sourcée `Mais de 60% dos problemas graves…` (famille R11), repérée sur la page prototype.
-7. **Sans GO** : arbitrer le blocage n°5 (doublon `public/` ↔ racine), conjointement avec CU.
+1. **Si GO (b2′)** : les 221 fichiers restants de `Tempo de resposta?`. **Le patch est déjà écrit et en revue.**
+2. **Si GO (g)** : les 22 `Sem custo extra de fim de semana`.
+3. **Sans GO — localiser les 2 blocs `ld+json` JSON-INVALIDES** relevés par le parseur. Il les compte, il ne les a pas encore nommés.
+4. **Sans GO** — traiter les statistiques (h) : commencer par la contradiction `30%` vs `40% dos incêndios domésticos`, **2 + 5 fichiers**, aucune décision d'offre en jeu (c'est une erreur factuelle).
+5. **Sans GO** — le doublon `X … X` de `Tempo de resposta?` (1 fichier) et les 2 variantes hybrides d'`Emitem fatura com NIF?`.
+6. **Sans GO** — chercher sur EU les défauts trouvés sur CU ce run : `Fazem orçamento sem compromisso?` → `gratuito` (38 sur CU) et la signature `<td>` + `&lt; `.
+7. **Sans GO** — arbitrer le blocage n°5 (doublon `public/` ↔ racine), conjointement avec CU.
+
 ## Apprentissages (self-improving)
-- 🔴 **NOUVEAU — le prédicat d'un gisement doit être la QUESTION, pas la valeur de réponse.** Suivre `" conforme zona"` donnait 526 ; suivre la Question donne **953**. **C'est la deuxième fois que ce repo se trompe de prédicat** (après le « 955 » du 13/08). ➡️ **Méthode désormais obligatoire : ventiler chaque Question par variante de réponse, puis cibler la Question.** Le tableau §DÉCISIONS porte maintenant le prédicat explicite de chaque cible.
-- 🔴 **NOUVEAU — deux réponses CONTRADICTOIRES à la même Question peuvent coexister en production sans qu'aucun compteur ne s'en aperçoive.** 41 pages disent `+50%`, 23 disent `Sem custo extra de fim de semana`. ➡️ **Nouveau contrôle : pour chaque Question dont le nombre de variantes > 1, vérifier que les variantes ne se contredisent pas.**
-- 🔴 **NOUVEAU — un défaut documenté sur un repo doit être recherché sur les 3 autres dans le run qui suit.** L'artefact `)EUR` était réputé propre à CU (698 fichiers) ; il existe aussi ici (15). Il n'a été trouvé que parce que ce run a **ventilé** au lieu de grepper des motifs déjà connus.
-- 🔴 **NOUVEAU — une fourchette de prix est bannie même quand elle a l'air prudente.** `varia entre 80€ e 200€` (26 fichiers) coche « jamais de fourchette inventée » de R12. ➡️ **Motif à inventorier : `varia entre X€ e Y€` / `custa em média entre`.**
-- 🔴 **NOUVEAU — une PR mergée peut DISPARAÎTRE de `main`** (constaté sur CNR, PR #300). ➡️ **Contrôle de fin de run : `git merge-base --is-ancestor <mergeCommit> <remote>/main`.**
-- 🟢 **Le parsing exhaustif du repo tient en quelques secondes au sandbox** (2 396 fichiers, 9 237 blocs). **Il n'y a aucune raison de continuer à grepper des motifs connus : ventiler coûte le même temps et trouve ce qu'on ne cherchait pas.**
-- 🔴 **NOUVEAU — un compteur de gisement doit être défini par un PRÉDICAT, pas par un nombre.** « 955 FAQ vides » était suivi depuis des runs sans que personne ne re-dérive ce que 955 comptait. Le prédicat réel donne **526**, et 955 est **un autre défaut**. ➡️ **Écrire le prédicat exact à côté du chiffre dans `context.md`**, sinon le chiffre survit à sa définition.
-- 🔴 **NOUVEAU — un gisement stable entre deux runs n'est pas rassurant : c'est un signal de mesure figée.** Le « 955 → 955 » avait été noté ⚠️ le 12/08 sans être creusé. Il était stable **parce qu'il mesurait autre chose**.
-- 🔴 **NOUVEAU — les artefacts de purge se logent aussi dans les NOMS de questions, pas seulement dans les réponses.** Tous les contrôles écrits jusqu'ici portaient sur `acceptedAnswer.text` (> 20 caractères). ➡️ **Ajouter un contrôle sur `name`** : pas de double marqueur, pas de mot introduit deux fois.
-- 🔴 **NOUVEAU — le contrôle « la chaîne du script existe-t-elle en production ? » a maintenant invalidé 2 diagnostics sur 2** (CU le 12/08, EU ce run). Il coûte une commande. ➡️ **À passer systématiquement avant d'attribuer un défaut à un script versionné.**
-- 🔴 **NOUVEAU — publier la ventilation complète est ce qui débloque une décision, et ça a MARCHÉ.** Le tableau par zone du 12/08 a permis le GO, et le batch #281 a refermé le blocage n°1. **Quatre runs avaient demandé ce GO sans fournir le tableau.** ➡️ **Le patron est validé : ventiler → prototyper → demander le GO en un tap. À réappliquer sur CU (batch 815).**
-- 🔴 **NOUVEAU (pattern des 4 repos ce run) — les violations les plus graves sont dans le JSON-LD**, et les compteurs de composants ne les voient pas. Vérifié sur CNR, ENR, CU et EU le même run.
-- 🔴 **Choisir la page prototype aussi pour ce qu'elle ÉVITE.** `garantia.html` (comme `eletricista-braganca.html` avant elle) n'a pas de jumelle `public/` : le prototype ne s'enchevêtre pas avec le blocage n°5. **Un prototype qui touche deux questions ouvertes à la fois n'est plus décidable en un tap.**
-- 🔴 **Un écart CONSTANT sur toutes les zones est un feu vert méthodologique.** Un défaut qui ne varie pas est un défaut à motif unique : le batch devient une substitution déterministe.
-- 🔴 **Distinguer script one-shot et étape de build change complètement la décision.** Un one-shot cassé laisse un gisement **figé et sûr à purger** ; un générateur cassé **annule tout batch**. Les deux existent ici : `r12_*.py` (one-shot, et sans effet en prod) et `gen_concelhos.py` (générateur).
-- **Le contrôle positif doit rester systématique.**
-- 🔴 **Tout grep à motif non-ASCII passe par un script Python**, jamais une boucle inline `zsh -c`.
-- **Corriger un prix faux par RETRAIT du total, pas par recalcul.**
-- ⚠️ **HEURISTIQUE FAUSSE À NE PAS RÉINTRODUIRE** — « ce site = 70 €/h, donc un `65€` ici est une erreur » est **FAUX**. Distinction réelle : **70 €/h = main-d'œuvre électricité · 65 €/h = main-d'œuvre canalisation · 65 € = déplacement Z6**.
-- **R145 autorise explicitement « 24h/7 dias »** (`AGENTS.md` L184). Ce qui est banni : les promesses de délai personnalisées. ⚠️ C'est **l'inverse** des sites `*-norte-reparos`. **Ne pas purger « 24h » ici.**
-- **Quand une question FAQ porte sur un délai, retirer le couple Q/R plutôt que le réécrire.** Validé par le merge de la PR #200, réappliqué ce run sur ENR, CU et EU.
+- 🔴 **NOUVEAU — une variante MINORITAIRE peut être la plus grave.** `3 min` ne pesait que **43 fichiers sur 267** pour sa Question, mais c'était la seule à promettre un délai chiffré. ➡️ **Ventiler par fréquence, puis trier par GRAVITÉ — pas par volume.** Un tri par volume l'aurait laissée en production indéfiniment.
+- 🔴 **NOUVEAU — le même défaut existe sous des libellés de Question différents.** `Tempo de resposta?` (267) et `Quanto tempo demoram a chegar?` (960) sont **la même famille**, et `Qual é o tempo de chegada?` (51) porte déjà la **réponse conforme**. ➡️ **Regrouper les Questions par THÈME avant de compter ; la réponse conforme d'une Question est la source verbatim de ses sœurs.**
+- 🔴 **NOUVEAU — une statistique non sourcée est un gisement au même titre qu'un prix.** ~60 fichiers, jamais mesurés parce qu'aucun contrôle ne cherchait le motif `N% dos/das`. **Deux chiffres du repo se contredisent.** ➡️ **Ajouter `grep -oE '[0-9]{1,3}% (dos|das|de)'` à l'audit récurrent des 4 repos.**
+- 🔴 **NOUVEAU — un défaut documenté sur un repo doit être recherché sur les 3 autres DANS LE RUN QUI SUIT, et ça marche dans les deux sens.** CU a hérité de la question `altitude` (tranchée ici), EU hérite du prédicat `gratuit` et de la signature `<td>` de CU.
+- 🔴 **Le prédicat d'un gisement doit être la QUESTION, pas la valeur de réponse.** Démontré deux fois sur ce repo.
+- 🔴 **Deux réponses CONTRADICTOIRES à la même Question peuvent coexister en production** sans qu'aucun compteur ne s'en aperçoive. **Nouveau corollaire (venu de CU) : deux Questions DIFFÉRENTES d'un même thème peuvent aussi se contredire.**
+- 🔴 **Une fourchette de prix est bannie même quand elle a l'air prudente** (`varia entre 80€ e 200€`, 26 fichiers).
+- 🟢 **Le parsing exhaustif tient en quelques secondes au sandbox** (2 398 fichiers, 9 266 blocs). **Il n'y a aucune raison de continuer à grepper des motifs connus : ventiler coûte le même temps et trouve ce qu'on ne cherchait pas.** Vérifié une 3ᵉ fois.
+- 🔴 **Une PR mergée peut DISPARAÎTRE de `main`** (constaté sur CNR, PR #300). ➡️ **Contrôle de fin de run : `git merge-base --is-ancestor <mergeCommit> <remote>/main`.**
+- 🔴 **Le contrôle « la chaîne du script existe-t-elle en production ? » a invalidé 2 diagnostics sur 2.** À passer avant d'attribuer un défaut à un script versionné.
+- 🔴 **Distinguer script one-shot et étape de build change complètement la décision.** `r12_*.py` (one-shot, sans effet en prod) vs `gen_concelhos.py` (générateur — **annule tout batch tant qu'il n'est pas corrigé**).
+- 🔴 **Publier la ventilation complète est ce qui débloque une décision.** Patron validé : **ventiler → prototyper → demander le GO en un tap.**
+- 🔴 **Choisir la page prototype aussi pour ce qu'elle ÉVITE** (pas de jumelle `public/`).
 - **Toute purge de conformité doit re-parser le JSON-LD après coup.** ⚠️ Ne pas exiger « commence par une majuscule ».
+- ⚠️ **HEURISTIQUE FAUSSE À NE PAS RÉINTRODUIRE** — « ce site = 70 €/h, donc un `65€` ici est une erreur » est **FAUX**. Distinction réelle : **70 €/h = main-d'œuvre électricité · 65 €/h = main-d'œuvre canalisation · 65 € = déplacement Z6**.
+- **R145 autorise explicitement « 24h/7 dias »** (`AGENTS.md` L184). Ce qui est banni : les promesses de délai. ⚠️ **L'inverse des sites `*-norte-reparos`. Ne pas purger « 24h » ici.**
+- **Quand une question FAQ porte sur un délai, retirer le couple Q/R plutôt que le réécrire** — sauf si une variante conforme de la MÊME Question existe déjà en production, auquel cas la transplanter verbatim (fait ce run).
 - `_archive/` contient de vieux fichiers avec violations — **NE PAS patcher**, l'exclure de tous les greps.
 
 ## Edge cases détectés
-- **Worktree obligatoire** : copie de travail sale en permanence. **Jamais `reset --hard`/`stash`/`clean`** (R-WT). Vérifié ce run : cette mention est bien une **interdiction**, pas une prescription — rien à corriger.
-- **Le `/tmp` du sandbox ≠ le `/tmp` du host.** Worktrees sous `~/work/Sites/_worktrees/loop-YYYY-MM-DD/` — **lisibles depuis le sandbox**, ce qui permet de parser les 2 300+ fichiers HTML en quelques secondes. **Répartition la plus efficace : parsing Python au sandbox, `git`/`gh` au host.**
-- **Les commandes `git` ne fonctionnent PAS depuis le sandbox dans un worktree** (le `.git` contient un chemin absolu host).
-- 🔴 **`grep -P` n'existe pas sur macOS** — un `grep -P` dans une chaîne `&&` fait **échouer silencieusement tout le reste de la commande**. **Utiliser Python pour tout motif non trivial.**
-- 🔴 **`git commit -m` multiligne avec backticks/parenthèses est fragile en zsh.** Utiliser `git commit -F -` avec un heredoc `<<'MSG'`.
-- 🔴 **`set -e` + zsh : un glob sans correspondance fait AVORTER tout le script.** Utiliser `setopt null_glob`.
+- **`gh` et les credentials Git n'existent QUE sur le host macOS.** Sandbox = lecture / grep / parsing Python / **écriture de fichiers** — la substitution de masse sur 43 fichiers a été faite en Python au sandbox, puis committée depuis le host. **C'est la répartition la plus efficace.**
+- **Le `/tmp` du sandbox ≠ le `/tmp` du host.** Worktrees sous `~/work/Sites/_worktrees/loop-YYYY-MM-DD/` — lisibles **et inscriptibles** depuis le sandbox.
+- **Les commandes `git` ne fonctionnent PAS depuis le sandbox dans un worktree** (chemin absolu host dans `.git`). **L'écriture de fichiers, si.**
+- 🔴 **`gh pr diff <n>` peut dépasser la limite de sortie de l'outil** (65 k caractères). Préférer `gh pr view <n> --json files --jq '.files[].path'`, puis `comm -12` contre `git diff --name-only` pour détecter un chevauchement.
+- 🔴 **zsh ne fait PAS de word-splitting** — `set -- $var` dans une boucle échoue silencieusement.
+- 🔴 **`grep -P` n'existe pas sur macOS.** Python pour tout motif non trivial. **Tout grep à motif non-ASCII passe par un script Python**, jamais une boucle inline `zsh -c`.
+- 🔴 **`git commit -m` multiligne avec backticks/parenthèses est fragile en zsh.** `git commit -F -` + heredoc `<<'MSG'`.
+- 🔴 **`set -e` + zsh : un glob sans correspondance fait AVORTER tout le script.** `setopt null_glob`.
 - 🔴 **R6 interdit `--force`, donc une PR déjà ouverte se met à jour par MERGE de `main`, jamais par rebase.**
-- ⚠️ **Le sandbox ne peut pas supprimer les `.git/objects/*.lock`** — `git fetch` émet des warnings d'unlink mais **réussit**.
-- **Agents concurrents confirmés sur ce checkout.** Parade : `git branch --show-current` avant **chaque** commit, `git diff <remote>/main...HEAD --name-only` avant le push, `gh pr create --head <branche-explicite>`.
-- Le sandbox n'a ni `gh` ni credentials Git → tout git/gh via `mcp__desktop-commander__start_process`.
-- L'outil `Edit`/`Write` (chemin host) gère parfaitement les accents et les fichiers HTML sur une seule ligne — plus sûr que `sed`.
-- `public/index.html` et `./index.html` **diffèrent** (même situation que CU). Canonicals identiques et corrects → pas d'urgence, mais doublon à arbitrer conjointement avec CU.
-- Ce repo est un site **statique pur** : pas de `tsc`, vérification par grep + re-parsing JSON.
-- Corps de PR long : fichier + `gh pr create --body-file`, jamais `--body` inline.
+- **Worktree obligatoire** (R-WT) : copie de travail sale en permanence. **Jamais `reset --hard` / `stash` / `clean`.** Vérifié ce run : cette mention est bien une **interdiction**, pas une prescription — rien à corriger.
 
 ## Blocages connus
-1. ✅ **~~301 fichiers avec un prix minimum faux~~ — CLOS le 13/08 par la PR #281.** Vérifié : écart nul sur les 6 zones.
-2. 🛑 **526 fichiers avec une réponse FAQ vide** = attente GO batch. **Plus aucun verrou technique** : la causalité « scripts » est réfutée, la cible est unique et sans faux positif.
-3. 🛑 **955 fichiers avec un nom de question agrammatical** (`Trabalham Atendimento 24h/7d?`) = attente GO batch. Substitution déterministe, source verbatim sur CU.
-4. 🛑 **`scripts/gen_concelhos.py`** : délai chiffré + claims 24h + « relatório técnico ». **Régénère à chaque exécution** → à corriger **avant** toute purge des pages `concelhos/`.
-5. 🛑 **Doublon `public/` ↔ racine** — à arbitrer conjointement avec CU.
+1. 🛑 **(b2′) 221 fichiers** — attente GO. **Le patch existe déjà (PR #311).**
+2. 🛑 **(b1′) 960 fichiers** — attente GO.
+3. 🛑 **(f) 842 fichiers** — attente GO.
+4. 🛑 **(h) ~60 fichiers de statistiques non sourcées** — sourcer ou retirer, décision requise.
+5. ⚠️ **Doublon `public/` ↔ racine** — arbitrage conjoint avec CU.
+6. ⚠️ **`scripts/gen_concelhos.py`** — générateur suspecté pour `)EUR` : **le corriger AVANT toute purge des pages `concelhos/`**, sinon le batch sera annulé au prochain build.
+7. ⚠️ **2 blocs `ld+json` JSON-invalides** — comptés, pas encore nommés.
