@@ -12,7 +12,7 @@ from pathlib import Path
 
 DOMAIN = 'https://eletricista-urgente.pt'
 NAP_DISPLAY = '+351 932 321 892'
-NAP_TEL = '+351****1892'
+NAP_TEL = '+351932321892'
 PILIER_DEFAULT = '/top-10-razoes-contratar-eletricista'  # URL propre existente
 
 def norm(s):
