@@ -104,12 +104,12 @@
 
 **Contexte** : mission HOTFIX post-merge `fix/postmerge-eu` sur 2 bugs critiques découverts après batch #153 (200 villages) + #154 (piliers curto-circuito/falha-energia).
 
-**BUG 1 (R12 doctrine 24h/7d)** : les 2 piliers racine (curto-circuito, falha-energia) mergés via #154 affichaient encore `24h · 70€/h` / `24h/7d incluindo domingos e feriados` sans la formule doctrine R12. Cause : copier-coller rapide du pattern jackpot #154 sans grep de conformité final. 333 autres pages -urgente- ont déjà le bon pattern (`Atendimento 24h/7 dias, mediante confirmação por telefone`).
+**BUG 1 (R12 doctrine 24h/7d)** : les 2 piliers racine (curto-circuito, falha-energia) mergés via #154 affichaient encore `24h · 70€/h` / `24h/7d incluindo domingos e feriados` sans la formule doctrine R12. Cause : copier-coller rapide du pattern jackpot #154 sans grep de conformité final. 333 autres pages -urgente- ont déjà le bon pattern (`Atendimento 24h/7 dias`).
 
 **Takeaway BUG 1** : après tout batch de pages piliers, **TOUJOURS** passer le grep de conformité final AVANT de demander la review :
 1. `grep -nE '24h/7d incluindo|Urgente 24h|24h ·|24h, 70|24h em Tr|24 horas'` — doit retourner 0 hit hors questions FAQ utilisateur
 2. JSON-LD `openingHoursSpecification` doit être **GARDÉ** (00:00-23:59 = alignement avec 333 autres pages -urgente- qui le font toutes, vérifié par grep)
-3. Le pattern canonique à appliquer = `Sim. Atendimento 24h/7 dias, mediante confirmação por telefone.` (variante n°1 la plus fréquente dans les pages -urgente- existantes)
+3. Le pattern canonique à appliquer = `Sim. Atendimento 24h/7 dias.` (variante n°1 la plus fréquente dans les pages -urgente- existantes)
 4. **Cibles à patcher** = title + og:title + twitter:title + H1 + FAQ corps + FAQ JSON-LD + footer CTA. **Garder** l intitulé de question utilisateur "24 horas e feriados" (c est la question, pas un claim business)
 
 **Action canon** : après batch piliers, exécuter le bloc grep DoD AVANT push. Si > 0 hits résiduels → patch ciblé par replace_all=false sur chaque chaîne (jamais global sur la page).

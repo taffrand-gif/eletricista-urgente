@@ -120,7 +120,7 @@ Une absence de règle = autorisé par défaut.
 
 **Cette doctrine se COMBINE avec (ne remplace pas)** :
 - **R11 ZÉRO INVENTION** : aucun chantier/avis/témoignage inventé
-- **R145 (jamais de délai chiffré)** : « 24h/7 dias » OK, **« resposta mediante confirmação por telefone » / « resposta prioritária » BANNIS**
+- **R145 (jamais de délai chiffré)** : « 24h/7 dias » OK, **« resposta » / « resposta prioritária » BANNIS**
 - **Grille tarifaire EXACTE** (jamais de fourchette inventée ; hors grille = « sob orçamento »)
 - **Géo-neutre** (jamais d'adresse/sede en dur ; widget géoloc dynamique seulement)
 - **Équipement EXACT élec** : **Fluke T6-1000** (testeur tension/courant sans contact), **Megger MFT1741+** (testeur d'installation multifonction), **ROLeak Aqua 3Plus** (détection ACOUSTIQUE de fuites — rare sur le marché, vrai différenciateur), **FLIR E96** (caméra thermique 43 200 px), **caméra d'inspection 30 m** pour conduits
@@ -160,7 +160,7 @@ Moule de toutes les pages service/urgence électricité — focus risque électr
 ### Règles opérationnelles héritées de R12
 
 - Pas d'avis inventés (R11) → section témoignages = « Estamos a recolher as primeiras avaliações » tant que pas de vrais avis.
-- Pas de délai chiffré (R145) → « 24h/7d » OK, **« resposta mediante confirmação por telefone/prioritária » INTERDIT**.
+- Pas de délai chiffré (R145) → « 24h/7d » OK, **« resposta/prioritária » INTERDIT**.
 - Pas d'adresse postale (géo-neutre) → widget géoloc dynamique uniquement.
 - Équipement exact élec listé dans R12 §1 (Fluke T6-1000, Megger MFT1741+, ROLeak Aqua 3Plus acoustique, FLIR E96, caméra 30m).
 - = formule unique « em conformidade com a (enregistrement en cours) ».
