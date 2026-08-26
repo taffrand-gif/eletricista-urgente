@@ -1596,3 +1596,46 @@ Contrôles du prototype : `conforme zona` 1→0 · `Não comunicamos tempo absol
 - **Push** : `4ff04de5e` → branche `fix/eu-conform-alijo-plumb-scope-r145-z5-t_6f5f16cf` (push OK, 8d17c6e7b..4ff04de5e) · **PR draft #237** (existante, isDraft:true, cumul avec t_6f5f16cf + t_98992540 + t_3b5f5884 docs + autres commits de la branche).
 - **Statut** : 🛑 STOP — PR draft #237 cumul en attente GO Filipe (R7). Pas de merge sans STOP validation explicite.
 - **Note hors-scope (NON traité, signal pour backlog)** : dans le `<div class="pricing-grid">` ligne 66, "Deslocação Zona 2 : **20€**" — incohérent avec PRICING.md Z2 = 25€. Ticket dédié à créer (label possible : `price-zone-mismatch`, analogue à t_6f5f16cf alijo qui a aussi fixé ce type d'incohérence Z4→Z5).
+---
+
+## Run loop 2026-08-19 — EU · ventilation des Questions restantes + 2 correctifs
+
+- **Statut** : ✅ Fait — branche `loop/2026-08-19-eu-ventilation`
+- **Origine** : `context.md` du 14/08, tâches **n°5** (« ventiler les Questions restantes — ~20 Questions de fréquence 35-52 non ventilées ») et **n°6** (« inventorier la statistique non sourcée `Mais de 60% dos problemas graves…` »).
+- **Périmètre parsé** : 2 398 fichiers HTML, **9 266 blocs `ld+json`**, **2 JSON invalides**, **774 Questions distinctes**. `_archive/` exclu.
+
+### 🔴 Gisement le plus grave du run — `Tempo de resposta?` (267 fichiers, 5 variantes)
+| Variante | Fichiers | Verdict |
+|---|---:|---|
+| `para emergências, 24h/7d incluindo fins de semana.` | **221** | artefact de purge — commence par `para` en minuscule, le délai a été mangé |
+| **`3 min para emergências, 24h/7d incluindo fins de semana.`** | **43** | 🔴 **promesse d'arrivée en 3 minutes en production** — R145 |
+| `24h/7d para emergências, incluindo fins de semana. Orçamento por escrito antes da deslocação.` | 1 | ✅ **conforme — source de vérité** |
+| 2 autres | 2 | artefacts mineurs |
+
+➡️ **Les 43 corrigés ce run** par transplant verbatim de la variante conforme de la **même Question**. Les **221** restent — substitution déterministe identique, **GO requis**.
+
+### `equipa.html` — prix inventé `Desde 135 EUR`
+Sur les 6 variantes de `Quanto custa uma urgencia eletrica?` (962 fichiers), celle-ci n'existe **qu'à 1 exemplaire**. Corrigée par transplant verbatim de la variante conforme (`calculadora-de-preco.html`).
+
+### Inventaire des statistiques non sourcées (tâche n°6) — famille R11, **jamais mesurée**
+| Statistique | Fichiers |
+|---|---:|
+| `Mais de 60% dos problemas graves que vemos no terreno…` | **23** |
+| `35% dos casos) — juntas, borrachas, vedantes` | **23** |
+| `30% dos incêndios domésticos` | 5 |
+| `95% das placas domésticas (até 7,4 kW)` | 2 |
+| `80% dos problemas` · `40% dos incêndios domésticos` | 2 + 2 |
+| `95% dos curtos-circuitos` · `90% dos problemas` · `80% dos falsos alarmes` · `80% das vezes causa piscar` | 1 chacun |
+➡️ **~60 fichiers au total.** Aucune de ces statistiques n'est sourcée. **Décision de périmètre requise** : citer une source publique ou retirer.
+
+### Autres compteurs remis à jour
+- `Sem custo extra de fim de semana` (contredit la majoration +50 %) : **22** fichiers (était 23)
+- `)EUR` (artefact de purge) : **15** fichiers — inchangé
+- `A altitude obriga a medidas especiais?` : 40 fichiers / **40 variantes** → ✅ **contenu légitimement localisé** (altitude réelle + jours de gel par commune). **Question tranchée, ne pas traiter comme gisement.** Confirmé à l'identique sur CU (45/45).
+- `Há deslocação grátis?` (41) : ✅ **conforme** — « Não há desconto de deslocação », cohérent Z1-Z6 sur les 5 variantes.
+- `Qual é o tempo de chegada?` (51) : ✅ **conforme** — « Não comunicamos tempo absoluto de chegada ». **C'est la formulation de référence du repo pour toute question de délai.**
+
+### Témoins R8
+`3 min para emergências` **43→0** · `24h/7d para emergências, incluindo` **1→44** · `24h/7d` (contrôle positif) **10 195→10 195** · `Desde 135 EUR` **1→0** · `70 €/h + deslocação` (equipa.html) **0→1**.
+Structure : **89/89 blocs JSON-LD** des fichiers touchés re-parsés valides · **0** `acceptedAnswer.text` < 20 car. · `git diff --numstat` = **44 ajoutées / 44 supprimées** (1 pour 1).
+Aucun chevauchement avec les PR ouvertes **#307** et **#308** (vérifié). Aucun fichier touché n'a de jumelle `public/` → blocage n°5 non concerné.
