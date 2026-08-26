@@ -35,8 +35,8 @@
 
 **Violations observées** :
 - Phrases cassées : « Ligue mediante confirmação por telefonemente: 932 321 892 »
-- Phrases pétées : « Chegamos Atendemos 24h/7 dias, mediante confirmação por telefone »
-- Phrases cassées : « Diagnóstico profissional com equipamento Fluke Atendemos 24h/7 dias, mediante confirmação por telefone »
+- Phrases pétées : « Chegamos Atendemos 24h/7 dias »
+- Phrases cassées : « Diagnóstico profissional com equipamento Fluke Atendemos 24h/7 dias »
 - 6× « Resposta a confirmar/imediata/rápida »
 - 3× « mediante confirmação »
 - « Tempo de resposta: Resposta a confirmar por telefone » (claim délai soft)
@@ -50,7 +50,7 @@
 
 | Fichier | Patch |
 |---|---|
-| `blog/avaria-eletrica-domingo.html` | Strip "Sob marcação, mediante confirmação por telefone" du titre/H1/og:title/JSON-LD ; remplacer FAQ/body Resposta |
+| `blog/avaria-eletrica-domingo.html` | Strip "Sob marcação" du titre/H1/og:title/JSON-LD ; remplacer FAQ/body Resposta |
 | `blog/candeeiro-caiu-curto.html` | idem |
 
 ### C. Patch mécanique standard (24 fichiers)
@@ -95,8 +95,8 @@ Les 45 autres fichiers de blog ne contiennent aucune des violations R12/R11/R145
 
 | Avant (violation) | Après (R12 OK) |
 |---|---|
-| `Sob marcação, mediante confirmação por telefone` (titre/h1/og) | `Diagnóstico e orçamento por escrito antes de qualquer intervenção` |
-| `Sob marcação, mediante confirmação por telefone` (JSON-LD headline) | `Diagnóstico e orçamento por escrito antes de qualquer intervenção` |
+| `Sob marcação` (titre/h1/og) | `Diagnóstico e orçamento por escrito antes de qualquer intervenção` |
+| `Sob marcação` (JSON-LD headline) | `Diagnóstico e orçamento por escrito antes de qualquer intervenção` |
 | `mediante confirmação por telefone` (général) | `mediante contacto telefónico e orçamento prévio por escrito` |
 | `Resposta rápida 24h/7d` (FAQ JSON-LD) | `Serviço 24h/7d, com deslocação Z1–Z6 e majoração +50% noite/WE/feriado` |
 | `Resposta a confirmar por telefone` (body) | `Orçamento prévio por escrito, sem surpresas` |
