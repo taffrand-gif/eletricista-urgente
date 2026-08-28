@@ -153,7 +153,7 @@ priority: "SEASONAL"
 
 ## 🔧 Passo a Passo: Instalação de Ventilador de Teto
 
-### Parranjo (CRÍTICO - 15-20 minutos)
+### Preparo (CRÍTICO - 15-20 minutos)
 
 **Passo 1: Verificar a estrutura do teto**
 

@@ -98,7 +98,7 @@ O código IP indica a proteção contra sólidos e líquidos:
 
 ## 🔧 Passo a Passo: Instalação de Tomada Exterior
 
-### Parranjo (CRÍTICO)
+### Preparo (CRÍTICO)
 
 **1. Desligue a eletricidade no quadro**
 - Desligue o disjuntor geral
@@ -318,7 +318,7 @@ Depende. Se for instalação nova (novo circuito) ou alteração do quadro: SIM,
 Não. A tomada em si não consome nada. O consumo depende dos aparelhos que ligar. A única diferença é que tomadas IP65 têm proteção extra, mas não afeta consumo.
 
 **7. Posso usar a tomada exterior no inverno com neve?**
-Sim, tomadas IP65 são parranjadas para isso. MAS: (1) limpe neve acumulada antes de usar, (2) não use se houver gelo dentro da tampa, (3) verifique vedações após invernos rigorosos.
+Sim, tomadas IP65 são preparadas para isso. MAS: (1) limpe neve acumulada antes de usar, (2) não use se houver gelo dentro da tampa, (3) verifique vedações após invernos rigorosos.
 
 **8. Quanto tempo dura uma tomada exterior?**
 Com manutenção adequada: 10-15 anos. Fatores que reduzem vida útil: exposição solar direta (UV degrada plástico), humidade constante, uso intensivo, falta de manutenção. Tomadas de qualidade (€25-35) duram mais que baratas (€10-15).

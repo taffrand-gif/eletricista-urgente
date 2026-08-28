@@ -46,7 +46,7 @@ Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação
 
 **Escolha se:**
 - Casa nova ou renovação
-- Já tem instalação elétrica parranjada
+- Já tem instalação elétrica preparada
 - Quer solução permanente
 - Não se importa com instalação complexa
 

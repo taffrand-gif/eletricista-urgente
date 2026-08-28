@@ -122,7 +122,7 @@ O quadro elétrico distribui eletricidade pela casa e protege contra sobrecargas
 
 ### 3. Quadro Subdimensionado ()
 
-**Instalação não parranjada para consumo atual:**
+**Instalação não preparada para consumo atual:**
 
 **Sinais:**
 - Disjuntores desarmam frequentemente

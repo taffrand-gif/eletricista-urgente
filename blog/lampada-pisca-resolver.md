@@ -178,7 +178,7 @@ priority: "HIGH DEMAND"
 - Circuito subdimensionado (10A para 16A necessários)
 - Muitos aparelhos no mesmo circuito
 - Extensões em cascata
-- Instalação antiga não parranjada para consumo atual
+- Instalação antiga não preparada para consumo atual
 
 **Solução:**
 - Redistribua aparelhos por diferentes circuitos
