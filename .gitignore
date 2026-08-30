@@ -24,3 +24,8 @@ dist/
 # IndexNow key (déjà servie par Vercel, jamais à commiter)
 public/e1ede796962ebc575aaaa6dc.txt
 .worktrees/
+
+# 2026-08-30 — exclusions supplémentaires (cf. PR #349 amend)
+*.bak-*
+*.orig
+*.rej

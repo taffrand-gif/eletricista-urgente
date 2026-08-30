@@ -5,3 +5,14 @@ dist
 *.bak
 *.pre-fix-*
 *.backup-*
+
+# 2026-08-30 — les .md ne sont pas du contenu : ni doctrine, ni prix,
+# ni personas, ni fichiers de mission. Retirés du déploiement.
+# Les .txt (llms.txt, llms-full.txt) restent servis.
+*.md
+blog/*.md
+
+# 2026-08-30 — exclusions supplémentaires (cf. PR #349 amend)
+*.bak-*
+*.orig
+*.rej

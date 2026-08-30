@@ -4,6 +4,10 @@
   "outputDirectory": ".",
   "rewrites": [
     {
+      "source": "/(.*)\\.md",
+      "destination": "/_bloque-md-inexistant"
+    },
+    {
       "source": "/contactos",
       "destination": "/contactos.html"
     },
