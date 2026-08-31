@@ -31,16 +31,17 @@ doctrine gonfle le compte et fait patcher la règle au lieu du contenu.
 Usage:
     python3 measure.py --repo <chemin> --ref github/main \\
         --famille X-ORC \\
-        --motif '[Oo]r[çc]amento[^<>]{0,40}(gratuit|gr[áa]tis)' \\
+        --motif '[Oo]r[çc]amento[^<>.!?]{0,40}(gratuit|gr[áa]tis)' \\
         --controle-positif 'or[çc]amento' \\
         --arbre 'client/public/*.html' 'client/src/*' \\
-        [--exclusion '(diagn[óo]stico|an[áa]lise)[^<>]{0,30}gratuit']
+        [--exclusion '(diagn[óo]stico|an[áa]lise)[^<>.!?]{0,30}gratuit']
 
     python3 measure.py --repo <chemin> --ref origin/main --lot familles.json
 """
 import argparse
 import json
 import os
+import re
 import subprocess
 import sys
 
@@ -102,8 +103,7 @@ HORS_PRODUCTION = [
 
 
 def charger_served(path):
-    import re as _re
-    return [_re.compile(p) for p in HORS_PRODUCTION]
+    return [re.compile(p) for p in HORS_PRODUCTION]
 
 
 def est_servi(chemin, served):
@@ -122,16 +122,51 @@ def git_grep(repo, ref, motif, arbre, only_matching=False):
     return lines, None
 
 
-def verifier_motif(motif):
-    return [msg for frag, msg in PIEGES if frag in motif]
+# Fenêtre bornée `[^...]{0,N}` dont la classe n'exclut pas la ponctuation
+# forte. Elle relie deux propositions sans rapport et FABRIQUE des
+# violations : sur ENR, `[Oo]r[çc]amento[^<>]{0,40}gratuit` reliait
+# « orçamento final no local. » à « Fornecemos diagnóstico gratuito » de la
+# phrase SUIVANTE — laquelle relève de l'exclusion doctrinale. 207 fichiers
+# comptés, 20 réels, 187 faux positifs.
+#
+# Symétrique exact de la substitution destructrice (règle 8) : une fenêtre
+# trop permissive INVENTE des violations quand on compte, et DÉTRUIT du
+# texte voisin quand on substitue. Même cause, deux dégâts opposés.
+FENETRE = re.compile(r'\[\^([^\]]*)\]\{0,(\d+)\}')
+PONCT_FORTE = '.!?'
+
+
+def verifier_fenetre(motif, seuil=8):
+    alertes = []
+    for classe, n in FENETRE.findall(motif):
+        if int(n) < seuil:
+            continue
+        manquants = [c for c in PONCT_FORTE if c not in classe]
+        if manquants:
+            alertes.append(
+                f"fenêtre `[^{classe}]{{0,{n}}}` n'exclut pas "
+                f"{' '.join(repr(c) for c in manquants)} : elle peut "
+                "traverser une frontière de phrase et relier deux "
+                "propositions sans rapport. Écrire "
+                f"`[^{classe}{''.join(manquants)}]{{0,{n}}}`, ou assumer "
+                "explicitement avec --fenetre-sans-ponctuation")
+    return alertes
+
+
+def verifier_motif(motif, fenetre_libre=False):
+    alertes = [msg for frag, msg in PIEGES if frag in motif]
+    if not fenetre_libre:
+        alertes += verifier_fenetre(motif)
+    return alertes
 
 
 def mesurer(repo, ref, fam, motif, controle, arbre, exclusion=None,
-            served=None):
+            served=None, fenetre_libre=False):
     out = {'famille': fam, 'ref': ref,
            'arbre': list(arbre) if arbre else ['(dépôt entier)']}
 
-    alertes = verifier_motif(motif) + verifier_motif(controle)
+    alertes = (verifier_motif(motif, fenetre_libre)
+               + verifier_motif(controle, fenetre_libre))
     if alertes:
         out['refus'] = 'motif suspect'
         out['alertes'] = alertes
@@ -251,6 +286,9 @@ def main():
     ap.add_argument('--arbre', nargs='*', default=[])
     ap.add_argument('--exclusion')
     ap.add_argument('--lot', help='JSON : liste de familles à mesurer')
+    ap.add_argument('--fenetre-sans-ponctuation', dest='fenetre_libre',
+                    action='store_true',
+                    help='assume une fenêtre qui peut traverser une phrase')
     ap.add_argument('--ventiler', action='store_true',
                     help='ventile le compte en production / hors production')
     ap.add_argument('--json', action='store_true')
@@ -274,7 +312,7 @@ def main():
     for f in familles:
         r = mesurer(args.repo, args.ref, f['famille'], f['motif'],
                     f['controle'], f.get('arbre') or [], f.get('exclusion'),
-                    served)
+                    served, args.fenetre_libre)
         resultats.append(r)
         if not args.json:
             ok = rendre(r) and ok
