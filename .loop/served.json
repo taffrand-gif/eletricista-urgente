@@ -1,0 +1,24 @@
+{
+  "repo": "eletricista-urgente",
+  "regime": "STATIQUE",
+  "outputDirectory": ".",
+  "servi": [
+    "^.",
+    "^vercel\\.json$"
+  ],
+  "jamais_servi": [
+    "^[^/]*\\.md$",
+    "^_archive",
+    "^_audit/",
+    "^_reports/",
+    "^_indexing/",
+    "^_backlog/",
+    "^tests?/",
+    "^\\."
+  ],
+  "justification": [
+    "^. — le dépôt EST la sortie : tout est publié, l'exclusion fait seule le tri",
+    "fichiers d'état du projet EXCLUS bien que publiés — voir ETAT_PROJET",
+    "^vercel.json$ — rewrites et headers changent ce qui est servi"
+  ]
+}
