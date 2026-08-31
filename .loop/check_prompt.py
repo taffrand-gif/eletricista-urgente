@@ -36,6 +36,9 @@ import hashlib
 import os
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from argguard import verifier_arguments
+
 
 def normaliser(texte):
     lignes = [l.rstrip() for l in texte.replace('\r\n', '\n').split('\n')]
@@ -66,6 +69,7 @@ def main():
     # de contrôle doit rendre son propre mauvais usage évident.
     ap.add_argument('positionnel', nargs='?', help=argparse.SUPPRESS)
     args = ap.parse_args()
+    verifier_arguments(args)
 
     if args.positionnel and not args.recu:
         print(f"⚠️  APPEL MALFORMÉ — « {args.positionnel} » a été passé en "
