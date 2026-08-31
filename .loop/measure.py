@@ -44,6 +44,9 @@ import os
 import subprocess
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from argguard import verifier_arguments
+
 # Motifs ERE refusés en amont : ils rendent 0 sans erreur avec git grep -E.
 PIEGES = [
     ('\\s', "`\\s` n'est pas interprété — écrire les espaces littéralement"),
@@ -252,6 +255,7 @@ def main():
                     help='ventile le compte en production / hors production')
     ap.add_argument('--json', action='store_true')
     args = ap.parse_args()
+    verifier_arguments(args)
 
     served = charger_served(True) if args.ventiler else None
     familles = []

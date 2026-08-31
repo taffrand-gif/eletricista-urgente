@@ -46,6 +46,9 @@ import re
 import subprocess
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from argguard import verifier_arguments
+
 BEGIN = '<!-- CHANTIERS:BEGIN -->'
 END = '<!-- CHANTIERS:END -->'
 
@@ -247,6 +250,7 @@ def main():
     ap.add_argument('--id', help='forcer un chantier précis (par ID)')
     ap.add_argument('--noop-window', type=int, default=3)
     args = ap.parse_args()
+    verifier_arguments(args)
 
     if args.check_diff:
         if not args.served:
