@@ -20,6 +20,13 @@ La comparaison ignore uniquement les espaces de fin de ligne et les lignes
 vides terminales. Elle n'ignore RIEN d'autre : une garde qui se satisfait
 d'une correspondance partielle laisse passer le cas qu'elle couvre.
 
+Codes de sortie — distincts à dessein, pour qu'un mauvais appel ne
+ressemble pas à un refus de conformité :
+    0  prompt conforme
+    1  DIVERGENCE — refus de démarrer
+    3  un des deux fichiers est introuvable
+    4  appel malformé (fichier passé en positionnel)
+
 Usage:
     python3 check_prompt.py --recu prompt-recu.md [--ref .loop/PROMPT.md]
 """
@@ -42,19 +49,46 @@ def empreinte(lignes):
 
 
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument('--recu', required=True,
+    ap = argparse.ArgumentParser(
+        description="Compare le prompt reçu à .loop/PROMPT.md. "
+                    "Divergence = refus de démarrer.")
+    # Volontairement NON required : sinon argparse échoue avant d'atteindre
+    # le diagnostic ci-dessous, et rend un message générique là où l'appelant
+    # a besoin de savoir que son appel — et non le prompt — est en cause.
+    ap.add_argument('--recu',
                     help='fichier contenant le prompt effectivement reçu')
-    ap.add_argument('--ref', default=os.path.join('.loop', 'PROMPT.md'))
-    ap.add_argument('--montrer-diff', action='store_true', default=True)
+    ap.add_argument('--ref', default=os.path.join('.loop', 'PROMPT.md'),
+                    help='copie versionnée (défaut : .loop/PROMPT.md)')
+    # Attrape l'appel positionnel au lieu de le laisser mourir en
+    # « unrecognized arguments ». Une invocation fausse rendait le MÊME
+    # code de sortie qu'un refus légitime : le testeur voyait une garde
+    # qui refuse tout, c'est-à-dire une garde qui semble cassée. Un outil
+    # de contrôle doit rendre son propre mauvais usage évident.
+    ap.add_argument('positionnel', nargs='?', help=argparse.SUPPRESS)
     args = ap.parse_args()
+
+    if args.positionnel and not args.recu:
+        print(f"⚠️  APPEL MALFORMÉ — « {args.positionnel} » a été passé en "
+              "positionnel.\n"
+              "    Ce n'est PAS un refus de conformité : la garde n'a rien "
+              "comparé.\n"
+              f"    Utiliser : check_prompt.py --recu {args.positionnel}",
+              file=sys.stderr)
+        return 4
+    if not args.recu:
+        print("⚠️  APPEL MALFORMÉ — --recu est obligatoire.\n"
+              "    Ce n'est PAS un refus de conformité : la garde n'a rien "
+              "comparé.\n"
+              "    Utiliser : check_prompt.py --recu <prompt-reçu.md>",
+              file=sys.stderr)
+        return 4
 
     for p in (args.recu, args.ref):
         if not os.path.exists(p):
             print(f"⛔ REFUS DE DÉMARRER — {p} introuvable.", file=sys.stderr)
             print("   Sans les deux versions, la comparaison n'a pas de sens "
                   "et l'absence ne vaut pas conformité.", file=sys.stderr)
-            return 2
+            return 3
 
     recu = normaliser(open(args.recu, encoding='utf-8').read())
     ref = normaliser(open(args.ref, encoding='utf-8').read())
