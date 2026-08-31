@@ -5,3 +5,26 @@ dist
 *.bak
 *.pre-fix-*
 *.backup-*
+
+# 2026-08-30 — les .md ne sont pas du contenu : ni doctrine, ni prix,
+# ni personas, ni fichiers de mission. Retirés du déploiement.
+# Les .txt (llms.txt, llms-full.txt) restent servis.
+*.md
+blog/*.md
+
+# Copies sous un nom voisin. `og-image.png.bak-57645` répondait 200 en
+# servant les faux avis « 4.9 (127 reviews) » que la PR d'à côté
+# venait de retirer : le fichier corrigé avait survécu sous un nom
+# voisin. Le suffixe peut être décoré (`.bak-57645`), donc les motifs
+# sont ouverts à droite.
+*.bak-*
+*.bak.*
+*.orig
+*.orig-*
+*.rej
+*.rej-*
+*.backup
+*.old
+*.save
+*.tmp
+*~
