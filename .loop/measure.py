@@ -31,10 +31,10 @@ doctrine gonfle le compte et fait patcher la règle au lieu du contenu.
 Usage:
     python3 measure.py --repo <chemin> --ref github/main \\
         --famille X-ORC \\
-        --motif '[Oo]r[çc]amento[^<>\\n]{0,40}gratuit' \\
+        --motif '[Oo]r[çc]amento[^<>]{0,40}(gratuit|gr[áa]tis)' \\
         --controle-positif 'or[çc]amento' \\
         --arbre 'client/public/*.html' 'client/src/*' \\
-        [--exclusion '(diagn[óo]stico|an[áa]lise)[^<>\\n]{0,30}gratuit']
+        [--exclusion '(diagn[óo]stico|an[áa]lise)[^<>]{0,30}gratuit']
 
     python3 measure.py --repo <chemin> --ref origin/main --lot familles.json
 """
@@ -50,6 +50,17 @@ PIEGES = [
     ('(?:', "`(?:...)` n'existe pas en ERE POSIX — utiliser `(...)`"),
     ('\\d', "`\\d` n'est pas interprété — utiliser `[0-9]`"),
     ('\\b', "`\\b` est peu fiable ici — préférer une classe explicite"),
+    # Le plus vicieux des cinq : dans une classe, `\n` n'est pas un saut de
+    # ligne, c'est le backslash ET la lettre `n`. `[^<>\n]` exclut donc
+    # `<`, `>`, `\` et **n** — n'importe quel mot contenant un « n » casse
+    # le motif. Vérifié : `orcamento personalizado gratuito` ne matche pas
+    # `orcamento[^<>\n]{0,40}gratuit`. Sur CNR, 42 fichiers au lieu de 262.
+    # Le compteur reste plausible, c'est ce qui rend l'erreur durable.
+    ('\\n', "`\\n` dans un motif ERE = backslash + lettre `n`. Dans une "
+            "classe `[^...\\n]`, cela EXCLUT la lettre n — tout mot qui en "
+            "contient casse le motif. Retirer `\\n` de la classe"),
+    ('\\t', "`\\t` n'est pas une tabulation en ERE — c'est backslash + t"),
+    ('\\r', "`\\r` n'est pas un retour chariot en ERE"),
 ]
 
 # HORS PRODUCTION — le périmètre d'un RECENSEMENT de violations.
