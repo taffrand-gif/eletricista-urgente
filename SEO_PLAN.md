@@ -27,9 +27,11 @@
 ## 🗺️ ROADMAP MONOPOLE — TODO ce repo (EU, urgence élec) — owner exécution : **Hermes**
 
 <!-- CHANTIERS:BEGIN -->
-| ID | Chantier | Prio | Statut | PR | Gate |
-|---|---|---|---|---|---|
-| B2 | Corriger doublon homepage | HAUTE | FAIT | — | — |
+| ID | Chantier | Prio | Statut | PR | Gate | Prédicat (reproductible) |
+|---|---|---|---|---|---|---|
+| B2 | Corriger doublon homepage | HAUTE | FAIT | — | — | — |
+| X-R12 | « mesma pessoa » / « mesmo técnico » servis en production | HAUTE | A_FAIRE | — | — | `mesma pessoa\|mesmo t[ée]cnico` · **ORDRE IMPOSÉ : prescription → test → générateur → contenu.** (1) `AGENTS.md` **l.114** « Phrase obligatoire » ET **l.152** bloc « Quem somos ». (2) `tests/test-render-blog-md.js:32` **assert que la phrase soit présente** — le test verrouille la violation, corriger le générateur sans lui casse le test. (3) `scripts/render-blog-md.js:424` **émet** la phrase dans chaque page blog rendue. (4) **production 5** — `ai.txt` · `aumento-de-potencia.html` · `public/.well-known/ai-plugin.json` · plus le générateur et son test déjà cités. **Travail réel : 3 fichiers de contenu + 4 sources.** Aucune page `blog/*.html` ne porte encore la locution (0 sur 62 au contrôle positif) : le générateur est une source LATENTE, elle mordra au prochain rendu. Contrôle positif `mesm` = 334. |
+| X-MAIL | Email `privaterelay.appleid.com` publié comme contact | HAUTE | A_FAIRE | — | — | `privaterelay\.appleid\.com` · **production EU 1** — `public/.well-known/ai-plugin.json`. Contrôle positif `appleid` = 1. |
 <!-- CHANTIERS:END -->
 
 > Roadmap phasée maître : `~/work/Sites/MONOPOLE_SEO_2026Q3.md` §ROADMAP PHASÉE. Site urgence = **phase 1b** (après CNR/ENR validés). ⚠️ **JAMAIS merger main sans STOP validation Filipe** (AGENTS.md urgence). Tarif = 70€/h (pas 65).
