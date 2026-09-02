@@ -65,6 +65,16 @@ PIEGES = [
             "contient casse le motif. Retirer `\\n` de la classe"),
     ('\\t', "`\\t` n'est pas une tabulation en ERE — c'est backslash + t"),
     ('\\r', "`\\r` n'est pas un retour chariot en ERE"),
+    # Le pipe échappé vient du TABLEAU markdown du registre, où un `|` nu
+    # ouvrirait une colonne. `dispatch.split_cells` le retire désormais au
+    # décodage ; ce piège attrape les motifs qui arrivent par une AUTRE
+    # voie (ligne de commande, copier-coller depuis le registre rendu).
+    # En ERE, `\|` est un pipe littéral : l'alternative disparaît et le
+    # motif rend 0 sans erreur. Le 02/09/2026, X-R12 mesurait 0 fichier
+    # sur CU au lieu de 79 — contrôle positif vert, motif cassé.
+    ('\\|', "`\\|` est un pipe LITTÉRAL en ERE, pas une alternative — le "
+            "motif rendra 0 sans erreur. Écrire `a|b`. Si le motif vient "
+            "d'un tableau markdown, retirer l'échappement au décodage"),
 ]
 
 # HORS PRODUCTION — le périmètre d'un RECENSEMENT de violations.
