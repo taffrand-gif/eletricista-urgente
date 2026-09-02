@@ -159,7 +159,18 @@ def split_cells(row):
     """Découpe une ligne de tableau markdown sur les `|` NON échappés.
 
     Un prédicat contient souvent des alternatives regex `a\\|b` : les
-    couper comme des séparateurs de colonne décale toute la ligne."""
+    couper comme des séparateurs de colonne décale toute la ligne.
+
+    Le `\\` qui protège ce pipe appartient au TABLEAU, pas au motif. Le
+    laisser dans la cellule était le bug du 02/09/2026 : `git grep -E`
+    lit `\\|` comme un pipe littéral, pas comme une alternative, donc
+    `mesma pessoa\\|mesmo t[ée]cnico` rendait **0 fichier sur CU** là où
+    le motif correct en rend 79. Zéro silencieux : aucune erreur, et le
+    contrôle positif — qui ne porte pas d'alternative — restait vert.
+
+    L'échappement est donc retiré ICI, au seul endroit où le markdown
+    est décodé. Corriger le registre à la place aurait cassé le tableau :
+    un `|` nu y ouvre une colonne."""
     cells, cur, prev = [], '', ''
     for ch in row.strip().strip('|'):
         if ch == '|' and prev != '\\':
@@ -169,7 +180,7 @@ def split_cells(row):
             cur += ch
         prev = ch
     cells.append(cur.strip())
-    return cells
+    return [c.replace('\\|', '|') for c in cells]
 
 
 def merged_ids(repo=None, prs_file=None):
