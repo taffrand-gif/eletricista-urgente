@@ -103,7 +103,13 @@ HORS_PRODUCTION = [
     # PR d'à côté venait de retirer. Un motif ancré sur `\.bak$` ne la
     # voyait pas. Un fichier corrigé peut survivre sous un nom voisin.
     r'\.(bak|orig|rej|backup|old|save|tmp)([-._][A-Za-z0-9]+)*$',
-    r'\.pre-fix', r'~$',
+    # `(?i)` et non `\.pre-fix` : `re.search` est sensible à la casse, et
+    # les copies réelles s'appellent `.PRE-fix` / `.PRE-wave2` (66 sur CU).
+    # Elles ne passaient pas seulement parce qu'un AUTRE motif les couvre
+    # — `_archive-p1-fix-2026-07-16/`. Le jour où une `.PRE-fix` naît hors
+    # d'un répertoire archivé, elle compte comme production. Le suffixe est
+    # aussi élargi : la vague porte son nom (`-wave2`), pas toujours `-fix`.
+    r'(?i)\.pre-', r'~$',
     r'(^|/)_archive', r'(^|/)_prototype', r'(^|/)_reports?/',
     r'(^|/)_audit/', r'(^|/)_backlog/', r'(^|/)_indexing/',
     # Doctrine racine : elle CITE la règle qu'on cherche.
