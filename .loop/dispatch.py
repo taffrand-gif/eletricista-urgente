@@ -163,10 +163,15 @@ def split_cells(row):
 
     Le `\\` qui protège ce pipe appartient au TABLEAU, pas au motif. Le
     laisser dans la cellule était le bug du 02/09/2026 : `git grep -E`
-    lit `\\|` comme un pipe littéral, pas comme une alternative, donc
-    `mesma pessoa\\|mesmo t[ée]cnico` rendait **0 fichier sur CU** là où
-    le motif correct en rend 79. Zéro silencieux : aucune erreur, et le
-    contrôle positif — qui ne porte pas d'alternative — restait vert.
+    lit `\\|` comme un pipe littéral, pas comme une alternative, donc le
+    prédicat de X-R12 rendait **0 fichier sur CU** là où le motif correct
+    en rend 79. Zéro silencieux : aucune erreur, et le contrôle positif —
+    qui ne porte pas d'alternative — restait vert.
+
+    Le prédicat fautif n'est volontairement PAS recopié ici : cette
+    docstring vit dans les 4 dépôts, et y écrire la locution traquée
+    ferait de l'outillage une source de plus pour le recensement qu'il
+    sert. La forme générique `a\\|b` suffit à comprendre.
 
     L'échappement est donc retiré ICI, au seul endroit où le markdown
     est décodé. Corriger le registre à la place aurait cassé le tableau :
@@ -192,10 +197,36 @@ def merged_ids(repo=None, prs_file=None):
         with open(prs_file, encoding='utf-8') as fh:
             prs = json.load(fh)
     elif repo:
-        res = subprocess.run(
-            ['gh', 'pr', 'list', '--repo', repo, '--state', 'all',
-             '--limit', '200', '--json', 'number,state,title,body'],
-            capture_output=True, text=True, check=True)
+        # `gh` porte TOUTE la dédup I4 : sans lui, un chantier déjà clos par
+        # une PR mergée redevient dispatchable. Deux mauvaises réponses ici,
+        # écartées toutes les deux :
+        #   · `check=True` sans rattrapage — c'était le comportement, il rend
+        #     une traceback illisible où l'appelant lit un bug du dispatcher ;
+        #   · rendre un ensemble vide — la dédup s'éteint EN SILENCE et le
+        #     run rouvre des chantiers clos. C'est le zéro silencieux, la
+        #     panne que ce dépôt refuse par principe.
+        # Donc : refus nommé, avec le remède. `--prs` alimente la même dédup
+        # depuis un fichier, sans `gh`.
+        cmd = ['gh', 'pr', 'list', '--repo', repo, '--state', 'all',
+               '--limit', '200', '--json', 'number,state,title,body']
+        try:
+            res = subprocess.run(cmd, capture_output=True, text=True,
+                                 check=True)
+        except FileNotFoundError:
+            raise SystemExit(
+                "⛔ REFUS — `gh` est introuvable, et il porte toute la dédup "
+                "I4.\n"
+                "   Sans elle, un chantier déjà clos par une PR mergée "
+                "serait redispatché.\n"
+                "   Remède : passer --prs <fichier.json> "
+                "(`gh pr list … --json number,state,title,body`).")
+        except subprocess.CalledProcessError as exc:
+            raise SystemExit(
+                f"⛔ REFUS — `gh pr list` a échoué sur {repo} "
+                f"(code {exc.returncode}).\n"
+                f"   {(exc.stderr or '').strip()[:300]}\n"
+                "   La dédup I4 serait muette : le run n'est pas lancé. "
+                "Remède : --prs <fichier.json>.")
         prs = json.loads(res.stdout)
     else:
         return {}, set()
