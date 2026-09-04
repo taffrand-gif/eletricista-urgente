@@ -235,6 +235,16 @@ def main():
     ajouts = sum(1 for l in diff if l.startswith('+') and not l.startswith('+++'))
     retraits = sum(1 for l in diff if l.startswith('-') and not l.startswith('---'))
     print(f"   {retraits} ligne(s) retirée(s), {ajouts} ajoutée(s)\n")
+    # Le diff est illisible sans son sens de lecture. Un opérateur qui
+    # recopie le mauvais côté dans la tâche planifiée reproduit ce refus
+    # mot pour mot — et le second essai ressemble alors à une garde
+    # cassée plutôt qu'à une erreur de manipulation. Un outil de contrôle
+    # doit nommer son propre remède.
+    print(f"   SENS DE LECTURE — les lignes « - » sont {args.ref}, "
+          "la copie versionnée :")
+    print("   c'est CE côté qu'il faut recopier dans la tâche planifiée.")
+    print("   Les lignes « + » sont le prompt reçu, c'est-à-dire le texte "
+          "encore envoyé.\n")
     for l in diff[:60]:
         print('   ' + l)
     if len(diff) > 60:
