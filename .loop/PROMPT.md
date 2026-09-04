@@ -20,11 +20,23 @@ corrections, ce prompt portait encore l'adressage par numéro de ligne,
 le réactiver tel quel annulait tout le travail. Une dérive du prompt est
 invisible depuis les dépôts — cette comparaison est ce qui la rend visible.
 
-## 🔴 CE RUN REND UN RAPPORT, PAS DES PR DE CONTENU
+## 🟢 PÉRIMÈTRE DE PRODUCTION DE CE RUN
 
-Décision Filipe du 30/08/2026. Ce run **ne pousse rien dans les dépôts**. Il
-rend un rapport : ce que le dispatcher choisit sur chaque dépôt, et pourquoi.
-Seul Filipe retire cette section, et il le dira explicitement.
+Décision Filipe du 04/09/2026 — remplace la section « rapport seul » du
+30/08/2026.
+
+PR de contenu **AUTORISÉES** sur :
+  · eletricista-norte-reparos — X-R12, 4 fichiers servis, 5 occurrences
+
+**RAPPORT SEUL**, aucune PR de contenu, sur :
+  · canalizador-norte-reparos — X-R12 mesure 0 fichier servi, `client/public/`
+    est déjà conforme ; une PR y serait refusée par I6, à raison
+  · canalizador-urgente — arbitrage en attente : `AGENTS.md` l.115 et l.155
+    prescrivent la locution, deux gates `_audit/` la rendent obligatoire
+  · eletricista-urgente — arbitrage en attente : `AGENTS.md` l.114 et l.152,
+    plus un test qui assert la présence de la phrase
+
+Seul Filipe élargit ce périmètre, et il le dira explicitement.
 
 ## Périmètre autorisé (GUARD)
 
