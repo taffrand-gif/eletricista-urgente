@@ -67,6 +67,60 @@ def empreinte(lignes):
     return hashlib.sha256('\n'.join(lignes).encode('utf-8')).hexdigest()
 
 
+# normaliser() absorbe TROIS choses, et il a fallu les distinguer avant d'en
+# retirer une :
+#   1. `\r\n` -> `\n`   — artefact de TRANSPORT. Une fin de ligne Windows ne
+#      change pas ce que le prompt dit ; refuser dessus donnerait un rouge
+#      permanent que personne ne peut réparer. CONSERVÉE.
+#   2. `rstrip()` par ligne — retire les espaces de fin de CHAQUE ligne.
+#   3. le retrait des lignes vides TERMINALES.
+#
+# Les points 2 et 3 masquent une mutilation du corps. Le 05/09/2026, un
+# `update_scheduled_task` ne portant que `description` a re-sérialisé la
+# configuration et mangé le newline final du corps (158 -> 157 lignes). La
+# garde est restée VERTE : les deux côtés perdaient leur ligne vide terminale,
+# donc plus rien ne les distinguait. C'est le troisième « vert pour la
+# mauvaise raison » de la journée, après un `$?` capturé derrière un `| head`
+# et un `rev-parse` fatal lu comme « travail hors main ».
+#
+# Un corps mutilé n'est pas le corps revu par PR. Un run qui s'arrête se
+# répare en une commande ; un run parti sur un prompt silencieusement altéré,
+# non. Le corps est donc désormais comparé OCTET À OCTET.
+def normaliser_transport(texte):
+    """La seule tolérance conservée pour le corps : CRLF -> LF."""
+    return texte.replace('\r\n', '\n')
+
+
+def corps_brut(texte):
+    """Corps du prompt tel quel : ni rstrip, ni retrait de lignes vides
+    terminales.
+
+    Les lignes vides qui SUIVENT le délimiteur fermant du frontmatter sont
+    seules retirées — elles appartiennent à la séparation entre l'enveloppe
+    et le corps, pas au corps. C'est la même règle que detacher_enveloppe(),
+    et elle porte sur le début, jamais sur la fin.
+    """
+    t = normaliser_transport(texte)
+    lignes = t.split('\n')
+    if lignes and lignes[0] == '---':
+        for i in range(1, len(lignes)):
+            if lignes[i] == '---':
+                reste = lignes[i + 1:]
+                while reste and not reste[0]:
+                    reste.pop(0)
+                return '\n'.join(reste)
+    return t
+
+
+def premier_ecart(a, b):
+    """Position du premier octet qui diffère, et son voisinage lisible."""
+    for i, (x, y) in enumerate(zip(a, b)):
+        if x != y:
+            return i, repr(a[max(0, i - 20):i + 20]), repr(b[max(0, i - 20):i + 20])
+    i = min(len(a), len(b))
+    return i, repr(a[max(0, i - 20):]), repr(b[max(0, i - 20):])
+
+
 CLES_EMPAQUETAGE = ('name', 'description')
 
 
@@ -200,8 +254,12 @@ def main():
                   "et l'absence ne vaut pas conformité.", file=sys.stderr)
             return 3
 
-    recu = normaliser(open(args.recu, encoding='utf-8').read())
-    ref = normaliser(open(args.ref, encoding='utf-8').read())
+    brut_recu = open(args.recu, encoding='utf-8').read()
+    brut_ref = open(args.ref, encoding='utf-8').read()
+    recu = normaliser(brut_recu)
+    ref = normaliser(brut_ref)
+    corps_recu = corps_brut(brut_recu)
+    corps_ref = normaliser_transport(brut_ref)
 
     # L'enveloppe est détachée AVANT la comparaison du corps, mais son
     # contrôle est un refus à part entière : une enveloppe non revue
@@ -216,6 +274,25 @@ def main():
     enveloppe_ok = True
     if enveloppe:
         enveloppe_ok = controler_enveloppe(enveloppe, args.ref_enveloppe)
+
+    if h_recu == h_ref and corps_recu != corps_ref:
+        pos, vu_ref, vu_recu = premier_ecart(corps_ref, corps_recu)
+        print("\n⛔ REFUS DE DÉMARRER — le corps est identique LIGNE À LIGNE "
+              "mais pas OCTET À OCTET.\n")
+        print(f"   {args.ref} : {len(corps_ref)} octets")
+        print(f"   prompt reçu : {len(corps_recu)} octets")
+        print(f"   premier écart à l'octet {pos}")
+        print(f"     attendu : {vu_ref}")
+        print(f"     reçu    : {vu_recu}\n")
+        print("   Un corps rogné n'est pas le corps revu par PR, même si le "
+              "texte semble le même.")
+        print("   Cause connue : une mise à jour de la tâche planifiée qui ne "
+              "porte QUE `description`")
+        print("   re-sérialise la configuration et mange le newline final du "
+              "corps.\n")
+        print("   ➡️  Renvoyer le champ `prompt` EN ENTIER, jamais la seule "
+              "`description`.")
+        return 1
 
     if h_recu == h_ref:
         if not enveloppe_ok:
