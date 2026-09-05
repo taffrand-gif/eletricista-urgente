@@ -100,10 +100,50 @@ def served(paths, ok_re, ko_re):
             and not any(rx.search(p) for rx in ko_re)]
 
 
+# I6 — exemption d'outillage. UN SEUL préfixe, écrit en dur.
+#
+# `.loop/` n'est servi par aucun des quatre dépôts et ne le sera jamais :
+# aucune PR d'outillage ne pouvait donc satisfaire I6. Une règle qu'aucune
+# PR d'une classe entière ne peut satisfaire ne protège plus cette classe,
+# elle apprend à passer outre — c'était déjà le cas de #367, #383 et des PR
+# X-ENV du 05/09/2026, toutes ouvertes en refus assumé.
+#
+# Pas de liste extensible, pas de drapeau de contournement : une exemption
+# qu'on peut élargir depuis la ligne de commande n'est plus une exemption,
+# c'est un interrupteur.
+PREFIXE_OUTILLAGE = '.loop/'
+
+
+def outillage_pur(paths):
+    """Vrai si le diff ne touche QUE `.loop/`.
+
+    Le « que » est tout : avec « au moins un », un diff mêlant `.loop/x.py`
+    et une page non servie passerait par l'exemption sans que cette page
+    soit jamais confrontée à la liste blanche — le contenu voyagerait dans
+    le sillage de l'outillage. La condition est donc `all`, jamais `any`.
+
+    Un diff vide n'est pas de l'outillage pur : il n'est rien, et ne doit
+    pas ouvrir de PR.
+    """
+    return bool(paths) and all(p.startswith(PREFIXE_OUTILLAGE) for p in paths)
+
+
 def check_diff(paths, cfg_path):
     """I6 — un run autonome peut-il ouvrir une PR avec ce diff ?"""
     cfg, ok_re, ko_re = load_served(cfg_path)
     hits = served(paths, ok_re, ko_re)
+    if not hits and outillage_pur(paths):
+        return {
+            'repo': cfg.get('repo'),
+            'regime': cfg.get('regime'),
+            'fichiers_du_diff': len(paths),
+            'fichiers_servis': [],
+            'exemption': PREFIXE_OUTILLAGE,
+            'pr_autorisee': True,
+            'motif': ('outillage pur — le diff ne touche que '
+                      f'{PREFIXE_OUTILLAGE}, qui n\'est servi par aucun '
+                      'dépôt. Exemption I6.'),
+        }
     return {
         'repo': cfg.get('repo'),
         'regime': cfg.get('regime'),
