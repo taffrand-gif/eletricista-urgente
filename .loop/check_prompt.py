@@ -51,6 +51,7 @@ import difflib
 import hashlib
 import os
 import sys
+import unicodedata
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from argguard import verifier_arguments
@@ -68,6 +69,64 @@ def empreinte(lignes):
 
 
 CLES_EMPAQUETAGE = ('name', 'description')
+
+# Le `description` du frontmatter est INJECTÉ dans le prompt au chargement
+# du skill : c'est un canal d'instruction, pas une étiquette. Le 05/09/2026
+# il annonçait « RAPPORT SEUL » alors que le corps autorisait déjà une PR
+# sur ENR. La garde rendait vert parce qu'elle compare chaque couche à SA
+# référence, jamais les deux couches entre elles — le vert portait sur la
+# mauvaise question.
+#
+# Le périmètre vit dans le corps, seule couche revue par PR. Ce prédicat
+# empêche la couche enveloppe de redevenir prescriptive. Il ne cherche PAS
+# à comprendre la description : il constate la présence de mots par lesquels
+# un périmètre s'énonce. C'est grossier, et c'est le but — une garde qui
+# interprète du texte libre est une garde qu'on ne peut plus auditer.
+TERMES_PRESCRIPTIFS = ('rapport', 'autoris', 'interdit')
+
+# Nommer un dépôt dans la description, c'est déjà trancher un périmètre.
+DEPOTS = ('canalizador-norte-reparos', 'eletricista-norte-reparos',
+          'canalizador-urgente', 'eletricista-urgente')
+
+
+def plier(texte):
+    """Minuscules, accents retirés — pour que AUTORISÉES, autorisées et
+    Autorise soient le même mot aux yeux du prédicat. Sans ce pliage, la
+    forme même qui figurait dans PROMPT.md (« AUTORISÉES ») passerait."""
+    return ''.join(c for c in unicodedata.normalize('NFD', texte.lower())
+                   if unicodedata.category(c) != 'Mn')
+
+
+def valeur_cle(enveloppe, cle):
+    """Valeur d'une clé de premier niveau du frontmatter, ou None."""
+    for ligne in enveloppe[1:-1]:
+        if ligne.startswith(cle + ':'):
+            return ligne.split(':', 1)[1].strip()
+    return None
+
+
+def controler_description(enveloppe):
+    """La description ne doit énoncer aucun périmètre. Rend True si elle est
+    acceptable, False si c'est un refus."""
+    description = valeur_cle(enveloppe, 'description')
+    if description is None:
+        return True
+    plie = plier(description)
+    trouves = ([t for t in TERMES_PRESCRIPTIFS if t in plie]
+               + [d for d in DEPOTS if d in plie])
+    if not trouves:
+        return True
+    print("⛔ REFUS DE DÉMARRER — la `description` de l'enveloppe énonce un "
+          "périmètre :")
+    print("   " + ', '.join(trouves))
+    print("   Cette description est injectée dans le prompt au chargement : "
+          "c'est une")
+    print("   instruction. Le périmètre appartient au corps, seule couche "
+          "revue par PR.")
+    print("   Deux couches qui portent la même décision finissent par en "
+          "porter deux.")
+    return False
+
 
 
 def detacher_enveloppe(lignes):
@@ -124,6 +183,9 @@ def controler_enveloppe(enveloppe, chemin_ref):
         print(f"   Attendu : {', '.join(CLES_EMPAQUETAGE)} et rien d'autre.")
         print("   Une clé supplémentaire est une instruction qui n'est passée "
               "par aucune revue.")
+        return False
+
+    if not controler_description(enveloppe):
         return False
 
     if not os.path.exists(chemin_ref):
