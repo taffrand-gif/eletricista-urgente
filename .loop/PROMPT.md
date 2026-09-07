@@ -49,8 +49,16 @@ Uniquement : `taffrand-gif/canalizador-norte-reparos`,
 
 ```
 python3 .loop/dispatch.py --plan SEO_PLAN.md --journal JOURNAL.md \
-    --repo taffrand-gif/<repo>
+    --prs-from-git <remote>
 ```
+
+`--prs-from-git` reconstruit les PR mergées depuis `git log <remote>/main`.
+**C'est la forme à utiliser** : l'exécuteur de la tâche planifiée n'a ni `gh`
+ni identifiants GitHub — constaté le 07/09/2026, `git ls-remote` passe en
+anonyme et `git push` échoue sur « could not read Username ». Sans dédup I4,
+le dispatcher refuse de démarrer, et il a raison : il rouvrirait des chantiers
+clos. `--repo taffrand-gif/<repo>` reste valable depuis le host, où `gh` est
+authentifié.
 
 Il lit **uniquement** le registre entre les ancres `<!-- CHANTIERS:BEGIN -->`
 et `<!-- CHANTIERS:END -->` de `SEO_PLAN.md`. Ce qu'il rend fait foi.
@@ -124,7 +132,7 @@ chaîne fixe les efface.
        -b loop/{YYYY-MM-DD}-{site}-{ID} <remote>/main
    → tout le travail se fait DANS le worktree, jamais dans le checkout
      partagé ; jamais sous /tmp, celui du sandbox n'est pas celui du host
-3. .loop/dispatch.py → obtenir l'ID du chantier
+3. .loop/dispatch.py --prs-from-git <remote> → obtenir l'ID du chantier
 4. Lire son PRÉDICAT dans le registre et le REJOUER avec measure.py.
    Les comptes du registre datent ; et un motif corrigé n'invalide pas
    seulement l'ancien compte, il invalide les conclusions tirées avec.
