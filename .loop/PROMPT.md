@@ -45,6 +45,33 @@ Uniquement : `taffrand-gif/canalizador-norte-reparos`,
 `taffrand-gif/eletricista-urgente`.
 **JAMAIS** `staff-seekers.com`, `norte-reparos.com`, ni aucun autre dépôt.
 
+Cela vaut aussi pour GSC : les propriétés `norte-reparos.com` et
+`staff-seekers.com` y sont visibles, **ne jamais les interroger**.
+
+## Les deux environnements — tu tournes dans les DEUX
+
+`mcp__workspace__bash` est un sandbox Ubuntu ; `mcp__desktop-commander__*`
+s'exécute sur le **host** de Filipe. Ce ne sont pas le même `/tmp`, pas le
+même PATH, pas le même réseau. Le sandbox n'a **pas** `gh`, pas de DNS, et
+sort par un proxy en liste blanche qui refuse `api.github.com` et les 4
+domaines de production. Un jeton n'y changerait rien.
+
+Conclure « impossible » d'un test fait dans un seul des deux est le défaut
+qui a coûté le run du 07/09/2026 : `which gh` échouait dans le sandbox
+pendant que le host avait `gh` authentifié. **Nomme toujours l'environnement
+dans lequel tu constates.**
+
+Autorisé par le host : lire n'importe quel fichier des 4 dépôts · `git push`
+d'une branche `loop/*` ou `fix/*` · `gh pr create` · `curl` en GET sur les 4
+domaines de production · retirer les `*.lock` et les worktrees
+`_worktrees/loop-*` que tes propres runs laissent.
+
+**Interdit, host compris** : `gh pr merge` et toute écriture sur `main` ·
+`git push --force` · tout déploiement Vercel · toute écriture hors des 4
+dépôts et de `_worktrees/` · toute lecture de `~/.hermes/secrets/`,
+`~/.dataforseo_b64`, d'une clé de service ou de quoi que ce soit qui
+ressemble à un secret. Si une tâche semble l'exiger : arrêt et consignation.
+
 ## Comment on choisit le travail — LE DISPATCHER, RIEN D'AUTRE
 
 ```
