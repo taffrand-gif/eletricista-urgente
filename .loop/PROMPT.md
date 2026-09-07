@@ -45,12 +45,47 @@ Uniquement : `taffrand-gif/canalizador-norte-reparos`,
 `taffrand-gif/eletricista-urgente`.
 **JAMAIS** `staff-seekers.com`, `norte-reparos.com`, ni aucun autre dépôt.
 
+Cela vaut aussi pour GSC : les propriétés `norte-reparos.com` et
+`staff-seekers.com` y sont visibles, **ne jamais les interroger**.
+
+## Les deux environnements — tu tournes dans les DEUX
+
+`mcp__workspace__bash` est un sandbox Ubuntu ; `mcp__desktop-commander__*`
+s'exécute sur le **host** de Filipe. Ce ne sont pas le même `/tmp`, pas le
+même PATH, pas le même réseau. Le sandbox n'a **pas** `gh`, pas de DNS, et
+sort par un proxy en liste blanche qui refuse `api.github.com` et les 4
+domaines de production. Un jeton n'y changerait rien.
+
+Conclure « impossible » d'un test fait dans un seul des deux est le défaut
+qui a coûté le run du 07/09/2026 : `which gh` échouait dans le sandbox
+pendant que le host avait `gh` authentifié. **Nomme toujours l'environnement
+dans lequel tu constates.**
+
+Autorisé par le host : lire n'importe quel fichier des 4 dépôts · `git push`
+d'une branche `loop/*` ou `fix/*` · `gh pr create` · `curl` en GET sur les 4
+domaines de production · retirer les `*.lock` et les worktrees
+`_worktrees/loop-*` que tes propres runs laissent.
+
+**Interdit, host compris** : `gh pr merge` et toute écriture sur `main` ·
+`git push --force` · tout déploiement Vercel · toute écriture hors des 4
+dépôts et de `_worktrees/` · toute lecture de `~/.hermes/secrets/`,
+`~/.dataforseo_b64`, d'une clé de service ou de quoi que ce soit qui
+ressemble à un secret. Si une tâche semble l'exiger : arrêt et consignation.
+
 ## Comment on choisit le travail — LE DISPATCHER, RIEN D'AUTRE
 
 ```
 python3 .loop/dispatch.py --plan SEO_PLAN.md --journal JOURNAL.md \
-    --repo taffrand-gif/<repo>
+    --prs-from-git <remote>
 ```
+
+`--prs-from-git` reconstruit les PR mergées depuis `git log <remote>/main`.
+**C'est la forme à utiliser** : l'exécuteur de la tâche planifiée n'a ni `gh`
+ni identifiants GitHub — constaté le 07/09/2026, `git ls-remote` passe en
+anonyme et `git push` échoue sur « could not read Username ». Sans dédup I4,
+le dispatcher refuse de démarrer, et il a raison : il rouvrirait des chantiers
+clos. `--repo taffrand-gif/<repo>` reste valable depuis le host, où `gh` est
+authentifié.
 
 Il lit **uniquement** le registre entre les ancres `<!-- CHANTIERS:BEGIN -->`
 et `<!-- CHANTIERS:END -->` de `SEO_PLAN.md`. Ce qu'il rend fait foi.
@@ -124,7 +159,7 @@ chaîne fixe les efface.
        -b loop/{YYYY-MM-DD}-{site}-{ID} <remote>/main
    → tout le travail se fait DANS le worktree, jamais dans le checkout
      partagé ; jamais sous /tmp, celui du sandbox n'est pas celui du host
-3. .loop/dispatch.py → obtenir l'ID du chantier
+3. .loop/dispatch.py --prs-from-git <remote> → obtenir l'ID du chantier
 4. Lire son PRÉDICAT dans le registre et le REJOUER avec measure.py.
    Les comptes du registre datent ; et un motif corrigé n'invalide pas
    seulement l'ancien compte, il invalide les conclusions tirées avec.
