@@ -228,12 +228,113 @@ def split_cells(row):
     return [c.replace('\\|', '|') for c in cells]
 
 
-def merged_ids(repo=None, prs_file=None):
+SCOPE_RE = re.compile(r'^\w+\(([^)]*)\)!?:')
+
+
+def ids_cites(blob, ids_connus):
+    """ID de chantier cités par un titre/corps de PR.
+
+    DEUX conventions, pas une :
+
+    1. le token `[ID:<X>]`, exigé par le format de PR ;
+    2. le SCOPE du commit conventionnel — `fix(enr,x-r12): …`.
+
+    La seconde a été ajoutée le 07/09/2026 après un no-op de plus. X-R12
+    avait été purgé sur ENR par la PR #459, mergée et vérifiée en
+    production : résiduel 0 forme par forme sur `client/public/`, contrôle
+    positif `mesm` = 598. Le dispatcher l'a pourtant redispatché, parce que
+    #459 s'intitule `fix(enr,x-r12): …` sans porter `[ID:X-R12]`, et que la
+    colonne PR du registre est restée `—`. La dédup I4 ne voyait donc RIEN,
+    et le chantier était éternellement rouvert.
+
+    Exiger le token seul, c'est faire dépendre l'invariant d'une discipline
+    que l'historique ne porte pas : 1 PR sur 109 l'écrit. Le scope, lui, est
+    écrit par tout le monde depuis le début, dans les quatre dépôts.
+
+    `ids_connus` est ce qui rend l'ajout sûr. Sans lui, `feat(prompt): …` et
+    `fix(loop,x-env): …` fabriqueraient les ID PROMPT et LOOP, et un
+    chantier qui porterait un jour ce nom serait clos par une PR qui ne
+    parle pas de lui. Un scope ne ferme donc que ce que le registre nomme
+    déjà : hors du registre, il n'est pas un ID, il est du texte.
+    """
+    trouves = set(re.findall(r'\[ID:([A-Z0-9-]+)\]', blob))
+    premiere = blob.split('\n', 1)[0]
+    m = SCOPE_RE.match(premiere.strip())
+    if m:
+        for tok in m.group(1).split(','):
+            cand = tok.strip().upper()
+            if cand in ids_connus:
+                trouves.add(cand)
+    return trouves
+
+
+def prs_depuis_git(remote, repo_dir='.'):
+    """PR MERGED reconstruites depuis `git log <remote>/main`.
+
+    Alternative à `gh` qui ne dépend d'aucun binaire ni d'aucun jeton :
+    l'environnement d'exécution de la tâche planifiée n'a NI `gh` NI
+    identifiants GitHub (constaté le 07/09/2026 — `git ls-remote` passe en
+    anonyme, `git push` échoue sur « could not read Username »).
+
+    Elle répond d'ailleurs mieux à la question posée. `gh pr list` dit
+    qu'une PR est mergée dans la base ; le log de `<remote>/main` dit
+    qu'elle est DANS la branche qu'on va rebrancher. C'est cette seconde
+    propriété que I4 veut. Le squash rend `merge-base --is-ancestor` faux,
+    d'où la lecture du `(#N)` en fin de sujet, plus le `Merge pull request
+    #N` des merges non squashés.
+
+    Angle mort assumé et nommé : une PR OUVERTE est invisible ici. Elle
+    l'était déjà de `merged_ids`, qui saute tout ce qui n'est pas MERGED.
+    Aucune dédup n'est donc perdue — mais ce n'est pas une source pour
+    savoir si une PR est en cours.
+    """
+    fmt = '%x00%s%x01%b'
+    res = subprocess.run(
+        ['git', '-C', repo_dir, 'log', f'{remote}/main', f'--format={fmt}'],
+        capture_output=True, text=True)
+    if res.returncode != 0:
+        raise SystemExit(
+            f"⛔ REFUS — `git log {remote}/main` a échoué (code "
+            f"{res.returncode}).\n   {(res.stderr or '').strip()[:300]}\n"
+            "   Sans historique, la dédup I4 serait muette : le run "
+            "n'est pas lancé.")
+    prs, vus = [], set()
+    for rec in res.stdout.split('\x00'):
+        if not rec.strip():
+            continue
+        parts = rec.split('\x01')
+        sujet = parts[0] if parts else ''
+        corps = parts[1] if len(parts) > 1 else ''
+        m = (re.search(r'\(#(\d+)\)\s*$', sujet)
+             or re.match(r'Merge pull request #(\d+)', sujet))
+        if not m:
+            continue
+        num = int(m.group(1))
+        if num in vus:
+            continue
+        vus.add(num)
+        prs.append({'number': num, 'state': 'MERGED',
+                    'title': sujet, 'body': corps})
+    if not prs:
+        raise SystemExit(
+            f"⛔ REFUS — aucun `(#N)` dans le log de {remote}/main.\n"
+            "   Un zéro sans contrôle positif ne vaut rien : soit la "
+            "branche est vide,\n"
+            "   soit le motif ne mord pas. Dans les deux cas la dédup I4 "
+            "serait muette.")
+    return prs
+
+
+def merged_ids(repo=None, prs_file=None, ids_connus=(), git_remote=None,
+               repo_dir='.'):
     """Ensemble des ID de chantier cités par une PR MERGED.
 
-    Convention : le titre ou le corps d'une PR porte le token [ID:<X>].
-    Un chantier ainsi cité est clos et n'est plus dispatchable (I4)."""
-    if prs_file:
+    Deux conventions reconnues — voir ids_cites(). Un chantier ainsi cité
+    est clos et n'est plus dispatchable (I4)."""
+    ids_connus = set(ids_connus)
+    if git_remote:
+        prs = prs_depuis_git(git_remote, repo_dir)
+    elif prs_file:
         with open(prs_file, encoding='utf-8') as fh:
             prs = json.load(fh)
     elif repo:
@@ -258,7 +359,9 @@ def merged_ids(repo=None, prs_file=None):
                 "I4.\n"
                 "   Sans elle, un chantier déjà clos par une PR mergée "
                 "serait redispatché.\n"
-                "   Remède : passer --prs <fichier.json> "
+                "   Remède 1 : --prs-from-git <remote>  (aucun binaire, "
+                "aucun jeton ; lit le log)\n"
+                "   Remède 2 : --prs <fichier.json> "
                 "(`gh pr list … --json number,state,title,body`).")
         except subprocess.CalledProcessError as exc:
             raise SystemExit(
@@ -276,7 +379,7 @@ def merged_ids(repo=None, prs_file=None):
             continue
         merged_nums.add(pr.get('number'))
         blob = f"{pr.get('title', '')}\n{pr.get('body') or ''}"
-        for cid in re.findall(r'\[ID:([A-Z0-9-]+)\]', blob):
+        for cid in ids_cites(blob, ids_connus):
             closed.setdefault(cid, []).append(pr.get('number'))
     return closed, merged_nums
 
@@ -329,6 +432,9 @@ def main():
     ap.add_argument('--journal')
     ap.add_argument('--repo')
     ap.add_argument('--prs')
+    ap.add_argument('--prs-from-git', metavar='REMOTE',
+                    help='dédup I4 depuis `git log <REMOTE>/main` — sans '
+                         '`gh` ni jeton. Prime sur --prs.')
     ap.add_argument('--id', help='forcer un chantier précis (par ID)')
     ap.add_argument('--noop-window', type=int, default=3)
     args = ap.parse_args()
@@ -347,7 +453,13 @@ def main():
         ap.error('--plan est requis (ou --check-diff)')
 
     chantiers = parse_registry(args.plan)
-    closed, merged_nums = merged_ids(args.repo, args.prs)
+    # Les ID du registre sont passés à la dédup : un scope de commit ne peut
+    # fermer que ce que le registre nomme déjà (voir ids_cites).
+    ids_connus = {ch.id for ch in chantiers if ch.id}
+    closed, merged_nums = merged_ids(
+        args.repo, args.prs, ids_connus,
+        git_remote=args.prs_from_git,
+        repo_dir=os.path.dirname(os.path.abspath(args.plan)) or '.')
 
     verdicts = []
     eligible = []
