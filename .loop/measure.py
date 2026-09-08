@@ -127,7 +127,19 @@ def est_servi(chemin, served):
 
 
 def git_grep(repo, ref, motif, arbre, only_matching=False):
-    cmd = ['git', '-C', repo, 'grep', '-o' if only_matching else '-l',
+    # `-c core.quotepath=false` : sans lui, git ECHAPPE les chemins non-ASCII
+    # — `"public/eletricista-urgente-pinh\\303\\243o.html"`, guillemets et
+    # octal compris. Le chemin extrait par `split(':', 1)[1]` commence alors
+    # par un guillemet, et TOUT motif ancre de HORS_PRODUCTION (`^\\.`,
+    # `^[^/]+\\.md$`, `^public/`, `^tools/`) devient muet dessus, sans erreur.
+    # Portee mesuree le 08/09/2026 : 596 chemins sur les 4 depots — CNR 216,
+    # ENR 199, EU 181 — essentiellement des pages de localite accentuees, donc
+    # des money pages. CU en compte ZERO : valide sur lui seul, le defaut
+    # reste invisible. Controle de non-regression :
+    # `public/eletricista-urgente-pinhao.html` (avec le tilde) doit apparaitre
+    # EN CLAIR dans la sortie.
+    cmd = ['git', '-C', repo, '-c', 'core.quotepath=false',
+           'grep', '-o' if only_matching else '-l',
            '-E', motif, ref]
     if arbre:
         cmd += ['--'] + list(arbre)
