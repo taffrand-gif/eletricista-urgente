@@ -327,16 +327,27 @@ def controler_outil():
     c'est repare, le run continue de tomber dans le meme trou.
 
     Rend un message de refus, ou None."""
-    chemin = os.path.join('.loop', 'check_prompt.py')
-    if not os.path.exists(chemin):
-        return None
+    # On hashe l'outil REELLEMENT EXECUTE, pas `.loop/check_prompt.py`.
+    # La difference decide du resultat : dans la forme d'amorcage prescrite
+    # au PREMIER ACTE, la garde est extraite de <remote>/main dans un dossier
+    # temporaire et l'arbre n'est plus lu du tout — hasher l'arbre y ferait
+    # echouer un appel pourtant parfaitement ancre. Inversement, la forme
+    # interdite `python3 .loop/check_prompt.py` fait de __file__ le fichier
+    # de l'arbre, et le controle mord exactement la ou il doit.
+    # Deux chemins distincts, et les confondre desarme le controle en
+    # silence : `execute` est le fichier reellement lance — un temporaire
+    # dans la forme d'amorcage — tandis que `suivi` est le chemin GIT de la
+    # copie versionnee. Passer le chemin absolu a `git show` echoue, rend
+    # zero version connue, et la fonction laisse tout passer.
+    execute = os.path.abspath(__file__)
+    suivi = os.path.join('.loop', 'check_prompt.py')
     try:
-        local = hashlib.sha256(open(chemin, 'rb').read()).hexdigest()
+        local = hashlib.sha256(open(execute, 'rb').read()).hexdigest()
     except OSError:
         return None
     versions = {}
     for remote in _remotes():
-        blob = _blob(remote, chemin)
+        blob = _blob(remote, suivi)
         if blob is not None:
             versions[remote] = hashlib.sha256(blob).hexdigest()
     if not versions or local in versions.values():
@@ -344,14 +355,19 @@ def controler_outil():
     attendu = sorted(set(versions.values()))
     return ("⛔ REFUS DE DEMARRER — l'outil execute n'est pas celui de "
             "<remote>/main.\n"
-            f"   .loop/check_prompt.py (arbre)  {local[:12]}\n"
+            f"   outil exécuté : {execute}\n"
+            f"                   {local[:12]}\n"
             "   " + ', '.join(f"{r}/main {h[:12]}"
                               for r, h in sorted(versions.items())) + "\n"
-            "   Le run execute le fichier du CHECKOUT PARTAGE, pas la copie "
-            "versionnee :\n"
-            "   un correctif merge sur main reste sans effet tant que "
-            "l'arbre n'est pas rafraichi.\n"
-            "   Remede : git checkout <remote>/main -- .loop/\n"
+            "   L'outil execute n'est aucune des copies versionnees. "
+            "Cause la plus frequente :\n"
+            "   `python3 .loop/check_prompt.py` lance le fichier du CHECKOUT "
+            "PARTAGE, parque sur\n"
+            "   la branche d'un autre agent — un correctif merge sur main y "
+            "reste sans effet.\n"
+            "   Remede : la forme d'amorcage du PREMIER ACTE, qui extrait la "
+            "garde de\n"
+            "   <remote>/main dans un dossier temporaire et l'execute de la.\n"
             "   Ce n'est PAS un verdict sur le prompt : rien n'a ete "
             "compare.")
 
