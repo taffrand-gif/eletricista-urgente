@@ -308,6 +308,54 @@ def _blob(remote, chemin):
     return res.stdout
 
 
+def controler_outil():
+    """Refuse si l'outil execute n'est pas celui de <remote>/main.
+
+    Le run lance `python3 .loop/check_prompt.py` : le fichier de l'ARBRE DE
+    TRAVAIL. Corriger la garde sur main ne corrige donc RIEN tant que le
+    checkout partage n'a pas ete rafraichi — et ces checkouts sont parques
+    sur les branches de feature d'autres agents, en retard de plusieurs
+    commits.
+
+    Constate le 08/09/2026, apres que X-GARDEREF fut mergee sur les quatre
+    depots : main portait `e8743d736cbb` partout, et les quatre arbres
+    executaient encore `1474b1d177fd` — `5c9478f763f7` sur CU, anterieur au
+    correctif d'enveloppe. Le correctif etait livre et sans effet.
+
+    Une garde qui se corrige sur main sans que personne n'execute la
+    correction est un faux vert d'un genre particulier : le depot dit que
+    c'est repare, le run continue de tomber dans le meme trou.
+
+    Rend un message de refus, ou None."""
+    chemin = os.path.join('.loop', 'check_prompt.py')
+    if not os.path.exists(chemin):
+        return None
+    try:
+        local = hashlib.sha256(open(chemin, 'rb').read()).hexdigest()
+    except OSError:
+        return None
+    versions = {}
+    for remote in _remotes():
+        blob = _blob(remote, chemin)
+        if blob is not None:
+            versions[remote] = hashlib.sha256(blob).hexdigest()
+    if not versions or local in versions.values():
+        return None
+    attendu = sorted(set(versions.values()))
+    return ("⛔ REFUS DE DEMARRER — l'outil execute n'est pas celui de "
+            "<remote>/main.\n"
+            f"   .loop/check_prompt.py (arbre)  {local[:12]}\n"
+            "   " + ', '.join(f"{r}/main {h[:12]}"
+                              for r, h in sorted(versions.items())) + "\n"
+            "   Le run execute le fichier du CHECKOUT PARTAGE, pas la copie "
+            "versionnee :\n"
+            "   un correctif merge sur main reste sans effet tant que "
+            "l'arbre n'est pas rafraichi.\n"
+            "   Remede : git checkout <remote>/main -- .loop/\n"
+            "   Ce n'est PAS un verdict sur le prompt : rien n'a ete "
+            "compare.")
+
+
 def resoudre_reference(chemin, etiquette):
     """Rend le chemin d'une copie de <chemin> prise sur <remote>/main.
 
@@ -484,6 +532,11 @@ def main():
         souci = rafraichir_refs()
         if souci:
             print(f"⚠️  {souci}", file=sys.stderr)
+
+    souci_outil = controler_outil()
+    if souci_outil:
+        print(souci_outil, file=sys.stderr)
+        return 4
 
     for attribut, chemin, etiquette in (
             ('ref', os.path.join('.loop', 'PROMPT.md'), 'référence'),
