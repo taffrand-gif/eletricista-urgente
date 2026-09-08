@@ -115,6 +115,25 @@ HORS_PRODUCTION = [
     # Doctrine racine : elle CITE la règle qu'on cherche.
     r'^[^/]+\.md$',
     r'^\.',
+    # RACINE `public/` — arbre non servi. Prouve le 08/09/2026 par temoins
+    # EXCLUSIFS (un fichier present dans deux arbres ne dit pas lequel a
+    # servi) : sur 129 fichiers de `public/` sans jumeau dans l'arbre servi,
+    # 127 rendent 404 et 1 rend 410. L'arbre servi est `client/public/` sur
+    # CNR/ENR et la racine du depot sur CU/EU.
+    # EXCEPTION NOMMEE, et elle n'est pas theorique : `public/sitemap.xml`
+    # de CNR rend 200, octet a octet (463030 o, md5 7ccecc7d), sans aucune
+    # autre copie dans le depot — c'est la SOURCE lue par `prebuild` ->
+    # `sync-client-sitemap.mjs`, et `client/public/sitemap.xml` n'existe pas
+    # dans l'arbre. Une exclusion `^public/` seche marquerait hors production
+    # le seul fichier de la racine qui l'est vraiment. Sans effet sur X-R12
+    # (un sitemap ne porte pas de prose), mais le trou n'aurait pas survecu
+    # au premier motif touchant du XML.
+    r'^public/(?!sitemap.*\.xml$)',
+    # `tools/` — PREDICATS DE DETECTION. La locution y est le motif cherche,
+    # pas une affirmation de l'entreprise : `tools/verify-busca-fuga-pilot.py`
+    # (CNR) et `tools/verify-money-pages-pilot.py` (ENR) faisaient a eux seuls
+    # la moitie du compte « PRODUCTION 2 » de X-R12 sur ces deux depots.
+    r'^tools/',
 ]
 
 
