@@ -50,7 +50,9 @@ import argparse
 import difflib
 import hashlib
 import os
+import subprocess
 import sys
+import tempfile
 import unicodedata
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -217,6 +219,88 @@ def cles_enveloppe(enveloppe):
     return cles
 
 
+REF_DEPUIS_ARBRE = object()
+
+
+def _remotes():
+    """Remotes du depot courant, dans l'ordre rendu par git."""
+    try:
+        res = subprocess.run(['git', 'remote'], capture_output=True,
+                             text=True, check=True)
+    except (OSError, subprocess.CalledProcessError):
+        return []
+    return [ln.strip() for ln in res.stdout.splitlines() if ln.strip()]
+
+
+def _blob(remote, chemin):
+    """Contenu de <remote>/main:<chemin>, ou None s'il est illisible."""
+    try:
+        res = subprocess.run(['git', 'show', f'{remote}/main:{chemin}'],
+                             capture_output=True, check=True)
+    except (OSError, subprocess.CalledProcessError):
+        return None
+    return res.stdout
+
+
+def resoudre_reference(chemin, etiquette):
+    """Rend le chemin d'une copie de <chemin> prise sur <remote>/main.
+
+    La garde comparait jusqu'ici au fichier de l'ARBRE DE TRAVAIL : `--ref`
+    valait `.loop/PROMPT.md` en relatif, donc `open()` lisait le checkout.
+
+    Or l'etape 1 de la procedure (verifier le prompt) precede l'etape 2
+    (creer le worktree) : elle s'execute forcement dans le checkout partage,
+    dont la branche est celle qu'un autre agent y a laissee. Le 08/09/2026,
+    cet arbre portait `.loop/PROMPT.md` en 158 lignes sur CNR et 146 sur CU,
+    contre 193 sur `<remote>/main` — le prompt CANONIQUE y etait refuse,
+    et sur CU par un `check_prompt.py` d'arbre lui aussi anterieur au
+    correctif d'enveloppe. Le premier acte du run dependait donc du travail
+    en cours d'un tiers.
+
+    Deuxieme piege, couvert par la meme fonction : `canalizador-norte-reparos`
+    porte DEUX remotes sur la meme URL (`origin` et `github`). `git fetch
+    origin` reussit sans toucher `github/main`, qui peut rester perime
+    indefiniment. Choisir un remote par defaut reconduirait le probleme, donc
+    on ne choisit pas : les remotes sont TOUS lus, et leur desaccord est un
+    refus nomme, jamais un arbitrage silencieux.
+
+    Rend (chemin_utilisable, provenance) ou (None, message_de_refus).
+    """
+    lus = {}
+    for remote in _remotes():
+        contenu = _blob(remote, chemin)
+        if contenu is not None:
+            lus[remote] = contenu
+    if not lus:
+        # Hors depot git, ou `.loop/` absent de main : l'arbre est le seul
+        # etat disponible. On continue, en le disant.
+        return REF_DEPUIS_ARBRE, (
+            f"{etiquette} : aucun <remote>/main lisible, "
+            "comparaison faite sur l'ARBRE DE TRAVAIL")
+    distincts = set(lus.values())
+    if len(distincts) > 1:
+        detail = ', '.join(
+            f"{r}/main={hashlib.sha256(c).hexdigest()[:12]}"
+            for r, c in sorted(lus.items()))
+        return None, (
+            f"⛔ REFUS DE DEMARRER — les remotes ne s'accordent pas sur "
+            f"{chemin}.\n"
+            f"   {detail}\n"
+            "   Une reference ambigue ne peut pas servir de reference. "
+            "Deux causes connues :\n"
+            "     · une ref non rafraichie — remede : git fetch --all "
+            "(--all, pas un remote nomme) ;\n"
+            "     · deux remotes sur la meme URL, dont un seul est fetche.\n"
+            "   Ce n'est PAS un verdict sur le prompt : rien n'a ete compare.")
+    contenu = next(iter(distincts))
+    fh = tempfile.NamedTemporaryFile(
+        mode='wb', suffix='-' + os.path.basename(chemin), delete=False)
+    fh.write(contenu)
+    fh.close()
+    return fh.name, (f"{etiquette} : {'/'.join(sorted(lus))}"
+                     f"{'/main' if len(lus) == 1 else '/main (identiques)'}")
+
+
 def controler_enveloppe(enveloppe, chemin_ref):
     """Affiche l'enveloppe reçue et décide si elle autorise le démarrage.
 
@@ -278,12 +362,12 @@ def main():
     # a besoin de savoir que son appel — et non le prompt — est en cause.
     ap.add_argument('--recu',
                     help='fichier contenant le prompt effectivement reçu')
-    ap.add_argument('--ref', default=os.path.join('.loop', 'PROMPT.md'),
-                    help='copie versionnée (défaut : .loop/PROMPT.md)')
-    ap.add_argument('--ref-enveloppe',
-                    default=os.path.join('.loop', 'ENVELOPPE.md'),
-                    help='frontmatter d\'empaquetage épinglé '
-                         '(défaut : .loop/ENVELOPPE.md)')
+    ap.add_argument('--ref', default=None,
+                    help='copie versionnée (défaut : .loop/PROMPT.md pris '
+                         'sur <remote>/main, PAS sur l\'arbre de travail)')
+    ap.add_argument('--ref-enveloppe', default=None,
+                    help='frontmatter d\'empaquetage épinglé (défaut : '
+                         '.loop/ENVELOPPE.md pris sur <remote>/main)')
     # Attrape l'appel positionnel au lieu de le laisser mourir en
     # « unrecognized arguments ». Une invocation fausse rendait le MÊME
     # code de sortie qu'un refus légitime : le testeur voyait une garde
@@ -308,6 +392,26 @@ def main():
               "    Utiliser : check_prompt.py --recu <prompt-reçu.md>",
               file=sys.stderr)
         return 4
+
+    # La reference est prise sur <remote>/main, jamais sur l'arbre de
+    # travail : voir resoudre_reference(). Un --ref explicite reste
+    # prioritaire — il sert a comparer a une revision precise.
+    for attribut, chemin, etiquette in (
+            ('ref', os.path.join('.loop', 'PROMPT.md'), 'référence'),
+            ('ref_enveloppe', os.path.join('.loop', 'ENVELOPPE.md'),
+             'enveloppe')):
+        if getattr(args, attribut) is not None:
+            continue
+        resolu, note = resoudre_reference(chemin, etiquette)
+        if resolu is None:
+            print(note, file=sys.stderr)
+            return 4
+        if resolu is REF_DEPUIS_ARBRE:
+            print(f"⚠️  {note}", file=sys.stderr)
+            setattr(args, attribut, chemin)
+        else:
+            print(f"   {note}")
+            setattr(args, attribut, resolu)
 
     for p in (args.recu, args.ref):
         if not os.path.exists(p):
