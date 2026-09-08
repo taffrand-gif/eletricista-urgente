@@ -232,6 +232,72 @@ def _remotes():
     return [ln.strip() for ln in res.stdout.splitlines() if ln.strip()]
 
 
+def rafraichir_refs():
+    """`git fetch --all` avant toute lecture de reference.
+
+    La garde lit `<remote>/main`, qui est un CACHE LOCAL : une empreinte
+    juste sur une ref perimee reste une empreinte juste, et c'est ce qui a
+    produit le faux diagnostic du 08/09/2026. `--all`, jamais un remote
+    nomme : l'etape 1 de la procedure ne fetche qu'un remote, ce qui laisse
+    l'autre en arriere sur les depots qui en portent deux.
+
+    Un echec n'est pas bloquant — hors ligne, les refs deja presentes
+    restent la meilleure reference disponible, et le desaccord eventuel
+    sera traite plus bas. Rend le message a afficher, ou None."""
+    try:
+        res = subprocess.run(['git', 'fetch', '--all', '--quiet'],
+                             capture_output=True, text=True, check=True)
+    except FileNotFoundError:
+        return "git introuvable — refs lues telles quelles"
+    except subprocess.CalledProcessError as exc:
+        detail = (exc.stderr or '').strip().splitlines()
+        return ("git fetch --all a echoue"
+                + (f" ({detail[-1][:120]})" if detail else "")
+                + " — refs lues telles quelles")
+    return None
+
+
+def _est_ancetre(a, b):
+    """Vrai si le commit a est un ancetre strict ou egal de b."""
+    try:
+        subprocess.run(['git', 'merge-base', '--is-ancestor', a, b],
+                       capture_output=True, check=True)
+    except (OSError, subprocess.CalledProcessError):
+        return False
+    return True
+
+
+def _plus_frais(remotes):
+    """Parmi des refs d'un meme depot distant, celle qui contient les autres.
+
+    Deux remotes sur la MEME URL ne sont pas deux opinions : c'est un seul
+    depot lu deux fois, et leur ecart est un retard de fetch, pas une
+    divergence. Refuser la, c'est refuser a repetition — sur
+    canalizador-norte-reparos, qui porte `origin` et `github` sur la meme
+    URL, le desaccord est l'etat par defaut puisque l'etape 1 ne fetche
+    qu'un des deux.
+
+    On ne tranche donc que sur une relation VERIFIABLE : si une ref contient
+    toutes les autres, elle est strictement plus fraiche et rien n'est perdu
+    en la prenant. Une divergence reelle — deux refs dont aucune ne contient
+    l'autre — reste un refus : la, choisir serait arbitraire.
+
+    Rend le nom du remote retenu, ou None si aucune ref ne domine."""
+    for candidat, sha in remotes.items():
+        if all(_est_ancetre(autre, sha) for autre in remotes.values()):
+            return candidat
+    return None
+
+
+def _sha_ref(remote):
+    try:
+        res = subprocess.run(['git', 'rev-parse', f'{remote}/main'],
+                             capture_output=True, text=True, check=True)
+    except (OSError, subprocess.CalledProcessError):
+        return None
+    return res.stdout.strip()
+
+
 def _blob(remote, chemin):
     """Contenu de <remote>/main:<chemin>, ou None s'il est illisible."""
     try:
@@ -278,6 +344,20 @@ def resoudre_reference(chemin, etiquette):
             f"{etiquette} : aucun <remote>/main lisible, "
             "comparaison faite sur l'ARBRE DE TRAVAIL")
     distincts = set(lus.values())
+    if len(distincts) > 1:
+        # Avant de refuser : un simple retard de fetch n'est pas une
+        # divergence. Si une ref contient toutes les autres, elle est
+        # strictement plus fraiche — la prendre ne perd rien.
+        shas = {r: _sha_ref(r) for r in lus}
+        if all(shas.values()):
+            gagnant = _plus_frais(shas)
+            if gagnant is not None:
+                retard = sorted(r for r in lus if r != gagnant)
+                lus = {gagnant: lus[gagnant]}
+                distincts = set(lus.values())
+                print(f"   {etiquette} : {gagnant}/main retenu, il contient "
+                      f"{', '.join(retard)}/main — retard de fetch, pas une "
+                      "divergence")
     if len(distincts) > 1:
         detail = ', '.join(
             f"{r}/main={hashlib.sha256(c).hexdigest()[:12]}"
@@ -365,6 +445,10 @@ def main():
     ap.add_argument('--ref', default=None,
                     help='copie versionnée (défaut : .loop/PROMPT.md pris '
                          'sur <remote>/main, PAS sur l\'arbre de travail)')
+    ap.add_argument('--no-fetch', action='store_true',
+                    help='ne pas lancer `git fetch --all` avant de lire les '
+                         'références (défaut : le fetch a lieu, car une ref '
+                         'périmée rend une empreinte juste sur un objet faux)')
     ap.add_argument('--ref-enveloppe', default=None,
                     help='frontmatter d\'empaquetage épinglé (défaut : '
                          '.loop/ENVELOPPE.md pris sur <remote>/main)')
@@ -396,6 +480,11 @@ def main():
     # La reference est prise sur <remote>/main, jamais sur l'arbre de
     # travail : voir resoudre_reference(). Un --ref explicite reste
     # prioritaire — il sert a comparer a une revision precise.
+    if not args.no_fetch:
+        souci = rafraichir_refs()
+        if souci:
+            print(f"⚠️  {souci}", file=sys.stderr)
+
     for attribut, chemin, etiquette in (
             ('ref', os.path.join('.loop', 'PROMPT.md'), 'référence'),
             ('ref_enveloppe', os.path.join('.loop', 'ENVELOPPE.md'),
