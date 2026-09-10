@@ -188,3 +188,1031 @@ R : Norte Reparos a un site dédié : canalizador-urgente.pt · +351 928 484 451
 
 **Formulation canonique (réutiliser tel quel)** :
 > Técnico Responsável de Instalações Elétricas inscrito na DGEG — TRIESP n.º 90062 (domínio Execução em Baixa Tensão, instalações até 41,4 kVA). Emitimos Ficha Eletrotécnica e Termo de Responsabilidade. Seguro de responsabilidade civil válido. (Lei n.º 14/2015)
+
+---
+
+## Zona de serviço completa — lista exaustiva das localidades servidas
+
+Esta secção lista **o conjunto das 961 localidades servidas** por este site, agrupadas por zona de deslocação. Fonte única: `precos-zonas.json` (mapeamento localidade → zona) + tabela `PRICING.md` (Z1 = 15 € ... Z6 = 65 €). Sede operacional: **Macedo de Cavaleiros**. Distância rodoviária real (OSRM), não em linha reta. Raio máximo: ~130 km de estrada a partir de Macedo de Cavaleiros.
+
+**Profissional** : Eletricidade (urgência) · urgência 24h
+**Contacto único do site** : +351 932 321 892
+**Tarifário** : 70 €/h (mão de obra) + deslocação tabelada por zona (ver abaixo)
+**Majoração noite / fim de semana / feriado** : +50 % (aplicada à mão de obra E à deslocação)
+**Mínimo faturado** : deslocação + 1 hora de mão de obra. Cada hora começada é devida.
+
+**Como ler esta secção** :
+- Cada zona (Z1 a Z6) indica o **preço de deslocação** para uma intervenção nessa zona.
+- O **mínimo faturado** por zona = deslocação + 1 h de mão de obra = 70 € + deslocação (ex. Z1 = 85 €).
+- Para além de 1 h, a tarifa horária continua por hora começada.
+- **Orçamento por escrito** sistemático antes de qualquer intervenção. **Sem surpresas** na fatura.
+- Majoração noite / fim de semana / feriado : +50 % sobre as duas componentes (mão de obra + deslocação).
+
+**Zona coberta** : Trás-os-Montes e Alto Douro (raio ~130 km de estrada a partir de Macedo de Cavaleiros).
+Lista de concelhos representativos: Bragança, Mirandela, Chaves, Macedo de Cavaleiros, Vila Real, Mogadouro, Vinhais, Miranda do Douro, Alfândega da Fé, Vila Flor, Carrazeda de Ansiães, Torre de Moncorvo, Freixo de Espada à Cinta, Vimioso, Valpaços, Murça, Lamego, Peso da Régua, Alijó, Sabrosa, Montalegre, Boticas, Figueira de Castelo Rodrigo, Pinhel, Trancoso, Mêda, Aguiar da Beira, Sernancelhe, Penedono, São João da Pesqueira, Tabuaço, Armamar, Tarouca, Resende, Mesão Frio, Amarante, Mondim de Basto, Vila Pouca de Aguiar, Ribeira de Pena, Santa Marta de Penaguião, Vila Nova de Foz Côa.
+
+**Fora da zona** : a nossa área de intervenção é Trás-os-Montes e Alto Douro (raio ~130 km de Macedo de Cavaleiros). Fora desse raio não nos deslocamos. Se precisa de cobertura noutra região, recomendamos as redes nacionais (EDP, Galp, etc.) que têm mais recursos logísticos para esse efeito.
+
+### Z1 — Deslocação 15 € · 81 localidades · mínimo 85 € (1 h incluída)
+
+- agua-macedo-de-cavaleiros
+- Ala
+- alcaices
+- Alvites
+- Amendoeira
+- Arrifana
+- Avantos
+- Azibeiro
+- Azibo
+- Açoreira
+- Bornes
+- Bousende
+- Bragada
+- Brinço
+- Burga
+- Caravelas
+- Carrapatas
+- Carrapatinha
+- Castelãos
+- Castro Roupal
+- Cernadela
+- Chacim
+- Chãos
+- Colmeais
+- Comunhas
+- Cortiços
+- Corujas
+- Covelas
+- Edroso
+- Espadanedo
+- Fermentãos
+- Ferreira
+- Gebelim
+- Gradíssimo
+- Grijó
+- Jerusalém do Romeu
+- Lamas
+- Lamas de Cavalo
+- Limãos
+- Lombo
+- Macedo de Cavaleiros
+- Malta
+- Meles
+- Mogrão
+- Moredo
+- Nogueirinha
+- Olmos
+- Paradinha de Besteiros
+- Peredo
+- Pinhovelo
+- Podence
+- Pombares
+- Pousadas
+- Quintela de Lampaças
+- Rogodeiro
+- Romeu
+- Salsas
+- Salselas
+- Santa Comba de Rossas
+- Santa Combinha
+- Sezulfe
+- Travanca
+- Vale Benfeito
+- Vale da Porca
+- Vale de Asnes
+- Vale de Couce
+- Vale de lagoa
+- Vale de Lobo
+- Vale de Nogueira
+- Vale de Prados
+- Vale Pradinhos
+- Valongo
+- Veigas
+- Vila Franca
+- Vila Nova
+- Vila Verdinho
+- Vilar de Ledra
+- Vilar do Monte
+- Vilares da Torre
+- Vilarinho do Monte
+- Vimieiro
+
+### Z2 — Deslocação 25 € · 170 localidades · mínimo 95 € (1 h incluída)
+
+- Abambres
+- Agrobom
+- Agrochão
+- agua-torre-de-moncorvo
+- Alfaião
+- Arcas
+- Argana
+- Assares
+- Bagueixe
+- Bairro do Fundo de Fomento à Habitação
+- Benlhevai
+- Bronceda
+- Cabanas
+- Cabanelas
+- Cabreira
+- Cachão
+- Calvelhe
+- Campo
+- Carocedo
+- carrazeda-de-anciaes
+- Carrazedo
+- Carvalhais
+- Carvalho de Egas
+- Carçãozinho
+- Casa Nova
+- Castelo de Balsamão
+- Castro de Avelãs
+- Castro Vicente
+- Cedainhos
+- Cedães
+- Celas
+- Chelas
+- Cobro
+- Coelhoso
+- Contins
+- Couços
+- Edrosa
+- Eivados
+- Eixes
+- Ervedosa
+- Eucisia
+- Falgueiras
+- Faílde
+- Felgueiras
+- Fonte da Urze
+- Fontão
+- Fornos de Ledra
+- Franco
+- Frechas
+- Freixeda
+- Freixedinha
+- Frieira
+- Gandariças
+- Gostei
+- Gouveia
+- Gralhós
+- Grijó de Parada
+- Guide
+- Izeda
+- Lagoa
+- Lamalonga
+- Lamas de Orelhão
+- Lanção
+- Legoinha
+- Lilela
+- Lodões
+- Macedinho
+- Macedo do Mato
+- Marmelos
+- Martim
+- Mascarenhas
+- Meireles
+- Melhe
+- Minas da Ervedosa
+- Miradezes
+- Mirandela
+- Morais
+- Mosteiro
+- Murçós
+- Mós
+- Mós de Celas
+- Múrias
+- Negreda
+- Nogueira
+- Noselos
+- Nuzedo de Baixo
+- Ousilhão
+- Pai Torto
+- Parada
+- Paradela
+- Paredes
+- Passos
+- Paçô de Sortes
+- Pereiros
+- Pinela
+- Pombal
+- Porrais
+- Póvoa de Lila
+- Quinta de Montezinho
+- Quinta do Cerro
+- Quintas
+- Rebordainhos
+- Rebordãos
+- Refoios
+- Rego de Vide
+- Remondes
+- Ribeirinha
+- Rio Torto
+- Roios
+- Romariz
+- Saldonha
+- Sambade
+- Samil
+- Samões
+- Sanceriz
+- Santa Comba de Vilariça
+- Santa Justa
+- Sarzeda
+- Sendas
+- Sendim da Serra
+- Serapicos
+- Sobreda
+- Soeima
+- Sortes
+- Soutelo
+- Soutelo Mourisco
+- Soutilha
+- Suçães
+- São Cibrão
+- São Pedro de Sarracenos
+- São Pedro de Vale do Conde
+- São Pedro Velho
+- São Salvador
+- Talhinhas
+- Torre de Dona Chama
+- Trindade
+- Valbom da Trindade
+- Valbom de Figos
+- Valdrez
+- Vale Bom Pitez
+- Vale da Sancha
+- Vale das Fontes
+- Vale de Gouvinhas
+- Vale de Juncal
+- Vale de Madeiro
+- Vale de Martinho
+- Vale de Pareiro
+- Vale de Salgueiro
+- Vale de Telhas
+- Vale Frechoso
+- Vale Pereiro
+- Vales
+- Valongo das Meadas
+- Valverde
+- Viduedo
+- Vila Boa
+- Vila Boa de Ousilhão
+- Vila Nova da Rainha
+- Vila Nova das Patas
+- Vila Verde
+- Vilar Chão
+- Vilar de Ouro
+- Vilar Douro
+- Vilar Seco
+- Vilarelhos
+- Vilares da Vilariça
+- Vilarinho de Agrochão
+- Vilas Boas
+- Vinhas
+- Zoio
+
+### Z3 — Deslocação 35 € · 163 localidades · mínimo 105 € (1 h incluída)
+
+- Abreiro
+- Adeganha
+- agua-vila-nova-de-foz-coa
+- Aguieira
+- Aguieiras
+- Alfândega da Fé
+- Algeriz
+- Algoso
+- Alimonde
+- Alvaredos
+- Alvarelhos
+- Amedo
+- Argozelo
+- Armoniz
+- Avidagos
+- Avinhó
+- Azinhoso
+- Babe
+- Barcel
+- Baçal
+- Beira Grande
+- Belver
+- Bouça
+- Bouças
+- Bragança
+- Brito de Baixo
+- Brunhoso
+- Canaveses
+- Candedo
+- Candoso
+- Cardanha
+- Carragosa
+- Carrazedo de Montenegro
+- Carção
+- Casario
+- Castanheiro do Norte
+- Castedo
+- Castelo Branco
+- Castrelos
+- Cerejais
+- Chairos
+- Cidões
+- Corriça
+- Crasto
+- Curopos
+- Deilão
+- Donai
+- Eiras Maiores
+- Ermida
+- Ermidas
+- Ervideira
+- Ervões
+- Espinhosela
+- Felgar
+- Ferradosa
+- Fiolhoso
+- Fonte Longa
+- Fornos do Pinhal
+- Fradizela
+- França
+- Freixiel
+- Fresulfe
+- Friões
+- Gimonde
+- Gondesende
+- Gorgoço
+- Horta da Vilariça
+- Junqueira
+- Larinho
+- Lavandeira
+- Linhares
+- Lousa
+- Macedo do Peso
+- Marzagão
+- Matela
+- Maçores
+- Meirinhos
+- Meixedo
+- Milhão
+- Mogadouro
+- Mogo da Malta
+- Mourão
+- Nabo
+- Navalho
+- Nogueira da Montanha
+- Noura
+- Nozelos
+- Nunes
+- Outeiro
+- Palheiros
+- Paradinha Nova
+- Paradinha Velha
+- Parambos
+- Parâmio
+- pedralba-de-la-praderia
+- Pegarinhos
+- Penas Roias
+- Penhas Juntas
+- Pereira
+- Pinhal do Norte
+- Possacos
+- Pádua Freixo
+- Pópulo
+- Quinta da Roca
+- Quinta de Santa Maria
+- Quinta de São Pedro
+- Quinta do Souto
+- Quinta dos Cavages
+- Quintanilha
+- Rabal
+- Rebordelo
+- Ribalonga
+- Rio Frio
+- Salgueiro
+- Sampaio
+- Sanfins
+- Sanhoane
+- Santa Eugénia
+- Santa Maria de Émeres
+- Santa Valha
+- Santiago da Ribeira de Alhariz
+- Santo André
+- Santulhão
+- Sardão
+- Seixo de Ansiães
+- Seixo de Manhoses
+- Selores
+- Sendim da Ribeira
+- Senhora da Penha de França
+- Sobreira
+- Sobreiro de Baixo
+- Soeira
+- São Jomil
+- São João da Corveira
+- São Julião de Palácios
+- São Martinho do Peso
+- São Pedro de Veiga de Lila
+- Talhas
+- Trabazos
+- Tuizelo
+- Tó
+- Vale da Madre
+- Vale de Casas
+- Vale de Janeiro
+- Vale de Maior
+- Vale de Porco
+- Valongo de Milhais
+- Valpaços
+- Valtorno
+- Vassal
+- Veiga de Lila
+- Vila de Ala
+- Vila de Rei
+- Vila Flor
+- vila-flor
+- Vilar de Ossos
+- Vilar de Peregrinos
+- Vilarandelo
+- Vilarinho da Castanheira
+- Vilarinho das Azenhas
+- Vinhais
+- Zedes
+- Água Revés
+
+### Z4 — Deslocação 45 € · 171 localidades · mínimo 115 € (1 h incluída)
+
+- a-gudiña
+- a-mezquita
+- Adoufe
+- agua-freixo-de-espada-a-cinta
+- agua-miranda-do-douro
+- agua-peso-da-regua
+- agua-santa-marta-de-penaguiao
+- agua-vila-pouca-de-aguiar
+- Alfarela de Jales
+- Almendra
+- Amieiro
+- Andrães
+- Arcossó
+- Arroios
+- Atenor
+- Avelanoso
+- Barreira
+- Barreiros
+- Bemposta
+- Bobadela
+- Borbela
+- Bouçoães
+- Brunhosinho
+- Bruçó
+- Bustelo
+- Calvão
+- Campo de Víboras
+- Carlão
+- Carrazeda de Ansiães
+- Carva
+- Carviçais
+- Castelo Melhor
+- Caçarelhos
+- Cedovim
+- Cela
+- Chãs
+- cicuiro
+- Cimo de Vila da Castanheira
+- Cocanha
+- corrente-sao-joao-da-pesqueira
+- Cotas
+- Curalha
+- Curros
+- distrito-de-vila-real
+- Duas Igrejas
+- Edral
+- Eiras
+- Ervededo
+- exterior-vila-real
+- Faiões
+- Favaios
+- Fiães
+- Folhadela
+- Fornos
+- Freixo de Numão
+- Genísio
+- Horta
+- Jou
+- Justes
+- Lagoaça
+- Lama de Arcos
+- Lamares
+- Lebução
+- Ligares
+- Loivos
+- Longroiva
+- Lordelo
+- Madalena
+- Mairos
+- Malhadas
+- Marialva
+- Mateus
+- Mazouco
+- Mofreita
+- Moimenta
+- Montouto
+- Mouçós
+- Murça
+- Muxagata
+- Mêda
+- Numão
+- o-rios
+- o-riós
+- Oucidres
+- Oura
+- Outeiro Seco
+- Padrela
+- Palaçoulo
+- Parada de Cunhos
+- Parada do Pinhão
+- Paradela de Monforte
+- Paços
+- Peredo de Bemposta
+- Peredo dos Castelhanos
+- Picote
+- Pinelo
+- Pinheiro Novo
+- Poço do Canto
+- Presandães
+- pías
+- Póvoa de Agrações
+- quirás
+- Real Covo
+- requejo-de-sanabria
+- Rio de Onor
+- Roriz
+- Saldanha
+- Samaiões
+- samir-de-los-canos
+- san-pedro-de-la-silba
+- Sanfins do Douro
+- sanjurge
+- Santa Cruz
+- Santa Leocádia
+- Santalha
+- Santo António de Monforte
+- Santo Estêvão
+- Seara Velha
+- Sebadelhe
+- Seixal
+- Selhariz
+- Sendim
+- Sonim
+- Souto da Velha
+- Souto Maior
+- São Julião de Montenegro
+- São Lourenço de Ribapinhão
+- São Mamede de Ribatua
+- São Pedro de Agostém
+- São Tomé do Castelo
+- São Vicente
+- Tazém
+- Tinhela
+- Torre de Moncorvo
+- Torre do Pinhão
+- Touça
+- Travancas
+- Tresminas
+- Tronco
+- Urros
+- Urrós
+- Uva
+- Vale de Anta
+- Vale de Figueira
+- Vale de Frades
+- Vale de Mendiz
+- Vale de Nogueiras
+- Vale de Vila
+- Valoura
+- Ventoselo
+- Vidago
+- Vila Chã de Braciosa
+- Vila Nova de Foz Coa
+- Vila Nova de Foz Côa
+- Vila Verde da Raia
+- Vilar de Lomba
+- Vilar de Maçada
+- Vilar de Nantes
+- Vilar Seco de Lomba
+- vilardevos
+- Vilarelho da Raia
+- Vilarinho das Paranheiras
+- Vilarinho de Cotas
+- Vilarinho de São Romão
+- Vilarinho dos Galegos
+- Vilela do Tâmega
+- Vilela Seca
+- Vimioso
+- Vreia de Jales
+- Águas Frias
+- Águas Vivas
+
+### Z5 — Deslocação 55 € · 153 localidades · mínimo 125 € (1 h incluída)
+
+- Abaças
+- Adorigo
+- Afonsim
+- agua-figueira-de-castelo-rodrigo
+- Alcarva
+- Alijó
+- Alvações do Corgo
+- Anelhe
+- Angueira
+- Ansiães
+- Antas
+- Ardãos
+- Aveloso
+- Azêvo
+- Barcos
+- Beselga
+- Beça
+- Bilhó
+- Bogalhal
+- Bornes de Aguiar
+- Cambres
+- Campeã
+- Canelas
+- Carnicães
+- Carrazedo do Alvão
+- Casa do Povo e Sede da Junta de Freguesia
+- Casal de Loivos
+- Castainço
+- Castanheiro do Sul
+- Casteição
+- Castelo Rodrigo
+- Cervos
+- Chaves
+- Chosendo
+- Cidadelhe
+- Codessoso
+- Cogula
+- Constantim
+- Coriscada
+- Covas do Douro
+- Covelinhas
+- Cumieira
+- Custóias
+- Cótimos
+- Desejosa
+- Ervedosa do Douro
+- Escalhão
+- Escurquela
+- Espinhosa
+- fariza-de-sayago
+- ferreruela-de-tabara
+- ferreruela-de-tábara
+- Figueira de Castelo Rodrigo
+- Freixeda do Torrão
+- Freixial
+- Galafura
+- Gateira
+- Godim
+- Gouvinhas
+- Gouvães do Douro
+- Gralhas
+- Guilheiro
+- Guiães
+- Ifanes
+- Lamas de Olo
+- Lixa do Alvão
+- Louredo
+- Mata de Lobos
+- Medrões
+- Meixide
+- Mondrões
+- Moreira de Rei
+- Nagozelo do Douro
+- Nave Redonda
+- Ourozinho
+- Outeiro de Gatos
+- Pai Penela
+- Parada de Monteiros
+- Parada do Bispo
+- Paradela de Guiães
+- Pardelhas
+- Paredes da Beira
+- Pedras Salgadas
+- Pena
+- Penajoia
+- Penela da Beira
+- Penha de Águia
+- Pensalvos
+- Pinhel
+- Pinho
+- Pinhão
+- Poiares
+- povoa-d-el-rei
+- Prova
+- Provesende
+- Pruoba
+- Póvoa d'El-Rei
+- Póvoa de Penela
+- Póvoa do Concelho
+- Queimadela
+- Quintã de Pero Martins
+- Rabaçal
+- Ranhados
+- Ribeira do Freixo
+- Riodades
+- Sabrosa
+- Sabroso de Aguiar
+- Samodães
+- Sande
+- Santo Adrião
+- Sapiãos
+- Sarraquinhos
+- Sarzedinho
+- Sebadelhe de Serra
+- Solveira
+- Sorval
+- Soutelinho da Raia
+- Soutelo de Aguiar
+- Soutelo do Douro
+- São Cristóvão do Douro
+- São João da Pesqueira
+- São João de Lobrigos
+- São Martinho de Angueira
+- São Martinho de Anta
+- São Miguel de Lobrigos
+- Tamanhos
+- Telões
+- Terrenho
+- Torre do Terrenho
+- trancoso
+- Trevões
+- Távora
+- Valdigem
+- Valdujo
+- Vale de Afonsinho
+- Vale do Seixo
+- Vale Flor
+- Valença do Douro
+- Valongo dos Azeites
+- Vila Cova
+- Vila Garcia
+- Vila Marim
+- Vila Pouca de Aguiar
+- Vila Real
+- vila-nova-de-souto-d-el-rei
+- Vilar de Amargo
+- Vilar de Perdizes
+- Vilar Torpim
+- Vilarinho de Samardã
+- Vilarinho dos Freires
+- Vilarouco
+- Vreia de Bornes
+- Várzea de Trevões
+
+### Z6 — Deslocação 65 € · 223 localidades · mínimo 135 € (1 h incluída)
+
+- agua-mondim-de-basto
+- Aguiar da Beira
+- Aldeia Viçosa
+- Aldeias
+- Aliviada
+- Almeida
+- Almofala
+- Alturas do Barroso
+- Alvadia
+- Alvendre
+- Alverca da Beira
+- Amarante
+- Aricera
+- Armamar
+- Arnas
+- Arrabalde de Santo António
+- Arrabalde do Poço
+- Atalaia
+- Avelãs da Ribeira
+- Avelãs de Ambom
+- Avões
+- Bairro Social de Alvoraçães
+- Baldos
+- Baltar
+- Baraçal
+- Barqueiros
+- Barrô
+- Bigorne
+- Borba de Godim
+- Boticas
+- Bouça Cova
+- Bragado
+- Britiande
+- Cabaços
+- Cadafaz
+- Cambeses do Rio
+- Campanhó
+- Canadelo
+- Candemil
+- Carvalho de Rei
+- Casal do Monte
+- Casas do Soeiro
+- Castaíde
+- castrelo-do-val
+- Cavadoude
+- Celorico da Beira
+- Cepelos
+- Cepões
+- Cerejo
+- cerezal-de-penahorcada
+- Cerva
+- Chapa
+- Chavães
+- Cimbres
+- Cinco Vilas
+- Codesseiro
+- Colo de Pito
+- Cortiçô
+- Covas do Barroso
+- Covelães
+- Cunha
+- Donões
+- Dálvares
+- Eirado
+- Ermelo
+- Ervas Tenras
+- Escarigo
+- Feirão
+- Feital
+- Ferreirim
+- Ferreiros de Avões
+- fervidelas
+- Fiães do Rio
+- Fiães do Tâmega
+- Folgosa
+- Folhada
+- fornos-de-algodres
+- Freches
+- Fregim
+- Freixedas
+- Freixo de Baixo
+- Freixo de Cima
+- Freixo de Espada à Cinta
+- Frende
+- Fridão
+- Fuinhas
+- Gatão
+- Gestaçô
+- Gosende
+- Goujoim
+- Gouveia (São Simão)
+- Gouviães
+- Gouvães da Serra
+- Gradiz
+- Granja do Tedo
+- Jazente
+- Junça
+- la-vidola
+- Lajeosa do Mondego
+- Lalim
+- Lamego
+- Lazarim
+- Limões
+- Lixa
+- Loivos da Ribeira
+- Loivos do Monte
+- Longa
+- Lufrei
+- Maceira
+- Magueija
+- Mancelos
+- Manigoto
+- Marco de Canaveses
+- Maçal do Chão
+- Meijinhos
+- Melcões
+- mesao-frio
+- Mesão Frio
+- Mezio
+- Minhocal
+- Miranda do Douro
+- Mondim da Beira
+- Mondim de Basto
+- Montalegre
+- Monteiras
+- Moreira
+- Moreira do Castelo
+- Moura Morta
+- Mourilhe
+- Mouções
+- Nagosa
+- Negrões
+- Olo
+- Padornelos
+- Padronelo
+- Padroso
+- Palhais
+- Paradança
+- Passô
+- Paus
+- Pena Verde
+- Penedono
+- Penude
+- perena-de-la-ribera
+- Peso da Régua
+- Pinheiros
+- Porto da Carne
+- Pretarouca
+- Queiriz
+- Quinta do Salgueiro
+- Rapa
+- Ratoeira
+- Reigada
+- Resende
+- Ribeira de Goujoim
+- Ribeira de Pena
+- Rio de Galinhas
+- Rio de Mel
+- Rocamondo
+- Salvador do Monte
+- Salzedas
+- Sanche
+- Santa Cruz do Douro
+- Santa Marinha do Zêzere
+- Santa Marta da Montanha
+- Santa Marta de Penaguião
+- Santo Aleixo de Além-Tâmega
+- Santo Isidoro
+- santo-aleixo-de-além-tâmega
+- Sarzedo
+- Sedielos
+- Sernancelhe
+- Sezelhe
+- Sobral da Serra
+- Sobral Pichorro
+- Souro Pires
+- Souto de Aguiar da Beira
+- São Cosmado
+- São João de Fontoura
+- São João de Tarouca
+- São Martinho das Chãs
+- São Martinho de Mouros
+- São Nicolau
+- São Romão
+- São Romão de Aregos
+- São Tomé de Covelas
+- Tabuado
+- Tabuaço
+- Tarouca
+- Teixeiró
+- Tresouras
+- truchas-trueitas
+- Ucanha
+- Vacalar
+- Valadares
+- Vale da Mula
+- Vale de Azares
+- Vale de Coelha
+- Vale de Madeira
+- Vascoveiro
+- Velosa
+- Vermiosa
+- Viade de Baixo
+- Viariz
+- Vide entre Vinhas
+- Videmala
+- Vila Boa do Mondego
+- Vila Caiz
+- Vila Chã da Beira
+- Vila Chã do Marão
+- Vila Cortês do Mondego
+- Vila Franca das Naves
+- Vila Franca do Deão
+- Vila Jusã
+- Vila Nova de Souto d'El-Rei
+- Vilar de Ferreiros
+- vilarino-de-conso
+- vilariño-de-conso
+- Vilvestre
+- Vinhós
+- Várzea da Ovelha
+- Várzea da Serra
+- Várzea de Abrunhais
+
+---
+
+### Compromissos (resumo)
+
+- **Orçamento por escrito** antes de qualquer intervenção. **Sem surpresas** na fatura.
+- **Estimativa sem custo** por telefone ou WhatsApp quando fotos/vídeo permitem orçamentar.
+- **Confirmamos sempre consigo** o trabalho e o preço antes de faturar seja o que for.
+- **Fora da tabela / caso variável** (instalação, certificação, etc.) : « sob orçamento », nunca um intervalo inventado.
+- **Acréscimo noite / fim de semana / feriado** : +50 % sobre as duas componentes, mencionado antes da intervenção.
+- **Fatura com NIF** emitida no fim de cada trabalho.
+
+**Mínimo faturado publicado** (R-MINIMO) : deslocação + 1 hora de mão de obra. Cada hora começada é devida. Aplicam-se também à deslocação e à mão de obra. Majoração noite / fim de semana / feriado (+50 %) é aplicada sobre estes valores mínimos.
+
+**Contacto único do site** : +351 932 321 892 (WhatsApp : wa.me/351932321892)
+
+**Documentos emitidos (sites eletricidade)** :
+- **TRIESP DGEG n.º 90062** — domínio Execução em Baixa Tensão, instalações até 41,4 kVA. (Lei n.º 14/2015, de 16 de fevereiro).
+- **Ficha Eletrotécnica** e **Termo de Responsabilidade** emitidos pela nossa equipa, após intervenção certificada.
+- **Seguro de responsabilidade civil** ≥ 50 000 € (Lei 14/2015).
+- **Preço Ficha + Termo** : a partir de **350 €** (os dois documentos, um único preço base cobrindo o conjunto).
+
+**Zona fora do perímetro** : Norte Reparos intervém apenas em Trás-os-Montes e Alto Douro (~130 km de Macedo de Cavaleiros). Para intervenções além desse raio, consulte uma marca nacional (EDP, Galp, etc.) que dispõe dos recursos logísticos adequados.
+
+**Last updated** : 2026-09-10 · Fonte única : `precos-zonas.json` (961 localidades) + `PRICING.md` (tabela Z1-Z6).
