@@ -1,19 +1,29 @@
 ---
-title: "Tomada Não Funciona: 8 Causas e Como Resolver (2026)"
+title: "Tomada Não Funciona: 8 Causas + Preço 70 €/h (2026)"
 slug: "tomada-nao-funciona"
 category: "Problemas Elétricos"
 date: "2026-03-04"
+lastmod: "2026-09-10"
 author: ""
-excerpt: "Tomada não funciona ou sem corrente? Descubra as 8 causas principais (desde disjuntor desarmado até tomada queimada) e como resolver com segurança. Guia completo com diagnóstico."
-keywords: ["tomada não funciona", "tomada sem corrente", "tomada queimada", "arranjar tomada", "eletricista Bragança", "tomada avariada"]
+excerpt: "Tomada não funciona em Trás-os-Montes? 8 causas (disjuntor, tomada queimada, cabo partido) e arranjo a 70 €/h, com orçamento por escrito antes da intervenção."
+keywords: ["tomada não funciona", "tomada sem corrente", "tomada queimada", "arranjar tomada", "eletricista Bragança", "tomada avariada", "tomada não funciona Trás-os-Montes"]
 priority: "HIGH DEMAND"
+description: "Tomada não funciona em Trás-os-Montes? 8 causas (disjuntor, tomada queimada, cabo partido) e arranjo a 70 €/h, com orçamento por escrito antes da intervenção."
 ---
 
-# Tomada Não Funciona: 8 Causas e Como Resolver (2026)
+# Tomada Não Funciona: 8 Causas e Soluções (2026)
 
-**A tomada não funciona ou não tem corrente?** Este é um problema comum que pode ter causas simples (disjuntor desarmado) ou mais complexas (cabo partido). Neste guia completo, vou mostrar-lhe **as 8 causas principais** de tomadas que não funcionam e **como resolver cada uma com segurança**.
+**A tomada não funciona ou não tem corrente?** Este é um problema comum que pode ter causas simples (disjuntor desarmado) ou mais complexas (cabo partido). Neste guia completo, a nossa equipa apresenta as **8 causas principais** de tomadas que não funcionam e explica **como resolver cada uma com segurança**.
 
-> ⚠️ **ATENÇÃO:** Trabalhos elétricos envolvem risco de eletrocussão. Se não tem experiência, ligue já: **[932 321 892](tel:+351932321892)** — eletricista com experiência em Bragança Atendimento prioritário.
+> Diagnóstico e arranjo a **70 €/h**, com **orçamento por escrito antes de qualquer intervenção** — sem surpresas na fatura. A nossa equipa trata disjuntor desarmado, tomada queimada, ligação solta e cabo partido com equipamento certificado (Megger MFT1741+, Fluke T6-1000, FLIR E96).
+
+## Como resolver uma tomada que não funciona em Trás-os-Montes
+
+Quando uma tomada deixa de funcionar, há sempre uma causa identificável — e, na maioria dos casos, uma solução acessível. Antes de chamar um eletricista, vale a pena percorrer três testes rápidos que isolam o problema em menos de cinco minutos. Se o resultado for duvidoso ou envolver eletricidade, a nossa equipa intervém em Trás-os-Montes com preço tabelado (70 €/h + deslocação Z1-Z6) e orçamento por escrito antes de tocar em qualquer fio.
+
+Atendimento 24h/7 dias em Bragança, Mirandela, Macedo de Cavaleiros, Chaves, Vila Real e restantes concelhos da região — para uma avaria elétrica que não pode esperar.
+
+> ⚠️ **ATENÇÃO:** Trabalhos elétricos envolvem risco de eletrocussão. Se não tem experiência, ligue já: **[932 321 892](tel:+351932321892)** — eletricista com experiência em Trás-os-Montes, com orçamento por escrito antes de qualquer intervenção.
 
 ## 🔍 Diagnóstico Inicial: Teste Simples
 
@@ -76,7 +86,7 @@ Sobrecarga (aparelhos a consumir mais que a capacidade do circuito) ou curto-cir
 - **NÃO force!**
 - Há curto-circuito grave
 - Chame eletricista: **[932 321 892](tel:+351932321892)**
-- Custo arranjo: €60-300
+- Custo: **sob orçamento** (70 €/h + deslocação Z1-Z6)
 
 **Se ficar ligado:**
 - Problema resolvido
@@ -160,7 +170,7 @@ Sobrecarga, curto-circuito, ligação solta, ou aparelho com defeito criou arco 
  - Teste com aparelho simples (lâmpada)
 
 **Custo DIY:** €5-50 (tomada + ferramentas) 
-**Custo profissional:** €50-120 (instalação + materiais)
+**Custo profissional:** **sob orçamento** (70 €/h + deslocação Z1-Z6; materiais incluídos)
 
 **Tempo:** 30-45 minutos (primeira vez)
 
@@ -175,7 +185,7 @@ Sobrecarga, curto-circuito, ligação solta, ou aparelho com defeito criou arco 
 **Por que acontece:**
 Parafusos dos terminais soltaram-se com o tempo, ou terminais oxidaram (humidade).
 
-**Solução: Reapertar ou limpar ligações (€0-80)**
+**Solução: Reapertar ou limpar ligações (sob orçamento)**
 
 **Passo a passo:**
 
@@ -193,7 +203,7 @@ Parafusos dos terminais soltaram-se com o tempo, ou terminais oxidaram (humidade
 
 5. **Volte a montar e teste**
 
-**Se não se sentir confortável, chame eletricista (€40-80).**
+**Se não se sentir confortável, chame eletricista (sob orçamento, 70 €/h).**
 
 ### Causa 5: Cabo Partido ou Danificado ()
 
@@ -206,7 +216,7 @@ Parafusos dos terminais soltaram-se com o tempo, ou terminais oxidaram (humidade
 **Por que acontece:**
 Cabo foi cortado acidentalmente (furar parede, pregar quadro), roído por roedores, ou partiu com o tempo.
 
-**Solução: Localizar e arranjar cabo (€80-400)**
+**Solução: Localizar e arranjar cabo partido (sob orçamento)**
 
 **Diagnóstico:**
 - Difícil sem equipamento profissional
@@ -218,7 +228,7 @@ Cabo foi cortado acidentalmente (furar parede, pregar quadro), roído por roedor
 - Instalar caixa de derivação
 - Religar cabos com ligadores
 - Fechar parede e rebocar
-- Custo: €80-400 (dependendo da localização)
+- Custo: **sob orçamento** (dependendo da localização; 70 €/h + deslocação Z1-Z6)
 
 **Requer eletricista com experiência.**
 
@@ -232,7 +242,7 @@ Cabo foi cortado acidentalmente (furar parede, pregar quadro), roído por roedor
 **Por que acontece:**
 Fios ligados incorretamente (fase e neutro trocados, terra não ligada), ou ligação mal feita.
 
-**Solução: Reinstalar corretamente (€40-100)**
+**Solução: Reinstalar corretamente (sob orçamento)**
 
 **Verificação:**
 1. Desligue o disjuntor
@@ -244,7 +254,7 @@ Fios ligados incorretamente (fase e neutro trocados, terra não ligada), ou liga
 4. Corrija se necessário
 5. Aperte bem todos os parafusos
 
-**Se não tem certeza, chame eletricista (€40-100).**
+**Se não tem certeza, chame eletricista (sob orçamento, 70 €/h).**
 
 ### Causa 7: Problema no Circuito ()
 
@@ -257,7 +267,7 @@ Fios ligados incorretamente (fase e neutro trocados, terra não ligada), ou liga
 **Por que acontece:**
 Cabo partido na caixa de derivação, ligação solta no quadro, ou problema na instalação.
 
-**Solução: Diagnóstico e arranjo profissional (€80-300)**
+**Solução: Diagnóstico e arranjo profissional (sob orçamento, 70 €/h)**
 
 **Requer eletricista com equipamento de diagnóstico:**
 - Multímetro
@@ -295,22 +305,15 @@ Mecanismo de proteção infantil está bloqueado ou rígido.
 | Ligar disjuntor | Grátis | Muito fácil | Baixo |
 | Testar aparelho | Grátis | Muito fácil | Nenhum |
 | Reapertar ligações | Grátis | Moderada | Médio |
-| Substituir tomada | €5-50 | Moderada | Médio |
+| **Substituir tomada** | €5-50 | Moderada | Médio |
 
 **SEMPRE desligue o disjuntor antes de trabalhar!**
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
-| Serviço | Preço em Trás-os-Montes |
-|---------|-------------------------|
-| Diagnóstico | €40-80 |
-| Substituir tomada simples | €50-120 |
-| Arranjar ligação solta | €40-100 |
-| Arranjar cabo partido | €80-400 |
-| Instalar tomada nova | €60-150 |
-| Arranjar curto-circuito | €80-300 |
-| Urgência 24h | +€50-80 |
+### Preços por tipo de intervenção (profissional)
 
-> 💡 **Tomada não funciona?** eletricista com experiência: **[932 321 892](tel:+351932321892)** — Diagnóstico rápido, arranjo garantida.
+Cada caso tem diagnóstico próprio. Para avarias variáveis (curto-circuito, cabo partido, certificação DGEG), emitimos **orçamento por escrito após diagnóstico** — **sem surpresas na fatura**. Mão de obra: **70 €/h**; deslocação tabelada por zona (Z1=15 € a Z6=65 €); noite, domingo e feriado: **+50 %**.
+
+> 💡 **Tomada não funciona?** Eletricista com experiência em Trás-os-Montes: **[932 321 892](tel:+351932321892)** — diagnóstico rápido, arranjo com garantia escrita.
 
 ## 🔍 Diagnóstico Completo Passo a Passo
 
@@ -349,11 +352,12 @@ Mecanismo de proteção infantil está bloqueado ou rígido.
  - Sem tensão? → Problema no circuito (eletricista)
 
 **Se não tem multímetro:**
-- Chame eletricista para diagnóstico (€40-80)
+- Chame eletricista para diagnóstico (**sob orçamento** — 70 €/h + deslocação Z1-Z6)
 
 ## 🛡️ Prevenção e Segurança
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
+### Sobrecarga: causas e limites por tomada
+
 **Não ligue ao mesmo tempo:**
 - Aquecedor + chaleira
 - Forno + micro-ondas
@@ -364,21 +368,23 @@ Mecanismo de proteção infantil está bloqueado ou rígido.
 - Tomada 16A = 3.680W máximo
 - Não exceda 80% = 2.900W recomendado
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
+### Boas e más práticas de utilização
+
 **Boas práticas:**
-✅ Puxe pela ficha (não pelo cabo) 
-✅ Não force fichas que não encaixam 
-✅ Não use tomadas danificadas 
-✅ Não sobrecarregue extensões 
-✅ Use extensões com proteção
+- Puxe pela ficha (não pelo cabo)
+- Não force fichas que não encaixam
+- Não use tomadas danificadas
+- Não sobrecarregue extensões
+- Use extensões com proteção
 
 **Más práticas:**
-❌ Adaptar fichas com fita isoladora 
-❌ Ligar extensão em extensão 
-❌ Usar tomadas molhadas 
-❌ Deixar fichas soltas (faíscas)
+- Adaptar fichas com fita isoladora
+- Ligar extensão em extensão
+- Usar tomadas molhadas
+- Deixar fichas soltas (faíscas)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
+### Manutenção preventiva por périodo
+
 **Anual:**
 - Verifique todas as tomadas (sinais de aquecimento, oxidação)
 - Aperte parafusos se necessário
@@ -395,14 +401,14 @@ Mecanismo de proteção infantil está bloqueado ou rígido.
 - Atualizar para tomadas com terra (se não tiver)
 - Considerar tomadas USB integradas
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
-**Chame eletricista IMEDIATAMENTE se:**
-🚨 Cheiro a queimado 
-🚨 Fumo na tomada 
-🚨 Faíscas ao ligar/desligar 
-🚨 Tomada muito quente 
-🚨 Choque elétrico ao tocar 
-🚨 Disjuntor desarma repetidamente
+### Sinais de alarme — chame a nossa equipa IMEDIATAMENTE
+
+- Cheiro a queimado
+- Fumo na tomada
+- Faíscas ao ligar/desligar
+- Tomada muito quente
+- Choque elétrico ao tocar
+- Disjuntor desarma repetidamente
 
 ## ❓ Perguntas Frequentes
 
@@ -416,7 +422,7 @@ Problema é o aparelho (avariado) ou a ficha (contacto ruim). Teste o aparelho n
 **NUNCA!** Risco de eletrocussão fatal. SEMPRE desligue o disjuntor e teste com multímetro que não há tensão antes de tocar nos fios.
 
 **4. Tomada tem 2 furos, posso ligar ficha com 3 pinos?**
-Não recomendado. Tomada sem terra (2 furos) não protege contra choques. Ideal: instalar tomada com terra (3 furos). Custo: €60-150 profissional.
+Não recomendado. Tomada sem terra (2 furos) não protege contra choques. Ideal: instalar tomada com terra (3 furos) — **sob orçamento**, consoante o ponto de instalação.
 
 **5. Quantos aparelhos posso ligar numa tomada?**
 Depende da potência total. Tomada 16A suporta 3.680W. Exemplo: TV 100W + consola 150W + carregador 20W = 270W (OK). Mas aquecedor 2.000W + chaleira 2.000W = 4.000W (sobrecarga!).
@@ -428,7 +434,13 @@ Não! Extensão partilha a mesma capacidade. Se tomada é 16A (3.680W), todas as
 Diagnóstico é igual. MAS tomadas exteriores têm proteção IP65 (à prova de água). Verifique se tampa fecha bem. Humidade pode causar curto-circuito ou oxidação.
 
 **8. Vale a pena arranjar ou instalar nova?**
-**Arranjar se:** Ligação solta, oxidação leve, tomada < 10 anos. **Substituir se:** Queimada, rachada, > 15 anos, sem terra. Tomada nova: €5-20 (DIY) ou €50-120 (profissional).
+**Arranjar se:** Ligação solta, oxidação leve, tomada < 10 anos. **Substituir se:** Queimada, rachada, > 15 anos, sem terra. Mão de obra a partir de **70 €/h**, sob orçamento por escrito após diagnóstico.
+
+**9. Quanto custa arranjar uma tomada que não funciona em Trás-os-Montes?**
+O custo depende da causa. Mão de obra: **70 €/h**; deslocação tabelada por zona (Z1=15 € a Z6=65 €); noite, domingo e feriado: **+50 %**. Para casos variáveis (tomada queimada, cabo partido, curto-circuito), emitimos **orçamento por escrito antes da intervenção** — sem surpresas na fatura.
+
+**10. Como saber se o problema é na tomada ou no disjuntor?**
+Três testes: (1) ligar outro aparelho na mesma tomada — se funcionar, o aparelho original tem problema; (2) testar a mesma ficha noutra tomada — se não funcionar em lado nenhum, o problema está na ficha ou no cabo do aparelho; (3) verificar se há disjuntor desarmado no quadro e se outras tomadas do mesmo circuito também falham. Se houver cheiro a queimado, faíscas ou o disjuntor voltar a desarmar imediatamente, **não force** e contacte a nossa equipa: **+351 932 321 892**.
 
 ## 🎯 Conclusão: Tomada Que Não Funciona Tem Solução
 
@@ -437,7 +449,7 @@ Na maioria dos casos, tomada que não funciona tem **causa identificável e solu
 **Causas mais comuns:**
 1. **Disjuntor desarmado** (35%) → Ligar (grátis)
 2. **Aparelho avariado** (20%) → Substituir aparelho
-3. **Tomada queimada** (15%) → Substituir (€5-120)
+3. **Tomada queimada** (15%) → Substituir (**sob orçamento**)
 4. **Ligação solta** (12%) → Reapertar (grátis-€80)
 
 **Diagnóstico simples:**
