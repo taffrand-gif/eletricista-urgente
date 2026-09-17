@@ -1,27 +1,37 @@
 ---
-title: "Tomada Não Funciona: 8 Causas + Preço 70 €/h (2026)"
+title: "Tomada Não Funciona ou Parou de Funcionar: 8 Causas + Preço 70 €/h"
 slug: "tomada-nao-funciona"
 category: "Problemas Elétricos"
 date: "2026-03-04"
-lastmod: "2026-09-10"
+lastmod: "2026-09-17"
 author: ""
-excerpt: "Tomada não funciona em Trás-os-Montes? 8 causas (disjuntor, tomada queimada, cabo partido) e arranjo a 70 €/h, com orçamento por escrito antes da intervenção."
-keywords: ["tomada não funciona", "tomada sem corrente", "tomada queimada", "arranjar tomada", "eletricista Bragança", "tomada avariada", "tomada não funciona Trás-os-Montes"]
+excerpt: "Tomada não funciona ou parou de funcionar em Trás-os-Montes? 8 causas (disjuntor, tomada queimada, cabo partido) e arranjo a 70 €/h, com orçamento por escrito antes da intervenção."
+keywords: ["tomada não funciona", "tomada parou de funcionar", "tomada não funciona Trás-os-Montes", "tomada não funciona há dias", "o que fazer quando a tomada não funciona", "tomada sem corrente", "tomada queimada", "arranjar tomada", "eletricista Bragança", "tomada avariada", "tomada parou de funcionar Trás-os-Montes"]
 priority: "HIGH DEMAND"
-description: "Tomada não funciona em Trás-os-Montes? 8 causas (disjuntor, tomada queimada, cabo partido) e arranjo a 70 €/h, com orçamento por escrito antes da intervenção."
+description: "Tomada não funciona ou parou de funcionar em Trás-os-Montes? 8 causas (disjuntor, tomada queimada, cabo partido) e arranjo a 70 €/h, com orçamento por escrito antes da intervenção."
 ---
 
 # Tomada Não Funciona: 8 Causas e Soluções (2026)
 
-**A tomada não funciona ou não tem corrente?** Este é um problema comum que pode ter causas simples (disjuntor desarmado) ou mais complexas (cabo partido). Neste guia completo, a nossa equipa apresenta as **8 causas principais** de tomadas que não funcionam e explica **como resolver cada uma com segurança**.
+**A tomada não funciona ou parou de funcionar?** Este é um problema comum que pode ter causas simples (disjuntor desarmado) ou mais complexas (cabo partido). Neste guia completo, a nossa equipa apresenta as **8 causas principais** de tomadas que não funcionam e explica **como resolver cada uma com segurança**.
 
 > Diagnóstico e arranjo a **70 €/h**, com **orçamento por escrito antes de qualquer intervenção** — sem surpresas na fatura. A nossa equipa trata disjuntor desarmado, tomada queimada, ligação solta e cabo partido com equipamento certificado (Megger MFT1741+, Fluke T6-1000, FLIR E96).
+
+## A tomada parou de funcionar de repente — o que fazer primeiro?
+
+Quando a **tomada parou de funcionar de repente**, três cenários explicam 95% dos casos: (1) o disjuntor desse circuito desarmou (sobrecarga ou curto-circuito) — verifique no quadro e religue; (2) uma ligação solta na própria tomada ou na caixa de derivação perdeu contacto — sintoma clássico é tomada que funciona aos toques; (3) um aparelho ligado em simultâneo avariou e puxou o circuito abaixo — desligue tudo da tomada e teste de novo. Se depois destes testes a tomada continuar sem corrente, há um problema mais profundo (cabo partido, oxidação avançada, disjuntor defeituoso) que exige diagnóstico profissional. A nossa equipa intervém em Trás-os-Montes com preço tabelado (**70 €/h** + deslocação Z1-Z6) e orçamento por escrito antes de tocar em qualquer fio.
 
 ## Como resolver uma tomada que não funciona em Trás-os-Montes
 
 Quando uma tomada deixa de funcionar, há sempre uma causa identificável — e, na maioria dos casos, uma solução acessível. Antes de chamar um eletricista, vale a pena percorrer três testes rápidos que isolam o problema em menos de cinco minutos. Se o resultado for duvidoso ou envolver eletricidade, a nossa equipa intervém em Trás-os-Montes com preço tabelado (70 €/h + deslocação Z1-Z6) e orçamento por escrito antes de tocar em qualquer fio.
 
 Atendimento 24h/7 dias em Bragança, Mirandela, Macedo de Cavaleiros, Chaves, Vila Real e restantes concelhos da região — para uma avaria elétrica que não pode esperar.
+
+### Quando a tomada não funciona — causas principais e o que verificar primeiro
+
+Se a **tomada não funciona** e ainda não identificou a causa, há um conjunto pequeno de verificações que elimina cerca de metade dos casos sem ferramentas: (1) **outras tomadas da mesma divisão** também falham? Se sim, é quase sempre o disjuntor do circuito que desarmou — vá ao quadro e religue (se voltar a desarmar de imediato, há curto-circuito; **não force**); (2) **outros aparelhos na mesma tomada** funcionam? Se sim, o problema é o aparelho original (cabo partido ou ficha avariada); (3) **outras tomadas noutra divisão** funcionam? Se sim, é um circuito isolado — provável cabo solto na caixa de derivação ou disjuntor dedicado. Se nenhum destes testes resolve, a tomada tem provavelmente **ligação solta, oxidação avançada ou cabo interrompido** dentro da parede — exige diagnóstico profissional com Megger MFT1741+ (teste de isolamento) e Fluke T6-1000 (medição de tensão sem contacto). Mão de obra a **70 €/h**, deslocação Z1-Z6 tabelada, **orçamento por escrito antes de qualquer intervenção**.
+
+Em Trás-os-Montes, predominam instalações com mais de 20 anos — quadros sem disjuntor diferencial 30 mA, tomadas sem terra, cabos de PVC ressequido. Quando a **tomada não funciona** neste contexto, o diagnóstico profissional poupa tempo (e evita choques): **+351 932 321 892**.
 
 > ⚠️ **ATENÇÃO:** Trabalhos elétricos envolvem risco de eletrocussão. Se não tem experiência, ligue já: **[932 321 892](tel:+351932321892)** — eletricista com experiência em Trás-os-Montes, com orçamento por escrito antes de qualquer intervenção.
 
@@ -441,6 +451,18 @@ O custo depende da causa. Mão de obra: **70 €/h**; deslocação tabelada por 
 
 **10. Como saber se o problema é na tomada ou no disjuntor?**
 Três testes: (1) ligar outro aparelho na mesma tomada — se funcionar, o aparelho original tem problema; (2) testar a mesma ficha noutra tomada — se não funcionar em lado nenhum, o problema está na ficha ou no cabo do aparelho; (3) verificar se há disjuntor desarmado no quadro e se outras tomadas do mesmo circuito também falham. Se houver cheiro a queimado, faíscas ou o disjuntor voltar a desarmar imediatamente, **não force** e contacte a nossa equipa: **+351 932 321 892**.
+
+**11. A tomada parou de funcionar de repente, o que pode ser?**
+Três causas cobrem a maioria dos casos: (1) o disjuntor desse circuito desarmou (sobrecarga ou curto-circuito) — verifique no quadro e religue; (2) ligação solta na tomada ou na caixa de derivação — sintoma clássico é tomada que funciona aos toques; (3) aparelho ligado em simultâneo avariou e puxou o circuito abaixo — desligue tudo da tomada e teste de novo. Se nada resultar, há problema mais profundo (cabo partido, oxidação avançada, disjuntor defeituoso) que exige diagnóstico profissional. Mão de obra a **70 €/h**, deslocação Z1-Z6 tabelada; **orçamento por escrito antes de qualquer intervenção**.
+
+**12. Como saber se a tomada parou ou se é o disjuntor?**
+Vá ao quadro elétrico e veja se o disjuntor do circuito de tomadas (geralmente identificado « Tomadas Sala », « Tomadas Cozinha », etc.) está na posição baixo. Se sim, tente ligá-lo: se ficar ligado, o problema estava resolvido; se desarmar de imediato, há curto-circuito no circuito — **não force** e desligue aparelhos. Se o disjuntor estiver ligado, teste outro aparelho na mesma tomada: se funcionar, o aparelho original está avariado; se não funcionar, a tomada ou o circuito está em falta. Em qualquer cenário duvidoso, contacte a nossa equipa em Trás-os-Montes: **+351 932 321 892**, diagnóstico a 70 €/h + deslocação Z1-Z6.
+
+**13. Quando a tomada não funciona há dias, o que pode estar a acontecer?**
+Quando a tomada deixa de funcionar de forma persistente (não é um pico passageiro), as causas mais prováveis são: (1) **ligação solta na própria tomada** — parafusos dos terminais que perderam aperto com o tempo, sintoma clássico é a ficha entrar frouxa ou a tomada funcionar só aos toques; (2) **tomada queimada por sobrecarga** — plástico amarelecido, marcas negras à volta dos furos, cheiro residual a queimado; (3) **cabo interrompido dentro da parede** — frequente em obras antigas onde os cabos foram dobrados em ângulo fechado ou roídos por roedores; (4) **tomada sem terra danificada** em divisões húmidas (cozinha, casa de banho) onde a humidade oxidou os contactos. Nenhuma destas quatro situações se resolve sem abrir a tomada ou a parede — e mexer em ligações elétricas exige desligar o disjuntor e testar ausência de tensão. Para diagnóstico seguro, contacte a nossa equipa: mão de obra a **70 €/h** + deslocação Z1-Z6, **orçamento por escrito antes de qualquer intervenção**.
+
+**14. O que fazer quando a tomada não funciona em Trás-os-Montes?**
+Siga esta sequência: (1) confirme se **outras tomadas da mesma divisão** falham — se sim, o problema é do circuito (disjuntor ou cabo); (2) confirme se **outros aparelhos na mesma tomada** funcionam — se sim, o problema é o aparelho; (3) confirme se **o disjuntor do circuito está armado** no quadro — se desarmou, tente ligá-lo uma vez; se voltar a desarmar, há curto-circuito e **não deve insistir**. Se nenhum destes testes repõe a corrente, a causa está dentro da parede (cabo partido, oxidação, ligação solta) e exige diagnóstico profissional com Megger MFT1741+ (teste de isolamento) e Fluke T6-1000 (medição sem contacto). A nossa equipa cobre Bragança, Mirandela, Macedo de Cavaleiros, Chaves, Vila Real e toda a região de Trás-os-Montes — diagnóstico a **70 €/h** + deslocação Z1-Z6 tabelada, com **orçamento por escrito antes de qualquer intervenção**, sem surpresas na fatura. Atendimento 24h/7 dias. Contacto: **+351 932 321 892**.
 
 ## 🎯 Conclusão: Tomada Que Não Funciona Tem Solução
 
