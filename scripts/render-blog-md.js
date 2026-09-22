@@ -43,6 +43,15 @@ gtag('config', '${GA4_MEASUREMENT_ID}', {'send_page_view': true, 'anonymize_ip':
 window.trackTelClick = function(phone) { gtag('event', 'click_tel', {'event_category': 'conversion', 'event_label': phone, 'value': 1}); };
 window.trackWhatsAppClick = function(source) { gtag('event', 'click_whatsapp', {'event_category': 'conversion', 'event_label': source, 'value': 1}); };
 </script>`;
+// Open Graph image — DOIT être réinjecté à CHAQUE rendu (PR #348, da7673341).
+// Garantit un preview social correct (Facebook/LinkedIn/WhatsApp) avec image 1200x630.
+// Ne pas retirer sans validation explicite de Filipe.
+const OG_IMAGE_MARKER = `
+<meta property="og:image" content="https://eletricista-urgente.pt/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Eletricista Urgente em Trás-os-Montes">`;
+
 const RGPD_BANNER_MARKER = `
 <!-- RGPD — Bandeau UI (t_639f45fd, EU G-ZWNCKFYGRK) -->
 <script data-rgpd-marker="RGPD-t_639f45fd-BANNER-eu-v1">
@@ -450,6 +459,7 @@ function renderPage(parsed, repoRoot) {
   <meta property="og:type" content="article">
   <meta property="og:url" content="${canonical}">
   <meta property="og:locale" content="pt_PT">
+  ${OG_IMAGE_MARKER}
   <meta name="twitter:card" content="summary">
   ${schemas.map(jsonLd).join('\n  ')}
   <style>

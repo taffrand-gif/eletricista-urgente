@@ -49,6 +49,12 @@ try {
   assert.match(html, /rgpd-consent-eu-v1/);
   assert.match(html, /getElementById\("rgpd-banner-eu"\)/);
   assert.match(html, /var BANNER_ID="rgpd-banner-eu"/);
+  // Open Graph image (PR #348) — verrouille la régression og:image détectée sur cabo-eletrico-tipos
+  assert.match(html, /<meta property="og:image" content="https:\/\/eletricista-urgente\.pt\/og-image\.png">/);
+  assert.match(html, /<meta property="og:image:width" content="1200">/);
+  assert.match(html, /<meta property="og:image:height" content="630">/);
+  assert.match(html, /<meta property="og:image:alt" content="Eletricista Urgente em Trás-os-Montes">/);
+
   assert.doesNotMatch(html, /Maria S\.|exemplo real|relatório técnico|certificad[oa] em|resposta prioritária/i);
 
   const safeFindings = auditConformity(html);
