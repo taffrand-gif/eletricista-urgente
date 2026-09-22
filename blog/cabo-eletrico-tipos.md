@@ -1,17 +1,17 @@
 ---
-title: "Tipos de Cabos Elétricos: tipos de cabos e Guia Completo (2026)"
+title: "Tipos de Cabos Elétricos: Guia Completo (2026)"
 slug: "cabo-eletrico-tipos"
 category: "Guias Técnicos"
 date: "2026-09-22"
 lastmod: "2026-09-22"
 author: ""
-description: "Tipos de cabos elétricos em Portugal: H05VV-F, H07RN-F, H07V-U, XV/LSOH. Secções 1,5mm², 2,5mm², 4mm², 6mm². Guia completo para escolher o cabo certo com segurança."
+description: "Quais os tipos de cabos elétricos mais usados em Portugal? Conheça os tipos de cabos H05VV-F, H07RN-F, H07V-U e XV/LSOH, secções 1,5mm² a 6mm², e como escolher para cada aplicação com segurança."
 excerpt: "Quais os tipos de cabos elétricos mais usados em Portugal? Conheça os tipos de cabos H05VV-F, H07RN-F, H07V-U e XV/LSOH, secções 1,5mm² a 6mm², e como escolher para cada aplicação com segurança. Diagnóstico e instalação pela nossa equipa a 70 €/h, com orçamento por escrito."
 keywords: ["tipos de cabos", "tipos de cabos elétricos", "tipos cabos elétricos", "cabo H05VV-F", "cabo H07RN-F", "cabo H07V-U", "cabo XV LSOH", "secção cabo", "escolher cabo", "cabo elétrico casa", "eletricista Trás-os-Montes"]
 priority: "TRENDING"
 ---
 
-# Tipos de Cabos Elétricos: tipos de cabos e Guia Completo (2026)
+# Tipos de Cabos Elétricos: Guia Completo (2026)
 
 **Quais os tipos de cabos elétricos que existem em Portugal e como escolher o certo?** Este guia cobre os principais tipos de cabos usados em instalações residenciais e exteriores — desde o H05VV-F interior até ao H07RN-F para exterior — com a secção adequada (1,5mm², 2,5mm², 4mm², 6mm²), o código de cores (fase, neutro, terra) e as boas práticas de instalação. Os tipos de cabos variam consoante a aplicação: cabo flexível para aparelhos móveis, cabo rígido para instalações fixas em condutas, cabo de borracha para exterior. Escolher o cabo errado provoca aquecimento, disparo do disjuntor e risco de incêndio — pelo que a nossa equipa aplica diagnóstico e instalação correta a **70 €/h**, com deslocação Z1-Z6 tabelada e **orçamento por escrito antes de qualquer intervenção**.
 

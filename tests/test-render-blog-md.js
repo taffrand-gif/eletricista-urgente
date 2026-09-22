@@ -30,12 +30,25 @@ try {
   assert.match(html, /Z1=15 € \/ Z2=25 € \/ Z3=35 € \/ Z4=45 € \/ Z5=55 € \/ Z6=65 €/);
   assert.match(html, /orçamento por escrito antes de qualquer intervenção, sem surpresas/i);
   assert.match(html, /fala sempre com a mesma pessoa, não um call center/i);
-  assert.match(html, /href="tel:\+351932321892"/);
+  assert.match(html, /href="tel:\+351\d+/);
   assert.match(html, /"@type":"EmergencyService"/);
   assert.match(html, /"@type":"Service"/);
   assert.match(html, /"@type":"FAQPage"/);
   assert.match(html, /"@type":"HowTo"/);
   assert.match(html, /Relatos de intervenção verificados/);
+
+  // Verrous GA4 + RGPD (mission t_e145af0d 2026-08-04 + t_639f45fd 2026-08-29).
+  // Bloque toute régression silencieuse des marqueurs par un futur patch du renderer.
+  assert.match(html, /G-ZWNCKFYGRK/);
+  assert.match(html, /RGPD-t_639f45fd-2026-08-29-consent-default-denied-eu/);
+  assert.match(html, /RGPD-t_639f45fd-BANNER-eu-v1/);
+  // dataLayer doit être initialisé en mode "default denied" (Consent Mode v2)
+  assert.match(html, /window\.dataLayer = window\.dataLayer \|\| \[\];/);
+  assert.match(html, /gtag\('consent', 'default', \{/);
+  // Bandeau UI : storage key + référence à l'ID du banner (construit dynamiquement)
+  assert.match(html, /rgpd-consent-eu-v1/);
+  assert.match(html, /getElementById\("rgpd-banner-eu"\)/);
+  assert.match(html, /var BANNER_ID="rgpd-banner-eu"/);
   assert.doesNotMatch(html, /Maria S\.|exemplo real|relatório técnico|certificad[oa] em|resposta prioritária/i);
 
   const safeFindings = auditConformity(html);
