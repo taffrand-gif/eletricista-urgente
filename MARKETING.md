@@ -5,7 +5,7 @@
 > Ici = **comment construire des messages qui convertissent DANS ce cadre**. En cas de contradiction → AGENTS.md prime, toujours.
 
 ## Quadrant
-**Électricité ⚡ × URGENCE**. NAP **+351 932 321 892** (≠ 928 plomberie — ne jamais croiser). Tarif **70 €/h** (grille Z1-Z6 dans AGENTS.md §12). Satellite SEO de `eletricista-norte-reparos.pt`. Géo-neutre (Trás-os-Montes ; localité injectée par page pSEO).
+**Électricité ⚡ × URGENCE**. NAP **+351 932 321 892** (≠ 928 plomberie — ne jamais croiser). Tarif **70 €/h + 30 €** dias úteis · **100 €/h + 50 €** noite/fins de semana/feriados (grille unique `PRICING.md`). Satellite SEO de `eletricista-norte-reparos.pt`. Géo-neutre (Trás-os-Montes ; localité injectée par page pSEO).
 
 ## Persona cible
 Panne hors heures avec **danger ressenti** : coupure totale, disjoncteur qui saute en boucle, odeur de brûlé/prise chaude. Décision en ~2 min. Double peur : **arnaque prix** (cf. R12) **+ sécurité** (incendie/électrocution). Veut : pro qui décroche, rassure, prix clair d'avance.

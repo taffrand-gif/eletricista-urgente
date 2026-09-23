@@ -1,7 +1,7 @@
 # Norte Reparos — Eletricista Urgente em Trás-os-Montes
 
 > Serviço de eletricista urgente 24h/7d em Trás-os-Montes, pelo técnico Filipe Bragança, com equipamento profissional (Fluke T6-1000, Megger MFT1741+, FLIR E96, ROLeak Aqua 3Plus, câmara de inspeção 30 m) e materiais Legrand, Schneider Electric, Hager, ABB, Siemens, Philips.
-> Última atualização: 2026-07-28 · Source grille prix: PRICING-CANONIQUE.md (Z1=15€ · Z2=25€ · Z3=35€ · Z4=45€ · Z5=55€ · Z6=65€ · 70 €/h élec · +50% nuit/WE/feriado)
+> Última atualização: 2026-07-28 · Source grille prix: PRICING-CANONIQUE.md (deslocação 30 € em dias úteis e 50 € à noite, fins de semana e feriados · 70 €/h élec · À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
 
 ## Serviços
 
@@ -13,7 +13,7 @@
 
 ## Preços
 
-Grille officielle Nord Reparos: mão de obra **70 €/h** (eletricista) + deslocação **Z1=15€ · Z2=25€ · Z3=35€ · Z4=45€ · Z5=55€ · Z6=65€** (selon distance routière calculée depuis notre base, ~130 km rayon opérationnel). Acréscimo +50% noite (20h-8h), fim de semana e feriados. Orçamento por escrito antes de qualquer intervenção. Voir: [precos.html](https://eletricista-urgente.pt/precos.html)
+Grille officielle Nord Reparos: mão de obra **70 €/h** (eletricista) + deslocação **30 € em dias úteis e 50 € à noite, fins de semana e feriados** (selon distance routière calculée depuis notre base, ~130 km rayon opérationnel). À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes de qualquer intervenção. Voir: [precos.html](https://eletricista-urgente.pt/precos.html)
 
 ## Identidade
 - **Marca:** Norte Reparos (empresa técnica multi-sites)
@@ -28,14 +28,9 @@ Grille officielle Nord Reparos: mão de obra **70 €/h** (eletricista) + desloc
 
 | Zona | Distância aprox. | Deslocação | Mão de obra |
 |---|---|---|---|
-| **Z1** | 0–15 km | **15 €** | **70 €/h** |
-| **Z2** | 15–30 km | **25 €** | **70 €/h** |
-| **Z3** | 30–50 km | **35 €** | **70 €/h** |
-| **Z4** | 50–70 km | **45 €** | **70 €/h** |
-| **Z5** | 70–90 km | **55 €** | **70 €/h** |
-| **Z6** | 90–140 km | **65 €** | **70 €/h** |
-
-- **Acréscimo** noturno (20h–8h), fins de semana e feriados: **+50 %**
+| Dias úteis (9h–17h) | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | 30 € + 70 €/hora |
+| Noite (17h–9h), fins de semana e feriados | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | 50 € + 100 €/hora |
+Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €
 - **Orçamento por escrito** antes de qualquer intervenção, sem surpresas
 - **Fatura** com NIF emitida no final de cada trabalho
 - **Seguro** de responsabilidade civil profissional
@@ -58,16 +53,16 @@ Grille officielle Nord Reparos: mão de obra **70 €/h** (eletricista) + desloc
 ## Perguntas frequentes
 
 **Quanto custa um eletricista de urgência em Trás-os-Montes?**
-Mão de obra 70 €/h + deslocação por zona Z1-Z6 (15 € a 65 €). Acréscimo de 50 % fora do horário normal. Orçamento por escrito antes da intervenção.
+Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes da intervenção.
 
-**Fazem orçamento grátis?**
+**Fazem orçamento por escrito?**
 Sim, orçamento por telefone e por escrito, sem compromisso, antes de qualquer intervenção.
 
 **Quanto tempo demora a chegada?**
 A deslocação é confirmada por telefone antes da intervenção. O tempo de chegada depende da zona — confirmamos a previsão ao telefone.
 
 **Trabalham de noite e ao fim de semana?**
-Sim, 24h/7d incluindo feriados. Acréscimo de +50 % aplicado de forma transparente.
+Sim, 24h/7d incluindo feriados. À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
 
 **Têm certificação para emitir fichas eletrotécnicas?**
 Sim. Filipe Bragança é Técnico Responsável de Instalações Elétricas inscrito na DGEG (TRIESP n.º 90062, domínio Execução em Baixa Tensão, instalações até 41,4 kVA). Emitimos Ficha Eletrotécnica e Termo de Responsabilidade, com seguro de responsabilidade civil válido.

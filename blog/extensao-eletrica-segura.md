@@ -405,7 +405,7 @@ Em Trás-os-Montes, onde muitas casas têm poucas tomadas (construções antigas
 ✅ Instalação de tomadas adicionais 
 ✅ Upgrade de quadro elétrico 
 
-✅ Orçamento grátis sem compromisso 
+✅ Orçamento por escrito sem compromisso 
 ✅ Garantia de 2 anos 
 
 **📞 Ligue Agora:** [Contacto por telefone ou WhatsApp](tel:+351932321892) 

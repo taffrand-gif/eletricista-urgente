@@ -383,7 +383,7 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 
 **Contacto: 321 892**
 
-✅ Orçamento gratuito sem compromisso
+✅ Orçamento por escrito sem compromisso
 ✅ Quadros certificados (✅ Instalação em 2-4 horas
 
 ✅ Garantia 5 anos

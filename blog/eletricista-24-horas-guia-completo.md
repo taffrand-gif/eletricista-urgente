@@ -21,7 +21,7 @@ faqSchema:
  - question: "Quanto tempo  a chegar?"
  answer: "15-40 minutos em Bragança, 30-70 minutos em Mirandela, até 90 minutos em zonas mais afastadas de Trás-os-Montes."
  - question: "Quanto custa eletricista Atendimento 24h/7d?"
- answer: "Dias úteis: 70€/h, Sábados: sob orçamento, Domingos/feriados: sob orçamento, Noite (20h-8h): sob orçamento. Mais deslocação 30-60€."
+ Mão de obra: 70 €/hora em dias úteis (9h–17h) e 100 €/hora à noite (17h–9h), fins de semana e feriados. Mais deslocação 30-60€."
  - question: "Eletricista 24h trabalha feriados?"
  answer: "Sim, 365 dias por ano incluindo Natal, Ano Novo e todos os feriados. Preços iguais a domingos."
 ---
@@ -48,7 +48,7 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 
 ## Tempos de Resposta por Cidade
 
-### Zona 1: Bragança e Arredores (15-40 min)
+### Bragança e Arredores (15-40 min)
 
 | Localidade | Distância | Tempo Normal | Tempo Noite |
 |------------|-----------|--------------|-------------|
@@ -61,7 +61,7 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 
 **Média:** 15-30 minutos
 
-### Zona 2: Vinhais e Macedo (30-50 min)
+### Vinhais e Macedo (30-50 min)
 
 | Localidade | Distância | Tempo Normal | Tempo Noite |
 |------------|-----------|--------------|-------------|
@@ -72,7 +72,7 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 
 **Média:** 35-45 minutos
 
-### Zona 3: Mirandela e Mogadouro (50-70 min)
+### Mirandela e Mogadouro (50-70 min)
 
 | Localidade | Distância | Tempo Normal | Tempo Noite |
 |------------|-----------|--------------|-------------|
@@ -83,7 +83,7 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 
 **Média:** 50-65 minutos
 
-### Zona 4: Chaves e Vila Real (60-90 min)
+### Chaves e Vila Real (60-90 min)
 
 | Localidade | Distância | Tempo Normal | Tempo Noite |
 |------------|-----------|--------------|-------------|
@@ -93,7 +93,7 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 
 **Média:** 80-90 minutos
 
-### Zona 5: Miranda do Douro (75-90 min)
+### Miranda do Douro (75-90 min)
 
 | Localidade | Distância | Tempo Normal | Tempo Noite |
 |------------|-----------|--------------|-------------|
@@ -112,34 +112,30 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 | Período | Dias Úteis | Sábado | Domingo/Feriado |
 |---------|------------|--------|-----------------|
 | **Dia (8h-20h)** | 70€ | 90€ | 100€ |
-| **Noite (20h-8h)** | 105€ (+50%) | 135€ (+50%) | 150€ (+50%) |
+| Noite, fim de semana e feriado: 100 €/hora + deslocação 50 € | Noite, fim de semana e feriado: 100 €/hora + deslocação 50 € | Noite, fim de semana e feriado: 100 €/hora + deslocação 50 € | Noite, fim de semana e feriado: 100 €/hora + deslocação 50 € |
 
 ### Deslocação (Cobrada 1x)
 
 | Zona | Preço Normal | Preço Noturno |
 |------|--------------|---------------|
-| Zona 1 (0-15km) | 15€ | 22,50€ (+50%) |
-| Zona 2 (15-35km) | 25€ | 37,50€ (+50%) |
-| Zona 3 (35-50km) | 35€ | 52,50€ (+50%) |
-| Zona 4 (50-70km) | 45€ | 67,50€ (+50%) |
-| Zona 5 (70-90km) | 55€ | 82,50€ (+50%) |
-
+| Dias úteis (9h–17h) | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | 30 € + 70 €/hora |
+| Noite (17h–9h), fins de semana e feriados | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | 50 € + 100 €/hora |
 ## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 
 **Exemplo 1: Sem corrente (Terça 22h, Bragança)**
-- Deslocação Zona 1 noturna: 22,50€
+- Deslocação noturna: 22,50€
 - Diagnóstico + arranjo (1h): 105€
 - Material (disjuntor): 25€
 - **TOTAL: 152,50€**
 
 **Exemplo 2: Curto-circuito (Domingo 15h, Mirandela)**
-- Deslocação Zona 3: 35€
+- Deslocação 30€
 - Arranjo (1.5h): 150€
 - Material: 30€
 - **TOTAL: 215€**
 
 **Exemplo 3: Cheiro queimado (Sábado 23h, Vinhais)**
-- Deslocação Zona 2 noturna: 37,50€
+- Deslocação noturna: 37,50€
 - Urgência (2h): 270€
 - Material: 45€
 - **TOTAL: 352,50€**
@@ -287,7 +283,7 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 ### PASSO 3: Orçamento Estimado
 
 **Damos preço aproximado:**
-- Deslocação: 15-65€ (conforme zona)
+- Deslocação: 30 € (conforme o caso)
 - Mão obra estimada: 70-sob orçamento
 - Material estimado: 20-50€
 - **Total estimado: 100-300€**

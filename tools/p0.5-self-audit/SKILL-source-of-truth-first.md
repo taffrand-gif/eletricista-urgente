@@ -3,6 +3,8 @@ name: source-of-truth-first
 description: Avant de CRÉER ou MODIFIER tout contenu avec prix/zone/distance/délai/tél, recharger la source unique (zonas-data.json + grille OSRM + doctrine R12). Jamais de valeur métier depuis ta mémoire de session. Trigger : "créer page localité", "page M3 datée", "nouveau service", "fichier preco-", "page zona-".
 ---
 
+> ⚠️ **GRILLE OBSOLÈTE (23/09/2026)** — les exemples de prix par zone ci-dessous sont historiques. Grille en vigueur : `PRICING.md` (70 €/h + 30 € dias úteis 9h–17h · 100 €/h + 50 € noite, fins de semana, feriados). Ne jamais les recopier.
+
 # source-of-truth-first — Recharger la source AVANT tout contenu neuf (S3, mission P0.5, 02/07/2026)
 
 > **Pourquoi** : le défaut #3 de la baseline 02/07 est **la grille périmée sur

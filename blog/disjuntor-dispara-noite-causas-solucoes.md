@@ -14,7 +14,7 @@ schema: "howto"
 
 # Disjuntor Dispara à Noite em Trás-os-Montes: Causas e Soluções
 
-Disjuntor que dispara à noite tem geralmente uma causa técnica identificável — sobrecarga, fuga de corrente, ou desgaste do próprio aparelho. Antes de contactar a nossa equipa, alguns testes simples podem isolar o problema; orçamento por escrito antes de qualquer intervenção, 70 €/h com deslocação Z1-Z6 e majoração noite/WE/feriado de +50 %, sempre sem surpresas.
+Disjuntor que dispara à noite tem geralmente uma causa técnica identificável — sobrecarga, fuga de corrente, ou desgaste do próprio aparelho. Antes de contactar a nossa equipa, alguns testes simples podem isolar o problema; dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes de qualquer intervenção.
 
 ## Porquê dispara mais à noite?
 
@@ -73,7 +73,7 @@ Quando o problema não se resolve com os testes anteriores, o diagnóstico profi
 - **Medição de tensões e correntes** com Fluke T6-1000 — sem contacto, em segurança.
 - **Localização acústica de fugas** em instalações exteriores ou embutidas, com equipamento específico.
 
-O diagnóstico é facturado à hora (70 €/h) mais a deslocação conforme a zona. Se a reparação é simples (substituição de disjuntor, identificação e correção de fuga num ponto), a duração habitual é de 1 a 2 horas. Casos mais complexos — substituição completa de quadro, refazer circuito — são orçamentados por escrito antes de avançar.
+Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Se a reparação é simples (substituição de disjuntor, identificação e correção de fuga num ponto), a duração habitual é de 1 a 2 horas. Casos mais complexos — substituição completa de quadro, refazer circuito — são orçamentados por escrito antes de avançar.
 
 ## Quando contactar um profissional
 
@@ -125,7 +125,7 @@ Sim. Fazemos o trabalho elétrico (instalação, reparação, diagnóstico) e em
 
 ### Atendem 24 horas por dia em Trás-os-Montes?
 
-Sim, 24 horas por dia, 7 dias por semana, em Trás-os-Montes. O serviço é de deslocação + mão-de-obra, com majoração de +50 % em horário noturno, domingo e feriado. Orçamento por escrito antes de qualquer intervenção.
+Sim, 24 horas por dia, 7 dias por semana, em Trás-os-Montes. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes de qualquer intervenção.
 
 ### Disjuntor dispara com chuva, é o que fazer?
 

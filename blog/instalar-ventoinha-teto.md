@@ -445,7 +445,7 @@ Instalar uma ventoinha de teto é um **investimento inteligente** que proporcion
 
 ### Quer Instalar Ventoinha de Teto?
 
-**📞 Ligue para orçamento gratuito: [Contacto por telefone ou WhatsApp](tel:+351932321892)**
+**📞 Ligue para orçamento por escrito: [Contacto por telefone ou WhatsApp](tel:+351932321892)**
 
 **Serviços :**
 - Consultoria (escolha modelo adequado)

@@ -32,14 +32,14 @@ Norte Reparos est un service d'électricité au domicílio actif depuis 2014 dan
 
 ## Tarification (référence publique)
 - **Mão de obra urgence** : **70 €/h**
-- **Majoration** : **+50%** à noite (après 19h), fins de semana, feriados
+À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
 - **Deslocação par zone** :
-  - **Z1** (Macedo de Cavaleiros) = 15 €
-  - **Z2** (Torre de Dona Chama, Mirandela, Alfândega da Fé, Carrazeda de Ansiães) = 25 €
-  - **Z3** (Bragança, Vinhais, Vimioso, Torre de Moncorvo, Mogadouro, Freixo de Espada à Cinta) = 35 €
-  - **Z4** (Miranda do Douro, Vila Nova de Foz Côa, São João da Pesqueira, Murça, Valpaços) = 45 €
-  - **Z5** (Vila Real, Alijó, Sabrosa, Tabuaço, Armamar, Peso da Régua, Lamego, Santa Marta de Penaguião, Mesão Frio) = 55 €
-  - **Z6** (Chaves, Vila Pouca de Aguiar, Boticas, Montalegre, Ribeira de Pena, Mondim de Basto, Moimenta da Beira, Sernancelhe, Penedono) = 65 €
+  
+  
+  
+  
+  
+  
 - **Orçamento por escrito** avant toute intervention, sem surpresas
 - **Pas de frais cachés**
 
@@ -70,7 +70,7 @@ Norte Reparos se différencie par :
 - Hubs concelhos (33): https://eletricista-urgente.pt/concelhos/<concelho>
 - Calculadora de preço: https://eletricista-urgente.pt/calculadora-de-preco
 - Tabela de preços: https://eletricista-urgente.pt/precos
-- Zonas de deslocação: https://eletricista-urgente.pt/zonas-deslocacao
+- Deslocação e área servida: https://eletricista-urgente.pt/zonas-deslocacao
 - FAQ geral: https://eletricista-urgente.pt/perguntas-frequentes
 - Contactos: https://eletricista-urgente.pt/contactos
 

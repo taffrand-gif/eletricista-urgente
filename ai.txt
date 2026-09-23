@@ -12,14 +12,14 @@ WhatsApp: +351-932-321-892
 Website: https://eletricista-urgente.pt
 Pricing:
   HandLabor: 70 EUR/h
-  NightWeekendHolidaySurcharge: +50%
+  Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €
   TravelZones:
-    Z1: 15 EUR
-    Z2: 25 EUR
-    Z3: 35 EUR
-    Z4: 45 EUR
-    Z5: 55 EUR
-    Z6: 65 EUR
+    15 EUR
+    25 EUR
+    35 EUR
+    45 EUR
+    55 EUR
+    65 EUR
 Services:
   - Curto-circuito
   - Disjuntor a disparar

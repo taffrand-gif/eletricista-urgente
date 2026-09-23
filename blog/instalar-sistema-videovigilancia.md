@@ -589,7 +589,7 @@ Neste guia completo, vou explicar:
 
 ** — eletricista com experiência**
 
-✅ Avaliação e orçamento grátis 
+✅ Avaliação e orçamento por escrito 
 ✅ Instalação de sistemas IP, analógicos, híbridos 
 ✅ Configuração de acesso remoto 
 ✅ Passagem de cabos profissional 
@@ -599,7 +599,7 @@ Neste guia completo, vou explicar:
 
 **📞 Ligue já: [Contacto por telefone ou WhatsApp](tel:+351932321892)**
 
-**💬 WhatsApp:** [Clique para orçamento grátis](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20um%20sistema%20de%20videovigilância%20em%20casa.%20Podem%20fazer%20uma%20avaliação%3F)
+**💬 WhatsApp:** [Clique para orçamento por escrito](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20um%20sistema%20de%20videovigilância%20em%20casa.%20Podem%20fazer%20uma%20avaliação%3F)
 
 **Zonas servidas:** Bragança, Mirandela, Trás-os-Montes, Chaves, Vila Real, Vinhais, Mogadouro, Miranda do Douro e todo o distrito de Bragança e Vila Real.
 

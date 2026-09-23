@@ -411,7 +411,7 @@ Não. Indica infiltração de água em caixa de derivação, tomada exterior, ou
 Aquecimento leve é normal sob carga. Aquecimento excessivo (não consegue tocar) indica: sobrecarga, ligação solta, ou disjuntor subdimensionado. Desligue e chame eletricista (risco de incêndio).
 
 **7. Posso ter vários diferenciais?**
-Sim, recomendado! Diferencial por zona (ex: um para quartos, outro para cozinha). Se um desarmar, resto da casa continua com luz. Facilita diagnóstico. Custo: +€30-60 por diferencial.
+Sim, recomendado!  Se um desarmar, resto da casa continua com luz. Facilita diagnóstico. Custo: +€30-60 por diferencial.
 
 **8. O que fazer se disjuntor desarma e não liga mais?**
 Pode estar bloqueado por segurança. Tente: (1) desligue todos os aparelhos, (2) aguarde 5 minutos, (3) tente ligar. Se não ligar: curto-circuito grave ou disjuntor avariado. Chame eletricista urgente.

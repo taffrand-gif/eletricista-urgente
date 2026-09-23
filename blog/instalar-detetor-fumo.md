@@ -160,7 +160,7 @@ Neste guia completo, vou mostrar-lhe:
 
 ### 1. Quartos (TODOS) — ⭐ ESSENCIAL
 
-**Porquê:** 60% das mortes acontecem à noite — precisa de alerta para acordar.
+À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. — precisa de alerta para acordar.
 
 **Tipo:** Ótico ou Duplo.
 
@@ -506,7 +506,7 @@ Neste guia completo, vou mostrar-lhe:
 
 ### 3. Posso desligar detetor à noite (incomoda)?
 
-**❌ NUNCA!** 60% das mortes acontecem à noite — é quando mais precisa.
+Noite, fim de semana e feriado: 100 €/hora + deslocação 50 € — é quando mais precisa.
 
 **Solução:** Se falsos alarmes são problema:
 - Mude localização (longe de vapor)
@@ -556,7 +556,7 @@ Neste guia completo, vou mostrar-lhe:
 ✅ Sistemas interligados (wireless ou cabo) 
 ✅ Manutenção e testes 
 ✅ Consultoria de segurança 
-✅ Orçamento grátis sem compromisso 
+✅ Orçamento por escrito sem compromisso 
 
 **📞 Ligue já: [Contacto por telefone ou WhatsApp](tel:+351932321892)**
 
@@ -588,7 +588,7 @@ Um detetor de fumo é o **investimento mais importante** que pode fazer para pro
 
 **Ligue JÁ: [Contacto por telefone ou WhatsApp](tel:+351932321892)**
 
-**eletricista com experiência • Instalação profissional • Consultoria de segurança • Orçamento grátis**
+**eletricista com experiência • Instalação profissional • Consultoria de segurança • Orçamento por escrito**
 
 ---
 

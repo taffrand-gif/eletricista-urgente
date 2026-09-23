@@ -257,7 +257,7 @@ O problema é:
 | Arranjar ligação (fio solto) | €50-100 | 30-60 min | 1 ano |
 | Substituir fio completo | €80-150 | 1-2h | 2 anos |
 | Arranjo no quadro | €100-300 | 1-3h | 2 anos |
-| Emergência 24h | +50% | Imediato | 30 dias |
+| Emergência 24h | 100 €/hora + deslocação 50 € | Imediato | 30 dias |
 
 ## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Upgrade | Custo | Benefício |
@@ -325,7 +325,7 @@ O problema é:
 
 ### 6. Quanto custa chamar eletricista para interruptor?
 
-**Resposta:** €40-70 para substituir interruptor simples (30 min). Emergência 24h: +50% (€60-105). Compensa pela segurança - risco de choque elétrico não vale economia.
+**Resposta:** €40-70 para substituir interruptor simples (30 min). À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. Compensa pela segurança - risco de choque elétrico não vale economia.
 
 ### 7. Interruptor faz estalidos. É grave?
 

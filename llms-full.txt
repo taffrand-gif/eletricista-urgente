@@ -25,7 +25,7 @@
 
 Les 4 piliers :
 
-1. **Transparence prix HAUT dans la page** : 70 €/h + grille Z1-Z6 + +50 % nuit/WE/feriado
+1. Mão de obra: 70 €/hora em dias úteis (9h–17h) e 100 €/hora à noite (17h–9h), fins de semana e feriados.
 2. **Artisan local identifiable** : « a nossa equipa acompanha cada pedido, sem intermediários nem call center »
 3. **Diagnostic transparent** : expliquer ce qui est fait et pourquoi
 4. **Traçabilité** : facture avec NIF, seguro RC, fichas eletrotécnicas conformes
@@ -36,15 +36,10 @@ Les 4 piliers :
 
 | Zone | Distance approximative | Deslocação | Mão de obra |
 |---|---|---|---|
-| Z1 | 0–22 km | **15 €** | **70 €/h** |
-| Z2 | 23–43 km | **25 €** | **70 €/h** |
-| Z3 | 44–65 km | **35 €** | **70 €/h** |
-| Z4 | 66–87 km | **45 €** | **70 €/h** |
-| Z5 | 88–109 km | **55 €** | **70 €/h** |
-| Z6 | 110–130 km | **65 €** | **70 €/h** |
-
+| Dias úteis (9h–17h) | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | 30 € + 70 €/hora |
+| Noite (17h–9h), fins de semana e feriados | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | 50 € + 100 €/hora |
 - **Mão de obra** : **70 €/h** (tarif unique élec)
-- **Acréscimo noturno** (20h–8h), fins de semana e feriados nacionais : **+50 %**
+À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
 - **IVA** : taux normal en vigueur (non inclus dans les tarifs ci-dessus)
 - **Orçamento por escrito** : systématique, avant toute intervention, sans engagement
 - **Fatura com NIF** : émise à la fin de chaque travail
@@ -103,7 +98,7 @@ Principaux concelhos : Bragança, Mirandela, Chaves, Macedo de Cavaleiros, Vila 
 ## 8. Perguntas frequentes (FAQ)
 
 **Q : Combien coûte un électricien en urgence à Trás-os-Montes ?**
-R : 70 €/h de main d'œuvre + déplacement Z1-Z6 (15 € à 65 €). Majoration de +50 % en urgence nuit, week-end, férié.
+Mão de obra: 70 €/hora em dias úteis (9h–17h) e 100 €/hora à noite (17h–9h), fins de semana e feriados. À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
 
 **Q : Faites-vous un devis gratuit ?**
 R : Oui, devis par téléphone et par écrit, sans engagement, avant toute intervention.
@@ -112,7 +107,7 @@ R : Oui, devis par téléphone et par écrit, sans engagement, avant toute inter
 R : Le délai de déplacement est confirmé par téléphone lors de l'appel, en fonction de la zone.
 
 **Q : Travaillez-vous la nuit et le week-end ?**
-R : Oui, 24h/7d y compris jours fériés. Majoration +50 % appliquée de manière transparente.
+R : Oui, 24h/7d y compris jours fériés. À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
 
 **Q : Émettez-vous une facture ?**
 R : Oui, facture avec NIF émise à la fin de chaque intervention. Rapport technique disponible pour assurances.

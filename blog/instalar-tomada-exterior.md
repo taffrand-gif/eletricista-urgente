@@ -37,7 +37,7 @@ O código IP indica a proteção contra sólidos e líquidos:
 |-------|-----------|----------------|
 | Terraço coberto | IP44 | IP54 |
 | Jardim exposto | IP54 | IP65 |
-| Piscina (zona 2) | IP65 | IP67 |
+| Piscina | IP65 | IP67 |
 | Garagem fechada | IP20 | IP44 |
 | Alpendre | IP44 | IP54 |
 | Fachada exterior | IP54 | IP65 |
@@ -54,7 +54,7 @@ O código IP indica a proteção contra sólidos e líquidos:
 5. **Distâncias de segurança:**
  - Mínimo 60cm do solo (zonas secas)
  - Mínimo 120cm do solo (zonas húmidas/jardim)
- - Mínimo 2,5m de piscinas (zona 2)
+ - Mínimo 2,5m de piscinas
 
 ## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Instalações novas ou alterações significativas:**
@@ -94,7 +94,7 @@ O código IP indica a proteção contra sólidos e líquidos:
 - Multímetro (testar tensão)
 - Nível de bolha
 
-**Custo total materiais:** €80-180 (dependendo da distância e qualidade)
+A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados.
 
 ## 🔧 Passo a Passo: Instalação de Tomada Exterior
 
@@ -230,7 +230,7 @@ O código IP indica a proteção contra sólidos e líquidos:
 
 **Tempo de instalação:** 1-2 horas
 
-> 💡 **Quer instalação profissional?** eletricista com experiência em Bragança: **[932 321 892](tel:+351932321892)** — Orçamento grátis, certificado incluído.
+> 💡 **Quer instalação profissional?** eletricista com experiência em Bragança: **[932 321 892](tel:+351932321892)** — Orçamento por escrito, certificado incluído.
 
 ## ⚠️ Erros Comuns a Evitar
 
@@ -349,7 +349,7 @@ A instalação de tomada no exterior requer **cuidados especiais de segurança**
 ✅  
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
-**Não arrisque a sua segurança!** Trabalhos elétricos mal feitos podem causar incêndios ou eletrocussão. Contacte-nos já para orçamento grátis.
+**Não arrisque a sua segurança!** Trabalhos elétricos mal feitos podem causar incêndios ou eletrocussão. Contacte-nos já para orçamento por escrito.
 
 ---
 

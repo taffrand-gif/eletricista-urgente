@@ -4,7 +4,7 @@ slug: "quadro-eletrico-dispara"
 category: "Problemas Elétricos"
 date: "2026-07-13"
 author: "Norte Reparos"
-excerpt: "Se o quadro elétrico dispara, comece por afastar pessoas, identificar qual proteção saltou e desligar aparelhos do circuito afetado. A nossa equipa faz o diagnóstico, aplica 70 €/h e apresenta orçamento por escrito antes de qualquer trabalho, com deslocação conforme a zona e sem surpresas na fatura."
+excerpt: "Se o quadro elétrico dispara, comece por afastar pessoas, identificar qual proteção saltou e desligar aparelhos do circuito afetado. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes de qualquer intervenção.
 keywords: ["quadro elétrico dispara", "disjuntor dispara", "diferencial dispara", "eletricista urgente", "Trás-os-Montes", "fuga de corrente", "sobrecarga elétrica", "curto-circuito"]
 schema:
   type: "HowTo"
@@ -12,7 +12,7 @@ schema:
 
 # Quadro Elétrico Dispara: Causas e Como Proceder em Trás-os-Montes
 
-Se o quadro elétrico da sua casa ou empresa está a disparar com frequência, este guia descreve os mecanismos habituais, o que verificar antes de chamar a nossa equipa e como se processa o diagnóstico em Trás-os-Montes. Trabalhamos com tarifa horária de **70 €/h** (mão de obra) e deslocação indexada à zona de Macedo de Cavaleiros (Z1 15 € a Z6 65 €), com majoração de +50 % ao fim de semana, feriados e período noturno. Antes de qualquer trabalho, entregamos orçamento por escrito, sem surpresas.
+Se o quadro elétrico da sua casa ou empresa está a disparar com frequência, este guia descreve os mecanismos habituais, o que verificar antes de chamar a nossa equipa e como se processa o diagnóstico em Trás-os-Montes. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Antes de qualquer trabalho, entregamos orçamento por escrito, sem surpresas.
 
 ## Como funciona um quadro elétrico: as duas proteções principais
 
@@ -75,7 +75,7 @@ A nossa equipa chega com o equipamento profissional descrito abaixo e segue um m
 - **FLIR E96** — câmara térmica de 43 200 px para identificar pontos quentes em quadros, tomadas e cablagem.
 - **Câmara de inspeção 30 m** — visualização do interior de condutos e caixas de derivação sem abertura desnecessária da parede.
 
-O trabalho decorre à tarifa horária de **70 €/h**, com deslocação indexada à zona (Z1 15 €, Z2 25 €, Z3 35 €, Z4 45 €, Z5 55 €, Z6 65 €). Em horário noturno (entre as 20 h e as 8 h), sábado, domingo e feriado, a tarifa sofre majoração de **+50 %** aplicada à mão de obra e à deslocação. Recebe **orçamento por escrito antes de qualquer intervenção**, e a fatura discrimina horas, deslocação e materiais. Não emitimos documentação técnica formal — quando a intervenção o exige por lei, é o técnico habilitado em causa que trata desse passo.
+O trabalho decorre à tarifa horária de **70 €/h**, com deslocação indexada à zona (deslocação 30 € em dias úteis e 50 € à noite, fins de semana e feriados). Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Recebe **orçamento por escrito antes de qualquer intervenção**, e a fatura discrimina horas, deslocação e materiais. Não emitimos documentação técnica formal — quando a intervenção o exige por lei, é o técnico habilitado em causa que trata desse passo.
 
 ## Prevenção: como reduzir o risco de disparo
 
@@ -100,7 +100,7 @@ Não. Se o disjuntor disparar duas ou três vezes seguidas, pare e contacte a no
 
 ### Quanto custa o serviço em Trás-os-Montes?
 
-A mão de obra é de 70 €/h e a deslocação segue a zona (Z1 15 €, Z2 25 €, Z3 35 €, Z4 45 €, Z5 55 €, Z6 65 €). Em horário noturno, fim de semana ou feriado, aplica-se majoração de +50 % à mão de obra e à deslocação. Recebe orçamento por escrito antes do trabalho começar, sem surpresas na fatura.
+A mão de obra é de 70 €/h e a deslocação segue a zona (deslocação 30 € em dias úteis e 50 € à noite, fins de semana e feriados). Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Recebe orçamento por escrito antes do trabalho começar, sem surpresas na fatura.
 
 ### O diferencial dispara só à noite. Porquê?
 

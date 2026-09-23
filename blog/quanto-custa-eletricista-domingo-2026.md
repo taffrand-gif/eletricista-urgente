@@ -7,11 +7,11 @@ category: "Preços"
 excerpt: "Descubra os preços reais para chamar um eletricista ao domingo em 2026. Tabela completa de preços, comparações e quando vale a pena."
 image: "/images-optimized/blog/blog-urgencia-domingo.webp"
 metaTitle: "Quanto Custa Eletricista Domingo 2026 | Preços Reais"
-metaDescription: "Eletricista domingo: sob orçamento + deslocação. Sábado sob orçamento. Dias úteis 70€/h. Preços 2026. Orçamento grátis. Ligue Contacto por telefone ou WhatsApp!"
+metaDescription: "Eletricista domingo: sob orçamento + deslocação. Sábado sob orçamento. Dias úteis 70€/h. Preços 2026. Orçamento por escrito. Ligue Contacto por telefone ou WhatsApp!"
 keywords: ["quanto custa eletricista domingo", "preço eletricista fim de semana", "eletricista domingo urgente", "eletricista sábado preço"]
 faqSchema:
  - question: "Quanto custa eletricista ao domingo?"
- answer: "95-sob orçamento em horário normal (8h-20h) e 140-sob orçamento em horário noturno (20h-8h). Mais deslocação 30-60€ conforme distância."
+ À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados.
  - question: "Eletricista domingo é mais caro que dias úteis?"
  answer: "Sim, cerca de 40% mais caro. Dias úteis: 70€/h, Domingo: 95-sob orçamento. Diferença justificada por disponibilidade Atendimento 24h/7d."
  - question: "Vale a pena chamar eletricista ao domingo?"
@@ -37,22 +37,17 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 ## Tabela de Preços Completa 2026
 
 ## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
-| Dia | Horário Normal (8h-20h) | Horário Noturno (20h-8h) |
+| Dia | Horário Normal (8h-20h) | Noite, fim de semana e feriado: 100 €/hora + deslocação 50 € |
 |-----|-------------------------|--------------------------|
-| **Dias Úteis (Seg-Sex)** | 70€/h | sob orçamento (+50%) |
-| **Sábado** | sob orçamento | sob orçamento (+50%) |
-| **Domingo/Feriado** | sob orçamento | sob orçamento (+50%) |
+| **Dias Úteis (Seg-Sex)** | 70€/h | Noite, fim de semana e feriado: 100 €/hora + deslocação 50 € |
+| **Sábado** | sob orçamento | Noite, fim de semana e feriado: 100 €/hora + deslocação 50 € |
+| **Domingo/Feriado** | sob orçamento | Noite, fim de semana e feriado: 100 €/hora + deslocação 50 € |
 
 ## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Zona | Localidades | Preço | Tempo |
 |------|-------------|-------|-------|
-| Zona 1 | Bragança centro, Gimonde, Rabal | 15€ | 10-15 min |
-| Zona 2 | Izeda, Vinhais, Macedo arredores | 25€ | 20-30 min |
-| Zona 3 | Macedo centro, Vimioso, Mogadouro | 35€ | 35-45 min |
-| Zona 4 | Mirandela, Chaves arredores | 45€ | 50-70 min |
-| Zona 5 | Miranda do Douro, Vila Real | 55€ | 75-90 min |
-| Zona 6 | Lamego, Peso da Régua | 65€ | 90+ min |
-
+| Dias úteis (9h–17h) | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | 30 € + 70 €/hora |
+| Noite (17h–9h), fins de semana e feriados | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | Qualquer localidade servida | 50 € + 100 €/hora |
 *Nota: Deslocação cobrada apenas uma vez por intervenção, independentemente da duração.*
 
 ## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
@@ -68,7 +63,7 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 - **Total tempo:** 1 hora
 
 **Custo:**
-- Deslocação Zona 3: 35€
+- Deslocação 30€
 - Mão de obra domingo (1h): 100€
 - Material (cabo 5m): 15€
 - **TOTAL: 150€**
@@ -83,7 +78,7 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 - **Total tempo:** 30 min
 
 **Custo:**
-- Deslocação Zona 4: 45€
+- Deslocação 30€
 - Mão de obra sábado (0.5h): 45€
 - Material (tomada): 8€
 - **TOTAL: 98€**
@@ -98,14 +93,14 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 - **Total tempo:** 1 hora
 
 **Custo:**
-- Deslocação Zona 2 noturna: 25€ + 50% = 37,50€
+Deslocação 30 € (50 € noite/fim de semana) · 70 €/hora (100 €/hora noite/fim de semana)
 - Mão de obra domingo noturno (1h): 150€
 - Material (disjuntor): 25€
 - **TOTAL: 212,50€**
 
 ## Comparação: Dias Úteis vs Sábado vs Domingo
 
-### Mesma Intervenção (1h trabalho, Zona 3)
+Deslocação 30 € (50 € noite/fim de semana)
 
 | Dia | Mão Obra | Deslocação | Material | TOTAL |
 |-----|----------|------------|----------|-------|
@@ -114,7 +109,7 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 | **Domingo 14h** | 100€ | 35€ | 15€ | **150€** |
 | **Domingo 22h** | 150€ | 52,50€ | 15€ | **217,50€** |
 
-**Diferença domingo vs dias úteis:** +25% (horário normal) ou +81% (horário noturno)
+À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
 
 ## Quando Vale a Pena Chamar ao Domingo?
 
@@ -144,7 +139,7 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 **Quando possível:** Problemas não urgentes
 
 ### 2. Chamar Antes das 20h
-**Poupança:** 50% vs horário noturno
+Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €
 **Dica:** Se problema surgir à noite, avaliar se pode esperar até manhã
 
 ### 3. Agrupar Intervenções
@@ -261,7 +256,7 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 **Contacto: 321 892**
 
 ✅ Atendimento imediato Atendimento 24h/7d
-✅ Orçamento gratuito por telefone
+✅ Orçamento por escrito por telefone
 ✅ 
 ✅ Preços transparentes sem surpresas
 ✅ garantia por escrito

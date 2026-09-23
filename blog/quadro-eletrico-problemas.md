@@ -358,7 +358,7 @@ TOTAL: 11-15 circuitos
 ### Circuitos Recomendados (Casa T2-T3):
 
 **Iluminação (10A):**
-- 3-4 circuitos (1 por zona)
+Deslocação 30 € (50 € noite/fim de semana)
 
 **Tomadas (16A):**
 - 4-6 circuitos (máximo 8 tomadas/circuito)

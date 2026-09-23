@@ -106,9 +106,9 @@ Une absence de règle = autorisé par défaut.
 **Chaque page produite ou modifiée DOIT incarner, dans cet ordre** :
 
 1. **Transparence prix** (placée HAUT dans la page)
-   - Grille affichée : **65 €/h** canal, **70 €/h** élec ← **CE SITE = 70 €/h**
-   - Déplacement par zone : **Z1 = 15 € / Z2 = 25 € / Z3 = 35 € / Z4 = 45 € / Z5 = 55 € / Z6 = 65 €**
-   - Majoration nuit/WE/feriado : **+50 %**
+   - Grille unique (23/09/2026, `PRICING.md`) : **70 €/h + deslocação 30 €** dias úteis 9h–17h · **100 €/h + deslocação 50 €** noite (17h–9h), fins de semana, feriados — canal ET élec
+   - Deslocação = preço único, qualquer localidade servida (plus de zones)
+   - Cada hora começada é devida
    - Phrase obligatoire : **"orçamento por escrito antes de qualquer intervenção, sem surpresas"**
 2. **Artisan local identifiable**
    - Phrase obligatoire : **"fala sempre com a mesma pessoa, não um call center"**
@@ -148,7 +148,7 @@ Moule de toutes les pages service/urgence électricité — focus risque électr
 
 1. **H1 court** (le keyword élec).
 2. **Réponse-réflexe (1ʳᵉ phrase citable)** : répond directement à l'intention ET rassure sur le prix 70 €/h. Modèle urgence : *« Em caso de [problème eléctrico] em [zona], intervimos com preço claro (70 €/h) e orçamento por escrito antes de qualquer trabalho — sem surpresas na fatura. »*
-3. **Bloc Transparence prix** (HAUT de page) : la grille (70 €/h élec, Z1-Z6, +50 % nuit/WE/feriado) + « orçamento por escrito antes de qualquer intervenção ». → **répond à la peur n°1 avant tout**.
+3. **Bloc Transparence prix** (HAUT de page) : la grille (70 €/h + 30 € dias úteis · 100 €/h + 50 € noite/fins de semana/feriados) + « orçamento por escrito antes de qualquer intervenção ». → **répond à la peur n°1 avant tout**.
 4. **Bloc « Quem somos » (anti-société-écran)** : Staff-Seekers, **Filipe Bragança**, artisan local + emplacement photo réelle (jamais de stock) + « fala sempre com a mesma pessoa » + fatura NIF / seguro RC / garantia escrita.
 5. **Le service élec** : Sintomas (curto-circuito, disjuntor que cai, cheiro a queimado, quadro antigo) → Causas (avec angle local Trás-os-Montes : instalação antiga sem terra, quadros sem disjuntor diferencial 30mA, sobrecarga por aquecimento elétrico) → Como resolvemos (méthode + équipement réel : Megger MFT1741+, Fluke T6-1000, FLIR E96, ROLeak acoustique) → Quando chamar um profissional (risco incêndio/electrocução).
 6. **Prevenção / conseil** (valeur ajoutée que les clients recherchent) : importância do disjuntor diferencial 30mA, não sobrecarregar extensões, certificação DGEG.
@@ -184,9 +184,9 @@ Moule de toutes les pages service/urgence électricité — focus risque électr
 - ✅ **OK** : "24h/7 dias" (service disponibilité), "orçamento por escrito antes de qualquer intervenção, sem surpresas" (R12 §1)
 
 ### Grille EXACTE à afficher (R12 §1 — CE SITE)
-- **70 €/h** (élec) — pas 65 €/h (c'est le canal)
-- Déplacement Z1=15€ / Z2=25€ / Z3=35€ / Z4=45€ / Z5=55€ / Z6=65€
-- Majoration nuit/WE/feriado : +50%
+- **70 €/h + deslocação 30 €** (dias úteis 9h–17h)
+- **100 €/h + deslocação 50 €** (noite 17h–9h, fins de semana, feriados)
+- Cada hora começada é devida
 - Phrase obligatoire : « orçamento por escrito antes de qualquer intervenção, sem surpresas »
 
 ### Cycle obligatoire avant tout patch sur ce site

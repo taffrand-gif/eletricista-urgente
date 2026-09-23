@@ -24,6 +24,8 @@
 
 ---
 
+> 🔄 **23/09/2026 — GRILLE UNIQUE** (branche `feat/prix-unique-calendly-2026-09-23`, non poussée) : 70 €/h + deslocação 30 € (dias úteis 9h–17h) · 100 €/h + deslocação 50 € (noite 17h–9h, fins de semana, feriados), cada hora começada é devida — source `PRICING.md`. Toutes les mentions de zones, de tarif plomberie distinct ou de majoration en % plus bas sont **HISTORIQUES**, ne pas les réappliquer. CTA secondaire Calendly « Marcar intervenção não urgente » ajouté (téléphone reste CTA principal).
+
 ## 🗺️ ROADMAP MONOPOLE — TODO ce repo (EU, urgence élec) — owner exécution : **Hermes**
 
 <!-- CHANTIERS:BEGIN -->

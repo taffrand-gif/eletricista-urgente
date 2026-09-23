@@ -3,6 +3,8 @@ name: definition-of-done-page
 description: Définition of done pour toute page contenant une donnée métier (prix/zone/tél/horaire/distance). Une donnée = TOUTES ses surfaces corrigées dans le même commit. Trigger : "corriger zone bragança", "patcher prix", "normaliser page entière", "modifier localité", "page contradictoire".
 ---
 
+> ⚠️ **GRILLE OBSOLÈTE (23/09/2026)** — les exemples de prix par zone ci-dessous sont historiques. Grille en vigueur : `PRICING.md` (70 €/h + 30 € dias úteis 9h–17h · 100 €/h + 50 € noite, fins de semana, feriados). Ne jamais les recopier.
+
 # definition-of-done-page — Une donnée = TOUTES ses surfaces (S2, mission P0.5, 02/07/2026)
 
 > **Pourquoi** : le défaut #1 de la baseline 02/07 est **le patch cosmétique** —

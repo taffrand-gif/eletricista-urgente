@@ -19,7 +19,7 @@ description: "Tomada não funciona em Trás-os-Montes? 8 causas (disjuntor, toma
 
 ## Como resolver uma tomada que não funciona em Trás-os-Montes
 
-Quando uma tomada deixa de funcionar, há sempre uma causa identificável — e, na maioria dos casos, uma solução acessível. Antes de chamar um eletricista, vale a pena percorrer três testes rápidos que isolam o problema em menos de cinco minutos. Se o resultado for duvidoso ou envolver eletricidade, a nossa equipa intervém em Trás-os-Montes com preço tabelado (70 €/h + deslocação Z1-Z6) e orçamento por escrito antes de tocar em qualquer fio.
+Quando uma tomada deixa de funcionar, há sempre uma causa identificável — e, na maioria dos casos, uma solução acessível. Antes de chamar um eletricista, vale a pena percorrer três testes rápidos que isolam o problema em menos de cinco minutos. Se o resultado for duvidoso ou envolver eletricidade, a nossa equipa intervém em Trás-os-Montes com preço tabelado (70 €/h + deslocação) e orçamento por escrito antes de tocar em qualquer fio.
 
 Atendimento 24h/7 dias em Bragança, Mirandela, Macedo de Cavaleiros, Chaves, Vila Real e restantes concelhos da região — para uma avaria elétrica que não pode esperar.
 
@@ -86,7 +86,7 @@ Sobrecarga (aparelhos a consumir mais que a capacidade do circuito) ou curto-cir
 - **NÃO force!**
 - Há curto-circuito grave
 - Chame eletricista: **[932 321 892](tel:+351932321892)**
-- Custo: **sob orçamento** (70 €/h + deslocação Z1-Z6)
+- Custo: **sob orçamento** (70 €/h + deslocação)
 
 **Se ficar ligado:**
 - Problema resolvido
@@ -170,7 +170,7 @@ Sobrecarga, curto-circuito, ligação solta, ou aparelho com defeito criou arco 
  - Teste com aparelho simples (lâmpada)
 
 **Custo DIY:** €5-50 (tomada + ferramentas) 
-**Custo profissional:** **sob orçamento** (70 €/h + deslocação Z1-Z6; materiais incluídos)
+**Custo profissional:** **sob orçamento** (70 €/h + deslocação; materiais incluídos)
 
 **Tempo:** 30-45 minutos (primeira vez)
 
@@ -228,7 +228,7 @@ Cabo foi cortado acidentalmente (furar parede, pregar quadro), roído por roedor
 - Instalar caixa de derivação
 - Religar cabos com ligadores
 - Fechar parede e rebocar
-- Custo: **sob orçamento** (dependendo da localização; 70 €/h + deslocação Z1-Z6)
+- Custo: **sob orçamento** (dependendo da localização; 70 €/h + deslocação)
 
 **Requer eletricista com experiência.**
 
@@ -311,7 +311,7 @@ Mecanismo de proteção infantil está bloqueado ou rígido.
 
 ### Preços por tipo de intervenção (profissional)
 
-Cada caso tem diagnóstico próprio. Para avarias variáveis (curto-circuito, cabo partido, certificação DGEG), emitimos **orçamento por escrito após diagnóstico** — **sem surpresas na fatura**. Mão de obra: **70 €/h**; deslocação tabelada por zona (Z1=15 € a Z6=65 €); noite, domingo e feriado: **+50 %**.
+Cada caso tem diagnóstico próprio. Para avarias variáveis (curto-circuito, cabo partido, certificação DGEG), emitimos **orçamento por escrito após diagnóstico** — **sem surpresas na fatura**. Mão de obra: **70 €/h**; A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados.; à noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
 
 > 💡 **Tomada não funciona?** Eletricista com experiência em Trás-os-Montes: **[932 321 892](tel:+351932321892)** — diagnóstico rápido, arranjo com garantia escrita.
 
@@ -352,7 +352,7 @@ Cada caso tem diagnóstico próprio. Para avarias variáveis (curto-circuito, ca
  - Sem tensão? → Problema no circuito (eletricista)
 
 **Se não tem multímetro:**
-- Chame eletricista para diagnóstico (**sob orçamento** — 70 €/h + deslocação Z1-Z6)
+- Chame eletricista para diagnóstico (**sob orçamento** — 70 €/h + deslocação)
 
 ## 🛡️ Prevenção e Segurança
 
@@ -437,7 +437,7 @@ Diagnóstico é igual. MAS tomadas exteriores têm proteção IP65 (à prova de 
 **Arranjar se:** Ligação solta, oxidação leve, tomada < 10 anos. **Substituir se:** Queimada, rachada, > 15 anos, sem terra. Mão de obra a partir de **70 €/h**, sob orçamento por escrito após diagnóstico.
 
 **9. Quanto custa arranjar uma tomada que não funciona em Trás-os-Montes?**
-O custo depende da causa. Mão de obra: **70 €/h**; deslocação tabelada por zona (Z1=15 € a Z6=65 €); noite, domingo e feriado: **+50 %**. Para casos variáveis (tomada queimada, cabo partido, curto-circuito), emitimos **orçamento por escrito antes da intervenção** — sem surpresas na fatura.
+O custo depende da causa. Mão de obra: **70 €/h**; A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados.; à noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. Para casos variáveis (tomada queimada, cabo partido, curto-circuito), emitimos **orçamento por escrito antes da intervenção** — sem surpresas na fatura.
 
 **10. Como saber se o problema é na tomada ou no disjuntor?**
 Três testes: (1) ligar outro aparelho na mesma tomada — se funcionar, o aparelho original tem problema; (2) testar a mesma ficha noutra tomada — se não funcionar em lado nenhum, o problema está na ficha ou no cabo do aparelho; (3) verificar se há disjuntor desarmado no quadro e se outras tomadas do mesmo circuito também falham. Se houver cheiro a queimado, faíscas ou o disjuntor voltar a desarmar imediatamente, **não force** e contacte a nossa equipa: **+351 932 321 892**.

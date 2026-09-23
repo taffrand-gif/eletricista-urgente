@@ -56,7 +56,7 @@
 - ❌ Pas de batch sans GO Philippe + prototype 1 page
 - ❌ Pas de copier-coller automatique (R12 §validation)
 | ❌ Pas d'invention de chantiers/témoignages (R11)
-| ❌ Pas de mention "65€/h" ici (c'est 70€/h pour l'élec)
+| ❌ Pas de tarif horaire autre que la grille unique `PRICING.md` (70 €/h dias úteis · 100 €/h noite/fins de semana/feriados)
 
 ---
 

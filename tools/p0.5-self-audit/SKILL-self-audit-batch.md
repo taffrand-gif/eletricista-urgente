@@ -3,6 +3,8 @@ name: self-audit-batch
 description: Audit mécanique des pages localité vs source-of-truth (zonas-data.json + grille OSRM Z1=15€..Z6=65€). À utiliser AVANT tout commit de batch touchant prix/zone/distance. Trigger : "audite les zones", "vérifie les badges data-zone", "combien de KO sur ce repo", "passe self-audit sur CNR/CU/EU/ENR", "compare page à la grille officielle".
 ---
 
+> ⚠️ **GRILLE OBSOLÈTE (23/09/2026)** — les exemples de prix par zone ci-dessous sont historiques. Grille en vigueur : `PRICING.md` (70 €/h + 30 € dias úteis 9h–17h · 100 €/h + 50 € noite, fins de semana, feriados). Ne jamais les recopier.
+
 # self-audit-batch — Audit mécanique (S1, mission P0.5, 02/07/2026)
 
 > **Pourquoi** : remplacer les claims subjectifs (« 0 mismatch », « propre ») par des

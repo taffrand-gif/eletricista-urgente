@@ -292,8 +292,8 @@ priority: "HIGH DEMAND"
 **5. Casa de banho:**
 - Tomadas IP44 (protegidas contra água)
 - Zona 0 (banheira): proibido tomadas
-- Zona 1 (duche): proibido tomadas
-- Zona 2 (60cm): IP44 obrigatório
+Deslocação 30 € (50 € noite/fim de semana)
+Deslocação 30 € (50 € noite/fim de semana)
 
 **6. Certificação:**
 
@@ -319,9 +319,9 @@ priority: "HIGH DEMAND"
 | Tomada IP44 casa de banho | €15-30 | €50-100 | €65-130 |
 
 **Fatores que aumentam custo:**
-- Parede de betão (+30%)
-- Azulejos (+50%)
-- Altura não standard (+20%)
+Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €
+Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €
+Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €
 - Urgência 24h (+50-100%)
 
 ### Comparação DIY vs Profissional:
@@ -454,7 +454,7 @@ R: 1 tomada €50-100, 2-3 tomadas €100-190, circuito novo (4-6 tomadas) €20
 R: SIM, para instalação nova. Obrigatório por lei. Apenas eletricista com experiência emite. Custo €80-150 (geralmente incluído).
 
 **P: Quanto custa eletricista em Bragança?**
-R: Instalar 1 tomada €50-100, 2-3 tomadas €100-190. Urgente 24h: +50%. : **932 321 892**
+R: Instalar 1 tomada €50-100, 2-3 tomadas €100-190. À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. : **932 321 892**
 
 ## Conclusão: Segurança em Primeiro Lugar
 

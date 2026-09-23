@@ -13,7 +13,7 @@ priority: "HIGH DEMAND"
 
 **Comprou placa de indução mas não sabe como instalar? Precisa de trifásico? Que potência contratar?** Placas de indução são cada vez mais populares (eficientes, rápidas, seguras), mas **instalação elétrica é crítica** - potência alta requer circuito dedicado e proteções específicas.
 
-Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (monofásico 3,45 kVA), instalar placa de indução pode requerer **upgrade elétrico**. Mas vale a pena - eficiência energética +40% vs vitrocerâmica.
+Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (monofásico 3,45 kVA), instalar placa de indução pode requerer **upgrade elétrico**. À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
 
 **Neste guia completo**, vamos explicar:
 - ✅ Potência necessária (3,7-7,4 kW)
