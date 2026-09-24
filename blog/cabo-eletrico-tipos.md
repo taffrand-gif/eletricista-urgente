@@ -1,19 +1,21 @@
 ---
-title: "Tipos de Cabos Elétricos: Guia Completo para Escolher (2026)"
+title: "Tipos de Cabos Elétricos: Guia Completo (2026)"
 slug: "cabo-eletrico-tipos"
 category: "Guias Técnicos"
-date: "2026-03-04"
+date: "2026-09-22"
+lastmod: "2026-09-22"
 author: ""
-excerpt: "Precisa escolher cabo elétrico? Descubra os tipos (H05VV-F, H07RN-F, etc.), secções (1,5mm², 2,5mm², 4mm²) e aplicações. Guia completo com tabelas e recomendações."
-keywords: ["tipos cabos elétricos", "cabo H05VV-F", "secção cabo", "escolher cabo", "eletricista Bragança", "cabo elétrico casa"]
+description: "Quais os tipos de cabos elétricos mais usados em Portugal? Conheça os tipos de cabos H05VV-F, H07RN-F, H07V-U e XV/LSOH, secções 1,5mm² a 6mm², e como escolher para cada aplicação com segurança."
+excerpt: "Quais os tipos de cabos elétricos mais usados em Portugal? Conheça os tipos de cabos H05VV-F, H07RN-F, H07V-U e XV/LSOH, secções 1,5mm² a 6mm², e como escolher para cada aplicação com segurança. Diagnóstico e instalação pela nossa equipa a 70 €/h, com orçamento por escrito."
+keywords: ["tipos de cabos", "tipos de cabos elétricos", "tipos cabos elétricos", "cabo H05VV-F", "cabo H07RN-F", "cabo H07V-U", "cabo XV LSOH", "secção cabo", "escolher cabo", "cabo elétrico casa", "eletricista Trás-os-Montes"]
 priority: "TRENDING"
 ---
 
-# Tipos de Cabos Elétricos: Guia Completo para Escolher (2026)
+# Tipos de Cabos Elétricos: Guia Completo (2026)
 
-**Precisa escolher cabo elétrico mas não sabe qual?** Existem vários tipos e secções, cada um para aplicações específicas. Neste guia completo, vou mostrar-lhe **os tipos principais de cabos**, como escolher a secção correta e aplicações recomendadas.
+**Quais os tipos de cabos elétricos que existem em Portugal e como escolher o certo?** Este guia cobre os principais tipos de cabos usados em instalações residenciais e exteriores — desde o H05VV-F interior até ao H07RN-F para exterior — com a secção adequada (1,5mm², 2,5mm², 4mm², 6mm²), o código de cores (fase, neutro, terra) e as boas práticas de instalação. Os tipos de cabos variam consoante a aplicação: cabo flexível para aparelhos móveis, cabo rígido para instalações fixas em condutas, cabo de borracha para exterior. Escolher o cabo errado provoca aquecimento, disparo do disjuntor e risco de incêndio — pelo que a nossa equipa aplica diagnóstico e instalação correta a **70 €/h**, com deslocação Z1-Z6 tabelada e **orçamento por escrito antes de qualquer intervenção**.
 
-> 💡 **Precisa de instalação elétrica?** eletricista com experiência em Bragança: **[932 321 892](tel:+351932321892)** — Escolhemos e instalamos cabos adequados, conforme normas.
+> ⚡ **Precisa de ajuda para escolher ou instalar cabo elétrico em Trás-os-Montes?** A nossa equipa diagnostica e instala o cabo adequado à sua instalação: **+351 932 321 892** — 24h/7 dias, Bragança, Mirandela, Macedo de Cavaleiros, Chaves, Vila Real e concelhos envolventes.
 
 ## 🔍 Anatomia de um Cabo Elétrico
 
@@ -365,6 +367,15 @@ Bem instalado e protegido: 30-50 anos. Fatores que reduzem: UV (exterior), humid
 **8. Posso passar cabo elétrico junto com cabo de dados?**
 Não recomendado. Cabo elétrico cria interferências em cabos de dados (internet, telefone). Mantenha mínimo 30cm de distância, ou use cabo blindado para dados.
 
+**9. Quantos tipos de cabos elétricos existem em Portugal?**
+Existem 4 famílias principais de tipos de cabos elétricos usados em instalações residenciais em Portugal: **H05VV-F** (PVC flexível, interior), **H07RN-F** (borracha, exterior e obras), **H07V-U / H07V-R** (PVC rígido, instalações fixas em condutas) e **XV / LSOH** (sem halogéneos, segurança contra incêndio). A escolha depende da aplicação (interior/exterior), da carga (A) e do comprimento (m). Em Trás-os-Montes predominam H05VV-F e H07V-U no interior das habitações.
+
+**10. Tipos de cabos elétricos — qual usar em cada divisão da casa?**
+A regra prática para os tipos de cabos elétricos por divisão: **iluminação** → H05VV-F 3G1,5 (1,5mm², até 10A); **tomadas gerais** → H05VV-F 3G2,5 (2,5mm², até 16A); **cozinha / forno** → H07V-U 3G4 ou 3G6 (4-6mm²); **exterior / jardim** → H07RN-F 3G2,5 (resistente a água e UV). Em casas antigas de Trás-os-Montes, é frequente existir cabo de 1,5mm² em tomadas — situação não conforme que a nossa equipa corrige com 70 €/h + deslocação Z1-Z6.
+
+**11. Como identificar os tipos de cabos elétricos pela inscrição no isolamento?**
+A inscrição no isolamento (a cada metro) decifra o tipo: **H** = harmonizado, **05** = 300/500V, **07** = 450/750V, **V** = PVC, **R** = borracha, **N** = neoprene, **F** = flexível, **U** = rígido, **R** = semi-rígido. Exemplo: **H07RN-F 3G2,5** = cabo harmonizado 450/750V, isolamento borracha, bainha neoprene, flexível, 3 condutores com terra, 2,5mm² de secção. Quando a inscrição está ilegível, contacte a nossa equipa — substituímos o cabo com **orçamento por escrito**.
+
 ## 🎯 Conclusão: Escolha o Cabo Certo
 
 Escolher o cabo elétrico correto é **essencial para segurança e eficiência**:
@@ -395,20 +406,18 @@ Escolher o cabo elétrico correto é **essencial para segurança e eficiência**
 
 ### 🚨 Precisa de Instalação Elétrica Profissional?
 
-** — eletricista com experiência em Bragança**
+**A nossa equipa instala os tipos de cabos certos para a sua instalação em Trás-os-Montes.**
 
-📞 **Ligue agora: [Contacto por telefone ou WhatsApp](tel:+351932321892)** 
-💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20instalação%20elétrica.%20Pode%20ajudar%3F)**
+📞 **Ligue: +351 932 321 892** — 24h/7 dias
+💬 **WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20ajuda%20com%20cabos%20elétricos.)**
 
-✅ Escolhemos cabos adequados para cada aplicação 
-✅ Instalação conforme normas RTIEBT 
+✅ Escolhemos o tipo de cabo adequado a cada aplicação (interior, exterior, tomada, iluminação, cozinha)
+✅ Instalação conforme normas técnicas, com materiais certificados
+✅ Mão de obra **70 €/h** + deslocação Z1-Z6 tabelada (15 € a 65 €)
+✅ Orçamento por escrito antes de qualquer intervenção, sem surpresas
+✅ Noite, domingo e feriado: majoração **+50 %**
 
-✅ Materiais de qualidade certificados 
-✅ Garantia 2 anos no serviço 
-✅ Orçamento grátis sem compromisso 
-✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
-
-**Cabo errado = risco de incêndio!** Não arrisque. Contacte-nos já para instalação profissional e segura.
+**Tipos de cabos errados provocam aquecimento, disjuntor a disparar e risco de incêndio.** Não arrisque — contacte a nossa equipa para instalação profissional e segura. Atendimento 24h/7 dias em Trás-os-Montes.
 
 ---
 

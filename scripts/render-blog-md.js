@@ -12,6 +12,67 @@ const PRICE_TEXT = '70 €/h';
 const ZONES_TEXT = 'Z1=15 € / Z2=25 € / Z3=35 € / Z4=45 € / Z5=55 € / Z6=65 €';
 const BATCH_LIMIT = 95;
 
+// GA4 + RGPD Consent Mode v2 + bandeau UI — DOIT être réinjecté à CHAQUE rendu
+// (mission t_e145af0d 2026-08-04 + t_639f45fd 2026-08-29, EU G-ZWNCKFYGRK).
+// Ne pas retirer sans validation explicite de Filipe.
+const GA4_MEASUREMENT_ID = 'G-ZWNCKFYGRK';
+const RGPD_HEAD_MARKER = `
+<!-- GA4 — eletricista-urgente.pt G-ZWNCKFYGRK (injecté 2026-08-04, mission t_e145af0d) -->
+<!-- RGPD — Consent Mode v2 default denied (t_639f45fd, EU G-ZWNCKFYGRK, 2026-08-29) -->
+<script data-rgpd-marker="RGPD-t_639f45fd-2026-08-29-consent-default-denied-eu">
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {
+  'ad_storage': 'denied',
+  'analytics_storage': 'denied',
+  'ad_user_data': 'denied',
+  'ad_personalization': 'denied',
+  'functionality_storage': 'denied',
+  'personalization_storage': 'denied',
+  'security_storage': 'granted',
+  'wait_for_update': 500
+});
+</script>
+<!-- /RGPD Consent Mode v2 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=${GA4_MEASUREMENT_ID}"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${GA4_MEASUREMENT_ID}', {'send_page_view': true, 'anonymize_ip': true, 'cookie_flags': 'SameSite=None;Secure'});
+window.trackTelClick = function(phone) { gtag('event', 'click_tel', {'event_category': 'conversion', 'event_label': phone, 'value': 1}); };
+window.trackWhatsAppClick = function(source) { gtag('event', 'click_whatsapp', {'event_category': 'conversion', 'event_label': source, 'value': 1}); };
+</script>`;
+// Open Graph image — DOIT être réinjecté à CHAQUE rendu (PR #348, da7673341).
+// Garantit un preview social correct (Facebook/LinkedIn/WhatsApp) avec image 1200x630.
+// Ne pas retirer sans validation explicite de Filipe.
+const OG_IMAGE_MARKER = `
+<meta property="og:image" content="https://eletricista-urgente.pt/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Eletricista Urgente em Trás-os-Montes">`;
+
+const RGPD_BANNER_MARKER = `
+<!-- RGPD — Bandeau UI (t_639f45fd, EU G-ZWNCKFYGRK) -->
+<script data-rgpd-marker="RGPD-t_639f45fd-BANNER-eu-v1">
+(function(){
+  var KEY="rgpd-consent-eu-v1";
+  var STORAGES=["ad_storage","analytics_storage","ad_user_data","ad_personalization","functionality_storage","personalization_storage"];
+  function applyChoice(v){localStorage.setItem(KEY,v);var p={};for(var i=0;i<STORAGES.length;i++)p[STORAGES[i]]=v;if(window.gtag)window.gtag("consent","update",p);}
+  if(document.getElementById("rgpd-banner-eu"))return;
+  var saved=localStorage.getItem(KEY);
+  if(saved==="granted"||saved==="denied"){applyChoice(saved);return;}
+  var BANNER_ID="rgpd-banner-eu";
+  var b=document.createElement("div");b.id=BANNER_ID;b.setAttribute("role","dialog");b.setAttribute("aria-label","Consentimento de cookies");
+  b.innerHTML="<div style=\"flex:1;min-width:220px\"><strong>Cookies e análise de utilização.</strong> Utilizamos cookies para analisar a utilização do site (Google Analytics) e melhorar o serviço. Pode aceitar ou recusar — a sua escolha é livre. <a href=\"/politica-cookies\" style=\"color:#7dd3fc;text-decoration:underline;margin-left:4px\">Política de cookies</a></div><div style=\"display:flex;gap:10px;flex-shrink:0\"><button id=\""+BANNER_ID+"-accept\" type=\"button\" style=\"background:#2193b0;color:#fff;border:0;padding:10px 18px;border-radius:6px;font-weight:700;cursor:pointer;font-size:14px\">Aceitar</button><button id=\""+BANNER_ID+"-reject\" type=\"button\" style=\"background:#2193b0;color:#fff;border:0;padding:10px 18px;border-radius:6px;font-weight:700;cursor:pointer;font-size:14px\">Recusar</button></div>";
+  b.style="position:fixed;bottom:0;left:0;right:0;z-index:9999;background:rgba(17,24,39,.97);color:#f3f4f6;padding:14px 18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:center;font-size:14px;line-height:1.45";
+  document.body.appendChild(b);
+  function bind(){var a=document.getElementById(BANNER_ID+"-accept");var r=document.getElementById(BANNER_ID+"-reject");if(a)a.addEventListener("click",function(){applyChoice("granted");b.remove();});if(r)r.addEventListener("click",function(){applyChoice("denied");b.remove();});}
+  if(document.readyState==="complete")bind();else window.addEventListener("load",bind);
+})();
+</script>
+<!-- /RGPD Bandeau UI -->`;
+
 function die(message) {
   console.error(message);
   process.exitCode = 1;
@@ -387,6 +448,7 @@ function renderPage(parsed, repoRoot) {
   return { slug, html: `<!DOCTYPE html>
 <html lang="pt-PT">
 <head>
+  ${RGPD_HEAD_MARKER}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${escapeHtml(frontmatter.metaTitle || title)}</title>
@@ -397,6 +459,7 @@ function renderPage(parsed, repoRoot) {
   <meta property="og:type" content="article">
   <meta property="og:url" content="${canonical}">
   <meta property="og:locale" content="pt_PT">
+  ${OG_IMAGE_MARKER}
   <meta name="twitter:card" content="summary">
   ${schemas.map(jsonLd).join('\n  ')}
   <style>
@@ -437,6 +500,7 @@ function renderPage(parsed, repoRoot) {
   </main>
   <footer><p>Conteúdo informativo da Norte Reparos · Atualizado em ${escapeHtml(String(frontmatter.date))} · <a href="/contactos">Contactos</a></p></footer>
   <div class="sticky-cta" aria-label="Contactos rápidos"><div class="inner"><a class="call" href="tel:${PHONE_E164}">Ligar ${PHONE_DISPLAY}</a><a class="whatsapp" href="${WHATSAPP}">WhatsApp</a></div></div>
+  ${RGPD_BANNER_MARKER}
 </body>
 </html>\n` };
 }
