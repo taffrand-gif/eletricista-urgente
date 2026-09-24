@@ -2,19 +2,21 @@
 # One-time builder: merge AUTORITAIRE (zones/prix CANAL) + TomTom (drive-time réel + coords)
 # Emits in-repo snapshots: data/concelhos.json + data/localidades.json
 # Rule: n'invente pas. Missing data -> flagged "a_completar", never fabricated.
-import json, unicodedata, math, sys
+import json, unicodedata, math, sys, os
 
 TOMTOM = "/Users/admin/Claude/Projects/norte reparos/norte-reparos-couverture-130km-route.json"
-OUT_DIR = "/Users/admin/projects/eletricista-urgente/data"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT_DIR = os.path.join(ROOT, "data")
 
-# Barème CANAL par zone (AUTORITAIRE) — deslocação, desde(1h), 2h
+# Grille officielle Norte Reparos 2026 : forfait unique de déplacement,
+# sans tarification par zone. Chaque heure commencée est due.
 ZONE_PRICE = {
-    1: {"desloc": 15, "desde": 80,  "h2": 145},
-    2: {"desloc": 25, "desde": 90,  "h2": 155},
-    3: {"desloc": 35, "desde": 100, "h2": 165},
-    4: {"desloc": 45, "desde": 110, "h2": 175},
-    5: {"desloc": 55, "desde": 120, "h2": 185},
-    6: {"desloc": 65, "desde": 130, "h2": 195},
+    1: {"desloc": 30, "hora": 70, "desloc_noite": 50, "hora_noite": 100},
+    2: {"desloc": 30, "hora": 70, "desloc_noite": 50, "hora_noite": 100},
+    3: {"desloc": 30, "hora": 70, "desloc_noite": 50, "hora_noite": 100},
+    4: {"desloc": 30, "hora": 70, "desloc_noite": 50, "hora_noite": 100},
+    5: {"desloc": 30, "hora": 70, "desloc_noite": 50, "hora_noite": 100},
+    6: {"desloc": 30, "hora": 70, "desloc_noite": 50, "hora_noite": 100},
 }
 
 # 34 concelhos AUTORITAIRE: name, district, zone, grille_km. Moimenta = held.

@@ -6,7 +6,7 @@ Produit concelhos/{slug}.html pour chaque concelho indexable avec drive-time ré
 Règles dures appliquées:
 - Cœur métier ÉLEC uniquement (0 plomberie, 0 DGEG, 0 solaire).
 - NAP élec = +351 932 321 892 partout.
-- Prix = CANAL (grille AUTORITAIRE), pas de +5€.
+- Prix = grille officielle 2026 : 30 € + 70 €/h en semaine, 50 € + 100 €/h hors horaires.
 - Titres / meta / H1 uniques par concelho (data réelle).
 - canonical self extensionless (cleanUrls).
 - Drive-time = valeur réelle TomTom, jamais estimée.
@@ -23,17 +23,18 @@ TEL_RAW = "932321892"
 HUB = "Macedo de Cavaleiros"
 
 def page(c, locs):
-    name = c["name"]; slug = c["slug"]; district = c["district"]; zone = c["zone"]
-    p = c["price"]; desloc = p["desloc"]; desde = p["desde"]; h2 = p["h2"]
+    name = c["name"]; slug = c["slug"]; district = c["district"]
+    p = c["price"]; desloc = p["desloc"]; hora = p["hora"]
+    desloc_noite = p["desloc_noite"]; hora_noite = p["hora_noite"]
     rkm = c["route_km"]; rmin = c["route_min"]; is_hub = c.get("hub")
     url = f"{BASE}/concelhos/{slug}"
 
     if is_hub:
-        dist_line = f"Macedo de Cavaleiros é a nossa base de operações — resposta imediata em todo o concelho."
+        dist_line = f"Macedo de Cavaleiros é a nossa base de operações. Confirmamos a disponibilidade ao telefone."
         title_km = ""
     else:
-        dist_line = (f"A {rkm:.0f} km de {HUB} (tempo médio de viagem ~{rmin} min). "
-                     f"Deslocamo-nos a todo o concelho de {name}.")
+        dist_line = (f"A {rkm:.0f} km por estrada de {HUB}. "
+                     f"Deslocamo-nos a todo o concelho de {name}; confirmamos a disponibilidade ao telefone.")
         title_km = ""
 
     # Localidades servidas (proximité réelle, TomTom). Peut être vide.
@@ -53,7 +54,7 @@ def page(c, locs):
         "@type": "LocalBusiness",
         "name": f"Norte Reparos — Eletricista Urgente {name}",
         "telephone": TEL,
-        "priceRange": f"{desloc}€–{h2}€",
+        "priceRange": f"{desloc}€ + {hora}€/h em dias úteis; {desloc_noite}€ + {hora_noite}€/h à noite, fins de semana e feriados",
         "address": {"@type": "PostalAddress", "addressLocality": name,
                     "addressRegion": district, "addressCountry": "PT"},
         "areaServed": {"@type": "AdministrativeArea", "name": f"Concelho de {name}"},
@@ -63,15 +64,38 @@ def page(c, locs):
     }
     schema_json = json.dumps(schema, ensure_ascii=False, indent=1)
 
-    desc = (f"Eletricista urgente em {name} ({district}). Deslocação {desloc}€, "
-            f"resposta 24h/7d. Quadros, avarias e curto-circuitos. Ligue {TEL}.")
-    if not is_hub:
-        desc = (f"Eletricista urgente em {name} ({district}), a ~{rmin} min de viagem. "
-                f"Deslocação {desloc}€, 24h/7d. Ligue {TEL}.")
+    desc = (f"Eletricista urgente em {name} ({district}). Deslocação {desloc}€ em dias úteis "
+            f"e {desloc_noite}€ à noite, fins de semana e feriados. Atendimento 24h/7d. Ligue {TEL}.")
 
     return f"""<!DOCTYPE html>
 <html lang="pt-PT">
 <head>
+<!-- GA4 — eletricista-urgente.pt G-ZWNCKFYGRK -->
+<!-- RGPD — Consent Mode v2 default denied -->
+<script data-rgpd-marker="RGPD-consent-default-denied-eu">
+window.dataLayer = window.dataLayer || [];
+function gtag(){{dataLayer.push(arguments);}}
+gtag('consent', 'default', {{
+  'ad_storage': 'denied',
+  'analytics_storage': 'denied',
+  'ad_user_data': 'denied',
+  'ad_personalization': 'denied',
+  'functionality_storage': 'denied',
+  'personalization_storage': 'denied',
+  'security_storage': 'granted',
+  'wait_for_update': 500
+}});
+</script>
+<!-- /RGPD Consent Mode v2 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZWNCKFYGRK"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){{dataLayer.push(arguments);}}
+gtag('js', new Date());
+gtag('config', 'G-ZWNCKFYGRK', {{'send_page_view': true, 'anonymize_ip': true, 'cookie_flags': 'SameSite=None;Secure'}});
+window.trackTelClick = function(phone) {{ gtag('event', 'click_tel', {{'event_category': 'conversion', 'event_label': phone, 'value': 1}}); }};
+window.trackWhatsAppClick = function(source) {{ gtag('event', 'click_whatsapp', {{'event_category': 'conversion', 'event_label': source}}); }};
+</script>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>🚨 Eletricista Urgente {name} {desloc}€ | Norte Reparos</title>
@@ -115,7 +139,7 @@ def page(c, locs):
  <p><strong>Concelho:</strong> {name}</p>
  <p><strong>Distrito:</strong> {district}</p>
  <p><strong>Distância desde {HUB}:</strong> {dist_desc(c)}</p>
- <p><strong>Zona tarifária:</strong> Zona {zone} — deslocação {desloc}€ (já incluída no orçamento)</p>
+ <p><strong>Deslocação:</strong> {desloc}€ em dias úteis (9h–17h) ou {desloc_noite}€ à noite, fins de semana e feriados.</p>
  </div>
 
  <p>{dist_line}</p>
@@ -133,18 +157,17 @@ def page(c, locs):
 
  <h2>Preços em {name}</h2>
  <div class="info-box">
- <p><strong>Deslocação (Zona {zone}):</strong> {desloc}€ — incluída no orçamento</p>
- <p><strong>Intervenção (1h):</strong> desde {desde}€</p>
- <p><strong>Intervenção (2h):</strong> {h2}€</p>
- <p style="font-size:.85rem;color:#666;margin-top:.8rem">Preço de deslocação fixo, comunicado antes da chegada. Orçamento gratuito e sem compromisso.</p>
+ <p><strong>Dias úteis (9h–17h):</strong> deslocação {desloc}€ + mão de obra {hora}€/hora.</p>
+ <p><strong>Noite (17h–9h), fins de semana e feriados:</strong> deslocação {desloc_noite}€ + mão de obra {hora_noite}€/hora.</p>
+ <p style="font-size:.85rem;color:#666;margin-top:.8rem">A deslocação é um forfait único, independentemente da distância servida. Cada hora começada é devida. Orçamento por escrito antes de qualquer trabalho.</p>
  </div>
 
  <h2>Sobre a Norte Reparos</h2>
- <p>A Norte Reparos é uma equipa de eletricistas com base em {HUB}, ao serviço do concelho de {name} e de toda a região transmontana. Resposta rápida 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados. Fatura com NIF e garantia sobre os trabalhos realizados.</p>
+ <p>A Norte Reparos é uma equipa de eletricistas com base em {HUB}, ao serviço do concelho de {name} e de toda a região transmontana. Atendimento 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados. Fatura com NIF e garantia sobre os trabalhos realizados.</p>
 
  <h2>Perguntas frequentes — Eletricista em {name}</h2>
  <p><strong>Quanto tempo demoram a chegar a {name}?</strong><br>{faq_time(c)}</p>
- <p style="margin-top:1rem"><strong>Quanto custa a deslocação?</strong><br>A deslocação para a Zona {zone} é de {desloc}€ e está incluída no orçamento.</p>
+ <p style="margin-top:1rem"><strong>Quanto custa a deslocação?</strong><br>A deslocação é de {desloc}€ em dias úteis e {desloc_noite}€ à noite, fins de semana e feriados.</p>
  <p style="margin-top:1rem"><strong>Atendem de noite, fins de semana e feriados?</strong><br>Sim, 24h por dia, 7 dias por semana, sem custo adicional de marcação.</p>
  <p style="margin-top:1rem"><strong>Emitem fatura?</strong><br>Sim, fatura detalhada com NIF e relatório técnico quando aplicável.</p>
 
@@ -165,13 +188,13 @@ def district_slug(d):
 
 def dist_desc(c):
     if c.get("hub"): return "0 km (base de operações)"
-    return f"{c['route_km']:.0f} km por estrada (~{c['route_min']} min)"
+    return f"{c['route_km']:.0f} km por estrada"
 
 def faq_time(c):
     if c.get("hub"):
-        return "Macedo de Cavaleiros é a nossa base — chegamos no menor tempo possível, com prioridade a emergências."
-    return (f"O tempo médio de viagem desde {HUB} é de cerca de {c['route_min']} minutos "
-            f"({c['route_km']:.0f} km). Para emergências, damos prioridade máxima.")
+        return "Macedo de Cavaleiros é a nossa base. A disponibilidade é confirmada ao telefone."
+    return (f"A localidade fica a cerca de {c['route_km']:.0f} km por estrada desde {HUB}. "
+            f"A disponibilidade e a janela de chegada são confirmadas ao telefone.")
 
 def main():
     concelhos = json.load(open(os.path.join(DATA,"concelhos.json")))

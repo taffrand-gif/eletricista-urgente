@@ -9,7 +9,7 @@ const PHONE_DISPLAY = '+351 932 321 892';
 const PHONE_E164 = '+351932321892';
 const WHATSAPP = 'https://wa.me/351932321892?text=Ol%C3%A1%2C%20preciso%20de%20ajuda%20com%20uma%20avaria%20el%C3%A9trica';
 const PRICE_TEXT = '70 €/h';
-const ZONES_TEXT = 'Z1=15 € / Z2=25 € / Z3=35 € / Z4=45 € / Z5=55 € / Z6=65 €';
+const ZONES_TEXT = '30 € em horário normal / 50 € à noite, fins de semana e feriados';
 const BATCH_LIMIT = 95;
 
 function die(message) {
@@ -217,7 +217,7 @@ const CONFORMITY_RULES = [
   ['statistique terrain non sourcée', /\b\d+(?:[.,]\d+)?\s*%\s+(?:dos|das|de)\s+casos\b|\b(?:casos|problemas) que (?:vemos|resolvemos)\b/i],
   ['document/certification émis', /\b(?:emit(?:e|imos|ir|ido)[^\n.]{0,50}(?:certificad|relatório|ficha)|fichas? eletrotécnicas?|relatório técnico|certificado em \d|certificação completa|instalações certificadas)\b/i],
   ['statut DGEG interdit', /\b(?:DGEG|registo em curso|aguardando registo|1757\/2026\/DIEN)\b/i],
-  ['prix/fourchette non sourcé', /(?:\b(?!70(?:[.,]0+)?\s*€\s*\/\s*h\b)\d+(?:[.,]\d+)?\s*€\s*(?:[-–]\s*\d+(?:[.,]\d+)?\s*€)?\s*\/\s*(?:h|hora)\b|\b\d+(?:[.,]\d+)?\s*€\s*por\s+(?:arranjar|reparar|substituir|diagn[óo]stico|interven[çc][ãa]o|m[ãa]o)|(?:desloca[çc][ãa]o|sa[íi]da)\s+(?!Z[1-6]\b)\d+\s*€)/i],
+  ['prix/fourchette non sourcé', /(?:\b(?!70(?:[.,]0+)?\s*€\s*\/\s*(?:h|hora)\b|100(?:[.,]0+)?\s*€\s*\/\s*(?:h|hora)\b)\d+(?:[.,]\d+)?\s*€\s*(?:[-–]\s*\d+(?:[.,]\d+)?\s*€)?\s*\/\s*(?:h|hora)\b|\b\d+(?:[.,]\d+)?\s*€\s*por\s+(?:arranjar|reparar|substituir|diagn[óo]stico|interven[çc][ãa]o|m[ãa]o)|(?:desloca[çc][ãa]o|sa[íi]da)\s+(?!Z[1-6]\b|30\s*€|50\s*€)\d+\s*€)/i],
   ['ancienneté/volume non vérifié', /\b(?:\d+\+?\s+anos? de experiência|mais de \d+ anos|\d+%\s+(?:problemas?|casos?|clientes?|interven[çc][õo]es?|avarias?)\s+(?:resolvidos?|resolvidas?|satisfeitos?))\b/i],
   ['PT-BR', /\b(?:vazamento|entupiu|disjuntor caiu|pia)\b/i],
   ['service interdit', /^(?:title:.*|##\s+.*)\b(?:pain[ée]is?\s+solares?|instala[çc][ãa]o\s+solar|bomba\s+de\s+calor|carregador(?:es)?\s+(?:de\s+)?ve[íi]culos?\s+el[ée]tricos?|carregador\s+ve|ar\s+condicionado\s+central)\b/im],
@@ -251,7 +251,7 @@ function directAnswer(frontmatter, body) {
     const first = body.split(/\n\s*\n/).find((block) => block.trim() && !block.trim().startsWith('#')) || '';
     answer = stripMarkdown(first);
   }
-  const suffix = 'A nossa equipa explica o diagnóstico, aplica 70 €/h e apresenta orçamento por escrito antes de qualquer intervenção, com deslocação conforme a zona e sem surpresas na fatura.';
+  const suffix = 'A nossa equipa explica o diagnóstico, aplica 70 €/h ou 100 €/h conforme o horário e apresenta orçamento por escrito antes de qualquer intervenção, com deslocação única de 30 € ou 50 € e sem surpresas na fatura.';
   while (wordCount(answer) < 40 && !answer.includes(suffix)) answer = `${answer} ${suffix}`.trim();
   const words = answer.split(/\s+/).filter(Boolean);
   if (words.length > 60) answer = `${words.slice(0, 59).join(' ').replace(/[,:;]$/, '')}.`;
@@ -315,7 +315,7 @@ function makeSchemas({ title, description, slug, date, faq, howTo, repoRoot }) {
     name: 'Norte Reparos — Eletricista Urgente',
     telephone: PHONE_E164,
     url: DOMAIN,
-    priceRange: '70 €/h + deslocação Z1-Z6',
+    priceRange: '70 €/h + deslocação 30 € ou 100 €/h + deslocação 50 €',
     areaServed,
   };
   const emergency = { '@context': 'https://schema.org', ...provider };
@@ -329,7 +329,7 @@ function makeSchemas({ title, description, slug, date, faq, howTo, repoRoot }) {
     serviceType: 'Diagnóstico e reparação de avarias elétricas',
     provider: { '@id': `${DOMAIN}/#electrician` },
     areaServed,
-    offers: { '@type': 'Offer', price: '70', priceCurrency: 'EUR', description: 'Mão de obra: 70 €/h; deslocação conforme Z1-Z6; +50% noite, domingo e feriado.' },
+    offers: { '@type': 'Offer', price: '70', priceCurrency: 'EUR', description: 'Mão de obra: 70 €/h em horário normal ou 100 €/h à noite, fins de semana e feriados; deslocação única de 30 € ou 50 €.' },
   };
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -416,7 +416,7 @@ function renderPage(parsed, repoRoot) {
       <p class="direct-answer">${escapeHtml(answer)}</p>
       <section class="price-box" aria-labelledby="preco-transparente">
         <h2 id="preco-transparente">Preço transparente antes do trabalho</h2>
-        <p><strong>${PRICE_TEXT}</strong> de mão de obra · Deslocação: <strong>${ZONES_TEXT}</strong> · Noite, domingo e feriado: <strong>+50 %</strong>.</p>
+        <p><strong>${PRICE_TEXT}</strong> de mão de obra em horário normal ou <strong>100 €/h</strong> à noite, fins de semana e feriados · Deslocação única: <strong>${ZONES_TEXT}</strong>.</p>
         <p><strong>Orçamento por escrito antes de qualquer intervenção, sem surpresas.</strong></p>
       </section>
       <section class="trust-box" aria-labelledby="quem-atende">
