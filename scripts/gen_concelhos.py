@@ -23,8 +23,9 @@ TEL_RAW = "932321892"
 HUB = "Macedo de Cavaleiros"
 
 def page(c, locs):
-    name = c["name"]; slug = c["slug"]; district = c["district"]; zone = c["zone"]
-    p = c["price"]; desloc = p["desloc"]; desde = p["desde"]; h2 = p["h2"]
+    name = c["name"]; slug = c["slug"]; district = c["district"]
+    day_displacement = 30; night_displacement = 50
+    day_rate = 70; night_rate = 100
     rkm = c["route_km"]; rmin = c["route_min"]; is_hub = c.get("hub")
     url = f"{BASE}/concelhos/{slug}"
 
@@ -53,7 +54,7 @@ def page(c, locs):
         "@type": "LocalBusiness",
         "name": f"Norte Reparos — Eletricista Urgente {name}",
         "telephone": TEL,
-        "priceRange": f"{desloc}€–{h2}€",
+        "priceRange": "70 €/h–100 €/h",
         "address": {"@type": "PostalAddress", "addressLocality": name,
                     "addressRegion": district, "addressCountry": "PT"},
         "areaServed": {"@type": "AdministrativeArea", "name": f"Concelho de {name}"},
@@ -63,18 +64,18 @@ def page(c, locs):
     }
     schema_json = json.dumps(schema, ensure_ascii=False, indent=1)
 
-    desc = (f"Eletricista urgente em {name} ({district}). Deslocação {desloc}€, "
-            f"resposta 24h/7d. Quadros, avarias e curto-circuitos. Ligue {TEL}.")
+    desc = (f"Eletricista urgente em {name} ({district}). Deslocação 30 € em dias úteis (9h–17h) ou 50 € fora desse horário; "
+            f"mão de obra 70 €/h ou 100 €/h fora de horas. Atendimento 24h/7d. Ligue {TEL}.")
     if not is_hub:
         desc = (f"Eletricista urgente em {name} ({district}), a ~{rmin} min de viagem. "
-                f"Deslocação {desloc}€, 24h/7d. Ligue {TEL}.")
+                f"Deslocação 30 € em dias úteis ou 50 € fora desse horário; atendimento 24h/7d. Ligue {TEL}.")
 
     return f"""<!DOCTYPE html>
 <html lang="pt-PT">
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>🚨 Eletricista Urgente {name} {desloc}€ | Norte Reparos</title>
+ <title>🚨 Eletricista Urgente {name} | Norte Reparos</title>
  <meta name="description" content="{desc}">
  <link rel="canonical" href="{url}">
  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
@@ -115,7 +116,7 @@ def page(c, locs):
  <p><strong>Concelho:</strong> {name}</p>
  <p><strong>Distrito:</strong> {district}</p>
  <p><strong>Distância desde {HUB}:</strong> {dist_desc(c)}</p>
- <p><strong>Zona tarifária:</strong> Zona {zone} — deslocação {desloc}€ (já incluída no orçamento)</p>
+ <p><strong>Deslocação:</strong> 30 € em dias úteis (9h–17h) ou 50 € à noite, fins de semana e feriados.</p>
  </div>
 
  <p>{dist_line}</p>
@@ -133,10 +134,9 @@ def page(c, locs):
 
  <h2>Preços em {name}</h2>
  <div class="info-box">
- <p><strong>Deslocação (Zona {zone}):</strong> {desloc}€ — incluída no orçamento</p>
- <p><strong>Intervenção (1h):</strong> desde {desde}€</p>
- <p><strong>Intervenção (2h):</strong> {h2}€</p>
- <p style="font-size:.85rem;color:#666;margin-top:.8rem">Preço de deslocação fixo, comunicado antes da chegada. Orçamento gratuito e sem compromisso.</p>
+ <p><strong>Dias úteis (9h–17h):</strong> 30 € de deslocação + 70 €/h de mão de obra.</p>
+ <p><strong>Noite (17h–9h), fins de semana e feriados:</strong> 50 € de deslocação + 100 €/h de mão de obra.</p>
+ <p style="font-size:.85rem;color:#666;margin-top:.8rem">Cada hora começada é devida. Orçamento por escrito antes da intervenção.</p>
  </div>
 
  <h2>Sobre a Norte Reparos</h2>
@@ -144,7 +144,7 @@ def page(c, locs):
 
  <h2>Perguntas frequentes — Eletricista em {name}</h2>
  <p><strong>Quanto tempo demoram a chegar a {name}?</strong><br>{faq_time(c)}</p>
- <p style="margin-top:1rem"><strong>Quanto custa a deslocação?</strong><br>A deslocação para a Zona {zone} é de {desloc}€ e está incluída no orçamento.</p>
+ <p style="margin-top:1rem"><strong>Quanto custa a deslocação?</strong><br>30 € em dias úteis (9h–17h) ou 50 € à noite, fins de semana e feriados.</p>
  <p style="margin-top:1rem"><strong>Atendem de noite, fins de semana e feriados?</strong><br>Sim, 24h por dia, 7 dias por semana, sem custo adicional de marcação.</p>
  <p style="margin-top:1rem"><strong>Emitem fatura?</strong><br>Sim, fatura detalhada com NIF e relatório técnico quando aplicável.</p>
 

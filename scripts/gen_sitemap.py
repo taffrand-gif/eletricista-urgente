@@ -12,6 +12,7 @@ is the latest Git author date for each page, never the build date.
 from __future__ import annotations
 
 import subprocess
+import re
 from datetime import date
 from pathlib import Path
 from xml.sax.saxutils import escape
@@ -21,8 +22,14 @@ DOMAIN = "eletricista-urgente.pt"
 
 
 def page_slugs() -> list[Path]:
-    """Return every root HTML page in stable order, with the homepage first."""
-    return sorted(ROOT.glob("*.html"), key=lambda path: (path.name != "index.html", path.name))
+    """Return indexable root HTML pages in stable order, with the homepage first."""
+    pages = []
+    for path in ROOT.glob("*.html"):
+        head = path.read_text(encoding="utf-8", errors="ignore")[:12000].lower()
+        if re.search(r'<meta\s+name=["\']robots["\'][^>]+noindex', head):
+            continue
+        pages.append(path)
+    return sorted(pages, key=lambda path: (path.name != "index.html", path.name))
 
 
 def git_lastmod(page: Path) -> str:

@@ -23,10 +23,77 @@ ROOT = Path(__file__).resolve().parent.parent  # worktree root
 CONCELHOS_DIR = ROOT / "concelhos"
 DATA = ROOT / "data" / "concelhos.json"
 
-# Grille officielle verrouillée (doctrine tarifs, source PRICING.md)
-GRILLE_ZONAS = {1: 15, 2: 25, 3: 35, 4: 45, 5: 55, 6: 65}
+# Grille officielle verrouillée (doctrine tarifs 2026)
+GRILLE_ZONAS = {1: 30, 2: 30, 3: 30, 4: 30, 5: 30, 6: 30}
 TARIF_HORA = 70
-MAJORACAO = "+50% noite (20h-8h) / domingo / feriado"
+TARIF_HORA_FORA_HORARIO = 100
+DESLOCACAO_FORA_HORARIO = 50
+MAJORACAO = "100 €/h noite (17h-9h), fim de semana e feriado"
+
+# GA4 + RGPD Consent Mode v2 (mission t_e145af0d 2026-08-04 / t_639f45fd 2026-08-29).
+# Bloc verrouille : ne pas modifier son contenu ici. Toute evolution GA4/RGPD passe
+# par les missions dediees, pas par ce generateur. Reinjecte car write_concelho()
+# reconstruit le HTML integralement et ne le contenait pas nativement (perte constatee
+# lors de la regeneration 2026-09-25).
+GA4_RGPD_MARKER = 'data-rgpd-marker="RGPD-t_639f45fd-2026-08-29-consent-default-denied-eu"'
+RGPD_BANNER_MARKER = 'data-rgpd-marker="RGPD-t_639f45fd-BANNER-eu-v1"'
+
+GA4_RGPD_HEAD_BLOCK = """<!-- GA4 — eletricista-urgente.pt G-ZWNCKFYGRK (injecté 2026-08-04, mission t_e145af0d) -->
+<!-- RGPD — Consent Mode v2 default denied (t_639f45fd, EU G-ZWNCKFYGRK, 2026-08-29) -->
+<script data-rgpd-marker="RGPD-t_639f45fd-2026-08-29-consent-default-denied-eu">
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {
+  'ad_storage': 'denied',
+  'analytics_storage': 'denied',
+  'ad_user_data': 'denied',
+  'ad_personalization': 'denied',
+  'functionality_storage': 'denied',
+  'personalization_storage': 'denied',
+  'security_storage': 'granted',
+  'wait_for_update': 500
+});
+</script>
+<!-- /RGPD Consent Mode v2 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZWNCKFYGRK"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-ZWNCKFYGRK', {'send_page_view': true, 'anonymize_ip': true, 'cookie_flags': 'SameSite=None;Secure'});
+window.trackTelClick = function(phone) { gtag('event', 'click_tel', {'event_category': 'conversion', 'event_label': phone, 'value': 1}); };
+window.trackWhatsAppClick = function(source) { gtag('event', 'click_whatsapp', {'event_category': 'conversion', 'event_label': source, 'value': 1}); };
+</script>
+"""
+
+RGPD_BANNER_BLOCK = """<!-- RGPD — Bandeau UI (t_639f45fd, EU G-ZWNCKFYGRK) -->
+<script data-rgpd-marker="RGPD-t_639f45fd-BANNER-eu-v1">
+(function(){
+  var KEY="rgpd-consent-eu-v1";
+  var STORAGES=["ad_storage","analytics_storage","ad_user_data","ad_personalization","functionality_storage","personalization_storage"];
+  function applyChoice(v){localStorage.setItem(KEY,v);var p={};for(var i=0;i<STORAGES.length;i++)p[STORAGES[i]]=v;if(window.gtag)window.gtag("consent","update",p);}
+  if(document.getElementById("rgpd-banner-eu"))return;
+  var saved=localStorage.getItem(KEY);
+  if(saved==="granted"||saved==="denied"){applyChoice(saved);return;}
+  var b=document.createElement("div");b.id="rgpd-banner-eu";b.setAttribute("role","dialog");b.setAttribute("aria-label","Consentimento de cookies");
+  b.innerHTML="<div style=\\"flex:1;min-width:220px\\"><strong>Cookies e análise de utilização.</strong> Utilizamos cookies para analisar a utilização do site (Google Analytics) e melhorar o serviço. Pode aceitar ou recusar — a sua escolha é livre. <a href=\\"/politica-cookies\\" style=\\"color:#7dd3fc;text-decoration:underline;margin-left:4px\\">Política de cookies</a></div><div style=\\"display:flex;gap:10px;flex-shrink:0\\"><button id=\\"rgpd-banner-eu-accept\\" type=\\"button\\" style=\\"background:#2193b0;color:#fff;border:0;padding:10px 18px;border-radius:6px;font-weight:700;cursor:pointer;font-size:14px\\">Aceitar</button><button id=\\"rgpd-banner-eu-reject\\" type=\\"button\\" style=\\"background:#2193b0;color:#fff;border:0;padding:10px 18px;border-radius:6px;font-weight:700;cursor:pointer;font-size:14px\\">Recusar</button></div>";
+  b.style="position:fixed;bottom:0;left:0;right:0;z-index:9999;background:rgba(17,24,39,.97);color:#f3f4f6;padding:14px 18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:center;font-size:14px;line-height:1.45";
+  document.body.appendChild(b);
+  function bind(){var a=document.getElementById("rgpd-banner-eu-accept");var r=document.getElementById("rgpd-banner-eu-reject");if(a)a.addEventListener("click",function(){applyChoice("granted");b.remove();});if(r)r.addEventListener("click",function(){applyChoice("denied");b.remove();});}
+  if(document.readyState==="complete")bind();else window.addEventListener("load",bind);
+})();
+</script>
+<!-- /RGPD Bandeau UI -->
+"""
+
+
+def inject_ga4_rgpd(html: str) -> str:
+    """Reinjecte GA4 + RGPD (Consent Mode + bandeau) si absent du HTML. Idempotent."""
+    if GA4_RGPD_MARKER not in html:
+        html = html.replace("<head>", "<head>\n" + GA4_RGPD_HEAD_BLOCK, 1)
+    if RGPD_BANNER_MARKER not in html:
+        html = html.replace("</body>", RGPD_BANNER_BLOCK + "</body>", 1)
+    return html
 
 # Lat/Lon fallback (centre du district si absent)
 DISTRICT_COORDS = {
@@ -64,8 +131,8 @@ def slugify(name: str) -> str:
 
 
 def fmt_precos_desloc() -> str:
-    """Ligne transp box officielle, interpolée (zéro regex literal)."""
-    return ", ".join(f"Z{i}={GRILLE_ZONAS[i]}€" for i in range(1, 7))
+    """Ligne tarifaire officielle, sans zones commerciales obsolètes."""
+    return "30 € em dias úteis (9h–17h) / 50 € à noite, fins de semana e feriados"
 
 
 def load_concelhos() -> list[dict]:
@@ -89,30 +156,17 @@ def nearest_concelhos(c: dict, all_cs: list[dict], n: int = 4) -> list[str]:
 
 
 def intro_unique(c: dict) -> str:
-    """Lead 40-60 mots réponse-first (GEO best practice: answer-first)."""
+    """Lead factual, with the official fixed hourly/time-based grid."""
     name = c["name"]
-    zone = c["zone"]
-    desloc = c["price"]["desloc"]
     km = c.get("route_km") or 0
     minutos = c.get("route_min") or 0
-    desde = c["price"]["desde"]
-    h2 = c["price"]["h2"]
-
-    dist_str = (
-        f"em {km:.0f} km (~{minutos} min de viagem desde a base em Macedo de Cavaleiros)"
-        if km > 0
-        else "imediatamente, somos a base operacional (resposta 24h mais rápida da região)"
-    )
-
+    dist_str = (f"em {km:.0f} km (rota desde a base em Macedo de Cavaleiros)" if km > 0 else "na base operacional")
     return (
         f"Sim, atendemos urgências elétricas em {name} 24h/7d. "
         f"Curto-circuito, disjuntor que dispara ou falha de energia geral: "
-        f"chegamos {dist_str}, zona tarifária Z{zone} com deslocação "
-        f"de {desloc}€ já incluída no orçamento. "
-        f"Intervenção a partir de {desde}€ na 1ª hora, {h2}€ em 2h "
-        f"(hora de trabalho {TARIF_HORA}€). "
-        f"Orçamento por escrito antes de tocar na instalação, sem surpresas — "
-        f"majorações {MAJORACAO} comunicadas ao telefone."
+        f"deslocação fixa de 30 € em dias úteis (9h–17h) ou 50 € à noite, fins de semana e feriados, "
+        f"com mão de obra de 70 €/h ou 100 €/h fora do horário útil. "
+        f"Orçamento por escrito antes de tocar na instalação, sem surpresas."
     )
 
 
@@ -136,53 +190,15 @@ def service_items(c: dict) -> list[str]:
 
 
 def faq_entries(c: dict) -> list[dict]:
-    """5 FAQ dur (intent urgência dinheiro). Chaque réponse cite la vraie grille."""
     name = c["name"]
-    zone = c["zone"]
-    desloc = c["price"]["desloc"]
     km = c.get("route_km") or 0
     minutos = c.get("route_min") or 0
     return [
-        {
-            "q": f"Quanto tempo demora a chegar a {name}?",
-            "a": (
-                f"Em condições normais, a vinda desde Macedo de Cavaleiros é de "
-                f"~{minutos} minutos ({km:.0f} km). Em horário noturno, feriado ou "
-                f"condições atmosféricas adversas, este tempo pode aumentar. "
-                f"Confirmamos a janela de chegada ao telefone antes da deslocação."
-            ),
-        },
-        {
-            "q": f"Quanto custa deslocação a {name}?",
-            "a": (
-                f"Zona tarifária Z{zone}: deslocação {desloc}€ já incluída no orçamento "
-                f"por escrito. {TARIF_HORA}€/hora de mão de obra. "
-                f"Majoração noite/domingo/feriado: +50% (sempre anunciada antes)."
-            ),
-        },
-        {
-            "q": f"Atendem urgências elétricas em {name} 24h?",
-            "a": (
-                f"Sim — curto-circuito, falha de energia geral, disjuntor que dispara "
-                f"ou cheiro a queimado na instalação: atendemos 24 horas, 7 dias por semana, "
-                f"incluindo fins de semana e feriados. Ligue +351 932 321 892."
-            ),
-        },
-        {
-            "q": f"Fazem orçamento por escrito em {name} antes de começar?",
-            "a": (
-                f"Sim — orçamento por escrito sem surpresas, com discriminação de deslocação, "
-                f"mão de obra e material. Só arrancamos depois da sua confirmação oral ou escrita."
-            ),
-        },
-        {
-            "q": f"Emitem fatura com NIF para {name}?",
-            "a": (
-                f"Sim. Fatura com NIF, discriminada por deslocação Z{zone} ({desloc}€), "
-                f"hora de trabalho ({TARIF_HORA}€/h) e material. Pagamento MB Way, cartão ou "
-                f"numerário. Garantia 2 anos sobre mão de obra e peças."
-            ),
-        },
+        {"q": f"Quanto tempo demora a chegar a {name}?", "a": f"A rota desde Macedo de Cavaleiros é de cerca de {km:.0f} km. A janela de chegada é confirmada por telefone conforme a urgência e as condições do momento; não publicamos promessas de minutos."},
+        {"q": f"Quanto custa deslocação a {name}?", "a": "A deslocação é 30 € em dias úteis (9h–17h) ou 50 € à noite, fins de semana e feriados. A mão de obra é 70 €/h em horário útil ou 100 €/h fora desse horário."},
+        {"q": f"Atendem urgências elétricas em {name} 24h?", "a": f"Sim — atendemos curto-circuito, falha de energia, disjuntor que dispara e outras avarias elétricas 24 horas por dia, 7 dias por semana. Ligue +351 932 321 892."},
+        {"q": f"Fazem orçamento por escrito em {name} antes de começar?", "a": "Sim — apresentamos orçamento por escrito, discriminando deslocação, mão de obra e material, antes de iniciar a intervenção."},
+        {"q": f"Emitem fatura com NIF para {name}?", "a": "Sim. A fatura discrimina a deslocação, a mão de obra e o material. A garantia aplicável é indicada por escrito."},
     ]
 
 
@@ -215,43 +231,16 @@ def local_business_schema(c: dict) -> dict:
     name = c["name"]
     lat = (c.get("lat") or DISTRICT_COORDS.get(c.get("district", ""), (41.5, -6.9))[0])
     lon = (c.get("lon") or DISTRICT_COORDS.get(c.get("district", ""), (41.5, -6.9))[1])
-    zone = c["zone"]
-    desloc = c["price"]["desloc"]
     return {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@context": "https://schema.org", "@type": "LocalBusiness",
         "@id": f"https://eletricista-urgente.pt/#localbusiness-{c['slug']}",
-        "name": f"Norte Reparos — Eletricista Urgente {name}",
-        "alternateName": f"Eletricista Urgente {name} 24h",
-        "telephone": "+351 932 321 892",
-        "priceRange": "€€",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": name,
-            "addressRegion": c.get("district", "Trás-os-Montes"),
-            "addressCountry": "PT",
-        },
+        "name": f"Norte Reparos — Eletricista Urgente {name}", "telephone": "+351 932 321 892",
+        "priceRange": "70 €/h–100 €/h", "address": {"@type": "PostalAddress", "addressLocality": name, "addressRegion": c.get("district", "Trás-os-Montes"), "addressCountry": "PT"},
         "geo": {"@type": "GeoCoordinates", "latitude": lat, "longitude": lon},
         "areaServed": {"@type": "AdministrativeArea", "name": f"Concelho de {name}"},
-        "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-            "opens": "00:00", "closes": "23:59",
-        },
-        "serviceArea": {
-            "@type": "GeoCircle",
-            "geoMidpoint": {"@type": "GeoCoordinates", "latitude": lat, "longitude": lon},
-            "geoRadius": "80000",
-        },
-        "makesOffer": [
-            {"@type": "Offer", "name": "Eletricista urgente 24h em " + name,
-             "priceCurrency": "EUR", "price": str(desloc)},
-        ],
-        "sameAs": [
-            "https://canalizador-norte-reparos.pt",
-            "https://eletricista-norte-reparos.pt",
-            "https://canalizador-urgente.pt",
-        ],
+        "openingHoursSpecification": {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59"},
+        "makesOffer": [{"@type": "Offer", "name": "Eletricista urgente 24h em " + name, "priceCurrency": "EUR", "price": "70", "description": "Mão de obra 70 €/h em horário útil ou 100 €/h fora de horas; deslocação 30 € ou 50 € conforme o horário."}],
+        "sameAs": ["https://canalizador-norte-reparos.pt", "https://eletricista-norte-reparos.pt", "https://canalizador-urgente.pt"],
     }
 
 
@@ -395,14 +384,14 @@ def write_concelho(c: dict, neighbors: list[str]) -> str:
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>🚨 Eletricista Urgente {name} {desloc}€ | Norte Reparos 24h</title>
- <meta name="description" content="Eletricista urgente em {name} ({district}), a {km:.0f} km (~{minutos} min). Curto-circuito, falha de energia, disjuntor que dispara 24h/7d. Deslocação {desloc}€, {TARIF_HORA}€/h. Ligue +351 932 321 892.">
+ <meta name="description" content="Eletricista urgente em {name} ({district}), a {km:.0f} km. Curto-circuito, falha de energia, disjuntor que dispara 24h/7d. Deslocação {desloc}€, {TARIF_HORA}€/h. Ligue +351 932 321 892.">
  <link rel="canonical" href="https://eletricista-urgente.pt/concelhos/{slug}">
  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
  <meta name="geo.placename" content="{name}, {district}">
  <meta name="geo.position" content="{c.get('lat') or DISTRICT_COORDS.get(district, (41.5,-6.9))[0]};{c.get('lon') or DISTRICT_COORDS.get(district, (41.5,-6.9))[1]}">
  <meta name="ICBM" content="{c.get('lat') or DISTRICT_COORDS.get(district, (41.5,-6.9))[0]}, {c.get('lon') or DISTRICT_COORDS.get(district, (41.5,-6.9))[1]}">
  <meta property="og:title" content="Eletricista Urgente no Concelho de {name} 24h">
- <meta property="og:description" content="Curto-circuito, falha de energia, disjuntor que dispara — resposta em {minutos} min, deslocação {desloc}€, orçamento por escrito.">
+ <meta property="og:description" content="Curto-circuito, falha de energia, disjuntor que dispara — hora de chegada confirmada por telefone, deslocação {desloc}€, orçamento por escrito.">
  <meta property="og:type" content="website">
  <meta property="og:url" content="https://eletricista-urgente.pt/concelhos/{slug}">
  <meta property="og:image" content="https://eletricista-urgente.pt/og-image.png">
@@ -451,7 +440,7 @@ def write_concelho(c: dict, neighbors: list[str]) -> str:
 
 <h1 role="heading" aria-level="1">⚡ Eletricista Urgente no Concelho de {name} 24h</h1>
 
-<p style="font-size:.95rem;color:#555;margin:.4rem 0 1.4rem"><span class="zone-pill">Zona {zone}</span> &nbsp; Deslocação {desloc}€ incluída · Resposta em ~{minutos} min · Orçamento por escrito</p>
+<p style="font-size:.95rem;color:#555;margin:.4rem 0 1.4rem">Deslocação {desloc}€ (dias úteis) ou 50€ (noite, fim de semana, feriados) · Orçamento por escrito antes de qualquer intervenção</p>
 
 <div class="urgence-box" itemscope itemtype="https://schema.org/Question" itemprop="mainEntity">
  <h2 role="heading" aria-level="2">{h2q}</h2>
@@ -460,7 +449,7 @@ def write_concelho(c: dict, neighbors: list[str]) -> str:
 
 <div class="transp">
  <h2>⚡ Transparência tarifária — Eletricista {name}</h2>
- <p><strong>{TARIF_HORA} €/h</strong> (mão de obra) · Deslocação {fmt_precos_desloc()} · Majoração noite (20h-8h), domingo e feriado: <strong>+50%</strong>.</p>
+ <p><strong>{TARIF_HORA} €/h</strong> em dias úteis (9h–17h) ou <strong>100 €/h</strong> fora desse horário · Deslocação {fmt_precos_desloc()}.</p>
  <p style="font-size:1.05em"><strong>Orçamento por escrito antes de qualquer intervenção, sem surpresas.</strong></p>
  <p>📞 <a href="tel:+351932321892"><strong>932 321 892</strong></a> · <a href="https://wa.me/351932321892?text=Ol%C3%A1%2C%20preciso%20de%20eletricista%20urgente%20em%20{name.replace(' ', '%20')}">WhatsApp {name}</a> · Falamos consigo diretamente — Filipe, Trás-os-Montes</p>
 </div>
@@ -468,9 +457,9 @@ def write_concelho(c: dict, neighbors: list[str]) -> str:
 <div class="info-box">
  <p><strong>Concelho:</strong> {name}</p>
  <p><strong>Distrito:</strong> {district}</p>
- <p><strong>Zona tarifária:</strong> Zona {zone} — deslocação <strong>{desloc}€</strong></p>
- <p><strong>Distância desde Macedo de Cavaleiros:</strong> {km:.0f} km ({(km*1.0):.0f} km por estrada, ~{minutos} min)</p>
- <p><strong>Tempo de resposta:</strong> ~{minutos} min em horário útil; majoração noite/domingo comunicado por telefone.</p>
+ <p><strong>Deslocação:</strong> <strong>{desloc}€</strong> em dias úteis (9h–17h) ou 50€ à noite, fim de semana e feriados</p>
+ <p><strong>Distância desde Macedo de Cavaleiros:</strong> {km:.0f} km ({(km*1.0):.0f} km por estrada)</p>
+ <p><strong>Hora de chegada:</strong> confirmada por telefone conforme a urgência e a disponibilidade da equipa.</p>
  <p><strong>Tarifas:</strong> 1ª hora desde {desde}€ · 2h {h2p}€ · {TARIF_HORA}€/h subsequente · IVA isento (art. 53.º CIVA).</p>
 </div>
 
@@ -490,19 +479,15 @@ def write_concelho(c: dict, neighbors: list[str]) -> str:
  <li><strong>Diagnóstico in loco</strong> com multímetro Fluke, detetor de tensão e câmara térmica — orçamento por escrito antes de reparar.</li>
 </ol>
 
-<h2 role="heading" aria-level="2">Tabela de deslocação por zona — referência oficial</h2>
+<h2 role="heading" aria-level="2">Deslocação — forfait único, referência oficial</h2>
 <table>
- <thead><tr><th>Zona</th><th>Distância aprox.</th><th>Deslocação</th><th>Majoração noite/domingo/feriado</th></tr></thead>
+ <thead><tr><th>Horário</th><th>Deslocação</th></tr></thead>
  <tbody>
-"""
-    for z in range(1, 7):
-        dlo = GRILLE_ZONAS[z]
-        marker = " ← esta zona" if z == zone else ""
-        dist_label = ('até 15 km' if z==1 else '15-30 km' if z==2 else '30-50 km' if z==3 else '50-75 km' if z==4 else '75-100 km' if z==5 else '100+ km')
-        html += f"  <tr><td>Z{z}{marker}</td><td>{dist_label}</td><td>{dlo}€</td><td>+50%</td></tr>\n"
-    html += f""" </tbody>
+ <tr><td>Dias úteis (9h–17h)</td><td>{GRILLE_ZONAS[1]}€</td></tr>
+ <tr><td>Noite, fim de semana e feriados</td><td>50€</td></tr>
+ </tbody>
 </table>
-<p style="font-size:.8rem;color:#666">Hora de trabalho {TARIF_HORA}€ (mão de obra) · IV A isento ao abrigo do art. 53.º do CIVA. Preço desde/{h2p}€ referido acima diz respeito à 1.ª hora / 2 horas em Zona {zone}; para outras zonas, peça-nos orçamento por escrito sem compromisso.</p>
+<p style="font-size:.8rem;color:#666">Hora de trabalho {TARIF_HORA}€ (mão de obra) em dias úteis ou 100€/h fora desse horário · IVA isento ao abrigo do art. 53.º do CIVA. Preço desde/{h2p}€ referido acima diz respeito à 1.ª hora / 2 horas; deslocação incluída, seja qual for a localidade servida.</p>
 
 <h2 role="heading" aria-level="2">Bairros servidos no concelho de {name}</h2>
 <p>Exemplos de localidades onde chegamos a partir da nossa base em Macedo de Cavaleiros (dados TomTom reais, indicative):</p>
@@ -555,6 +540,7 @@ def write_concelho(c: dict, neighbors: list[str]) -> str:
 </body>
 </html>
 """
+    html = inject_ga4_rgpd(html)
     return html
 
 

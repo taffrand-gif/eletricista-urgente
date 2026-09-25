@@ -58,9 +58,12 @@ def source_entries(source: Path, domain: str) -> list[tuple[str, str, Path]]:
         page = ROOT / f"{slug}.html"
         if not page.is_file():
             raise FileNotFoundError(f"URL has no matching root HTML: {loc} ({page})")
+        head = page.read_text(encoding="utf-8", errors="ignore")[:12000].lower()
+        if re.search(r'<meta\s+name=["\']robots["\'][^>]+noindex', head):
+            continue
         entries.append((loc, priority, page))
-    if len(entries) != 1936:
-        raise ValueError(f"expected curated EU inventory of 1936 URLs, got {len(entries)}")
+    if not entries:
+        raise ValueError("curated EU inventory produced no indexable URLs")
     return entries
 
 

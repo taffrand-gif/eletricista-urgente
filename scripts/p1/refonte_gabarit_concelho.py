@@ -32,12 +32,12 @@ HERE = Path(__file__).resolve().parent
 REPO = HERE.parents[1]
 TELEPHONE = '+351 932 321 892'
 ELEC_RATE = 70
-ELEC_STR = '70€'
-MAJORATION = '+50%'
-
-ZONE_TABLE = [
-    (15, 1, 15), (30, 2, 25), (50, 3, 35), (70, 4, 45), (90, 5, 55), (140, 6, 65),
-]
+ELEC_STR = '70 €'
+NIGHT_STR = '100 €'
+DAY_TRAVEL = 30
+NIGHT_TRAVEL = 50
+MAJORATION = '100 €/h fora do horário útil'
+ZONE_TABLE = []
 
 def norm(s):
     s = unicodedata.normalize('NFD', s)
@@ -76,124 +76,33 @@ def village_count_text(slug, loc_data):
 # === VARIANTES LINGUISTIQUES — TRANSPARENCE TARIFARE ===
 
 TRANS_TEMPLATES = [
-    # Variante 0 — défaut sobre, déclare zone+desloc en début
     '''<div class="transp">
  <h2>⚡ Transparência tarifária — Eletricista {name}</h2>
- <p>Tarifa horária <strong>70 €/h</strong> (mão de obra). Para {name}, a zona aplicável é <strong>Z{zone}</strong> ({rkm} km por estrada desde Macedo de Cavaleiros) e a deslocação é <strong>{desloc}€</strong>. Majoração +50% noite (20h-8h), domingo e feriado.</p>
- <p style="font-size:1.05em"><strong>Orçamento por escrito antes de qualquer intervenção, sem surpresas.</strong></p>
- <p>📞 <a href="tel:+351932321892"><strong>932 321 892</strong></a> · <a href="https://wa.me/351932321892?text=Ol%C3%A1%2C%20preciso%20de%20eletricista%20urgente%20em%20{nameslug}">WhatsApp {name}</a> · Falamos consigo directamente — Filipe, Trás-os-Montes</p>
-</div>''',
-    # Variante 1 — focus district + context géographique
-    '''<div class="transp">
- <h2>⚡ Tarifa aplicada — Eletricista {name}</h2>
- <p>Concelho de <strong>{name}</strong> (distrito de {district}, {region}): 70 €/h de mão de obra + deslocação Z{zone} = <strong>{desloc}€</strong>. A majoração +50% em horário nocturno, fim de semana ou feriado é sempre anunciada antes da deslocação.</p>
- <p style="font-size:1.05em"><strong>Orçamento por escrito, sem surpresas.</strong></p>
- <p>Contacto directo: <a href="tel:+351932321892"><strong>932 321 892</strong></a> · <a href="https://wa.me/351932321892?text=Ol%C3%A1%2C%20preciso%20de%20eletricista%20urgente%20em%20{nameslug}">WhatsApp</a></p>
-</div>''',
-    # Variante 2 — focus chiffres bruts (setor técnico)
-    '''<div class="transp">
- <h2>📋 Tabela tarifária aplicada — {name}</h2>
- <p>Mão de obra: <strong>70 € por hora</strong>. Zona tarifária para {name} ({rkm} km desde Macedo de Cavaleiros): <strong>Z{zone}</strong>. Deslocação: <strong>{desloc}€</strong>. Majoração +50% aplicável à mão de obra e à deslocação em horário nocturno, domingo ou feriado. IVA isento.</p>
- <p style="font-size:1.05em"><strong>Orçamento por escrito antes de qualquer trabalho.</strong></p>
- <p>Liga <a href="tel:+351932321892"><strong>932 321 892</strong></a> · <a href="https://wa.me/351932321892?text=Ol%C3%A1%2C%20preciso%20de%20eletricista%20urgente%20em%20{nameslug}">WhatsApp {name}</a></p>
-</div>''',
-    # Variante 3 (NO_ROUTE) — variante pour Moimenta da Beira
-    '''<div class="transp">
- <h2>⚡ Transparência tarifária — {name}</h2>
- <p>Mão de obra <strong>70 €/h</strong>, majoração +50% noite/WE/feriado. A zona tarifária de {name} ainda não está publicada (route_km TomTom indisponível): confirmamos a distância exacta e a deslocação por telefone antes da deslocação, sem surpresas.</p>
- <p style="font-size:1.05em"><strong>Orçamento por escrito antes de qualquer trabalho.</strong></p>
- <p>📞 <a href="tel:+351932321892"><strong>932 321 892</strong></a> · <a href="https://wa.me/351932321892?text=Ol%C3%A1%2C%20preciso%20de%20eletricista%20urgente%20em%20{nameslug}">WhatsApp {name}</a></p>
+ <p>Mão de obra: <strong>70 €/h</strong> em dias úteis (9h–17h) ou <strong>100 €/h</strong> à noite, fins de semana e feriados. Deslocação fixa: <strong>30 €</strong> em horário útil ou <strong>50 €</strong> fora desse horário.</p>
+ <p><strong>Orçamento por escrito antes de qualquer intervenção, sem surpresas.</strong></p>
+ <p>📞 <a href="tel:+351932321892"><strong>932 321 892</strong></a> · <a href="https://wa.me/351932321892">WhatsApp</a></p>
 </div>''',
 ]  # fin TRANS_TEMPLATES
 
 def render_transp(c, slug):
     name = c['name']
     nameslug = name.replace(' ', '%20')
-    zone = c.get('zone')
-    desloc = (c.get('price') or {}).get('desloc')
-    rkm = c.get('route_km')
-    district = c['district']
-    region = district_context(district)[0]
-    euro70 = '70 €/h'
-
-    if zone is None or desloc is None or rkm is None:
-        t = TRANS_TEMPLATES[3]  # variante NO_ROUTE
-        return t.format(name=name, nameslug=nameslug, euro70=euro70, majo=MAJORATION)
-
-    zone_max = int([s for s,z,p in ZONE_TABLE if z==zone][0])
-    t = pick(slug, TRANS_TEMPLATES[:3])  # parmi variantes 0,1,2
-    return t.format(name=name, nameslug=nameslug, district=district, rkm=rkm,
-                    region=region,
-                    euro70=euro70, zone=zone, zone_max=zone_max, desloc=desloc, majo=MAJORATION)
+    t = TRANS_TEMPLATES[0]
+    return t.format(name=name, nameslug=nameslug)
 
 
 # === VARIANTES TABELA DESLOCAÇÃO ===
 
 TABELA_TEMPLATES = [
-    '''<h2 role="heading" aria-level="2">Tabela de deslocação — referência oficial</h2>
-<p><strong>{name}</strong> ({district}) fica a {rkm} km por estrada desde a base operacional em Macedo de Cavaleiros ({rmin} min publicados). Aplica-se a tarifa <strong>Z{zone}</strong> = <strong>{desloc}€</strong> de deslocação.</p>
-<table>
- <thead><tr><th>Zona</th><th>Distância aprox.</th><th>Deslocação</th><th>Majoração noite/domingo/feriado</th></tr></thead>
- <tbody>
-{tablerows}
- </tbody>
-</table>
-<p style="font-size:.8rem;color:#666">Hora de trabalho {ELEC_STR}€ (mão de obra) · IVA isento ao abrigo do art. 53.º CIVA.</p>''',
-    '''<h2 role="heading" aria-level="2">Tarifário de deslocação — referência</h2>
-<p>Para alcançar {name} ({rkm} km desde Macedo, {rmin} min publicados): tarifa Z{zone} = {desloc}€ de deslocação por visita.</p>
-<table>
- <thead><tr><th>Zona</th><th>Limite km</th><th>€ deslocação</th><th>Majoração noturna/fim-de-semana/feriado</th></tr></thead>
- <tbody>
-{tablerows}
- </tbody>
-</table>
-<p style="font-size:.8rem;color:#666">Hora de trabalho: {ELEC_STR}€ + IVA isento (art. 53.º).</p>''',
-    '''<h2 role="heading" aria-level="2">Custo de deslocação por zona</h2>
-<p>A deslocação ao concelho de {name} ({district}) é de {rkm} km = <strong>Z{zone} → {desloc}€</strong>.</p>
-<table>
- <thead><tr><th>Zona</th><th>Até</th><th>Preço</th><th>Majoração noite/dom./feriado</th></tr></thead>
- <tbody>
-{tablerows}
- </tbody>
-</table>
-<p style="font-size:.8rem;color:#666">Mão de obra {ELEC_STR}€/h. IVA isento.</p>''',
-    '''<h2 role="heading" aria-level="2">Tabela tarifária — {name}</h2>
-<p>Tarifário indicativo, sujeito a orçamento escrito. A zona para {name} ({rkm} km) é <strong>Z{zone}</strong>, {desloc}€ de deslocação.</p>
-<table>
- <thead><tr><th>Zona</th><th>Distância (km)</th><th>Deslocação (€)</th><th>Majoração WE/feriado</th></tr></thead>
- <tbody>
-{tablerows}
- </tbody>
-</table>
-<p style="font-size:.8rem;color:#666">Tarifa horária mão-de-obra {ELEC_STR}€. IVA isento (art. 53.º CIVA).</p>''',
+    '''<h2 role="heading" aria-level="2">Preços de deslocação e mão de obra</h2>
+<p><strong>{name}</strong>: deslocação fixa de 30 € em dias úteis (9h–17h) ou 50 € à noite, fins de semana e feriados. Mão de obra: 70 €/h em horário útil ou 100 €/h fora desse horário.</p>
+<p>Orçamento por escrito antes de começar; cada hora começada é devida.</p>''',
 ]
 
 def render_tabela(c, slug):
     name = c['name']
     district = c['district']
-    zone = c.get('zone')
-    desloc = (c.get('price') or {}).get('desloc')
-    rkm = c.get('route_km')
-    rmin = c.get('route_min')
-
-    if rkm is None or zone is None or desloc is None:
-        # Pas de mesure — tabela générique + ligne Moimenta stylisée
-        tablerows = []
-        for sup, z, p in ZONE_TABLE:
-            tablerows.append(f'  <tr><td>Z{z}</td><td>até {sup} km</td><td>{p}€</td><td>+50%</td></tr>')
-        t = TABELA_TEMPLATES[3]
-        return t.format(name=name, district=district, rkm='?', desloc='?',
-                        zone='?', tablerows='\n'.join(tablerows), ELEC_STR=ELEC_STR)
-
-    tablerows = []
-    for sup, z, p in ZONE_TABLE:
-        marker = ' ← esta zona' if (zone == z) else ''
-        tablerows.append(f'  <tr><td>Z{z}{marker}</td><td>até {sup} km</td><td>{p}€</td><td>+50%</td></tr>')
-
-    rmin_text = str(int(rmin)) if rmin is not None else '?'
-    t = pick(slug, TABELA_TEMPLATES[:3])
-    return t.format(name=name, district=district, rkm=rkm, rmin=rmin_text,
-                    zone=zone, desloc=desloc, tablerows='\n'.join(tablerows), ELEC_STR=ELEC_STR)
+    return TABELA_TEMPLATES[0].format(name=name, district=district)
 
 
 # === VARIANTES SERVICES ===
@@ -254,7 +163,7 @@ def render_servicos(c, slug, loc_data):
                     majo_str=MAJORATION, rkm=rkm if rkm is not None else '?', rgeo=rgeo[2])
 
 
-# === VARIANTES FAQ ===
+# === FAQ — grille horaire fixe 2026, sans zones commerciales ===
 
 FAQ_TEMPLATES_A = ["""<section class="faq" role="region" aria-label="Perguntas frequentes">
 <h2 role="heading" aria-level="2">Perguntas frequentes — {name}</h2>
@@ -315,27 +224,21 @@ FAQ_TEMPLATES_A = ["""<section class="faq" role="region" aria-label="Perguntas f
 def render_faq(c, slug, loc_data):
     name = c['name']
     district = c['district']
-    zone = c.get('zone')
-    desloc = (c.get('price') or {}).get('desloc')
     rkm = c.get('route_km')
     rmin = c.get('route_min')
     n_villages = village_count_text(slug, loc_data)
     euro70 = '70 €/h'
 
-    if rkm is None or zone is None or desloc is None:
-        rkm_text = '— route_km TomTom indisponível — zona a confirmar por telefone'
-        zone_label = 'a confirmar por telefone'
-        desloc_text = 'a confirmar'
-        preco_phrase = (f'Zona tarifária ainda não publicada (route_km indisponível). '
-                        f'Confirmamos a distância e a deslocação por telefone antes do orçamento.')
+    if rkm is None:
+        rkm_text = '— route_km TomTom indisponível — rota confirmada por telefone'
+        preco_phrase = ('Deslocação fixa de 30 € em dias úteis (9h–17h) ou 50 € à noite, '
+                        'fins de semana e feriados. Mão de obra: 70 €/h ou 100 €/h fora do horário útil.')
         chegar = ('A distância rodoviária desde Macedo de Cavaleiros ainda não está publicada. '
                   'Confirmamos a janela de chegada por telefone antes da deslocação.')
     else:
         rkm_text = f'{rkm} km por estrada desde Macedo de Cavaleiros'
-        zone_label = f'Z{zone}'
-        desloc_text = f'{desloc}'
-        preco_phrase = (f'Zona Z{zone} para {name} ({rkm} km) = {desloc}€ de deslocação. '
-                        f'Mão-de-obra {ELEC_STR}€/h. Majoração {MAJORATION} noite/WE/feriado.')
+        preco_phrase = ('Deslocação fixa de 30 € em dias úteis (9h–17h) ou 50 € à noite, '
+                        'fins de semana e feriados. Mão de obra: 70 €/h ou 100 €/h fora do horário útil.')
         if rmin is not None:
             chegar = (f'Em condições normais, a vinda desde Macedo de Cavaleiros até {name} '
                       f'regista {rkm} km por estrada (~{int(rmin)} minutos publicados). Em horário '
@@ -356,7 +259,7 @@ def render_faq(c, slug, loc_data):
     t = pick(slug, FAQ_TEMPLATES_A)
     return t.format(
         name=name, district=district, tel=TELEPHONE, euro70=euro70, majo=MAJORATION,
-        rkm_text=rkm_text, zone_label=zone_label, desloc_text=desloc_text,
+        rkm_text=rkm_text, zone_label='', desloc_text='',
         preco_phrase=preco_phrase, chegar=chegar, aldeias=aldeias,
         aldeias_label_q=aldeias_label_q, chegar_q='Tempo de deslocação',
         tel_q_label='Como ligo',
@@ -393,7 +296,7 @@ PORQUE_TEMPLATES = [
 <ul>
  <li><strong>Conhecemos a região</strong> — {region_text}, base operacional em Macedo de Cavaleiros.</li>
  <li><strong>Resposta 24/7</strong> para qualquer avaria eléctrica no concelho de {name} ({district}).</li>
- <li><strong>Discriminação rigorosa</strong>: mão-de-obra {euro70}, deslocação Z{zone}, majoração {majo} sempre anunciada.</li>
+ <li><strong>Discriminação rigorosa</strong>: mão-de-obra 70 €/h ou 100 €/h fora do horário útil, deslocação de 30 € ou 50 € conforme o horário.</li>
  <li><strong>Fatura com NIF + 2 anos de garantia</strong> escrita entregue após a intervenção.</li>
  <li><strong>Sem invenção de moradas privadas</strong>: nunca publicamos direções residenciais de clientes.</li>
  <li><strong>Sem promessa de tempo</strong> escrita: confirmamos a janela por telefone antes da deslocação.</li>
@@ -401,7 +304,7 @@ PORQUE_TEMPLATES = [
     # V3 — focus transparence totale
     '''<h2 role="heading" aria-level="2">Compromissos assumidos em {name}</h2>
 <ul>
- <li><strong>Transparência tarifária:</strong> tabela acima + {euro70} + deslocação Z{zone} = {desloc}€.</li>
+ <li><strong>Transparência tarifária:</strong> 70 €/h em horário útil ou 100 €/h fora de horas, com deslocação única de 30 € ou 50 € conforme o horário.</li>
  <li><strong>Documentos entregues:</strong> factura com NIF, garantía escrita, relatório do diagnóstico.</li>
  <li><strong>Equipamento profissional trazido para {aldeias_text}.</strong></li>
  <li><strong>Seguro RC</strong> cobrindo eventuais danos materiais.</li>
@@ -412,8 +315,6 @@ PORQUE_TEMPLATES = [
 def render_porque(c, slug, loc_data):
     name = c['name']
     district = c['district']
-    zone = c.get('zone')
-    desloc = (c.get('price') or {}).get('desloc')
     n = village_count_text(slug, loc_data)
     rgeo = district_context(district)
 
@@ -424,8 +325,8 @@ def render_porque(c, slug, loc_data):
 
     region_text = f'Base em {rgeo[1]} do distrito de {district}, {rgeo[2]} — contacto directo para {name}'
     euro70 = '70 €/h'
-    zone_label = f'Z{zone}' if zone else '?'
-    desloc_label = f'{desloc}€' if desloc else 'a confirmar'
+    zone_label = 'forfait horário'
+    desloc_label = '30 € ou 50 € conforme o horário'
 
     t = pick(slug, PORQUE_TEMPLATES)
     return t.format(

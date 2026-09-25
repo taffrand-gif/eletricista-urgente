@@ -8,14 +8,7 @@ TOMTOM = "/Users/admin/Claude/Projects/norte reparos/norte-reparos-couverture-13
 OUT_DIR = "/Users/admin/projects/eletricista-urgente/data"
 
 # Barème CANAL par zone (AUTORITAIRE) — deslocação, desde(1h), 2h
-ZONE_PRICE = {
-    1: {"desloc": 15, "desde": 80,  "h2": 145},
-    2: {"desloc": 25, "desde": 90,  "h2": 155},
-    3: {"desloc": 35, "desde": 100, "h2": 165},
-    4: {"desloc": 45, "desde": 110, "h2": 175},
-    5: {"desloc": 55, "desde": 120, "h2": 185},
-    6: {"desloc": 65, "desde": 130, "h2": 195},
-}
+ZONE_PRICE = {z: {"desloc": 30, "desde": 70, "h2": 140} for z in range(1, 7)}
 
 # 34 concelhos AUTORITAIRE: name, district, zone, grille_km. Moimenta = held.
 # tomtom_name = override when TomTom file uses a variant spelling.

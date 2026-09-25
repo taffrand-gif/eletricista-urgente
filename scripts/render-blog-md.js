@@ -9,7 +9,7 @@ const PHONE_DISPLAY = '+351 932 321 892';
 const PHONE_E164 = '+351932321892';
 const WHATSAPP = 'https://wa.me/351932321892?text=Ol%C3%A1%2C%20preciso%20de%20ajuda%20com%20uma%20avaria%20el%C3%A9trica';
 const PRICE_TEXT = '70 €/h';
-const ZONES_TEXT = 'Z1=15 € / Z2=25 € / Z3=35 € / Z4=45 € / Z5=55 € / Z6=65 €';
+const ZONES_TEXT = '30 € de deslocação em dias úteis (9h–17h) / 50 € à noite, fins de semana e feriados';
 const BATCH_LIMIT = 95;
 
 function die(message) {
@@ -251,7 +251,7 @@ function directAnswer(frontmatter, body) {
     const first = body.split(/\n\s*\n/).find((block) => block.trim() && !block.trim().startsWith('#')) || '';
     answer = stripMarkdown(first);
   }
-  const suffix = 'A nossa equipa explica o diagnóstico, aplica 70 €/h e apresenta orçamento por escrito antes de qualquer intervenção, com deslocação conforme a zona e sem surpresas na fatura.';
+  const suffix = 'A nossa equipa explica o diagnóstico, aplica 70 €/h e apresenta orçamento por escrito antes de qualquer intervenção, com deslocação fixa de 30 € em horário útil ou 50 € fora desse horário, sem surpresas na fatura.';
   while (wordCount(answer) < 40 && !answer.includes(suffix)) answer = `${answer} ${suffix}`.trim();
   const words = answer.split(/\s+/).filter(Boolean);
   if (words.length > 60) answer = `${words.slice(0, 59).join(' ').replace(/[,:;]$/, '')}.`;
@@ -315,7 +315,7 @@ function makeSchemas({ title, description, slug, date, faq, howTo, repoRoot }) {
     name: 'Norte Reparos — Eletricista Urgente',
     telephone: PHONE_E164,
     url: DOMAIN,
-    priceRange: '70 €/h + deslocação Z1-Z6',
+    priceRange: '70 €/h–100 €/h + deslocação 30 €–50 €',
     areaServed,
   };
   const emergency = { '@context': 'https://schema.org', ...provider };
@@ -329,7 +329,7 @@ function makeSchemas({ title, description, slug, date, faq, howTo, repoRoot }) {
     serviceType: 'Diagnóstico e reparação de avarias elétricas',
     provider: { '@id': `${DOMAIN}/#electrician` },
     areaServed,
-    offers: { '@type': 'Offer', price: '70', priceCurrency: 'EUR', description: 'Mão de obra: 70 €/h; deslocação conforme Z1-Z6; +50% noite, domingo e feriado.' },
+    offers: { '@type': 'Offer', price: '70', priceCurrency: 'EUR', description: 'Mão de obra: 70 €/h em horário útil ou 100 €/h fora de horas; deslocação 30 € ou 50 € conforme o horário.' },
   };
   const faqSchema = {
     '@context': 'https://schema.org',
