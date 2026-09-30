@@ -1,6 +1,6 @@
 # Norte Reparos — Eletricista Urgente em Trás-os-Montes
 
-> Serviço de eletricista urgente 24h/7d em Trás-os-Montes, pelo técnico Filipe Bragança, com equipamento profissional (Fluke T6-1000, Megger MFT1741+, FLIR E96, ROLeak Aqua 3Plus, câmara de inspeção 30 m) e materiais Legrand, Schneider Electric, Hager, ABB, Siemens, Philips.
+> Serviço de eletricista urgente 24h/7d em Trás-os-Montes, pelo técnico Filipe Bragança, com equipamento profissional (Fluke T6-1000, Megger MFT1741+, FLIR E96, câmara de inspeção 30 m) e materiais Legrand, Schneider Electric, Hager, ABB, Siemens, Philips.
 > Última atualização: 2026-10-01
 
 ## Serviços
@@ -46,7 +46,6 @@ Grelha oficial: 70 €/hora + deslocação 30 € em dias úteis (9h–17h); 100
 ## Equipamento profissional (real, verificado)
 - **Fluke T6-1000** — testador de tensão e corrente sem contacto
 - **Megger MFT1741+** — testador de instalação multifunção (verifica resistência de terra, isolamento, continuidade)
-- **ROLeak Aqua 3Plus** — deteção acústica de fugas (também útil para localização de avarias elétricas ocultas)
 - **FLIR E96** — câmara térmica 43 200 px (identificação de pontos quentes em quadros e ligações)
 - **Câmara de inspeção 30 m** — visualização interior de condutas
 
