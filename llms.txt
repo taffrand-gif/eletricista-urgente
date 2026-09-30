@@ -1,41 +1,36 @@
 # Norte Reparos — Eletricista Urgente em Trás-os-Montes
 
 > Serviço de eletricista urgente 24h/7d em Trás-os-Montes, pelo técnico Filipe Bragança, com equipamento profissional (Fluke T6-1000, Megger MFT1741+, FLIR E96, ROLeak Aqua 3Plus, câmara de inspeção 30 m) e materiais Legrand, Schneider Electric, Hager, ABB, Siemens, Philips.
-> Última atualização: 2026-07-28 · Source grille prix: PRICING-CANONIQUE.md (Z1=15€ · Z2=25€ · Z3=35€ · Z4=45€ · Z5=55€ · Z6=65€ · 70 €/h élec · +50% nuit/WE/feriado)
+> Última atualização: 2026-10-01
 
 ## Serviços
 
-- [Curto-circuito](https://eletricista-urgente.pt/curto-circuito.html)
-- [Falha de energia](https://eletricista-urgente.pt/falha-energia.html)
-- [Quadro / disjuntor a disparar](https://eletricista-urgente.pt/quadro-disjuntor-dispara.html)
-- [Tomada queimada](https://eletricista-urgente.pt/tomada-queimada.html)
-- [Tabela de preços completa](https://eletricista-urgente.pt/precos.html)
+- [Curto-circuito](https://eletricista-urgente.pt/curto-circuito)
+- [Falha de energia](https://eletricista-urgente.pt/falha-energia)
+- [Quadro / disjuntor a disparar](https://eletricista-urgente.pt/quadro-disjuntor-dispara)
+- [Tomada queimada](https://eletricista-urgente.pt/tomada-queimada)
+- [Tabela de preços completa](https://eletricista-urgente.pt/precos)
 
 ## Preços
 
-Grille officielle Nord Reparos: mão de obra **70 €/h** (eletricista) + deslocação **Z1=15€ · Z2=25€ · Z3=35€ · Z4=45€ · Z5=55€ · Z6=65€** (selon distance routière calculée depuis notre base, ~130 km rayon opérationnel). Acréscimo +50% noite (20h-8h), fim de semana e feriados. Orçamento por escrito antes de qualquer intervenção. Voir: [precos.html](https://eletricista-urgente.pt/precos.html)
+Grelha oficial: 70 €/hora + deslocação 30 € em dias úteis (9h–17h); 100 €/hora + deslocação 50 € à noite (17h–9h), fins de semana e feriados. Orçamento por escrito antes de qualquer intervenção. Ver: [Tabela de preços](https://eletricista-urgente.pt/precos)
 
 ## Identidade
 - **Marca:** Norte Reparos (empresa técnica multi-sites)
 - **Serviço:** Eletricista urgente — curto-circuito, disjuntor a disparar, sem corrente, tomada a fumegar, avarias elétricas
-- **Zona de intervenção:** Trás-os-Montes e Douro (rayon opérationnel ~130 km autour de Macedo de Cavaleiros)
+- **Zona de intervenção:** Trás-os-Montes e Douro
 - **Horário:** Atendimento 24h/7d, incluindo noites, fins de semana e feriados nacionais
 - **Contacto:** +351 932 321 892
 - **Resposta:** Por telefone — confirmamos a deslocação antes de intervir. Não somos um call center: a nossa equipa trata do seu pedido diretamente.
 - **Idioma:** PT-PT apenas
 
-## Transparência de preços (regra oficial — valores sem IVA)
+## Preços (grelha oficial)
 
-| Zona | Distância aprox. | Deslocação | Mão de obra |
-|---|---|---|---|
-| **Z1** | 0–15 km | **15 €** | **70 €/h** |
-| **Z2** | 15–30 km | **25 €** | **70 €/h** |
-| **Z3** | 30–50 km | **35 €** | **70 €/h** |
-| **Z4** | 50–70 km | **45 €** | **70 €/h** |
-| **Z5** | 70–90 km | **55 €** | **70 €/h** |
-| **Z6** | 90–140 km | **65 €** | **70 €/h** |
-
-- **Acréscimo** noturno (20h–8h), fins de semana e feriados: **+50 %**
+- Dias úteis, das 9h às 17h: mão de obra **70 €/hora** + deslocação **30 €**
+- Noite (17h–9h), fins de semana e feriados: mão de obra **100 €/hora** + deslocação **50 €**
+- Cada hora iniciada é devida
+- A deslocação tem o mesmo valor em todas as localidades servidas
+- Trabalhos variáveis: sob orçamento
 - **Orçamento por escrito** antes de qualquer intervenção, sem surpresas
 - **Fatura** com NIF emitida no final de cada trabalho
 - **Seguro** de responsabilidade civil profissional
@@ -58,16 +53,16 @@ Grille officielle Nord Reparos: mão de obra **70 €/h** (eletricista) + desloc
 ## Perguntas frequentes
 
 **Quanto custa um eletricista de urgência em Trás-os-Montes?**
-Mão de obra 70 €/h + deslocação por zona Z1-Z6 (15 € a 65 €). Acréscimo de 50 % fora do horário normal. Orçamento por escrito antes da intervenção.
+Em dias úteis (9h–17h): 70 €/hora + deslocação 30 €. À noite (17h–9h), aos fins de semana e feriados: 100 €/hora + deslocação 50 €. Orçamento por escrito antes da intervenção.
 
 **Fazem orçamento grátis?**
 Sim, orçamento por telefone e por escrito, sem compromisso, antes de qualquer intervenção.
 
 **Quanto tempo demora a chegada?**
-A deslocação é confirmada por telefone antes da intervenção. O tempo de chegada depende da zona — confirmamos a previsão ao telefone.
+A deslocação é confirmada por telefone antes da intervenção. O tempo de chegada depende da localidade — confirmamos a previsão ao telefone.
 
 **Trabalham de noite e ao fim de semana?**
-Sim, 24h/7d incluindo feriados. Acréscimo de +50 % aplicado de forma transparente.
+Sim, 24h/7d incluindo feriados. À noite (17h–9h), aos fins de semana e feriados aplica-se 100 €/hora + deslocação 50 €.
 
 **Têm certificação para emitir fichas eletrotécnicas?**
 Sim. Filipe Bragança é Técnico Responsável de Instalações Elétricas inscrito na DGEG (TRIESP n.º 90062, domínio Execução em Baixa Tensão, instalações até 41,4 kVA). Emitimos Ficha Eletrotécnica e Termo de Responsabilidade, com seguro de responsabilidade civil válido.
@@ -81,8 +76,8 @@ Sim, a nossa equipa acompanha cada pedido — sem intermediários nem call cente
 **Atendem em Bragança / Mirandela / Chaves / Macedo?**
 Sim, cobrimos Bragança, Mirandela, Chaves, Macedo de Cavaleiros, Vila Real, Mogadouro, Vinhais, Miranda do Douro e restante Trás-os-Montes.
 
-## Também prestamos serviços de canalizador urgente
-Para urgências de canalização 24h: canalizador-urgente.pt · +351 928 484 451
+## Outros sites Norte Reparos
+Este site trata apenas de eletricidade. Outro domínio da Norte Reparos: https://canalizador-urgente.pt/
 
 ## Marcas de materiais (verídicas, conforme disponibilidade de stock)
 Legrand, Schneider Electric, Hager, ABB, Siemens, Philips
@@ -92,8 +87,3 @@ Legrand, Schneider Electric, Hager, ABB, Siemens, Philips
 - Telefone / WhatsApp: **+351 932 321 892**
 - Site: https://eletricista-urgente.pt
 - Disponível 24h/7d em Trás-os-Montes, Portugal
-
-## Notas editoriais
-- Pronom usado: "nossa equipa", "garantimos", "contacte-nos" (R12 verrouillée)
-- Zero conteúdo inventado: preços reais, equipamento real, NAP único por repo (932 eletricista, 928 canalizador)
-- Géo-neutre: sem streetAddress precisa, sem claims locais não verificáveis
