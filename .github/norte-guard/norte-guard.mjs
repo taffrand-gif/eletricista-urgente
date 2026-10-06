@@ -56,8 +56,10 @@ function listFiles() {
 
 // ---------- résultats ----------
 const findings = [];
+// CNR/ENR : le dossier public/ à la racine n'est PAS servi (build Vite = client/public) → constats rétrogradés en INFO.
+const NOT_SERVED = (file) => (SITE === "CNR" || SITE === "ENR") && /^public\//.test(file);
 const add = (file, line, rule, sev, surface, snippet) =>
-  findings.push({ file, line, rule, sev, surface, snippet: snippet.replace(/\s+/g, " ").trim().slice(0, 140) });
+  findings.push({ file, line, rule: NOT_SERVED(file) ? rule + "(non-servi)" : rule, sev: NOT_SERVED(file) ? "INFO" : sev, surface, snippet: snippet.replace(/\s+/g, " ").trim().slice(0, 140) });
 const lineOf = (t, i) => t.slice(0, i).split("\n").length;
 
 // ---------- règles ----------
