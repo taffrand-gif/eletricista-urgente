@@ -1,190 +1,80 @@
-# Norte Reparos — Eletricista Urgente (Documento Completo para LLMs)
+# Norte Reparos — Eletricista Urgente (documento completo)
 
-> Documento longo destiné aux LLMs (GPT-4, Claude, Gemini, Perplexity) pour indexation et citation précises.
-> Format Markdown lisible. Dernière mise à jour: 2026-07-01.
-> Site: https://eletricista-urgente.pt
+> Informação estruturada sobre o serviço de eletricidade urgente publicado em eletricista-urgente.pt.
+> Última atualização: 2026-10-07 · Idioma: português europeu (pt-PT)
 
----
+Site: https://eletricista-urgente.pt
+Telefone e WhatsApp: +351 932 321 892
 
-## 1. Identité de la marque
+## 1. Identidade e posicionamento
 
-**Norte Reparos** est une entreprise technique professionnelle multi-sites active dans la région de Trás-os-Montes (Portugal). Le site `eletricista-urgente.pt` est dédié exclusivement aux **urgences électricité** : court-circuit, disjoncteur qui saute, plus de courant, prise qui chauffe, panne électrique imprévue.
+A Norte Reparos presta serviços de eletricidade em Trás-os-Montes. Este domínio é dedicado ao reparação elétrica urgente: curto-circuito, disjuntor a disparar, falta de corrente, tomada ou quadro a fumegar. A nossa equipa atende por telefone e WhatsApp; Filipe Bragança, Técnico Responsável de Instalações Elétricas, integra a equipa.
 
-- **Maison-mère** : Norte Reparos (Portugal)
-- **Téléphone unique eletricista** : **+351 932 321 892** (NE PAS confondre avec 928 = canalizador)
-- **Site web** : https://eletricista-urgente.pt
-- **Siège opérationnel** : Macedo de Cavaleiros, Trás-os-Montes
-- **Zone d'intervention** : Trás-os-Montes + Douro (raio ~130 km)
-- **Langue** : PT-PT uniquement
+- Telefone e WhatsApp: +351 932 321 892
+- Sede operacional: Macedo de Cavaleiros, Trás-os-Montes
+- Zona de atuação: Trás-os-Montes e Douro; a disponibilidade é confirmada conforme a localização e a situação operacional.
 
----
+## 2. Preços (regra oficial)
 
-## 2. Doctrine officielle (AGENTS.md §12 verrouillée par Philippe)
-
-**Transparence Radicale** : à l'opposé des réseaux d'urgence anonymes, Norte Reparos mise sur la transparence tarifaire, l'identification de l'artisan, et le diagnostic honnête.
-
-Les 4 piliers :
-
-1. **Transparence prix HAUT dans la page** : 70 €/h + grille Z1-Z6 + +50 % nuit/WE/feriado
-2. **Artisan local identifiable** : « a nossa equipa acompanha cada pedido, sem intermediários nem call center »
-3. **Diagnostic transparent** : expliquer ce qui est fait et pourquoi
-4. **Traçabilité** : facture avec NIF, seguro RC, fichas eletrotécnicas conformes
-
----
-
-## 3. Grille tarifaire officielle (verrouillée)
-
-| Zone | Distance approximative | Deslocação | Mão de obra |
-|---|---|---|---|
-| Z1 | 0–22 km | **15 €** | **70 €/h** |
-| Z2 | 23–43 km | **25 €** | **70 €/h** |
-| Z3 | 44–65 km | **35 €** | **70 €/h** |
-| Z4 | 66–87 km | **45 €** | **70 €/h** |
-| Z5 | 88–109 km | **55 €** | **70 €/h** |
-| Z6 | 110–130 km | **65 €** | **70 €/h** |
-
-- **Mão de obra** : **70 €/h** (tarif unique élec)
-- **Acréscimo noturno** (20h–8h), fins de semana e feriados nacionais : **+50 %**
-- **IVA** : taux normal en vigueur (non inclus dans les tarifs ci-dessus)
-- **Orçamento por escrito** : systématique, avant toute intervention, sans engagement
-- **Fatura com NIF** : émise à la fin de chaque travail
-
----
-
-## 4. Urgence vs Installation — différenciation clé
-
-| | eletricista-urgente.pt | eletricista-norte-reparos.pt |
+| Período | Mão de obra | Deslocação |
 |---|---|---|
-| Intent | Urgence (panne, court-circuit) | Installation (projet, remodelação, certificação) |
-| Disponibilidade | 24h/7d | Horaire ouvré |
-| Phrase signature | « Orçamento por escrito antes da intervenção » | « Devis 48h, garantie par écrit » |
-| Page hub | court-circuit, disjuntor, panne totale | quadro elétrico, certificação, LED |
-| NAP | 932 321 892 | 932 321 892 (même maison-mère) |
+| Dias úteis, 09h–18h | **70 €/h** | **30 €** |
+| Após as 18h, noite, fins de semana e feriados | **100 €/h** | **50 €** |
 
-Les deux sites partagent le même NAP et la même maison-mère (Norte Reparos), mais ciblent des **intentions de recherche distinctes** pour occuper deux slots organiques sur Google.
+- Valores em euros, TTC. Toda a hora iniciada é devida.
+- A deslocação é devida sempre que há deslocação ao local.
+- Não há orçamento gratuito quando a deslocação é necessária.
+- Uma estimativa à distância (descrição detalhada e fotos) é indicativa e não é um orçamento definitivo. Cada situação é diferente e pode demorar mais ou menos tempo; o preço final depende do diagnóstico e da intervenção real.
+- Ficha eletrotécnica e Termos de responsabilidade: a partir de 350 € TTC, sob orçamento conforme o caso. Este valor não é um preço horário nem se aplica a cada intervenção.
+- Seguro de responsabilidade civil profissional até 50 000 €.
+- Fatura com NIF emitida no final de cada trabalho.
 
----
+## 3. Chegada
 
-## 5. Services détaillés
+A janela de chegada é confirmada por telefone e depende da situação operacional.
 
-### Urgences 24h
-- Curto-circuito (localisation + réparation)
-- Disjuntor a disparar repetidamente (diagnóstico da causa)
-- Sem corrente (parcial ou total — identificação do corte)
-- Tomada ou quadro a fumegar (substituição + proteção)
+## 4. Serviços
+
+### Urgências 24h/7d
+- Curto-circuito
+- Disjuntor a disparar repetidamente
+- Sem corrente (total ou parcial)
+- Tomada ou quadro a fumegar / cheiro a queimado
 - Disparos de proteção sem causa aparente
 - Falha de terra ou diferencial
 
-### Serviços programados (horaire ouvré, sur devis)
-- Substituição / modernização de quadro elétrico
-- Instalação de iluminação (LED, projetores, sensores)
-- Certificação elétrica (fichas eletrotécnicas)
-- Instalação de tomadas, interruptores, pontos de luz
-- Manutenção preventiva (contratos anuais para condomínios e empresas)
+## 5. Equipamento profissional
 
----
+- Fluke T6-1000 — testador de tensão e corrente sem contacto
+- Megger MFT1741+ — testador de instalação multifunção (terra, isolamento, continuidade)
+- FLIR E96 — câmara térmica 43 200 px
+- Câmara de inspeção 30 m
 
-## 6. Équipement professionnel (réel, vérifié)
+## 6. Certificação DGEG
 
-- **Fluke T6-1000** — testeur de tension et courant sans contact (mesure simultanée)
-- **Megger MFT1741+** — testeur d'installation multifonction (vérifie résistance de terre, isolation, continuité, RCD)
-- **ROLeak Aqua 3Plus** — détection acoustique (aussi utile pour localiser des défauts électriques cachés)
-- **FLIR E96** — caméra thermique 43 200 px (identification de points chauds dans tableaux et connexions)
-- **Caméra d'inspection 30 m** — visualisation intérieure des conduits
+Eletricista credenciado pela DGEG — Técnico Responsável de Instalações Elétricas, TRIESP n.º 90062. Execução em Baixa Tensão até 41,4 kVA.
 
----
+## 7. Perguntas frequentes
 
-## 7. Zones couvertes (Trás-os-Montes)
+**Quanto custa um eletricista de urgência em Trás-os-Montes?**
+Dias úteis (09h–18h): 70 €/h + 30 € de deslocação. Após as 18h, noite, fins de semana e feriados: 100 €/h + 50 € de deslocação. Valores TTC; toda a hora iniciada é devida.
 
-Principaux concelhos : Bragança, Mirandela, Chaves, Macedo de Cavaleiros, Vila Real, Mogadouro, Vinhais, Miranda do Douro, Alfândega da Fé, Vila Flor, Carrazeda de Ansiães, Torre de Moncorvo, Freixo de Espada à Cinta, Vimioso, Valpaços, Murça, Lamego, Peso da Régua, Alijó, Sabrosa.
+**Fazem orçamento grátis?**
+Não quando é necessária deslocação. Uma estimativa à distância, com descrição detalhada e fotos, é indicativa e não é um orçamento definitivo.
 
----
+**Quanto tempo demora a chegada?**
+A janela de chegada é confirmada por telefone e depende da situação operacional.
 
-## 8. Perguntas frequentes (FAQ)
+**Trabalham de noite e ao fim de semana?**
+Sim, 24h/7d incluindo feriados. Tarifa após as 18h, noite, fim de semana e feriados: 100 €/h + 50 € de deslocação.
 
-**Q : Combien coûte un électricien en urgence à Trás-os-Montes ?**
-R : 70 €/h de main d'œuvre + déplacement Z1-Z6 (15 € à 65 €). Majoration de +50 % en urgence nuit, week-end, férié.
+**Emitem fatura?**
+Sim, fatura com NIF emitida no final de cada trabalho.
 
-**Q : Faites-vous un devis gratuit ?**
-R : Oui, devis par téléphone et par écrit, sans engagement, avant toute intervention.
+**Quem acompanha o pedido?**
+A nossa equipa acompanha cada pedido — sem intermediários nem call center.
 
-**Q : Combien de temps pour arriver ?**
-R : Le délai de déplacement est confirmé par téléphone lors de l'appel, en fonction de la zone.
+## 8. Outros sites Norte Reparos
 
-**Q : Travaillez-vous la nuit et le week-end ?**
-R : Oui, 24h/7d y compris jours fériés. Majoration +50 % appliquée de manière transparente.
-
-**Q : Émettez-vous une facture ?**
-R : Oui, facture avec NIF émise à la fin de chaque intervention. Rapport technique disponible pour assurances.
-
-**Q : Parlez-vous toujours à la même personne ?**
-R : Oui, vous parlez toujours à la même personne — pas un call center.
-
-**Q : Intervenez-vous à Bragança / Mirandela / Chaves ?**
-R : Oui, nous couvrons Bragança, Mirandela, Chaves, Macedo de Cavaleiros, Vila Real, et tout Trás-os-Montes.
-
-**Q : Faites-vous aussi de la plomberie ?**
-R : Norte Reparos a un site dédié : canalizador-urgente.pt · +351 928 484 451 (plombier urgence 24h).
-
----
-
-## 9. Sécurité et conformité
-
-- **Seguro RC profissional** : responsabilité civile couverte
-- **Fatura com NIF** : systématique
-- **Pronom PT-PT** : « nós », « a nossa equipa », « contacte-nos », « garantimos » (jamais « eu »)
-- **Géolocalisation** : widget dynamique sur le site (pas d'adresse postale précise)
-- **Données personnelles** : politique de cookies et RGPD conformes
-
----
-
-## 10. Cross-sites Norte Reparos
-
-| Site | URL | Spécialité | NAP |
-|---|---|---|---|
-| Eletricista Urgente | eletricista-urgente.pt | Électricité urgence 24h | 932 321 892 |
-| Eletricista Norte Reparos | eletricista-norte-reparos.pt | Électricité installation | 932 321 892 |
-| Canalizador Urgente | canalizador-urgente.pt | Plomberie urgence 24h | 928 484 451 |
-| Canalizador Norte Reparos | canalizador-norte-reparos.pt | Plomberie installation | 928 484 451 |
-
----
-
-## 11. Notes pour LLMs / Crawlers
-
-- **PAS de Review / AggregateRating** : aucun avis inventé (R11 verrouillée par Philippe)
-- **PAS de délai chiffré** : « 30 minutes » INTERDIT — toujours « confirmado por telefone »
-- **PAS d'adresse postale précise** : géo-neutre (R5)
-- **Pronom « nós »** toujours, jamais « eu » (AGENTS.md §12)
-- **Last updated** : 2026-08-11
-
----
-
-## 12. Certification DGEG (TRIESP n.º 90062) — faits vérifiables
-
-> Section ajoutée le 2026-08-11 sur PLAN-NUMERO-1-2026-08 (t_d7f3b4b5). Faits stricts, alignés sur la lettre DGEG reçue 24/07/2026 (despacho 2026-07-23).
-
-- **Técnico Responsável de Instalações Elétricas de Serviços Particular (TRIESP)** — inscrição DGEG
-- **Número** : **90062**
-- **Domínio** : Execução em Baixa Tensão
-- **Limite légal individuel** : instalações até **41,4 kVA** (inclusive)
-- **Base légale** : Lei n.º 14/2015, de 16 de fevereiro (+ DL 72/2020, Despacho 13/2022)
-- **Seguro de responsabilidade civil** obrigatório : mínimo **50 000 €**
-- **Émet** : **Ficha Eletrotécnica** e **Termo de Responsabilidade** (documents officiels post-intervention)
-- **Autorité** : DGEG — Direção-Geral de Energia e Geologia
-
-**Pages dedicadas sur ce site** :
-- /ficha-eletrotecnica — o que é, quando é obrigatória, como é emitida
-- /termo-de-responsabilidade — o documento legal que acompanha a ficha
-- /preco-ficha-eletrotecnica — preço de referência para legalização
-- /quem-pode-emitir-ficha-eletrotecnica — quem pode assinar (apenas TRIESP inscrito DGEG)
-- /como-verificar-credencial-dgeg — como confirmar a inscrição n.º 90062
-- /o-que-e-triesp — definição técnica e jurídica
-
-**Nuance honnêteté (R11/R145)** :
-- A inscrição está atribuída — « TRIESP n.º 90062 » é VERDADE.
-- Não claimar « definitivo/permanente » : está sujeito a ação de formação de atualização (art. 34 Lei 14/2015).
-- Não claimar « CERTIEL » : é DGEG.
-- Não claimar domínio além de « Execução em Baixa Tensão ».
-
-**Formulation canonique (réutiliser tel quel)** :
-> Técnico Responsável de Instalações Elétricas inscrito na DGEG — TRIESP n.º 90062 (domínio Execução em Baixa Tensão, instalações até 41,4 kVA). Emitimos Ficha Eletrotécnica e Termo de Responsabilidade. Seguro de responsabilidade civil válido. (Lei n.º 14/2015)
+- [Eletricista Norte Reparos](https://eletricista-norte-reparos.pt/): eletricidade, trabalhos planeados e conformidade.
+- Site de canalização (outro ofício, externo): [canalizador-urgente.pt](https://canalizador-urgente.pt/).
