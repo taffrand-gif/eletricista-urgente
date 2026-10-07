@@ -6,9 +6,11 @@ EU est le site électricité urgente `eletricista-urgente.pt`. Ce fichier ne red
 
 ## Tarif actif
 
-- **Jours ouvrés, 09:00–17:00 : 70 €/h + 30 € de déplacement.**
-- **Nuit 17:00–09:00, week-ends et jours fériés : 100 €/h + 50 € de déplacement.**
+- **Jours ouvrés, 09:00–18:00 : 70 €/h + 30 € de déplacement (TTC).**
+- **Après 18:00, nuit, week-ends et jours fériés : 100 €/h + 50 € de déplacement (TTC).**
 - Toute heure entamée est due.
+- Le déplacement est facturé dès qu’un déplacement est effectué ; pas de devis gratuit lorsque le déplacement est nécessaire.
+- Une estimation à distance (description détaillée + photos) est indicative et non définitive ; chaque situation peut demander plus ou moins de temps.
 - Un devis écrit précède l’intervention.
 - Les prix sont identiques quelle que soit la localité desservie.
 
