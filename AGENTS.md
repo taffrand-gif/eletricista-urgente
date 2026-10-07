@@ -19,7 +19,7 @@ Le statut public actif est : `Eletricista credenciado pela DGEG — Técnico Res
 
 Le wallbox est un service possible sous devis dans le périmètre applicable. Ne pas inventer d’avis, de chantiers, de clients, de délais garantis ou de prix.
 
-Appliquer exclusivement le modèle tarifaire central : 70 €/h + 30 € en semaine 09:00–17:00 ; 100 €/h + 50 € la nuit, les week-ends et jours fériés. Aucune zone Z1–Z6 et aucun calcul tarifaire par distance.
+Appliquer exclusivement le modèle tarifaire central : 70 €/h + 30 € en semaine 09:00–18:00 ; 100 €/h + 50 € après 18:00, la nuit, les week-ends et jours fériés (montants TTC, pas de devis gratuit si déplacement). Aucune zone Z1–Z6 et aucun calcul tarifaire par distance.
 
 Lire `SEO_PLAN.md` et `MARKETING.md` pour le contexte éditorial local. Consigner les actions dans l’historique prévu par le plan, sans dupliquer la doctrine centrale.
 
