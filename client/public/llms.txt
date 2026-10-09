@@ -1,98 +1,80 @@
-# Norte Reparos — Eletricista de Urgência em Trás-os-Montes
+# Norte Reparos — Eletricista Urgente em Trás-os-Montes
 
-> Eletricista profissional de urgência ao domicílio no Nordeste Transmontano (distritos de Bragança e Vila Real), Portugal.
-> URGÊNCIAS ELÉTRICAS 24 HORAS, 7 dias por semana, incluindo fins de semana e feriados.
-> Site: https://eletricista-urgente.pt · Telefone / WhatsApp: +351 932 321 892 · Email: geral@eletricista-norte-reparos.pt
+> Serviço de eletricista urgente 24h/7d em Trás-os-Montes, pela nossa equipa (Filipe Bragança, Técnico Responsável de Instalações Elétricas), com equipamento profissional (Fluke T6-1000, Megger MFT1741+, FLIR E96, câmara de inspeção 30 m).
+> Última atualização: 2026-10-07 · Grelha oficial: 70 €/h + 30 € · 100 €/h + 50 € após as 18h
 
-## Urgência elétrica 24h
-Atendemos avarias elétricas urgentes 24h/7 em toda a região de Trás-os-Montes: falhas de energia, curto-circuitos, quadro elétrico que dispara, disjuntor que salta, cheiro a queimado, faíscas em tomadas, falta de luz em casa. Atendimento por telefone. Ligue já: +351 932 321 892.
+Site: https://eletricista-urgente.pt/
+Telefone e WhatsApp: +351 932 321 892
+Idioma: português europeu (pt-PT)
 
-## Serviços reais praticados
-- Reparação de avarias elétricas (curto-circuito, disjuntor disparado)
-- Quadro elétrico avariado ou que dispara
-- Falta de luz parcial ou total em casa
-- Cheiro a queimado vindo das tomadas ou quadro
-- Faíscas em tomadas ou interruptores
-- Iluminação avariada (LED, fluorescente, halogéneo)
-- Instalação elétrica urgente (caso novo, substituição de emergência)
-- Diagnóstico e orçamento por escrito antes da intervenção
+## Serviços
+
+- [Curto-circuito](https://eletricista-urgente.pt/curto-circuito.html)
+- [Falha de energia](https://eletricista-urgente.pt/falha-energia.html)
+- [Quadro / disjuntor a disparar](https://eletricista-urgente.pt/quadro-disjuntor-dispara.html)
+- [Tomada queimada](https://eletricista-urgente.pt/tomada-queimada.html)
+- [Tabela de preços](https://eletricista-urgente.pt/precos.html)
+
+## Transparência de preços (regra oficial)
+
+| Período | Mão de obra | Deslocação |
+|---|---|---|
+| Dias úteis, 09h–18h | **70 €/h** | **30 €** |
+| Após as 18h, noite, fins de semana e feriados | **100 €/h** | **50 €** |
+
+- Valores TTC. Toda a hora iniciada é devida; a deslocação é devida sempre que há deslocação.
+- Não há orçamento gratuito quando a deslocação é necessária.
+- Uma estimativa à distância (descrição detalhada e fotos) é indicativa e não definitiva; cada situação é diferente e pode demorar mais ou menos tempo.
+- A janela de chegada é confirmada por telefone e depende da situação operacional.
+- Ficha eletrotécnica e Termos de responsabilidade: a partir de 350 € TTC, sob orçamento conforme o caso.
+- Seguro de responsabilidade civil profissional até 50 000 €.
+- Fatura com NIF emitida no final de cada trabalho.
+
+## Certificação (DGEG)
+
+Eletricista credenciado pela DGEG — Técnico Responsável de Instalações Elétricas, TRIESP n.º 90062. Execução em Baixa Tensão até 41,4 kVA.
+
+## Urgências tratadas
+
+- Curto-circuito
+- Disjuntor a disparar repetidamente
+- Sem corrente (total ou parcial)
+- Tomada ou quadro a fumegar / cheiro a queimado
+- Disparos de proteção sem causa aparente
+- Falha de terra ou diferencial
+
+## Equipamento profissional
+
+- **Fluke T6-1000** — testador de tensão e corrente sem contacto
+- **Megger MFT1741+** — testador de instalação multifunção
+- **FLIR E96** — câmara térmica 43 200 px (pontos quentes em quadros e ligações)
+- **Câmara de inspeção 30 m**
 
 ## Perguntas frequentes
-- Eletricista de urgência em Bragança? — Sim, atendemos urgências elétricas 24h em Bragança e região. Ligue +351 932 321 892.
-- Eletricista perto de mim em Trás-os-Montes? — Cobrimos Macedo de Cavaleiros, Mirandela, Bragança, Chaves, Vila Real, Mogadouro, Torre de Moncorvo, Alfândega da Fé, Vinhais e dezenas de freguesias.
-- Eletricista em Macedo de Cavaleiros? — Sim, é a nossa base. Atendimento por telefone.
-- Quanto custa um eletricista de urgência? — 70€/h de mão de obra mais deslocação por zona (15€ a 65€); majoração de +50% à noite, fins de semana e feriados.
-- Trabalham ao fim de semana e feriados? — Sim, serviço disponível 24h/7, incluindo fins de semana e feriados.
-- Curto-circuito em casa, o que fazer? — Desligar o disjuntor geral, não tocar em fios expostos, e ligar imediatamente +351 932 321 892.
-- Disjuntor que dispara sempre, quanto custa arranjar? — A partir de 70€ (mão de obra 1h Z1) mais requer diagnóstico no local; orçamento por escrito antes da intervenção.
 
-## Preços (regra)
-- Mão de obra urgência: 70€/h
-- Majoração +50% à noite, fins de semana e feriados
-- Deslocação por zona: Z1=15€, Z2=25€, Z3=35€, Z4=45€, Z5=55€, Z6=65€
-- Orçamento por escrito antes de qualquer intervenção, sem surpresas
+**Quanto custa um eletricista de urgência em Trás-os-Montes?**
+Dias úteis (09h–18h): 70 €/h + 30 € de deslocação. Após as 18h, noite, fins de semana e feriados: 100 €/h + 50 € de deslocação. Valores TTC; toda a hora iniciada é devida.
 
-## Localidades atendidas (zona e deslocação) — concelhos oficiais
-- Macedo de Cavaleiros (Z1, 15€)
-- Torre de Dona Chama (Z2, 25€)
-- Mirandela (Z2, 25€)
-- Alfândega da Fé (Z2, 25€)
-- Carrazeda de Ansiães (Z2, 25€)
-- Bragança (Z3, 35€)
-- Vinhais (Z3, 35€)
-- Vimioso (Z3, 35€)
-- Torre de Moncorvo (Z3, 35€)
-- Mogadouro (Z3, 35€)
-- Freixo de Espada à Cinta (Z3, 35€)
-- Miranda do Douro (Z4, 45€)
-- Vila Nova de Foz Côa (Z4, 45€)
-- São João da Pesqueira (Z4, 45€)
-- Murça (Z4, 45€)
-- Valpaços (Z4, 45€)
-- Vila Real (Z5, 55€)
-- Alijó (Z5, 55€)
-- Sabrosa (Z5, 55€)
-- Tabuaço (Z5, 55€)
-- Armamar (Z5, 55€)
-- Peso da Régua (Z5, 55€)
-- Lamego (Z5, 55€)
-- Santa Marta de Penaguião (Z5, 55€)
-- Mesão Frio (Z5, 55€)
-- Chaves (Z6, 65€)
-- Vila Pouca de Aguiar (Z6, 65€)
-- Boticas (Z6, 65€)
-- Montalegre (Z6, 65€)
-- Ribeira de Pena (Z6, 65€)
-- Mondim de Basto (Z6, 65€)
-- Moimenta da Beira (Z6, 65€)
-- Sernancelhe (Z6, 65€)
-- Penedono (Z6, 65€)
-- (e dezenas de outras freguesias do Nordeste Transmontano — ver o site)
+**Fazem orçamento grátis?**
+Não quando é necessária deslocação. Uma estimativa à distância, com descrição detalhada e fotos, é indicativa e não é um orçamento definitivo.
 
-## Páginas de referência (indexadas no sitemap.xml)
-- Homepage: https://eletricista-urgente.pt/
-- Hubs concelhos (33): https://eletricista-urgente.pt/concelhos/<concelho> — ex. /concelhos/braganca, /concelhos/macedo-de-cavaleiros, /concelhos/chaves, /concelhos/vila-real, /concelhos/mirandela, /concelhos/vinhais
-- Calculadora de preço: https://eletricista-urgente.pt/calculadora-de-preco
-- Tabela de preços completa: https://eletricista-urgente.pt/precos
-- Zonas de deslocação: https://eletricista-urgente.pt/zonas-deslocacao
-- Contactos: https://eletricista-urgente.pt/contactos
-- FAQ geral: https://eletricista-urgente.pt/perguntas-frequentes
+**Quanto tempo demora a chegada?**
+A janela de chegada é confirmada por telefone e depende da situação operacional.
 
-## Artigos blog (sintomas elétricos recorrentes)
-- Sem luz em casa toda: https://eletricista-urgente.pt/blog/sem-luz-casa-toda
-- Curto-circuito com fumo: https://eletricista-urgente.pt/blog/curto-circuito-fumaca
-- Cheiro a queimado (electricidade): https://eletricista-urgente.pt/blog/cheiro-queimado-eletricidade
-- Disjuntor que não rearma: https://eletricista-urgente.pt/blog/disjuntor-nao-rearma
-- Diferencial que não rearma: https://eletricista-urgente.pt/blog/diferencial-nao-rearma
-- Curto-circuito na cozinha: https://eletricista-urgente.pt/blog/curto-circuito-cozinha
-- Curto-circuito na casa de banho: https://eletricista-urgente.pt/blog/curto-circuito-banho
-- Tomada queimada (urgente): https://eletricista-urgente.pt/blog/tomada-queimada-urgente
-- Choque elétrico em casa: https://eletricista-urgente.pt/blog/choque-eletrico-casa
-- Sem energia de noite: https://eletricista-urgente.pt/blog/sem-energia-noite
+**Trabalham de noite e ao fim de semana?**
+Sim, 24h/7d incluindo feriados. Tarifa após as 18h, noite, fim de semana e feriados: 100 €/h + 50 € de deslocação.
+
+**Emitem Ficha eletrotécnica e Termos de responsabilidade?**
+Sim: a partir de 350 € TTC, sob orçamento conforme o caso.
+
+**A nossa equipa acompanha cada pedido?**
+Sim, sem intermediários nem call center.
 
 ## Contacto
-Norte Reparos — Eletricista de Urgência
-Telefone / WhatsApp: +351 932 321 892
-Email: geral@eletricista-norte-reparos.pt
-Site principal: https://eletricista-norte-reparos.pt
-Urgências elétricas 24h/7 em Trás-os-Montes.
+
+- Norte Reparos — Eletricista Urgente
+- Telefone / WhatsApp: **+351 932 321 892**
+
+## Site irmão (canalização)
+
+Este site não presta serviços de canalização. Para canalização: [canalizador-urgente.pt](https://canalizador-urgente.pt/).
