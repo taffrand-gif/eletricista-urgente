@@ -64,7 +64,7 @@ def page(c, locs):
     }
     schema_json = json.dumps(schema, ensure_ascii=False, indent=1)
 
-    desc = (f"Eletricista urgente em {name} ({district}). Deslocação 30 € em dias úteis (9h–17h) ou 50 € fora desse horário; "
+    desc = (f"Eletricista urgente em {name} ({district}). Deslocação 30 € em dias úteis (9h–18h) ou 50 € fora desse horário; "
             f"mão de obra 70 €/h ou 100 €/h fora de horas. Atendimento 24h/7d. Ligue {TEL}.")
     if not is_hub:
         desc = (f"Eletricista urgente em {name} ({district}), a ~{rmin} min de viagem. "
@@ -116,7 +116,7 @@ def page(c, locs):
  <p><strong>Concelho:</strong> {name}</p>
  <p><strong>Distrito:</strong> {district}</p>
  <p><strong>Distância desde {HUB}:</strong> {dist_desc(c)}</p>
- <p><strong>Deslocação:</strong> 30 € em dias úteis (9h–17h) ou 50 € à noite, fins de semana e feriados.</p>
+ <p><strong>Deslocação:</strong> 30 € em dias úteis (9h–18h) ou 50 € à noite, fins de semana e feriados.</p>
  </div>
 
  <p>{dist_line}</p>
@@ -134,8 +134,8 @@ def page(c, locs):
 
  <h2>Preços em {name}</h2>
  <div class="info-box">
- <p><strong>Dias úteis (9h–17h):</strong> 30 € de deslocação + 70 €/h de mão de obra.</p>
- <p><strong>Noite (17h–9h), fins de semana e feriados:</strong> 50 € de deslocação + 100 €/h de mão de obra.</p>
+ <p><strong>Dias úteis (9h–18h):</strong> 30 € de deslocação + 70 €/h de mão de obra.</p>
+ <p><strong>Noite (18h–9h), fins de semana e feriados:</strong> 50 € de deslocação + 100 €/h de mão de obra.</p>
  <p style="font-size:.85rem;color:#666;margin-top:.8rem">Cada hora começada é devida. Orçamento por escrito antes da intervenção.</p>
  </div>
 
@@ -144,7 +144,7 @@ def page(c, locs):
 
  <h2>Perguntas frequentes — Eletricista em {name}</h2>
  <p><strong>Quanto tempo demoram a chegar a {name}?</strong><br>{faq_time(c)}</p>
- <p style="margin-top:1rem"><strong>Quanto custa a deslocação?</strong><br>30 € em dias úteis (9h–17h) ou 50 € à noite, fins de semana e feriados.</p>
+ <p style="margin-top:1rem"><strong>Quanto custa a deslocação?</strong><br>30 € em dias úteis (9h–18h) ou 50 € à noite, fins de semana e feriados.</p>
  <p style="margin-top:1rem"><strong>Atendem de noite, fins de semana e feriados?</strong><br>Sim, 24h por dia, 7 dias por semana, sem custo adicional de marcação.</p>
  <p style="margin-top:1rem"><strong>Emitem fatura?</strong><br>Sim, fatura detalhada com NIF e relatório técnico quando aplicável.</p>
 

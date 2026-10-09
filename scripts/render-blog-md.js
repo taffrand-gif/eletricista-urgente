@@ -9,7 +9,7 @@ const PHONE_DISPLAY = '+351 932 321 892';
 const PHONE_E164 = '+351932321892';
 const WHATSAPP = 'https://wa.me/351932321892?text=Ol%C3%A1%2C%20preciso%20de%20ajuda%20com%20uma%20avaria%20el%C3%A9trica';
 const PRICE_TEXT = '70 €/h';
-const ZONES_TEXT = '30 € de deslocação em dias úteis (9h–17h) / 50 € à noite, fins de semana e feriados';
+const ZONES_TEXT = '30 € de deslocação em dias úteis (9h–18h) / 50 € à noite, fins de semana e feriados';
 const BATCH_LIMIT = 95;
 
 function die(message) {

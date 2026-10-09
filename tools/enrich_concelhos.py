@@ -28,7 +28,7 @@ GRILLE_ZONAS = {1: 30, 2: 30, 3: 30, 4: 30, 5: 30, 6: 30}
 TARIF_HORA = 70
 TARIF_HORA_FORA_HORARIO = 100
 DESLOCACAO_FORA_HORARIO = 50
-MAJORACAO = "100 €/h noite (17h-9h), fim de semana e feriado"
+MAJORACAO = "100 €/h noite (18h-9h), fim de semana e feriado"
 
 # GA4 + RGPD Consent Mode v2 (mission t_e145af0d 2026-08-04 / t_639f45fd 2026-08-29).
 # Bloc verrouille : ne pas modifier son contenu ici. Toute evolution GA4/RGPD passe
@@ -132,7 +132,7 @@ def slugify(name: str) -> str:
 
 def fmt_precos_desloc() -> str:
     """Ligne tarifaire officielle, sans zones commerciales obsolètes."""
-    return "30 € em dias úteis (9h–17h) / 50 € à noite, fins de semana e feriados"
+    return "30 € em dias úteis (9h–18h) / 50 € à noite, fins de semana e feriados"
 
 
 def load_concelhos() -> list[dict]:
@@ -164,7 +164,7 @@ def intro_unique(c: dict) -> str:
     return (
         f"Sim, atendemos urgências elétricas em {name} 24h/7d. "
         f"Curto-circuito, disjuntor que dispara ou falha de energia geral: "
-        f"deslocação fixa de 30 € em dias úteis (9h–17h) ou 50 € à noite, fins de semana e feriados, "
+        f"deslocação fixa de 30 € em dias úteis (9h–18h) ou 50 € à noite, fins de semana e feriados, "
         f"com mão de obra de 70 €/h ou 100 €/h fora do horário útil. "
         f"Orçamento por escrito antes de tocar na instalação, sem surpresas."
     )
@@ -195,7 +195,7 @@ def faq_entries(c: dict) -> list[dict]:
     minutos = c.get("route_min") or 0
     return [
         {"q": f"Quanto tempo demora a chegar a {name}?", "a": f"A rota desde Macedo de Cavaleiros é de cerca de {km:.0f} km. A janela de chegada é confirmada por telefone conforme a urgência e as condições do momento; não publicamos promessas de minutos."},
-        {"q": f"Quanto custa deslocação a {name}?", "a": "A deslocação é 30 € em dias úteis (9h–17h) ou 50 € à noite, fins de semana e feriados. A mão de obra é 70 €/h em horário útil ou 100 €/h fora desse horário."},
+        {"q": f"Quanto custa deslocação a {name}?", "a": "A deslocação é 30 € em dias úteis (9h–18h) ou 50 € à noite, fins de semana e feriados. A mão de obra é 70 €/h em horário útil ou 100 €/h fora desse horário."},
         {"q": f"Atendem urgências elétricas em {name} 24h?", "a": f"Sim — atendemos curto-circuito, falha de energia, disjuntor que dispara e outras avarias elétricas 24 horas por dia, 7 dias por semana. Ligue +351 932 321 892."},
         {"q": f"Fazem orçamento por escrito em {name} antes de começar?", "a": "Sim — apresentamos orçamento por escrito, discriminando deslocação, mão de obra e material, antes de iniciar a intervenção."},
         {"q": f"Emitem fatura com NIF para {name}?", "a": "Sim. A fatura discrimina a deslocação, a mão de obra e o material. A garantia aplicável é indicada por escrito."},
@@ -449,7 +449,7 @@ def write_concelho(c: dict, neighbors: list[str]) -> str:
 
 <div class="transp">
  <h2>⚡ Transparência tarifária — Eletricista {name}</h2>
- <p><strong>{TARIF_HORA} €/h</strong> em dias úteis (9h–17h) ou <strong>100 €/h</strong> fora desse horário · Deslocação {fmt_precos_desloc()}.</p>
+ <p><strong>{TARIF_HORA} €/h</strong> em dias úteis (9h–18h) ou <strong>100 €/h</strong> fora desse horário · Deslocação {fmt_precos_desloc()}.</p>
  <p style="font-size:1.05em"><strong>Orçamento por escrito antes de qualquer intervenção, sem surpresas.</strong></p>
  <p>📞 <a href="tel:+351932321892"><strong>932 321 892</strong></a> · <a href="https://wa.me/351932321892?text=Ol%C3%A1%2C%20preciso%20de%20eletricista%20urgente%20em%20{name.replace(' ', '%20')}">WhatsApp {name}</a> · Falamos consigo diretamente — Filipe, Trás-os-Montes</p>
 </div>
@@ -457,7 +457,7 @@ def write_concelho(c: dict, neighbors: list[str]) -> str:
 <div class="info-box">
  <p><strong>Concelho:</strong> {name}</p>
  <p><strong>Distrito:</strong> {district}</p>
- <p><strong>Deslocação:</strong> <strong>{desloc}€</strong> em dias úteis (9h–17h) ou 50€ à noite, fim de semana e feriados</p>
+ <p><strong>Deslocação:</strong> <strong>{desloc}€</strong> em dias úteis (9h–18h) ou 50€ à noite, fim de semana e feriados</p>
  <p><strong>Distância desde Macedo de Cavaleiros:</strong> {km:.0f} km ({(km*1.0):.0f} km por estrada)</p>
  <p><strong>Hora de chegada:</strong> confirmada por telefone conforme a urgência e a disponibilidade da equipa.</p>
  <p><strong>Tarifas:</strong> 1ª hora desde {desde}€ · 2h {h2p}€ · {TARIF_HORA}€/h subsequente · IVA isento (art. 53.º CIVA).</p>
@@ -483,7 +483,7 @@ def write_concelho(c: dict, neighbors: list[str]) -> str:
 <table>
  <thead><tr><th>Horário</th><th>Deslocação</th></tr></thead>
  <tbody>
- <tr><td>Dias úteis (9h–17h)</td><td>{GRILLE_ZONAS[1]}€</td></tr>
+ <tr><td>Dias úteis (9h–18h)</td><td>{GRILLE_ZONAS[1]}€</td></tr>
  <tr><td>Noite, fim de semana e feriados</td><td>50€</td></tr>
  </tbody>
 </table>
