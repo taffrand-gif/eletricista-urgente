@@ -78,7 +78,7 @@ def village_count_text(slug, loc_data):
 TRANS_TEMPLATES = [
     '''<div class="transp">
  <h2>⚡ Transparência tarifária — Eletricista {name}</h2>
- <p>Mão de obra: <strong>70 €/h</strong> em dias úteis (9h–17h) ou <strong>100 €/h</strong> à noite, fins de semana e feriados. Deslocação fixa: <strong>30 €</strong> em horário útil ou <strong>50 €</strong> fora desse horário.</p>
+ <p>Mão de obra: <strong>70 €/h</strong> em dias úteis (9h–18h) ou <strong>100 €/h</strong> à noite, fins de semana e feriados. Deslocação fixa: <strong>30 €</strong> em horário útil ou <strong>50 €</strong> fora desse horário.</p>
  <p><strong>Orçamento por escrito antes de qualquer intervenção, sem surpresas.</strong></p>
  <p>📞 <a href="tel:+351932321892"><strong>932 321 892</strong></a> · <a href="https://wa.me/351932321892">WhatsApp</a></p>
 </div>''',
@@ -95,7 +95,7 @@ def render_transp(c, slug):
 
 TABELA_TEMPLATES = [
     '''<h2 role="heading" aria-level="2">Preços de deslocação e mão de obra</h2>
-<p><strong>{name}</strong>: deslocação fixa de 30 € em dias úteis (9h–17h) ou 50 € à noite, fins de semana e feriados. Mão de obra: 70 €/h em horário útil ou 100 €/h fora desse horário.</p>
+<p><strong>{name}</strong>: deslocação fixa de 30 € em dias úteis (9h–18h) ou 50 € à noite, fins de semana e feriados. Mão de obra: 70 €/h em horário útil ou 100 €/h fora desse horário.</p>
 <p>Orçamento por escrito antes de começar; cada hora começada é devida.</p>''',
 ]
 
@@ -231,13 +231,13 @@ def render_faq(c, slug, loc_data):
 
     if rkm is None:
         rkm_text = '— route_km TomTom indisponível — rota confirmada por telefone'
-        preco_phrase = ('Deslocação fixa de 30 € em dias úteis (9h–17h) ou 50 € à noite, '
+        preco_phrase = ('Deslocação fixa de 30 € em dias úteis (9h–18h) ou 50 € à noite, '
                         'fins de semana e feriados. Mão de obra: 70 €/h ou 100 €/h fora do horário útil.')
         chegar = ('A distância rodoviária desde Macedo de Cavaleiros ainda não está publicada. '
                   'Confirmamos a janela de chegada por telefone antes da deslocação.')
     else:
         rkm_text = f'{rkm} km por estrada desde Macedo de Cavaleiros'
-        preco_phrase = ('Deslocação fixa de 30 € em dias úteis (9h–17h) ou 50 € à noite, '
+        preco_phrase = ('Deslocação fixa de 30 € em dias úteis (9h–18h) ou 50 € à noite, '
                         'fins de semana e feriados. Mão de obra: 70 €/h ou 100 €/h fora do horário útil.')
         if rmin is not None:
             chegar = (f'Em condições normais, a vinda desde Macedo de Cavaleiros até {name} '
