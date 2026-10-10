@@ -72,7 +72,7 @@ A nossa equipa chega com o equipamento profissional descrito abaixo e segue um m
 - **Megger MFT1741+** — ensaio de isolamento, continuidade de condutores de proteção, ensaio de disjuntores e diferenciais, medição de阻抗 de loop.
 - **Fluke** — equipamento de medição elétrica
 - **ROLeak Aqua 3Plus** — correlação acústica para localizar fugas em condutores enterrados ou dentro de paredes (diferenciador raro no mercado regional).
-- **FLIR E96** — câmara térmica de 43 200 px para identificar pontos quentes em quadros, tomadas e cablagem.
+- **FLIR E96** — câmara térmica para identificar pontos quentes em quadros, tomadas e cablagem.
 - **Câmara de inspeção 30 m** — visualização do interior de condutos e caixas de derivação sem abertura desnecessária da parede.
 
 O trabalho decorre à tarifa horária de **70 €/h**, com deslocação indexada à zona (Z1 15 €, Z2 25 €, Z3 35 €, Z4 45 €, Z5 55 €, Z6 65 €). Em horário noturno (entre as 20 h e as 8 h), sábado, domingo e feriado, a tarifa sofre majoração de **+50 %** aplicada à mão de obra e à deslocação. Recebe **orçamento por escrito antes de qualquer intervenção**, e a fatura discrimina horas, deslocação e materiais. Não emitimos documentação técnica formal — quando a intervenção o exige por lei, é o técnico habilitado em causa que trata desse passo.

@@ -89,7 +89,7 @@ Les deux sites partagent le même NAP et la même maison-mère (Norte Reparos), 
 - **Fluke** — équipement de mesure électrique
 - **Megger MFT1741+** — testeur d'installation multifonction (vérifie résistance de terre, isolation, continuité, RCD)
 - **ROLeak Aqua 3Plus** — détection acoustique (aussi utile pour localiser des défauts électriques cachés)
-- **FLIR E96** — caméra thermique 43 200 px (identification de points chauds dans tableaux et connexions)
+- **FLIR E96** — caméra thermique (identification de points chauds dans tableaux et connexions)
 - **Caméra d'inspection 30 m** — visualisation intérieure des conduits
 
 ---

@@ -69,7 +69,7 @@ Quando o problema não se resolve com os testes anteriores, o diagnóstico profi
 
 - **Medição de correntes de fuga** com Megger MFT1741+ — identifica se há fuga e em que circuito.
 - **Verificação do diferencial** — teste do botão de teste + medição do tempo de disparo real (um diferencial deve disparar abaixo dos 30 mA em menos de 40 ms).
-- **Inspeção termográfica** com câmara FLIR E96 (43 200 pixels) — deteta pontos quentes em contactos, cablagens e aparelhos.
+- **Inspeção termográfica** com câmara FLIR E96 — deteta pontos quentes em contactos, cablagens e aparelhos.
 - **Medição de tensões e correntes** com Fluke.
 - **Localização acústica de fugas** em instalações exteriores ou embutidas, com equipamento específico.
 
