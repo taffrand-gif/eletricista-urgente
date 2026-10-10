@@ -27,7 +27,7 @@ Norte Reparos est un service d'électricité au domicílio actif depuis 2014 dan
 - **Fluke** : équipement de mesure électrique
 - **Megger MFT1741+** : testeur d'installation multifonction (continuité, isolamento, terre)
 - **ROLeak Aqua 3Plus** : détection acoustique de fuites d'eau (rare sur le marché)
-- **FLIR E96** : caméra thermique 43 200 pixels
+- **FLIR E96** : caméra thermique
 - **Caméra d'inspection 30 m** : pour conduits et espaces confinés
 
 ## Tarification (référence publique)

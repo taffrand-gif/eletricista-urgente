@@ -52,7 +52,7 @@ Grille officielle Nord Reparos: mão de obra **70 €/h** (eletricista) + desloc
 - **Fluke** — equipamento de medição elétrica
 - **Megger MFT1741+** — testador de instalação multifunção (verifica resistência de terra, isolamento, continuidade)
 - **ROLeak Aqua 3Plus** — deteção acústica de fugas (também útil para localização de avarias elétricas ocultas)
-- **FLIR E96** — câmara térmica 43 200 px (identificação de pontos quentes em quadros e ligações)
+- **FLIR E96** — câmara térmica (identificação de pontos quentes em quadros e ligações)
 - **Câmara de inspeção 30 m** — visualização interior de condutas
 
 ## Perguntas frequentes
