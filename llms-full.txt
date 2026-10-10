@@ -86,7 +86,7 @@ Les deux sites partagent le même NAP et la même maison-mère (Norte Reparos), 
 
 ## 6. Équipement professionnel (réel, vérifié)
 
-- **Fluke T6-1000** — testeur de tension et courant sans contact (mesure simultanée)
+- **Fluke** — équipement de mesure électrique
 - **Megger MFT1741+** — testeur d'installation multifonction (vérifie résistance de terre, isolation, continuité, RCD)
 - **ROLeak Aqua 3Plus** — détection acoustique (aussi utile pour localiser des défauts électriques cachés)
 - **FLIR E96** — caméra thermique 43 200 px (identification de points chauds dans tableaux et connexions)

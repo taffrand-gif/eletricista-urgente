@@ -70,7 +70,7 @@ Quando o problema não se resolve com os testes anteriores, o diagnóstico profi
 - **Medição de correntes de fuga** com Megger MFT1741+ — identifica se há fuga e em que circuito.
 - **Verificação do diferencial** — teste do botão de teste + medição do tempo de disparo real (um diferencial deve disparar abaixo dos 30 mA em menos de 40 ms).
 - **Inspeção termográfica** com câmara FLIR E96 (43 200 pixels) — deteta pontos quentes em contactos, cablagens e aparelhos.
-- **Medição de tensões e correntes** com Fluke T6-1000 — sem contacto, em segurança.
+- **Medição de tensões e correntes** com Fluke.
 - **Localização acústica de fugas** em instalações exteriores ou embutidas, com equipamento específico.
 
 O diagnóstico é facturado à hora (70 €/h) mais a deslocação conforme a zona. Se a reparação é simples (substituição de disjuntor, identificação e correção de fuga num ponto), a duração habitual é de 1 a 2 horas. Casos mais complexos — substituição completa de quadro, refazer circuito — são orçamentados por escrito antes de avançar.

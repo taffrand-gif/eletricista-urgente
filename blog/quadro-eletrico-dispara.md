@@ -70,7 +70,7 @@ Este procedimento permite-nos chegar ao local com a informação certa e avança
 A nossa equipa chega com o equipamento profissional descrito abaixo e segue um método que combina leitura do quadro, ensaios de isolamento e teste de diferenciais.
 
 - **Megger MFT1741+** — ensaio de isolamento, continuidade de condutores de proteção, ensaio de disjuntores e diferenciais, medição de阻抗 de loop.
-- **Fluke T6-1000** — leitura de tensão e corrente sem contacto, identificação de tensões parasitas.
+- **Fluke** — equipamento de medição elétrica
 - **ROLeak Aqua 3Plus** — correlação acústica para localizar fugas em condutores enterrados ou dentro de paredes (diferenciador raro no mercado regional).
 - **FLIR E96** — câmara térmica de 43 200 px para identificar pontos quentes em quadros, tomadas e cablagem.
 - **Câmara de inspeção 30 m** — visualização do interior de condutos e caixas de derivação sem abertura desnecessária da parede.
