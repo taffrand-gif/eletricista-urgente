@@ -217,7 +217,7 @@ FAQ_TEMPLATES_A = ["""<section class="faq" role="region" aria-label="Perguntas f
  <dt>{chegar_q} a {name}?</dt>
  <dd>{chegar}</dd>
  <dt>Equipamento FLIR em {name}?</dt>
- <dd>Câmara térmica FLIR E96 (43 200 px) e multímetro Fluke T6-1000 — diagnóstico sem contacto para quadros e tomadas.</dd>
+ <dd>Câmara térmica FLIR E96 (43 200 px) e equipamento de medição Fluke — diagnóstico sem contacto para quadros e tomadas.</dd>
 </dl>
 </section>"""]
 

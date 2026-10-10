@@ -28,7 +28,7 @@ Services:
   - Disparos de proteção
   - Falha de terra ou diferencial
 Equipment:
-  - Fluke T6-1000 (testador tensão/corrente sem contacto)
+  - Fluke
   - Megger MFT1741+ (testador de instalação multifunção)
   - ROLeak Aqua 3Plus (deteção acústica)
   - FLIR E96 (câmara térmica 43 200 px)

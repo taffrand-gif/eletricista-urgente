@@ -24,7 +24,7 @@ Norte Reparos est un service d'électricité au domicílio actif depuis 2014 dan
 7. **Diagnóstico e orçamento por escrito** — avant toute intervention
 
 ## Équipement professionnel (différenciateur)
-- **Fluke T6-1000** : testeur tension/courant sans contact
+- **Fluke** : équipement de mesure électrique
 - **Megger MFT1741+** : testeur d'installation multifonction (continuité, isolamento, terre)
 - **ROLeak Aqua 3Plus** : détection acoustique de fuites d'eau (rare sur le marché)
 - **FLIR E96** : caméra thermique 43 200 pixels
