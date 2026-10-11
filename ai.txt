@@ -32,9 +32,7 @@ Services:
   - Falha de terra ou diferencial
 Equipment:
   - Fluke T6-1000 (testador tensão/corrente sem contacto)
-  - Megger MFT1741+ (testador de instalação multifunção)
   - FLIR E96 (câmara térmica 43 200 px)
-  - Câmara de inspeção 30 m
 QuotePolicy: Sem orçamento gratuito quando é necessária deslocação; estimativa à distância indicativa, não definitiva
 Billing: Fatura com NIF emitida no final de cada trabalho
 Certifications: Eletricista credenciado pela DGEG — Técnico Responsável de Instalações Elétricas, TRIESP n.º 90062. Execução em Baixa Tensão até 41,4 kVA.
