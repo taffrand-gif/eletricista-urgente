@@ -202,7 +202,7 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 
 **Etapa 5: Testes (30 min)**
 - Teste continuidade
-- Teste isolamento (megger)
+- Teste isolamento
 - Teste diferencial (botão TEST)
 - Teste cada circuito
 - Verificação final

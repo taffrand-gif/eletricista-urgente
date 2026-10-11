@@ -15,7 +15,7 @@ description: "Tomada não funciona em Trás-os-Montes? 8 causas (disjuntor, toma
 
 **A tomada não funciona ou não tem corrente?** Este é um problema comum que pode ter causas simples (disjuntor desarmado) ou mais complexas (cabo partido). Neste guia completo, a nossa equipa apresenta as **8 causas principais** de tomadas que não funcionam e explica **como resolver cada uma com segurança**.
 
-> Diagnóstico e arranjo a **70 €/h**, com **orçamento por escrito antes de qualquer intervenção** — sem surpresas na fatura. A nossa equipa trata disjuntor desarmado, tomada queimada, ligação solta e cabo partido com equipamento certificado (Megger MFT1741+, Fluke, FLIR E96).
+> Diagnóstico e arranjo a **70 €/h**, com **orçamento por escrito antes de qualquer intervenção** — sem surpresas na fatura. A nossa equipa trata disjuntor desarmado, tomada queimada, ligação solta e cabo partido com equipamento certificado.
 
 ## Como resolver uma tomada que não funciona em Trás-os-Montes
 

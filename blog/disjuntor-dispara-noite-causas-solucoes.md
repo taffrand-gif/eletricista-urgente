@@ -67,7 +67,6 @@ Em zonas rurais, a rede de distribuição pode ter flutuações de tensão mais 
 
 Quando o problema não se resolve com os testes anteriores, o diagnóstico profissional segue esta sequência:
 
-- **Medição de correntes de fuga** com Megger MFT1741+ — identifica se há fuga e em que circuito.
 - **Verificação do diferencial** — teste do botão de teste + medição do tempo de disparo real (um diferencial deve disparar abaixo dos 30 mA em menos de 40 ms).
 - **Inspeção termográfica** com câmara FLIR E96 — deteta pontos quentes em contactos, cablagens e aparelhos.
 - **Medição de tensões e correntes** com Fluke.
@@ -113,7 +112,7 @@ Porque à noite se concentram cargas (aquecedor, máquina de lavar, forno) ao me
 
 ### O diferencial dispara só à noite. Porquê?
 
-Provavelmente fuga de corrente numa zona húmida (casa de banho, cozinha, exterior) que se torna crítica com a subida da humidade noturna. A nossa equipa isola o circuito e mede a fuga com Megger MFT1741+.
+Provavelmente fuga de corrente numa zona húmida (casa de banho, cozinha, exterior) que se torna crítica com a subida da humidade noturna. A nossa equipa isola o circuito e mede a fuga com equipamento de diagnóstico elétrico adequado à situação.
 
 ### Posso substituir o disjuntor por um de maior amperagem?
 
