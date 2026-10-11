@@ -37,7 +37,7 @@ Contacto elétrico direto entre fase e neutro (ou fase e terra) que faz a corren
 
 ### Fuga de corrente
 
-A corrente "escapa" por um caminho não previsto (humidade, isolamento deteriorado). O sintoma típico é o diferencial disparar sem aparelho visivelmente em falta. Em Trás-os-Montes, a humidade elevada do Inverno, as tomadas exteriores mal isoladas e o isolamento envelhecido de casas com várias décadas são os cenários que encontramos com mais regularidade. O diagnóstico usa o **Megger MFT1741+** (testador de instalação multifunções) e exige leitura fase a fase do quadro para isolar o circuito.
+A corrente "escapa" por um caminho não previsto (humidade, isolamento deteriorado). O sintoma típico é o diferencial disparar sem aparelho visivelmente em falta. Em Trás-os-Montes, a humidade elevada do Inverno, as tomadas exteriores mal isoladas e o isolamento envelhecido de casas com várias décadas são os cenários que encontramos com mais regularidade. O diagnóstico usa equipamento de diagnóstico elétrico adequado à situação e exige leitura fase a fase do quadro para isolar o circuito.
 
 ### Disjuntor ou diferencial defeituoso
 
@@ -69,7 +69,6 @@ Este procedimento permite-nos chegar ao local com a informação certa e avança
 
 A nossa equipa chega com o equipamento profissional descrito abaixo e segue um método que combina leitura do quadro, ensaios de isolamento e teste de diferenciais.
 
-- **Megger MFT1741+** — ensaio de isolamento, continuidade de condutores de proteção, ensaio de disjuntores e diferenciais, medição de阻抗 de loop.
 - **Fluke** — equipamento de medição elétrica
 - **ROLeak Aqua 3Plus** — correlação acústica para localizar fugas em condutores enterrados ou dentro de paredes (diferenciador raro no mercado regional).
 - **FLIR E96** — câmara térmica para identificar pontos quentes em quadros, tomadas e cablagem.
@@ -104,7 +103,7 @@ A mão de obra é de 70 €/h e a deslocação segue a zona (Z1 15 €, Z2 25 �
 
 ### O diferencial dispara só à noite. Porquê?
 
-Causas habituais: condensação noturna em quadros exteriores ou em pontos de humidade na instalação; aparelho com fuga intermitente (termoacumulador, máquina de lavar). O diagnóstico usa o Megger MFT1741+ para isolar o circuito e, se necessário, a correlação acústica ROLeak Aqua 3Plus.
+Causas habituais: condensação noturna em quadros exteriores ou em pontos de humidade na instalação; aparelho com fuga intermitente (termoacumulador, máquina de lavar). O diagnóstico usa equipamento de diagnóstico elétrico adequado à situação para isolar o circuito e, se necessário, a correlação acústica ROLeak Aqua 3Plus.
 
 ### Posso substituir o disjuntor por um de maior amperagem?
 

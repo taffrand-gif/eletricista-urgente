@@ -115,7 +115,6 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 **5. Ligação Terra**
 - Obrigatória em todas tomadas
 - Resistência <100 Ohms
-- Testada com megger
 
 ## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Elemento | Distância Mínima |

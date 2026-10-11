@@ -102,7 +102,7 @@ Pedir apólice seguro (nome, validade, valor)
 
 **Equipamento essencial:**
 ✅ Multímetro digital
-✅ Testador isolamento (Megger)
+✅ Testador isolamento
 ✅ Detetor cabos
 ✅ Alicate amperímetro
 ✅ Ferramentas qualidade
@@ -382,7 +382,7 @@ Material + mão obra
 Urgências atendidas em 15-90 min
 
 ### ✅ Equipamento Profissional
-Megger, multímetro, detetor cabos
+multímetro, detetor cabos
 
 ### ✅ Reviews 4.9/5
 500+ clientes satisfeitos

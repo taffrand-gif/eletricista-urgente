@@ -343,7 +343,7 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 
 ## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 ✅ Multímetro digital profissional
-✅ Testador isolamento (Megger)
+✅ Testador isolamento
 ✅ Detetor cabos enterrados
 ✅ Alicate amperímetro
 ✅ Testador diferencial

@@ -150,7 +150,7 @@ Pode fazer trabalhos elétricos sem a nossa equipa ou deve chamar eletricista? E
 
 **Porquê IMPOSSÍVEL:**
 - Só eletricistas com experiência podem emitir
-- Precisa equipamento profissional (megger)
+- Precisa equipamento profissional
 - Precisa conhecimento normas RTIEBT
 - Responsabilidade legal
 

@@ -29,7 +29,6 @@ Services:
   - Falha de terra ou diferencial
 Equipment:
   - Fluke
-  - Megger MFT1741+ (testador de instalação multifunção)
   - ROLeak Aqua 3Plus (deteção acústica)
   - FLIR E96 (câmara térmica)
   - Câmara de inspeção 30 m

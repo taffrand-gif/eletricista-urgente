@@ -513,7 +513,7 @@ def write_concelho(c: dict, neighbors: list[str]) -> str:
 <ul>
  <li><strong>Resposta 24h/7d</strong> em todo o concelho de {name} — chamada atendida directamente, sem call center.</li>
  <li><strong>Orçamento por escrito</strong> antes de tocar na instalação — preço nunca muda depois de combinado.</li>
- <li><strong>Equipamento profissional:</strong> equipamento de medição Fluke, detetor de tensão sem contacto, câmara térmica FLIR, testador de isolamento Megger.</li>
+ <li><strong>Equipamento profissional:</strong> equipamento de medição Fluke, detetor de tensão sem contacto, câmara térmica FLIR, testador de isolamento.</li>
  <li><strong>Fatura com NIF</strong> e <strong>garantia 2 anos</strong> sobre mão de obra e peças.</li>
  <li><strong>Seguro de responsabilidade civil</strong> cobrindo a intervenção.</li>
  <li><strong>Conhecemos a região:</strong> base em Macedo de Cavaleiros, cobertura total Trás-os-Montes e Douro.</li>
