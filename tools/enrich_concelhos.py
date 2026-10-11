@@ -180,7 +180,7 @@ def service_items(c: dict) -> list[str]:
     """Items de services (différenciés — urgence électricité, intention split)."""
     name = c["name"]
     return [
-        f"Curto-circuito e falha de energia em {name} — diagnóstico com multímetro Fluke, identificação do circuito em falha e isolamento seguro",
+        f"Curto-circuito e falha de energia em {name} — diagnóstico com equipamento de medição Fluke, identificação do circuito em falha e isolamento seguro",
         f"Disjuntor que dispara repetidamente em {name} — análise da curva de carga e proteção diferencial",
         f"Quadro elétrico parcial ou geral sem corrente em {name} — verificação do disjuntor geral e da derivação individual",
         f"Tomadas, interruptores e pontos de luz avariados em {name} — substituição ou reparação com material certificado",
@@ -476,7 +476,7 @@ def write_concelho(c: dict, neighbors: list[str]) -> str:
  <li><strong>Identificar a zona afetada</strong> — cozinha, sala, ou todo o edifício (falha de energia geral).</li>
  <li><strong>Ligar para a Norte Reparos</strong> +351 932 321 892, com morada e sintomas.</li>
  <li><strong>Aguardar o eletricista</strong> sem tocar em cabos ou quadros. Não usar fichas triplas improvisadas.</li>
- <li><strong>Diagnóstico in loco</strong> com multímetro Fluke, detetor de tensão e câmara térmica — orçamento por escrito antes de reparar.</li>
+ <li><strong>Diagnóstico in loco</strong> com equipamento de medição Fluke, detetor de tensão e câmara térmica — orçamento por escrito antes de reparar.</li>
 </ol>
 
 <h2 role="heading" aria-level="2">Deslocação — forfait único, referência oficial</h2>
@@ -513,7 +513,7 @@ def write_concelho(c: dict, neighbors: list[str]) -> str:
 <ul>
  <li><strong>Resposta 24h/7d</strong> em todo o concelho de {name} — chamada atendida directamente, sem call center.</li>
  <li><strong>Orçamento por escrito</strong> antes de tocar na instalação — preço nunca muda depois de combinado.</li>
- <li><strong>Equipamento profissional:</strong> multímetro Fluke, detetor de tensão sem contacto, câmara térmica FLIR, testador de isolamento Megger.</li>
+ <li><strong>Equipamento profissional:</strong> equipamento de medição Fluke, detetor de tensão sem contacto, câmara térmica FLIR, testador de isolamento Megger.</li>
  <li><strong>Fatura com NIF</strong> e <strong>garantia 2 anos</strong> sobre mão de obra e peças.</li>
  <li><strong>Seguro de responsabilidade civil</strong> cobrindo a intervenção.</li>
  <li><strong>Conhecemos a região:</strong> base em Macedo de Cavaleiros, cobertura total Trás-os-Montes e Douro.</li>

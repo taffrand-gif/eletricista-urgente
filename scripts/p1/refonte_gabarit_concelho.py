@@ -111,7 +111,7 @@ SERVICOS_TEMPLATES = [
     # Variante A — défaut (courte, générique)
     '''<h2 role="heading" aria-level="2">Serviços elétricos urgentes em {name}</h2>
 <ul class="servicos">
-  <li>Curto-circuito, falha de energia ou disjuntor que dispara em {name}: diagnóstico com multímetro Fluke e isolamento seguro do circuito afectado</li>
+  <li>Curto-circuito, falha de energia ou disjuntor que dispara em {name}: diagnóstico com equipamento de medição Fluke e isolamento seguro do circuito afectado</li>
   <li>Substituição de quadro elétrico parcial ou geral: verificação da derivação individual e da protecção diferencial 30 mA</li>
   <li>Reparação de tomadas, interruptores e pontos de luz: substituição com material certificado</li>
   <li>Iluminação interior e exterior avariada: LEDs, balastros e detetores de movimento</li>
@@ -181,7 +181,7 @@ FAQ_TEMPLATES_A = ["""<section class="faq" role="region" aria-label="Perguntas f
  <dt>Quantas aldeias servem no concelho de {name}?</dt>
  <dd>{aldeias}</dd>
  <dt>Que equipamento utilizam em {name}?</dt>
- <dd>Multímetro Fluke, detetor de tensão sem contacto, câmara térmica FLIR, testador Megger MFT1741+.</dd>
+ <dd>Equipamento de medição Fluke, detetor de tensão sem contacto, câmara térmica FLIR, testador Megger MFT1741+.</dd>
 </dl>
 </section>""","""<section class="faq" role="region" aria-label="Perguntas frequentes">
 <h2 role="heading" aria-level="2">FAQ eletricista urgente — {name}</h2>
@@ -197,7 +197,7 @@ FAQ_TEMPLATES_A = ["""<section class="faq" role="region" aria-label="Perguntas f
  <dt>Emitem factura com NIF?</dt>
  <dd>Sim, sempre. Discriminação de mão-de-obra {euro70}, deslocação e peças. MB Way/cartão/numerário.</dd>
  <dt>Equipamento profissional em {name}?</dt>
- <dd>Fluke (multímetro), Megger MFT1741+ (instalação), FLIR (térmica).</dd>
+ <dd>Fluke (equipamento de medição), Megger MFT1741+ (instalação), FLIR (térmica).</dd>
  <dt>Urgência 24h em {name}?</dt>
  <dd>Sim, 24h/7d incluindo feriados. Majoração {majo} sempre anunciada antes.</dd>
 </dl>
@@ -276,7 +276,7 @@ PORQUE_TEMPLATES = [
 <ul>
  <li><strong>Atendimento 24h/7d</strong> em {name}: chamada directa, sem call-center.</li>
  <li><strong>Orçamento por escrito</strong>: preço nunca muda depois de combinado.</li>
- <li><strong>Equipamento profissional:</strong> multímetro Fluke, Megger MFT1741+, câmara térmica FLIR.</li>
+ <li><strong>Equipamento profissional:</strong> equipamento de medição Fluke, Megger MFT1741+, câmara térmica FLIR.</li>
  <li><strong>Fatura com NIF</strong>: discriminação completa (deslocação, mão-de-obra, peças).</li>
  <li><strong>Seguro RC</strong> cobrindo a intervenção.</li>
  <li>{region_text}</li>
