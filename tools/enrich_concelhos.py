@@ -24,7 +24,7 @@ CONCELHOS_DIR = ROOT / "concelhos"
 DATA = ROOT / "data" / "concelhos.json"
 
 # Grille officielle verrouillée (doctrine tarifs 2026)
-GRILLE_ZONAS = {1: 30, 2: 30, 3: 30, 4: 30, 5: 30, 6: 30}
+DESLOCACAO_DIA = 30   # déplacement unique 09h–18h (aucune zone, aucun prix par distance)
 TARIF_HORA = 70
 TARIF_HORA_FORA_HORARIO = 100
 DESLOCACAO_FORA_HORARIO = 50
@@ -235,7 +235,7 @@ def local_business_schema(c: dict) -> dict:
         "@context": "https://schema.org", "@type": "LocalBusiness",
         "@id": f"https://eletricista-urgente.pt/#localbusiness-{c['slug']}",
         "name": f"Norte Reparos — Eletricista Urgente {name}", "telephone": "+351 932 321 892",
-        "priceRange": "70 €/h–100 €/h", "address": {"@type": "PostalAddress", "addressLocality": name, "addressRegion": c.get("district", "Trás-os-Montes"), "addressCountry": "PT"},
+        "address": {"@type": "PostalAddress", "addressLocality": name, "addressRegion": c.get("district", "Trás-os-Montes"), "addressCountry": "PT"},
         "geo": {"@type": "GeoCoordinates", "latitude": lat, "longitude": lon},
         "areaServed": {"@type": "AdministrativeArea", "name": f"Concelho de {name}"},
         "openingHoursSpecification": {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59"},
@@ -483,14 +483,14 @@ def write_concelho(c: dict, neighbors: list[str]) -> str:
 <table>
  <thead><tr><th>Horário</th><th>Deslocação</th></tr></thead>
  <tbody>
- <tr><td>Dias úteis (9h–18h)</td><td>{GRILLE_ZONAS[1]}€</td></tr>
+ <tr><td>Dias úteis (9h–18h)</td><td>{DESLOCACAO_DIA}€</td></tr>
  <tr><td>Noite, fim de semana e feriados</td><td>50€</td></tr>
  </tbody>
 </table>
 <p style="font-size:.8rem;color:#666">Hora de trabalho {TARIF_HORA}€ (mão de obra) em dias úteis ou 100€/h fora desse horário · IVA isento ao abrigo do art. 53.º do CIVA. Preço desde/{h2p}€ referido acima diz respeito à 1.ª hora / 2 horas; deslocação incluída, seja qual for a localidade servida.</p>
 
 <h2 role="heading" aria-level="2">Bairros servidos no concelho de {name}</h2>
-<p>Exemplos de localidades onde chegamos a partir da nossa base em Macedo de Cavaleiros (dados TomTom reais, indicative):</p>
+<p>Exemplos de localidades onde chegamos a partir da nossa base em Macedo de Cavaleiros (distâncias indicativas):</p>
 <table>
  <thead><tr><th>Localidade</th><th>Distância (km)</th></tr></thead>
  <tbody>
@@ -514,8 +514,8 @@ def write_concelho(c: dict, neighbors: list[str]) -> str:
  <li><strong>Resposta 24h/7d</strong> em todo o concelho de {name} — chamada atendida directamente, sem call center.</li>
  <li><strong>Orçamento por escrito</strong> antes de tocar na instalação — preço nunca muda depois de combinado.</li>
  <li><strong>Equipamento profissional:</strong> equipamento de medição Fluke, detetor de tensão sem contacto, câmara térmica FLIR, testador de isolamento.</li>
- <li><strong>Fatura com NIF</strong> e <strong>garantia 2 anos</strong> sobre mão de obra e peças.</li>
- <li><strong>Seguro de responsabilidade civil</strong> cobrindo a intervenção.</li>
+ <li><strong>Fatura com NIF</strong> discriminada.</li>
+ <li><strong>Seguro de responsabilidade civil profissional até 50.000 €.</strong></li>
  <li><strong>Conhecemos a região:</strong> base em Macedo de Cavaleiros, cobertura total Trás-os-Montes e Douro.</li>
 </ul>
 

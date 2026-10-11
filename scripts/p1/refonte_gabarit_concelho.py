@@ -26,6 +26,10 @@ Usage :
   python3 scripts/p1/refonte_gabarit_concelho.py --all --apply
 """
 import argparse, json, re, sys, unicodedata, hashlib
+
+raise SystemExit("OBSOLÈTE (2026-10-11) : script cassé (NameError 'desloc') et basé sur Z1–Z6 / Megger / délais ; remplacé par tools/enrich_concelhos.py. Ne pas exécuter.")
+
+raise SystemExit("OBSOLÈTE (2026-10-11) : script cassé (NameError 'desloc') et basé sur Z1–Z6 / Megger / délais ; remplacé par tools/enrich_concelhos.py. Ne pas exécuter.")
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
