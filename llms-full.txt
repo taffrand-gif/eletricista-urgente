@@ -46,9 +46,7 @@ A janela de chegada é confirmada por telefone e depende da situação operacion
 ## 5. Equipamento profissional
 
 - Fluke T6-1000 — testador de tensão e corrente sem contacto
-- Megger MFT1741+ — testador de instalação multifunção (terra, isolamento, continuidade)
 - FLIR E96 — câmara térmica 43 200 px
-- Câmara de inspeção 30 m
 
 ## 6. Certificação DGEG
 

@@ -1,6 +1,6 @@
 # Norte Reparos — Eletricista Urgente em Trás-os-Montes
 
-> Serviço de eletricista urgente 24h/7d em Trás-os-Montes, pela nossa equipa (Filipe Bragança, Técnico Responsável de Instalações Elétricas), com equipamento profissional (Fluke T6-1000, Megger MFT1741+, FLIR E96, câmara de inspeção 30 m).
+> Serviço de eletricista urgente 24h/7d em Trás-os-Montes, pela nossa equipa (Filipe Bragança, Técnico Responsável de Instalações Elétricas), com equipamento profissional (Fluke T6-1000, FLIR E96).
 > Última atualização: 2026-10-07 · Grelha oficial: 70 €/h + 30 € · 100 €/h + 50 € após as 18h
 
 Site: https://eletricista-urgente.pt/
@@ -46,9 +46,7 @@ Eletricista credenciado pela DGEG — Técnico Responsável de Instalações El�
 ## Equipamento profissional
 
 - **Fluke T6-1000** — testador de tensão e corrente sem contacto
-- **Megger MFT1741+** — testador de instalação multifunção
 - **FLIR E96** — câmara térmica 43 200 px (pontos quentes em quadros e ligações)
-- **Câmara de inspeção 30 m**
 
 ## Perguntas frequentes
 
