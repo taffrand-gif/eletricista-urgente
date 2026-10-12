@@ -313,7 +313,7 @@ Mecanismo de proteção infantil está bloqueado ou rígido.
 
 Cada caso tem diagnóstico próprio. Para avarias variáveis (curto-circuito, cabo partido, certificação DGEG), emitimos **orçamento por escrito após diagnóstico** — **sem surpresas na fatura**. Mão de obra: **70 €/h**; deslocação tabelada por zona (Z1=15 € a Z6=65 €); noite, domingo e feriado: **+50 %**.
 
-> 💡 **Tomada não funciona?** Eletricista com experiência em Trás-os-Montes: **[932 321 892](tel:+351932321892)** — diagnóstico rápido, arranjo com garantia escrita.
+> 💡 **Tomada não funciona?** Eletricista com experiência em Trás-os-Montes: **[932 321 892](tel:+351932321892)** — diagnóstico rápido, arranjo.
 
 ## 🔍 Diagnóstico Completo Passo a Passo
 
@@ -480,8 +480,7 @@ Na maioria dos casos, tomada que não funciona tem **causa identificável e solu
 
 ✅ Diagnóstico rápido Atendimento prioritário 
 ✅ Arranjo imediata 
-✅ Materiais de qualidade em stock 
-✅ Garantia 1 ano no serviço 
+✅ Materiais de qualidade em stock  
 ✅ Preços transparentes 
 ✅  
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região

@@ -363,7 +363,6 @@ Se sem luz, eletricista precisa ver.
 
 **Receber:**
 - Fatura detalhada
-- Garantia por escrito
 - Contacto follow-up
 
 **Testar:**
@@ -495,7 +494,6 @@ Se sem luz, eletricista precisa ver.
 ✅ Atendimento 24h/7d/7 dias
 ✅ Equipamento completo
 ✅ Orçamento antes arranjar
-✅ garantia por escrito
 
 **WhatsApp:** [Urgência AGORA](https://wa.me/351932321892?text=URGÊNCIA ELÉTRICA! Preciso ajuda imediata)
 

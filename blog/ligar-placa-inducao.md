@@ -429,8 +429,7 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 ✅ Avaliação gratuita (potência necessária) 
 
 ✅ Upgrade de quadro elétrico 
-✅ Orçamento sem compromisso 
-✅ Garantia de 2 anos 
+✅ Orçamento sem compromisso  
 
 **📞 Ligue Agora:** [Contacto por telefone ou WhatsApp](tel:+351932321892) 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20preciso%20de%20instalar%20placa%20de%20indução!) 

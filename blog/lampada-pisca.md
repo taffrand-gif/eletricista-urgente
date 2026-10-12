@@ -461,7 +461,7 @@ Uma lâmpada que pisca não é apenas irritante — pode indicar **problemas el�
 - eletricistas com experiência com 
 - Diagnóstico preciso com equipamento profissional
 - Arranjo rápida (30-90 minutos)
-- Materiais de qualidade (Philips, - Garantia de 2 anos no trabalho
+- Materiais de qualidade (Philips,
 - Disponível Atendimento 24h/7d para urgências
 
 **Não ignore o problema. Lâmpada que pisca pode indicar perigo de incêndio.**

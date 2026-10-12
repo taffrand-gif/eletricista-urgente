@@ -403,8 +403,7 @@ Escolher o cabo elétrico correto é **essencial para segurança e eficiência**
 ✅ Escolhemos cabos adequados para cada aplicação 
 ✅ Instalação conforme normas RTIEBT 
 
-✅ Materiais de qualidade certificados 
-✅ Garantia 2 anos no serviço 
+✅ Materiais de qualidade certificados  
 ✅ Orçamento grátis sem compromisso 
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 

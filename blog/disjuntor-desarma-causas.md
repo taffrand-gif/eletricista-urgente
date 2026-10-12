@@ -521,8 +521,6 @@ R: SIM! 20+ anos = desgaste, pode não proteger adequadamente. Substitua por seg
 - ✅ Diagnóstico completo €60-120
 - ✅ Substituir disjuntor €40-80
 - ✅ Adicionar circuito €150-400
-- ✅ garantia por escrito
-
 💬 **WhatsApp:** [Emergência elétrica](https://wa.me/351932321892?text=Olá,%20o%20disjuntor%20desarma%20constantemente!)
 
 🌐 **Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)

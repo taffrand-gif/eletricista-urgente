@@ -333,7 +333,6 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 
 **Recebe:**
 - Fatura detalhada
-- garantia por escrito
 - Conselhos prevenção
 - Contacto follow-up
 
@@ -416,7 +415,6 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 ✅ Resposta  por telefone
 ✅ Equipamento completo na viatura
 ✅ Preços transparentes
-✅ garantia por escrito
 ✅ Atendimento 24h/7d/7 dias
 
 **WhatsApp:** [Urgência elétrica](https://wa.me/351932321892?text=Urgência elétrica! Preciso ajuda)

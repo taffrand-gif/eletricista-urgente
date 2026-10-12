@@ -71,7 +71,7 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 | **Completo** | 24 | 10 circuitos | 750€ | 400€ | **1250€** |
 | **Premium** | 36 | 15 circuitos | 1000€ | 500€ | **1650€** |
 
-*Preços incluem: quadro, disjuntores, diferencial, proteção sobretensões, instalação, certificação, garantia 5 anos. Não incluem IVA (23%).*
+*Preços incluem: quadro, disjuntores, diferencial, proteção sobretensões, instalação, certificação,  Não incluem IVA (23%).*
 
 ### O Que Está Incluído
 
@@ -230,7 +230,6 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 **Recebe:**
 
 - Termo Responsabilidade
-- Garantia 5 anos
 - Manual quadro
 - Contacto assistência
 
@@ -386,7 +385,6 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 ✅ Orçamento gratuito sem compromisso
 ✅ Quadros certificados (✅ Instalação em 2-4 horas
 
-✅ Garantia 5 anos
 ✅ Subvenções até 85%
 
 **WhatsApp:** [Pedir orçamento](https://wa.me/351932321892?text=Preciso modernizar quadro elétrico com fusíveis)

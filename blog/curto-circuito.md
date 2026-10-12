@@ -504,7 +504,6 @@ Curto-circuito é um **perigo real e grave**, responsável por **30-40% dos inc�
 - Equipamento profissional (megóhmetro, testadores)
 - Relatório detalhado
 - Orçamento transparente
-- Garantia de 2 anos no trabalho
 - Disponível Atendimento 24h/7d para urgências
 
 **Proteja a sua família. Segurança elétrica é investimento, não despesa.**

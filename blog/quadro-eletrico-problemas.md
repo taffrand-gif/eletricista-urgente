@@ -457,7 +457,7 @@ R: SIM! Sem diferencial = risco eletrocussão. Fusíveis = proteção inadequada
 - ✅ Inspeção completa do quadro €80-150
 - ✅ Substituição quadro completo €600-1.500
 
-- ✅ garantia por escrito em todos os serviços
+- em todos os serviços
 
 💬 **WhatsApp:** [Emergência elétrica](https://wa.me/351932321892?text=Olá,%20tenho%20problema%20no%20quadro%20elétrico!)
 

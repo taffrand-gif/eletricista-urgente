@@ -492,8 +492,7 @@ Na maioria dos casos, campainha que não funciona tem **solução fácil e barat
 
 ✅ Diagnóstico rápido Atendimento prioritário 
 ✅ Arranjo ou instalação nova 
-✅ Materiais em stock 
-✅ Garantia 1 ano no serviço 
+✅ Materiais em stock  
 ✅ Preços transparentes 
 ✅  
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região

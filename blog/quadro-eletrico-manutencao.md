@@ -13,7 +13,7 @@ priority: "HIGH DEMAND"
 
 **O quadro elétrico é o coração da instalação elétrica da sua casa.** Um quadro bem mantido garante segurança e eficiência. Neste guia completo, vou mostrar-lhe **como fazer manutenção**, sinais de perigo, quando substituir e tudo sobre segurança do quadro elétrico.
 
-> ⚠️ **Quadro com problemas?** eletricista com experiência em Bragança: **[932 321 892](tel:+351932321892)** — Inspeção, manutenção e substituição com garantia.
+> ⚠️ **Quadro com problemas?** eletricista com experiência em Bragança: **[932 321 892](tel:+351932321892)** — Inspeção, manutenção e substituição.
 
 ## 🔍 O Que É o Quadro Elétrico?
 
@@ -433,8 +433,7 @@ O quadro elétrico é **essencial para segurança** da sua casa:
 ✅ Manutenção preventiva 
 ✅ Substituição de disjuntores 
 ✅ Instalação de quadros novos 
-
-✅ Garantia 2 anos no serviço 
+ 
 ✅ Orçamento grátis sem compromisso 
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 

@@ -7,7 +7,7 @@ category: "Instalações"
 excerpt: "Guia completo sobre instalação de tomadas exteriores. Preços, tipos (IP44/IP65), normas, materiais e processo de instalação."
 image: "/images-optimized/blog/blog-tomada-exterior.webp"
 metaTitle: "Tomada Exterior: Preço Instalação 2026 | Guia"
-metaDescription: "Instalar tomada exterior: 138-182€ (IP44), 158-210€ (IP65). Normas RTIEBT. Material certificado. Garantia 5 anos. Ligue Contacto por telefone ou WhatsApp!"
+metaDescription: "Instalar tomada exterior: 138-182€ (IP44), 158-210€ (IP65). Normas RTIEBT. Material certificado.  Ligue Contacto por telefone ou WhatsApp!"
 keywords: ["quanto custa tomada exterior", "instalar tomada jardim", "tomada ip65 preço", "tomada exterior estanque"]
 ---
 
@@ -42,7 +42,7 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 | **20-30m** | 90€ | 145€ | 48€ | **298-348€** |
 | **30-50m** | 150€ | 180€ | 48€ | **393-443€** |
 
-*Preços incluem material certificado, instalação, testes e garantia 5 anos. Não incluem IVA (23%).*
+*Preços incluem material certificado, instalação, testes. Não incluem IVA (23%).*
 
 ## IP44 vs IP65: Qual Escolher?
 
@@ -130,7 +130,6 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 ## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Plexo (Recomendado)**
 - IP55/IP65
-- Garantia 10 anos
 - Preço: 35-55€
 - Qualidade superior
 
@@ -376,7 +375,6 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 
 ✅ Orçamento gratuito por telefone
 ✅ Material certificado (✅ Instalação conforme normas RTIEBT
-✅ Garantia 5 anos
 ✅ IP65 estanque recomendado
 
 **WhatsApp:** [Pedir orçamento](https://wa.me/351932321892?text=Preciso instalar tomada exterior)

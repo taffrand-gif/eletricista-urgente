@@ -484,7 +484,7 @@ R: Instalar dimmer LED €60-100, focos embutidos €40-80/cada, sistema smart �
 - ✅ Instalação focos embutidos €40-80/cada
 - ✅ Instalar dimmer LED €60-100
 - ✅ Sistema iluminação inteligente €150-500
-- ✅ Garantia 12 meses
+-
 - ✅ Aconselhamento na escolha de lâmpadas
 
 💬 **WhatsApp:** [Clique para orçamento](https://wa.me/351932321892?text=Olá,%20quero%20mudar%20para%20iluminação%20LED)

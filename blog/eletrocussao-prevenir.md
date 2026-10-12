@@ -486,8 +486,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 - Terra normalizada
 - Tomadas segurança
 - Certificado conformidade
-- Garantia 2 anos
-
 ## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Teste disjuntor diferencial
 - Medição terra

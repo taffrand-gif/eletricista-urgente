@@ -594,8 +594,7 @@ Neste guia completo, vou explicar:
 ✅ Configuração de acesso remoto 
 ✅ Passagem de cabos profissional 
 ✅ Formação de utilização 
-✅ Suporte técnico 
-✅ Garantia 2 anos 
+✅ Suporte técnico  
 
 **📞 Ligue já: [Contacto por telefone ou WhatsApp](tel:+351932321892)**
 
@@ -622,7 +621,7 @@ Um sistema de videovigilância:
 
 **Ligue JÁ: [Contacto por telefone ou WhatsApp](tel:+351932321892)**
 
-**eletricista com experiência • Avaliação grátis • Instalação profissional • Garantia 2 anos**
+**eletricista com experiência • Avaliação grátis • Instalação profissional**
 
 ---
 

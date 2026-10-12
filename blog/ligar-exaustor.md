@@ -471,7 +471,6 @@ Instalar um exaustor é **investimento essencial** para manter ar saudável (eli
 - eletricistas com experiência com 
 - Instalação conforme normas elétricas
 - Teste completo de extração
-- Garantia de 1 ano no trabalho
 - Orçamento transparente sem surpresas
 
 **Respire ar saudável. Instalação profissional garante eficácia e segurança.**

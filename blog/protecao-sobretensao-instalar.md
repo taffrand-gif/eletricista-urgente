@@ -413,8 +413,6 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 - Materiais qualidade
 - Teste funcionamento
 - Certificado instalação
-- Garantia 2 anos
-
 ## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Verificação anual
 - Teste terra

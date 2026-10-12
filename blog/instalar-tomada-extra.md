@@ -467,8 +467,6 @@ R: Instalar 1 tomada €50-100, 2-3 tomadas €100-190. Urgente 24h: +50%. : **9
 📞 **Contacto: 321 892**
 - ✅ Instalação de tomadas €50-100/unidade
 - ✅ Circuito novo dedicado €200-400
-
-- ✅ garantia por escrito
 - ✅ Trabalho limpo e profissional
 - ✅ Atendimento 24h/7d (urgências)
 

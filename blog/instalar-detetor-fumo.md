@@ -435,7 +435,7 @@ Neste guia completo, vou mostrar-lhe:
 **2. FireAngel ST-630 (Ótico, 10 anos)** — €20-30
 - ✅ Bateria selada 10 anos
 - ✅ Muito sensível
-- ✅ Garantia 10 anos
+-
 
 **3. Kidde 29H-FR (Ótico, pilhas)** — €15-25
 - ✅ Mais barato

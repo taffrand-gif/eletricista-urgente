@@ -160,8 +160,7 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 ### Mão de Obra Inclui:
 ✅ Diagnóstico profissional com equipamento
 ✅ Tempo de trabalho efetivo
-✅ Conhecimento técnico com experiência
-✅ garantia por escrito no arranjo
+✅ Conhecimento técnico com experiência no arranjo
 ✅ Limpeza após intervenção
 
 ### Deslocação Inclui:
@@ -264,7 +263,6 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 ✅ Orçamento gratuito por telefone
 ✅ 
 ✅ Preços transparentes sem surpresas
-✅ garantia por escrito
 
 **WhatsApp:** [Clique para enviar mensagem](https://wa.me/351932321892?text=Olá, preciso de eletricista urgente ao domingo)
 

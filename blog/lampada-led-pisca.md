@@ -116,8 +116,7 @@ LEDs baratos têm driver (transformador interno) de má qualidade que não regul
 - **Ledvance:** €6-10 (boa relação qualidade/preço)
 - **Evite:** Marcas desconhecidas < €2
 
-**Dica:** Lâmpadas de qualidade têm:
-✅ Garantia de 2-5 anos 
+**Dica:** Lâmpadas de qualidade têm: 
 ✅ Certificação CE 
 ✅ Embalagem com especificações técnicas 
 ✅ Preço razoável (€5-15)
@@ -339,8 +338,7 @@ Na maioria dos casos, lâmpadas LED a piscar têm **solução simples e barata**
 
 ✅ Diagnóstico rápido e preciso 
 ✅ Soluções definitivas (não provisórias) 
-✅ Materiais de qualidade incluídos 
-✅ Garantia 1 ano no serviço 
+✅ Materiais de qualidade incluídos  
 ✅  
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
