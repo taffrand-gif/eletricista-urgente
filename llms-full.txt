@@ -118,7 +118,7 @@ R : Oui, vous parlez toujours à la même personne — pas un call center.
 R : Oui, nous couvrons Bragança, Mirandela, Chaves, Macedo de Cavaleiros, Vila Real, et tout Trás-os-Montes.
 
 **Q : Faites-vous aussi de la plomberie ?**
-R : Norte Reparos a un site dédié : canalizador-urgente.pt · +351 928 484 451 (plombier urgence 24h).
+R : Norte Reparos a un site dédié : canalizador-urgente.pt (plombier urgence 24h).
 
 ---
 
@@ -138,8 +138,8 @@ R : Norte Reparos a un site dédié : canalizador-urgente.pt · +351 928 484 451
 |---|---|---|---|
 | Eletricista Urgente | eletricista-urgente.pt | Électricité urgence 24h | 932 321 892 |
 | Eletricista Norte Reparos | eletricista-norte-reparos.pt | Électricité installation | 932 321 892 |
-| Canalizador Urgente | canalizador-urgente.pt | Plomberie urgence 24h | 928 484 451 |
-| Canalizador Norte Reparos | canalizador-norte-reparos.pt | Plomberie installation | 928 484 451 |
+| Canalizador Urgente | canalizador-urgente.pt | Plomberie urgence 24h | voir le site |
+| Canalizador Norte Reparos | canalizador-norte-reparos.pt | Plomberie installation | voir le site |
 
 ---
 
