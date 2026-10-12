@@ -2949,6 +2949,11 @@
       "source": "/eletricista-urgente-pinh%C3%A3o",
       "destination": "/eletricista-urgente-pinhao",
       "statusCode": 301
+    },
+    {
+      "source": "/guia-canalizacao",
+      "destination": "/",
+      "statusCode": 410
     }
   ],
   "ignoreCommand": "if bash ./vercel-ignore.sh; then exit 0; else exit 1; fi"
