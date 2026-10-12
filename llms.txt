@@ -1,6 +1,6 @@
 # Norte Reparos — Eletricista Urgente em Trás-os-Montes
 
-> Serviço de eletricista urgente 24h/7d em Trás-os-Montes, pelo técnico Filipe Bragança, com equipamento profissional (Fluke, FLIR E96) e materiais Legrand, Schneider Electric, Hager, ABB, Siemens, Philips.
+> Serviço de eletricista urgente 24h/7d em Trás-os-Montes, pelo técnico Filipe Bragança, com equipamento profissional (Fluke, FLIR E96).
 > Última atualização: 2026-07-28 · Grelha oficial (70 €/h + 30 € de deslocação das 09h às 18h; 100 €/h + 50 € fora desse horário; TTC)
 
 ## Serviços
@@ -75,10 +75,7 @@ Sim, a nossa equipa acompanha cada pedido — sem intermediários nem call cente
 Sim, cobrimos Bragança, Mirandela, Chaves, Macedo de Cavaleiros, Vila Real, Mogadouro, Vinhais, Miranda do Douro e restante Trás-os-Montes.
 
 ## Também prestamos serviços de canalizador urgente
-Para urgências de canalização 24h: canalizador-urgente.pt · +351 928 484 451
-
-## Marcas de materiais (verídicas, conforme disponibilidade de stock)
-Legrand, Schneider Electric, Hager, ABB, Siemens, Philips
+Para urgências de canalização 24h: canalizador-urgente.pt
 
 ## Contacto
 - **Norte Reparos — Eletricista Urgente**
