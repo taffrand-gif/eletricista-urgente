@@ -14,7 +14,7 @@ schema: "howto"
 
 # Disjuntor Dispara à Noite em Trás-os-Montes: Causas e Soluções
 
-Disjuntor que dispara à noite tem geralmente uma causa técnica identificável — sobrecarga, fuga de corrente, ou desgaste do próprio aparelho. Antes de contactar a nossa equipa, alguns testes simples podem isolar o problema; orçamento por escrito antes de qualquer intervenção, 70 €/h com deslocação Z1-Z6 e majoração noite/WE/feriado de +50 %, sempre sem surpresas.
+Disjuntor que dispara à noite tem geralmente uma causa técnica identificável — sobrecarga, fuga de corrente, ou desgaste do próprio aparelho. Antes de contactar a nossa equipa, alguns testes simples podem isolar o problema; orçamento por escrito antes de qualquer intervenção, 70 €/h (09h–18h) ou 100 €/h (noite, fim de semana e feriados), mais deslocação de 30 € ou 50 €, sempre sem surpresas.
 
 ## Porquê dispara mais à noite?
 
@@ -125,7 +125,7 @@ Sim. Fazemos o trabalho elétrico (instalação, reparação, diagnóstico) e em
 
 ### Atendem 24 horas por dia em Trás-os-Montes?
 
-Sim, 24 horas por dia, 7 dias por semana, em Trás-os-Montes. O serviço é de deslocação + mão-de-obra, com majoração de +50 % em horário noturno, domingo e feriado. Orçamento por escrito antes de qualquer intervenção.
+Sim, 24 horas por dia, 7 dias por semana, em Trás-os-Montes. O serviço é de deslocação + mão de obra: 70 €/h e 30 € de deslocação (09h–18h), ou 100 €/h e 50 € de deslocação à noite, ao fim de semana e em feriados. Toda a hora iniciada é devida. Orçamento por escrito antes de qualquer intervenção.
 
 ### Disjuntor dispara com chuva, é o que fazer?
 
