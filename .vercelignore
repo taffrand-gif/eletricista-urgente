@@ -28,3 +28,35 @@ blog/*.md
 *.save
 *.tmp
 *~
+
+# 2026-10-12 — artefacts internes jamais publics (probe prod : scripts, data,
+# .loop, .openclaw, .hermes, _audit, _archive-* répondaient 200 et exposaient
+# anciennes grilles Z1–Z6, backups PRE-fix et outillage). Fichiers conservés
+# dans Git, seulement exclus du déploiement. `vercel-ignore.sh` reste : il est
+# appelé par ignoreCommand. Les pages ne référencent aucun de ces chemins.
+_archive/
+_archive-*/
+_audit/
+_indexing/
+_reports/
+_outils/
+.hermes/
+.hermes-*/
+.loop/
+.openclaw/
+.github/
+.vercel-rebuild
+scripts/
+tools/
+client/
+data/
+docs/
+tests/
+/*.py
+/precos-zonas.json
+*.PRE
+*.PRE-*
+
+# 2026-10-12 — showroom de design orphelin (noindex, aucun lien, hors sitemap) : servait encore
+# l'ancienne grille Z1–Z6, +50 % et la spec FLIR 43 200 px. Fichier conservé dans Git.
+/design-preview-eu.html
