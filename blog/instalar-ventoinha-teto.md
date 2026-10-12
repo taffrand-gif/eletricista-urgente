@@ -22,7 +22,6 @@ Neste guia completo, vamos explicar **como escolher a ventoinha adequada**, inst
 
 ## Por Que Instalar Ventoinha de Teto?
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Eficiência Energética**
 - Consumo: 15-75W (vs 1.000-2.500W de equipamento de climatização)
 - Custo operação: €0.01-0.05/hora (vs €0.20-0.50/hora AC)
@@ -47,7 +46,6 @@ Neste guia completo, vamos explicar **como escolher a ventoinha adequada**, inst
 - Iluminação integrada (opcional)
 - Valoriza imóvel
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Não baixa temperatura real (apenas sensação)
 - Requer teto estruturalmente adequado
 - Instalação mais complexa que lâmpada
@@ -150,7 +148,6 @@ Neste guia completo, vamos explicar **como escolher a ventoinha adequada**, inst
 
 **⚠️ AVISO IMPORTANTE:** Trabalhos elétricos devem ser realizados por eletricista com experiência. Instalação incorreta pode causar choque elétrico fatal, queda da ventoinha, ou incêndio.
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Ventoinha e acessórios:**
 - Ventoinha de teto: €40-300
 - Vara de extensão (se necessário): incluída ou €15-40
@@ -318,7 +315,6 @@ Neste guia completo, vamos explicar **como escolher a ventoinha adequada**, inst
 | Buchas e parafusos | €5-10 |
 | **TOTAL (média):** | **€90-220** |
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Preço |
 |---------|-------|
 | Instalação simples (substituir luminária) | €80-150 |
@@ -367,7 +363,6 @@ Neste guia completo, vamos explicar **como escolher a ventoinha adequada**, inst
 3. Teste e ajuste posição
 4. Fixe peso permanentemente
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Aperto de parafusos (pás, suporte)
 - Estado dos cabos
 - Ruído anormal
@@ -396,7 +391,6 @@ Neste guia completo, vamos explicar **como escolher a ventoinha adequada**, inst
 
 **Poupança:** 10-15% no aquecimento
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Use apenas quando divisão ocupada
 - Combine com janelas abertas (noite)
 - Desligue quando sair (não refresca objetos)

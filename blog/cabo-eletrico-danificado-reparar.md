@@ -216,7 +216,6 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 
 ---
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Características:**
 - Flexível
 - Uso temporário
@@ -270,7 +269,6 @@ Em Trás-os-Montes, onde muitas casas têm instalações antigas (30-40 anos) e 
 
 ## 💰 Custos em Trás-os-Montes (2026)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Aparelho | Custo Cabo | Instalação | Total |
 |----------|------------|------------|-------|
 | Candeeiro | €5-15 | DIY | €5-15 |

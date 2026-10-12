@@ -245,7 +245,6 @@ Use esta tabela para identificar a causa:
 
 ## 💰 Custos das Soluções
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Solução | Custo | Dificuldade | Tempo |
 |---------|-------|-------------|-------|
 | Trocar interruptor | €5-15 | Fácil | 15 min |
@@ -253,7 +252,6 @@ Use esta tabela para identificar a causa:
 | Instalar resistência | €3-8 | Moderada | 20 min |
 | Trocar dimmer | €15-45 | Moderada | 30 min |
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Preço em Trás-os-Montes |
 |---------|-------------------------|
 | Diagnóstico do problema | €40-60 |
@@ -267,7 +265,6 @@ Use esta tabela para identificar a causa:
 
 ## 🛡️ Prevenção: Como Evitar Lâmpadas a Piscar
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 ✅ **Escolha marcas de qualidade** (Philips, Osram, Ledvance) 
 ✅ **Verifique garantia** (mínimo 2 anos) 
 ✅ **Certificação CE** obrigatória 
@@ -275,14 +272,12 @@ Use esta tabela para identificar a causa:
 ✅ **Dimerizável** se usar com dimmer 
 ✅ **Tensão 220-240V** (suporta variações)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 ✅ **Use interruptores simples** (sem luz piloto) 
 ✅ **Dimmer específico LED** se precisar 
 ✅ **Boa ventilação** (LEDs aquecem) 
 ✅ **Respeite potência máxima** da luminária 
 ✅ **Circuitos adequados** (cabo 1,5mm² mínimo)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 ✅ **Limpe lâmpadas** (poeira aquece) 
 ✅ **Verifique ligações** anualmente 
 ✅ **Substitua lâmpadas** que começam a piscar 

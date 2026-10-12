@@ -213,7 +213,6 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 
 ## 💰 Custos em Trás-os-Montes (2026)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Casa | Circuitos | Custo | Tempo | Inclui |
 |------|-----------|-------|-------|--------|
 | T1-T2 | 5-6 | €300-500 | 1 dia | Quadro + certificação |
@@ -234,7 +233,6 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 
 | Mão de obra | €200-400 |
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Upgrade | Custo | Benefício |
 |---------|-------|-----------|
 | Proteção sobretensão | €50-100 | Protege TV, PC, eletrodomésticos |

@@ -345,7 +345,6 @@ Se nenhum teste anterior identificou o problema:
 
 ## Soluções e Custos
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Solução | Custo | Tempo | Dificuldade |
 |---------|-------|-------|-------------|
 | Substituir lâmpada | €5-20 | 2 min | Muito fácil |
@@ -353,7 +352,6 @@ Se nenhum teste anterior identificou o problema:
 | Apertar lâmpada | €0 | 1 min | Muito fácil |
 | Substituir interruptor | €3-15 | 20-30 min | Média |
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Preço Total |
 |---------|-------------|
 | Diagnóstico completo | €60-100 |

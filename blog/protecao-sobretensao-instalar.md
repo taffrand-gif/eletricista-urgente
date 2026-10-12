@@ -14,7 +14,6 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 
 ## ⚡ O Que É Sobretensão
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Sobretensão**:
 - Aumento súbito tensão elétrica
 - Normal: 230V
@@ -22,7 +21,6 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 - Duração: milissegundos
 - **Destrói equipamentos eletrónicos**
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Raios** (mais perigoso):
 - Descarga atmosférica
 - Até 100,000V
@@ -42,7 +40,6 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 - Toque em equipamento
 - Inverno seco
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Equipamentos eletrónicos**:
 - TV LED/OLED: €300-2000
 - Computador: €500-2000
@@ -127,7 +124,6 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 
 ## 💰 Custos Instalação 2026
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **DPS Tipo 1**:
 - Residencial: €150-300
 - Industrial: €300-600
@@ -139,7 +135,6 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 - Média: €40-80
 - Premium: €80-150
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **DPS Tipo 1** (quadro entrada):
 - Instalação: €80-150
 - Tempo: 2-3h
@@ -157,7 +152,6 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 - Ligar tomada
 - **Total**: €20-150
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Proteção básica** (casa):
 - DPS Tipo 2: €120
 - Instalação: €80
@@ -180,7 +174,6 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 
 ## 🔧 Como Funciona DPS
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Normal** (230V):
 - DPS inativo
 - Corrente passa normal
@@ -198,7 +191,6 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 - LED verde = OK
 - LED vermelho = Avariado (substituir)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Varistor** (MOV):
 - Componente principal
 - Resistência variável
@@ -215,7 +207,6 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 - Vermelho/apagado: Avariado
 - **Verificar mensalmente**
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **DPS precisa terra**:
 - Desvia sobretensão para solo
 - Sem terra = DPS inútil
@@ -224,7 +215,6 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 
 ## 🏠 Proteção em Trás-os-Montes
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Tempestades frequentes**:
 - Verão: trovoadas intensas
 - Raios comuns Julho-Setembro
@@ -251,13 +241,11 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 - Sistemas domótica
 - **Investimento proteger**
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Densidade raios**: 2-4 raios/km²/ano (média Portugal)
 **Zonas altas**: 4-6 raios/km²/ano
 **Danos reportados**: 50-100 casos/ano região
 **Custo médio danos**: €1500-3000
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 1. **DPS Tipo 2 mínimo** (todas as casas)
 2. **DPS Tipo 1** (casas isoladas/expostas)
 3. **Réguas proteção** (TV, PC, equipamentos caros)
@@ -266,7 +254,6 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 
 ## 📋 Instalação DPS
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Quadro elétrico**:
 - Espaço livre (2-4 módulos)
 - Disjuntor dedicado 20A
@@ -314,14 +301,12 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 
 ## 🔍 Manutenção e Verificação
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Verificar LED**:
 - Verde = OK
 - Vermelho/apagado = Substituir
 - 30 segundos
 - **Essencial**
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Inspeção profissional**:
 - Verificar ligações
 - Testar terra
@@ -329,14 +314,12 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 - Limpar quadro
 - Custo: €60-100
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Se raio próximo**:
 - Verificar LED DPS
 - Testar equipamentos
 - Se LED vermelho: substituir DPS
 - DPS sacrifica-se para proteger
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Quando substituir**:
 - LED vermelho/apagado
 - 10-15 anos (mesmo sem descargas)
@@ -345,7 +328,6 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 
 ## 📱 Proteção Específica
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Proteção necessária**:
 - Régua premium (€60-120)
 - Proteção linha antena/cabo
@@ -358,7 +340,6 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 - Internet (se cabo)
 - HDMI (se possível)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Proteção necessária**:
 - Régua premium (€60-120)
 - Proteção linha rede (RJ45)
@@ -372,7 +353,6 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 - NAS/servidor
 - Impressora
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Mais sensíveis**:
 - Frigorífico smart
 - Máquina lavar smart
@@ -384,7 +364,6 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 - DPS Tipo 2 no quadro (suficiente)
 - Régua se equipamento caro (>€800)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Alarme**:
 - DPS dedicado linha telefone
 - Proteção alimentação
@@ -397,29 +376,24 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 
 ## ✅ Por Que Escolher 
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - 10+ anos experiência
 - Instalação DPS certificada
 - Análise risco personalizada
-- Todas as marcas (## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Verificação terra
 - Análise exposição raios
 - Recomendação tipo DPS
 - Orçamento detalhado
 - Sem compromisso
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - eletricistas com experiência
 - Materiais qualidade
 - Teste funcionamento
 - Certificado instalação
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Verificação anual
 - Teste terra
 - Substituição se necessário
 - Contratos disponíveis
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - **30-60 minutos** em Bragança, Mirandela, Macedo
 - 24h/7d incluindo feriados
 - Substituição urgente DPS
@@ -435,7 +409,6 @@ Atendemos **86 cidades** em Trás-os-Montes:
 
 ## 💬 Contacte-nos
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 📞 **+351 932 321 892**
 💬 **[WhatsApp](https://wa.me/351932321892?text=Proteção%20sobretensão)**
 

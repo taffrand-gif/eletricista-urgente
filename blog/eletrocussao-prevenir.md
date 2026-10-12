@@ -14,7 +14,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 
 ## ⚡ O Que É Eletrocussão
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Eletrocussão**:
 - Passagem corrente elétrica corpo
 - Pode causar queimaduras
@@ -22,7 +21,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 - Danos nervosos
 - **Morte**
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Circuito completo**:
 - Toca parte energizada (fase)
 - Corrente atravessa corpo
@@ -30,7 +28,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 - Coração/cérebro afetados
 - **Segundos podem matar**
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Efeitos por intensidade**:
 - **1 mA**: Sensação formigueiro
 - **5 mA**: Dor, consegue largar
@@ -44,7 +41,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 
 ## 🚨 Riscos Principais Casa
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Perigo**:
 - Tensão 230V direta
 - Múltiplos circuitos
@@ -62,7 +58,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 - ✅ Manter fechado
 - ✅ Crianças longe
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Perigo**:
 - Tomadas danificadas
 - Fichas partidas
@@ -75,7 +70,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 - Não sobrecarregar
 - Longe água
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Combinação mortal**:
 - Água conduz eletricidade
 - Risco eletrocussão 10x maior
@@ -88,7 +82,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 - Secador longe lavatório
 - Aparelhos longe banheira
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Perigo**:
 - Isolamento danificado
 - Sobrecarga
@@ -101,7 +94,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 - Não passar debaixo tapetes
 - Substituir se danificado
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Perigo**:
 - Fuga corrente
 - Choque ao tocar
@@ -142,7 +134,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 **Custo**: €50-150 (instalado)
 **Teste**: Mensal (botão teste)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Essencial**:
 - 3º pino = terra
 - Desvia fuga corrente
@@ -156,7 +147,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 
 **Custo**: €15-30/tomada (adicionar terra)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Tomadas**:
 - Protetores tomadas: €5-15 (10 unidades)
 - Tomadas segurança (obturador): €8-15/unidade
@@ -172,7 +162,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 - Não deixar acessíveis
 - Aparelhos fora alcance
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Obrigatório**:
 - eletricista com experiência
 - Projeto elétrico
@@ -187,7 +176,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 
 **Multas**: €250-€44,890 se ilegal
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Anual**:
 - Testar disjuntor diferencial
 - Verificar tomadas
@@ -204,7 +192,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 
 ## 🏠 Zonas Críticas Casa
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Riscos**:
 - Água + eletricidade
 - Humidade constante
@@ -227,7 +214,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 - Iluminação 12V
 - Exaustor IPX4
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Riscos**:
 - Água torneira
 - Aparelhos potentes
@@ -240,7 +226,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 - Secar mãos antes
 - Disjuntor diferencial
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Riscos**:
 - Chuva
 - Humidade
@@ -332,7 +317,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 
 ## 💰 Custos Segurança Elétrica
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Disjuntor diferencial 30mA**: €50-150
 **Terra instalação**: €200-800 (se não existe)
 **Tomadas terra**: €15-30/unidade
@@ -340,13 +324,11 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 
 **Total instalação segura**: €500-1,500
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Protetores tomadas crianças**: €5-15 (10 unidades)
 **Tomadas segurança obturador**: €8-15/unidade
 **Tomadas exterior IP65**: €30-80/unidade
 **Quadro fechadura**: €20-50
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Inspeção anual**: €80-150
 **Inspeção completa (5 anos)**: €150-300
 **Termografia**: €200-400
@@ -359,21 +341,18 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 
 ## 📋 Normas e Legislação
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Regras Técnicas Instalações Elétricas**:
 - Decreto-Lei 226/2005
 - Atualizado regularmente
 - Obrigatório cumprimento
 - Fiscalização 
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Obrigatório**:
 - Todas instalações novas (desde 2006)
 - Sensibilidade 30mA
 - Tempo disparo <0.03s
 - Teste mensal
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Obrigatória**:
 - Instalações >50m²
 - Instalações novas
@@ -383,7 +362,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 **Custo**: €150-300
 **Validade**: 15 anos
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **eletricista com experiência**:
 - Formação específica
 - Seguro responsabilidade civil
@@ -396,7 +374,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 
 ## 🏠 Situações Específicas Trás-os-Montes
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Problemas comuns**:
 - Sem terra
 - Sem disjuntor diferencial
@@ -408,7 +385,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 - Renovação completa: €2,000-5,000
 - Ou mínimo: Disjuntor diferencial + terra: €500-1,500
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Risco aumentado**:
 - Paredes húmidas conduzem
 - Chão molhado
@@ -420,7 +396,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 - Secar mãos sempre
 - Não tocar aparelhos molhado
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Desafios**:
 - Casas isoladas
 - Ambulância longe (30-60 min)
@@ -433,7 +408,6 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 3. Inspeção regular
 4. Atualizar instalação
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Riscos**:
 - Máquinas elétricas
 - Exterior (chuva)
@@ -475,31 +449,26 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 
 ## ✅ Por Que Escolher 
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Experiência profissional
 - Formação segurança
 - Equipamento teste profissional
 - 10+ anos experiência
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Disjuntor diferencial 30mA
 - Terra normalizada
 - Tomadas segurança
 - Certificado conformidade
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Teste disjuntor diferencial
 - Medição terra
 - Termografia
 - Relatório detalhado
 - Recomendações
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Experiência Trás-os-Montes
 - Casas antigas especialidade
 - Soluções adaptadas
 - Preços justos
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - **15-30 minutos** em Bragança, Mirandela, Macedo
 - 24h/7d incluindo feriados
 - Eletrocussão = prioridade máxima

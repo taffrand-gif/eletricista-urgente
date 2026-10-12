@@ -287,7 +287,6 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 
 ## ROI Segurança: Vale a Pena?
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Incêndio elétrico:**
 - Danos médios: 15.000-50.000€
 - Risco quadro fusíveis: 5x superior
@@ -308,7 +307,6 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 - Modernização: 480€
 - **Poupança: 3260€**
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Investimento:** 480€ (quadro standard)
 
 **Retorno imediato:**
@@ -326,14 +324,12 @@ Quadros com fusíveis não cumprem RTIEBT (Regras Técnicas Instalações Elétr
 
 ## Quando É Obrigatório Mudar?
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 🔴 **Venda imóvel** - Sem certificação não vende
 🔴 **Arrendamento** - Contrato inválido
 🔴 **Fiscalização** - Multa até 3740€
 🔴 **Seguro exige** - Algumas seguradoras
 🔴 **Sinais perigo** - Cheiro queimado, faíscas
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 🟡 **Quadro >30 anos**
 🟡 **Fusíveis queimam frequentemente**
 🟡 **Choques elétricos**

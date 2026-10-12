@@ -172,21 +172,17 @@ Pedir apólice seguro (nome, validade, valor)
 
 ## 12 Perguntas Fazer Antes Contratar
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
-
 Resposta esperada: "Sim, número XXXX, pode verificar em certificação.pt"
 
 **2. 
 Resposta esperada: "Sim, incluído no preço" ou "Sim, custo adicional X€"
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **3. Há quantos anos trabalha como eletricista?**
 Ideal: 10+ anos
 
 **4. Tem experiência com [meu problema específico]?**
 Exemplo: "Já instalou quadros trifásicos?"
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **5. Qual o preço por hora?**
 Mercado: 60-sob orçamento dias úteis
 
@@ -199,14 +195,12 @@ Preferível: Discriminado no orçamento
 **8. Orçamento é vinculativo ou pode mudar?**
 Ideal: "Vinculativo, só muda se aprovar extras"
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **9. Dá garantia? Quanto tempo?**
 Mínimo: 12 meses
 
 **10. Garantia cobre o quê exatamente?**
 Ideal: Material + mão obra
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **11. Quanto tempo demora o trabalho?**
 Avaliar realismo estimativa
 
@@ -295,8 +289,6 @@ Saber se pode deixar chaves
 
 ## Checklist Verificação (12 Pontos)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
-
 - [ ] Pediu e recebeu orçamento escrito
 - [ ] Comparou 2-3 orçamentos diferentes
 - [ ] Verificou reviews online (Google, Facebook)
@@ -306,13 +298,11 @@ Saber se pode deixar chaves
 - [ ] Acordou prazo execução
 - [ ] Definiu forma pagamento (não 100% adiantado)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - [ ] Eletricista chegou hora marcada
 - [ ] Usa equipamento profissional
 - [ ] Explica o que está a fazer
 - [ ] Respeita casa (proteções, limpeza)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - [ ] Recebeu fatura detalhada
 
 - [ ] Recebeu fatura com NIF
@@ -331,7 +321,6 @@ Saber se pode deixar chaves
 | **Premium** | 80-100€ | ⭐⭐⭐⭐⭐ | ✅ Excelente |
 | **Muito caro** | >100€ | ⭐⭐⭐ | ⚠️ Verificar porquê |
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Zona | Distância | Preço Justo | Preço Abusivo |
 |------|-----------|-------------|---------------|
 | Bragança centro | 0-5km | 15€ | >30€ |
