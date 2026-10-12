@@ -32,7 +32,6 @@ O código IP indica a proteção contra sólidos e líquidos:
 - **IP66:** Proteção contra jatos potentes de água
 - **IP67:** Proteção contra imersão temporária (até 1 metro)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Local | IP Mínimo | IP Recomendado |
 |-------|-----------|----------------|
 | Terraço coberto | IP44 | IP54 |
@@ -56,7 +55,6 @@ O código IP indica a proteção contra sólidos e líquidos:
  - Mínimo 120cm do solo (zonas húmidas/jardim)
  - Mínimo 2,5m de piscinas (zona 2)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Instalações novas ou alterações significativas:**
 
 - Emitido por eletricista com experiência
@@ -71,7 +69,6 @@ O código IP indica a proteção contra sólidos e líquidos:
 
 ## 🛠️ Materiais Necessários
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Tomada e caixa:**
 - Tomada exterior IP65 com tampa (€15-35)
 - Caixa de derivação estanque IP65 (€8-15)
@@ -117,7 +114,6 @@ O código IP indica a proteção contra sólidos e líquidos:
 - Acessível mas não em zona de passagem
 - Longe de torneiras ou fontes de água
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Passo 1: Instalar a caixa de derivação (15-20 min)**
 
 1. Marque a posição da caixa na parede
@@ -210,7 +206,6 @@ O código IP indica a proteção contra sólidos e líquidos:
 
 **Tempo necessário:** 3-5 horas (com experiência)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Instalação completa por eletricista com experiência:**
 
 | Serviço | Preço em Trás-os-Montes |
@@ -265,7 +260,6 @@ O código IP indica a proteção contra sólidos e líquidos:
 
 ## 🛡️ Manutenção e Cuidados
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Inspeção visual (a cada 6 meses):**
 - Verifique se a tampa fecha bem
 - Procure sinais de humidade ou ferrugem

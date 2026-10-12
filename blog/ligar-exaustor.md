@@ -22,7 +22,6 @@ Neste guia completo, vamos explicar **como escolher o exaustor adequado**, liga�
 
 ## Tipos de Exaustor
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Exaustor de Cozinha**
 - Extrai fumos, vapor, odores
 - Potência: 300-1.000 m³/h
@@ -35,7 +34,6 @@ Neste guia completo, vamos explicar **como escolher o exaustor adequado**, liga�
 - Montagem: parede ou teto
 - Preço: €20-150
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Extração para Exterior (Mais Eficaz)**
 - Ar vai para fora da casa
 - Requer tubo até exterior
@@ -51,7 +49,6 @@ Neste guia completo, vamos explicar **como escolher o exaustor adequado**, liga�
 
 **Recomendação:** Extração para exterior sempre que possível
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Parede**
 - Furo na parede exterior
 - Mais comum em casa de banho
@@ -134,7 +131,6 @@ Potência (m³/h) = Volume da divisão (m³) × Renovações/hora
 
 **⚠️ AVISO:** Trabalho elétrico. Se não se sentir confortável, chame eletricista com experiência.
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Elétricos:**
 - Exaustor: €20-500
 - Cabo H05VV-F 3G1.5mm²: €1-2/metro
@@ -248,7 +244,6 @@ Quadro → Interruptor → Exaustor
 
 ## Instalação: Sistema de Extração
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Tubo e acessórios:**
 - Tubo flexível alumínio (Ø100-150mm): €5-15/metro
 - Ou tubo rígido PVC (Ø100-150mm): €8-20/metro
@@ -325,7 +320,6 @@ Quadro → Interruptor → Exaustor
 | **TOTAL (casa de banho):** | €85-340 |
 | **TOTAL (cozinha):** | €115-800 |
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Preço |
 |---------|-------|
 | Instalação exaustor (simples) | €80-150 |
@@ -339,7 +333,6 @@ Quadro → Interruptor → Exaustor
 
 ## Manutenção
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Frequência:** 3-6 meses
 
 **Como limpar:**
@@ -358,7 +351,6 @@ Quadro → Interruptor → Exaustor
 - Filtro de gordura (cozinha): lavável
 - Filtro de carvão: substituir (€10-30)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Ruído anormal (rolamentos gastos?)
 - Vibração excessiva
 - Eficácia reduzida (tubo entupido?)

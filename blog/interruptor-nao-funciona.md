@@ -260,7 +260,6 @@ Interruptores de escada (comutadores) precisam ligação específica. Se mal lig
 
 ## 💰 Custos de Arranjo
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Solução | Custo | Dificuldade | Tempo |
 |---------|-------|-------------|-------|
 | Substituir lâmpada | €2-15 | Muito fácil | 2 min |
@@ -270,7 +269,6 @@ Interruptores de escada (comutadores) precisam ligação específica. Se mal lig
 
 **SEMPRE desligue disjuntor antes de trabalhar!**
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Preço em Trás-os-Montes |
 |---------|-------------------------|
 | Diagnóstico | €40-60 |
@@ -285,7 +283,6 @@ Interruptores de escada (comutadores) precisam ligação específica. Se mal lig
 
 ## 🛡️ Segurança ao Trabalhar com Interruptores
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **SEMPRE:**
 ✅ Desligue o disjuntor antes de trabalhar 
 ✅ Teste ausência de tensão com multímetro 
@@ -300,7 +297,6 @@ Interruptores de escada (comutadores) precisam ligação específica. Se mal lig
 ❌ Trabalhe em pé molhado 
 ❌ Force ligações
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Chame profissional se:**
 - Não tem experiência com eletricidade
 - Não consegue identificar o problema
@@ -313,7 +309,6 @@ Interruptores de escada (comutadores) precisam ligação específica. Se mal lig
 
 ## 🔄 Tipos de Interruptores: Qual Escolher?
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Interruptor Simples (€3-10)**
 - Liga/desliga uma luz
 - Um ponto de comando
@@ -334,7 +329,6 @@ Interruptores de escada (comutadores) precisam ligação específica. Se mal lig
 - Economiza espaço
 - Comum em quartos
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Mecânico (€3-15)**
 - Tradicional
 - Mais barato
@@ -355,7 +349,6 @@ Interruptores de escada (comutadores) precisam ligação específica. Se mal lig
 - Automação
 - Requer configuração
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Séries comuns em Portugal:**
 - **Valena:** €8-25
 - **Unica:** €10-30

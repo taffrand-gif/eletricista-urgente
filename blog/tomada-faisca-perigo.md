@@ -30,8 +30,6 @@ Uma tomada que faz faíscas não é normal e representa um **risco grave de inc�
 
 ## ⚡ Porque é que as Tomadas Fazem Faíscas?
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
-
 **1. Sobrecarga Elétrica ()**
 - Demasiados aparelhos ligados na mesma tomada
 - Uso de extensões e triplas em cascata
@@ -100,7 +98,6 @@ Uma tomada que faz faíscas não é normal e representa um **risco grave de inc�
 
 ## 💰 Custos de Arranjo em Trás-os-Montes (2026)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Custo | Tempo |
 |---------|-------|-------|
 | Substituir 1 tomada | €40-60 | 30 min |
@@ -108,7 +105,6 @@ Uma tomada que faz faíscas não é normal e representa um **risco grave de inc�
 | Tomada com terra (obrigatória) | €50-70 | 45 min |
 | Tomada IP44 (cozinha/WC) | €60-80 | 1h |
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Problema | Custo | Tempo |
 |----------|-------|-------|
 | Refazer ligação elétrica | €80-120 | 1-2h |

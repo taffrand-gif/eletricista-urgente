@@ -17,7 +17,6 @@ priority: "CRITICAL"
 
 ## 🔍 O Que É um Disjuntor e Como Funciona?
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Disjuntor Magnetotérmico (Proteção contra sobrecarga e curto-circuito)**
 
 **Como funciona:**
@@ -276,7 +275,6 @@ Instalar protetor de sobretensão no quadro (obrigatório desde 2006 em instala�
 - Substituição de cabos
 - Qualquer trabalho com corrente ligada
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Preço em Trás-os-Montes |
 |---------|-------------------------|
 | Diagnóstico completo | €40-80 |
@@ -346,7 +344,6 @@ Instalar protetor de sobretensão no quadro (obrigatório desde 2006 em instala�
 
 ## 🛡️ Prevenção
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Regras simples:**
 1. Não ligue vários aparelhos potentes ao mesmo tempo
 2. Use extensões com proteção (não correntes simples)
@@ -363,7 +360,6 @@ Instalar protetor de sobretensão no quadro (obrigatório desde 2006 em instala�
 - Chaleira: 2.000-3.000W
 - Ferro engomar: 1.500-2.500W
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Anual:**
 - Verificar quadro elétrico (sinais de aquecimento, oxidação)
 - Testar botão TEST dos diferenciais
@@ -379,7 +375,6 @@ Instalar protetor de sobretensão no quadro (obrigatório desde 2006 em instala�
 - Substituir disjuntores (fim de vida útil)
 - Atualizar quadro se muito antigo
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Protetor de sobretensão (€80-200):**
 - Obrigatório em instalações novas (desde 2006)
 - Protege contra raios e sobretensões da rede

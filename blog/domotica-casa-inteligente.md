@@ -14,7 +14,6 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 
 ## 🏠 O Que É Domótica
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Domótica** (Casa Inteligente):
 - Automação sistemas casa
 - Controlo centralizado (app/voz)
@@ -64,7 +63,6 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 - Integração streaming
 - Controlo universal
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Conforto**:
 - Controlo total app/voz
 - Automações inteligentes
@@ -91,7 +89,6 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 
 ## 🔍 Sistemas Domótica
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **KNX** (profissional):
 - Standard internacional
 - Cablagem dedicada (bus)
@@ -122,7 +119,6 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 - Menos dispositivos disponíveis
 - Custo médio (€1,500-4,000)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Apple HomeKit**:
 - Integração iPhone/iPad/Mac
 - Siri controlo voz
@@ -149,7 +145,6 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 - Mais técnico (DIY)
 - Grátis (software)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Sistema | Custo | Instalação | Fiabilidade | Escalabilidade | Ideal |
 |---------|-------|------------|-------------|----------------|-------|
 | KNX | €€€€ | Profissional | Máxima | Ilimitada | Nova construção |
@@ -159,7 +154,6 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 
 ## 💰 Custos Domótica 2026
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Básico** (WiFi - €500-1,500):
 - 10 lâmpadas inteligentes: €300
 - 2 tomadas inteligentes: €60
@@ -194,7 +188,6 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 - Iluminação arquitetural
 - Jardim automatizado
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Sala** (€300-1,500):
 - Luzes inteligentes: €150-400
 - Termostato: €200-400
@@ -216,7 +209,6 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 - Sensor presença: €30-80
 - Extrator inteligente: €80-200
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Consumo elétrico**:
 - Hub: 5-15W = €1-3/mês
 - Dispositivos: Negligível
@@ -234,7 +226,6 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 
 ## 📊 Poupança e ROI
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Iluminação** (30% consumo):
 - LED inteligente vs incandescente: -80%
 - Automações desligar: -20%
@@ -269,7 +260,6 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 - ROI: 12 anos
 - **Conforto + valorização**
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Casa inteligente**:
 - Valoriza: 5-10%
 - Atrativo compradores
@@ -345,7 +335,6 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 
 ## 🏠 Domótica em Trás-os-Montes
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Internet rural**:
 - Velocidade baixa (alguns locais)
 - WiFi pode ser instável
@@ -368,7 +357,6 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 - Simulação presença
 - Alertas smartphone
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Começar**:
 - Sistema WiFi/Zigbee (€500-2,000)
 - Focar termostato (poupança)
@@ -389,7 +377,6 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 
 ## 📱 Dispositivos Populares 2026
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Amazon Echo Dot** (€50-70):
 - Alexa
 - Mais compatível
@@ -405,7 +392,6 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 - HomeKit
 - Privacidade
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Philips Hue** (€15-60/lâmpada):
 - Melhor qualidade
 - Cores vibrantes
@@ -424,7 +410,6 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 - App simples
 - Sem hub
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Google Nest Learning** (€250):
 - Aprende hábitos
 - Design bonito
@@ -440,7 +425,6 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 - HomeKit
 - Válvulas termostáticas
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **TP-Link Tapo P110** (€15):
 - WiFi
 - Medição consumo
@@ -451,7 +435,6 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 - Medição consumo
 - Integração avançada
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **TP-Link Tapo C200** (€30-40):
 - 1080p
 - Rotação 360°
@@ -466,32 +449,27 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 
 ## ✅ Por Que Escolher 
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - 100+ instalações smart home
 - Certificação KNX
 - Todas as tecnologias (KNX, Zigbee, WiFi)
 - Parceiros oficiais marcas
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Avaliação necessidades
 - Projeto personalizado
 - Escolha sistema adequado
 - Orçamento detalhado
 - ROI calculado
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - eletricistas com experiência
 - Instalação profissional
 - Programação automações
 - Formação utilizador
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Assistência técnica
 - Expansão sistema
 - Atualizações
 - Resolução problemas
 - Contratos manutenção
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - **30-60 minutos** em Bragança, Mirandela, Macedo
 - Orçamento 24-48h
 - Instalação agendada
@@ -507,7 +485,6 @@ Atendemos **86 cidades** em Trás-os-Montes:
 
 ## 💬 Contacte-nos
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 📞 **+351 932 321 892**
 💬 **[WhatsApp](https://wa.me/351932321892?text=Domótica%20casa%20inteligente)**
 

@@ -22,7 +22,6 @@ Neste guia completo, vamos explicar **o que é sobretensão**, tipos de protetor
 
 ## O Que É Sobretensão?
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Sobretensão:** Aumento súbito e temporário da tensão elétrica acima do valor nominal (230V em Portugal).
 
 **Exemplos:**
@@ -37,7 +36,6 @@ Neste guia completo, vamos explicar **o que é sobretensão**, tipos de protetor
 - Danifica instalação elétrica
 - Pode causar incêndio
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Raios (Mais Grave)**
 - Descarga atmosférica
 - Tensão: 10.000-100.000V
@@ -117,7 +115,6 @@ Neste guia completo, vamos explicar **o que é sobretensão**, tipos de protetor
 
 **Instalação:** DIY (liga à tomada)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Característica | Tipo 1 | Tipo 2 | Tipo 3 |
 |----------------|--------|--------|--------|
 | **Localização** | Entrada | Quadro | Tomada |
@@ -150,14 +147,12 @@ Neste guia completo, vamos explicar **o que é sobretensão**, tipos de protetor
 
 **Tempo de resposta:** <25 nanosegundos (muito rápido)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 1. Sobretensão entra na instalação
 2. Protetor deteta tensão >275V
 3. Varistor conduz (desvia corrente para terra)
 4. Tensão limitada a 300-400V (seguro)
 5. Aparelhos protegidos
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **LED verde:** Protetor funcional 
 **LED vermelho/apagado:** Protetor danificado (substituir)
 
@@ -220,18 +215,15 @@ Neste guia completo, vamos explicar **o que é sobretensão**, tipos de protetor
 
 **⚠️ AVISO:** Trabalho elétrico. Contrate eletricista com experiência.
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Protetor Tipo 2: €80-200
 - Disjuntor 16A (se não existir): €8-15
 - Cabo 6mm² (terra): €2-4/metro
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Quadro elétrico principal:**
 - Após disjuntor geral
 - Antes dos disjuntores dos circuitos
 - Próximo da barra de terras
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Esquema:**
 ```
 Entrada → Disjuntor Geral → Protetor Tipo 2 → Circuitos
@@ -246,10 +238,8 @@ Entrada → Disjuntor Geral → Protetor Tipo 2 → Circuitos
 
 **⚠️ CRÍTICO:** Terra adequada é essencial (resistência <30Ω)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Profissional:** 30-60 minutos
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Após instalação:**
 1. Verifique LED (verde = OK)
 2. Teste botão de teste (se disponível)
@@ -259,7 +249,6 @@ Entrada → Disjuntor Geral → Protetor Tipo 2 → Circuitos
 
 ## Protetor Tipo 3 (Tomada)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Régua com Proteção**
 - 4-8 tomadas
 - Protetor integrado
@@ -276,7 +265,6 @@ Entrada → Disjuntor Geral → Protetor Tipo 2 → Circuitos
 - Entrada telefónica/ethernet
 - Preço: €40-100
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 1. Ligue protetor à tomada
 2. Ligue aparelho ao protetor
 3. Verifique LED (verde = protegido)
@@ -292,7 +280,6 @@ Entrada → Disjuntor Geral → Protetor Tipo 2 → Circuitos
 
 ## Custos em Trás-os-Montes
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Item | Preço |
 |------|-------|
 | Protetor Tipo 1 (entrada) | €150-400 |
@@ -300,7 +287,6 @@ Entrada → Disjuntor Geral → Protetor Tipo 2 → Circuitos
 | Protetor Tipo 3 (tomada - régua) | €30-80 |
 | Protetor Tipo 3 (adaptador) | €20-40 |
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Preço |
 |---------|-------|
 | Instalar Tipo 1 | €100-200 |
@@ -309,7 +295,6 @@ Entrada → Disjuntor Geral → Protetor Tipo 2 → Circuitos
 | Melhorar terra (se necessário) | €100-300 |
 | **TOTAL (Tipo 2):** | €140-320 |
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Casa típica:**
 - Tipo 2 (quadro): €140-320
 - Tipo 3 (3-4 réguas): €90-320
@@ -321,7 +306,6 @@ Entrada → Disjuntor Geral → Protetor Tipo 2 → Circuitos
 
 ## Manutenção
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Protetor Tipo 2 (quadro):**
 1. Verifique LED (verde = OK)
 2. Se vermelho/apagado → substituir
@@ -332,7 +316,6 @@ Entrada → Disjuntor Geral → Protetor Tipo 2 → Circuitos
 2. Teste botão de teste (se disponível)
 3. Se não funcionar → substituir
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Quando substituir:**
 - LED vermelho ou apagado
 - Após sobretensão grave (raio próximo)

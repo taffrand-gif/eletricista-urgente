@@ -236,7 +236,6 @@ Em Trás-os-Montes, onde muitas casas têm poucas tomadas (construções antigas
 
 ## 🔌 Como Escolher Extensão Certificada
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Especificações mínimas:**
 - **Potência:** 2.300W (10A)
 - **Cabo:** 1,5mm² mínimo (melhor: 2,5mm²)
@@ -245,7 +244,6 @@ Em Trás-os-Montes, onde muitas casas têm poucas tomadas (construções antigas
 - **Proteção:** Fusível ou disjuntor integrado
 - **Marca:** Brennenstuhl, Orno
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Extensão Simples (1 tomada)**
 - Uso: Aparelho único longe de tomada
 - Custo: €8-15
@@ -271,7 +269,6 @@ Em Trás-os-Montes, onde muitas casas têm poucas tomadas (construções antigas
 - Custo: €15-30
 - Melhor para: Poupar energia (desligar standby)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Qualidade Premium (€20-50):**
 - França)
 - França)
@@ -352,7 +349,6 @@ Em Trás-os-Montes, onde muitas casas têm poucas tomadas (construções antigas
 | Com proteção sobretensão | Premium | €25-45 | 8-10 anos |
 | IP44 exterior | Premium | €30-60 | 10+ anos |
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Custo | Tempo | Garantia |
 |---------|-------|-------|----------|
 | Instalar 1 tomada adicional | €40-70 | 30-45 min | 2 anos |

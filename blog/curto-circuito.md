@@ -22,7 +22,6 @@ Neste guia completo, vamos explicar **o que é um curto-circuito**, as causas pr
 
 ## O Que É Um Curto-Circuito?
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Curto-circuito:** Contacto direto entre **fase** e **neutro** (ou terra), criando caminho de resistência muito baixa.
 
 **Resultado:**
@@ -31,7 +30,6 @@ Neste guia completo, vamos explicar **o que é um curto-circuito**, as causas pr
 - Pode causar faísca, incêndio, explosão
 - Disjuntor dispara (proteção)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Circuito normal:**
 ```
 Fase → Aparelho (resistência) → Neutro
@@ -44,7 +42,6 @@ Fase → Neutro (sem resistência)
 Corrente: 100-1.000A (descontrolada)
 ```
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Circuito normal:** Água flui por mangueira (resistência) → fluxo controlado
 
 **Curto-circuito:** Água flui direto (sem mangueira) → inundação instantânea
@@ -210,30 +207,25 @@ Corrente: 100-1.000A (descontrolada)
 
 ## Sinais de Perigo (Curto-Circuito Iminente)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - ❌ Faísca em tomada ou interruptor
 - ❌ Marcas de queimado (preto) em tomada
 - ❌ Plástico derretido
 - ❌ Cabo descarnado (fios expostos)
 - ❌ Tomada descolorada (amarelada)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - ❌ Cheiro a queimado (plástico)
 - ❌ Cheiro a borracha queimada
 - ❌ Cheiro persistente sem fonte visível
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - ❌ Crepitação em tomada/interruptor
 - ❌ Zumbido anormal
 - ❌ Estalido ao ligar aparelho
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - ❌ Tomada quente ao toque
 - ❌ Interruptor quente
 - ❌ Cabo de extensão quente
 - ❌ Aparelho aquece excessivamente
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - ❌ Disjuntor dispara frequentemente
 - ❌ Luzes piscam ao ligar aparelho
 - ❌ Aparelho funciona intermitentemente
@@ -422,7 +414,6 @@ Corrente: 100-1.000A (descontrolada)
 - Cheiro intenso a queimado
 - Disjuntor disparou
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Desligue Eletricidade**
 - Disjuntor geral (posição "0")
 - Se não conseguir aceder → desligue na rua (contador)
