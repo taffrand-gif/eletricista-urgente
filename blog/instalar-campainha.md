@@ -477,7 +477,6 @@ Instalar uma campainha é **simples e acessível**, especialmente modelos sem fi
 - Instalação rápida (30 min a 3 horas)
 - Materiais de qualidade
 - Teste completo
-- Garantia de 1 ano no trabalho
 - Orçamento transparente
 
 **Nunca mais perca visitas. Instale campainha hoje.**

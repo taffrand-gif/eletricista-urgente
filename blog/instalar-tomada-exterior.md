@@ -225,8 +225,7 @@ O código IP indica a proteção contra sólidos e líquidos:
 ✅ Materiais de qualidade 
 ✅ Instalação conforme normas 
 ✅ Testes de segurança 
-
-✅ Garantia 2 anos 
+ 
 
 **Tempo de instalação:** 1-2 horas
 
@@ -344,8 +343,7 @@ A instalação de tomada no exterior requer **cuidados especiais de segurança**
 
 ✅ Instalação conforme normas RTIEBT 
 
-✅ Materiais de qualidade (IP65) 
-✅ Garantia 2 anos no serviço 
+✅ Materiais de qualidade (IP65)  
 ✅  
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 

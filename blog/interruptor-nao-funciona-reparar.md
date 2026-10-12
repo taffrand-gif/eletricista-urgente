@@ -355,8 +355,7 @@ O problema é:
 ✅ Diagnóstico grátis por telefone 
 ✅ Emergências 24h/7 dias 
 
-✅ Orçamento sem compromisso 
-✅ Garantia de 2 anos 
+✅ Orçamento sem compromisso  
 ✅ Atendimento  por telefone
 
 **📞 Ligue Agora:** [Contacto por telefone ou WhatsApp](tel:+351932321892) 

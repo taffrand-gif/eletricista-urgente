@@ -502,9 +502,6 @@ R: Diagnóstico €60-120, upgrade quadro €400-1.200. : **932 321 892**
 - ✅ Upgrade fusíveis → disjuntores €400-1.200
 - ✅ Arranjar curto-circuito €100-500
 - ✅ Quadro elétrico moderno completo
-
-- ✅ garantia por escrito
-
 💬 **WhatsApp:** [Emergência elétrica](https://wa.me/351932321892?text=URGENTE:%20Fusível%20queima%20constantemente!)
 
 🌐 **Website:** [eletricista-norte-reparos.pt](https://eletricista-norte-reparos.pt)

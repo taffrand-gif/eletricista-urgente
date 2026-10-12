@@ -484,8 +484,6 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 - Instalação profissional
 - Programação automações
 - Formação utilizador
-- Garantia 2 anos
-
 ## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Assistência técnica
 - Expansão sistema

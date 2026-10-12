@@ -407,8 +407,7 @@ Em Trás-os-Montes, onde muitas casas têm 30-40 anos, quadros elétricos antigo
 ✅ Inspeção gratuita 
 ✅ Modernização completa de quadros 
 
-✅ Orçamento sem compromisso 
-✅ Garantia de 2 anos 
+✅ Orçamento sem compromisso  
 ✅ Trabalhos em 1-3 dias 
 
 **📞 Ligue Agora:** [Contacto por telefone ou WhatsApp](tel:+351932321892) 

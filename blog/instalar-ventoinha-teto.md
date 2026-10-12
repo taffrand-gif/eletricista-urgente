@@ -451,8 +451,6 @@ Instalar uma ventoinha de teto é um **investimento inteligente** que proporcion
 - Consultoria (escolha modelo adequado)
 - Instalação profissional certificada
 - Reforço estrutural (se necessário)
-- Garantia de 2 anos no trabalho
-
 **Cobertura:**
 - Bragança e arredores
 - Mirandela, Trás-os-Montes, Miranda do Douro
@@ -465,7 +463,6 @@ Instalar uma ventoinha de teto é um **investimento inteligente** que proporcion
 - Verificação estrutural do teto
 - Instalação conforme normas de segurança
 - Teste completo de funcionamento
-- Garantia de 2 anos no trabalho
 - Orçamento transparente sem surpresas
 
 **Refresque a sua casa com eficiência. Instalação profissional garante segurança e durabilidade.**

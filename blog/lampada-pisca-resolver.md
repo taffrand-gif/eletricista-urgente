@@ -439,7 +439,7 @@ R: SIM, mas verifique: potência máxima, se tem dimmer (use LED regulável), es
 - ✅ Atendimento 24h/7d (urgências elétricas)
 - ✅ eletricista com experiência chega Atendimento prioritário
 - ✅ Diagnóstico grátis (se contratar serviço)
-- ✅ garantia por escrito em todos os serviços
+- em todos os serviços
 - ✅ Certificação elétrica incluída
 
 💬 **WhatsApp:** [Clique para falar connosco](https://wa.me/351932321892?text=Olá,%20tenho%20uma%20lâmpada%20que%20pisca%20e%20preciso%20de%20ajuda)

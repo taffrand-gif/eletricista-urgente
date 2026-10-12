@@ -121,7 +121,7 @@ Pedir apólice seguro (nome, validade, valor)
 - Material instalado
 - Defeitos instalação
 
-**Por escrito:** Sempre exigir garantia escrita
+**Por escrito:** Sempre exigir orçamento e fatura por escrito
 
 **Red flag:** "Não dou garantia, faço bem à primeira"
 
@@ -315,7 +315,7 @@ Saber se pode deixar chaves
 ## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - [ ] Recebeu fatura detalhada
 
-- [ ] Recebeu garantia por escrito
+- [ ] Recebeu fatura com NIF
 - [ ] Trabalho testado e funcional
 - [ ] Área limpa
 
@@ -375,7 +375,7 @@ Cobertura completa danos
 ### ✅ Preços Transparentes
 Orçamento escrito detalhado, sem surpresas
 
-### ✅ Garantia 5 Anos
+###
 Material + mão obra
 
 ### ✅ Disponível Atendimento 24h/7d
@@ -406,7 +406,6 @@ Explicamos tudo em português simples
 ✅ Orçamento gratuito sem compromisso
 
 ✅ 15+ anos experiência
-✅ Garantia 5 anos
 ✅ Preços transparentes
 ✅ Reviews 4.9/5
 

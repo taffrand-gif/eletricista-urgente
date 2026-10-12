@@ -338,8 +338,7 @@ priority: "SEASONAL"
 ✅ Verificação da estrutura do teto 
 ✅ Fixação segura e reforçada 
 ✅ Ligação elétrica conforme normas 
-✅ Balanceamento das pás 
-✅ Garantia 1-2 anos 
+✅ Balanceamento das pás  
 ✅ Limpeza após trabalho
 
 **Tempo de instalação:** 1-2 horas
@@ -479,7 +478,7 @@ Instalar ventilador de teto é **relativamente simples** mas requer **atenção 
 
 **Custos:**
 - DIY: €110-535 (2-4 horas)
-- Profissional: €150-400 (1-2 horas, com garantia)
+- Profissional: €150-400 (1-2 horas)
 
 **Manutenção:** Limpeza mensal + verificação anual = 10-20 anos de vida útil
 
@@ -492,8 +491,7 @@ Instalar ventilador de teto é **relativamente simples** mas requer **atenção 
 
 ✅ Fixação segura e reforçada 
 ✅ Instalação conforme normas 
-✅ Balanceamento profissional 
-✅ Garantia 2 anos no serviço 
+✅ Balanceamento profissional  
 ✅ Fornecemos ventiladores de qualidade 
 ✅  
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região

@@ -426,8 +426,7 @@ Na maioria dos casos, interruptor que não funciona tem **causa identificável e
 
 ✅ Diagnóstico rápido Atendimento prioritário 
 ✅ Arranjo ou substituição 
-✅ Materiais de qualidade em stock 
-✅ Garantia 1 ano no serviço 
+✅ Materiais de qualidade em stock  
 ✅ Preços transparentes 
 ✅  
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região

@@ -405,7 +405,6 @@ Protetor de sobretensão é **investimento pequeno** (€230-640) que protege **
 - Protetores de qualidade (marcas reconhecidas)
 - Instalação conforme normas
 - Teste completo de funcionamento
-- Garantia de 2 anos no trabalho
 - Orçamento transparente
 
 **Proteja os seus aparelhos. Instalação profissional garante eficácia e conformidade.**

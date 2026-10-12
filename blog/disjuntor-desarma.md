@@ -454,8 +454,7 @@ Disjuntor que desarma constantemente é **sinal de problema elétrico** que prec
 ✅ Atendimento 24h/7d (urgências elétricas) 
 ✅ Diagnóstico rápido Atendimento prioritário 
 ✅ Arranjo imediata 
-✅ Equipamento de deteção profissional 
-✅ Garantia 1 ano no serviço 
+✅ Equipamento de deteção profissional  
 
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 

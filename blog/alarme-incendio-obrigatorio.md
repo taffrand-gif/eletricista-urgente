@@ -477,8 +477,7 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 ✅ Instalação de detetores de incêndio 
 ✅ Sistemas interligados 
 ✅ Consultoria de segurança 
-✅ Orçamento grátis sem compromisso 
-✅ Garantia de 2 anos 
+✅ Orçamento grátis sem compromisso  
 
 **📞 Ligue Agora:** [Contacto por telefone ou WhatsApp](tel:+351932321892) 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20quero%20instalar%20alarmes%20de%20incêndio!) 

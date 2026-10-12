@@ -233,7 +233,7 @@ function fixCTA(md) {
   md = md.replace(/\bLigue agora:?\s*\+?\d+/gi, 'Contacto:');
   md = md.replace(/\bLigue j[áa]:?\s*\+?\d+/gi, 'Contacto:');
   md = md.replace(/Arranjo no pr[óo]prio dia/gi, 'Intervenção após diagnóstico e orçamento');
-  md = md.replace(/Garantia \d+ meses?/gi, 'garantia por escrito');
+  md = md.replace(/\s*Garantia \d+ meses?/gi, '');
   // "WhatsApp:" → préserver (canal légitime)
   return md;
 }

@@ -457,7 +457,6 @@ Custo profissional (50-200€) é SEMPRE menor que:
 ✅ Seguro RC 100.000€
 ✅ 15+ anos experiência
 ✅ Preços transparentes
-✅ Garantia 5 anos
 ✅ Trabalho seguro e legal
 
 **WhatsApp:** [Pedir orçamento](https://wa.me/351932321892?text=Preciso eletricista profissional com experiência)
