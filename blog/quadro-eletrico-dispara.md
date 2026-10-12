@@ -12,7 +12,7 @@ schema:
 
 # Quadro Elétrico Dispara: Causas e Como Proceder em Trás-os-Montes
 
-Se o quadro elétrico da sua casa ou empresa está a disparar com frequência, este guia descreve os mecanismos habituais, o que verificar antes de chamar a nossa equipa e como se processa o diagnóstico em Trás-os-Montes. Trabalhamos com tarifa horária de **70 €/h** (mão de obra) e deslocação indexada à zona de Macedo de Cavaleiros (Z1 15 € a Z6 65 €), com majoração de +50 % ao fim de semana, feriados e período noturno. Antes de qualquer trabalho, entregamos orçamento por escrito, sem surpresas.
+Se o quadro elétrico da sua casa ou empresa está a disparar com frequência, este guia descreve os mecanismos habituais, o que verificar antes de chamar a nossa equipa e como se processa o diagnóstico em Trás-os-Montes. Trabalhamos com tarifa horária de **70 €/h** (mão de obra) e deslocação de 30 € (09h–18h); ao fim de semana, em feriados e à noite, 100 €/h e deslocação de 50 €. Antes de qualquer trabalho, entregamos orçamento por escrito, sem surpresas.
 
 ## Como funciona um quadro elétrico: as duas proteções principais
 
@@ -72,7 +72,7 @@ A nossa equipa chega com o equipamento profissional descrito abaixo e segue um m
 - **Fluke** — equipamento de medição elétrica
 - **FLIR E96** — câmara térmica para identificar pontos quentes em quadros, tomadas e cablagem.
 
-O trabalho decorre à tarifa horária de **70 €/h**, com deslocação indexada à zona (Z1 15 €, Z2 25 €, Z3 35 €, Z4 45 €, Z5 55 €, Z6 65 €). Em horário noturno (entre as 20 h e as 8 h), sábado, domingo e feriado, a tarifa sofre majoração de **+50 %** aplicada à mão de obra e à deslocação. Recebe **orçamento por escrito antes de qualquer intervenção**, e a fatura discrimina horas, deslocação e materiais. Não emitimos documentação técnica formal — quando a intervenção o exige por lei, é o técnico habilitado em causa que trata desse passo.
+O trabalho decorre à tarifa horária de **70 €/h** (09h–18h), com deslocação de 30 €. Fora desse horário (à noite, ao fim de semana e em feriados), aplica-se 100 €/h e deslocação de 50 €. Toda a hora iniciada é devida. Recebe **orçamento por escrito antes de qualquer intervenção**, e a fatura discrimina horas, deslocação e materiais. Não emitimos documentação técnica formal — quando a intervenção o exige por lei, é o técnico habilitado em causa que trata desse passo.
 
 ## Prevenção: como reduzir o risco de disparo
 
@@ -97,7 +97,7 @@ Não. Se o disjuntor disparar duas ou três vezes seguidas, pare e contacte a no
 
 ### Quanto custa o serviço em Trás-os-Montes?
 
-A mão de obra é de 70 €/h e a deslocação segue a zona (Z1 15 €, Z2 25 €, Z3 35 €, Z4 45 €, Z5 55 €, Z6 65 €). Em horário noturno, fim de semana ou feriado, aplica-se majoração de +50 % à mão de obra e à deslocação. Recebe orçamento por escrito antes do trabalho começar, sem surpresas na fatura.
+A mão de obra é de 70 €/h e a deslocação é de 30 € (09h–18h). À noite, ao fim de semana ou em feriados, aplica-se 100 €/h e deslocação de 50 €. Recebe orçamento por escrito antes do trabalho começar, sem surpresas na fatura.
 
 ### O diferencial dispara só à noite. Porquê?
 
