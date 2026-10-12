@@ -421,7 +421,7 @@ function renderPage(parsed, repoRoot) {
       </section>
       <section class="trust-box" aria-labelledby="quem-atende">
         <h2 id="quem-atende">Quem atende</h2>
-        <p>Na Staff-Seekers / Norte Reparos, <strong>fala sempre com a mesma pessoa, não um call center</strong>. Explicamos o diagnóstico e o trabalho necessário antes de intervir. Emitimos fatura com NIF.</p>
+        <p>Na Norte Reparos, a nossa equipa explica o diagnóstico e o trabalho necessário antes de intervir. Emitimos fatura com NIF.</p>
       </section>
       ${articleHtml}
       <section class="evidence-box" aria-labelledby="relatos-verificados">
