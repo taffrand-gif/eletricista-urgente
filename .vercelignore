@@ -56,3 +56,7 @@ tests/
 /precos-zonas.json
 *.PRE
 *.PRE-*
+
+# 2026-10-12 — showroom de design orphelin (noindex, aucun lien, hors sitemap) : servait encore
+# l'ancienne grille Z1–Z6, +50 % et la spec FLIR 43 200 px. Fichier conservé dans Git.
+/design-preview-eu.html
