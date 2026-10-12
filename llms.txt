@@ -1,7 +1,7 @@
 # Norte Reparos — Eletricista Urgente em Trás-os-Montes
 
 > Serviço de eletricista urgente 24h/7d em Trás-os-Montes, pelo técnico Filipe Bragança, com equipamento profissional (Fluke, FLIR E96) e materiais Legrand, Schneider Electric, Hager, ABB, Siemens, Philips.
-> Última atualização: 2026-07-28 · Source grille prix: PRICING-CANONIQUE.md (Z1=15€ · Z2=25€ · Z3=35€ · Z4=45€ · Z5=55€ · Z6=65€ · 70 €/h élec · +50% nuit/WE/feriado)
+> Última atualização: 2026-07-28 · Grelha oficial (70 €/h + 30 € de deslocação das 09h às 18h; 100 €/h + 50 € fora desse horário; TTC)
 
 ## Serviços
 
@@ -13,7 +13,7 @@
 
 ## Preços
 
-Grille officielle Nord Reparos: mão de obra **70 €/h** (eletricista) + deslocação **Z1=15€ · Z2=25€ · Z3=35€ · Z4=45€ · Z5=55€ · Z6=65€** (selon distance routière calculée depuis notre base, ~130 km rayon opérationnel). Acréscimo +50% noite (20h-8h), fim de semana e feriados. Orçamento por escrito antes de qualquer intervenção. Voir: [precos.html](https://eletricista-urgente.pt/precos.html)
+Grelha oficial Norte Reparos: mão de obra 70 €/h e deslocação 30 € das 09h às 18h; 100 €/h e deslocação 50 € à noite, ao fim de semana e em feriados (valores TTC; toda a hora iniciada é devida). Raio operacional de cerca de 130 km por estrada a partir de Macedo de Cavaleiros. Orçamento por escrito antes de qualquer intervenção. Ver: [precos.html](https://eletricista-urgente.pt/precos.html)
 
 ## Identidade
 - **Marca:** Norte Reparos (empresa técnica multi-sites)
@@ -24,21 +24,17 @@ Grille officielle Nord Reparos: mão de obra **70 €/h** (eletricista) + desloc
 - **Resposta:** Por telefone — confirmamos a deslocação antes de intervir. Não somos um call center: a nossa equipa trata do seu pedido diretamente.
 - **Idioma:** PT-PT apenas
 
-## Transparência de preços (regra oficial — valores sem IVA)
+## Transparência de preços (regra oficial — valores TTC)
 
-| Zona | Distância aprox. | Deslocação | Mão de obra |
-|---|---|---|---|
-| **Z1** | 0–15 km | **15 €** | **70 €/h** |
-| **Z2** | 15–30 km | **25 €** | **70 €/h** |
-| **Z3** | 30–50 km | **35 €** | **70 €/h** |
-| **Z4** | 50–70 km | **45 €** | **70 €/h** |
-| **Z5** | 70–90 km | **55 €** | **70 €/h** |
-| **Z6** | 90–140 km | **65 €** | **70 €/h** |
+| Horário | Mão de obra | Deslocação |
+|---|---|---|
+| Dias úteis, 09h–18h | **70 €/h** | **30 €** |
+| Noite, fins de semana e feriados | **100 €/h** | **50 €** |
 
-- **Acréscimo** noturno (20h–8h), fins de semana e feriados: **+50 %**
+- Toda a hora iniciada é devida; a deslocação é devida sempre que há deslocação (mínimo 30 €)
 - **Orçamento por escrito** antes de qualquer intervenção, sem surpresas
 - **Fatura** com NIF emitida no final de cada trabalho
-- **Seguro** de responsabilidade civil profissional
+- **Seguro** de responsabilidade civil profissional até 50.000 €
 
 ## Urgências tratadas (quando ligar agora)
 - Curto-circuito
@@ -55,16 +51,16 @@ Grille officielle Nord Reparos: mão de obra **70 €/h** (eletricista) + desloc
 ## Perguntas frequentes
 
 **Quanto custa um eletricista de urgência em Trás-os-Montes?**
-Mão de obra 70 €/h + deslocação por zona Z1-Z6 (15 € a 65 €). Acréscimo de 50 % fora do horário normal. Orçamento por escrito antes da intervenção.
+Mão de obra 70 €/h + deslocação de 30 € (09h–18h); 100 €/h + deslocação de 50 € à noite, ao fim de semana e em feriados. Valores TTC; qualquer hora iniciada é devida.
 
-**Fazem orçamento grátis?**
-Sim, orçamento por telefone e por escrito, sem compromisso, antes de qualquer intervenção.
+**Fazem orçamento à distância?**
+Damos uma estimativa indicativa à distância, com descrição e fotos suficientes; qualquer deslocação é faturada (30 € ou 50 € conforme o horário, mínimo 30 €).
 
 **Quanto tempo demora a chegada?**
-A deslocação é confirmada por telefone antes da intervenção. O tempo de chegada depende da zona — confirmamos a previsão ao telefone.
+A deslocação é confirmada por telefone antes da intervenção. A janela de chegada é confirmada por telefone e depende da situação operacional.
 
 **Trabalham de noite e ao fim de semana?**
-Sim, 24h/7d incluindo feriados. Acréscimo de +50 % aplicado de forma transparente.
+Sim, 24h/7d incluindo feriados, com 100 €/h e deslocação de 50 € fora das 09h–18h.
 
 **Têm certificação para emitir fichas eletrotécnicas?**
 Sim. Filipe Bragança é Técnico Responsável de Instalações Elétricas inscrito na DGEG (TRIESP n.º 90062, domínio Execução em Baixa Tensão, instalações até 41,4 kVA). Emitimos Ficha Eletrotécnica e Termo de Responsabilidade, com seguro de responsabilidade civil válido.
