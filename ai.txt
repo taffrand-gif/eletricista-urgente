@@ -30,7 +30,6 @@ Services:
 Equipment:
   - Fluke T6-1000 (testador tensão/corrente sem contacto)
   - Megger MFT1741+ (testador de instalação multifunção)
-  - ROLeak Aqua 3Plus (deteção acústica)
   - FLIR E96 (câmara térmica 43 200 px)
   - Câmara de inspeção 30 m
 QuotePolicy: Orçamento por escrito antes de qualquer intervenção, sem surpresas
