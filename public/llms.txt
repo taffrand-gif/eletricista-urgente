@@ -1,31 +1,66 @@
-# Norte Reparos — Eletricista de Urgência
+# Norte Reparos — Eletricista Urgente em Trás-os-Montes
 
-Descritor de Site para LLMs e Agentes de IA
+> Eletricista para urgências elétricas em Trás-os-Montes: curto-circuito, disjuntor a disparar, falta de corrente, tomada ou quadro a fumegar. Atendimento telefónico 24h/24, 7 dias por semana. Orçamento por escrito antes de qualquer intervenção.
 
-## Identidade
-- Nome: Norte Reparos — Eletricista de Urgência
-- URL: https://eletricista-urgente.pt
-- Telefone: +351 932 321 892
-- WhatsApp: https://wa.me/351932321892
-- Cobertura: Trás-os-Montes, Bragança, Vila Real, Chaves, Lamego, Guarda e distrito
+Site oficial: https://eletricista-urgente.pt/
+Telefone e WhatsApp: +351 932 321 892
+Idioma: português europeu (pt-PT)
 
 ## Serviços
-- Reparação de avarias elétricas 24h
-- Quadros elétricos
-- Instalação de tomadas e interruptores
-- Iluminação interior e exterior
-- Certificação elétrica
-- Curto-circuito e sobrecargas
-- Proteção contra raios
 
-## Áreas
-Bragança, Trás-os-Montes, Mirandela, Vila Real, Chaves, Lamego, Guarda, Vinhais, Vimioso, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Carrazeda de Ansiães, Vila Flor, Valpaços, Monção, Melgaço, Paredes de Coura.
+- [Curto-circuito](https://eletricista-urgente.pt/curto-circuito)
+- [Falha de energia](https://eletricista-urgente.pt/falha-energia)
+- [Quadro / disjuntor a disparar](https://eletricista-urgente.pt/quadro-disjuntor-dispara)
+- [Tomada queimada](https://eletricista-urgente.pt/tomada-queimada)
+- [Tabela de preços](https://eletricista-urgente.pt/precos)
+- [Contactos](https://eletricista-urgente.pt/contactos)
 
-## Diferencial
-- Atendimento 24h/7d / 7 dias
-- Orçamento gratuito e sem compromisso
-- Técnicos com equipamento profissional (Fluke, FLIR, Ridgid)
-- Compromisso de preço — o preço dito é o preço pago
+## Preços (valores TTC)
 
-## Idiomas
-Site 100% em português. Para clientes de outras regiões de Portugal.
+| Horário | Mão de obra | Deslocação |
+|---|---|---|
+| Dias úteis, 09h–18h | **70 €/h** | **30 €** |
+| Depois das 18h, noite, fins de semana e feriados | **100 €/h** | **50 €** |
+
+- Valores TTC, IVA incluído.
+- Toda a hora iniciada é devida.
+- A deslocação é devida sempre que há deslocação, com o mesmo valor para todas as localidades servidas.
+- Uma estimativa à distância (descrição e fotografias) é indicativa: o preço final depende do diagnóstico e da intervenção real.
+- Orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura.
+- Fatura com NIF emitida no final de cada trabalho.
+
+## Identidade
+
+- **Marca:** Norte Reparos
+- **Serviço:** eletricista para urgências elétricas
+- **Disponibilidade:** Atendimento telefónico 24h/24, 7 dias por semana.
+- **Chegada:** A janela de chegada é confirmada por telefone e depende da situação operacional.
+- **Cobertura:** Trás-os-Montes. A disponibilidade é confirmada conforme a localização e a situação operacional.
+- **Credenciação:** Eletricista credenciado pela DGEG — Técnico Responsável de Instalações Elétricas, TRIESP n.º 90062. Execução em Baixa Tensão até 41,4 kVA.
+- **Seguro:** Seguro de responsabilidade civil profissional até 50.000 €.
+
+## Urgências tratadas
+
+- Curto-circuito
+- Disjuntor a disparar repetidamente
+- Sem corrente (total ou parcial)
+- Tomada ou quadro a fumegar / cheiro a queimado
+- Disparos de proteção sem causa aparente
+- Falha de terra ou diferencial
+
+## Equipamento
+
+- **FLIR E96** — câmara térmica para identificar pontos quentes em quadros e ligações elétricas
+- **Fluke** — equipamento de medição elétrica
+
+## Documentação legal
+
+- [Ficha eletrotécnica](https://eletricista-urgente.pt/ficha-eletrotecnica)
+- [Termo de responsabilidade](https://eletricista-urgente.pt/termo-de-responsabilidade)
+- [Quem pode emitir a ficha eletrotécnica](https://eletricista-urgente.pt/quem-pode-emitir-ficha-eletrotecnica)
+
+## Contacto
+
+- Norte Reparos — Eletricista Urgente
+- Telefone / WhatsApp: **+351 932 321 892**
+- Site: https://eletricista-urgente.pt
