@@ -62,3 +62,7 @@ blog/*.md
 .DS_Store
 .env
 .env.*
+
+# RETOUR 265 (2026-10-21) : miroir /public/* (copie ancienne du site, Disallow: /public/, 0 lien entrant)
+# servi en 200 avec des contenus obsolètes (llms.txt « Orçamento gratuito », ai-plugin.json FLIR/SeeSnake).
+/public/
