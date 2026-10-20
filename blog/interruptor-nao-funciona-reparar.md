@@ -352,7 +352,7 @@ O problema é:
 ### 📞 Precisa de Ajuda Profissional?
 
 **** - eletricista com experiência em Trás-os-Montes 
-✅ Diagnóstico grátis por telefone 
+✅ Estimativa à distância (descrição e fotografias) 
 ✅ Emergências 24h/7 dias 
 
 ✅ Orçamento sem compromisso 
