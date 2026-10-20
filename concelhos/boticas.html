@@ -214,6 +214,46 @@ window.trackWhatsAppClick = function(source) { gtag('event', 'click_whatsapp', {
   if(document.readyState==="complete")bind();else window.addEventListener("load",bind);
 })();
 </script>
+<script data-cta-stack="v1">
+(function(){
+  if(window.__ctaStack)return;window.__ctaStack=1;
+  var mo=null,ro=null,seen=[],CTA='a[href^="tel:"],a[href*="wa.me/"],a[href*="api.whatsapp.com"]',GAP=4,moved=[],sp=null,q=0;
+  function vis(e){var r=e.getBoundingClientRect(),c=getComputedStyle(e);return r.width>0&&r.height>0&&c.visibility!=="hidden"&&c.display!=="none"&&parseFloat(c.opacity)>0;}
+  function box(e){var r=e.getBoundingClientRect();return{l:r.left,t:r.top,r:r.right,b:r.bottom};}
+  function hit(a,b){return Math.min(a.r,b.r)-Math.max(a.l,b.l)>2&&Math.min(a.b,b.b)-Math.max(a.t,b.t)>2;}
+  function first(r,dx,dy,L){var s={l:r.l+dx,t:r.t+dy,r:r.r+dx,b:r.b+dy};for(var j=0;j<L.length;j++)if(hit(s,L[j]))return L[j];return null;}
+  function up(r,dy,L){var k=0,h;while((h=first(r,0,dy,L))&&++k<12)dy=h.t-GAP-r.b;return dy;}
+  function fixedOf(e,ban){for(var x=e;x&&x!==document.body;x=x.parentElement){if(x===ban)return null;var p=getComputedStyle(x).position;if(p==="fixed")return x;if(p==="sticky")return null;}return null;}
+  function lay(){
+    q=0;if(mo)mo.disconnect();
+    for(var i=0;i<moved.length;i++)moved[i].style.translate="";
+    moved=[];
+    var vh=innerHeight,vw=innerWidth,ban=document.querySelector('[id^="rgpd-banner-"][role="dialog"]'),placed=[],els=[];
+    if(ban&&vis(ban))placed.push(box(ban));
+    if(ro&&ban&&seen.indexOf(ban)<0){seen.push(ban);ro.observe(ban);}
+    var a=document.querySelectorAll(CTA);
+    for(i=0;i<a.length;i++){var f=fixedOf(a[i],ban);if(f&&els.indexOf(f)<0&&vis(f)&&f.getBoundingClientRect().bottom>vh/2){els.push(f);if(ro&&seen.indexOf(f)<0){seen.push(f);ro.observe(f);}}}
+    els.sort(function(x,y){var X=box(x),Y=box(y),bx=X.r-X.l>=vw*.6,by=Y.r-Y.l>=vw*.6;return bx!==by?(bx?-1:1):Y.b-X.b;});
+    var bars=placed.slice(),fl=[];
+    for(i=0;i<els.length;i++){
+      var r=box(els[i]),isBar=r.r-r.l>=vw*.6,dy=up(r,0,bars),dx=0;
+      if(!isBar){var k=0,h;while((h=first(r,dx,dy,fl))&&++k<12)dx=h.l-GAP-r.r;
+        if(h||r.l+dx<0){dx=0;dy=up(r,dy,placed);}}
+      if(dx||dy){els[i].style.translate=Math.round(dx)+"px "+Math.round(dy)+"px";moved.push(els[i]);}
+      var p={l:r.l+dx,t:r.t+dy,r:r.r+dx,b:r.b+dy};placed.push(p);(isBar?bars:fl).push(p);
+    }
+    var need=0;for(i=0;i<placed.length;i++)if(placed[i].t>vh/2)need=Math.max(need,Math.ceil(vh-placed[i].t)+GAP);
+    if(!sp){sp=document.createElement("div");sp.setAttribute("aria-hidden","true");sp.setAttribute("data-cta-stack-spacer","");document.body.appendChild(sp);}
+    else if(sp.nextSibling&&sp.parentNode===document.body)document.body.appendChild(sp);
+    sp.style.height=need+"px";
+    if(mo)obs();
+  }
+  function obs(){mo.observe(document.body,{childList:true,subtree:true,attributes:true,attributeFilter:["style","class","hidden"]});}
+  function go(){if(!q)q=requestAnimationFrame(lay);}
+  function start(){mo=new MutationObserver(go);if(window.ResizeObserver)ro=new ResizeObserver(go);lay();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(go);addEventListener("resize",go);addEventListener("scroll",go,{passive:true});addEventListener("load",go);}
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",start);else start();
+})();
+</script>
 <!-- /RGPD Bandeau UI -->
 </body>
 </html>
