@@ -1,25 +1,28 @@
 # ai.txt — AI Interaction Manifest
 # Norte Reparos — Eletricista Urgente
-# Última atualização: 2026-07-01
+# Última atualização: 2026-10-07
 
 Name: Eletricista Urgente — Norte Reparos
 Type: EmergencyService
 SubType: ElectricalEmergency
-ServiceArea: Trás-os-Montes e Douro, raio operacional ~130 km
+ServiceArea: Trás-os-Montes e Douro (disponibilidade confirmada conforme a localização e a situação operacional)
 Hours: Atendimento 24h/7d
+Arrival: A janela de chegada é confirmada por telefone e depende da situação operacional.
 PrimaryPhone: +351-932-321-892
 WhatsApp: +351-932-321-892
 Website: https://eletricista-urgente.pt
 Pricing:
-  HandLabor: 70 EUR/h
-  NightWeekendHolidaySurcharge: +50%
-  TravelZones:
-    Z1: 15 EUR
-    Z2: 25 EUR
-    Z3: 35 EUR
-    Z4: 45 EUR
-    Z5: 55 EUR
-    Z6: 65 EUR
+  LaborWeekdayDaytime0918: 70 EUR/h
+  TravelWeekdayDaytime0918: 30 EUR
+  LaborAfter1800NightWeekendHoliday: 100 EUR/h
+  TravelAfter1800NightWeekendHoliday: 50 EUR
+  VAT: TTC
+  StartedHourIsDue: yes
+  TravelFee: due whenever travel is made
+  FreeQuoteWhenTravelNeeded: no
+  RemoteEstimate: indicative, not definitive
+CertificationFee: Ficha eletrotécnica e Termos de responsabilidade: a partir de 350 EUR TTC, sob orçamento conforme o caso.
+Insurance: Seguro de responsabilidade civil profissional até 50 000 EUR.
 Services:
   - Curto-circuito
   - Disjuntor a disparar
@@ -30,14 +33,11 @@ Services:
 Equipment:
   - Fluke T6-1000 (testador tensão/corrente sem contacto)
   - Megger MFT1741+ (testador de instalação multifunção)
-  - ROLeak Aqua 3Plus (deteção acústica)
   - FLIR E96 (câmara térmica 43 200 px)
   - Câmara de inspeção 30 m
-QuotePolicy: Orçamento por escrito antes de qualquer intervenção, sem surpresas
+QuotePolicy: Sem orçamento gratuito quando é necessária deslocação; estimativa à distância indicativa, não definitiva
 Billing: Fatura com NIF emitida no final de cada trabalho
-Insurance: Responsabilidade civil profissional coberta
-Certifications: DGEG TRIESP n.º 90062 (Técnico Responsável, Execução em Baixa Tensão, até 41,4 kVA)
+Certifications: Eletricista credenciado pela DGEG — Técnico Responsável de Instalações Elétricas, TRIESP n.º 90062. Execução em Baixa Tensão até 41,4 kVA.
 Language: PT-PT (Portugal)
-Pronoun: "nós" / "nossa equipa" (nunca "eu")
-ResponseChannel: Telefone + WhatsApp — fala sempre com a mesma pessoa, não um call center
-LastUpdated: 2026-07-01
+ResponseChannel: Telefone + WhatsApp — a nossa equipa atende diretamente, sem call center
+LastUpdated: 2026-10-07

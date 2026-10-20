@@ -1,7 +1,11 @@
 # Norte Reparos — Eletricista Urgente em Trás-os-Montes
 
-> Serviço de eletricista urgente 24h/7d em Trás-os-Montes, pelo técnico Filipe Bragança, com equipamento profissional (Fluke T6-1000, Megger MFT1741+, FLIR E96, ROLeak Aqua 3Plus, câmara de inspeção 30 m) e materiais Legrand, Schneider Electric, Hager, ABB, Siemens, Philips.
-> Última atualização: 2026-07-28 · Source grille prix: PRICING-CANONIQUE.md (Z1=15€ · Z2=25€ · Z3=35€ · Z4=45€ · Z5=55€ · Z6=65€ · 70 €/h élec · +50% nuit/WE/feriado)
+> Serviço de eletricista urgente 24h/7d em Trás-os-Montes, pela nossa equipa (Filipe Bragança, Técnico Responsável de Instalações Elétricas), com equipamento profissional (Fluke T6-1000, Megger MFT1741+, FLIR E96, câmara de inspeção 30 m).
+> Última atualização: 2026-10-07 · Grelha oficial: 70 €/h + 30 € · 100 €/h + 50 € após as 18h
+
+Site: https://eletricista-urgente.pt/
+Telefone e WhatsApp: +351 932 321 892
+Idioma: português europeu (pt-PT)
 
 ## Serviços
 
@@ -9,38 +13,29 @@
 - [Falha de energia](https://eletricista-urgente.pt/falha-energia.html)
 - [Quadro / disjuntor a disparar](https://eletricista-urgente.pt/quadro-disjuntor-dispara.html)
 - [Tomada queimada](https://eletricista-urgente.pt/tomada-queimada.html)
-- [Tabela de preços completa](https://eletricista-urgente.pt/precos.html)
+- [Tabela de preços](https://eletricista-urgente.pt/precos.html)
 
-## Preços
+## Transparência de preços (regra oficial)
 
-Grille officielle Nord Reparos: mão de obra **70 €/h** (eletricista) + deslocação **Z1=15€ · Z2=25€ · Z3=35€ · Z4=45€ · Z5=55€ · Z6=65€** (selon distance routière calculée depuis notre base, ~130 km rayon opérationnel). Acréscimo +50% noite (20h-8h), fim de semana e feriados. Orçamento por escrito antes de qualquer intervenção. Voir: [precos.html](https://eletricista-urgente.pt/precos.html)
+| Período | Mão de obra | Deslocação |
+|---|---|---|
+| Dias úteis, 09h–18h | **70 €/h** | **30 €** |
+| Após as 18h, noite, fins de semana e feriados | **100 €/h** | **50 €** |
 
-## Identidade
-- **Marca:** Norte Reparos (empresa técnica multi-sites)
-- **Serviço:** Eletricista urgente — curto-circuito, disjuntor a disparar, sem corrente, tomada a fumegar, avarias elétricas
-- **Zona de intervenção:** Trás-os-Montes e Douro (rayon opérationnel ~130 km autour de Macedo de Cavaleiros)
-- **Horário:** Atendimento 24h/7d, incluindo noites, fins de semana e feriados nacionais
-- **Contacto:** +351 932 321 892
-- **Resposta:** Por telefone — confirmamos a deslocação antes de intervir. Não somos um call center: a nossa equipa trata do seu pedido diretamente.
-- **Idioma:** PT-PT apenas
+- Valores TTC. Toda a hora iniciada é devida; a deslocação é devida sempre que há deslocação.
+- Não há orçamento gratuito quando a deslocação é necessária.
+- Uma estimativa à distância (descrição detalhada e fotos) é indicativa e não definitiva; cada situação é diferente e pode demorar mais ou menos tempo.
+- A janela de chegada é confirmada por telefone e depende da situação operacional.
+- Ficha eletrotécnica e Termos de responsabilidade: a partir de 350 € TTC, sob orçamento conforme o caso.
+- Seguro de responsabilidade civil profissional até 50 000 €.
+- Fatura com NIF emitida no final de cada trabalho.
 
-## Transparência de preços (regra oficial — valores sem IVA)
+## Certificação (DGEG)
 
-| Zona | Distância aprox. | Deslocação | Mão de obra |
-|---|---|---|---|
-| **Z1** | 0–15 km | **15 €** | **70 €/h** |
-| **Z2** | 15–30 km | **25 €** | **70 €/h** |
-| **Z3** | 30–50 km | **35 €** | **70 €/h** |
-| **Z4** | 50–70 km | **45 €** | **70 €/h** |
-| **Z5** | 70–90 km | **55 €** | **70 €/h** |
-| **Z6** | 90–140 km | **65 €** | **70 €/h** |
+Eletricista credenciado pela DGEG — Técnico Responsável de Instalações Elétricas, TRIESP n.º 90062. Execução em Baixa Tensão até 41,4 kVA.
 
-- **Acréscimo** noturno (20h–8h), fins de semana e feriados: **+50 %**
-- **Orçamento por escrito** antes de qualquer intervenção, sem surpresas
-- **Fatura** com NIF emitida no final de cada trabalho
-- **Seguro** de responsabilidade civil profissional
+## Urgências tratadas
 
-## Urgências tratadas (quando ligar agora)
 - Curto-circuito
 - Disjuntor a disparar repetidamente
 - Sem corrente (total ou parcial)
@@ -48,52 +43,38 @@ Grille officielle Nord Reparos: mão de obra **70 €/h** (eletricista) + desloc
 - Disparos de proteção sem causa aparente
 - Falha de terra ou diferencial
 
-## Equipamento profissional (real, verificado)
+## Equipamento profissional
+
 - **Fluke T6-1000** — testador de tensão e corrente sem contacto
-- **Megger MFT1741+** — testador de instalação multifunção (verifica resistência de terra, isolamento, continuidade)
-- **ROLeak Aqua 3Plus** — deteção acústica de fugas (também útil para localização de avarias elétricas ocultas)
-- **FLIR E96** — câmara térmica 43 200 px (identificação de pontos quentes em quadros e ligações)
-- **Câmara de inspeção 30 m** — visualização interior de condutas
+- **Megger MFT1741+** — testador de instalação multifunção
+- **FLIR E96** — câmara térmica 43 200 px (pontos quentes em quadros e ligações)
+- **Câmara de inspeção 30 m**
 
 ## Perguntas frequentes
 
 **Quanto custa um eletricista de urgência em Trás-os-Montes?**
-Mão de obra 70 €/h + deslocação por zona Z1-Z6 (15 € a 65 €). Acréscimo de 50 % fora do horário normal. Orçamento por escrito antes da intervenção.
+Dias úteis (09h–18h): 70 €/h + 30 € de deslocação. Após as 18h, noite, fins de semana e feriados: 100 €/h + 50 € de deslocação. Valores TTC; toda a hora iniciada é devida.
 
 **Fazem orçamento grátis?**
-Sim, orçamento por telefone e por escrito, sem compromisso, antes de qualquer intervenção.
+Não quando é necessária deslocação. Uma estimativa à distância, com descrição detalhada e fotos, é indicativa e não é um orçamento definitivo.
 
 **Quanto tempo demora a chegada?**
-A deslocação é confirmada por telefone antes da intervenção. O tempo de chegada depende da zona — confirmamos a previsão ao telefone.
+A janela de chegada é confirmada por telefone e depende da situação operacional.
 
 **Trabalham de noite e ao fim de semana?**
-Sim, 24h/7d incluindo feriados. Acréscimo de +50 % aplicado de forma transparente.
+Sim, 24h/7d incluindo feriados. Tarifa após as 18h, noite, fim de semana e feriados: 100 €/h + 50 € de deslocação.
 
-**Têm certificação para emitir fichas eletrotécnicas?**
-Sim. Filipe Bragança é Técnico Responsável de Instalações Elétricas inscrito na DGEG (TRIESP n.º 90062, domínio Execução em Baixa Tensão, instalações até 41,4 kVA). Emitimos Ficha Eletrotécnica e Termo de Responsabilidade, com seguro de responsabilidade civil válido.
-
-**Emitem fatura?**
-Sim, fatura com NIF emitida no final de cada trabalho. Relatório técnico disponível para seguradoras.
+**Emitem Ficha eletrotécnica e Termos de responsabilidade?**
+Sim: a partir de 350 € TTC, sob orçamento conforme o caso.
 
 **A nossa equipa acompanha cada pedido?**
-Sim, a nossa equipa acompanha cada pedido — sem intermediários nem call center.
-
-**Atendem em Bragança / Mirandela / Chaves / Macedo?**
-Sim, cobrimos Bragança, Mirandela, Chaves, Macedo de Cavaleiros, Vila Real, Mogadouro, Vinhais, Miranda do Douro e restante Trás-os-Montes.
-
-## Também prestamos serviços de canalizador urgente
-Para urgências de canalização 24h: canalizador-urgente.pt · +351 928 484 451
-
-## Marcas de materiais (verídicas, conforme disponibilidade de stock)
-Legrand, Schneider Electric, Hager, ABB, Siemens, Philips
+Sim, sem intermediários nem call center.
 
 ## Contacto
-- **Norte Reparos — Eletricista Urgente**
-- Telefone / WhatsApp: **+351 932 321 892**
-- Site: https://eletricista-urgente.pt
-- Disponível 24h/7d em Trás-os-Montes, Portugal
 
-## Notas editoriais
-- Pronom usado: "nossa equipa", "garantimos", "contacte-nos" (R12 verrouillée)
-- Zero conteúdo inventado: preços reais, equipamento real, NAP único por repo (932 eletricista, 928 canalizador)
-- Géo-neutre: sem streetAddress precisa, sem claims locais não verificáveis
+- Norte Reparos — Eletricista Urgente
+- Telefone / WhatsApp: **+351 932 321 892**
+
+## Site irmão (canalização)
+
+Este site não presta serviços de canalização. Para canalização: [canalizador-urgente.pt](https://canalizador-urgente.pt/).
