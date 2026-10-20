@@ -28,3 +28,37 @@ blog/*.md
 *.save
 *.tmp
 *~
+
+# 2026-10-20 — surfaces internes (incident RETOUR 261 A). `outputDirectory`
+# vaut "." : tout fichier suivi est servi. `.hermes/PROTOTYPE_*.diff`,
+# les scripts de `.loop/`, `scripts/`, `tools/`, `_audit/` et la table de
+# zones legacy `precos-zonas.json` répondaient 200. Motifs ancrés à la
+# racine pour ne pas toucher les pages. `vercel-ignore.sh` reste présent
+# (utilisé par `ignoreCommand`).
+/.hermes
+/.loop
+/.openclaw
+/.github
+/.claude
+/.codex
+/.cursor
+/.vscode
+/.vercel-rebuild
+/_audit
+/_reports
+/scripts
+/tools
+/tests
+/client
+/data
+/precos-zonas.json
+/eletricista-urgente-indexnow-urls.txt
+/public/eletricista-urgente-indexnow-urls.txt
+*.py
+*.diff
+*.patch
+*.log
+*.csv
+.DS_Store
+.env
+.env.*
