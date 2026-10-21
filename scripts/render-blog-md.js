@@ -9,7 +9,7 @@ const PHONE_DISPLAY = '+351 932 321 892';
 const PHONE_E164 = '+351932321892';
 const WHATSAPP = 'https://wa.me/351932321892?text=Ol%C3%A1%2C%20preciso%20de%20ajuda%20com%20uma%20avaria%20el%C3%A9trica';
 const PRICE_TEXT = '70 €/h';
-const ZONES_TEXT = '30 € de deslocação em dias úteis (9h–17h) / 50 € à noite, fins de semana e feriados';
+const ZONES_TEXT = '30 € de deslocação em dias úteis (09h–18h) / 50 € após as 18h, à noite, aos fins de semana e feriados';
 const BATCH_LIMIT = 95;
 
 function die(message) {
@@ -217,8 +217,10 @@ const CONFORMITY_RULES = [
   ['statistique terrain non sourcée', /\b\d+(?:[.,]\d+)?\s*%\s+(?:dos|das|de)\s+casos\b|\b(?:casos|problemas) que (?:vemos|resolvemos)\b/i],
   ['document/certification émis', /\b(?:emit(?:e|imos|ir|ido)[^\n.]{0,50}(?:certificad|relatório|ficha)|fichas? eletrotécnicas?|relatório técnico|certificado em \d|certificação completa|instalações certificadas)\b/i],
   ['statut DGEG interdit', /\b(?:DGEG|registo em curso|aguardando registo|1757\/2026\/DIEN)\b/i],
-  ['prix/fourchette non sourcé', /(?:\b(?!70(?:[.,]0+)?\s*€\s*\/\s*h\b)\d+(?:[.,]\d+)?\s*€\s*(?:[-–]\s*\d+(?:[.,]\d+)?\s*€)?\s*\/\s*(?:h|hora)\b|\b\d+(?:[.,]\d+)?\s*€\s*por\s+(?:arranjar|reparar|substituir|diagn[óo]stico|interven[çc][ãa]o|m[ãa]o)|(?:desloca[çc][ãa]o|sa[íi]da)\s+(?!Z[1-6]\b)\d+\s*€)/i],
+  ['prix/fourchette non sourcé', /(?:\b(?!(?:70|100)(?:[.,]0+)?\s*€\s*\/\s*h\b)\d+(?:[.,]\d+)?\s*€\s*(?:[-–]\s*\d+(?:[.,]\d+)?\s*€)?\s*\/\s*(?:h|hora)\b|\b\d+(?:[.,]\d+)?\s*€\s*por\s+(?:arranjar|reparar|substituir|diagn[óo]stico|interven[çc][ãa]o|m[ãa]o)|(?:desloca[çc][ãa]o|sa[íi]da)\s+(?!(?:30|50)\s*€)\d+\s*€)/i],
   ['ancienneté/volume non vérifié', /\b(?:\d+\+?\s+anos? de experiência|mais de \d+ anos|\d+%\s+(?:problemas?|casos?|clientes?|interven[çc][õo]es?|avarias?)\s+(?:resolvidos?|resolvidas?|satisfeitos?))\b/i],
+  ['ancienne grille / horaire', /\bZ[1-6]\s*=|\+\s?50\s?%|\b0?9h\s*[–-]\s*17h\b|conforme a zona/i],
+  ['promesse interdite', /mesma pessoa|garantia escrita|garantia (?:de )?\d+\s*(?:anos?|meses)/i],
   ['PT-BR', /\b(?:vazamento|entupiu|disjuntor caiu|pia)\b/i],
   ['service interdit', /^(?:title:.*|##\s+.*)\b(?:pain[ée]is?\s+solares?|instala[çc][ãa]o\s+solar|bomba\s+de\s+calor|carregador(?:es)?\s+(?:de\s+)?ve[íi]culos?\s+el[ée]tricos?|carregador\s+ve|ar\s+condicionado\s+central)\b/im],
   ['pronom client interdit', /(?<![a-záéíóúâêôãõç])(?:^|\.\s+)eu\s+(?:sou|faço|trabalho|posso|tenho|vou|vim|estou|aconselho|garanto|sugiro|recomendo|indico|preocupo|trato|atendo|mantenho|considero|costumo|preciso|prefiro|desejo|gosto|quisera|queria)\b|(?<![a-záéíóúâêôãõç])\bmeu\s+(?:contacto|telefone|número|email|preço|orçamento|cliente|serviço|empresa|trabalho)\b|(?<![a-záéíóúâêôãõç])\bminha\s+(?:empresa|marca|opinião|experiência|abordagem)\b|\bsozinho\s*,|\bcontacto\s+pessoal\b|\bfalar\s+comigo\b|(?<![a-záéíóúâêôãõç])posso\s+fazer\s+sozinho\b/i],
@@ -416,12 +418,12 @@ function renderPage(parsed, repoRoot) {
       <p class="direct-answer">${escapeHtml(answer)}</p>
       <section class="price-box" aria-labelledby="preco-transparente">
         <h2 id="preco-transparente">Preço transparente antes do trabalho</h2>
-        <p><strong>${PRICE_TEXT}</strong> de mão de obra · Deslocação: <strong>${ZONES_TEXT}</strong> · Noite, domingo e feriado: <strong>+50 %</strong>.</p>
+        <p><strong>${PRICE_TEXT}</strong> de mão de obra · Deslocação: <strong>${ZONES_TEXT}</strong> · Após as 18h, à noite, aos fins de semana e feriados: <strong>100 €/h</strong>. Valores TTC, IVA incluído. Cada hora iniciada é devida.</p>
         <p><strong>Orçamento por escrito antes de qualquer intervenção, sem surpresas.</strong></p>
       </section>
       <section class="trust-box" aria-labelledby="quem-atende">
         <h2 id="quem-atende">Quem atende</h2>
-        <p>Na Staff-Seekers / Norte Reparos, <strong>fala sempre com a mesma pessoa, não um call center</strong>. Explicamos o diagnóstico e o trabalho necessário antes de intervir. Emitimos fatura com NIF e damos garantia escrita do trabalho executado.</p>
+        <p>Na Staff-Seekers / Norte Reparos, <strong>falamos consigo diretamente, sem call center</strong>. Explicamos o diagnóstico e o trabalho necessário antes de intervir. Emitimos fatura com NIF; os equipamentos instalados têm a garantia do respetivo fabricante.</p>
       </section>
       ${articleHtml}
       <section class="evidence-box" aria-labelledby="relatos-verificados">

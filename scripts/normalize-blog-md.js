@@ -3,7 +3,7 @@
  * Idempotent .md normalisation for eletricista-urgente blog
  *
  * Doctrine source-of-truth:
- *   ~/.claude/skills/norte-prices/SKILL.md (70 €/h élec, Z1 15€ → Z6 65€, +50% nuit/WE/feriado)
+ *   _governance/20-BUSINESS-FACTS.json (70 €/h + 30 € jours ouvrés 09h–18h ; 100 €/h + 50 € nuit/WE/fériés ; pas de zones)
  *   AGENTS.md §11 (zéro invention), §12 (Transparence Radicale), §13 (gabarit élec)
  *
  * Rules: ce script N'INVENTE rien. Il nettoie les violations identifiées.
@@ -209,21 +209,17 @@ function normalizePrecos(md) {
   // e) "X€ deslocação" / "X€ saída" → Z1-Z6 si chiffre correspond (15/25/35/45/55/65)
     //    sinon → "sob orçamento" si X € inventé hors grille
     md = md.replace(/(\d+)\s*€\s*(?:desloca[çc][ãa]o|sa[íi]da)/gi, (m, n) => {
-      const validZ = ['15','25','35','45','55','65'];
-      const z = validZ.indexOf(n);
-      if (z >= 0) return `Z${z+1} (${n} € deslocação)`;
-      // Pour deslocação hors grille, on supprime et on renvoie "sob orçamento" via patch suivant
-      return `sob orçamento (deslocação conforme zona — Z1 15 € a Z6 65 €)`;
+      // grille officielle (20-BUSINESS-FACTS.json) : 30 € jours ouvrés 09h–18h, 50 € nuit/week-end/fériés ; pas de zones
+      if (n === '30' || n === '50') return m;
+      return 'deslocação: 30 € (dias úteis, 09h–18h) ou 50 € (após as 18h, noite, fins de semana e feriados)';
     });
     // f) "deslocação X€" (autre sens) → même traitement (sans \b autour de €)
     md = md.replace(/\bdesloca[çc][ãa]o\s+(\d+)\s*€/gi, (m, n) => {
-      const validZ = ['15','25','35','45','55','65'];
-      const z = validZ.indexOf(n);
-      if (z >= 0) return `Z${z+1} (${n} € deslocação)`;
-      return `sob orçamento (deslocação conforme zona — Z1 15 € a Z6 65 €)`;
+      if (n === '30' || n === '50') return m;
+      return 'deslocação: 30 € (dias úteis, 09h–18h) ou 50 € (após as 18h, noite, fins de semana e feriados)';
     });
     // g) "preço/valor/custo X€" → si X hors 70€/h → "sob orçamento" (sans \b autour de €)
-    md = md.replace(/\b(?:pre[çc]o|valor|custo)\s+(?!70\s*€|15\s*€|25\s*€|35\s*€|45\s*€|55\s*€|65\s*€)(\d+(?:[.,]\d+)?)\s*€/gi, 'sob orçamento');
+    md = md.replace(/\b(?:pre[çc]o|valor|custo)\s+(?!70\s*€|100\s*€|30\s*€|50\s*€)(\d+(?:[.,]\d+)?)\s*€/gi, 'sob orçamento');
   return md;
 }
 
