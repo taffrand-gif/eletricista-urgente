@@ -10,6 +10,10 @@ Strategie :
 - 4 variantes par bloc * 8 blocs = 65536 combinaisons
 """
 
+import sys
+sys.exit("DÉSACTIVÉ 2026-10-22 : ce script produit/contrôle la grille Z1–Z6 et la majoration +50 %, abandonnées "
+         "(_governance/20-BUSINESS-FACTS.json : 70 €/h + 30 € jours ouvrés 09h–18h ; 100 €/h + 50 € nuit/WE/fériés). "
+         "Ne pas relancer sans réécriture validée.")
 import json
 import re
 import unicodedata

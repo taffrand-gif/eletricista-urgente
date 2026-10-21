@@ -3,7 +3,7 @@ title: "Teste de Segurança Elétrica"
 slug: "teste-seguranca-eletrica"
 date: "2026-07-13"
 author: "Norte Reparos"
-excerpt: "Se detetar cheiro a queimado, faíscas ou aquecimento anormal, desligue o circuito apenas se for seguro, afaste pessoas e contacte um eletricista. Antes de qualquer trabalho, explicamos o diagnóstico, aplicamos 70 €/h e entregamos orçamento por escrito, com deslocação conforme a zona e sem surpresas na fatura."
+excerpt: "Se detetar cheiro a queimado, faíscas ou aquecimento anormal, desligue o circuito apenas se for seguro, afaste pessoas e contacte um eletricista. Antes de qualquer trabalho, explicamos o diagnóstico, aplicamos 70 €/h e entregamos orçamento por escrito, com deslocação de 30 € em dias úteis e sem surpresas na fatura."
 keywords: ["segurança elétrica", "eletricista urgente"]
 schema:
  type: "HowTo"
@@ -38,7 +38,7 @@ Afaste-se da instalação, desligue o circuito apenas se for seguro e contacte u
 
 ### Quanto custa a mão de obra?
 
-A mão de obra custa 70 €/h, acrescida da deslocação conforme a zona e da majoração aplicável fora do horário normal.
+Em dias úteis, das 09h às 18h, a mão de obra custa 70 €/h + 30 € de deslocação; após as 18h, à noite, aos fins de semana e feriados, 100 €/h + 50 € de deslocação.
 
 ### Existe orçamento antes do trabalho?
 

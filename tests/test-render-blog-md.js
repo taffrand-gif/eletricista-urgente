@@ -27,9 +27,11 @@ try {
   assert.match(html, /<h1>Teste de Segurança Elétrica<\/h1>/);
   assert.match(html, /class="direct-answer"/);
   assert.match(html, /70 €\/h/);
-  assert.match(html, /Z1=15 € \/ Z2=25 € \/ Z3=35 € \/ Z4=45 € \/ Z5=55 € \/ Z6=65 €/);
+  assert.match(html, /30 € de deslocação em dias úteis \(09h–18h\)/);
+  assert.match(html, /100 €\/h/);
+  assert.doesNotMatch(html, /\bZ[1-6]\s*=|\+\s?50\s?%|9h–17h|conforme a zona|majoração|mesma pessoa|garantia escrita/i);
   assert.match(html, /orçamento por escrito antes de qualquer intervenção, sem surpresas/i);
-  assert.match(html, /fala sempre com a mesma pessoa, não um call center/i);
+  assert.match(html, /sem call center/i);
   assert.match(html, /href="tel:\+351932321892"/);
   assert.match(html, /"@type":"EmergencyService"/);
   assert.match(html, /"@type":"Service"/);
