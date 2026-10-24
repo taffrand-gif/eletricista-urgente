@@ -362,6 +362,9 @@ def apply_section(html, section_html, anchor_open_re, anchor_close_re=None):
 
 def apply_refonte_to_file(target_path, c, loc_data, all_concelhos):
     html = Path(target_path).read_text()
+    # Reviewed city pages are persistent served sources, not legacy-template outputs.
+    if 'data-norte-city-contact="v1"' in html:
+        return 0
 
     n_total = 0
     # (a) Transparence tarifaire

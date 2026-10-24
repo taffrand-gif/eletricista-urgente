@@ -23,6 +23,14 @@ TEL_RAW = "932321892"
 HUB = "Macedo de Cavaleiros"
 
 def page(c, locs):
+    # Curated served HTML is the persistent source for reviewed SEO city pages.
+    # Never overwrite it with the legacy template; unreviewed pages retain their path.
+    curated = os.path.join(OUT, c["slug"] + ".html")
+    if os.path.isfile(curated):
+        with open(curated, encoding="utf-8") as source:
+            saved = source.read()
+        if 'data-norte-city-contact="v1"' in saved:
+            return saved
     name = c["name"]; slug = c["slug"]; district = c["district"]
     day_displacement = 30; night_displacement = 50
     day_rate = 70; night_rate = 100

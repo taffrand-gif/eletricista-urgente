@@ -352,6 +352,12 @@ def speakable_schema(c: dict) -> dict:
 
 
 def write_concelho(c: dict, neighbors: list[str]) -> str:
+    # A reviewed city HTML is its own persistent served source.
+    curated = CONCELHOS_DIR / (c["slug"] + ".html")
+    if curated.is_file():
+        saved = curated.read_text()
+        if 'data-norte-city-contact="v1"' in saved:
+            return saved
     name = c["name"]
     slug = c["slug"]
     zone = c["zone"]
