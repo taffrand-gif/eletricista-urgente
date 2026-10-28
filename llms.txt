@@ -24,7 +24,7 @@ Grille officielle Nord Reparos: mão de obra **70 €/h** (eletricista) + desloc
 - **Resposta:** Por telefone — confirmamos a deslocação antes de intervir. Não somos um call center: a nossa equipa trata do seu pedido diretamente.
 - **Idioma:** PT-PT apenas
 
-## Transparência de preços (regra oficial — valores sem IVA)
+## Transparência de preços (regra oficial — valores com IVA incluído)
 
 | Zona | Distância aprox. | Deslocação | Mão de obra |
 |---|---|---|---|
