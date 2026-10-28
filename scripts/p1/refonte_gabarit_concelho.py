@@ -141,7 +141,7 @@ SERVICOS_TEMPLATES = [
 <ul class="servicos">
   <li>Curto-circuito em habitação rural em {region}: corte de electricidade possível durante diagnóstico</li>
   <li>Falha de energia geral em {name} ({rkm} km desde a nossa base em Macedo de Cavaleiros): somos a equipa de proximidade para o {district}</li>
-  <li>Disparar repetido do disjuntor em {district}: instalação antiga, possível ausência de disjuntor diferencial 30 mA — verificável com Megger</li>
+  <li>Disparar repetido do disjuntor em {district}: instalação antiga, possível ausência de disjuntor diferencial 30 mA — a verificar no local</li>
   <li>Avaria urgente com risco imediato: chamada directa, orçamento por escrito, nunca promessa de tempo</li>
 </ul>''',
 ]
@@ -181,7 +181,7 @@ FAQ_TEMPLATES_A = ["""<section class="faq" role="region" aria-label="Perguntas f
  <dt>Quantas aldeias servem no concelho de {name}?</dt>
  <dd>{aldeias}</dd>
  <dt>Que equipamento utilizam em {name}?</dt>
- <dd>Multímetro Fluke, detetor de tensão sem contacto, câmara térmica FLIR, testador Megger MFT1741+.</dd>
+ <dd>Multímetro Fluke, detetor de tensão sem contacto, câmara térmica FLIR.</dd>
 </dl>
 </section>""","""<section class="faq" role="region" aria-label="Perguntas frequentes">
 <h2 role="heading" aria-level="2">FAQ eletricista urgente — {name}</h2>
@@ -197,7 +197,7 @@ FAQ_TEMPLATES_A = ["""<section class="faq" role="region" aria-label="Perguntas f
  <dt>Emitem factura com NIF?</dt>
  <dd>Sim, sempre. Discriminação de mão-de-obra {euro70}, deslocação e peças. MB Way/cartão/numerário.</dd>
  <dt>Equipamento profissional em {name}?</dt>
- <dd>Fluke (multímetro), Megger MFT1741+ (instalação), FLIR (térmica).</dd>
+ <dd>Fluke (multímetro), FLIR (térmica).</dd>
  <dt>Urgência 24h em {name}?</dt>
  <dd>Sim, 24h/7d incluindo feriados. Majoração {majo} sempre anunciada antes.</dd>
 </dl>
@@ -209,7 +209,7 @@ FAQ_TEMPLATES_A = ["""<section class="faq" role="region" aria-label="Perguntas f
  <dt>{dist_label} não confio em números inventados em {name}?</dt>
  <dd>Tabela acima e a {euro70} bloqueados pela direção. Majoração nocturna publicada de antemão.</dd>
  <dt>Como sei que um disjuntor em {name} dispara porque tem fuga?</dt>
- <dd>Testamos com Megger MFT1741+ — medimos corrente de fuga e resistência de isolamento.</dd>
+ <dd>Procuramos isolar no local o circuito em causa.</dd>
  <dt>{aldeias_label_q} em {name}?</dt>
  <dd>{aldeias}</dd>
  <dt>Posso pagar MB Way em {name}?</dt>
@@ -276,7 +276,7 @@ PORQUE_TEMPLATES = [
 <ul>
  <li><strong>Atendimento 24h/7d</strong> em {name}: chamada directa, sem call-center.</li>
  <li><strong>Orçamento por escrito</strong>: preço nunca muda depois de combinado.</li>
- <li><strong>Equipamento profissional:</strong> multímetro Fluke, Megger MFT1741+, câmara térmica FLIR.</li>
+ <li><strong>Equipamento profissional:</strong> multímetro Fluke, câmara térmica FLIR.</li>
  <li><strong>Fatura com NIF</strong>: discriminação completa (deslocação, mão-de-obra, peças).</li>
  <li><strong>Seguro RC</strong> cobrindo a intervenção.</li>
  <li>{region_text}</li>
@@ -285,7 +285,7 @@ PORQUE_TEMPLATES = [
     '''<h2 role="heading" aria-level="2">A nossa promessa em {name}</h2>
 <ul>
  <li><strong>Cobertura operacional</strong> em {aldeias_text}.</li>
- <li><strong>Método:</strong> equipamento técnico verificado antes de cada intervención (Fluke + Megger + FLIR).</li>
+ <li><strong>Método:</strong> equipamento técnico verificado antes de cada intervención (Fluke + FLIR).</li>
  <li><strong>Garantia 2 anos</strong> sobre mão-de-obra e peças.</li>
  <li><strong>Seguro de responsabilidade civil</strong> incluído.</li>
  <li><strong>Compromisso de transparência:</strong> orçamento escrito antes de tocar na instalação.</li>
