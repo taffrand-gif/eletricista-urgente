@@ -62,3 +62,8 @@ blog/*.md
 .DS_Store
 .env
 .env.*
+
+# 2026-11-02 (passe 28) : script interne de ignoreCommand servi en 200 en production.
+# Une redirection 410 renvoie le contenu du fichier (constaté sur CU) : exclusion du déploiement.
+# ignoreCommand est désormais en ligne dans vercel.json (le fichier exclu n est plus visible au build).
+/vercel-ignore.sh
