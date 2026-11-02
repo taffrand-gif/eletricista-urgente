@@ -42,11 +42,14 @@ A janela de chegada é confirmada por telefone e depende da situação operacion
 - Tomada ou quadro a fumegar / cheiro a queimado
 - Disparos de proteção sem causa aparente
 - Falha de terra ou diferencial
+- A avaria elétrica voltou depois de uma reparação (https://eletricista-urgente.pt/avaria-eletrica-voltou)
+- Sem luz depois de obras (https://eletricista-urgente.pt/sem-luz-depois-de-obras)
+- Sem energia no contador (https://eletricista-urgente.pt/contador-sem-energia)
 
 ## 5. Equipamento profissional
 
-- Fluke T6-1000 — testador de tensão e corrente sem contacto
-- FLIR E96 — câmara térmica 43 200 px
+- Instrumentos de medição Fluke — medições elétricas durante o diagnóstico
+- FLIR E96 — câmara térmica
 
 ## 6. Certificação DGEG
 

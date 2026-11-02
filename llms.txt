@@ -1,6 +1,6 @@
 # Norte Reparos — Eletricista Urgente em Trás-os-Montes
 
-> Serviço de eletricista urgente 24h/7d em Trás-os-Montes, pela nossa equipa (Filipe Bragança, Técnico Responsável de Instalações Elétricas), com equipamento profissional (Fluke T6-1000, FLIR E96).
+> Serviço de eletricista urgente 24h/7d em Trás-os-Montes, pela nossa equipa (Filipe Bragança, Técnico Responsável de Instalações Elétricas), com equipamento profissional (instrumentos de medição Fluke, câmara térmica FLIR E96).
 > Última atualização: 2026-10-07 · Grelha oficial: 70 €/h + 30 € · 100 €/h + 50 € após as 18h
 
 Site: https://eletricista-urgente.pt/
@@ -14,6 +14,9 @@ Idioma: português europeu (pt-PT)
 - [Quadro / disjuntor a disparar](https://eletricista-urgente.pt/quadro-disjuntor-dispara.html)
 - [Tomada queimada](https://eletricista-urgente.pt/tomada-queimada.html)
 - [Tabela de preços](https://eletricista-urgente.pt/precos.html)
+- [A avaria elétrica voltou depois de uma reparação](https://eletricista-urgente.pt/avaria-eletrica-voltou)
+- [Sem luz depois de obras](https://eletricista-urgente.pt/sem-luz-depois-de-obras)
+- [Sem energia no contador](https://eletricista-urgente.pt/contador-sem-energia)
 
 ## Transparência de preços (regra oficial)
 
@@ -45,8 +48,8 @@ Eletricista credenciado pela DGEG — Técnico Responsável de Instalações El�
 
 ## Equipamento profissional
 
-- **Fluke T6-1000** — testador de tensão e corrente sem contacto
-- **FLIR E96** — câmara térmica 43 200 px (pontos quentes em quadros e ligações)
+- **Instrumentos de medição Fluke** — medições elétricas durante o diagnóstico
+- **FLIR E96** — câmara térmica (pontos quentes em quadros e ligações)
 
 ## Perguntas frequentes
 
