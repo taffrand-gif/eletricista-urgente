@@ -471,7 +471,7 @@ keywords: ["eletrocussão", "choque elétrico", "segurança elétrica", "disjunt
 - Soluções adaptadas
 - Preços justos
 
-- **15-30 minutos** em Bragança, Mirandela, Macedo
+- A janela de chegada é confirmada por telefone e depende da situação operacional.
 - 24h/7d incluindo feriados
 - Eletrocussão = prioridade máxima
 - Equipamento disponível

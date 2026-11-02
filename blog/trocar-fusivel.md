@@ -424,7 +424,7 @@ Trocar um fusível é uma tarefa **simples mas que requer atenção absoluta à 
 - Substituição de quadro elétrico completo
 
 **Cobertura:**
-- Bragança e arredores (30 minutos)
+- Bragança e arredores
 - Mirandela, Trás-os-Montes, Miranda do Douro
 - Toda a região de Trás-os-Montes
 

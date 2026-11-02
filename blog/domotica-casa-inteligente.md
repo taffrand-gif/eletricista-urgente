@@ -472,7 +472,7 @@ keywords: ["domótica", "casa inteligente", "automação", "smart home", "Trás-
 - Resolução problemas
 - Contratos manutenção
 
-- **30-60 minutos** em Bragança, Mirandela, Macedo
+- A janela de chegada é confirmada por telefone e depende da situação operacional.
 - Orçamento 24-48h
 - Instalação agendada
 - Demonstração gratuita
