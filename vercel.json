@@ -2951,5 +2951,5 @@
       "statusCode": 301
     }
   ],
-  "ignoreCommand": "if bash ./vercel-ignore.sh; then exit 0; else exit 1; fi"
+  "ignoreCommand": "if git diff --quiet \"$VERCEL_GIT_PREVIOUS_SHA\" \"$VERCEL_GIT_COMMIT_SHA\" -- . ':!*.md' ':!*.markdown' ':!docs/**' ':!.github/**' ':!.openclaw/**' 2>/dev/null; then exit 0; else exit 1; fi"
 }
