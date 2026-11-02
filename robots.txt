@@ -1,4 +1,4 @@
-# AI Crawlers - explicitement autorisés (cf AGENTS.md R10)
+# AI Crawlers
 User-agent: GPTBot
 Allow: /
 
@@ -41,7 +41,7 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-# SEO crawlers tiers - explicitement autorisés (GO Philippe 2026-06-27)
+# SEO crawlers tiers
 User-agent: SemrushBot
 Allow: /
 

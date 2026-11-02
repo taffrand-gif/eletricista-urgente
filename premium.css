@@ -1,20 +1,4 @@
-/* ============================================================
-   NORTE REPAROS — PREMIUM DESIGN TOKENS
-   Eletricista Urgente (Élec URGENCE · Trás-os-Montes)
-   Pilote 2026-07-13 — Doctrine §12 Transparence Radicale + R11 ZÉRO INVENTION
-   ============================================================
 
-   Identité divergeante vs CU (canalizador-urgente) :
-   - Base indigo / noir  : #1A1A3A  (filiation ENR install)
-   - Accent hazard rouge : #FF2D1F  (alarme · urgence · CTA + bandeau seulement)
-   - Accent hazard jaune : #FACC15  (éclair glow · pictogrammes · >=18px sur body)
-
-   GARDER STRUCTURE HEADER / FOOTER / LOGO / NAP PUBLIC tel:+351932321892
-   Click-to-call sticky proéminent (mobile-first · trafic rural).
-   R145 : JAMAIS délai chiffré → "orçamento prévio por telefone" uniquement.
-   R11 : JAMAIS photo / avis inventé.
-   Contraste AA : rouge/jaune vif = FAIL sur body text → CTA/bandeau/icônes >= 18px.
-   ============================================================ */
 
 :root {
   /* === ELEC URGENCE TOKENS (filiation ENR indigo, accents hazard) === */
@@ -71,7 +55,6 @@
   --shadow:    0 4px 16px rgba(10, 10, 26, 0.10);
   --shadow-lg: 0 12px 32px rgba(10, 10, 26, 0.18);
 
-  /* === GLOW signature (éclair — JAMAIS sur body, uniquement accents/icônes/CTA) === */
   --glow-volt:   0 0 18px rgba(250, 204, 21, 0.55);
   --glow-hazard: 0 0 22px rgba(255, 45, 31, 0.45);
 }
@@ -205,10 +188,6 @@ header.site-header {
 }
 .btn-secondary:hover { background: var(--elec-volt); color: var(--elec-ink); }
 
-/* ============================================================
-   BANDEAU HAZARD URGENCE (signature EU · Doctrine §12 §1)
-   HAUT de page · AVANT le tarifário · rappelle "orçamento prévio por telefone"
-   ============================================================ */
 section.bandeau-hazard {
   background: linear-gradient(90deg, var(--elec-hazard) 0%, #E63946 100%);
   color: #fff;
@@ -233,9 +212,6 @@ section.bandeau-hazard {
   margin-left: 6px;
 }
 
-/* ============================================================
-   BANDEAU GRILLE TARIFAIRE (HAUTE VISIBILITÉ · Doctrine §12 §1)
-   ============================================================ */
 section.tarif {
   background: #FFFBEB;
   border-top: 4px solid var(--elec-volt);
@@ -450,9 +426,6 @@ footer {
 footer a { color: var(--elec-volt); text-decoration: none; }
 footer a:hover { text-decoration: underline; }
 
-/* ============================================================
-   CLICK-TO-CALL STICKY (mobile-first · Doctrines §13 §5)
-   ============================================================ */
 .sticky-call {
   position: fixed;
   bottom: 16px;
