@@ -32,7 +32,6 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 ## ⚡ Potência: Quanto Consome Placa de Indução?
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Tipo Placa | Zonas | Potência Total | Potência Máxima Simultânea |
 |------------|-------|----------------|----------------------------|
 | Compacta | 2 zonas | 3,0-3,7 kW | 3,0-3,7 kW |
@@ -123,7 +122,6 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 ## 🔧 Instalação Elétrica Necessária
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Para placa 3,7 kW (16A monofásico):**
 - ✅ Circuito dedicado 20A
 - ✅ Disjuntor magnetotérmico 20A curva C
@@ -291,7 +289,6 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 ---
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Cenário 1: Placa 6 kW, quadro OK, cabo à vista**
 - Instalação: €300-600
 - **Total: €300-600**
@@ -352,7 +349,6 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 ## 💡 Potência Contratada: Preciso Aumentar?
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Potência necessária = Placa + Outros aparelhos simultâneos**
 
 **Exemplo:**
@@ -366,7 +362,6 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (mon
 
 ---
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Potência | Corrente | Suficiente Para |
 |----------|----------|-----------------|
 | 3,45 kVA | 15A | Placa 3,7 kW (sem outros aparelhos) |

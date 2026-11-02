@@ -333,7 +333,6 @@ Interferências de rádio frequência (RF) de outros dispositivos, paredes gross
 | Substituir transformador | €10-30 | Difícil | 30 min |
 | Arranjar cabo acessível | €5-20 | Moderada | 30 min |
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Preço em Trás-os-Montes |
 |---------|-------------------------|
 | Diagnóstico | €40-60 |
@@ -349,7 +348,6 @@ Interferências de rádio frequência (RF) de outros dispositivos, paredes gross
 
 ## 🔍 Diagnóstico Passo a Passo
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Passo 1: Teste o botão**
 1. Remova o botão da parede
 2. Junte os dois fios diretamente
@@ -372,7 +370,6 @@ Interferências de rádio frequência (RF) de outros dispositivos, paredes gross
 2. **Se tocar:** Problema era nos cabos
 3. **Se não tocar:** Campainha avariada → Substituir
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Passo 1: Teste as pilhas**
 1. Substitua pilhas do botão
 2. Substitua pilhas da campainha (se a pilhas)
@@ -394,7 +391,6 @@ Interferências de rádio frequência (RF) de outros dispositivos, paredes gross
 
 ## 🛡️ Manutenção e Prevenção
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Anual:**
 - Limpe o botão (poeira, teias de aranha)
 - Verifique que botão está bem fixo
@@ -410,7 +406,6 @@ Interferências de rádio frequência (RF) de outros dispositivos, paredes gross
 - Substitua transformador preventivamente
 - Substitua campainha se muito antiga
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Anual:**
 - Substitua pilhas (preventivo)
 - Limpe botão e campainha

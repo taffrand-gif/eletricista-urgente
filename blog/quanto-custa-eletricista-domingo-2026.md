@@ -36,14 +36,12 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 
 ## Tabela de Preços Completa 2026
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Dia | Horário Normal (8h-20h) | Horário Noturno (20h-8h) |
 |-----|-------------------------|--------------------------|
 | **Dias Úteis (Seg-Sex)** | 70€/h | sob orçamento (+50%) |
 | **Sábado** | sob orçamento | sob orçamento (+50%) |
 | **Domingo/Feriado** | sob orçamento | sob orçamento (+50%) |
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Zona | Localidades | Preço | Tempo |
 |------|-------------|-------|-------|
 | Zona 1 | Bragança centro, Gimonde, Rabal | 15€ | 10-15 min |
@@ -55,7 +53,6 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 
 *Nota: Deslocação cobrada apenas uma vez por intervenção, independentemente da duração.*
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 
 ### Exemplo 1: Disjuntor que Salta (Domingo 14h, Bragança)
 

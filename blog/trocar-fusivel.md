@@ -22,14 +22,12 @@ Neste guia completo, vamos explicar **como identificar um fusível queimado**, o
 
 ## O Que É Um Fusível e Como Funciona?
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 Um fusível é um **dispositivo de proteção** que:
 - Protege cabos elétricos contra sobreaquecimento
 - Interrompe corrente quando ultrapassa limite seguro
 - Previne incêndios causados por sobrecarga ou curto-circuito
 - **Sacrifica-se** (queima) para proteger a instalação
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Componente principal:** Fio metálico fino (liga de chumbo-estanho)
 
 **Processo:**
@@ -144,7 +142,6 @@ Um fusível é um **dispositivo de proteção** que:
 - Trabalhar com eletricidade ligada pode causar **choque elétrico fatal**
 - Se não se sentir confortável, chame eletricista com experiência
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Fusível novo (amperagem correta)
 - Lanterna (se ficar sem luz)
 - Multímetro (opcional, para teste)
@@ -291,7 +288,6 @@ Um fusível é um **dispositivo de proteção** que:
 
 ## Fusível vs Disjuntor: Qual é Melhor?
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Característica | Fusível | Disjuntor |
 |----------------|---------|-----------|
 | **Custo inicial** | €1.50-5 | €8-25 |
@@ -356,7 +352,6 @@ Um fusível é um **dispositivo de proteção** que:
 
 ## Onde Comprar Fusíveis em Trás-os-Montes
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Bragança:**
 - Lojas de material elétrico
 - Ferragens
@@ -366,7 +361,6 @@ Um fusível é um **dispositivo de proteção** que:
 - Mirandela, Trás-os-Montes, Miranda do Douro
 - Ferragens locais
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - Amazon.pt
 - Worten
 - Lojas especializadas

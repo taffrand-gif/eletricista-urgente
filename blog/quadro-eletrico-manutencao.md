@@ -17,7 +17,6 @@ priority: "HIGH DEMAND"
 
 ## 🔍 O Que É o Quadro Elétrico?
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Quadro elétrico = Centro de controlo e proteção**
 
 **Funções principais:**
@@ -26,7 +25,6 @@ priority: "HIGH DEMAND"
 3. **Proteger** pessoas contra choques elétricos
 4. **Permitir** desligar circuitos individualmente
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Disjuntor Geral**
 - Desliga toda a casa
 - Geralmente 40-63A
@@ -187,7 +185,6 @@ priority: "HIGH DEMAND"
 
 ## 🔄 Quando Substituir o Quadro Elétrico?
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Idade (> 25-30 anos)**
 - Tecnologia antiga
 - Componentes desgastados
@@ -218,7 +215,6 @@ priority: "HIGH DEMAND"
 - Inspeção reprovou
 - Venda/arrendamento de imóvel
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Quadro Básico (€150-300)**
 - 1 diferencial 30mA
 - 4-6 disjuntores magnetotérmicos
@@ -241,7 +237,6 @@ priority: "HIGH DEMAND"
 - Contador de energia
 - Domótica integrada
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Avaliação (€80-150)**
 - Eletricista avalia instalação
 - Dimensiona novo quadro
@@ -263,7 +258,6 @@ priority: "HIGH DEMAND"
 
 ## 💰 Custos de Manutenção e Arranjo
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Preço em Trás-os-Montes |
 |---------|-------------------------|
 | Inspeção visual (DIY) | Grátis |
@@ -272,7 +266,6 @@ priority: "HIGH DEMAND"
 | Inspeção profissional anual | €80-150 |
 | Termografia (detetar pontos quentes) | €100-200 |
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Preço |
 |---------|-------|
 | Substituir disjuntor magnetotérmico | €40-80 |
@@ -281,7 +274,6 @@ priority: "HIGH DEMAND"
 | Adicionar circuito novo | €80-200 |
 | Arranjar oxidação/humidade | €80-200 |
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Trabalho | Preço |
 |----------|-------|
 | Quadro básico (4-6 circuitos) | €500-900 |
@@ -294,7 +286,6 @@ priority: "HIGH DEMAND"
 
 ## 🛡️ Segurança do Quadro Elétrico
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **NUNCA:**
 ❌ Toque em partes metálicas com corrente ligada 
 ❌ Trabalhe no quadro sem desligar disjuntor geral 
@@ -311,7 +302,6 @@ priority: "HIGH DEMAND"
 ✅ Identifique circuitos claramente 
 ✅ Chame profissional se não tem certeza
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Ideal:**
 - Local seco (não cave húmida)
 - Ventilado
@@ -327,7 +317,6 @@ priority: "HIGH DEMAND"
 - Exterior sem proteção
 - Locais de difícil acesso
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Se tem crianças:**
 - Mantenha quadro sempre fechado
 - Use cadeado se necessário
@@ -336,22 +325,18 @@ priority: "HIGH DEMAND"
 
 ## 📋 Checklist de Manutenção
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - [ ] Inspeção visual (sinais de aquecimento, humidade, danos)
 - [ ] Teste botão TEST do diferencial
 - [ ] Verificar que quadro está limpo
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - [ ] Teste todos os disjuntores (ligar/desligar)
 - [ ] Verificar identificação dos circuitos
 - [ ] Limpar poeira acumulada
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - [ ] Limpeza profunda (com disjuntor geral desligado)
 - [ ] Verificar aperto de parafusos visíveis (se seguro)
 - [ ] Atualizar etiquetas se necessário
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 - [ ] Inspeção profissional por eletricista
 - [ ] Termografia (se disponível)
 - [ ] Verificar conformidade com normas

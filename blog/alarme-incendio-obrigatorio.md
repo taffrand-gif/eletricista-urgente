@@ -254,7 +254,6 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 
 ---
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Localização:**
 - ✅ Teto (melhor) ou parede alta (30 cm do teto)
 - ✅ Centro da divisão (fumo sobe e espalha)
@@ -335,7 +334,6 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 
 ---
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Custo | Tempo |
 |---------|-------|-------|
 | Instalar 1 detetor (pilhas) | €30-50 | 20 min |
@@ -369,7 +367,6 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 
 ## 🔋 Manutenção e Testes
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Teste do alarme (5 minutos):**
 1. Pressione botão TEST
 2. Alarme deve soar (alto!)
@@ -380,7 +377,6 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 
 ---
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Limpeza (10 minutos por detetor):**
 1. Remover detetor da base
 2. Aspirar pó (suavemente)
@@ -392,7 +388,6 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 
 ---
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Quando:**
 - Alarme do lavatório" periodicamente (aviso pilha fraca)
 - Teste não funciona
@@ -407,7 +402,6 @@ Em Trás-os-Montes, onde muitas casas usam aquecimento a lenha, esquentadores a 
 
 ---
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Vida útil:**
 - Detetor fumo/calor: 10 anos
 - Detetor CO: 5-7 anos

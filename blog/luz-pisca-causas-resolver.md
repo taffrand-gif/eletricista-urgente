@@ -275,14 +275,12 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 
 ## 💰 Custos de Arranjo em Trás-os-Montes (2026)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Problema | Solução | Custo | Tempo |
 |----------|---------|-------|-------|
 | Lâmpada solta | Apertar | €0 | 2 min |
 | Lâmpada defeituosa | Substituir | €3-12 | 5 min |
 | Ficha danificada | Substituir | €3-10 | 15 min |
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Custo | Tempo | Garantia |
 |---------|-------|-------|----------|
 | Substituir interruptor | €40-70 | 30 min | 2 anos |
@@ -291,7 +289,6 @@ Em Trás-os-Montes, onde muitas casas têm instalações elétricas antigas (30-
 | Instalar circuito novo | €150-300 | 2-4h | 2 anos |
 | Inspeção elétrica completa | €200-350 | 4-6h | Certificado |
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Upgrade | Custo | Benefício |
 |---------|-------|-----------|
 | Substituir todos interruptores (T3) | €300-500 | Segurança + estética |

@@ -239,7 +239,6 @@ O problema é:
 
 ## 💰 Custos de Arranjo em Trás-os-Montes (2026)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Problema | Solução | Custo | Tempo |
 |----------|---------|-------|-------|
 | Lâmpada queimada | Substituir | €3-12 | 5 min |
@@ -248,7 +247,6 @@ O problema é:
 
 **Total DIY:** €0-12
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Serviço | Custo | Tempo | Garantia |
 |---------|-------|-------|----------|
 | Substituir interruptor simples | €40-70 | 30 min | 2 anos |
@@ -259,7 +257,6 @@ O problema é:
 | Arranjo no quadro | €100-300 | 1-3h | 2 anos |
 | Emergência 24h | +50% | Imediato | 30 dias |
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Upgrade | Custo | Benefício |
 |---------|-------|-----------|
 | Interruptor moderno (/| €50-80 | Durabilidade 20+ anos |
