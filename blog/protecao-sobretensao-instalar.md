@@ -397,7 +397,7 @@ keywords: ["proteção sobretensão", "DPS", "raios", "picos tensão", "Trás-os
 - Substituição se necessário
 - Contratos disponíveis
 
-- **30-60 minutos** em Bragança, Mirandela, Macedo
+- A janela de chegada é confirmada por telefone e depende da situação operacional.
 - 24h/7d incluindo feriados
 - Substituição urgente DPS
 - Stock equipamentos

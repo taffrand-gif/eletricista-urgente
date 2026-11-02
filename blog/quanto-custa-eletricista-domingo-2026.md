@@ -183,7 +183,7 @@ Chamar um eletricista ao domingo custa mais por várias razões legítimas:
 **Sim.** Aceitamos dinheiro, MB Way, Multibanco e transferência bancária.
 
 ### 4. Quanto tempo demoram a chegar ao domingo?
-**15-90 minutos** conforme localização. Bragança e arredores: 15-40 min. Zonas mais afastadas: até 90 min.
+A janela de chegada é confirmada por telefone e depende da situação operacional.
 
 ### 5. Trabalham feriados?
 **Sim, 365 dias/ano.** Feriados têm o mesmo preço que domingos (sob orçamento horário normal, sob orçamento noturno).

@@ -370,7 +370,7 @@ Orçamento escrito detalhado, sem surpresas
 Material + mão obra
 
 ### ✅ Disponível Atendimento 24h/7d
-Urgências atendidas em 15-90 min
+A janela de chegada é confirmada por telefone e depende da situação operacional.
 
 ### ✅ Equipamento Profissional
 Megger, multímetro, detetor cabos

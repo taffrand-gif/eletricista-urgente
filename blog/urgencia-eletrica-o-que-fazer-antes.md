@@ -433,7 +433,7 @@ Se sem luz, eletricista precisa ver.
 **NÃO.** Se disparou, há problema real. Religar pode causar incêndio ou choque.
 
 ### 2. Quanto tempo eletricista demora chegar?
-**15-90 minutos** conforme localização. Bragança: 15-40 min. Zonas afastadas: até 90 min.
+A janela de chegada é confirmada por telefone e depende da situação operacional.
 
 ### 3. Posso usar velas enquanto espero?
 **Sim, MAS com cuidado.** Nunca perto cortinas, papéis. Melhor: lanterna LED.

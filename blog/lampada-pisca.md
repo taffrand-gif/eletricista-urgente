@@ -449,7 +449,7 @@ Uma lâmpada que pisca não é apenas irritante — pode indicar **problemas el�
 **📞 Ligue JÁ: [Contacto por telefone ou WhatsApp](tel:+351932321892)**
 
 **Serviço rápido em:**
-- Bragança e arredores (30 minutos)
+- Bragança e arredores
 - Mirandela, Trás-os-Montes, Miranda do Douro
 - Toda a região de Trás-os-Montes
 
