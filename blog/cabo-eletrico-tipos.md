@@ -17,7 +17,6 @@ priority: "TRENDING"
 
 ## 🔍 Anatomia de um Cabo Elétrico
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Condutor (núcleo)**
 - Material: Cobre (mais comum) ou alumínio
 - Conduz a eletricidade
@@ -33,7 +32,6 @@ priority: "TRENDING"
 - Resistência mecânica
 - Pode ter várias camadas
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Exemplo: H05VV-F 3G1,5**
 
 **H** = Cabo harmonizado (norma europeia) 
@@ -166,7 +164,6 @@ priority: "TRENDING"
 
 ## 📏 Secções de Cabos: Como Escolher
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Aplicação | Secção Mínima | Disjuntor | Potência Máxima |
 |-----------|---------------|-----------|-----------------|
 | Iluminação | 1,5mm² | 10A | 2.300W |
@@ -178,7 +175,6 @@ priority: "TRENDING"
 | Equipamento de climatização (não instalamos) | 2,5-4mm² | 16-25A | 3.680-5.750W |
 | Termoacumulador | 2,5-4mm² | 16-20A | 3.680-4.600W |
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Fórmula simplificada:**
 
 **Secção (mm²) = (Potência × Comprimento) / (Tensão × Queda de tensão × Condutividade)**
@@ -196,7 +192,6 @@ priority: "TRENDING"
 
 **Regra prática:** Quanto maior a distância ou potência, maior a secção.
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **2×1,5mm² (2 condutores):**
 - Fase + Neutro
 - Sem terra
@@ -252,7 +247,6 @@ priority: "TRENDING"
 
 **Preços variam:** Marca, quantidade, loja.
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Lojas especializadas:**
 - Melhor qualidade
 - Aconselhamento técnico
@@ -304,7 +298,6 @@ priority: "TRENDING"
 
 ## 🔧 Instalação de Cabos: Boas Práticas
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Sempre use:**
 - Tubo VD em paredes/tetos
 - Calha em instalações à vista
@@ -315,14 +308,12 @@ priority: "TRENDING"
 - Cabo exposto a danos mecânicos
 - Cabo sem proteção em zonas de passagem
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Raio mínimo de curvatura:**
 - Cabo flexível: 4× diâmetro
 - Cabo rígido: 6× diâmetro
 
 **Não dobre em ângulo reto** (danifica isolamento).
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Use sempre:**
 - Ligadores adequados (Wago, domino)
 - Caixas de derivação
@@ -333,7 +324,6 @@ priority: "TRENDING"
 - Ligações fora de caixas
 - Ligações em tensão
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Identifique:**
 - Circuitos no quadro
 - Cabos em caixas de derivação

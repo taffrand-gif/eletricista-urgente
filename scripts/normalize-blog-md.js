@@ -59,7 +59,7 @@ function stripTestemunhosSections(md) {
     /^###\s+[A-ZÁÉÍÓÚÂÊÔÃÕÇ][a-záéíóúâêôãõç]+(?:\s+[A-ZÁÉÍÓÚÂÊÔÃÕÇ]?[a-záéíóúâêôãõç]+|\s+[A-ZÁÉÍÓÚÂÊÔÃÕÇ]\.)*\.?,?\s*[A-ZÁÉÍÓÚÂÊÔÃÕÇ][a-záéíóúâêôãõç]+(?:\s+[A-ZÁÉÍÓÚÂÊÔÃÕÇ][a-záéíóúâêôãõç]+)*\.?\s*$/gim,
   ];
   for (const re of sections) {
-    md = md.replace(re, '## [Secção removida — testemunhos/exemplos inventados proibidos por R11]');
+    md = md.replace(re, '');  // P25 : ne jamais publier de consigne interne
   }
   // Suppression des citations inventées ("Maria S. disse:", "O Sr. João confirmou:")
   md = md.replace(/^\s*["""][^"""]+["""]\s*[-—–]\s*[A-ZÁÉÍÓÚÂÊÔÃÕÇ][a-záéíóúâêôãõç]+(?:\s+[A-ZÁÉÍÓÚÂÊÔÃÕÇ][a-záéíóúâêôãõç]+)*\.?\s*$/gm, '');

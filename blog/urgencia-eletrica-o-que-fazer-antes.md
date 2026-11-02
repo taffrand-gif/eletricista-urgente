@@ -373,7 +373,6 @@ Se sem luz, eletricista precisa ver.
 
 ## Situações Específicas
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Fazer IMEDIATAMENTE:**
 1. Desligar quadro geral
 2. Abrir janelas (ventilar)
@@ -386,7 +385,6 @@ Se sem luz, eletricista precisa ver.
 - Ignorar
 - Dormir (pode piorar noite)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Verificar PRIMEIRO:**
 1. Vizinhos têm corrente? (problema rede vs casa)
 2. Disjuntor geral está ligado?
@@ -400,7 +398,6 @@ Se sem luz, eletricista precisa ver.
 - Problema sua instalação
 - Ligar eletricista
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Se alguém levou choque:**
 
 **1. NÃO tocar pessoa** (pode levar choque também)
@@ -418,7 +415,6 @@ Se sem luz, eletricista precisa ver.
 - Identificar causa
 - Corrigir problema
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Fazer:**
 1. Desligar quadro IMEDIATAMENTE
 2. Afastar materiais inflamáveis

@@ -124,7 +124,6 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 | Zona 4 (50-70km) | 45€ | 67,50€ (+50%) |
 | Zona 5 (70-90km) | 55€ | 82,50€ (+50%) |
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 
 **Exemplo 1: Sem corrente (Terça 22h, Bragança)**
 - Deslocação Zona 1 noturna: 22,50€
@@ -341,7 +340,6 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 
 ## Equipamento Viatura 24h
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 ✅ Multímetro digital profissional
 ✅ Testador isolamento (Megger)
 ✅ Detetor cabos enterrados
@@ -349,7 +347,6 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 ✅ Testador diferencial
 ✅ Câmara térmica (detetar sobreaquecimento)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 ✅ Disjuntores (6A-63A)
 ✅ Diferenciais 30mA
 ✅ Tomadas e interruptores
@@ -358,7 +355,6 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 ✅ Fita isoladora profissional
 ✅ Conectores Wago
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 ✅ Luvas isolantes 1000V
 ✅ Capacete
 ✅ Lanterna potente
@@ -367,15 +363,11 @@ Avaria elétrica no meio da noite? Sem corrente num domingo? Este guia completo 
 
 **Resultado:**  no local, sem voltar
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 "Domingo 23h, casa sem corrente, 2 crianças pequenas e frio. Liguei, chegaram Atendimento prioritário, resolveram Atendimento prioritário. Preço justo (165€). Recomendo!"
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 "Cheiro a queimado às 3h da manhã. Atenderam logo,  (vêm de Bragança). Encontraram cabo derretido, substituíram. Salvaram-me de incêndio. Obrigado!"
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 "Sábado à noite, disjuntor a saltar constantemente. Vieram, diagnosticaram curto-circuito, arranjaram. 180€ total. Profissionais e rápidos."
 
 ## Perguntas Frequentes

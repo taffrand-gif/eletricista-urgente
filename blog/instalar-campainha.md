@@ -22,7 +22,6 @@ Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação
 
 ## Campainha Com Fios vs Sem Fios
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Característica | Com Fios | Sem Fios |
 |----------------|----------|----------|
 | **Instalação** | Complexa (elétrica) | Muito fácil (cola/parafuso) |
@@ -70,7 +69,6 @@ Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação
 
 ## PARTE 1: Campainha Sem Fios
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Botão (Emissor)**
 - Instalado na porta
 - Alimentação: 1-2 pilhas AA ou bateria
@@ -83,7 +81,6 @@ Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação
 - Volume ajustável
 - Múltiplos toques disponíveis
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Alcance:**
 - Apartamento: 50-100m suficiente
 - Moradia: 100-200m
@@ -111,7 +108,6 @@ Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação
 - Friedland (€30-100)
 - Ring (vídeo, €80-200)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Tempo:** 5-15 minutos 
 **Dificuldade:** Muito fácil 
 **Ferramentas:** Chave de fendas, fita dupla face ou parafusos
@@ -185,7 +181,6 @@ Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação
 
 ## PARTE 2: Campainha Com Fios
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Botão**
 - Instalado na porta
 - Ligado ao transformador por 2 fios
@@ -206,7 +201,6 @@ Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação
 - Secção: 0.5-1mm²
 - Comprimento: conforme necessário
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Tensão:**
 - 8V: Campainhas simples
 - 12V: Mais comum
@@ -224,7 +218,6 @@ Neste guia completo, vamos explicar **os dois tipos de campainha**, instalação
 - Cabo (por metro): €0.50-1.50
 - **Total:** €30-150
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **⚠️ AVISO:** Trabalho elétrico. Se não se sentir confortável, chame eletricista.
 
 **Tempo:** 1-3 horas 
@@ -338,7 +331,6 @@ Transformador (saída 8-24V)
 
 ## Custos em Trás-os-Montes
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Item | Preço |
 |------|-------|
 | Campainha básica | €15-30 |
@@ -348,7 +340,6 @@ Transformador (saída 8-24V)
 | **TOTAL DIY:** | **€18-208** |
 | **Instalação profissional:** | +€40-80 |
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Item | Preço |
 |------|-------|
 | Botão | €5-20 |
@@ -363,7 +354,6 @@ Transformador (saída 8-24V)
 
 ## Manutenção
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Anual:**
 - Limpe botão (pano húmido)
 - Verifique pilhas
@@ -373,7 +363,6 @@ Transformador (saída 8-24V)
 - Botão: 1-2 anos
 - Recetor (se pilhas): 6-12 meses
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Anual:**
 - Limpe botão
 - Verifique aperto de ligações
@@ -385,7 +374,6 @@ Transformador (saída 8-24V)
 
 ## Problemas Comuns
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Não toca:**
 - Pilhas gastas (80%)
 - Fora de alcance (15%)
@@ -398,7 +386,6 @@ Transformador (saída 8-24V)
 
 **Solução:** Reposicione recetor, use modelo de maior alcance
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Não toca:**
 - Ligação solta (40%)
 - Transformador defeituoso (30%)

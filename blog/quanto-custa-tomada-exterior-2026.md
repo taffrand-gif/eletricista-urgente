@@ -91,7 +91,6 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 
 ## Normas e Segurança (RTIEBT)
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **1. Altura Mínima**
 - Tomadas exteriores: mínimo 40cm do chão
 - Junto à piscina: mínimo 2m da água
@@ -117,7 +116,6 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 - Resistência <100 Ohms
 - Testada com megger
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Elemento | Distância Mínima |
 |----------|------------------|
 | **Piscina** | 2m da água |
@@ -128,7 +126,6 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 
 ## Materiais Recomendados
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Plexo (Recomendado)**
 - IP55/IP65
 - Garantia 10 anos
@@ -152,7 +149,6 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 - Preço: 20-30€
 - Apenas alpendres cobertos
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **XV 3G2.5mm² (Enterrado)**
 - Isolamento duplo
 - Resistente humidade
@@ -291,7 +287,6 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 
 ## Manutenção e Durabilidade
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 **Verificar (5 min):**
 - Tampa fecha bem
 - Vedante não está rachado
@@ -304,7 +299,6 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 - Verificar contactos
 - Religar e testar
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 | Componente | Vida Útil | Substituir Quando |
 |------------|-----------|-------------------|
 | **Tomada IP65** | 15-20 anos | Tampa não veda |
@@ -314,14 +308,12 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 
 ## Usos Comuns Tomada Exterior
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 ✅ Corta-relvas elétrico
 ✅ Aparador sebes
 ✅ Aspirador folhas
 ✅ Iluminação decorativa
 ✅ Bomba água
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 ✅ Ferramentas elétricas
 ✅ Wallbox (não instalamos — contacte empresa especializada)
 ✅ Aspirador
@@ -335,7 +327,6 @@ Precisa de tomada no jardim, garagem ou terraço? Este guia completo explica qua
 ✅ Aquecedor
 ✅ Aspirador
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
 ✅ Iluminação
 ✅ Aquecedores exterior
 ✅ Grelhador elétrico
