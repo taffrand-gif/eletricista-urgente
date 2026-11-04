@@ -1393,3 +1393,12 @@ Aucun chevauchement avec les PR ouvertes **#307** et **#308** (vérifié). Aucun
 - Périmètre public : uniquement les 32 HTML du manifeste, dans le pilote de 116 URL. Référence conservée : 52 apparitions de couche (35 visibles + 17 JSON-LD), réconciliées dans `tests/fixtures/eu-p0-32-count-reconciliation.md`; les variantes de zones, totaux et attributs obsolètes sont détaillées dans les CSV d’audit.
 - Vérifications locales : scanner renforcé 116/116 sans résidu ni erreur; 11 tests scanner et tests du renderer passés; second passage du correcteur sans changement; génération blog déterministe; `git diff --check` propre. Scripts JavaScript non-JSON-LD, canonical et CTA inchangés.
 - Ce lot ne modifie aucune autre page, PR ou site. Aucun merge ni déploiement de production effectué.
+
+
+## 2026-11-04 — Horaires du générateur de pages piliers EU (PR draft)
+
+- Base vérifiée : `main` `4ae43b83a6460749e0d7580b6847131de4e700cb`. Générateur : `scripts/prerender-piliers-eu.mjs`; sorties prévues : `eletricista-urgente-braganca.html`, `eletricista-urgente-macedo-de-cavaleiros.html`, `eletricista-urgente-mirandela.html`.
+- Précontrôle public des trois routes : HTTP 200, canonical auto-référente, `index,follow`, absentes des sitemaps testés. Les pages servies ont déjà 09:00–18:00; le générateur contenait encore deux chaînes 09:00–17:00 (FAQ JSON-LD et tableau visible) réutilisées pour les trois sorties.
+- Correction limitée à ces deux chaînes; test ajouté pour les trois rendus, grille 70/30 et 100/50, absence de marqueurs hérités/ETA chiffrée et idempotence. Aucun HTML généré n’est inclus dans le changement.
+- Limite préexistante documentée : TTC et heure commencée due ne figurent pas visiblement dans le template ni les trois pages publiques; non modifiés dans ce lot horaire.
+- Branche dédiée; aucun passage en Ready, merge ni déploiement de production autorisé ou effectué.
