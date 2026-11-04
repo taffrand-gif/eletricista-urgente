@@ -27,7 +27,13 @@ try {
   assert.match(html, /<h1>Teste de Segurança Elétrica<\/h1>/);
   assert.match(html, /class="direct-answer"/);
   assert.match(html, /70 €\/h/);
-  assert.match(html, /Z1=15 € \/ Z2=25 € \/ Z3=35 € \/ Z4=45 € \/ Z5=55 € \/ Z6=65 €/);
+  assert.match(html, /30 € de deslocação.*09h às 18h/i);
+  assert.match(html, /100 €\/h \+ 50 € de deslocação.*fins de semana e feriados/i);
+  assert.match(html, /Valores com IVA incluído \(TTC\)/);
+  assert.match(html, /Cada hora iniciada é devida/);
+  assert.match(html, /A janela de chegada é confirmada por telefone e depende da situação operacional/);
+  assert.doesNotMatch(html, /\bZ[1-6]\b|\+\s*50\s*%|9h–17h|09:00–17:00/i);
+  assert.doesNotMatch(html, /"price":"70"/, 'JSON-LD must not publish a fixed €70 price');
   assert.match(html, /orçamento por escrito antes de qualquer intervenção, sem surpresas/i);
   assert.match(html, /fala sempre com a mesma pessoa, não um call center/i);
   assert.match(html, /href="tel:\+351932321892"/);
@@ -40,6 +46,10 @@ try {
 
   const safeFindings = auditConformity(html);
   assert.equal(safeFindings.length, 0, `generated HTML must pass conformity gate: ${JSON.stringify(safeFindings)}`);
+
+  const legacyFindings = auditConformity('Zona Z6, deslocação 65 €, +50% à noite e horário 9h–17h.');
+  assert.ok(legacyFindings.some((finding) => finding.label.includes('ancienne grille')),
+    'renderer gate must reject old zones, travel fees, surcharges and hours');
 
   const ldBlocks = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];
   assert.ok(ldBlocks.length >= 3, 'renderer must emit at least three JSON-LD blocks');

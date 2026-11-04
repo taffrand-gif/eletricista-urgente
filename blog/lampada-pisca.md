@@ -136,7 +136,7 @@ Antes de diagnosticar, é importante distinguir os diferentes tipos de piscar:
 **Solução:**
 - **Limpar rosca:** €0 (DIY)
 - **Ajustar contacto central:** €0 (DIY)
-- **Substituir casquilho:** €5-15 + €40-80 (instalação)
+- **Substituir casquilho:** custo do material variável; mão de obra faturada segundo a grelha horária oficial.
 - **Dificuldade:** Fácil (limpeza) a Média (substituição)
 
 **Como limpar rosca:**
@@ -169,7 +169,7 @@ Antes de diagnosticar, é importante distinguir os diferentes tipos de piscar:
 4. Se problema persiste → não é o interruptor
 
 **Solução:**
-- **Substituir interruptor:** €3-15 (material) + €40-80 (instalação)
+- **Substituir interruptor:** custo do material variável; mão de obra faturada segundo a grelha horária oficial.
 - **DIY:** Possível mas requer cuidado (trabalho elétrico)
 - **Dificuldade:** Média
 
@@ -202,8 +202,8 @@ Antes de diagnosticar, é importante distinguir os diferentes tipos de piscar:
 4. Se não encontrar → chame eletricista (pode estar oculto)
 
 **Solução:**
-- **Reapertar ligações:** €40-80
-- **Substituir cabo danificado:** €80-200 (depende do comprimento)
+- **Reapertar ligações:** mão de obra faturada segundo a grelha horária oficial.
+- **Substituir cabo danificado:** material variável; mão de obra faturada segundo a grelha horária oficial.
 - **Dificuldade:** Média a Difícil
 
 **⚠️ PERIGO:** Ligação solta pode causar faísca e incêndio. Não ignore!
@@ -259,8 +259,8 @@ Antes de diagnosticar, é importante distinguir os diferentes tipos de piscar:
 - Termo-acumulador: 1.500-3.000W
 
 **Solução:**
-- **Criar circuito dedicado para aparelhos potentes:** €150-400
-- **Aumentar secção de cabo:** €200-600 (depende do comprimento)
+- **Criar circuito dedicado para aparelhos potentes:** mão de obra faturada segundo a grelha horária oficial; material variável.
+- **Aumentar secção de cabo:** mão de obra faturada segundo a grelha horária oficial; material variável.
 - **Redistribuir cargas:** €0 (ligar aparelhos em circuitos diferentes)
 - **Dificuldade:** Profissional recomendado
 
@@ -283,9 +283,9 @@ Antes de diagnosticar, é importante distinguir os diferentes tipos de piscar:
 - **Potência mínima:** Muitos dimmers precisam carga mínima (20-40W)
 
 **Solução:**
-- **Substituir por dimmer LED:** €25-60 (material) + €40-80 (instalação)
+- **Substituir por dimmer LED:** custo do material variável; mão de obra faturada segundo a grelha horária oficial.
 - **Usar lâmpada dimerizável de qualidade:** €8-20
-- **Remover dimmer (interruptor normal):** €3-8 + €40-60 (instalação)
+- **Remover dimmer (interruptor normal):** custo do material variável; mão de obra faturada segundo a grelha horária oficial.
 - **Dificuldade:** Média
 
 **Dimmers recomendados para LED:**
@@ -353,17 +353,13 @@ Se nenhum teste anterior identificou o problema:
 | Apertar lâmpada | €0 | 1 min | Muito fácil |
 | Substituir interruptor | €3-15 | 20-30 min | Média |
 
-## [Secção removida — testemunhos/exemplos inventados proibidos por R11]
-| Serviço | Preço Total |
-|---------|-------------|
-| Diagnóstico completo | €60-100 |
-| Substituir casquilho | €45-95 |
-| Substituir interruptor | €43-95 |
-| Arranjar ligação solta | €60-120 |
-| Substituir dimmer por LED | €65-140 |
-| Criar circuito dedicado | €150-400 |
-| Substituir cabo | €100-300 |
-| Urgência 24h | +30-50% |
+## Tarifas de intervenção elétrica
+| Período | Mão de obra | Deslocação |
+|---------|-------------|------------|
+| Dias úteis, 09h–18h | 70 €/h | 30 € |
+| Noite, fins de semana e feriados | 100 €/h | 50 € |
+
+Valores com IVA incluído (TTC). Cada hora iniciada é devida.
 
 ---
 
@@ -416,7 +412,7 @@ Corrente residual no circuito (comum com interruptores luminosos). Solução: in
 Não. Dimmer incompatível com LED ou lâmpada não dimerizável. Use dimmer LED específico + lâmpada dimerizável.
 
 **3. Quanto custa arranjar lâmpada que pisca?** 
-DIY: €0-20. Profissional: €40-120 (depende da causa).
+O serviço profissional é faturado segundo a grelha: 70 €/h + 30 € de deslocação em dias úteis, das 09h às 18h; 100 €/h + 50 € à noite, aos fins de semana e feriados. Valores com IVA incluído (TTC); cada hora iniciada é devida.
 
 **4. Posso usar lâmpada LED em dimmer antigo?** 
 Não recomendado. 80% das vezes causa piscar. Use dimmer LED específico.
@@ -442,7 +438,7 @@ Uma lâmpada que pisca não é apenas irritante — pode indicar **problemas el�
 **Estratégia recomendada:**
 1. **Teste primeiro:** Substitua lâmpada (€5-20)
 2. **Verifique contacto:** Aperte e limpe rosca (€0)
-3. **Se persistir:** Chame eletricista (€60-120)
+3. **Se persistir:** Chame um eletricista; a mão de obra e a deslocação seguem a grelha TTC acima.
 
 **Em Trás-os-Montes**, onde muitas casas têm instalações antigas (30+ anos) e humidade elevada, problemas de contacto e oxidação são comuns. **Manutenção preventiva** (limpeza anual, verificação de interruptores) evita problemas futuros.
 
@@ -450,10 +446,12 @@ Uma lâmpada que pisca não é apenas irritante — pode indicar **problemas el�
 
 **📞 Ligue JÁ: [Contacto por telefone ou WhatsApp](tel:+351932321892)**
 
-**Serviço rápido em:**
-- Bragança e arredores (30 minutos)
+**Área de atendimento:**
+- Bragança e arredores
 - Mirandela, Trás-os-Montes, Miranda do Douro
 - Toda a região de Trás-os-Montes
+
+A janela de chegada é confirmada por telefone e depende da situação operacional.
 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351932321892?text=Olá%2C%20a%20minha%20lâmpada%20não%20para%20de%20piscar.%20Podem%20ajudar%3F)**
 
@@ -462,7 +460,7 @@ Uma lâmpada que pisca não é apenas irritante — pode indicar **problemas el�
 - Diagnóstico preciso com equipamento profissional
 - Arranjo rápida (30-90 minutos)
 - Materiais de qualidade (Philips, - Garantia de 2 anos no trabalho
-- Disponível Atendimento 24h/7d para urgências
+- Atendimento telefónico humano disponível 24h/24 e 7d/7.
 
 **Não ignore o problema. Lâmpada que pisca pode indicar perigo de incêndio.**
 

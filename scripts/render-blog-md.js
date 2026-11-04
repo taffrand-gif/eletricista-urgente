@@ -9,7 +9,10 @@ const PHONE_DISPLAY = '+351 932 321 892';
 const PHONE_E164 = '+351932321892';
 const WHATSAPP = 'https://wa.me/351932321892?text=Ol%C3%A1%2C%20preciso%20de%20ajuda%20com%20uma%20avaria%20el%C3%A9trica';
 const PRICE_TEXT = '70 €/h';
-const ZONES_TEXT = '30 € de deslocação em dias úteis (9h–17h) / 50 € à noite, fins de semana e feriados';
+const ZONES_TEXT = '30 € de deslocação em dias úteis, das 09h às 18h';
+const OUT_OF_HOURS_TEXT = '100 €/h + 50 € de deslocação à noite, aos fins de semana e feriados';
+const PRICE_TERMS = 'Valores com IVA incluído (TTC). Cada hora iniciada é devida.';
+const ARRIVAL_TEXT = 'A janela de chegada é confirmada por telefone e depende da situação operacional.';
 const BATCH_LIMIT = 95;
 
 function die(message) {
@@ -211,13 +214,14 @@ function markdownToHtml(markdown) {
 const CONFORMITY_RULES = [
   ['NAP plomberie/placeholder téléphone', /(?:\b928\s*484\s*451\b|tel:\+351\*{2,})/i],
   ['contenu plomberie hors métier', /\b(?:canalizador|canalização|desentupimento|autoclismo)\b/i],
-  ['délai de réponse chiffré', /(?:resposta|chegada|chegar|técnic[oa]|demoram?)[^\n.]{0,45}\b\d+(?:[.,]\d+)?\s*(?:min(?:uto)?s?|h(?:oras?)?)\b|atendimento[^\n.]{0,45}\b\d+(?:[.,]\d+)?\s*(?:min(?:uto)?s?|horas?)\b/i],
+  ['délai de réponse chiffré', /(?:resposta(?:\s+m[ée]dia)?|chegada|chegar|técnic[oa]|demoram?)[^\n.]{0,45}\b\d+(?:[.,]\d+)?\s*(?:min(?:uto)?s?|h(?:oras?)?)\b|atendimento[^\n.]{0,45}\b\d+(?:[.,]\d+)?\s*(?:min(?:uto)?s?|horas?)(?!\s*(?:por\s+dia|\/\s*(?:7|24)\b))\b/i],
   ['promesse R145', /\b(?:resposta prioritária|resposta rápida|resposta garantida|mediante confirmação|a confirmar por telefone|chegada em minutos)\b/i],
   ['témoignage ou exemple inventé', /(?:^|\n)#{2,4}\s+(?:testemunhos?|exemplos? reais?|casos reais?|dados de \d+\+?\s*interven[çc][õo]es?|com base na nossa experi[êe]ncia)\b|\b(?:dados de )?\d+\+?\s+intervenções\b|\b(?:Maria|João|Ana)\s+[A-Z]\./im],
   ['statistique terrain non sourcée', /\b\d+(?:[.,]\d+)?\s*%\s+(?:dos|das|de)\s+casos\b|\b(?:casos|problemas) que (?:vemos|resolvemos)\b/i],
   ['document/certification émis', /\b(?:emit(?:e|imos|ir|ido)[^\n.]{0,50}(?:certificad|relatório|ficha)|fichas? eletrotécnicas?|relatório técnico|certificado em \d|certificação completa|instalações certificadas)\b/i],
   ['statut DGEG interdit', /\b(?:DGEG|registo em curso|aguardando registo|1757\/2026\/DIEN)\b/i],
-  ['prix/fourchette non sourcé', /(?:\b(?!70(?:[.,]0+)?\s*€\s*\/\s*h\b)\d+(?:[.,]\d+)?\s*€\s*(?:[-–]\s*\d+(?:[.,]\d+)?\s*€)?\s*\/\s*(?:h|hora)\b|\b\d+(?:[.,]\d+)?\s*€\s*por\s+(?:arranjar|reparar|substituir|diagn[óo]stico|interven[çc][ãa]o|m[ãa]o)|(?:desloca[çc][ãa]o|sa[íi]da)\s+(?!Z[1-6]\b)\d+\s*€)/i],
+  ['ancienne grille de zones/surcharge/horaire', /\bZ[1-6]\b|\+\s*(?:30\s*[-–]\s*)?50\s*%|\b(?:09:00|9h)\s*[–-]\s*17(?::00|h)?\b|(?:desloca[çc][ãa]o|sa[íi]da)\s*(?:de\s+)?(?:15|25|35|45|55|65)\s*€/i],
+  ['prix/fourchette non sourcé', /(?:\b(?!(?:70|100)(?:[.,]0+)?\s*€\s*\/\s*h\b)\d+(?:[.,]\d+)?\s*€\s*(?:[-–]\s*\d+(?:[.,]\d+)?\s*€)?\s*\/\s*(?:h|hora)\b|\b\d+(?:[.,]\d+)?\s*€\s*por\s+(?:arranjar|reparar|substituir|diagn[óo]stico|interven[çc][ãa]o|m[ãa]o)|(?:desloca[çc][ãa]o|sa[íi]da)\s*(?!\s*(?:30|50)\s*€)(?:de\s+)?\d+\s*€)/i],
   ['ancienneté/volume non vérifié', /\b(?:\d+\+?\s+anos? de experiência|mais de \d+ anos|\d+%\s+(?:problemas?|casos?|clientes?|interven[çc][õo]es?|avarias?)\s+(?:resolvidos?|resolvidas?|satisfeitos?))\b/i],
   ['PT-BR', /\b(?:vazamento|entupiu|disjuntor caiu|pia)\b/i],
   ['service interdit', /^(?:title:.*|##\s+.*)\b(?:pain[ée]is?\s+solares?|instala[çc][ãa]o\s+solar|bomba\s+de\s+calor|carregador(?:es)?\s+(?:de\s+)?ve[íi]culos?\s+el[ée]tricos?|carregador\s+ve|ar\s+condicionado\s+central)\b/im],
@@ -251,7 +255,7 @@ function directAnswer(frontmatter, body) {
     const first = body.split(/\n\s*\n/).find((block) => block.trim() && !block.trim().startsWith('#')) || '';
     answer = stripMarkdown(first);
   }
-  const suffix = 'A nossa equipa explica o diagnóstico, aplica 70 €/h e apresenta orçamento por escrito antes de qualquer intervenção, com deslocação fixa de 30 € em horário útil ou 50 € fora desse horário, sem surpresas na fatura.';
+  const suffix = 'A nossa equipa explica o diagnóstico e apresenta orçamento por escrito. Valores com IVA incluído (TTC): 70 €/h + 30 € de deslocação em dias úteis, das 09h às 18h; 100 €/h + 50 € à noite, aos fins de semana e feriados. Cada hora iniciada é devida.';
   while (wordCount(answer) < 40 && !answer.includes(suffix)) answer = `${answer} ${suffix}`.trim();
   const words = answer.split(/\s+/).filter(Boolean);
   if (words.length > 60) answer = `${words.slice(0, 59).join(' ').replace(/[,:;]$/, '')}.`;
@@ -315,7 +319,7 @@ function makeSchemas({ title, description, slug, date, faq, howTo, repoRoot }) {
     name: 'Norte Reparos — Eletricista Urgente',
     telephone: PHONE_E164,
     url: DOMAIN,
-    priceRange: '70 €/h–100 €/h + deslocação 30 €–50 €',
+    priceRange: 'Tarifas horárias com IVA incluído (TTC): 70 €/h + 30 € (09h–18h); 100 €/h + 50 € (noite, fins de semana e feriados)',
     areaServed,
   };
   const emergency = { '@context': 'https://schema.org', ...provider };
@@ -329,7 +333,7 @@ function makeSchemas({ title, description, slug, date, faq, howTo, repoRoot }) {
     serviceType: 'Diagnóstico e reparação de avarias elétricas',
     provider: { '@id': `${DOMAIN}/#electrician` },
     areaServed,
-    offers: { '@type': 'Offer', price: '70', priceCurrency: 'EUR', description: 'Mão de obra: 70 €/h em horário útil ou 100 €/h fora de horas; deslocação 30 € ou 50 € conforme o horário.' },
+    offers: { '@type': 'Offer', priceCurrency: 'EUR', description: 'Valores com IVA incluído (TTC). Em dias úteis, das 09h às 18h: 70 €/h de mão de obra + 30 € de deslocação. À noite, aos fins de semana e feriados: 100 €/h + 50 € de deslocação. Cada hora iniciada é devida; o valor total depende da duração da intervenção. '+ARRIVAL_TEXT },
   };
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -408,7 +412,7 @@ function renderPage(parsed, repoRoot) {
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
-  <div class="topbar"><div class="inner"><a href="/">⚡ Eletricista Urgente</a><span>Atendimento 24h/7 dias · Trás-os-Montes</span></div></div>
+  <div class="topbar"><div class="inner"><a href="/">⚡ Eletricista Urgente</a><span>Atendimento telefónico humano 24h/24 e 7d/7 · Trás-os-Montes</span></div></div>
   <main id="conteudo">
     <nav aria-label="Navegação estrutural"><a href="/">Início</a> › <a href="/blog/">Blog</a> › ${escapeHtml(title)}</nav>
     <article>
@@ -416,7 +420,8 @@ function renderPage(parsed, repoRoot) {
       <p class="direct-answer">${escapeHtml(answer)}</p>
       <section class="price-box" aria-labelledby="preco-transparente">
         <h2 id="preco-transparente">Preço transparente antes do trabalho</h2>
-        <p><strong>${PRICE_TEXT}</strong> de mão de obra · Deslocação: <strong>${ZONES_TEXT}</strong> · Noite, domingo e feriado: <strong>+50 %</strong>.</p>
+        <p><strong>${PRICE_TEXT}</strong> de mão de obra + <strong>30 € de deslocação</strong> em dias úteis, das <strong>09h às 18h</strong>. À noite, aos fins de semana e feriados: <strong>${OUT_OF_HOURS_TEXT}</strong>. ${PRICE_TERMS}</p>
+        <p>O atendimento telefónico humano está disponível 24 horas por dia, 7 dias por semana. ${ARRIVAL_TEXT}</p>
         <p><strong>Orçamento por escrito antes de qualquer intervenção, sem surpresas.</strong></p>
       </section>
       <section class="trust-box" aria-labelledby="quem-atende">
