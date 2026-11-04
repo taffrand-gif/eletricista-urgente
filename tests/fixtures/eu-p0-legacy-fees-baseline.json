@@ -1,0 +1,913 @@
+{
+  "baseline_sha": "499de0064e89f56faa0d1ad93b330f0dec4072b0",
+  "manifest_pages": 116,
+  "scanned_pages": 116,
+  "scan_errors": [],
+  "legacy_fee_occurrences_text_plus_jsonld": 52,
+  "legacy_fee_visible_text": 35,
+  "legacy_fee_jsonld": 17,
+  "target_routes": 32,
+  "legacy_fee_findings": [
+    {
+      "route": "/eletricista-corticos",
+      "source": "eletricista-corticos.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "15 € de custo de saida",
+      "context": "00 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Os valores: 15 € de custo de saida, 70 €/h de custo hora, e estimativa documentado antes da actuacao. A leitura do regime lo"
+    },
+    {
+      "route": "/eletricista-corticos",
+      "source": "eletricista-corticos.html",
+      "layer": "jsonld",
+      "rule": "legacy_travel_fee",
+      "match": "15 € de custo de saida",
+      "context": "00 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Os valores: 15 € de custo de saida, 70 €/h de custo hora, e estimativa documentado antes da actuacao. A leitura do regime lo"
+    },
+    {
+      "route": "/eletricista-lixa-do-alvao",
+      "source": "eletricista-lixa-do-alvao.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de taxa de saida",
+      "context": "s, 100 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Tarifa: 55 € de taxa de saida, 70 €/h de custo hora, e estimativa formal previo . A povoacao esta a 920 m , com 31 dias"
+    },
+    {
+      "route": "/eletricista-lixa-do-alvao",
+      "source": "eletricista-lixa-do-alvao.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de deslocacao",
+      "context": "mentacao portatil (detecao acustica, camara, compressor). Os valores: 55 € de deslocacao, 70 €/h de mao de obra, fatura com NIF, e orcamento por escrito antes de intervir. Zona e"
+    },
+    {
+      "route": "/eletricista-lixa-do-alvao",
+      "source": "eletricista-lixa-do-alvao.html",
+      "layer": "jsonld",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de taxa de saida",
+      "context": "s, 100 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Tarifa: 55 € de taxa de saida, 70 €/h de custo hora, e estimativa formal previo. A povoacao esta a 920 m, com 31 dias d"
+    },
+    {
+      "route": "/eletricista-moreira",
+      "source": "eletricista-moreira.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "65 € de custo de saida",
+      "context": "00 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Os valores: 65 € de custo de saida, 70 €/h de custo hora, e estimativa documentado antes da tarefa. A leitura do regime loca"
+    },
+    {
+      "route": "/eletricista-moreira",
+      "source": "eletricista-moreira.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "65 € de deslocacao",
+      "context": "nostico, reparacao, e teste. O orcamento por escrito discrimina tudo: 65 € de deslocacao, 70 €/h de mao de obra, materiais. Fora do horario util: 100 €/h + deslocacao 50 € a noit"
+    },
+    {
+      "route": "/eletricista-moreira",
+      "source": "eletricista-moreira.html",
+      "layer": "jsonld",
+      "rule": "legacy_travel_fee",
+      "match": "65 € de custo de saida",
+      "context": "00 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Os valores: 65 € de custo de saida, 70 €/h de custo hora, e estimativa documentado antes da tarefa. A leitura do regime loca"
+    },
+    {
+      "route": "/eletricista-remondes",
+      "source": "eletricista-remondes.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "25 € de deslocacao",
+      "context": "acao. Cada hora iniciada e devida. O orcamento por escrito discrimina 25 € de deslocacao, 70 €/h de mao de obra, e materiais. Fora do horario util: 100 €/h + deslocacao 50 € a no"
+    },
+    {
+      "route": "/eletricista-urgente-moimenta-da-beira",
+      "source": "eletricista-urgente-moimenta-da-beira.html",
+      "layer": "jsonld",
+      "rule": "legacy_travel_fee",
+      "match": "15-65€ deslocacao",
+      "context": "sob orcamento para servico, 15-65€ deslocacao conforme zona. orcamento por escrito"
+    },
+    {
+      "route": "/eletricista-vimioso",
+      "source": "eletricista-vimioso.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "45€ deslocacao",
+      "context": "e confirmada por telefone e depende da situacao operacional. Zona 3 · 45€ deslocacao · < conforme disponibilidade ⚡ Norte Reparos — Eletricista Profissional Atendimento 24h •"
+    },
+    {
+      "route": "/eletricista-vimioso",
+      "source": "eletricista-vimioso.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "Deslocacao: 35€",
+      "context": " Deslocacao 30 € / 50 € Tempo de resposta: conforme disponibilidade • Deslocacao: 35€ ja incluido Pacotes de Eletricista MAIS PEDIDO ⚡ Diagnostico Eletrico Encontramos o probl"
+    },
+    {
+      "route": "/eletricista-vimioso",
+      "source": "eletricista-vimioso.html",
+      "layer": "jsonld",
+      "rule": "legacy_travel_fee",
+      "match": "15-45€ deslocacao",
+      "context": "sob orcamento para servico, 15-45€ deslocacao conforme zona. orcamento por escrito"
+    },
+    {
+      "route": "/eletricista-sao-romao",
+      "source": "eletricista-sao-romao.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "65 € de deslocacao",
+      "context": "acao. Cada hora iniciada e devida. O orcamento por escrito discrimina 65 € de deslocacao, 70 €/h de mao de obra, e materiais. Fora do horario util: 100 €/h + deslocacao 50 € a no"
+    },
+    {
+      "route": "/eletricista-quadro-eletrico-torre-de-moncorvo",
+      "source": "eletricista-quadro-eletrico-torre-de-moncorvo.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "35€ deslocacao",
+      "context": "e confirmada por telefone e depende da situacao operacional. Zona 3 · 35€ deslocacao · < conforme disponibilidade 📞 +351 932 321 892 💬 WhatsApp ⚡ Transparencia tarifaria — El"
+    },
+    {
+      "route": "/eletricista-quadro-eletrico-torre-de-moncorvo",
+      "source": "eletricista-quadro-eletrico-torre-de-moncorvo.html",
+      "layer": "jsonld",
+      "rule": "legacy_travel_fee",
+      "match": "15-35€ deslocacao",
+      "context": "sob orcamento para servico, 15-35€ deslocacao conforme zona. orcamento por escrito"
+    },
+    {
+      "route": "/eletricista-pinhao",
+      "source": "eletricista-pinhao.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de deslocacao",
+      "context": "acao. Cada hora iniciada e devida. O orcamento por escrito discrimina 55 € de deslocacao, 70 €/h de mao de obra, e materiais. Fora do horario util: 100 €/h + deslocacao 50 € a no"
+    },
+    {
+      "route": "/eletricista-selores",
+      "source": "eletricista-selores.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "35 € de deslocacao",
+      "context": "mentacao portatil (detecao acustica, camara, compressor). Os valores: 35 € de deslocacao, 70 €/h de mao de obra, fatura com NIF, e orcamento por escrito antes de intervir. Pergun"
+    },
+    {
+      "route": "/eletricista-godim",
+      "source": "eletricista-godim.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de custo de saida",
+      "context": "00 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Os valores: 55 € de custo de saida, 70 €/h de custo hora, e estimativa formal antes da trabalho. A leitura do regime local: "
+    },
+    {
+      "route": "/eletricista-godim",
+      "source": "eletricista-godim.html",
+      "layer": "jsonld",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de custo de saida",
+      "context": "00 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Os valores: 55 € de custo de saida, 70 €/h de custo hora, e estimativa formal antes da trabalho. A leitura do regime local: "
+    },
+    {
+      "route": "/eletricista-mourao",
+      "source": "eletricista-mourao.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "35 € de deslocacao",
+      "context": "mentacao portatil (detecao acustica, camara, compressor). Os valores: 35 € de deslocacao, 70 €/h de mao de obra, fatura com NIF, e orcamento por escrito antes de intervir. O que "
+    },
+    {
+      "route": "/eletricista-urgente-carrazeda-de-ansiaes",
+      "source": "eletricista-urgente-carrazeda-de-ansiaes.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "45€ deslocacao",
+      "context": "alacoes completas, ver tambem eletricista-norte-reparos.pt . Zona 3 · 45€ deslocacao · < conforme disponibilidade Piquete dedicado para a zona do Tua 📞 LIGUE AGORA: +351 932 "
+    },
+    {
+      "route": "/eletricista-urgente-carrazeda-de-ansiaes",
+      "source": "eletricista-urgente-carrazeda-de-ansiaes.html",
+      "layer": "jsonld",
+      "rule": "legacy_travel_fee",
+      "match": "15-45€ deslocacao",
+      "context": "sob orcamento para servico, 15-45€ deslocacao conforme zona. orcamento por escrito"
+    },
+    {
+      "route": "/eletricista-urgente-mogadouro",
+      "source": "eletricista-urgente-mogadouro.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "35€ deslocacao",
+      "context": "as-os-Montes Esta pagina ⚡ Eletricista Urgente Mogadouro 24h Zona 3 · 35€ deslocacao · Resposta Piquete noturno e fim-de-semana, sob confirmacao telefonica 📞 LIGUE AGORA: +35"
+    },
+    {
+      "route": "/eletricista-urgente-mogadouro",
+      "source": "eletricista-urgente-mogadouro.html",
+      "layer": "jsonld",
+      "rule": "legacy_travel_fee",
+      "match": "15-35€ deslocacao",
+      "context": "sob orcamento para servico, 15-35€ deslocacao conforme zona. orcamento por escrito"
+    },
+    {
+      "route": "/eletricista-parada-do-pinhao",
+      "source": "eletricista-parada-do-pinhao.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "45 € de deslocacao",
+      "context": "acao. Cada hora iniciada e devida. O orcamento por escrito discrimina 45 € de deslocacao, 70 €/h de mao de obra, e materiais. Fora do horario util: 100 €/h + deslocacao 50 € a no"
+    },
+    {
+      "route": "/eletricista-quadro-eletrico-mirandela",
+      "source": "eletricista-quadro-eletrico-mirandela.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "25€ deslocacao",
+      "context": "e confirmada por telefone e depende da situacao operacional. Zona 2 · 25€ deslocacao · < conforme disponibilidade 📞 +351 932 321 892 💬 WhatsApp ⚡ Transparencia tarifaria — El"
+    },
+    {
+      "route": "/eletricista-quadro-eletrico-mirandela",
+      "source": "eletricista-quadro-eletrico-mirandela.html",
+      "layer": "jsonld",
+      "rule": "legacy_travel_fee",
+      "match": "15-25€ deslocacao",
+      "context": "sob orcamento para servico, 15-25€ deslocacao conforme zona. orcamento por escrito"
+    },
+    {
+      "route": "/eletricista-quadro-eletrico-vinhais",
+      "source": "eletricista-quadro-eletrico-vinhais.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "35€ deslocacao",
+      "context": "e confirmada por telefone e depende da situacao operacional. Zona 3 · 35€ deslocacao · < conforme disponibilidade 📞 +351 932 321 892 💬 WhatsApp ⚡ Transparencia tarifaria — El"
+    },
+    {
+      "route": "/eletricista-quadro-eletrico-vinhais",
+      "source": "eletricista-quadro-eletrico-vinhais.html",
+      "layer": "jsonld",
+      "rule": "legacy_travel_fee",
+      "match": "15-35€ deslocacao",
+      "context": "sob orcamento para servico, 15-35€ deslocacao conforme zona. orcamento por escrito"
+    },
+    {
+      "route": "/eletricista-sarraquinhos",
+      "source": "eletricista-sarraquinhos.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de deslocacao",
+      "context": "mentacao portatil (detecao acustica, camara, compressor). Os valores: 55 € de deslocacao, 70 €/h de mao de obra, fatura com NIF, e orcamento por escrito antes de intervir. Tarifa"
+    },
+    {
+      "route": "/eletricista-urgente-torre-de-moncorvo",
+      "source": "eletricista-urgente-torre-de-moncorvo.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "45€ deslocacao",
+      "context": "ntes Esta pagina ⚡ Eletricista Urgente Torre de Moncorvo 24h Zona 3 · 45€ deslocacao · < conforme disponibilidade Piquete Douro Superior, atendimento 24h 📞 LIGUE AGORA: +351 "
+    },
+    {
+      "route": "/eletricista-urgente-torre-de-moncorvo",
+      "source": "eletricista-urgente-torre-de-moncorvo.html",
+      "layer": "jsonld",
+      "rule": "legacy_travel_fee",
+      "match": "15-45€ deslocacao",
+      "context": "sob orcamento para servico, 15-45€ deslocacao conforme zona. orcamento por escrito"
+    },
+    {
+      "route": "/eletricista-valdigem",
+      "source": "eletricista-valdigem.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de deslocacao",
+      "context": "mentacao portatil (detecao acustica, camara, compressor). Os valores: 55 € de deslocacao, 70 €/h de mao de obra, fatura com NIF, e orcamento por escrito antes de intervir. Politi"
+    },
+    {
+      "route": "/eletricista-valongo-dos-azeites",
+      "source": "eletricista-valongo-dos-azeites.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de deslocacao",
+      "context": "mentacao portatil (detecao acustica, camara, compressor). Os valores: 55 € de deslocacao, 70 €/h de mao de obra, fatura com NIF, e orcamento por escrito antes de intervir. Envelo"
+    },
+    {
+      "route": "/eletricista-assares",
+      "source": "eletricista-assares.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "25 € de taxa de saida",
+      "context": "s, 100 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Tarifa: 25 € de taxa de saida, 70 €/h de custo hora, e estimativa documentado previo . A lugar esta a 265 m , com 19 di"
+    },
+    {
+      "route": "/eletricista-assares",
+      "source": "eletricista-assares.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "25 € de deslocacao",
+      "context": "mentacao portatil (detecao acustica, camara, compressor). Os valores: 25 € de deslocacao, 70 €/h de mao de obra, fatura com NIF, e orcamento por escrito antes de intervir. Posica"
+    },
+    {
+      "route": "/eletricista-assares",
+      "source": "eletricista-assares.html",
+      "layer": "jsonld",
+      "rule": "legacy_travel_fee",
+      "match": "25 € de taxa de saida",
+      "context": "s, 100 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Tarifa: 25 € de taxa de saida, 70 €/h de custo hora, e estimativa documentado previo. A lugar esta a 265 m, com 19 dias"
+    },
+    {
+      "route": "/eletricista-carva",
+      "source": "eletricista-carva.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "45 € de deslocacao",
+      "context": "acao. Cada hora iniciada e devida. O orcamento por escrito discrimina 45 € de deslocacao, 70 €/h de mao de obra, e materiais. Fora do horario util: 100 €/h + deslocacao 50 € a no"
+    },
+    {
+      "route": "/eletricista-castanheiro-do-norte",
+      "source": "eletricista-castanheiro-do-norte.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "35 € de deslocacao",
+      "context": "mentacao portatil (detecao acustica, camara, compressor). Os valores: 35 € de deslocacao, 70 €/h de mao de obra, fatura com NIF, e orcamento por escrito antes de intervir. Envelo"
+    },
+    {
+      "route": "/eletricista-cogula",
+      "source": "eletricista-cogula.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de deslocacao",
+      "context": "acao. Cada hora iniciada e devida. O orcamento por escrito discrimina 55 € de deslocacao, 70 €/h de mao de obra, e materiais. Fora do horario util: 100 €/h + deslocacao 50 € a no"
+    },
+    {
+      "route": "/eletricista-louredo",
+      "source": "eletricista-louredo.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de deslocacao",
+      "context": "mentacao portatil (detecao acustica, camara, compressor). Os valores: 55 € de deslocacao, 70 €/h de mao de obra, fatura com NIF, e orcamento por escrito antes de intervir. Tarifa"
+    },
+    {
+      "route": "/eletricista-mata-de-lobos",
+      "source": "eletricista-mata-de-lobos.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de custo de saida",
+      "context": "s, 100 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Tarifa: 55 € de custo de saida, 70 €/h de custo hora, e estimativa documentado previo . A lugar esta a 606 m , com 29 di"
+    },
+    {
+      "route": "/eletricista-mata-de-lobos",
+      "source": "eletricista-mata-de-lobos.html",
+      "layer": "jsonld",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de custo de saida",
+      "context": "s, 100 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Tarifa: 55 € de custo de saida, 70 €/h de custo hora, e estimativa documentado previo. A lugar esta a 606 m, com 29 dias"
+    },
+    {
+      "route": "/eletricista-pegarinhos",
+      "source": "eletricista-pegarinhos.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "35 € de deslocacao",
+      "context": "acao. Cada hora iniciada e devida. O orcamento por escrito discrimina 35 € de deslocacao, 70 €/h de mao de obra, e materiais. Fora do horario util: 100 €/h + deslocacao 50 € a no"
+    },
+    {
+      "route": "/eletricista-poiares",
+      "source": "eletricista-poiares.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de taxa de saida",
+      "context": "00 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Os valores: 55 € de taxa de saida, 70 €/h de custo hora, e estimativa documentado antes da operacao. A leitura do regime lo"
+    },
+    {
+      "route": "/eletricista-poiares",
+      "source": "eletricista-poiares.html",
+      "layer": "jsonld",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de taxa de saida",
+      "context": "00 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Os valores: 55 € de taxa de saida, 70 €/h de custo hora, e estimativa documentado antes da operacao. A leitura do regime lo"
+    },
+    {
+      "route": "/eletricista-quinta-do-souto",
+      "source": "eletricista-quinta-do-souto.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "35 € de deslocacao",
+      "context": "acao. Cada hora iniciada e devida. O orcamento por escrito discrimina 35 € de deslocacao, 70 €/h de mao de obra, e materiais. Fora do horario util: 100 €/h + deslocacao 50 € a no"
+    },
+    {
+      "route": "/eletricista-santa-cruz-do-douro",
+      "source": "eletricista-santa-cruz-do-douro.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "65 € de custo de saida",
+      "context": "s, 100 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Tarifa: 65 € de custo de saida, 70 €/h de custo hora, e estimativa documentado previo . A localidade esta a 449 m , com "
+    },
+    {
+      "route": "/eletricista-santa-cruz-do-douro",
+      "source": "eletricista-santa-cruz-do-douro.html",
+      "layer": "jsonld",
+      "rule": "legacy_travel_fee",
+      "match": "65 € de custo de saida",
+      "context": "s, 100 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Tarifa: 65 € de custo de saida, 70 €/h de custo hora, e estimativa documentado previo. A localidade esta a 449 m, com 11"
+    },
+    {
+      "route": "/eletricista-urgente-chaves",
+      "source": "eletricista-urgente-chaves.html",
+      "layer": "visible_text",
+      "rule": "legacy_travel_fee",
+      "match": "55€ deslocacao",
+      "context": "🚨 Eletricista Urgente Chaves 24h — 70€/h + 55€ deslocacao Inicio › Tras-os-Montes Esta pagina ⚡ Eletricista Urgente Chaves 24h Deslocacao 30 € ou 5"
+    },
+    {
+      "route": "/eletricista-urgente-chaves",
+      "source": "eletricista-urgente-chaves.html",
+      "layer": "jsonld",
+      "rule": "legacy_travel_fee",
+      "match": "15-55€ deslocacao",
+      "context": "sob orcamento para servico, 15-55€ deslocacao conforme zona. orcamento por escrito"
+    }
+  ],
+  "raw_html_legacy_fee_findings": [
+    {
+      "route": "/eletricista-corticos",
+      "source": "eletricista-corticos.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "15 € de custo de saida",
+      "context": "00 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Os valores: 15 € de custo de saida, 70 €/h de custo hora, e estimativa documentado antes da actuacao. A leitura do regime lo"
+    },
+    {
+      "route": "/eletricista-corticos",
+      "source": "eletricista-corticos.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "15 € de custo de saida",
+      "context": "00 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Os valores: 15 € de custo de saida, 70 €/h de custo hora, e estimativa documentado antes da actuacao. A leitura do regime lo"
+    },
+    {
+      "route": "/eletricista-lixa-do-alvao",
+      "source": "eletricista-lixa-do-alvao.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de taxa de saida",
+      "context": "s, 100 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Tarifa: 55 € de taxa de saida, 70 €/h de custo hora, e estimativa formal previo. A povoacao esta a 920 m, com 31 dias d"
+    },
+    {
+      "route": "/eletricista-lixa-do-alvao",
+      "source": "eletricista-lixa-do-alvao.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de taxa de saida",
+      "context": "s, 100 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Tarifa: 55 € de taxa de saida, 70 €/h de custo hora, e estimativa formal previo . A povoacao esta a 920 m , com 31 dias"
+    },
+    {
+      "route": "/eletricista-moreira",
+      "source": "eletricista-moreira.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "65 € de custo de saida",
+      "context": "00 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Os valores: 65 € de custo de saida, 70 €/h de custo hora, e estimativa documentado antes da tarefa. A leitura do regime loca"
+    },
+    {
+      "route": "/eletricista-moreira",
+      "source": "eletricista-moreira.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "65 € de custo de saida",
+      "context": "00 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Os valores: 65 € de custo de saida, 70 €/h de custo hora, e estimativa documentado antes da tarefa. A leitura do regime loca"
+    },
+    {
+      "route": "/eletricista-moreira",
+      "source": "eletricista-moreira.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "65 € de deslocacao",
+      "context": "nostico, reparacao, e teste. O orcamento por escrito discrimina tudo: 65 € de deslocacao, 70 €/h de mao de obra, materiais. Fora do horario util: 100 €/h + deslocacao 50 € a noit"
+    },
+    {
+      "route": "/eletricista-remondes",
+      "source": "eletricista-remondes.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "25 € de deslocacao",
+      "context": "acao. Cada hora iniciada e devida. O orcamento por escrito discrimina 25 € de deslocacao, 70 €/h de mao de obra, e materiais. Fora do horario util: 100 €/h + deslocacao 50 € a no"
+    },
+    {
+      "route": "/eletricista-urgente-moimenta-da-beira",
+      "source": "eletricista-urgente-moimenta-da-beira.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "65€ deslocacao",
+      "context": "ta name=\"description\" content=\"Eletricista Urgente Moimenta da Beira. 65€ deslocacao + 70€/h. A partir de 135€ (1h). 24h. Ligue +351 932 321 892.\"><link rel=\"canonical\" href="
+    },
+    {
+      "route": "/eletricista-urgente-moimenta-da-beira",
+      "source": "eletricista-urgente-moimenta-da-beira.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "15-65€ deslocacao",
+      "context": "acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"sob orcamento para servico, 15-65€ deslocacao conforme zona. orcamento por escrito\"}},{\"@type\":\"Question\",\"name\":\"Tempo de resposta?\",\""
+    },
+    {
+      "route": "/eletricista-vimioso",
+      "source": "eletricista-vimioso.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "35€ deslocacao",
+      "context": "/title><meta name=\"description\" content=\"Eletricista Urgente Vimioso. 35€ deslocacao + 70€/h. A partir de 105€ (1h). 24h. Ligue +351 932 321 892.\"><link rel=\"canonical\" href="
+    },
+    {
+      "route": "/eletricista-vimioso",
+      "source": "eletricista-vimioso.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "15-45€ deslocacao",
+      "context": "acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"sob orcamento para servico, 15-45€ deslocacao conforme zona. orcamento por escrito\"}},{\"@type\":\"Question\",\"name\":\"Atendimento quando?\","
+    },
+    {
+      "route": "/eletricista-vimioso",
+      "source": "eletricista-vimioso.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "45€ deslocacao",
+      "context": "racional.</p></section> <div class=\"zone-info\" data-zone=\"3\">Zona 3 · 45€ deslocacao · < conforme disponibilidade</div><header role=\"banner\" style=\"background:#FF6B35;color:#"
+    },
+    {
+      "route": "/eletricista-vimioso",
+      "source": "eletricista-vimioso.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "Deslocacao: 35€",
+      "context": "size:.9rem;color:#555;\">Tempo de resposta: conforme disponibilidade • Deslocacao: 35€ ja incluido</div></div><h2 style=\"color:#FF6B35\">Pacotes de Eletricista</h2><div class=\"p"
+    },
+    {
+      "route": "/eletricista-sao-romao",
+      "source": "eletricista-sao-romao.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "65 € de deslocacao",
+      "context": "acao. Cada hora iniciada e devida. O orcamento por escrito discrimina 65 € de deslocacao, 70 €/h de mao de obra, e materiais. Fora do horario util: 100 €/h + deslocacao 50 € a no"
+    },
+    {
+      "route": "/eletricista-quadro-eletrico-torre-de-moncorvo",
+      "source": "eletricista-quadro-eletrico-torre-de-moncorvo.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "35€ deslocacao",
+      "context": "ta name=\"description\" content=\"Eletricista Urgente Torre de Moncorvo. 35€ deslocacao + 70€/h. A partir de 105€ (1h). 24h. Ligue +351 932 321 892.\"><link rel=\"canonical\" href="
+    },
+    {
+      "route": "/eletricista-quadro-eletrico-torre-de-moncorvo",
+      "source": "eletricista-quadro-eletrico-torre-de-moncorvo.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "15-35€ deslocacao",
+      "context": "acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"sob orcamento para servico, 15-35€ deslocacao conforme zona. orcamento por escrito\"}},{\"@type\":\"Question\",\"name\":\"Tempo de resposta?\",\""
+    },
+    {
+      "route": "/eletricista-quadro-eletrico-torre-de-moncorvo",
+      "source": "eletricista-quadro-eletrico-torre-de-moncorvo.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "35€ deslocacao",
+      "context": "racional.</p></section> <div class=\"zone-info\" data-zone=\"3\">Zona 3 · 35€ deslocacao · < conforme disponibilidade</div><a href=\"tel:+351932321892\" class=\"phone\">📞 +351 932 32"
+    },
+    {
+      "route": "/eletricista-pinhao",
+      "source": "eletricista-pinhao.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de deslocacao",
+      "context": "acao. Cada hora iniciada e devida. O orcamento por escrito discrimina 55 € de deslocacao, 70 €/h de mao de obra, e materiais. Fora do horario util: 100 €/h + deslocacao 50 € a no"
+    },
+    {
+      "route": "/eletricista-godim",
+      "source": "eletricista-godim.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de custo de saida",
+      "context": "00 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Os valores: 55 € de custo de saida, 70 €/h de custo hora, e estimativa formal antes da trabalho. A leitura do regime local: "
+    },
+    {
+      "route": "/eletricista-godim",
+      "source": "eletricista-godim.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de custo de saida",
+      "context": "00 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Os valores: 55 € de custo de saida, 70 €/h de custo hora, e estimativa formal antes da trabalho. A leitura do regime local: "
+    },
+    {
+      "route": "/eletricista-urgente-carrazeda-de-ansiaes",
+      "source": "eletricista-urgente-carrazeda-de-ansiaes.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "25€ deslocacao",
+      "context": "name=\"description\" content=\"Eletricista Urgente Carrazeda de Ansiaes. 25€ deslocacao + 70€/h. A partir de 95€ (1h). 24h. Ligue +351 932 321 892.\"><link rel=\"canonical\" href=\""
+    },
+    {
+      "route": "/eletricista-urgente-carrazeda-de-ansiaes",
+      "source": "eletricista-urgente-carrazeda-de-ansiaes.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "15-45€ deslocacao",
+      "context": "acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"sob orcamento para servico, 15-45€ deslocacao conforme zona. orcamento por escrito\"}},{\"@type\":\"Question\",\"name\":\"Tempo de resposta?\",\""
+    },
+    {
+      "route": "/eletricista-urgente-carrazeda-de-ansiaes",
+      "source": "eletricista-urgente-carrazeda-de-ansiaes.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "45€ deslocacao",
+      "context": "</small></p> </section> <div class=\"zone-info\" data-zone=\"3\">Zona 3 · 45€ deslocacao · < conforme disponibilidade</div><p>Piquete dedicado para a zona do Tua</p><a href=\"tel:"
+    },
+    {
+      "route": "/eletricista-urgente-mogadouro",
+      "source": "eletricista-urgente-mogadouro.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "35€ deslocacao",
+      "context": "itle><meta name=\"description\" content=\"Eletricista Urgente Mogadouro. 35€ deslocacao + 70€/h. A partir de 105€ (1h). 24h. Ligue +351 932 321 892.\"><link rel=\"canonical\" href="
+    },
+    {
+      "route": "/eletricista-urgente-mogadouro",
+      "source": "eletricista-urgente-mogadouro.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "15-35€ deslocacao",
+      "context": "acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"sob orcamento para servico, 15-35€ deslocacao conforme zona. orcamento por escrito\"}},{\"@type\":\"Question\",\"name\":\"Tempo de resposta?\",\""
+    },
+    {
+      "route": "/eletricista-urgente-mogadouro",
+      "source": "eletricista-urgente-mogadouro.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "35€ deslocacao",
+      "context": "ente Mogadouro 24h</h1> <div class=\"zone-info\" data-zone=\"3\">Zona 3 · 35€ deslocacao · Resposta</div><p>Piquete noturno e fim-de-semana, sob confirmacao telefonica</p><a href"
+    },
+    {
+      "route": "/eletricista-parada-do-pinhao",
+      "source": "eletricista-parada-do-pinhao.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "45 € de deslocacao",
+      "context": "acao. Cada hora iniciada e devida. O orcamento por escrito discrimina 45 € de deslocacao, 70 €/h de mao de obra, e materiais. Fora do horario util: 100 €/h + deslocacao 50 € a no"
+    },
+    {
+      "route": "/eletricista-quadro-eletrico-mirandela",
+      "source": "eletricista-quadro-eletrico-mirandela.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "25€ deslocacao",
+      "context": "itle><meta name=\"description\" content=\"Eletricista Urgente Mirandela. 25€ deslocacao + 70€/h. A partir de 95€ (1h). 24h. Ligue +351 932 321 892.\"><link rel=\"canonical\" href=\""
+    },
+    {
+      "route": "/eletricista-quadro-eletrico-mirandela",
+      "source": "eletricista-quadro-eletrico-mirandela.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "15-25€ deslocacao",
+      "context": "acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"sob orcamento para servico, 15-25€ deslocacao conforme zona. orcamento por escrito\"}},{\"@type\":\"Question\",\"name\":\"Tempo de resposta?\",\""
+    },
+    {
+      "route": "/eletricista-quadro-eletrico-mirandela",
+      "source": "eletricista-quadro-eletrico-mirandela.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "25€ deslocacao",
+      "context": "racional.</p></section> <div class=\"zone-info\" data-zone=\"2\">Zona 2 · 25€ deslocacao · < conforme disponibilidade</div><a href=\"tel:+351932321892\" class=\"phone\">📞 +351 932 32"
+    },
+    {
+      "route": "/eletricista-quadro-eletrico-vinhais",
+      "source": "eletricista-quadro-eletrico-vinhais.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "35€ deslocacao",
+      "context": "/title><meta name=\"description\" content=\"Eletricista Urgente Vinhais. 35€ deslocacao + 70€/h. A partir de 105€ (1h). 24h. Ligue +351 932 321 892.\"><link rel=\"canonical\" href="
+    },
+    {
+      "route": "/eletricista-quadro-eletrico-vinhais",
+      "source": "eletricista-quadro-eletrico-vinhais.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "15-35€ deslocacao",
+      "context": "acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"sob orcamento para servico, 15-35€ deslocacao conforme zona. orcamento por escrito\"}},{\"@type\":\"Question\",\"name\":\"Tempo de resposta?\",\""
+    },
+    {
+      "route": "/eletricista-quadro-eletrico-vinhais",
+      "source": "eletricista-quadro-eletrico-vinhais.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "35€ deslocacao",
+      "context": "racional.</p></section> <div class=\"zone-info\" data-zone=\"3\">Zona 3 · 35€ deslocacao · < conforme disponibilidade</div><a href=\"tel:+351932321892\" class=\"phone\">📞 +351 932 32"
+    },
+    {
+      "route": "/eletricista-urgente-torre-de-moncorvo",
+      "source": "eletricista-urgente-torre-de-moncorvo.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "35€ deslocacao",
+      "context": "ta name=\"description\" content=\"Eletricista Urgente Torre de Moncorvo. 35€ deslocacao + 70€/h. A partir de 105€ (1h). 24h. Ligue +351 932 321 892.\"><link rel=\"canonical\" href="
+    },
+    {
+      "route": "/eletricista-urgente-torre-de-moncorvo",
+      "source": "eletricista-urgente-torre-de-moncorvo.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "15-45€ deslocacao",
+      "context": "acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"sob orcamento para servico, 15-45€ deslocacao conforme zona. orcamento por escrito\"}},{\"@type\":\"Question\",\"name\":\"Tempo de resposta?\",\""
+    },
+    {
+      "route": "/eletricista-urgente-torre-de-moncorvo",
+      "source": "eletricista-urgente-torre-de-moncorvo.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "45€ deslocacao",
+      "context": "re de Moncorvo 24h</h1> <div class=\"zone-info\" data-zone=\"3\">Zona 3 · 45€ deslocacao · < conforme disponibilidade</div><p>Piquete Douro Superior, atendimento 24h</p><a href=\""
+    },
+    {
+      "route": "/eletricista-assares",
+      "source": "eletricista-assares.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "25 € de taxa de saida",
+      "context": "s, 100 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Tarifa: 25 € de taxa de saida, 70 €/h de custo hora, e estimativa documentado previo. A lugar esta a 265 m, com 19 dias"
+    },
+    {
+      "route": "/eletricista-assares",
+      "source": "eletricista-assares.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "25 € de taxa de saida",
+      "context": "s, 100 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Tarifa: 25 € de taxa de saida, 70 €/h de custo hora, e estimativa documentado previo . A lugar esta a 265 m , com 19 di"
+    },
+    {
+      "route": "/eletricista-carva",
+      "source": "eletricista-carva.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "45 € de deslocacao",
+      "context": "acao. Cada hora iniciada e devida. O orcamento por escrito discrimina 45 € de deslocacao, 70 €/h de mao de obra, e materiais. Fora do horario util: 100 €/h + deslocacao 50 € a no"
+    },
+    {
+      "route": "/eletricista-cogula",
+      "source": "eletricista-cogula.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de deslocacao",
+      "context": "acao. Cada hora iniciada e devida. O orcamento por escrito discrimina 55 € de deslocacao, 70 €/h de mao de obra, e materiais. Fora do horario util: 100 €/h + deslocacao 50 € a no"
+    },
+    {
+      "route": "/eletricista-mata-de-lobos",
+      "source": "eletricista-mata-de-lobos.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de custo de saida",
+      "context": "s, 100 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Tarifa: 55 € de custo de saida, 70 €/h de custo hora, e estimativa documentado previo. A lugar esta a 606 m, com 29 dias"
+    },
+    {
+      "route": "/eletricista-mata-de-lobos",
+      "source": "eletricista-mata-de-lobos.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de custo de saida",
+      "context": "s, 100 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Tarifa: 55 € de custo de saida, 70 €/h de custo hora, e estimativa documentado previo . A lugar esta a 606 m , com 29 di"
+    },
+    {
+      "route": "/eletricista-pegarinhos",
+      "source": "eletricista-pegarinhos.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "35 € de deslocacao",
+      "context": "acao. Cada hora iniciada e devida. O orcamento por escrito discrimina 35 € de deslocacao, 70 €/h de mao de obra, e materiais. Fora do horario util: 100 €/h + deslocacao 50 € a no"
+    },
+    {
+      "route": "/eletricista-poiares",
+      "source": "eletricista-poiares.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de taxa de saida",
+      "context": "00 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Os valores: 55 € de taxa de saida, 70 €/h de custo hora, e estimativa documentado antes da operacao. A leitura do regime lo"
+    },
+    {
+      "route": "/eletricista-poiares",
+      "source": "eletricista-poiares.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "55 € de taxa de saida",
+      "context": "00 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Os valores: 55 € de taxa de saida, 70 €/h de custo hora, e estimativa documentado antes da operacao. A leitura do regime lo"
+    },
+    {
+      "route": "/eletricista-quinta-do-souto",
+      "source": "eletricista-quinta-do-souto.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "35 € de deslocacao",
+      "context": "acao. Cada hora iniciada e devida. O orcamento por escrito discrimina 35 € de deslocacao, 70 €/h de mao de obra, e materiais. Fora do horario util: 100 €/h + deslocacao 50 € a no"
+    },
+    {
+      "route": "/eletricista-santa-cruz-do-douro",
+      "source": "eletricista-santa-cruz-do-douro.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "65 € de custo de saida",
+      "context": "s, 100 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Tarifa: 65 € de custo de saida, 70 €/h de custo hora, e estimativa documentado previo. A localidade esta a 449 m, com 11"
+    },
+    {
+      "route": "/eletricista-santa-cruz-do-douro",
+      "source": "eletricista-santa-cruz-do-douro.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "65 € de custo de saida",
+      "context": "s, 100 €/h + 50 € de deslocacao. Cada hora iniciada e devida. Tarifa: 65 € de custo de saida, 70 €/h de custo hora, e estimativa documentado previo . A localidade esta a 449 m , com "
+    },
+    {
+      "route": "/eletricista-urgente-chaves",
+      "source": "eletricista-urgente-chaves.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "55€ deslocacao",
+      "context": "th,initial-scale=1\"><title>🚨 Eletricista Urgente Chaves 24h — 70€/h + 55€ deslocacao</title><meta content=\"Tarifas TTC: 70 €/h + 30 € de deslocacao em dias uteis, 09h–18h; 10"
+    },
+    {
+      "route": "/eletricista-urgente-chaves",
+      "source": "eletricista-urgente-chaves.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "55€ deslocacao",
+      "context": "operty=\"og:title\" content=\"🚨 Eletricista Urgente Chaves 24h — 70€/h + 55€ deslocacao\"><meta property=\"og:description\" content=\"Urgencia eletrica 24h em Chaves: avaria, curto-"
+    },
+    {
+      "route": "/eletricista-urgente-chaves",
+      "source": "eletricista-urgente-chaves.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "55€ deslocacao",
+      "context": "trica 24h em Chaves: avaria, curto-circuito, quadro avariado. 70€/h + 55€ deslocacao, orcamento por escrito antes da intervencao. Ligue 932 321 892.\"><meta property=\"og:url\" "
+    },
+    {
+      "route": "/eletricista-urgente-chaves",
+      "source": "eletricista-urgente-chaves.html",
+      "layer": "raw_html",
+      "rule": "legacy_travel_fee",
+      "match": "15-55€ deslocacao",
+      "context": "acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"sob orcamento para servico, 15-55€ deslocacao conforme zona. orcamento por escrito\"}},{\"@type\":\"Question\",\"name\":\"Atendimento quando?\","
+    }
+  ],
+  "baseline_legacy_zone_findings": [
+    {
+      "route": "/eletricista-vimioso",
+      "source": "eletricista-vimioso.html",
+      "layer": "visible_text",
+      "match": "Zona 3",
+      "context": " chegada e confirmada por telefone e depende da situacao operacional. Zona 3 · 45€ deslocacao · < conforme disponibilidade ⚡ Norte Reparos — Eletricista Profissional "
+    },
+    {
+      "route": "/eletricista-quadro-eletrico-torre-de-moncorvo",
+      "source": "eletricista-quadro-eletrico-torre-de-moncorvo.html",
+      "layer": "visible_text",
+      "match": "Zona 3",
+      "context": " chegada e confirmada por telefone e depende da situacao operacional. Zona 3 · 35€ deslocacao · < conforme disponibilidade 📞 +351 932 321 892 💬 WhatsApp ⚡ Transparenc"
+    },
+    {
+      "route": "/eletricista-urgente-carrazeda-de-ansiaes",
+      "source": "eletricista-urgente-carrazeda-de-ansiaes.html",
+      "layer": "visible_text",
+      "match": "Zona 3",
+      "context": "Para instalacoes completas, ver tambem eletricista-norte-reparos.pt . Zona 3 · 45€ deslocacao · < conforme disponibilidade Piquete dedicado para a zona do Tua 📞 LIGUE"
+    },
+    {
+      "route": "/eletricista-urgente-mogadouro",
+      "source": "eletricista-urgente-mogadouro.html",
+      "layer": "visible_text",
+      "match": "Zona 3",
+      "context": "icio › Tras-os-Montes Esta pagina ⚡ Eletricista Urgente Mogadouro 24h Zona 3 · 35€ deslocacao · Resposta Piquete noturno e fim-de-semana, sob confirmacao telefonica 📞"
+    },
+    {
+      "route": "/eletricista-quadro-eletrico-mirandela",
+      "source": "eletricista-quadro-eletrico-mirandela.html",
+      "layer": "visible_text",
+      "match": "Zona 2",
+      "context": " chegada e confirmada por telefone e depende da situacao operacional. Zona 2 · 25€ deslocacao · < conforme disponibilidade 📞 +351 932 321 892 💬 WhatsApp ⚡ Transparenc"
+    },
+    {
+      "route": "/eletricista-quadro-eletrico-vinhais",
+      "source": "eletricista-quadro-eletrico-vinhais.html",
+      "layer": "visible_text",
+      "match": "Zona 3",
+      "context": " chegada e confirmada por telefone e depende da situacao operacional. Zona 3 · 35€ deslocacao · < conforme disponibilidade 📞 +351 932 321 892 💬 WhatsApp ⚡ Transparenc"
+    },
+    {
+      "route": "/eletricista-urgente-torre-de-moncorvo",
+      "source": "eletricista-urgente-torre-de-moncorvo.html",
+      "layer": "visible_text",
+      "match": "Zona 3",
+      "context": "ras-os-Montes Esta pagina ⚡ Eletricista Urgente Torre de Moncorvo 24h Zona 3 · 45€ deslocacao · < conforme disponibilidade Piquete Douro Superior, atendimento 24h 📞 L"
+    },
+    {
+      "route": "/eletricista-urgente-chaves",
+      "source": "eletricista-urgente-chaves.html",
+      "layer": "visible_text",
+      "match": "Zona 4",
+      "context": "ORA: +351 932 321 892 Diagnostico por telefone em poucos minutos • em Zona 4 • Orcamento por escrito antes da deslocacao Valores com IVA incluido (TTC): em dias uteis"
+    }
+  ],
+  "initial_scanner_rule": "audit_eu_p0_legacy_tariffs.py at baseline; raw_html is an overlapping whole-source scan, not an independent content count."
+}
