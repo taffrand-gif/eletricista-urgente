@@ -1384,3 +1384,12 @@ Sur les 6 variantes de `Quanto custa uma urgencia eletrica?` (962 fichiers), cel
 `3 min para emergências` **43→0** · `24h/7d para emergências, incluindo` **1→44** · `24h/7d` (contrôle positif) **10 195→10 195** · `Desde 135 EUR` **1→0** · `70 €/h + deslocação` (equipa.html) **0→1**.
 Structure : **89/89 blocs JSON-LD** des fichiers touchés re-parsés valides · **0** `acceptedAnswer.text` < 20 car. · `git diff --numstat` = **44 ajoutées / 44 supprimées** (1 pour 1).
 Aucun chevauchement avec les PR ouvertes **#307** et **#308** (vérifié). Aucun fichier touché n'a de jumelle `public/` → blocage n°5 non concerné.
+
+
+---
+## 2026-11-04 — Correctif EU P0 des frais fixes hérités (préparation locale)
+
+- Branche dédiée `cue/eu-p0-fixed-fees-20261104`, base main `499de0064e89f56faa0d1ad93b330f0dec4072b0`.
+- Périmètre public : uniquement les 32 HTML du manifeste, dans le pilote de 116 URL. Référence conservée : 52 apparitions de couche (35 visibles + 17 JSON-LD), réconciliées dans `tests/fixtures/eu-p0-32-count-reconciliation.md`; les variantes de zones, totaux et attributs obsolètes sont détaillées dans les CSV d’audit.
+- Vérifications locales : scanner renforcé 116/116 sans résidu ni erreur; 11 tests scanner et tests du renderer passés; second passage du correcteur sans changement; génération blog déterministe; `git diff --check` propre. Scripts JavaScript non-JSON-LD, canonical et CTA inchangés.
+- Ce lot ne modifie aucune autre page, PR ou site. Aucun merge ni déploiement de production effectué.

@@ -1,0 +1,33 @@
+route,source,visible_fee_occurrences,jsonld_fee_occurrences,old_formulations,generator,correction_status
+/eletricista-assares,eletricista-assares.html,2,1,25 € de deslocacao | 25 € de taxa de saida,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-carva,eletricista-carva.html,1,0,45 € de deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-castanheiro-do-norte,eletricista-castanheiro-do-norte.html,1,0,35 € de deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-cogula,eletricista-cogula.html,1,0,55 € de deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-corticos,eletricista-corticos.html,1,1,15 € de custo de saida,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-godim,eletricista-godim.html,1,1,55 € de custo de saida,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-lixa-do-alvao,eletricista-lixa-do-alvao.html,2,1,55 € de deslocacao | 55 € de taxa de saida,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-louredo,eletricista-louredo.html,1,0,55 € de deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-mata-de-lobos,eletricista-mata-de-lobos.html,1,1,55 € de custo de saida,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-moreira,eletricista-moreira.html,2,1,65 € de custo de saida | 65 € de deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-mourao,eletricista-mourao.html,1,0,35 € de deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-parada-do-pinhao,eletricista-parada-do-pinhao.html,1,0,45 € de deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-pegarinhos,eletricista-pegarinhos.html,1,0,35 € de deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-pinhao,eletricista-pinhao.html,1,0,55 € de deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-poiares,eletricista-poiares.html,1,1,55 € de taxa de saida,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-quadro-eletrico-mirandela,eletricista-quadro-eletrico-mirandela.html,1,1,15-25€ deslocacao | 25€ deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-quadro-eletrico-torre-de-moncorvo,eletricista-quadro-eletrico-torre-de-moncorvo.html,1,1,15-35€ deslocacao | 35€ deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-quadro-eletrico-vinhais,eletricista-quadro-eletrico-vinhais.html,1,1,15-35€ deslocacao | 35€ deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-quinta-do-souto,eletricista-quinta-do-souto.html,1,0,35 € de deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-remondes,eletricista-remondes.html,1,0,25 € de deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-santa-cruz-do-douro,eletricista-santa-cruz-do-douro.html,1,1,65 € de custo de saida,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-sao-romao,eletricista-sao-romao.html,1,0,65 € de deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-sarraquinhos,eletricista-sarraquinhos.html,1,0,55 € de deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-selores,eletricista-selores.html,1,0,35 € de deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-urgente-carrazeda-de-ansiaes,eletricista-urgente-carrazeda-de-ansiaes.html,1,1,15-45€ deslocacao | 45€ deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-urgente-chaves,eletricista-urgente-chaves.html,1,1,15-55€ deslocacao | 55€ deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-urgente-mogadouro,eletricista-urgente-mogadouro.html,1,1,15-35€ deslocacao | 35€ deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-urgente-moimenta-da-beira,eletricista-urgente-moimenta-da-beira.html,0,1,15-65€ deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-urgente-torre-de-moncorvo,eletricista-urgente-torre-de-moncorvo.html,1,1,15-45€ deslocacao | 45€ deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-valdigem,eletricista-valdigem.html,1,0,55 € de deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-valongo-dos-azeites,eletricista-valongo-dos-azeites.html,1,0,55 € de deslocacao,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente
+/eletricista-vimioso,eletricista-vimioso.html,2,1,15-45€ deslocacao | 45€ deslocacao | Deslocacao: 35€,none (static HTML source),Corrigé localement; scanner 116/116 à zéro; Preview en attente

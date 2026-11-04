@@ -220,7 +220,6 @@ const CONFORMITY_RULES = [
   ['statistique terrain non sourcée', /\b\d+(?:[.,]\d+)?\s*%\s+(?:dos|das|de)\s+casos\b|\b(?:casos|problemas) que (?:vemos|resolvemos)\b/i],
   ['document/certification émis', /\b(?:emit(?:e|imos|ir|ido)[^\n.]{0,50}(?:certificad|relatório|ficha)|fichas? eletrotécnicas?|relatório técnico|certificado em \d|certificação completa|instalações certificadas)\b/i],
   ['statut DGEG interdit', /\b(?:DGEG|registo em curso|aguardando registo|1757\/2026\/DIEN)\b/i],
-  ['ancienne grille de zones/surcharge/horaire', /\bZ[1-6]\b|\+\s*(?:30\s*[-–]\s*)?50\s*%|\b(?:09:00|9h)\s*[–-]\s*17(?::00|h)?\b|(?:desloca[çc][ãa]o|sa[íi]da)\s*(?:de\s+)?(?:15|25|35|45|55|65)\s*€/i],
   ['prix/fourchette non sourcé', /(?:\b(?!(?:70|100)(?:[.,]0+)?\s*€\s*\/\s*h\b)\d+(?:[.,]\d+)?\s*€\s*(?:[-–]\s*\d+(?:[.,]\d+)?\s*€)?\s*\/\s*(?:h|hora)\b|\b\d+(?:[.,]\d+)?\s*€\s*por\s+(?:arranjar|reparar|substituir|diagn[óo]stico|interven[çc][ãa]o|m[ãa]o)|(?:desloca[çc][ãa]o|sa[íi]da)\s*(?!\s*(?:30|50)\s*€)(?:de\s+)?\d+\s*€)/i],
   ['ancienneté/volume non vérifié', /\b(?:\d+\+?\s+anos? de experiência|mais de \d+ anos|\d+%\s+(?:problemas?|casos?|clientes?|interven[çc][õo]es?|avarias?)\s+(?:resolvidos?|resolvidas?|satisfeitos?))\b/i],
   ['PT-BR', /\b(?:vazamento|entupiu|disjuntor caiu|pia)\b/i],
@@ -228,12 +227,37 @@ const CONFORMITY_RULES = [
   ['pronom client interdit', /(?<![a-záéíóúâêôãõç])(?:^|\.\s+)eu\s+(?:sou|faço|trabalho|posso|tenho|vou|vim|estou|aconselho|garanto|sugiro|recomendo|indico|preocupo|trato|atendo|mantenho|considero|costumo|preciso|prefiro|desejo|gosto|quisera|queria)\b|(?<![a-záéíóúâêôãõç])\bmeu\s+(?:contacto|telefone|número|email|preço|orçamento|cliente|serviço|empresa|trabalho)\b|(?<![a-záéíóúâêôãõç])\bminha\s+(?:empresa|marca|opinião|experiência|abordagem)\b|\bsozinho\s*,|\bcontacto\s+pessoal\b|\bfalar\s+comigo\b|(?<![a-záéíóúâêôãõç])posso\s+fazer\s+sozinho\b/i],
 ];
 
+function auditLegacyTariffs(source) {
+  const normalized = source.normalize('NFKD').replace(/[\u0300-\u036f]/g, '');
+  const oldNumber = String.raw`(?:15|25|35|45|55|65)(?:[.,]0{1,2})?`;
+  const currency = String.raw`(?:€|eur(?:o|os)?)`;
+  const oldMoney = String.raw`${oldNumber}\s*${currency}`;
+  const oldRange = String.raw`${oldNumber}\s*(?:${currency}\s*)?(?:[-–—]|\s+(?:a|ate)\s+)\s*${oldNumber}\s*${currency}`;
+  const feeTerm = String.raw`(?:deslocac(?:ao|oes)|taxas?\s+(?:de\s+)?saida|custos?\s+(?:de\s+)?(?:deslocac(?:ao|oes)|saida)|valores?\s+(?:de\s+)?(?:deslocac(?:ao|oes)|saida)|precos?\s+(?:de\s+)?(?:deslocac(?:ao|oes)|saida)|tarifas?\s+(?:de\s+)?(?:deslocac(?:ao|oes)|saida)|despesas?\s+(?:de\s+)?deslocac(?:ao|oes)|saidas?)`;
+  const patterns = [
+    /\bZ\s*[1-6]\b/i,
+    /\+\s*(?:30\s*[-–—]\s*)?50\s*%/i,
+    /\b(?:mais|acrescimo|majoracao|sobretaxa|adicional)\s+(?:de\s+)?(?:30\s*[-–—]\s*)?50\s*%(?!\w)/i,
+    /\b0?9(?:\s*h|:00)\s*[-–—]\s*17(?:\s*h|:00)?\b/i,
+    /\b0?8(?:\s*h|:00)\s*[-–—]\s*18(?:\s*h|:00)?\b/i,
+    new RegExp(String.raw`(?:${oldRange}|${oldMoney})\s*(?:(?:de|da|do|para|por)\s+)?${feeTerm}\b`, 'i'),
+    new RegExp(String.raw`\b${feeTerm}\b\s*(?:[:=\-–—]\s*)?(?:(?:de|da|do|para|por)\s+)?(?:${oldRange}|${oldMoney})`, 'i'),
+  ];
+  for (const regex of patterns) {
+    const match = normalized.match(regex);
+    if (match) return { label: 'ancienne grille de zones/frais/surcharge/horaire', sample: stripMarkdown(match[0]).slice(0, 100) };
+  }
+  return null;
+}
+
 function auditConformity(source) {
   const findings = [];
   for (const [label, regex] of CONFORMITY_RULES) {
     const match = source.match(regex);
     if (match) findings.push({ label, sample: stripMarkdown(match[0]).slice(0, 100) });
   }
+  const legacyTariff = auditLegacyTariffs(source);
+  if (legacyTariff) findings.push(legacyTariff);
   return findings;
 }
 
@@ -478,6 +502,11 @@ function main() {
       const parsed = parseFrontmatter(source);
       parsed.data.__source = file;
       const page = renderPage(parsed, repoRoot);
+      const generatedFindings = auditConformity(page.html);
+      if (generatedFindings.length) {
+        blocked.push({ file, findings: generatedFindings });
+        continue;
+      }
       rendered.push({ file, ...page });
     } catch (error) {
       blocked.push({ file, findings: [{ label: error.message, sample: '' }] });
