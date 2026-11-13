@@ -1851,11 +1851,6 @@
       "statusCode": 301
     },
     {
-      "source": "/eletricista-carregador-veiculo-eletrico-vern",
-      "destination": "/",
-      "statusCode": 301
-    },
-    {
       "source": "/eletricista-carregador-veiculo-eletrico-vidago",
       "destination": "/eletricista-urgente-vidago",
       "statusCode": 301
@@ -1906,11 +1901,6 @@
       "statusCode": 301
     },
     {
-      "source": "/eletricista-carregador-veiculo-eletrico-xinzo-de-limia",
-      "destination": "/",
-      "statusCode": 301
-    },
-    {
       "source": "/painel-solar-vale-pena",
       "destination": "/",
       "statusCode": 301
@@ -1946,18 +1936,8 @@
       "statusCode": 410
     },
     {
-      "source": "/eletricista-a-gudia",
-      "destination": "/eletricista-a-gudina",
-      "statusCode": 301
-    },
-    {
       "source": "/eletricista-campo-de-vboras",
       "destination": "/eletricista-campo-de-viboras",
-      "statusCode": 301
-    },
-    {
-      "source": "/eletricista-cerezal-de-peahorcada",
-      "destination": "/eletricista-cerezal-de-penahorcada",
       "statusCode": 301
     },
     {
@@ -1976,38 +1956,8 @@
       "statusCode": 301
     },
     {
-      "source": "/eletricista-la-pea",
-      "destination": "/eletricista-la-pena",
-      "statusCode": 301
-    },
-    {
-      "source": "/eletricista-la-vdola",
-      "destination": "/eletricista-la-vidola",
-      "statusCode": 301
-    },
-    {
-      "source": "/eletricista-pedralba-de-la-pradera",
-      "destination": "/eletricista-pedralba-de-la-praderia",
-      "statusCode": 301
-    },
-    {
-      "source": "/eletricista-perea-de-la-ribera",
-      "destination": "/eletricista-perena-de-la-ribera",
-      "statusCode": 301
-    },
-    {
-      "source": "/eletricista-samir-de-los-caos",
-      "destination": "/eletricista-samir-de-los-canos",
-      "statusCode": 301
-    },
-    {
       "source": "/eletricista-urgente-carrazeda-de-anciaes",
       "destination": "/eletricista-urgente-carrazeda-de-ansiaes",
-      "statusCode": 301
-    },
-    {
-      "source": "/eletricista-vilario-de-conso",
-      "destination": "/eletricista-vilarino-de-conso",
       "statusCode": 301
     },
     {
@@ -2023,11 +1973,6 @@
     {
       "source": "/eletricista-urgente-t%C3%B3",
       "destination": "/eletricista-urgente-tó",
-      "statusCode": 410
-    },
-    {
-      "source": "/eletricista-gallegos-del-ro",
-      "destination": "/eletricista-gallegos-del-ro",
       "statusCode": 410
     },
     {
@@ -2231,11 +2176,6 @@
       "statusCode": 301
     },
     {
-      "source": "/eletricista-urgente-a-gudi%C3%B1a",
-      "destination": "/eletricista-urgente-a-gudina",
-      "statusCode": 301
-    },
-    {
       "source": "/eletricista-urgente-bairro-do-fundo-de-fomento-%C3%A0-habita%C3%A7%C3%A3o",
       "destination": "/eletricista-urgente-bairro-do-fundo-de-fomento-a-habitacao",
       "statusCode": 301
@@ -2311,11 +2251,6 @@
       "statusCode": 301
     },
     {
-      "source": "/eletricista-urgente-o-ri%C3%B3s",
-      "destination": "/eletricista-urgente-o-rios",
-      "statusCode": 301
-    },
-    {
       "source": "/eletricista-urgente-valen%C3%A7a-do-douro",
       "destination": "/eletricista-urgente-valenca-do-douro",
       "statusCode": 301
@@ -2378,11 +2313,6 @@
     {
       "source": "/eletricista-urgente-carvi%C3%A7ais",
       "destination": "/eletricista-urgente-carvicais",
-      "statusCode": 301
-    },
-    {
-      "source": "/eletricista-urgente-ferreruela-de-t%C3%A1bara",
-      "destination": "/eletricista-urgente-ferreruela-de-tabara",
       "statusCode": 301
     },
     {
@@ -2611,11 +2541,6 @@
       "statusCode": 301
     },
     {
-      "source": "/eletricista-urgente-vilardev%C3%B3s",
-      "destination": "/eletricista-urgente-vilardevos",
-      "statusCode": 301
-    },
-    {
       "source": "/eletricista-urgente-s%C3%A3o-pedro-velho",
       "destination": "/eletricista-urgente-sao-pedro-velho",
       "statusCode": 301
@@ -2703,11 +2628,6 @@
     {
       "source": "/eletricista-urgente-quir%C3%A1s",
       "destination": "/eletricista-urgente-quiras",
-      "statusCode": 301
-    },
-    {
-      "source": "/eletricista-urgente-p%C3%ADas",
-      "destination": "/eletricista-urgente-pias",
       "statusCode": 301
     },
     {
@@ -2853,11 +2773,6 @@
     {
       "source": "/eletricista-urgente-castain%C3%A7o",
       "destination": "/eletricista-urgente-castainco",
-      "statusCode": 301
-    },
-    {
-      "source": "/eletricista-urgente-vilari%C3%B1o-de-conso",
-      "destination": "/eletricista-urgente-vilarino-de-conso",
       "statusCode": 301
     },
     {
