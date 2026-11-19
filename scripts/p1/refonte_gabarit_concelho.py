@@ -441,4 +441,9 @@ def main():
 
 
 if __name__ == '__main__':
+    # Retired 2026-11-19: this generator still writes the old model (9h-17h window,
+    # Z1-Z6 travel zones, "garantia 2 anos", "IVA isento art. 53"). The pages it
+    # produced were corrected by hand-checked lots; running it again would bring
+    # the old text back. Source of truth: _governance/20-BUSINESS-FACTS.json.
+    raise SystemExit("%s is retired (legacy pricing/warranty model): see the comment before this line." % __file__)
     main()
