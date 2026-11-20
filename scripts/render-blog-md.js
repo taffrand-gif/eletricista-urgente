@@ -221,6 +221,9 @@ const CONFORMITY_RULES = [
   ['document/certification émis', /\b(?:emit(?:e|imos|ir|ido)[^\n.]{0,50}(?:certificad|relatório|ficha)|fichas? eletrotécnicas?|relatório técnico|certificado em \d|certificação completa|instalações certificadas)\b/i],
   ['statut DGEG interdit', /\b(?:DGEG|registo em curso|aguardando registo|1757\/2026\/DIEN)\b/i],
   ['prix/fourchette non sourcé', /(?:\b(?!(?:70|100)(?:[.,]0+)?\s*€\s*\/\s*h\b)\d+(?:[.,]\d+)?\s*€\s*(?:[-–]\s*\d+(?:[.,]\d+)?\s*€)?\s*\/\s*(?:h|hora)\b|\b\d+(?:[.,]\d+)?\s*€\s*por\s+(?:arranjar|reparar|substituir|diagn[óo]stico|interven[çc][ãa]o|m[ãa]o)|(?:desloca[çc][ãa]o|sa[íi]da)\s*(?!\s*(?:30|50)\s*€)(?:de\s+)?\d+\s*€)/i],
+  // 2026-11-20 : fourchette de prix d'une prestation Norte (travaux, diagnóstico, instalação…) -> « sob orçamento » (décision 2026-11-19).
+  // Les montants tiers (produit, matériel, DIY, dégâts) restent admis : la règle exige un mot de prestation juste avant la fourchette.
+  ['fourchette de prestation', /(?:diagn[óo]stico|instala[çc][ãa]o|instalar|instala|arranjo|arranjar|substituir|substitui[çc][ãa]o|inspe[çc][ãa]o|reapertar|upgrade|rewiring|eletricista|profissional|m[ãa]o de obra|adicionar|refazer|urg[êe]ncia)(?![^\n]{0,40}\b(?:DIY|material|materiais|produto|pilhas?)\b)[^\n€\d]{0,40}\+?\s?(?:€\s?\d{1,3}(?:[.,]\d{3})?\s?[-–]\s?\d{1,3}(?:[.,]\d{3})?|\d{1,3}(?:[.,]\d{3})?\s?[-–]\s?\d{1,3}(?:[.,]\d{3})?\s?€)/i],
   ['ancienneté/volume non vérifié', /\b(?:\d+\+?\s+anos? de experiência|mais de \d+ anos|\d+%\s+(?:problemas?|casos?|clientes?|interven[çc][õo]es?|avarias?)\s+(?:resolvidos?|resolvidas?|satisfeitos?))\b/i],
   ['PT-BR', /\b(?:vazamento|entupiu|disjuntor caiu|pia)\b/i],
   ['service interdit', /^(?:title:.*|##\s+.*)\b(?:pain[ée]is?\s+solares?|instala[çc][ãa]o\s+solar|bomba\s+de\s+calor|carregador(?:es)?\s+(?:de\s+)?ve[íi]culos?\s+el[ée]tricos?|carregador\s+ve|ar\s+condicionado\s+central)\b/im],
