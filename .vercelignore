@@ -62,3 +62,9 @@ blog/*.md
 .DS_Store
 .env
 .env.*
+
+# 2026-11-20 : public/ est une copie ancienne du site, servie à /public/* (122 pages
+# HTML, toutes avec anciens prix, 0 impression GSC). Pas de build ni de
+# publicDir sur ce site : le dossier n'est jamais servi. Les URL ayant un équivalent
+# réel sont redirigées en 301 dans vercel.json ; les autres répondent 404.
+/public/
