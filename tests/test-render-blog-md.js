@@ -51,6 +51,15 @@ try {
   assert.ok(legacyFindings.some((finding) => finding.label.includes('ancienne grille')),
     'renderer gate must reject old zones, travel fees, surcharges and hours');
 
+  // Fourchettes de prestation Norte (décision 2026-11-19 : « sob orçamento ») ; montants tiers (produit, DIY) admis.
+  for (const sample of ['Diagnóstico €60-120, arranjo €100-500', 'Rewiring completo €2.000-8.000', 'Instalação profissional: +€40-80',
+                        'Substituir disjuntor 40-80 €', 'Eletricista instala €30-60']) {
+    assert.ok(auditConformity(sample).some((f) => f.label === 'fourchette de prestation'), `must reject: ${sample}`);
+  }
+  for (const sample of ['Pilhas €3-10', 'Danos em aparelhos (€500-5.000)', 'Com fios DIY: €38-168', 'Instalação: sob orçamento']) {
+    assert.ok(!auditConformity(sample).some((f) => f.label === 'fourchette de prestation'), `must accept: ${sample}`);
+  }
+
   const ldBlocks = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];
   assert.ok(ldBlocks.length >= 3, 'renderer must emit at least three JSON-LD blocks');
   for (const match of ldBlocks) JSON.parse(match[1]);
