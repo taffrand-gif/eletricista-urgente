@@ -96,6 +96,9 @@ EXCLUDE_PATHS = {
 # Stems (sans extension) à exclure en plus des paths ci-dessus
 EXCLUDE_STEMS = {
     "eletricista-urgente-carrazeda-de-anciaes",
+    # Coverage source of truth: Moimenta da Beira is 131.3 km by road and is
+    # noindex/out of sitemap on all four Norte sites; Viseu is out of scope.
+    "eletricista-urgente-moimenta-da-beira",
 }
 
 
@@ -125,7 +128,9 @@ def collect_concelhos():
     data = json.loads((REPO / "data" / "concelhos.json").read_text(encoding="utf-8"))
     return [
         c["slug"] for c in data
-        if c.get("indexable") and c.get("drive_time_status") == "real_tomtom"
+        if c.get("indexable")
+        and c.get("drive_time_status") == "real_tomtom"
+        and c["slug"] != "moimenta-da-beira"
     ]
 
 
@@ -135,7 +140,7 @@ def collect_distritos():
     dist_dir = REPO / "distritos"
     if dist_dir.exists():
         for f in sorted(dist_dir.glob("*.html")):
-            if is_indexable(f):
+            if is_indexable(f) and f.stem != "viseu":
                 out.append(f.stem)
     return out
 
