@@ -1,7 +1,7 @@
 # GATES.md — EU coverage cleanup 2026-11-25
 
 BASE: 0dd88ef1ef2e56a5defb7417220da1d3d59734d7
-HEAD: affd26436f485312d954b1288acd4036a807779a
+HEAD: 4ebd0ab9058b0262834eedc5f3c6440e3c78dbd6
 FILES_SHA256: 898ec8534ef90481e4fd64b43c65d08cf8165919877ec45b5ab28caaecfbf365
 POPULATION: 3 commercial HTML pages currently indexable or without a noindex directive (2 Spain, 1 Viseu)
 BRANCH: cleanup/eu-coverage-cleanup-20261125
