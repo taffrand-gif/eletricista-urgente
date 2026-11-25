@@ -18,7 +18,7 @@ gtag('consent', 'default', {
 });
 </script>
 <!-- /RGPD Consent Mode v2 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZWNCKFYGRK"></script>
+<!-- GA4 gtag.js : chargé seulement après consentement explicite (bandeau RGPD, applyChoice) -->
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
@@ -150,7 +150,7 @@ window.trackWhatsAppClick = function(source) { gtag('event', 'click_whatsapp', {
 (function(){
   var KEY="rgpd-consent-eu-v1";
   var STORAGES=["ad_storage","analytics_storage","ad_user_data","ad_personalization","functionality_storage","personalization_storage"];
-  function applyChoice(v){localStorage.setItem(KEY,v);var p={};for(var i=0;i<STORAGES.length;i++)p[STORAGES[i]]=v;if(window.gtag)window.gtag("consent","update",p);}
+  function applyChoice(v){localStorage.setItem(KEY,v);var p={};for(var i=0;i<STORAGES.length;i++)p[STORAGES[i]]=v;if(window.gtag)window.gtag("consent","update",p);if(v==="granted"&&!window.__ga4Loaded){window.__ga4Loaded=1;var g=document.createElement("script");g.async=true;g.src="https://www.googletagmanager.com/gtag/js?id=G-ZWNCKFYGRK";document.head.appendChild(g);}}
   if(document.getElementById("rgpd-banner-eu"))return;
   var saved=localStorage.getItem(KEY);
   if(saved==="granted"||saved==="denied"){applyChoice(saved);return;}
