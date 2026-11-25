@@ -1,8 +1,8 @@
 # GATES.md — EU coverage cleanup 2026-11-25
 
 BASE: 0dd88ef1ef2e56a5defb7417220da1d3d59734d7
-HEAD: 92c5ab031926861df0435d303fa88aa6188c30bd
-FILES_SHA256: 309fab0fc9b29218355a5394e8904bb0b07fa07613424647c5171d28ff28683e
+HEAD: affd26436f485312d954b1288acd4036a807779a
+FILES_SHA256: 898ec8534ef90481e4fd64b43c65d08cf8165919877ec45b5ab28caaecfbf365
 POPULATION: 3 commercial HTML pages currently indexable or without a noindex directive (2 Spain, 1 Viseu)
 BRANCH: cleanup/eu-coverage-cleanup-20261125
 
@@ -10,7 +10,7 @@ BRANCH: cleanup/eu-coverage-cleanup-20261125
 Neutraliser uniquement les 3 pages EU prouvées hors périmètre, sans toucher à Vila Nova da Rainha ambiguë ni aux pages Chaves/Valpaços.
 
 ## Source active (preuve chemin:ligne — sinon « À REVOIR — SOURCE ACTIVE NON PROUVÉE »)
-Pages HTML statiques servies depuis la racine du dépôt ; source métier `/Users/admin/work/Sites/_governance/20-BUSINESS-FACTS.json:134-173`.
+Pages HTML statiques servies depuis la racine du dptttt ; gnrateur actif `scripts/gen_sitemap.py:225-303` crit `sitemap.xml` (et `public/sitemap.xml` si prsent) ; source mtier
 
 ## Gate
 - Motif exact : pages commerciales EU ciblées avec robots absent ou `index,follow` pour Espagne ou Viseu.
