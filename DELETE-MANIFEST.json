@@ -1,0 +1,29 @@
+{
+  "site": "EU",
+  "reason": "confirmed out-of-coverage or Spain; Vila Nova da Rainha explicitly authorized for deletion",
+  "excluded": [
+    "Chaves",
+    "Valpaos",
+    "CNR PAA reserved pages"
+  ],
+  "paths": [
+    "eletricista-a-mezquita.html",
+    "eletricista-albarellos.html",
+    "eletricista-alcaices.html",
+    "eletricista-argan.html",
+    "eletricista-argana.html",
+    "eletricista-avaria-eletrica-xinzo-de-limia.html",
+    "eletricista-castrelo-do-val.html",
+    "eletricista-certificacao-eletrica-xinzo-de-limia.html",
+    "eletricista-fuga-corrente-xinzo-de-limia.html",
+    "eletricista-iluminacao-exterior-xinzo-de-limia.html",
+    "eletricista-iluminacao-led-xinzo-de-limia.html",
+    "eletricista-quadro-eletrico-xinzo-de-limia.html",
+    "eletricista-tomada-interruptor-xinzo-de-limia.html",
+    "eletricista-urgente-xinzo-de-limia.html",
+    "eletricista-xinzo-de-limia.html",
+    "eletricista-urgente-moimenta-da-beira.html",
+    "distritos/viseu.html"
+  ],
+  "scope_note": "Vila Verde da Raia is Chaves and covered; Vila Nova da Rainha is the Macedo de Cavaleiros locality (~25 km) and covered; both excluded from deletion."
+}
