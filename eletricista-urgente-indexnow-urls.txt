@@ -65,7 +65,6 @@ https://eletricista-urgente.pt/distritos/douro
 https://eletricista-urgente.pt/distritos/guarda
 https://eletricista-urgente.pt/distritos/tras-os-montes
 https://eletricista-urgente.pt/distritos/vila-real
-https://eletricista-urgente.pt/distritos/viseu
 https://eletricista-urgente.pt/eletricista-abacas
 https://eletricista-urgente.pt/eletricista-abambres
 https://eletricista-urgente.pt/eletricista-abreiro
@@ -116,7 +115,6 @@ https://eletricista-urgente.pt/eletricista-antas
 https://eletricista-urgente.pt/eletricista-arcas
 https://eletricista-urgente.pt/eletricista-arcosso
 https://eletricista-urgente.pt/eletricista-ardaos
-https://eletricista-urgente.pt/eletricista-argana
 https://eletricista-urgente.pt/eletricista-argozelo
 https://eletricista-urgente.pt/eletricista-aricera
 https://eletricista-urgente.pt/eletricista-armamar
@@ -1473,7 +1471,6 @@ https://eletricista-urgente.pt/eletricista-urgente-miranda-do-douro
 https://eletricista-urgente.pt/eletricista-urgente-mirandela
 https://eletricista-urgente.pt/eletricista-urgente-mogadouro
 https://eletricista-urgente.pt/eletricista-urgente-mograo
-https://eletricista-urgente.pt/eletricista-urgente-moimenta-da-beira
 https://eletricista-urgente.pt/eletricista-urgente-mondim-da-beira
 https://eletricista-urgente.pt/eletricista-urgente-mondim-de-basto
 https://eletricista-urgente.pt/eletricista-urgente-mondroes
@@ -1698,7 +1695,6 @@ https://eletricista-urgente.pt/eletricista-vila-nova-de-souto-d-el-rei
 https://eletricista-urgente.pt/eletricista-vila-nova
 https://eletricista-urgente.pt/eletricista-vila-pouca-de-aguiar
 https://eletricista-urgente.pt/eletricista-vila-real
-https://eletricista-urgente.pt/eletricista-vila-verde-da-raia
 https://eletricista-urgente.pt/eletricista-vila-verde
 https://eletricista-urgente.pt/eletricista-vila-verdinho
 https://eletricista-urgente.pt/eletricista-vilar-chao

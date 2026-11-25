@@ -52,8 +52,6 @@ blog/*.md
 /client
 /data
 /precos-zonas.json
-/eletricista-urgente-indexnow-urls.txt
-/public/eletricista-urgente-indexnow-urls.txt
 *.py
 *.diff
 *.patch
