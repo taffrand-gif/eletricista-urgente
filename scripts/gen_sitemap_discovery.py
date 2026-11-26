@@ -95,11 +95,7 @@ EXCLUDE_PATHS = {
 
 # Stems (sans extension) à exclure en plus des paths ci-dessus
 EXCLUDE_STEMS = {
-    "eletricista-urgente-carrazeda-de-anciaes",
-    # Coverage source of truth: Moimenta da Beira is 131.3 km by road and is
-    # noindex/out of sitemap on all four Norte sites; Viseu is out of scope.
-    "eletricista-urgente-moimenta-da-beira",
-}
+    "eletricista-urgente-carrazeda-de-anciaes",}
 
 
 def norm_ascii(s: str) -> str:
@@ -130,7 +126,6 @@ def collect_concelhos():
         c["slug"] for c in data
         if c.get("indexable")
         and c.get("drive_time_status") == "real_tomtom"
-        and c["slug"] != "moimenta-da-beira"
     ]
 
 

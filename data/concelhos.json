@@ -593,21 +593,5 @@
  "lat": 41.410287,
  "lon": -7.953353,
  "drive_time_status": "real_tomtom"
- },
- {
- "name": "Moimenta da Beira",
- "slug": "moimenta-da-beira",
- "district": "Viseu",
- "zone": null,
- "grille_km": null,
- "price": {
- "desloc": null,
- "desde": null,
- "h2": null
- },
- "indexable": false,
- "route_km": null,
- "route_min": null,
- "drive_time_status": "a_completar"
  }
 ]
