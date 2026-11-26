@@ -17,4 +17,4 @@ EXCLUDED: interruptor-nao-funciona.html, all locality pages, generators, sitemap
 INVARIANTS: PT-PT; EU phone +351 932 321 892; tel and WhatsApp CTA; central pricing 70 €/h + 30 € day / 100 €/h + 50 € night-weekend-holiday; no new geography or regulated claim
 CHECKS: JSON-LD parse all blocks; exact price/CTA witnesses; forbidden-claim scan; git diff --check; changed paths only
 ROLLBACK: git revert <commit>
-STATUS: pending validation
+STATUS: PARTIEL — PASS_SOURCE; Preview/HTTP/DOM/production non vérifiés tant que la PR reste Draft
