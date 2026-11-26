@@ -36,6 +36,8 @@ Usage :
 import json, sys, os, shutil, argparse, datetime, re
 from pathlib import Path
 
+raise SystemExit("DÉSACTIVÉ (2026-10-10) : ce script réintroduit la grille Z1–Z6 / prix par distance, interdite (_governance/10-SAFETY.md, 20-BUSINESS-FACTS.json). Ne pas exécuter.")
+
 # Grille verrouillée Filipe 14/07 — importable depuis l'outil canonique
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parents[2] / '.tooling'))
