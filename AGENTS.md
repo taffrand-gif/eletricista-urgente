@@ -2,9 +2,9 @@
 
 ## Autorité
 
-Les règles centrales sont dans `../_governance/` : lire `00-AUTHORITY.md`, `10-SAFETY.md`, `20-BUSINESS-FACTS.json`, `30-CONTENT-DOCTRINE.md` et `40-RUNBOOKS.md` avant toute action. Le détail de migration de ce dépôt est dans `NORTE-GOVERNANCE.md`.
+La doctrine unique est `../_governance/` (`~/work/Sites/_governance/`). Lire `00-AUTHORITY.md` (carte des sujets, acteurs, règle d'autonomie) avant toute action, puis le fichier canonique du sujet traité. Ce fichier est une adaptation locale : il ne porte aucun fait métier. En cas d'écart, `_governance` l'emporte.
 
-Les anciennes règles ont été archivées dans `../_governance/ARCHIVE/2026-09-25-legacy-rules/`. Elles sont historiques et ne font plus autorité.
+Les anciennes règles sont archivées dans `../_governance/ARCHIVE/2026-09-25-legacy-rules/` : historiques, non normatives. Les fichiers `MISSION_HERMES_*` et les rapports datés de ce dépôt sont historiques : Hermes, OpenClaw et MiniMax sont retirés de Norte.
 
 ## Périmètre
 
@@ -12,17 +12,15 @@ Les anciennes règles ont été archivées dans `../_governance/ARCHIVE/2026-09-
 - Domaine : `eletricista-urgente.pt`
 - Métier : électricité urgente
 - Langue client : PT-PT
+- Acteurs : Manus, Cue, Claude (rôles dans `00-AUTHORITY.md`)
 
 ## Règles locales
 
-Le statut public actif est : `Eletricista credenciado pela DGEG — Técnico Responsável de Instalações Elétricas, TRIESP n.º 90062. Execução em Baixa Tensão até 41,4 kVA.` Le niveau 4 RTA de 925 heures est une formation en cours, pas une qualification déjà obtenue. Le futur périmètre 30 kV / 250 kVA n’est pas actif.
+- Faits métier (tarifs, horaires, zones, téléphones, services, garanties, assurance, statut réglementaire) : uniquement depuis `../_governance/20-BUSINESS-FACTS.json`, jamais recopiés dans ce dépôt. Un fait absent n'existe pas : le demander à Filipe.
+- Site électricité (`site_scope.EU`) : le statut public est `professional_status.public_wording_pt_pt`, repris mot pour mot ; une formation en cours n'est jamais présentée comme une qualification obtenue ; wallbox uniquement dans les conditions de `site_scope` et `services`. Aucun contenu, numéro, couleur ou équipement du métier plomberie (`10-SAFETY.md`).
+- Ne pas inventer d'avis, de chantiers, de clients, de délais garantis ou de prix. Aucune zone Z1–Z6 et aucun calcul tarifaire par distance.
+- Contexte éditorial local : `SEO_PLAN.md` et `MARKETING.md`, sans dupliquer la doctrine centrale.
 
-Le wallbox est un service possible sous devis dans le périmètre applicable. Ne pas inventer d’avis, de chantiers, de clients, de délais garantis ou de prix.
+## Git, preuve et publication
 
-Appliquer exclusivement le modèle tarifaire central : 70 €/h + 30 € en semaine 09:00–18:00 ; 100 €/h + 50 € la nuit, les week-ends et jours fériés. Aucune zone Z1–Z6 et aucun calcul tarifaire par distance.
-
-Lire `SEO_PLAN.md` et `MARKETING.md` pour le contexte éditorial local. Consigner les actions dans l’historique prévu par le plan, sans dupliquer la doctrine centrale.
-
-## Git et contrôle
-
-Travailler sur une branche identifiée. Ne jamais réécrire l’historique ni forcer un push. Aucun merge ou déploiement sans validation explicite de Filipe. Après modification, contrôler les générateurs, les pages produites et les prix visibles.
+Suivre `../_governance/40-RUNBOOKS.md` : déclaration dans `../_coordination/REGISTRE.md`, un lot = une branche = un worktree en chemin absolu = une PR, ni réécriture d'historique ni force-push, statuts de preuve du done-gate. Merge, production et rollback : GO nommé de Filipe (dépôt + numéro de PR). Après modification, contrôler les générateurs, les pages produites et les prix visibles.
