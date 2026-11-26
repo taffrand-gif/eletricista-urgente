@@ -1,0 +1,480 @@
+{
+  "site": "EU",
+  "base_commit": "a1af0d30e0978f63698b62896308c922c6537711",
+  "branch": "fix/eu-coverage-deep-20261126-v1",
+  "created_at": "2026-11-26T19:55:00Z",
+  "policy": {
+    "country": "PT",
+    "max_road_km": 130,
+    "spain_commercial_promise": false,
+    "moimenta_da_beira_road_km": 131.3,
+    "moimenta_da_beira": "delete confirmed out of coverage",
+    "moimenta_de_vinhais": "preserve; page eletricista-moimenta.html is positive invariant"
+  },
+  "population": {
+    "html_delete_count": 58,
+    "html_delete_paths": [
+      "eletricista-avaria-eletrica-vern.html",
+      "eletricista-cerezal-de-penahorcada.html",
+      "eletricista-certificacao-eletrica-vern.html",
+      "eletricista-espadaedo.html",
+      "eletricista-fariza-de-sayago.html",
+      "eletricista-ferreruela-de-tabara.html",
+      "eletricista-fonfra.html",
+      "eletricista-frende.html",
+      "eletricista-fuga-corrente-vern.html",
+      "eletricista-gallegos-del-ro.html",
+      "eletricista-iluminacao-exterior-vern.html",
+      "eletricista-iluminacao-led-vern.html",
+      "eletricista-la-pena.html",
+      "eletricista-la-vidola.html",
+      "eletricista-loivos-da-ribeira.html",
+      "eletricista-mahde.html",
+      "eletricista-monterrei.html",
+      "eletricista-o-rios.html",
+      "eletricista-ombra.html",
+      "eletricista-pas.html",
+      "eletricista-pedralba-de-la-praderia.html",
+      "eletricista-perena-de-la-ribera.html",
+      "eletricista-quadro-eletrico-vern.html",
+      "eletricista-quiras.html",
+      "eletricista-randn.html",
+      "eletricista-requejo-de-sanabria.html",
+      "eletricista-riofro-de-aliste.html",
+      "eletricista-samir-de-los-canos.html",
+      "eletricista-san-pedro-de-la-silba.html",
+      "eletricista-santa-cruz-do-douro.html",
+      "eletricista-sao-tome-de-covelas.html",
+      "eletricista-tomada-interruptor-vern.html",
+      "eletricista-truchas-trueitas.html",
+      "eletricista-urgente-a-gudina.html",
+      "eletricista-urgente-a-gudiña.html",
+      "eletricista-urgente-ferreruela-de-tabara.html",
+      "eletricista-urgente-ferreruela-de-tábara.html",
+      "eletricista-urgente-o-rios.html",
+      "eletricista-urgente-o-riós.html",
+      "eletricista-urgente-pias.html",
+      "eletricista-urgente-pías.html",
+      "eletricista-urgente-quiras.html",
+      "eletricista-urgente-quirás.html",
+      "eletricista-urgente-vern.html",
+      "eletricista-urgente-vilardevos.html",
+      "eletricista-urgente-vilardevós.html",
+      "eletricista-urgente-vilarino-de-conso.html",
+      "eletricista-urgente-vilariño-de-conso.html",
+      "eletricista-valadares.html",
+      "eletricista-vern.html",
+      "eletricista-vias.html",
+      "eletricista-vilardevos.html",
+      "eletricista-vilarino-de-conso.html",
+      "eletricista-vilvestre.html",
+      "villages/mesao-frio-frende.html",
+      "villages/mesao-frio-loivos-da-ribeira.html",
+      "villages/mesao-frio-sao-tome-de-covelas.html",
+      "villages/mesao-frio-valadares.html"
+    ],
+    "confirmed_spain_or_spanish_locality": [
+      "eletricista-avaria-eletrica-vern.html",
+      "eletricista-cerezal-de-penahorcada.html",
+      "eletricista-certificacao-eletrica-vern.html",
+      "eletricista-espadaedo.html",
+      "eletricista-fariza-de-sayago.html",
+      "eletricista-ferreruela-de-tabara.html",
+      "eletricista-fonfra.html",
+      "eletricista-fuga-corrente-vern.html",
+      "eletricista-gallegos-del-ro.html",
+      "eletricista-iluminacao-exterior-vern.html",
+      "eletricista-iluminacao-led-vern.html",
+      "eletricista-la-pena.html",
+      "eletricista-la-vidola.html",
+      "eletricista-mahde.html",
+      "eletricista-monterrei.html",
+      "eletricista-o-rios.html",
+      "eletricista-ombra.html",
+      "eletricista-pas.html",
+      "eletricista-pedralba-de-la-praderia.html",
+      "eletricista-perena-de-la-ribera.html",
+      "eletricista-quadro-eletrico-vern.html",
+      "eletricista-quiras.html",
+      "eletricista-randn.html",
+      "eletricista-requejo-de-sanabria.html",
+      "eletricista-riofro-de-aliste.html",
+      "eletricista-samir-de-los-canos.html",
+      "eletricista-san-pedro-de-la-silba.html",
+      "eletricista-santa-cruz-do-douro.html",
+      "eletricista-tomada-interruptor-vern.html",
+      "eletricista-truchas-trueitas.html",
+      "eletricista-urgente-a-gudina.html",
+      "eletricista-urgente-a-gudiña.html",
+      "eletricista-urgente-ferreruela-de-tabara.html",
+      "eletricista-urgente-ferreruela-de-tábara.html",
+      "eletricista-urgente-o-rios.html",
+      "eletricista-urgente-o-riós.html",
+      "eletricista-urgente-pias.html",
+      "eletricista-urgente-pías.html",
+      "eletricista-urgente-quiras.html",
+      "eletricista-urgente-quirás.html",
+      "eletricista-urgente-vern.html",
+      "eletricista-urgente-vilardevos.html",
+      "eletricista-urgente-vilardevós.html",
+      "eletricista-urgente-vilarino-de-conso.html",
+      "eletricista-urgente-vilariño-de-conso.html",
+      "eletricista-vern.html",
+      "eletricista-vias.html",
+      "eletricista-vilardevos.html",
+      "eletricista-vilarino-de-conso.html",
+      "eletricista-vilvestre.html"
+    ],
+    "confirmed_portugal_out_of_scope": [
+      "eletricista-frende.html",
+      "eletricista-loivos-da-ribeira.html",
+      "eletricista-sao-tome-de-covelas.html",
+      "eletricista-valadares.html",
+      "villages/mesao-frio-frende.html",
+      "villages/mesao-frio-loivos-da-ribeira.html",
+      "villages/mesao-frio-sao-tome-de-covelas.html",
+      "villages/mesao-frio-valadares.html"
+    ],
+    "technical_noindex_excluded": [
+      "design-preview-eu.html",
+      "guia-canalizacao.html",
+      "public/404.html",
+      "public/blog/certificacao-eletrica-preco.html"
+    ]
+  },
+  "surface_cleanup": {
+    "remove_matching_internal_links": true,
+    "remove_matching_schema_faq_llm_mentions": true,
+    "remove_matching_sitemap_indexnow_entries": true,
+    "remove_stale_vercel_noindex_rules_for_deleted_pages": true,
+    "remove_redirects_to_deleted_pages": true,
+    "no_new_redirects": true
+  },
+  "positive_invariants": [
+    "eletricista-moimenta.html",
+    "eletricista-chaves.html",
+    "eletricista-vila-verde-da-raia.html",
+    "eletricista-vila-nova-da-rainha.html"
+  ],
+  "negative_invariants": [
+    "all manifest HTML paths absent from git and filesystem after change",
+    "no deleted path in HTML/Schema/FAQ/LLM/sitemap/IndexNow/Vercel surfaces",
+    "no merge or Production deployment"
+  ],
+  "applied": {
+    "html_deleted": 58,
+    "vercel_noindex_rules_removed": 107,
+    "redirects_removed": 14,
+    "deleted_stems": [
+      "eletricista-avaria-eletrica-vern",
+      "eletricista-cerezal-de-penahorcada",
+      "eletricista-certificacao-eletrica-vern",
+      "eletricista-espadaedo",
+      "eletricista-fariza-de-sayago",
+      "eletricista-ferreruela-de-tabara",
+      "eletricista-fonfra",
+      "eletricista-frende",
+      "eletricista-fuga-corrente-vern",
+      "eletricista-gallegos-del-ro",
+      "eletricista-iluminacao-exterior-vern",
+      "eletricista-iluminacao-led-vern",
+      "eletricista-la-pena",
+      "eletricista-la-vidola",
+      "eletricista-loivos-da-ribeira",
+      "eletricista-mahde",
+      "eletricista-monterrei",
+      "eletricista-o-rios",
+      "eletricista-ombra",
+      "eletricista-pas",
+      "eletricista-pedralba-de-la-praderia",
+      "eletricista-perena-de-la-ribera",
+      "eletricista-quadro-eletrico-vern",
+      "eletricista-quiras",
+      "eletricista-randn",
+      "eletricista-requejo-de-sanabria",
+      "eletricista-riofro-de-aliste",
+      "eletricista-samir-de-los-canos",
+      "eletricista-san-pedro-de-la-silba",
+      "eletricista-santa-cruz-do-douro",
+      "eletricista-sao-tome-de-covelas",
+      "eletricista-tomada-interruptor-vern",
+      "eletricista-truchas-trueitas",
+      "eletricista-urgente-a-gudina",
+      "eletricista-urgente-a-gudiña",
+      "eletricista-urgente-ferreruela-de-tabara",
+      "eletricista-urgente-ferreruela-de-tábara",
+      "eletricista-urgente-o-rios",
+      "eletricista-urgente-o-riós",
+      "eletricista-urgente-pias",
+      "eletricista-urgente-pías",
+      "eletricista-urgente-quiras",
+      "eletricista-urgente-quirás",
+      "eletricista-urgente-vern",
+      "eletricista-urgente-vilardevos",
+      "eletricista-urgente-vilardevós",
+      "eletricista-urgente-vilarino-de-conso",
+      "eletricista-urgente-vilariño-de-conso",
+      "eletricista-valadares",
+      "eletricista-vern",
+      "eletricista-vias",
+      "eletricista-vilardevos",
+      "eletricista-vilarino-de-conso",
+      "eletricista-vilvestre",
+      "mesao-frio-frende",
+      "mesao-frio-loivos-da-ribeira",
+      "mesao-frio-sao-tome-de-covelas",
+      "mesao-frio-valadares"
+    ]
+  },
+  "stale_vercel_noindex_sources_removed": [
+    "/eletricista-viana-do-bolo",
+    "/eletricista-urgente-viana-do-bolo",
+    "/eletricista-vitigudino",
+    "/eletricista-urgente-vitigudino",
+    "/eletricista-puebla-de-sanabria",
+    "/eletricista-urgente-puebla-de-sanabria",
+    "/eletricista-urgente-sanchón-de-la-ribera",
+    "/eletricista-justel",
+    "/eletricista-urgente-la-peña",
+    "/eletricista-san-vicente-de-la-cabeza",
+    "/eletricista-galende",
+    "/eletricista-asturianos",
+    "/eletricista-lumbrales",
+    "/eletricista-urgente-lubián",
+    "/eletricista-muelas-de-los-caballeros",
+    "/eletricista-trabazos",
+    "/eletricista-villadepera",
+    "/eletricista-urgente-la-vídola",
+    "/eletricista-sobradillo",
+    "/eletricista-cualedro",
+    "/eletricista-videmala",
+    "/eletricista-urgente-riofrío-de-aliste",
+    "/eletricista-sardon-de-los-frailes",
+    "/eletricista-urgente-viñas",
+    "/eletricista-masueco",
+    "/eletricista-almeida-de-sayago",
+    "/eletricista-manzanal-del-barco",
+    "/eletricista-urgente-verín",
+    "/eletricista-vilvestre",
+    "/eletricista-almaraz-de-duero",
+    "/eletricista-fermoselle",
+    "/eletricista-san-vitero",
+    "/eletricista-barruecopardo",
+    "/eletricista-laza",
+    "/eletricista-luelmo",
+    "/eletricista-trefacio",
+    "/eletricista-urgente-pereña-de-la-ribera",
+    "/eletricista-aldeadavila-de-la-ribera",
+    "/eletricista-muga-de-sayago",
+    "/eletricista-santa-eufemia-del-barco",
+    "/eletricista-urgente-alcañices",
+    "/eletricista-palacios-de-sanabria",
+    "/eletricista-manzanal-de-arriba",
+    "/eletricista-villar-del-buey",
+    "/eletricista-urgente-mahíde",
+    "/eletricista-mombuey",
+    "/eletricista-villar-de-samaniego",
+    "/eletricista-rionegro-del-puente",
+    "/eletricista-urgente-aldeadávila-de-la-ribera",
+    "/eletricista-urgente-gallegos-del-río",
+    "/eletricista-salce",
+    "/eletricista-losacio",
+    "/eletricista-pino-del-oro",
+    "/eletricista-robleda",
+    "/eletricista-roelos-de-sayago",
+    "/eletricista-urgente-sardón-de-los-frailes",
+    "/eletricista-monleras",
+    "/eletricista-villasbuenas",
+    "/eletricista-villarmuerto",
+    "/eletricista-olmillos-de-castro",
+    "/eletricista-losacino",
+    "/eletricista-peque",
+    "/eletricista-villaseco-de-los-reyes",
+    "/eletricista-urgente-argañín",
+    "/eletricista-sanchon-de-la-ribera",
+    "/eletricista-hinojosa-de-duero",
+    "/eletricista-manzanal-de-los-infantes",
+    "/eletricista-figueruela-de-arriba",
+    "/eletricista-fresno-de-sayago",
+    "/eletricista-trasmiras",
+    "/eletricista-puertas",
+    "/eletricista-urgente-samir-de-los-caños",
+    "/eletricista-moral-de-sayago",
+    "/eletricista-trabanca",
+    "/eletricista-urgente-oímbra",
+    "/eletricista-rosinos-de-la-requejada",
+    "/eletricista-carbellino",
+    "/eletricista-torregamones",
+    "/eletricista-saucelle",
+    "/eletricista-palacios-del-pan",
+    "/eletricista-villaseco-del-pan",
+    "/eletricista-urgente-fonfría",
+    "/eletricista-carbajales-de-alba",
+    "/eletricista-rabanales",
+    "/eletricista-muelas-del-pan",
+    "/eletricista-puerto-seguro",
+    "/eletricista-villalcampo",
+    "/eletricista-el-milano",
+    "/eletricista-villarino-de-los-aires",
+    "/eletricista-urgente-pedralba-de-la-pradería",
+    "/eletricista-villardiegua-de-la-ribera",
+    "/eletricista-vegalatrave",
+    "/eletricista-san-justo",
+    "/eletricista-hermisende",
+    "/eletricista-urgente-rábano-de-aliste",
+    "/eletricista-saldeana",
+    "/eletricista-rabano-de-aliste",
+    "/eletricista-gamones",
+    "/eletricista-malpartida",
+    "/eletricista-la-fregeneda",
+    "/eletricista-bermillo-de-sayago",
+    "/eletricista-ahigal-de-villarino",
+    "/eletricista-lubian",
+    "/eletricista-cobreros",
+    "/eletricista-urgente-cerezal-de-peñahorcada",
+    "/eletricista-ferreras-de-arriba",
+    "/eletricista-villardeciervos"
+  ],
+  "redirects_removed_detail": [
+    {
+      "source": "/eletricista-carregador-veiculo-eletrico-xinzo-de-limia",
+      "destination": "/"
+    },
+    {
+      "source": "/eletricista-a-gudia",
+      "destination": "/eletricista-urgente-a-gudina"
+    },
+    {
+      "source": "/eletricista-cerezal-de-peahorcada",
+      "destination": "/eletricista-cerezal-de-penahorcada"
+    },
+    {
+      "source": "/eletricista-espadaedo",
+      "destination": "/eletricista-espadanedo"
+    },
+    {
+      "source": "/eletricista-la-pea",
+      "destination": "/eletricista-la-pena"
+    },
+    {
+      "source": "/eletricista-la-vdola",
+      "destination": "/eletricista-la-vidola"
+    },
+    {
+      "source": "/eletricista-pedralba-de-la-pradera",
+      "destination": "/eletricista-pedralba-de-la-praderia"
+    },
+    {
+      "source": "/eletricista-perea-de-la-ribera",
+      "destination": "/eletricista-perena-de-la-ribera"
+    },
+    {
+      "source": "/eletricista-samir-de-los-caos",
+      "destination": "/eletricista-samir-de-los-canos"
+    },
+    {
+      "source": "/eletricista-vilario-de-conso",
+      "destination": "/eletricista-vilarino-de-conso"
+    },
+    {
+      "source": "/eletricista-gallegos-del-ro",
+      "destination": "/eletricista-gallegos-del-ro"
+    },
+    {
+      "source": "/eletricista-urgente-a-gudi%C3%B1a",
+      "destination": "/eletricista-urgente-a-gudina"
+    },
+    {
+      "source": "/eletricista-urgente-o-ri%C3%B3s",
+      "destination": "/eletricista-urgente-o-rios"
+    },
+    {
+      "source": "/eletricista-urgente-ferreruela-de-t%C3%A1bara",
+      "destination": "/eletricista-urgente-ferreruela-de-tabara"
+    },
+    {
+      "source": "/eletricista-urgente-vilardev%C3%B3s",
+      "destination": "/eletricista-urgente-vilardevos"
+    },
+    {
+      "source": "/eletricista-urgente-quir%C3%A1s",
+      "destination": "/eletricista-urgente-quiras"
+    },
+    {
+      "source": "/eletricista-urgente-p%C3%ADas",
+      "destination": "/eletricista-urgente-pias"
+    },
+    {
+      "source": "/eletricista-urgente-vilari%C3%B1o-de-conso",
+      "destination": "/eletricista-urgente-vilarino-de-conso"
+    }
+  ],
+  "validation_precheck": {
+    "active_deleted_stem_residuals": [
+      {
+        "file": "eletricista-passo.html",
+        "stems": [
+          "eletricista-pas"
+        ]
+      },
+      {
+        "file": "eletricista-passos.html",
+        "stems": [
+          "eletricista-pas"
+        ]
+      },
+      {
+        "file": "vercel.json",
+        "stems": [
+          "eletricista-samir-de-los-canos",
+          "eletricista-gallegos-del-ro",
+          "eletricista-pedralba-de-la-praderia",
+          "eletricista-urgente-vilardevos",
+          "eletricista-perena-de-la-ribera",
+          "eletricista-vilarino-de-conso",
+          "eletricista-urgente-pias",
+          "eletricista-urgente-a-gudina",
+          "eletricista-urgente-o-rios",
+          "eletricista-espadaedo",
+          "eletricista-cerezal-de-penahorcada",
+          "eletricista-urgente-quiras",
+          "eletricista-la-vidola",
+          "eletricista-urgente-vilarino-de-conso"
+        ]
+      },
+      {
+        "file": "eletricista-pena.html",
+        "stems": [
+          "eletricista-quiras"
+        ]
+      },
+      {
+        "file": "eletricista-vide-entre-vinhas.html",
+        "stems": [
+          "eletricista-loivos-da-ribeira"
+        ]
+      },
+      {
+        "file": "eletricista-meixide.html",
+        "stems": [
+          "eletricista-quiras"
+        ]
+      },
+      {
+        "file": "eletricista-codesseiro.html",
+        "stems": [
+          "eletricista-loivos-da-ribeira"
+        ]
+      }
+    ],
+    "active_moimenta_tavira_residual_files": [
+      "GATES.coverage-deep-20261126.md",
+      "DELETE-MANIFEST.json",
+      "GATES.md",
+      "indice-a-z.html",
+      "scripts/fix_zones_tomtom.py"
+    ],
+    "vercel_manifest_stem_residuals_removed": 0
+  },
+  "status": "validated_source_precommit"
+}

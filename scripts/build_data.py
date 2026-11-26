@@ -46,8 +46,6 @@ CONCELHOS = [
     ("Sernancelhe",          "Viseu",     6, 114, True,  None),
     ("Ribeira de Pena",      "Vila Real", 6, 120, True,  None),
     ("Mondim de Basto",      "Vila Real", 6, 129, True,  None),
-    # Moimenta da Beira: TomTom "Moimenta" (village,78.8km) probable AUTRE Moimenta -> HELD
-    ("Moimenta da Beira",    "Viseu",     6, None, False, None),
 ]
 
 def strip_accents(s):

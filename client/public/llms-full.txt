@@ -39,7 +39,7 @@ Norte Reparos est un service d'électricité au domicílio actif depuis 2014 dan
   - **Z3** (Bragança, Vinhais, Vimioso, Torre de Moncorvo, Mogadouro, Freixo de Espada à Cinta) = 35 €
   - **Z4** (Miranda do Douro, Vila Nova de Foz Côa, São João da Pesqueira, Murça, Valpaços) = 45 €
   - **Z5** (Vila Real, Alijó, Sabrosa, Tabuaço, Armamar, Peso da Régua, Lamego, Santa Marta de Penaguião, Mesão Frio) = 55 €
-  - **Z6** (Chaves, Vila Pouca de Aguiar, Boticas, Montalegre, Ribeira de Pena, Mondim de Basto, Moimenta da Beira, Sernancelhe, Penedono) = 65 €
+  - **Z6** (Chaves, Vila Pouca de Aguiar, Boticas, Montalegre, Ribeira de Pena, Mondim de Basto, Sernancelhe, Penedono) = 65 €
 - **Orçamento por escrito** avant toute intervention, sem surpresas
 - **Pas de frais cachés**
 

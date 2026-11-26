@@ -20,7 +20,6 @@ Préséance (tranchée Claude 2026-07-16, mission P0bis Wave-2) :
   - price.desde et price.h2 (1ʳᵉ heure / 2h) restent INTACTS (PR #140 source-of-truth)
   - route_km, lat, lon, route_min, hub, indexable restent INTACTS
 
-Cas spécial Moimenta da Beira :
   - route_km = null (SPEC §2 le confirme) → zone = null, price.desloc = null explicite
   - comment JSON impossible (strict) — champ null exprime l'absence
 
