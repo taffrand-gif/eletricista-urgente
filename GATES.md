@@ -17,10 +17,9 @@ SOURCE: _governance/20-BUSINESS-FACTS.json ; index.html ; sitemaps/routes du com
 PREUVES: manifest exact, scan des fichiers présents, JSON-LD parseable, canonical, CTA, sitemap/XML, git diff --check, régénération contrôlée.
 STATUT: PARTIEL — intégration non rejouée ; aucun merge, Ready ou Production.
 
-## STOP générateur EU — 2026-11-27
-- Commande : `python3 scripts/build_sitemap_full.py https://eletricista-urgente.pt`
-- Résultat source : 1 896 HTML racine + 33 concelhos + 5 distritos = 1 934 URLs.
-- Sitemap curaté de base : 903 URLs.
-- Comparaison mécanique : 1 874 ajouts, 843 retraits ; exemple d’ajout non arbitré : `/blog` et `/design-preview-eu` ; les retraits sont principalement les URLs blog curatées de base.
-- Décision : sortie brute restaurée et non commitée ; aucun sitemap ne doit être remplacé sans arbitrage de la population et contrôle des routes.
-- Statut : BLOCKED sur régénération EU ; intégration SEO/GEO/AEO reste PARTIELLE ; merge/Production interdits dans ce lot.
+## Résolution générateur EU — 2026-11-27
+- Cause : `build_sitemap_full.py` et `gen_sitemap.py` découvraient tous les HTML et divergeaient de `gen_sitemap_discovery.py`.
+- Correctif : les deux anciens points d’entrée délèguent désormais à `gen_sitemap_discovery.py`, source unique de population.
+- Preuve : les deux commandes régénèrent 903 URLs ; URL et priorité identiques au sitemap curaté ; seules les dates `lastmod` Git évoluent.
+- Exclusions contrôlées : `design-preview-eu`, Moimenta da Beira, Requejo, Tavira, Espagne absents.
+- Statut : PASS_SOURCE/PASS_SITEMAP pour la régénération EU ; typecheck, build complet, HTTP, DOM, Preview et Production restent NON VÉRIFIÉS.
