@@ -67,8 +67,17 @@ La homepage est retenue parce qu’elle est la page canonique commerciale de l�
 - Production : inchangée.
 - Merge/Ready : interdits sans GO explicite nommé de Filipe.
 
+## Preuves après correction du témoin
+
+- Commit : `b1331914f` ; diff limité à `index.html` ; `EU_SOURCE_GATE=OK`, `EU_DIFF_SCOPE=OK`, `git diff --check` OK.
+- Corrections : modèle `Fluke T6-1000`, résolution `43 200 px`, promesse de précision, couverture locale non sourcée et promesse « uma só fatura / um só responsável » retirés ; instruments Fluke/FLIR E96 conservés avec usage prudent.
+- `PASS_HTTP` : Preview publique `https://eletricista-urgente-8g19uao7p-filipes-projects-4b992c3d.vercel.app/` accessible le 2026-11-27 ; title, H1, CTA, tarifs, DGEG/TR​​IESP et contenu commercial renvoyés.
+- `PASS_DOM` : contrôle indépendant navigateur sur le Preview `READY` ; H1, CTA téléphone/WhatsApp, tarif, DGEG/TR​​IESP `90062`, `41,4 kVA`, équipement autorisé et bandeau RGPD visibles ; claims retirés absents.
+- `PASS_PREVIEW` : déploiement Vercel `dpl_4Erk9jaT4SXDigA8VDEQirvbTieS` = `READY`, commit `b1331914f`, URL contrôlée le 2026-11-27.
+- Production : `NON VÉRIFIÉE` ; aucun merge, Ready ou déploiement Production.
+
 ## Statut final attendu
 
 `PARTIEL / PASS_SOURCE` au minimum ; `PASS_BUILD` si les contrôles locaux passent ; Preview/DOM/Production listés séparément et jamais déduits d’un contrôle source.
 
-FINI = [commande][population][commit][source][niveau][production][exceptions]
+FINI = [EU_SOURCE_GATE=OK + EU_DIFF_SCOPE=OK + HTTP + DOM navigateur][index.html][b1331914f][BUSINESS-FACTS + doctrine][PARTIEL][production inchangée][exceptions: aucune]
