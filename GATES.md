@@ -23,3 +23,4 @@ STATUT: PARTIEL — intégration non rejouée ; aucun merge, Ready ou Production
 - Preuve : les trois commandes régénèrent 903 URLs ; URL et priorité identiques au sitemap curaté ; seules les dates `lastmod` Git évoluent.
 - Exclusions contrôlées : `design-preview-eu`, Moimenta da Beira, Requejo, Tavira, Espagne absents.
 - Statut : PASS_SOURCE/PASS_SITEMAP pour la régénération EU ; typecheck, build complet, HTTP, DOM, Preview et Production restent NON VÉRIFIÉS.
+- `python3 -m py_compile` et `git diff --check`: PASS ; worktree propre après les trois régénérations.
