@@ -1,83 +1,14 @@
 #!/usr/bin/env python3
-"""Generate the sitemap from root HTML pages served by this static site.
+"""Compatibility entry point for the controlled EU sitemap generator.
 
-EU is deployed from the repository root (``vercel.json`` has
-``outputDirectory: "."``).  Discovering only curated concelhos left most
-served pages out of the sitemap, so the root HTML inventory is the source of
-truth, matching the working generator used by canalizador-urgente.
-
-URLs are extensionless because Vercel ``cleanUrls`` is enabled.  ``lastmod``
-is the latest Git author date for each page, never the build date.
+The old implementation discovered every root HTML file and could reintroduce
+technical, preview or doorway surfaces. Keep this command available for old
+runbooks, but route it through ``build_sitemap_full.py`` so every entry point
+uses the same curated discovery population and honest Git ``lastmod`` values.
 """
 from __future__ import annotations
 
-import subprocess
-import re
-from datetime import date
-from pathlib import Path
-from xml.sax.saxutils import escape
-
-ROOT = Path(__file__).resolve().parents[1]
-DOMAIN = "eletricista-urgente.pt"
-
-
-def page_slugs() -> list[Path]:
-    """Return indexable root HTML pages in stable order, with the homepage first."""
-    pages = []
-    for path in ROOT.glob("*.html"):
-        head = path.read_text(encoding="utf-8", errors="ignore")[:12000].lower()
-        if re.search(r'<meta\s+name=["\']robots["\'][^>]+noindex', head):
-            continue
-        pages.append(path)
-    return sorted(pages, key=lambda path: (path.name != "index.html", path.name))
-
-
-def git_lastmod(page: Path) -> str:
-    """Return the committed author date for a page."""
-    relative = page.relative_to(ROOT).as_posix()
-    result = subprocess.run(
-        ["git", "log", "-1", "--format=%aI", "--", relative],
-        cwd=ROOT,
-        capture_output=True,
-        text=True,
-        check=False,
-        timeout=10,
-    )
-    value = result.stdout.strip()
-    if result.returncode != 0 or not value:
-        detail = result.stderr.strip() or "no commit found"
-        raise RuntimeError(f"cannot determine Git lastmod for {relative}: {detail}")
-    try:
-        date.fromisoformat(value[:10])
-    except ValueError as exc:
-        raise RuntimeError(f"invalid Git author date for {relative}: {value}") from exc
-    return value[:10]
-
-
-def build_xml(pages: list[Path]) -> str:
-    lines = [
-        '<?xml version="1.0" encoding="UTF-8"?>',
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-    ]
-    for page in pages:
-        slug = "" if page.stem == "index" else page.stem
-        loc = f"https://{DOMAIN}/{slug}"
-        priority = "1.0" if page.name == "index.html" else "0.7"
-        lines.append(
-            f"<url><loc>{escape(loc)}</loc><lastmod>{git_lastmod(page)}</lastmod>"
-            f"<priority>{priority}</priority></url>"
-        )
-    lines.append("</urlset>")
-    return "\n".join(lines) + "\n"
-
-
-def main() -> int:
-    pages = page_slugs()
-    output = ROOT / "sitemap.xml"
-    output.write_text(build_xml(pages), encoding="utf-8")
-    print(f"sitemap.xml written: {len(pages)} root URLs")
-    print(output)
-    return 0
+from build_sitemap_full import main
 
 
 if __name__ == "__main__":
