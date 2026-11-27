@@ -25,3 +25,11 @@ STATUT: PARTIEL — intégration non rejouée ; aucun merge, Ready ou Production
 - Statut : PASS_SOURCE/PASS_SITEMAP pour la régénération EU ; typecheck/build npm : N/A, aucun `package.json` ; HTTP, DOM, Preview et Production restent NON VÉRIFIÉS.
 - `python3 -m py_compile` et `git diff --check`: PASS ; worktree propre après les trois régénérations.
 - `python3 scripts/gen_sitemap.py https://eletricista-urgente.pt`: PASS — `sitemap.xml` et `public/sitemap.xml` valides, 903 URLs ; worktree propre.
+
+## Preuves Preview  2026-11-27
+- Preview READY : `https://eletricista-urgente-r9zuabmu3-filipes-projects-4b992c3d.vercel.app/`.
+- DOM/HTTP contrVercelllll s : racine, Chaves et Moimenta de Vinhais rpondent.
+- Non-exposition contrlllle : Moimenta da Beira et les exclusions Espagne, Tavira, Requejo et `design-preview-eu` ne sont pas exposes.
+- Gnrateurs sitemap harmoniss ; population contrlllle : 903 URLs ; domaine explicite utilis dans les sitemaps.
+- Les signaux DGEG/TRIESP restent limits  ENR/EU selon la source mtier.
+- Statut :  Preview contrPartielllll e, pas de merge ni Production.
