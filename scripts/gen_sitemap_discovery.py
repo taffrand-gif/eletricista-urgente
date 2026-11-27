@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Génère un sitemap.xml pour eletricista-urgente.pt — DISCOVERY FIX.
+"""Construit la population sitemap curatée pour eletricista-urgente.pt.
 
 INCLUT (served 200, no noindex, qualité money/service) :
 - home + pages pilier/info élec (precos, sobre, FAQ, etc.)
@@ -19,18 +19,15 @@ EXCLUT :
 - politique cookies/privacidade, termos-condicoes (faible valeur SEO)
 
 Format URL : extensionless (servi sans .html).
-Site de référence : https://eletricista-urgente.pt
+Le writer unique est ``scripts/build_sitemap_full.py`` : ce module ne doit
+jamais écrire un sitemap avec la date du jour.
 """
 import json
-import os
 import re
 import unicodedata
-import datetime
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-BASE = "https://eletricista-urgente.pt"
-TODAY = datetime.date.today().isoformat()
 
 NOINDEX_RE = re.compile(r'<meta[^>]*robots[^>]*noindex', re.IGNORECASE)
 
@@ -271,63 +268,11 @@ def build_sitemap():
     return sorted(by_path.items(), key=sort_key)
 
 
-def write_sitemap(paths_with_priority):
-    """Écrit le fichier sitemap.xml au format extensionless.
-
-    Écrit dans les DEUX emplacements (root + public/) : sur Vercel la racine
-    est servie par défaut, public/ était historiquement mirroré ; on couvre
-    les deux sans dépendre d'un curl prod inaccessible depuis ce worker.
-    """
-    lines = [
-        '<?xml version="1.0" encoding="UTF-8"?>',
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-    ]
-    for path, pr in paths_with_priority:
-        loc = f"{BASE}{path}"
-        lines.append(f"<url><loc>{loc}</loc><lastmod>{TODAY}</lastmod><priority>{pr}</priority></url>")
-    lines.append("</urlset>")
-    out = "\n".join(lines) + "\n"
-
-    targets = [REPO / "sitemap.xml"]
-    public_dir = REPO / "public"
-    if public_dir.exists():
-        targets.append(public_dir / "sitemap.xml")
-
-    for t in targets:
-        t.write_text(out, encoding="utf-8")
-    return targets, len(paths_with_priority)
-
-
 def main():
-    items = build_sitemap()
-    targets, count = write_sitemap(items)
-    out_path = targets[0]
+    """Compatibility entry point; the controlled writer owns file output."""
+    from build_sitemap_full import main as build_full_main
 
-    # Stats
-    by_priority = {}
-    for path, pr in items:
-        by_priority.setdefault(pr, []).append(path)
-    print(f"sitemap.xml écrit: {count} URLs ({', '.join(str(t) for t in targets)})")
-    for pr in sorted(by_priority.keys(), key=float, reverse=True):
-        print(f"  priority={pr}: {len(by_priority[pr])} URLs")
-    # Échantillon par catégorie
-    pilier_count = sum(1 for p, _ in items if p in PILIER_ELEC)
-    concelhos_count = sum(1 for p, _ in items if p.startswith("/concelhos/"))
-    distritos_count = sum(1 for p, _ in items if p.startswith("/distritos/"))
-    blog_count = sum(1 for p, _ in items if p.startswith("/blog/"))
-    urgente_count = sum(1 for p, _ in items if p.startswith("/eletricista-urgente-"))
-    service_count = sum(
-        1 for p, _ in items
-        if any(p.startswith("/" + s) for s in SERVICE_PREFIXES)
-    )
-    print()
-    print(f"Détail par type :")
-    print(f"  Pilier/info:  {pilier_count}")
-    print(f"  Concelhos:    {concelhos_count}")
-    print(f"  Distritos:    {distritos_count}")
-    print(f"  Blog:         {blog_count}")
-    print(f"  Urgente:      {urgente_count}")
-    print(f"  Service × ville: {service_count}")
+    return build_full_main()
 
 
 if __name__ == "__main__":

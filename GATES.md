@@ -19,7 +19,7 @@ STATUT: PARTIEL — intégration non rejouée ; aucun merge, Ready ou Production
 
 ## Résolution générateur EU — 2026-11-27
 - Cause : `build_sitemap_full.py` et `gen_sitemap.py` découvraient tous les HTML et divergeaient de `gen_sitemap_discovery.py`.
-- Correctif : les deux anciens points d’entrée délèguent désormais à `gen_sitemap_discovery.py`, source unique de population.
-- Preuve : les deux commandes régénèrent 903 URLs ; URL et priorité identiques au sitemap curaté ; seules les dates `lastmod` Git évoluent.
+- Correctif : les trois points d’entrée utilisent désormais `gen_sitemap_discovery.py` comme source unique de population et `build_sitemap_full.py` comme writer unique.
+- Preuve : les trois commandes régénèrent 903 URLs ; URL et priorité identiques au sitemap curaté ; seules les dates `lastmod` Git évoluent.
 - Exclusions contrôlées : `design-preview-eu`, Moimenta da Beira, Requejo, Tavira, Espagne absents.
 - Statut : PASS_SOURCE/PASS_SITEMAP pour la régénération EU ; typecheck, build complet, HTTP, DOM, Preview et Production restent NON VÉRIFIÉS.
