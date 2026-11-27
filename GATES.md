@@ -22,5 +22,6 @@ STATUT: PARTIEL — intégration non rejouée ; aucun merge, Ready ou Production
 - Correctif : les trois points d’entrée utilisent désormais `gen_sitemap_discovery.py` comme source unique de population et `build_sitemap_full.py` comme writer unique.
 - Preuve : les trois commandes régénèrent 903 URLs ; URL et priorité identiques au sitemap curaté ; seules les dates `lastmod` Git évoluent.
 - Exclusions contrôlées : `design-preview-eu`, Moimenta da Beira, Requejo, Tavira, Espagne absents.
-- Statut : PASS_SOURCE/PASS_SITEMAP pour la régénération EU ; typecheck, build complet, HTTP, DOM, Preview et Production restent NON VÉRIFIÉS.
+- Statut : PASS_SOURCE/PASS_SITEMAP pour la régénération EU ; typecheck/build npm : N/A, aucun `package.json` ; HTTP, DOM, Preview et Production restent NON VÉRIFIÉS.
 - `python3 -m py_compile` et `git diff --check`: PASS ; worktree propre après les trois régénérations.
+- `python3 scripts/gen_sitemap.py https://eletricista-urgente.pt`: PASS — `sitemap.xml` et `public/sitemap.xml` valides, 903 URLs ; worktree propre.
